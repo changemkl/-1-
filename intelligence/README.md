@@ -1,3 +1,21 @@
+# 当前展示版：公开信息只读页面
+
+当前无需 Cloudflare 账号或云数据库。腾讯表格只提供客户名称及关联编号；采集内容单独保存在 public/profile-data.json，与名单分开发布。网页直接读取该文件，卡片展示近期动态及来源，展开可查看摘录和采集时间。不包含客户经理编辑、审核和跟进操作。
+
+自动采集在 GitHub Actions 的 Collect customer intelligence 工作流执行，每小时第 47 分钟调度（可能延迟），也支持维护者手动运行。它使用临时 SQLite 执行采集，再合并导出公开 JSON；临时 SQLite 不作为长期存储，不上传数据库文件。上次采集内容保存在 GitHub 的 JSON 和提交历史中。失败时保留旧动态，标明来源异常；没有证据的客户不编造数据。
+
+目前仅中建八局来源确认可访问，其余 4 个官网入口返回 403，默认未启用。采集是固定官方来源的有界读取，不是无限制全网搜索。页面上的“官网公开信息”表示来源，不表示推导出的商机或痛点。
+
+维护者本地更新：
+```sh
+python intelligence/collector.py --sqlite /tmp/customer-intelligence.sqlite
+python intelligence/publish.py --sqlite /tmp/customer-intelligence.sqlite
+```
+
+以下 D1 代码保留为可选后续方案，当前展示不依赖它，也尚未部署。
+
+---
+
 # 客户公开信息采集与独立画像库
 
 ## 数据边界

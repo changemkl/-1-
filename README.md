@@ -28,3 +28,8 @@
 腾讯文档仅发布客户名称和用于关联的集团编号，不再导入表格标签、分类、地区等业务画像。采集记录存放于独立 Cloudflare D1，开发验证使用 SQLite。代码、证据来源策略和完整部署步骤见 [intelligence/README.md](intelligence/README.md)。
 
 线上 D1 和 Workers 尚未部署，public/profile-config.json 暂不填写地址。只有名单同步已上线，不能将本地 SQLite 的验证结果视为线上数据库已启用。采集任务默认每小时，需将工作流安装到默认分支并配置 Cloudflare Secrets 后启用；手动采集通过 GitHub Actions，非秒级全网抓取。
+
+
+## 当前只读展示版本
+
+客户名称位于 public/tencent-data.json；官网采集内容独立位于 public/profile-data.json。网页直接展示动态、原文链接和采集时间，暂不提供编辑、审核、跟进等业务交互。无需配置 Cloudflare。Collect customer intelligence 工作流每小时更新采集快照并部署网站；来源失败时保留此前资料。采集说明见 intelligence/README.md。
