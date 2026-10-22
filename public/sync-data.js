@@ -45,7 +45,9 @@ async function refreshSheetData() {
   if(syncBusy)return;
   syncBusy=true;
   try {
-    const response=await fetch(new URL('./tencent-data.json',location.href),{cache:'no-store'});
+    const dataUrl=new URL('./tencent-data.json',location.href);
+    dataUrl.searchParams.set('v',String(Math.floor(Date.now()/60000)));
+    const response=await fetch(dataUrl,{cache:'no-store'});
     if(response.status===404){$('sync-status').textContent='客户资料暂未更新';return;}
     if(!response.ok)throw new Error('获取数据失败');
     const data=await response.json();
@@ -62,7 +64,7 @@ async function refreshSheetData() {
     $('sync-status').textContent=`资料更新：${time}`;
     group='全部板块';grade='全部等级';renderShell();syncVersion=data.updatedAt;
   } catch(error) {
-    $('sync-status').textContent='资料刷新失败，当前资料已保留';
+    $('sync-status').textContent=syncVersion?'暂时无法刷新，当前资料已保留':'客户资料加载失败，请点击刷新资料重试';
   } finally {syncBusy=false;}
 }
 $('refresh-data').onclick=refreshSheetData;
