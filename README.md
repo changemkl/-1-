@@ -10,7 +10,7 @@
 
 ## 腾讯文档自动同步
 
-官方接口：`/openapi/drive/v2/util/converter` 转换链接 ID；`/openapi/spreadsheet/v3/files/{fileId}/{sheetId}/{range}` 读取内容。数据源固定为用户提供的公开表格 `DTEhRanNnS3dJV2hm`，子表 `BB08J2`，读取 A:Z，最多 6000 行（超过时任务失败并保留旧文件）。首次调用需要文档 ID 转换权限，读取需要 `scope.sheet.readonly` 或对应读写权限。
+官方接口：`/openapi/drive/v2/util/converter` 转换链接 ID；`/openapi/spreadsheet/v3/files/{fileId}/{sheetId}/{range}` 读取内容。数据源固定为用户提供的公开表格 `DTEhRanNnS3dJV2hm`，子表 `BB08J2`，按子表实际尺寸读取，最多 6000 行、200 列（超过时任务失败并保留旧文件）。首次调用需要文档 ID 转换权限，读取需要 `scope.sheet.readonly` 或对应读写权限。
 
 在 GitHub Actions Secrets 中保存 `TENCENT_DOCS_CLIENT_ID`、`TENCENT_DOCS_ACCESS_TOKEN`、`TENCENT_DOCS_OPEN_ID`。不把凭据保存进代码、JSON 或日志。Token 到期后更新 Secret；当前没有配置自动续期。
 

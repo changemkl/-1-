@@ -22,7 +22,7 @@ class SyncTests(unittest.TestCase):
             output = Path(directory)/'data.json'
             page = {'gridData': {'rows': [{'values': [{'cellValue': {'text': '名称'}}]}, {'values': [{'cellValue': {'text': '测试客户'}}]}]}}
             blank = {'gridData': {'rows': []}}
-            meta = {'getSheet': [{'sheetID': sync.SHEET_ID, 'rowCount': 2, 'columnCount': 1}]}
+            meta = {'sheetData': [{'sheetID': sync.SHEET_ID, 'rowCount': 2, 'columnCount': 1}]}
             secrets = {k: 'secret-placeholder' for k in ['TENCENT_DOCS_CLIENT_ID','TENCENT_DOCS_ACCESS_TOKEN','TENCENT_DOCS_OPEN_ID']}
             with patch.object(sync, 'OUTPUT', output), patch.dict(os.environ, secrets), patch.object(sync, 'request_api', side_effect=[{'fileID': 'test-id'}, meta, page]) as api:
                 sync.main()

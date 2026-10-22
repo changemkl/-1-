@@ -57,10 +57,10 @@ def main():
         data = request_api('/openapi/drive/v2/util/converter?' + urllib.parse.urlencode({'type': 2, 'value': ENCODED_ID}), headers)
         file_id = data['fileID']
     meta = request_api('/openapi/sheetbook/v2/' + urllib.parse.quote(file_id, safe='') + '/sheets-info', headers)
-    sheets = meta.get('getSheet', [])
+    sheets = meta.get('sheetData', meta.get('getSheet', []))
     sheet = next((s for s in sheets if s.get('sheetID') == SHEET_ID), None)
     if sheet is None:
-        fields = {k: ([sorted(v[0])] if v and isinstance(v[0], dict) else type(v).__name__) for k,v in meta.items()}
+        fields = {k: ([sorted(v[0])] if isinstance(v, list) and v and isinstance(v[0], dict) else type(v).__name__) for k,v in meta.items()}
         raise RuntimeError('Target sheet not found; metadata structure: ' + str(fields))
     row_count, column_count = int(sheet['rowCount']), int(sheet['columnCount'])
     if not 0 < row_count <= 6000 or not 0 < column_count <= 200:
