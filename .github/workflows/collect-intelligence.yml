@@ -55,7 +55,8 @@ jobs:
             git config user.name 'github-actions[bot]'
             git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
             git commit -m 'Update public customer information'
-            git push origin HEAD:customer-workspace
+            git pull --rebase origin customer-workspace
+          git push origin HEAD:customer-workspace
           fi
       - name: Prepare Pages site
         run: python scripts/prepare-pages.py
