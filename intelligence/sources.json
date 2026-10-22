@@ -34,12 +34,10 @@
       "max_articles": 5,
       "max_list_pages": 2,
       "entry_urls": [
-        "https://www.scg.com.cn/scgen/portal/index/index.htm",
-        "https://www.scg.com.cn/scgcn/portal/index/index.htm"
+        "https://www.scg.com.cn/scgen/portal/index/index.htm"
       ],
       "discover_profiles": true,
-      "home_as_profile": true,
-      "diagnostic": true
+      "home_as_profile": true
     },
     {
       "customer_id": "2108019729",

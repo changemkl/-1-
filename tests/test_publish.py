@@ -6,9 +6,15 @@ import unittest
 sys.path.insert(0,str(Path('intelligence').resolve()))
 from store import Store
 from collector import sync_customers,save_document
-from publish import publish
+from publish import publish,deduplicate_signals
 
 class PublishTests(unittest.TestCase):
+    def test_url_deduplication_does_not_merge_different_generic_titles(self):
+        base={'category':'客户动态','title':'工作通知','excerpt':'不同内容一','fetched_at':'2026-10-22','url':'https://example.org/a'}
+        duplicate={**base,'category':'数字化动态'}
+        different={**base,'url':'https://example.org/b','excerpt':'不同内容二'}
+        self.assertEqual(len(deduplicate_signals([base,duplicate,different])),2)
+
     def test_export_and_preserve_evidence_on_failed_refresh(self):
         with tempfile.TemporaryDirectory() as directory:
             database=directory+'/db.sqlite';output=Path(directory)/'data.json'

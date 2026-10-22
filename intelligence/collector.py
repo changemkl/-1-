@@ -145,7 +145,7 @@ def save_document(store,customer,url,title,excerpt,published,record_categories=N
     store.batch(statements)
 
 PROFILE_WORDS = ('公司简介','集团简介','企业概况','公司概况','机构职能','主要职责','机构职责','机构概况','部门职责','Company Profile','Group Profile','Corporate Profile','About Us','About SCG','Corporate Overview')
-LIST_WORDS = ('公司快讯','新闻中心','新闻动态','工作动态','通知公告','最新要闻','政务公开','Company News','News Center','Press Releases','Media Center','News')
+LIST_WORDS = ('公司快讯','新闻中心','新闻动态','工作动态','通知公告','最新要闻','政务公开','太湖要闻','要闻','流域动态','政务动态','行业动态','信息公开','Company News','News Center','Press Releases','Media Center','News')
 
 def normalize_text(text):return re.sub(r'\s+','',unicodedata.normalize('NFKC',text)).lower()
 
@@ -225,9 +225,9 @@ def collect_source(store,source):
                         candidates.setdefault(link,(title,'profile'));continue
                     if not is_listing and listing_count<min(source.get('max_list_pages',2),3) and any(w.lower() in title.lower() for w in LIST_WORDS) and link not in visited:
                         queue.append((link,True));listing_count+=1
-                    article=path.endswith(('.html','.htm','.shtml','.aspx')) or bool(urllib.parse.urlsplit(link).query)
+                    article=path.endswith(('.html','.htm','.shtml','.aspx','.jhtml')) or bool(urllib.parse.urlsplit(link).query)
                     focused=any(path.startswith(p) for p in source.get('article_prefixes',[]))
-                    if article and recent_url(link) and (focused or is_listing or categories(title)) and len(title.strip())>8:
+                    if article and recent_url(link) and (focused or is_listing or categories(title) or any(normalize_text(alias) in normalize_text(title) for alias in source['aliases'])) and len(title.strip())>8:
                         candidates.setdefault(link,(title,'article'))
                 if source.get('kind')=='profile':candidates.setdefault(actual,(''.join(page.title_parts),'profile'))
             except Exception as exc:errors.append(type(exc).__name__+': '+str(exc)[:100])
