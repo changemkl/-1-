@@ -4,7 +4,7 @@ import os
 from pathlib import Path
 import tempfile
 import unittest
-from unittest.mock import patch
+from unittest.mock import patch, MagicMock
 
 spec = importlib.util.spec_from_file_location('sync', 'scripts/sync-tencent.py')
 sync = importlib.util.module_from_spec(spec)
@@ -37,6 +37,18 @@ class SyncTests(unittest.TestCase):
                 with patch.object(sync, 'OUTPUT', output), patch.dict(os.environ, secrets), patch.object(sync, 'request_api', return_value=bad):
                     with self.assertRaises(RuntimeError): sync.main()
                     self.assertEqual(output.read_text(), original)
+
+    def test_direct_v3_response(self):
+        response = MagicMock()
+        response.__enter__.return_value = response
+        payload = {'gridData': {'rows': []}, 'header': {}, 'version': 1}
+        response.read.return_value = json.dumps(payload).encode()
+        with patch('urllib.request.urlopen', return_value=response):
+            self.assertEqual(sync.request_api('/test', {}), payload)
+        response.read.return_value = json.dumps({'ret': 37019}).encode()
+        with patch('urllib.request.urlopen', return_value=response):
+            with self.assertRaisesRegex(RuntimeError, '37019'):
+                sync.request_api('/test', {})
 
     def test_missing_secrets(self):
         with patch.dict(os.environ, {}, clear=True):

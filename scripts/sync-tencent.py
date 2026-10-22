@@ -21,6 +21,8 @@ def request_api(path, headers):
     except urllib.error.HTTPError as exc:
         raise RuntimeError(f'Tencent API HTTP {exc.code}; check credentials, permissions and quota') from None
     code = result.get('ret', result.get('code', result.get('errcode')))
+    if code is None and isinstance(result.get('gridData'), dict):
+        return result
     if code is None:
         keys = ', '.join(sorted(result)) if isinstance(result, dict) else type(result).__name__
         raise RuntimeError(f'Unexpected Tencent response fields: {keys}; endpoint {path.split(chr(63))[0]}')
