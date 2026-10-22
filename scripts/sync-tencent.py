@@ -44,6 +44,24 @@ def cell_text(cell):
     return ''
 
 
+def name_only_rows(rows):
+    aliases = ['客户名称','名称','单位名称']
+    header_index = next((i for i,row in enumerate(rows) if any(c in aliases for c in row)), None)
+    if header_index is None:
+        raise RuntimeError('Customer name header missing; previous data retained')
+    header = rows[header_index]
+    name_index = next(i for i,h in enumerate(header) if h in aliases)
+    id_index = next((i for i,h in enumerate(header) if h in ['集团编号','客户编号','ID']), None)
+    columns = ([id_index] if id_index is not None else []) + [name_index]
+    result = [[header[i] for i in columns]]
+    for row in rows[header_index+1:]:
+        if len(row)>name_index and row[name_index].strip():
+            result.append([row[i] if i<len(row) else '' for i in columns])
+    if len(result)<2:
+        raise RuntimeError('Empty customer name list; previous data retained')
+    return result
+
+
 def main():
     names = {'Access-Token': 'TENCENT_DOCS_ACCESS_TOKEN', 'Client-Id': 'TENCENT_DOCS_CLIENT_ID', 'Open-Id': 'TENCENT_DOCS_OPEN_ID'}
     missing = [v for v in names.values() if not os.environ.get(v)]
@@ -88,6 +106,7 @@ def main():
         rows.pop()
     if not rows:
         raise RuntimeError('Empty spreadsheet; previous published data retained')
+    rows = name_only_rows(rows)
     payload = {'encodedId': ENCODED_ID, 'fileId': file_id, 'sheetId': SHEET_ID, 'rows': rows,
                'source': 'https://docs.qq.com/sheet/' + ENCODED_ID + '?tab=' + SHEET_ID}
     if all(old.get(k) == v for k, v in payload.items()):

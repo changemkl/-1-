@@ -62,7 +62,7 @@ async function refreshSheetData() {
     table.appendChild(body);wrapper.appendChild(table);$('sheet-table').replaceChildren(wrapper);
     const time=new Date(data.updatedAt).toLocaleString('zh-CN',{timeZone:'Asia/Shanghai'});
     $('sync-status').textContent=`资料更新：${time}`;
-    group='全部板块';grade='全部等级';renderShell();syncVersion=data.updatedAt;
+    group='全部板块';grade='全部等级';renderShell();syncVersion=data.updatedAt;window.dispatchEvent(new Event('customers-updated'));
   } catch(error) {
     $('sync-status').textContent=syncVersion?'暂时无法刷新，当前资料已保留':'客户资料加载失败，请点击刷新资料重试';
   } finally {syncBusy=false;}

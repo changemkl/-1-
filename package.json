@@ -1,1 +1,1 @@
-{"name":"three-trees","version":"1.0.0","private":true,"scripts":{"dev":"node server.js --dev","start":"node server.js","check":"node --check server.js && node --check public/app.js && node --check public/sync-data.js"}}
+{"name":"three-trees","version":"1.0.0","private":true,"scripts":{"dev":"node server.js --dev","start":"node server.js","check":"node --check server.js && node --check public/app.js && node --check public/sync-data.js && node --check public/profiles.js && node --check cloudflare/worker.mjs"}}

@@ -1,0 +1,7 @@
+{
+  "name": "customer-intelligence",
+  "main": "worker.mjs",
+  "compatibility_date": "2026-10-22",
+  "vars": {"ALLOWED_ORIGIN": "https://changemkl.github.io"},
+  "d1_databases": [{"binding":"DB","database_name":"customer-intelligence","database_id":"REPLACE_WITH_YOUR_D1_DATABASE_ID"}]
+}

@@ -51,6 +51,11 @@ class SyncTests(unittest.TestCase):
             with self.assertRaisesRegex(RuntimeError, '37019'):
                 sync.request_api('/test', {})
 
+    def test_name_only_projection(self):
+        rows = [['集团编号','客户名称','客户标签','客户类别'],['001','客户甲','旧标签','旧分类']]
+        self.assertEqual(sync.name_only_rows(rows),[['集团编号','客户名称'],['001','客户甲']])
+        with self.assertRaises(RuntimeError): sync.name_only_rows([['备注'],['未知列']])
+
     def test_missing_secrets(self):
         with patch.dict(os.environ, {}, clear=True):
             with self.assertRaisesRegex(RuntimeError, 'Missing GitHub Secrets'): sync.main()

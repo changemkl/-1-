@@ -1,0 +1,70 @@
+{
+  "sources": [
+    {
+      "customer_id": "2100199365",
+      "url": "https://8bur.cscec.com/",
+      "hosts": [
+        "8bur.cscec.com"
+      ],
+      "enabled": true,
+      "aliases": [
+        "中国建筑第八工程局有限公司",
+        "中建八局"
+      ],
+      "article_prefixes": [
+        "/xwzx18/gskx18/"
+      ]
+    },
+    {
+      "customer_id": "2100303078",
+      "url": "https://www.scg.com.cn/",
+      "hosts": [
+        "www.scg.com.cn"
+      ],
+      "enabled": false,
+      "aliases": [
+        "上海建工集团股份有限公司",
+        "上海建工"
+      ],
+      "note": "当前环境返回403，需确认可访问入口后启用"
+    },
+    {
+      "customer_id": "2108019729",
+      "url": "https://www.tba.gov.cn/",
+      "hosts": [
+        "www.tba.gov.cn"
+      ],
+      "enabled": false,
+      "aliases": [
+        "水利部太湖流域管理局",
+        "太湖局"
+      ],
+      "note": "当前环境返回403，需确认可访问入口后启用"
+    },
+    {
+      "customer_id": "2100172632",
+      "url": "https://zjw.sh.gov.cn/",
+      "hosts": [
+        "zjw.sh.gov.cn"
+      ],
+      "enabled": false,
+      "aliases": [
+        "上海市住房和城乡建设管理委员会",
+        "市住房城乡建设管理委"
+      ],
+      "note": "当前环境返回403，需确认可访问入口后启用"
+    },
+    {
+      "customer_id": "2100161493",
+      "url": "https://tyj.sh.gov.cn/",
+      "hosts": [
+        "tyj.sh.gov.cn"
+      ],
+      "enabled": false,
+      "aliases": [
+        "上海市体育局"
+      ],
+      "note": "当前环境返回403，需确认可访问入口后启用"
+    }
+  ]
+}
