@@ -33,11 +33,17 @@ def publish(database, output):
     conn.row_factory = sqlite3.Row
     previous = json.loads(output.read_text()) if output.exists() else {'profiles': []}
     old = {p['id']: p for p in previous.get('profiles', [])}
+    verified = json.loads(Path('intelligence/verified-procurement.json').read_text()).get('records', [])
     profiles = []
     for customer in conn.execute('SELECT id,name FROM customers WHERE active=1 ORDER BY id'):
         identifier = customer['id']
         prior = old.get(identifier, {})
         signals = {(s['url'],s['category']):s for s in prior.get('signals', [])}
+        for record in verified:
+            if record['customer_id'] == identifier:
+                item = {k:v for k,v in record.items() if k != 'customer_id'}
+                signals = {key:value for key,value in signals.items() if value['url'] != item['url']}
+                signals[(item['url'],item['category'])] = item
         definitions=json.loads(Path('intelligence/sources.json').read_text())['sources']
         source=next((s for s in definitions if s['customer_id']==identifier),None)
         for row in conn.execute("SELECT s.category,s.status,d.url,d.title,d.excerpt,d.published_at,d.fetched_at,f.payload AS facts_json FROM signals s JOIN documents d ON d.id=s.document_id LEFT JOIN document_facts f ON f.document_id=d.id WHERE s.customer_id=? AND s.status!='rejected' ORDER BY d.fetched_at DESC", [identifier]):
@@ -58,7 +64,7 @@ def publish(database, output):
                 facts=extract_facts(item['title'],[item['excerpt']],source.get('aliases',[customer['name']]) if source else [customer['name']],kind)
             if not facts['projects'] and not facts['leaders']:continue
             item['facts']=facts
-            item['category']='领导及分工' if facts['leaders'] else '信息化项目公开信息'
+            item['category']='领导及分工' if facts['leaders'] else '项目与采购公开信息'
             filtered.append(item)
             provenance={k:item[k] for k in ['url','title','published_at','fetched_at','source_host']}
             projects.extend({**p,**provenance} for p in facts['projects'])

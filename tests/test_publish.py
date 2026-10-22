@@ -9,6 +9,23 @@ from collector import sync_customers,save_document
 from publish import publish,deduplicate_signals
 
 class PublishTests(unittest.TestCase):
+    def test_verified_notices_survive_repeated_automatic_exports(self):
+        with tempfile.TemporaryDirectory() as directory:
+            database=directory+'/db.sqlite';output=Path(directory)/'data.json'
+            store=Store(database);store.initialize()
+            sync_customers(store,{'2100161493':'上海市体育局','2100172632':'上海市住房和城乡建设管理委员会'})
+            for _ in range(2):
+                publish(database,output)
+                data=json.loads(output.read_text())
+                projects=[p for c in data['profiles'] for p in c['projects']]
+                self.assertEqual(len(projects),6)
+                self.assertEqual(len({p['url'] for p in projects}),6)
+                exam=next(p for p in projects if p['name']=='线下计算机考试技术服务费')
+                self.assertIn('人才开发评价中心',exam['buyer']['value'])
+                self.assertIn('不认定为委机关直接采购',exam['relation'])
+                self.assertEqual(exam['planned_purchase'],'2027-01')
+            store.local.close()
+
     def test_url_deduplication_does_not_merge_different_generic_titles(self):
         base={'category':'客户动态','title':'工作通知','excerpt':'不同内容一','fetched_at':'2026-10-22','url':'https://example.org/a'}
         duplicate={**base,'category':'数字化动态'}
