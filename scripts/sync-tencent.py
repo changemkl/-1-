@@ -28,7 +28,7 @@ def request_api(path, headers):
         raise RuntimeError(f'Unexpected Tencent response fields: {keys}; endpoint {path.split(chr(63))[0]}')
     if code != 0:
         # Do not log full responses, which may contain private authentication details.
-        raise RuntimeError(f'Tencent API business code {code}; check token, read permissions and document access')
+        raise RuntimeError(f'Tencent API business code {code}; endpoint {path.split(chr(63))[0]}; check token, read permissions and document access')
     return result.get('data', result)
 
 
@@ -56,22 +56,33 @@ def main():
     if not file_id:
         data = request_api('/openapi/drive/v2/util/converter?' + urllib.parse.urlencode({'type': 2, 'value': ENCODED_ID}), headers)
         file_id = data['fileID']
-    # A:Z, 300 rows per page = 7,800 cells, within the documented 10,000-cell limit.
-    # Continue until an empty page; preserve previous data if the safety bound is exceeded.
+    meta = request_api('/openapi/sheetbook/v2/' + urllib.parse.quote(file_id, safe='') + '/sheets-info', headers)
+    sheets = meta.get('getSheet', [])
+    sheet = next((s for s in sheets if s.get('sheetID') == SHEET_ID), None)
+    if sheet is None:
+        raise RuntimeError('Target sheet not found; check sheet ID and read permissions')
+    row_count, column_count = int(sheet['rowCount']), int(sheet['columnCount'])
+    if not 0 < row_count <= 6000 or not 0 < column_count <= 200:
+        raise RuntimeError('Sheet dimensions exceed safety limits (6000 rows / 200 columns); previous data retained')
+    def column_name(number):
+        result = ''
+        while number:
+            number, remainder = divmod(number - 1, 26)
+            result = chr(65 + remainder) + result
+        return result
+    end_column = column_name(column_count)
+    page_size = min(1000, 10000 // column_count)
     rows = []
-    for start in range(1, 6001, 300):
-        area = f'A{start}:Z{start + 299}'
+    for start in range(1, row_count + 1, page_size):
+        end = min(start + page_size - 1, row_count)
+        area = f'A{start}:{end_column}{end}'
         path = '/openapi/spreadsheet/v3/files/' + '/'.join(urllib.parse.quote(v, safe='') for v in (file_id, SHEET_ID, area))
         data = request_api(path, headers)
         grid = data.get('gridData')
         if not isinstance(grid, dict) or not isinstance(grid.get('rows'), list):
             raise RuntimeError('Unexpected gridData response; previous published data retained')
         page = [[cell_text(c) for c in r.get('values', [])] for r in grid['rows']]
-        if not any(any(v.strip() for v in r) for r in page):
-            break
         rows.extend(page)
-    else:
-        raise RuntimeError('Spreadsheet exceeds 6,000-row safety bound; previous data retained')
     while rows and not any(v.strip() for v in rows[-1]):
         rows.pop()
     if not rows:

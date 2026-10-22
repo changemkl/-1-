@@ -22,19 +22,20 @@ class SyncTests(unittest.TestCase):
             output = Path(directory)/'data.json'
             page = {'gridData': {'rows': [{'values': [{'cellValue': {'text': '名称'}}]}, {'values': [{'cellValue': {'text': '测试客户'}}]}]}}
             blank = {'gridData': {'rows': []}}
+            meta = {'getSheet': [{'sheetID': sync.SHEET_ID, 'rowCount': 2, 'columnCount': 1}]}
             secrets = {k: 'secret-placeholder' for k in ['TENCENT_DOCS_CLIENT_ID','TENCENT_DOCS_ACCESS_TOKEN','TENCENT_DOCS_OPEN_ID']}
-            with patch.object(sync, 'OUTPUT', output), patch.dict(os.environ, secrets), patch.object(sync, 'request_api', side_effect=[{'fileID': 'test-id'}, page, blank]) as api:
+            with patch.object(sync, 'OUTPUT', output), patch.dict(os.environ, secrets), patch.object(sync, 'request_api', side_effect=[{'fileID': 'test-id'}, meta, page]) as api:
                 sync.main()
                 self.assertEqual(api.call_count, 3)
                 original = output.read_text()
                 self.assertNotIn('secret-placeholder', original)
                 self.assertEqual(json.loads(original)['rows'][1], ['测试客户'])
-            with patch.object(sync, 'OUTPUT', output), patch.dict(os.environ, secrets), patch.object(sync, 'request_api', side_effect=[page, blank]) as api:
+            with patch.object(sync, 'OUTPUT', output), patch.dict(os.environ, secrets), patch.object(sync, 'request_api', side_effect=[meta, page]) as api:
                 sync.main()
                 self.assertEqual(api.call_count, 2)
                 self.assertEqual(output.read_text(), original)
             for bad in [{'gridData': {}}, {'gridData': {'rows': []}}]:
-                with patch.object(sync, 'OUTPUT', output), patch.dict(os.environ, secrets), patch.object(sync, 'request_api', return_value=bad):
+                with patch.object(sync, 'OUTPUT', output), patch.dict(os.environ, secrets), patch.object(sync, 'request_api', side_effect=[meta,bad]):
                     with self.assertRaises(RuntimeError): sync.main()
                     self.assertEqual(output.read_text(), original)
 
