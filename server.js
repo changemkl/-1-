@@ -4,7 +4,7 @@ const path = require('node:path');
 const root = path.join(__dirname, 'public');
 const development = process.argv.includes('--dev');
 function revision() {
-  return ['index.html', 'style.css', 'app.js'].map(name => {
+  return ['index.html', 'style.css', 'app.js', 'sync-data.js', 'tencent-data.json'].map(name => {
     try { return fs.statSync(path.join(root, name)).mtimeMs; }
     catch { return 'missing'; }
   }).join('-');
