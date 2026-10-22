@@ -2,6 +2,7 @@
 import argparse
 import datetime
 import hashlib
+import http.client
 from html.parser import HTMLParser
 import json
 from pathlib import Path
@@ -90,13 +91,25 @@ def download(url,hosts):
     validate_url(url,hosts)
     request=urllib.request.Request(url,headers={'User-Agent':AGENT+'/1.0','Accept':'text/html,text/plain;q=0.9'})
     opener=urllib.request.build_opener(AllowedRedirect(hosts))
-    with opener.open(request,timeout=20) as response:
-        if not any(t in response.headers.get('Content-Type','') for t in ['text/','application/xhtml+xml']):raise ValueError('Unsupported source content type')
-        raw=response.read(MAX_BYTES+1)
-        if len(raw)>MAX_BYTES:raise ValueError('Source exceeds response size limit')
-        encoding=response.headers.get_content_charset() or 'utf-8'
-        try:return raw.decode(encoding)
-        except UnicodeDecodeError:return raw.decode('gb18030',errors='replace')
+    for attempt in range(2):
+        try:
+            with opener.open(request,timeout=20) as response:
+                if not any(t in response.headers.get('Content-Type','') for t in ['text/','application/xhtml+xml']):raise ValueError('Unsupported source content type')
+                encoding=response.headers.get_content_charset() or 'utf-8'
+                try:raw=response.read(MAX_BYTES+1)
+                except http.client.IncompleteRead as exc:
+                    # Some sites omit the final chunk marker despite a complete HTML body.
+                    # Accept only a closed document; otherwise retry the transport once.
+                    if b'</html>' not in exc.partial.lower():raise
+                    raw=exc.partial
+                if len(raw)>MAX_BYTES:raise ValueError('Source exceeds response size limit')
+                meta=re.search(br'charset\s*=\s*["\']?([a-zA-Z0-9_-]+)',raw[:4096])
+                if meta:encoding=meta.group(1).decode('ascii')
+                try:return raw.decode(encoding)
+                except (UnicodeDecodeError,LookupError):return raw.decode('gb18030',errors='replace')
+        except http.client.IncompleteRead:
+            if attempt:raise
+            time.sleep(1)
 
 def robot_policy(url,hosts):
     robots=urllib.parse.urljoin(url,'/robots.txt')
@@ -116,8 +129,8 @@ def save_document(store,customer,url,title,excerpt,published,record_categories=N
         statements.append(('INSERT OR IGNORE INTO signals(id,customer_id,document_id,category,status,created_at) VALUES(?,?,?,?,\'pending\',?)',[digest(identifier+'|'+category),customer,identifier,category,stamp]))
     store.batch(statements)
 
-PROFILE_WORDS = ('公司简介','集团简介','企业概况','公司概况','机构职能','主要职责','机构职责','机构概况','部门职责')
-LIST_WORDS = ('公司快讯','新闻中心','新闻动态','工作动态','通知公告','最新要闻','政务公开')
+PROFILE_WORDS = ('公司简介','集团简介','企业概况','公司概况','机构职能','主要职责','机构职责','机构概况','部门职责','Company Profile','Group Profile','Corporate Profile','About Us')
+LIST_WORDS = ('公司快讯','新闻中心','新闻动态','工作动态','通知公告','最新要闻','政务公开','Company News','News Center','Press Releases','Media Center','News')
 
 def normalize_text(text):return re.sub(r'\s+','',unicodedata.normalize('NFKC',text)).lower()
 
@@ -171,7 +184,7 @@ def collect_source(store,source):
             try:
                 page,actual=load_page(url,source,policy)
                 if not matches_customer(page,source):
-                    errors.append('Customer identity mismatch: '+url);continue
+                    errors.append('Customer identity mismatch: '+url+'; title='+''.join(page.title_parts)[:100]);continue
                 identity_found=True
                 for href,title in page.links:
                     link=canonical_url(urllib.parse.urljoin(actual,href))
@@ -179,10 +192,10 @@ def collect_source(store,source):
                     except ValueError:continue
                     if not policy.can_fetch(AGENT,link):continue
                     path=urllib.parse.urlsplit(link).path
-                    profile=source.get('discover_profiles') and any(w in title for w in PROFILE_WORDS)
+                    profile=source.get('discover_profiles') and any(w.lower() in title.lower() for w in PROFILE_WORDS)
                     if profile:
                         candidates.setdefault(link,(title,'profile'));continue
-                    if not is_listing and listing_count<min(source.get('max_list_pages',2),3) and any(w in title for w in LIST_WORDS) and link not in visited:
+                    if not is_listing and listing_count<min(source.get('max_list_pages',2),3) and any(w.lower() in title.lower() for w in LIST_WORDS) and link not in visited:
                         queue.append((link,True));listing_count+=1
                     article=path.endswith(('.html','.htm','.shtml','.aspx')) or bool(urllib.parse.urlsplit(link).query)
                     focused=any(path.startswith(p) for p in source.get('article_prefixes',[]))
