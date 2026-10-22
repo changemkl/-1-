@@ -11,12 +11,13 @@ function applySheetRows(rows) {
   const headers = rows[headerIndex].map(x => String(x).trim());
   const column = names => headers.findIndex(h => names.includes(h));
   const nameCol = column(aliases), treeCol = column(['所属树','树类型','视图']);
-  const groupCol = column(['板块','所属板块','分类','行业']);
+  const groupCol = column(['板块','所属板块','分类','行业','客户类别']);
   const gradeCol = column(['等级','客户等级','重要程度']);
   const descCol = column(['描述','备注','客户描述','业务需求','需求']);
   const fullCol = column(['全称','单位全称','客户全称']);
   const addressCol = column(['地址','服务对象','地区']);
-  const skillsCol = column(['能力','产品能力','标签','关键词']);
+  const regionCols = [column(['一级属地']), column(['二级属地'])].filter(i=>i>=0);
+  const skillsCol = column(['能力','产品能力','标签','关键词','客户标签']);
   const chanceCol = column(['关联机会','机会数','关联机会数']);
   const profileCol = column(['已画像','画像状态','已完善画像']);
   const buckets = [[],[],[]];
@@ -27,13 +28,16 @@ function applySheetRows(rows) {
     if (index < 0) throw new Error('存在未识别的所属树，请使用客户组织树、产业链树或产品与场景树');
     const text = col => col < 0 ? '' : String(row[col] ?? '').trim();
     const level = text(gradeCol).toUpperCase().match(/^[ABC]/)?.[0] || '待核实';
-    const raw = [text(nameCol),text(fullCol)||text(nameCol),text(addressCol),level,text(groupCol)||'未分类',text(descCol),text(skillsCol).split(/[、,，;；]/).filter(Boolean),Math.max(0,Number(text(chanceCol))||0),['是','已画像','已完善','true','1'].includes(text(profileCol))];
-    buckets[index].push(raw.map((x,i) => i===6?x.map(syncEscape):typeof x==='string'?syncEscape(x):x));
+    const raw = [text(nameCol),text(fullCol)||text(nameCol),text(addressCol)||regionCols.map(i=>text(i)).filter(Boolean).join(' / '),level,text(groupCol)||'未分类',text(descCol),text(skillsCol).split(/[、,，;；]/).filter(Boolean),Math.max(0,Number(text(chanceCol))||0),['是','已画像','已完善','true','1'].includes(text(profileCol))];
+    const item=raw.map((x,i) => i===6?x.map(syncEscape):typeof x==='string'?syncEscape(x):x);
+    item.push(headers.map((label,col)=>[syncEscape(label),syncEscape(row[col]||'')]).filter(([label])=>label));
+    buckets[index].push(item);
   }
   for (let i=0;i<3;i++) {
     // A tree selector makes every bucket authoritative, including empty trees.
     const live = treeCol >= 0 || i===0;
     views[i].live=live;
+    views[i].chanceKnown=chanceCol>=0;
     views[i].items=live?buckets[i]:demoItems[i];
     views[i].groups=live?[...new Set(buckets[i].map(x=>x[4]))]:demoGroups[i];
   }
