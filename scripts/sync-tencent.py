@@ -60,7 +60,8 @@ def main():
     sheets = meta.get('getSheet', [])
     sheet = next((s for s in sheets if s.get('sheetID') == SHEET_ID), None)
     if sheet is None:
-        raise RuntimeError('Target sheet not found; check sheet ID and read permissions')
+        fields = {k: ([sorted(v[0])] if v and isinstance(v[0], dict) else type(v).__name__) for k,v in meta.items()}
+        raise RuntimeError('Target sheet not found; metadata structure: ' + str(fields))
     row_count, column_count = int(sheet['rowCount']), int(sheet['columnCount'])
     if not 0 < row_count <= 6000 or not 0 < column_count <= 200:
         raise RuntimeError('Sheet dimensions exceed safety limits (6000 rows / 200 columns); previous data retained')
