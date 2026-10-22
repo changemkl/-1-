@@ -1,0 +1,66 @@
+name: Collect customer intelligence
+on:
+  workflow_dispatch:
+    inputs:
+      customer_id:
+        description: '可选：客户集团编号；留空采集全部已配置来源'
+        required: false
+        type: string
+  push:
+    branches: [customer-workspace]
+    paths: ['intelligence/**', '.github/workflows/collect-intelligence.yml']
+  schedule:
+    - cron: '47 * * * *'
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: tencent-pages-sync
+  cancel-in-progress: false
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: customer-workspace
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Collect public sources
+        id: collect
+        continue-on-error: true
+        env:
+          CUSTOMER_ID: ${{ inputs.customer_id }}
+        run: |
+          if [ -n "$CUSTOMER_ID" ]; then
+            python intelligence/collector.py --sqlite "$RUNNER_TEMP/customer-intelligence.sqlite" --customer-id "$CUSTOMER_ID"
+          else
+            python intelligence/collector.py --sqlite "$RUNNER_TEMP/customer-intelligence.sqlite"
+          fi
+      - name: Export independent public snapshot
+        run: python intelligence/publish.py --sqlite "$RUNNER_TEMP/customer-intelligence.sqlite"
+      - name: Report source failure
+        if: steps.collect.outcome == 'failure'
+        run: echo '::warning::Some sources could not be collected. Previous information is retained; inspect collection status on the page.'
+      - name: Save published information
+        run: |
+          git add public/profile-data.json
+          if ! git diff --cached --quiet; then
+            git config user.name 'github-actions[bot]'
+            git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+            git commit -m 'Update public customer information'
+            git push origin HEAD:customer-workspace
+          fi
+      - name: Prepare Pages site
+        run: python scripts/prepare-pages.py
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: /tmp/customer-pages-site
+      - uses: actions/deploy-pages@v4
+        id: deployment
