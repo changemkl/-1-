@@ -20,7 +20,10 @@ def request_api(path, headers):
             result = json.load(response)
     except urllib.error.HTTPError as exc:
         raise RuntimeError(f'Tencent API HTTP {exc.code}; check credentials, permissions and quota') from None
-    code = result.get('ret', result.get('code'))
+    code = result.get('ret', result.get('code', result.get('errcode')))
+    if code is None:
+        keys = ', '.join(sorted(result)) if isinstance(result, dict) else type(result).__name__
+        raise RuntimeError(f'Unexpected Tencent response fields: {keys}; endpoint {path.split(chr(63))[0]}')
     if code != 0:
         # Do not log full responses, which may contain private authentication details.
         raise RuntimeError(f'Tencent API business code {code}; check token, read permissions and document access')
