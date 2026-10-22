@@ -13,7 +13,10 @@
       ],
       "article_prefixes": [
         "/xwzx18/gskx18/"
-      ]
+      ],
+      "max_articles": 5,
+      "max_list_pages": 2,
+      "discover_profiles": true
     },
     {
       "customer_id": "2100303078",
@@ -21,12 +24,17 @@
       "hosts": [
         "www.scg.com.cn"
       ],
-      "enabled": false,
+      "enabled": true,
       "aliases": [
         "上海建工集团股份有限公司",
         "上海建工"
       ],
-      "note": "当前环境返回403，需确认可访问入口后启用"
+      "max_articles": 5,
+      "max_list_pages": 2,
+      "entry_urls": [
+        "https://www.scg.com.cn/scgen/portal/index/index.htm"
+      ],
+      "discover_profiles": true
     },
     {
       "customer_id": "2108019729",
@@ -34,12 +42,14 @@
       "hosts": [
         "www.tba.gov.cn"
       ],
-      "enabled": false,
+      "enabled": true,
       "aliases": [
         "水利部太湖流域管理局",
         "太湖局"
       ],
-      "note": "当前环境返回403，需确认可访问入口后启用"
+      "max_articles": 5,
+      "max_list_pages": 2,
+      "discover_profiles": true
     },
     {
       "customer_id": "2100172632",
@@ -47,12 +57,17 @@
       "hosts": [
         "zjw.sh.gov.cn"
       ],
-      "enabled": false,
+      "enabled": true,
       "aliases": [
         "上海市住房和城乡建设管理委员会",
         "市住房城乡建设管理委"
       ],
-      "note": "当前环境返回403，需确认可访问入口后启用"
+      "max_articles": 5,
+      "max_list_pages": 2,
+      "entry_urls": [
+        "https://zjw.sh.gov.cn/jgzn/"
+      ],
+      "discover_profiles": true
     },
     {
       "customer_id": "2100161493",
@@ -60,11 +75,16 @@
       "hosts": [
         "tyj.sh.gov.cn"
       ],
-      "enabled": false,
+      "enabled": true,
       "aliases": [
         "上海市体育局"
       ],
-      "note": "当前环境返回403，需确认可访问入口后启用"
+      "max_articles": 5,
+      "max_list_pages": 2,
+      "entry_urls": [
+        "https://tyj.sh.gov.cn/jgzn/"
+      ],
+      "discover_profiles": true
     }
   ]
 }
