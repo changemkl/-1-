@@ -227,7 +227,7 @@ def collect_source(store,source):
                         queue.append((link,True));listing_count+=1
                     article=path.endswith(('.html','.htm','.shtml','.aspx','.jhtml')) or bool(urllib.parse.urlsplit(link).query)
                     focused=any(path.startswith(p) for p in source.get('article_prefixes',[]))
-                    if article and recent_url(link) and (focused or is_listing or categories(title) or any(normalize_text(alias) in normalize_text(title) for alias in source['aliases'])) and len(title.strip())>8:
+                    if article and recent_url(link) and (focused or is_listing or categories(title) or any(normalize_text(alias) in normalize_text(title) for alias in source['aliases'])) and len(title.strip())>=6:
                         candidates.setdefault(link,(title,'article'))
                 if source.get('kind')=='profile':candidates.setdefault(actual,(''.join(page.title_parts),'profile'))
             except Exception as exc:errors.append(type(exc).__name__+': '+str(exc)[:100])

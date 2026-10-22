@@ -6,7 +6,7 @@ function extraProfile(x){
  const p=customerProfiles.get(customerIdentifier(x));
  if(!p)return `<div class="profile-empty">${profileConnection==='unconfigured'?'公开资料加载中':'尚未采集到相关公开信息'}</div>`;
  const attrs=(p.attributes||[]).map(a=>`<dt>${syncEscape(a.field)}</dt><dd>${syncEscape(a.value)}</dd>`).join('');
- const signals=(p.signals||[]).map(s=>{const url=safeSource(s.url);if(!url)return '';return `<article class="evidence"><span class="evidence-kind">${syncEscape(s.category)} · 官网公开信息</span><a href="${syncEscape(url)}" target="_blank" rel="noopener noreferrer">${syncEscape(s.title)} ↗</a><p>${syncEscape(s.excerpt)}</p><small>${s.published_at?'发布日期：'+syncEscape(s.published_at)+' · ':''}采集：${syncEscape(new Date(s.fetched_at).toLocaleString('zh-CN',{timeZone:'Asia/Shanghai'}))}</small></article>`;}).join('');
+ const signals=(p.signals||[]).map(s=>{const url=safeSource(s.url);if(!url)return '';return `<article class="evidence"><span class="evidence-kind">${syncEscape(s.category)} · ${syncEscape(s.source_host||new URL(url).hostname)}</span><a href="${syncEscape(url)}" target="_blank" rel="noopener noreferrer">${syncEscape(s.title)} ↗</a><p>${syncEscape(s.excerpt)}</p><small>${s.published_at?'发布日期：'+syncEscape(s.published_at)+' · ':''}采集：${syncEscape(new Date(s.fetched_at).toLocaleString('zh-CN',{timeZone:'Asia/Shanghai'}))}</small></article>`;}).join('');
  return `${attrs?`<dl class="business-attributes">${attrs}</dl>`:''}<h4>公开动态</h4>${signals||`<div class="profile-empty">${p.lastRun?'暂未发现相关公开动态':'尚未采集到相关公开信息'}</div>`}${p.lastRun?`<p class="collection-status">最近采集：${syncEscape(new Date(p.lastRun.finished_at).toLocaleString('zh-CN',{timeZone:'Asia/Shanghai'}))} · ${p.lastRun.status==='success'?'已完成':p.lastRun.status==='blocked'?'来源暂不可访问':'未完成'}</p>`:''}`;
 }
 async function refreshProfiles(){
@@ -35,6 +35,6 @@ setInterval(refreshProfiles,300000);
 refreshProfiles();
 
 function profileCountFor(x){return (customerProfiles.get(customerIdentifier(x))?.signals||[]).length;}
-function profilePreview(x){const signals=customerProfiles.get(customerIdentifier(x))?.signals||[];if(!signals.length)return '<p class="information-empty">暂未收录公开动态</p>';return `<div class="public-preview"><span class="preview-label">最新公开动态</span>${signals.slice(0,2).map(s=>{const url=safeSource(s.url);return url?`<a href="${syncEscape(url)}" target="_blank" rel="noopener noreferrer">${syncEscape(s.title)} ↗</a>`:'';}).join('')}</div>`;}
+function profilePreview(x){const p=customerProfiles.get(customerIdentifier(x));const signals=p?.signals||[];if(!signals.length)return `<p class="information-empty">${p?.lastRun?.status==='blocked'?'来源暂不可访问，待后续更新':'暂未收录公开动态'}</p>`;return `<div class="public-preview"><span class="preview-label">最新公开动态</span>${signals.slice(0,2).map(s=>{const url=safeSource(s.url);return url?`<a href="${syncEscape(url)}" target="_blank" rel="noopener noreferrer">${syncEscape(s.title)} ↗</a>`:'';}).join('')}</div>`;}
 
 function profileSearchFor(x){return (customerProfiles.get(customerIdentifier(x))?.signals||[]).map(s=>s.title+' '+s.excerpt).join(' ');}

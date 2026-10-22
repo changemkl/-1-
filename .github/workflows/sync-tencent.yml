@@ -36,6 +36,7 @@ jobs:
             git config user.name 'github-actions[bot]'
             git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
             git commit -m 'Sync Tencent spreadsheet data'
+            git pull --rebase origin customer-workspace
             git push origin HEAD:customer-workspace
           fi
       # GITHUB_TOKEN pushes do not trigger a branch-based Pages rebuild.
