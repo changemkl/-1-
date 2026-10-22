@@ -2,8 +2,29 @@
 import argparse
 import datetime
 import json
+import re
+import unicodedata
+import urllib.parse
 from pathlib import Path
 import sqlite3
+
+
+def deduplicate_signals(items):
+    by_url = {}
+    for item in sorted(items,key=lambda s:s['fetched_at'],reverse=True):
+        if item['category']=='客户概况' and '信息列表' in item['title']:continue
+        url=item['url'].split('#')[0]
+        by_url.setdefault(url,dict(item))
+    unique=[];seen=set()
+    for item in by_url.values():
+        title=re.sub(r'\s+','',unicodedata.normalize('NFKC',item['title'])).lower()
+        excerpt=re.sub(r'\s+','',item['excerpt'])[:120]
+        key=(title,excerpt)
+        if key in seen:continue
+        seen.add(key)
+        item['source_host']=urllib.parse.urlsplit(item['url']).hostname
+        unique.append(item)
+    return unique
 
 
 def publish(database, output):
@@ -20,8 +41,8 @@ def publish(database, output):
             item = dict(row)
             item['excerpt'] = item['excerpt'].replace(item['title'], '', 2).strip()
             signals[(item['url'],item['category'])] = item
-        run = conn.execute('SELECT finished_at,status,documents_found FROM crawl_runs WHERE customer_id=? ORDER BY finished_at DESC LIMIT 1', [identifier]).fetchone()
-        profiles.append({'id':identifier,'name':customer['name'],'attributes':prior.get('attributes',[]),'signals':sorted(signals.values(),key=lambda x:x['fetched_at'],reverse=True)[:30], 'lastRun':dict(run) if run else prior.get('lastRun')})
+        run = conn.execute('SELECT finished_at,status,documents_found,source_url FROM crawl_runs WHERE customer_id=? ORDER BY finished_at DESC LIMIT 1', [identifier]).fetchone()
+        profiles.append({'id':identifier,'name':customer['name'],'attributes':prior.get('attributes',[]),'signals':deduplicate_signals(signals.values())[:30], 'lastRun':dict(run) if run else prior.get('lastRun')})
     if not profiles:
         raise RuntimeError('No active customers; previous snapshot retained')
     payload = {'updatedAt':datetime.datetime.now(datetime.timezone.utc).isoformat(),'profiles':profiles}

@@ -37,7 +37,9 @@
         "https://www.scg.com.cn/scgen/portal/index/index.htm",
         "https://www.scg.com.cn/scgcn/portal/index/index.htm"
       ],
-      "discover_profiles": true
+      "discover_profiles": true,
+      "home_as_profile": true,
+      "diagnostic": true
     },
     {
       "customer_id": "2108019729",

@@ -51,11 +51,13 @@ def sync_customers(store, customers):
 
 class Page(HTMLParser):
     def __init__(self):
-        super().__init__(); self.skip=0; self.title=False; self.title_parts=[]; self.parts=[]; self.links=[]; self.anchor=None; self.anchor_parts=[]; self.published=None; self.description=None; self.paragraph_parts=[]; self.paragraphs=[]; self.in_paragraph=False
+        super().__init__(); self.skip=0; self.title=False; self.title_parts=[]; self.parts=[]; self.links=[]; self.anchor=None; self.anchor_parts=[]; self.published=None; self.description=None; self.paragraph_parts=[]; self.paragraphs=[]; self.in_paragraph=False; self.article_title=None; self.heading_tag=None; self.heading_parts=[]; self.headings=[]
     def handle_starttag(self,tag,attrs):
         attrs=dict(attrs)
         if tag in ('script','style','noscript'): self.skip+=1
         if tag=='title':self.title=True
+        if tag in ('h1','h2'):self.heading_tag=tag;self.heading_parts=[]
+        if tag=='meta' and attrs.get('name','').lower() in ('articletitle','article_title','title'):self.article_title=attrs.get('content')
         if tag=='a':self.anchor=(attrs.get('href') or '').strip();self.anchor_parts=[];self.anchor_title=attrs.get('title','')
         if tag=='p':self.in_paragraph=True;self.paragraph_parts=[]
         if tag=='meta' and attrs.get('name','').lower()=='description':self.description=attrs.get('content')
@@ -63,6 +65,10 @@ class Page(HTMLParser):
     def handle_endtag(self,tag):
         if tag in ('script','style','noscript'):self.skip=max(0,self.skip-1)
         if tag=='title':self.title=False
+        if tag==self.heading_tag:
+            heading=''.join(self.heading_parts).strip()
+            if heading:self.headings.append(heading)
+            self.heading_tag=None
         if tag=='a' and self.anchor:
             self.links.append((self.anchor,self.anchor_title or ''.join(self.anchor_parts).strip()));self.anchor=None
         if tag=='p' and self.in_paragraph:
@@ -74,6 +80,7 @@ class Page(HTMLParser):
         text=data.strip()
         if text:self.parts.append(text)
         if self.title:self.title_parts.append(text)
+        if self.heading_tag:self.heading_parts.append(text)
         if self.anchor:self.anchor_parts.append(text)
         if self.in_paragraph:self.paragraph_parts.append(text)
 
@@ -89,7 +96,7 @@ def validate_url(url,hosts):
 
 def download(url,hosts):
     validate_url(url,hosts)
-    request=urllib.request.Request(url,headers={'User-Agent':AGENT+'/1.0','Accept':'text/html,text/plain;q=0.9'})
+    request=urllib.request.Request(url,headers={'User-Agent':AGENT+'/1.0','Accept':'text/html,text/plain;q=0.9','Accept-Encoding':'identity'})
     opener=urllib.request.build_opener(AllowedRedirect(hosts))
     for attempt in range(2):
         try:
@@ -108,7 +115,7 @@ def download(url,hosts):
                 try:return raw.decode(encoding)
                 except (UnicodeDecodeError,LookupError):return raw.decode('gb18030',errors='replace')
         except http.client.IncompleteRead:
-            if attempt:raise
+            if attempt:raise RuntimeError('Incomplete response at '+url) from None
             time.sleep(1)
 
 def robot_policy(url,hosts):
@@ -129,7 +136,7 @@ def save_document(store,customer,url,title,excerpt,published,record_categories=N
         statements.append(('INSERT OR IGNORE INTO signals(id,customer_id,document_id,category,status,created_at) VALUES(?,?,?,?,\'pending\',?)',[digest(identifier+'|'+category),customer,identifier,category,stamp]))
     store.batch(statements)
 
-PROFILE_WORDS = ('公司简介','集团简介','企业概况','公司概况','机构职能','主要职责','机构职责','机构概况','部门职责','Company Profile','Group Profile','Corporate Profile','About Us')
+PROFILE_WORDS = ('公司简介','集团简介','企业概况','公司概况','机构职能','主要职责','机构职责','机构概况','部门职责','Company Profile','Group Profile','Corporate Profile','About Us','About SCG','Corporate Overview')
 LIST_WORDS = ('公司快讯','新闻中心','新闻动态','工作动态','通知公告','最新要闻','政务公开','Company News','News Center','Press Releases','Media Center','News')
 
 def normalize_text(text):return re.sub(r'\s+','',unicodedata.normalize('NFKC',text)).lower()
@@ -165,8 +172,16 @@ def load_page(url,source,policy):
         page=Page();page.feed(text);return page,url
     raise ValueError('Too many static redirects')
 
+def page_title(page,fallback=''):
+    for text in [page.article_title]+page.headings:
+        if text and len(text.strip())>=8 and not any(w in text for w in ('信息列表','信息详情')):return text.strip()
+    title=''.join(page.title_parts).strip()
+    if any(w in title for w in ('信息详情','信息列表','工作通知_','各区动态_','工作动态_')) and fallback:return fallback
+    return title or fallback
+
 def evidence_excerpt(page,source):
-    parts=list(dict.fromkeys(p.strip() for p in (page.paragraphs or page.parts) if len(p.strip())>=30))
+    title=page_title(page)
+    parts=list(dict.fromkeys(p.strip() for p in (page.paragraphs or page.parts) if len(p.strip())>=30 and p.strip()!=title))
     exact=[p for p in parts if any(normalize_text(alias) in normalize_text(p) for alias in source['aliases'])]
     body=exact+[p for p in parts if p not in exact]
     return ' '.join(body)[:900]
@@ -186,6 +201,11 @@ def collect_source(store,source):
                 if not matches_customer(page,source):
                     errors.append('Customer identity mismatch: '+url+'; title='+''.join(page.title_parts)[:100]);continue
                 identity_found=True
+                if source.get('home_as_profile'):
+                    description=page.description or ''
+                    exact=[p for p in page.paragraphs+[description] if len(p)>=50 and any(normalize_text(alias) in normalize_text(p) for alias in source['aliases'])]
+                    if exact:
+                        save_document(store,source['customer_id'],actual,page_title(page),exact[0][:900],page.published,['客户概况']);count+=1
                 for href,title in page.links:
                     link=canonical_url(urllib.parse.urljoin(actual,href))
                     try:validate_url(link,hosts)
@@ -212,13 +232,16 @@ def collect_source(store,source):
             try:
                 detail,actual=load_page(link,source,policy)
                 if not matches_customer(detail,source):continue
-                title=''.join(detail.title_parts).strip() or headline
+                title=page_title(detail,headline)
+                if kind=='profile' and '信息列表' in ''.join(detail.title_parts):continue
                 excerpt=evidence_excerpt(detail,source)
                 if len(excerpt)<50:continue
                 record_categories=['客户概况'] if kind=='profile' else (categories(title) or ['客户动态'])
                 save_document(store,source['customer_id'],actual,title,excerpt,detail.published,record_categories);count+=1
             except Exception as exc:errors.append(type(exc).__name__+': '+str(exc)[:100])
         status='success'
+        if count==0 and source.get('diagnostic'):
+            print(json.dumps({'source':source['url'],'title':page.title_parts,'description':page.description,'menu':[(t[:70],u[:140]) for u,t in page.links if t.strip()][:25]},ensure_ascii=False))
         if errors:error='Some pages unavailable: '+'; '.join(errors[:2])
     except (PermissionError,urllib.error.HTTPError) as exc:
         status='blocked';error=f'Source unavailable: {getattr(exc,"code",str(exc))}'[:300]
