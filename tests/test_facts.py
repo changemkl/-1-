@@ -48,4 +48,9 @@ class FactTests(unittest.TestCase):
         self.assertFalse(official_url('https://unit.gov.cn.evil.test/a'))
         self.assertFalse(official_url('http://unit.gov.cn/a'))
 
+    def test_public_tender_is_distinct_from_negotiated_procurement(self):
+        p=self.facts('信息化系统公开招标公告','项目名称：信息化系统建设\n预算金额：100万元')['projects'][0]
+        self.assertEqual(p['stage'],'公开招标公告')
+        self.assertEqual(p['budget']['value'],'100万元')
+
 if __name__=='__main__':unittest.main()

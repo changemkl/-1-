@@ -286,6 +286,8 @@ def main():
     selected=[s for s in sources if s.get('enabled') and s['customer_id'] in customers and (not args.customer_id or s['customer_id']==args.customer_id)]
     if not selected:raise RuntimeError('No enabled, approved source for the selected customers')
     results=[collect_source(store,s) for s in selected]
+    from procurement import collect_public_tenders
+    results.extend(collect_public_tenders(store,s) for s in selected)
     print(json.dumps(results,ensure_ascii=False))
     if all(r['status']!='success' for r in results):raise RuntimeError('All selected sources failed or blocked; previous evidence retained')
 

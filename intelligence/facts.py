@@ -37,6 +37,7 @@ def stage_for(title):
     if any(w in title for w in ('中标','成交','结果公告')):return '中标或成交信息'
     if '合同' in title:return '合同信息'
     if '验收' in title:return '验收信息'
+    if '公开招标公告' in title:return '公开招标公告'
     if '公告' in title and any(w in title for w in ('采购','招标','磋商','询价','谈判')):return '采购公告'
     if any(w in title for w in ('规划','行动计划','实施方案')):
         return '规划草案' if any(w in title for w in ('征求意见','草案')) else '规划文件涉及事项'
@@ -67,13 +68,13 @@ def extract_projects(title,paragraphs,aliases,kind):
         if any(normalize(supplier['value'])==normalize(a) for a in aliases):record['relation']='客户为公告所列供应商，不认定为客户采购需求'
     # Amounts and deadlines only come from labelled notice/contract fields.
     # Never reinterpret total building investment as an IT budget.
-    notices=stage in ('采购意向','采购公告','中标或成交信息','合同信息','验收信息','更正公告','终止或废标')
+    notices=stage in ('采购意向','公开招标公告','采购公告','中标或成交信息','合同信息','验收信息','更正公告','终止或废标')
     if notices and len(named)<=1:
         record['budget']=label_value(text,['预算金额','采购预算','预算经费'])
         record['award_amount']=label_value(text,['中标金额','成交金额','合同金额'])
         record['deadline']=label_value(text,['投标截止时间','响应文件提交截止时间','提交投标文件截止时间'])
         record['service_end']=label_value(text,['服务结束日期','合同结束日期','合同到期日期'])
-    record['notice']='原文事实，不代表尚有采购机会。' if stage not in ('采购意向','采购公告') else '公告计划及有效期限以原文为准；不自动认定仍在招标。'
+    record['notice']='原文事实，不代表尚有采购机会。' if stage not in ('采购意向','公开招标公告','采购公告') else '公告计划及有效期限以原文为准；不自动认定仍在招标。'
     return [record]
 
 
