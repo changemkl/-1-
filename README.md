@@ -25,11 +25,20 @@
 
 ## 独立画像数据库与采集
 
-腾讯文档仅发布客户名称和用于关联的集团编号，不再导入表格标签、分类、地区等业务画像。采集记录存放于独立 Cloudflare D1，开发验证使用 SQLite。代码、证据来源策略和完整部署步骤见 [intelligence/README.md](intelligence/README.md)。
+腾讯文档只维护客户名称与集团编号。采集任务使用临时 SQLite，跨次保留的数据发布在独立的 `public/profile-data.json` 中，随 GitHub 提交保留版本。当前无需 Cloudflare；D1 / Workers 是尚未部署的可选方案。
 
-线上 D1 和 Workers 尚未部署，public/profile-config.json 暂不填写地址。只有名单同步已上线，不能将本地 SQLite 的验证结果视为线上数据库已启用。采集任务默认每小时，需将工作流安装到默认分支并配置 Cloudflare Secrets 后启用；手动采集通过 GitHub Actions，非秒级全网抓取。
+GitHub Actions 每小时检查已配置的官方来源，发布快照并部署网页；来源不可访问时保留此前可核验记录。这是定时更新，不是全网实时搜索。新增客户还需要在 `intelligence/sources.json` 配置其官方来源。
+
 
 
 ## 当前只读展示版本
 
-客户名称位于 public/tencent-data.json；官网采集内容独立位于 public/profile-data.json。网页直接展示动态、原文链接和采集时间，暂不提供编辑、审核、跟进等业务交互。无需配置 Cloudflare。Collect customer intelligence 工作流每小时更新采集快照并部署网站；来源失败时保留此前资料。采集说明见 intelligence/README.md。
+客户名称位于 public/tencent-data.json；官网采集内容独立位于 public/profile-data.json。网页展示信息化项目与采购、官网领导分工、原文链接及采集时间，暂不提供编辑、审核、跟进等业务交互。无需配置 Cloudflare。Collect customer intelligence 工作流每小时更新采集快照并部署网站；来源失败时保留此前资料。采集说明见 intelligence/README.md。
+
+## 公开事实展示标准
+
+仅展示官方 HTTPS 来源中可核验的信息化建设记录，以及官网领导页面明确列示的姓名、职务、分工。普通会议、体育活动、土建总投资不作为信息化商机；会议出席名单不作为现任领导依据。
+
+项目分别标注采购意向、采购公告、中标/合同、规划或公开建设动态。金额与截止日期必须有明确原文字段；总投资不转为信息化预算，中标金额不转为采购预算。客户是供应商或其他单位才是采购人时单独说明，不认定为客户采购需求。未知字段留空；历史公告不自动视为仍在招标。
+
+当前采集限于配置的单位官网及其栏目，不保证覆盖政府采购平台、动态加载页面或所有历史公告。领导信息表示采集时官网的列示，仍应查看原文及更新时间；采集时间不等于任职生效时间。
