@@ -40,9 +40,14 @@ jobs:
           fi
       # GITHUB_TOKEN pushes do not trigger a branch-based Pages rebuild.
       # Deploy the successful snapshot explicitly instead.
+      - name: Prepare Pages site
+        run: |
+          mkdir -p /tmp/customer-pages-site
+          cp index.html .nojekyll /tmp/customer-pages-site/
+          cp -R public /tmp/customer-pages-site/public
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: public
+          path: /tmp/customer-pages-site
       - uses: actions/deploy-pages@v4
         id: deployment
     environment:
