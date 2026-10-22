@@ -94,6 +94,9 @@ def validate_url(url,hosts):
     p=urllib.parse.urlsplit(url)
     if p.scheme!='https' or p.hostname not in hosts or p.username or p.password or p.port not in (None,443):raise ValueError('Source URL outside approved HTTPS hosts')
 
+class SourceHTML(str):
+    partial=False
+
 def download(url,hosts):
     validate_url(url,hosts)
     request=urllib.request.Request(url,headers={'User-Agent':AGENT+'/1.0','Accept':'text/html,text/plain;q=0.9','Accept-Encoding':'identity'})
@@ -102,18 +105,20 @@ def download(url,hosts):
         try:
             with opener.open(request,timeout=20) as response:
                 if not any(t in response.headers.get('Content-Type','') for t in ['text/','application/xhtml+xml']):raise ValueError('Unsupported source content type')
-                encoding=response.headers.get_content_charset() or 'utf-8'
+                encoding=response.headers.get_content_charset() or 'utf-8';partial=False
                 try:raw=response.read(MAX_BYTES+1)
                 except http.client.IncompleteRead as exc:
-                    # Some sites omit the final chunk marker despite a complete HTML body.
-                    # Accept only a closed document; otherwise retry the transport once.
-                    if b'</html>' not in exc.partial.lower():raise
                     raw=exc.partial
+                    if b'</html>' not in raw.lower():
+                        if attempt==0:raise
+                        if len(raw)<512 or b'<title' not in raw.lower():raise
+                        partial=True
                 if len(raw)>MAX_BYTES:raise ValueError('Source exceeds response size limit')
                 meta=re.search(br'charset\s*=\s*["\']?([a-zA-Z0-9_-]+)',raw[:4096])
                 if meta:encoding=meta.group(1).decode('ascii')
-                try:return raw.decode(encoding)
-                except (UnicodeDecodeError,LookupError):return raw.decode('gb18030',errors='replace')
+                try:text=raw.decode(encoding)
+                except (UnicodeDecodeError,LookupError):text=raw.decode('gb18030',errors='replace')
+                result=SourceHTML(text);result.partial=partial;return result
         except http.client.IncompleteRead:
             if attempt:raise RuntimeError('Incomplete response at '+url) from None
             time.sleep(1)
@@ -121,7 +126,10 @@ def download(url,hosts):
 def robot_policy(url,hosts):
     robots=urllib.parse.urljoin(url,'/robots.txt')
     parser=urllib.robotparser.RobotFileParser()
-    try:parser.parse(download(robots,hosts).splitlines())
+    try:
+        text=download(robots,hosts)
+        if getattr(text,'partial',False):raise PermissionError('Incomplete robots.txt policy')
+        parser.parse(text.splitlines())
     except urllib.error.HTTPError as exc:
         if exc.code!=404:raise PermissionError(f'robots.txt returned HTTP {exc.code}') from None
         parser.parse([])
@@ -169,7 +177,7 @@ def load_page(url,source,policy):
         redirect=re.search(r"location\.(?:replace|assign)\(['\"]([^'\"]+)['\"]\)",text) if len(text)<1000 else None
         if redirect:
             url=canonical_url(urllib.parse.urljoin(url,redirect.group(1)));continue
-        page=Page();page.feed(text);return page,url
+        page=Page();page.feed(text);page.partial=getattr(text,'partial',False);return page,url
     raise ValueError('Too many static redirects')
 
 def page_title(page,fallback=''):
@@ -201,7 +209,7 @@ def collect_source(store,source):
                 if not matches_customer(page,source):
                     errors.append('Customer identity mismatch: '+url+'; title='+''.join(page.title_parts)[:100]);continue
                 identity_found=True
-                if source.get('home_as_profile'):
+                if source.get('home_as_profile') and not getattr(page,'partial',False):
                     description=page.description or ''
                     exact=[p for p in page.paragraphs+[description] if len(p)>=50 and any(normalize_text(alias) in normalize_text(p) for alias in source['aliases'])]
                     if exact:
@@ -231,6 +239,8 @@ def collect_source(store,source):
             time.sleep(1)
             try:
                 detail,actual=load_page(link,source,policy)
+                if getattr(detail,'partial',False):
+                    errors.append('Article response incomplete: '+link);continue
                 if not matches_customer(detail,source):continue
                 title=page_title(detail,headline)
                 if kind=='profile' and '信息列表' in ''.join(detail.title_parts):continue
