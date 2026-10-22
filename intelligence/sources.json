@@ -14,9 +14,12 @@
       "article_prefixes": [
         "/xwzx18/gskx18/"
       ],
-      "max_articles": 5,
-      "max_list_pages": 2,
-      "discover_profiles": true
+      "max_articles": 8,
+      "max_list_pages": 4,
+      "discover_profiles": true,
+      "official": true,
+      "dedicated": true,
+      "discover_leaders": true
     },
     {
       "customer_id": "2100303078",
@@ -31,13 +34,16 @@
         "Shanghai Construction Group",
         "SHANGHAI CONSTRUCTION"
       ],
-      "max_articles": 5,
-      "max_list_pages": 2,
+      "max_articles": 8,
+      "max_list_pages": 4,
       "entry_urls": [
         "https://www.scg.com.cn/scgen/portal/index/index.htm"
       ],
       "discover_profiles": true,
-      "home_as_profile": true
+      "home_as_profile": true,
+      "official": true,
+      "dedicated": true,
+      "discover_leaders": true
     },
     {
       "customer_id": "2108019729",
@@ -50,9 +56,12 @@
         "水利部太湖流域管理局",
         "太湖局"
       ],
-      "max_articles": 5,
-      "max_list_pages": 2,
-      "discover_profiles": true
+      "max_articles": 8,
+      "max_list_pages": 4,
+      "discover_profiles": true,
+      "official": true,
+      "dedicated": true,
+      "discover_leaders": true
     },
     {
       "customer_id": "2100172632",
@@ -65,12 +74,15 @@
         "上海市住房和城乡建设管理委员会",
         "市住房城乡建设管理委"
       ],
-      "max_articles": 5,
-      "max_list_pages": 2,
+      "max_articles": 8,
+      "max_list_pages": 4,
       "entry_urls": [
         "https://zjw.sh.gov.cn/jgzn/"
       ],
-      "discover_profiles": true
+      "discover_profiles": true,
+      "official": true,
+      "dedicated": true,
+      "discover_leaders": true
     },
     {
       "customer_id": "2100161493",
@@ -82,12 +94,15 @@
       "aliases": [
         "上海市体育局"
       ],
-      "max_articles": 5,
-      "max_list_pages": 2,
+      "max_articles": 8,
+      "max_list_pages": 4,
       "entry_urls": [
         "https://tyj.sh.gov.cn/jgzn/"
       ],
-      "discover_profiles": true
+      "discover_profiles": true,
+      "official": true,
+      "dedicated": true,
+      "discover_leaders": true
     }
   ]
 }

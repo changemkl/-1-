@@ -7,6 +7,7 @@ import unicodedata
 import urllib.parse
 from pathlib import Path
 import sqlite3
+from facts import extract_facts,official_url,VERSION
 
 
 def deduplicate_signals(items):
@@ -37,12 +38,36 @@ def publish(database, output):
         identifier = customer['id']
         prior = old.get(identifier, {})
         signals = {(s['url'],s['category']):s for s in prior.get('signals', [])}
-        for row in conn.execute("SELECT s.category,s.status,d.url,d.title,d.excerpt,d.published_at,d.fetched_at FROM signals s JOIN documents d ON d.id=s.document_id WHERE s.customer_id=? AND s.status!='rejected' ORDER BY d.fetched_at DESC", [identifier]):
+        definitions=json.loads(Path('intelligence/sources.json').read_text())['sources']
+        source=next((s for s in definitions if s['customer_id']==identifier),None)
+        for row in conn.execute("SELECT s.category,s.status,d.url,d.title,d.excerpt,d.published_at,d.fetched_at,f.payload AS facts_json FROM signals s JOIN documents d ON d.id=s.document_id LEFT JOIN document_facts f ON f.document_id=d.id WHERE s.customer_id=? AND s.status!='rejected' ORDER BY d.fetched_at DESC", [identifier]):
             item = dict(row)
+            item['facts']=json.loads(item.pop('facts_json')) if item.get('facts_json') else None
+            item.pop('facts_json',None)
             item['excerpt'] = item['excerpt'].replace(item['title'], '', 2).strip()
             signals[(item['url'],item['category'])] = item
         run = conn.execute('SELECT finished_at,status,documents_found,source_url FROM crawl_runs WHERE customer_id=? ORDER BY finished_at DESC LIMIT 1', [identifier]).fetchone()
-        profiles.append({'id':identifier,'name':customer['name'],'attributes':prior.get('attributes',[]),'signals':deduplicate_signals(signals.values())[:30], 'lastRun':dict(run) if run else prior.get('lastRun')})
+        filtered=[];projects=[];leaders=[]
+        for item in deduplicate_signals(signals.values()):
+            if not official_url(item['url'],source):continue
+            facts=item.get('facts')
+            if not facts or facts.get('version')!=VERSION:
+                # Older snippets are sufficient for conservative IT-dynamic filtering,
+                # but never for confirming a current leader from a meeting report.
+                kind='profile' if item['category']=='客户概况' else 'article'
+                facts=extract_facts(item['title'],[item['excerpt']],source.get('aliases',[customer['name']]) if source else [customer['name']],kind)
+            if not facts['projects'] and not facts['leaders']:continue
+            item['facts']=facts
+            item['category']='领导及分工' if facts['leaders'] else '信息化项目公开信息'
+            filtered.append(item)
+            provenance={k:item[k] for k in ['url','title','published_at','fetched_at','source_host']}
+            projects.extend({**p,**provenance} for p in facts['projects'])
+            leaders.extend({**p,**provenance} for p in facts['leaders'])
+        unique_leaders={}
+        for leader in sorted(leaders,key=lambda p:p['fetched_at'],reverse=True):
+            unique_leaders.setdefault((leader['name'],leader['role']),leader)
+        profiles.append({'id':identifier,'name':customer['name'],'attributes':[], 'signals':filtered[:30],'projects':projects[:30],'leaders':list(unique_leaders.values())[:20], 'lastRun':dict(run) if run else prior.get('lastRun')})
+
     if not profiles:
         raise RuntimeError('No active customers; previous snapshot retained')
     payload = {'updatedAt':datetime.datetime.now(datetime.timezone.utc).isoformat(),'profiles':profiles}

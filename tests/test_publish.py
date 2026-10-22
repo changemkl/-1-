@@ -19,10 +19,10 @@ class PublishTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as directory:
             database=directory+'/db.sqlite';output=Path(directory)/'data.json'
             store=Store(database);store.initialize();sync_customers(store,{'1':'客户甲'})
-            save_document(store,'1','https://example.org/a','项目交付','项目公开原文',None)
+            save_document(store,'1','https://unit.gov.cn/a','信息化系统采购公告','项目名称：信息化系统建设\n预算金额：100万元',None)
             publish(database,output)
             data=json.loads(output.read_text());self.assertEqual(len(data['profiles'][0]['signals']),1)
-            store.query('DELETE FROM signals');store.query('DELETE FROM document_versions');store.query('DELETE FROM documents')
+            store.query('DELETE FROM document_facts');store.query('DELETE FROM signals');store.query('DELETE FROM document_versions');store.query('DELETE FROM documents')
             store.query('INSERT INTO crawl_runs VALUES(?,?,?,?,?,?,?,?)',['run','1','https://example.org','2026-10-22','2026-10-22','blocked',0,'403'])
             publish(database,output)
             data=json.loads(output.read_text());self.assertEqual(len(data['profiles'][0]['signals']),1)

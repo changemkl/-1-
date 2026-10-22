@@ -34,3 +34,6 @@ CREATE TABLE IF NOT EXISTS crawl_runs (
  documents_found INTEGER NOT NULL, error TEXT
 );
 CREATE INDEX IF NOT EXISTS crawl_runs_customer ON crawl_runs(customer_id,finished_at);
+CREATE TABLE IF NOT EXISTS document_facts (
+ document_id TEXT PRIMARY KEY REFERENCES documents(id), payload TEXT NOT NULL
+);

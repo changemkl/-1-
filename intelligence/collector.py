@@ -16,6 +16,7 @@ import urllib.robotparser
 import uuid
 
 from store import Store
+from facts import extract_facts
 
 AGENT = 'CustomerResearchBot'
 MAX_BYTES = 1500000
@@ -137,15 +138,18 @@ def robot_policy(url,hosts):
 
 def categories(title):return [label for label,words in CATEGORIES.items() if any(word in title for word in words)]
 
-def save_document(store,customer,url,title,excerpt,published,record_categories=None):
+def save_document(store,customer,url,title,excerpt,published,record_categories=None,facts=None):
     identifier=digest(customer+'|'+url);checksum=digest(title+'|'+excerpt);stamp=now()
     statements=[('INSERT INTO documents(id,customer_id,url,title,excerpt,published_at,fetched_at,content_hash) VALUES(?,?,?,?,?,?,?,?) ON CONFLICT(id) DO UPDATE SET title=excluded.title,excerpt=excluded.excerpt,published_at=excluded.published_at,fetched_at=excluded.fetched_at,content_hash=excluded.content_hash',[identifier,customer,url,title,excerpt,published,stamp,checksum]),('INSERT OR IGNORE INTO document_versions(document_id,content_hash,title,excerpt,fetched_at) VALUES(?,?,?,?,?)',[identifier,checksum,title,excerpt,stamp])]
+    if facts is not None:statements.append(('INSERT INTO document_facts(document_id,payload) VALUES(?,?) ON CONFLICT(document_id) DO UPDATE SET payload=excluded.payload',[identifier,json.dumps(facts,ensure_ascii=False)]))
     for category in (record_categories if record_categories is not None else categories(title)):
         statements.append(('INSERT OR IGNORE INTO signals(id,customer_id,document_id,category,status,created_at) VALUES(?,?,?,?,\'pending\',?)',[digest(identifier+'|'+category),customer,identifier,category,stamp]))
     store.batch(statements)
 
 PROFILE_WORDS = ('公司简介','集团简介','企业概况','公司概况','机构职能','主要职责','机构职责','机构概况','部门职责','Company Profile','Group Profile','Corporate Profile','About Us','About SCG','Corporate Overview')
-LIST_WORDS = ('公司快讯','新闻中心','新闻动态','工作动态','通知公告','最新要闻','政务公开','太湖要闻','要闻','流域动态','政务动态','行业动态','信息公开','Company News','News Center','Press Releases','Media Center','News')
+LEADER_WORDS = ('领导介绍','领导信息','领导班子','领导之窗','局领导','委领导','领导分工','领导简历','管理团队','董事会','高管团队','领导成员','机构领导','Leadership','Management Team','Board of Directors')
+PRIORITY_WORDS = ('领导','采购','招标','预算','决算','信息化','数字化','规划','招投标','Management','Leadership','Board')
+LIST_WORDS = ('公司快讯','新闻中心','新闻动态','工作动态','通知公告','最新要闻','政务公开','太湖要闻','要闻','流域动态','政务动态','行业动态','信息公开','政府采购','招标采购','采购公告','采购意向','预算决算','规划计划','通知公告','Company News','News Center','Press Releases','Media Center','News')
 
 def normalize_text(text):return re.sub(r'\s+','',unicodedata.normalize('NFKC',text)).lower()
 
@@ -168,6 +172,7 @@ def recent_url(url):
 
 def load_page(url,source,policy):
     for _ in range(3):
+        if time.monotonic()>source.get('_deadline',float('inf')):raise TimeoutError('Source time budget exhausted')
         validate_url(url,source['hosts'])
         if not policy.can_fetch(AGENT,url):raise PermissionError('Disallowed by robots.txt')
         text=download(url,source['hosts'])
@@ -196,6 +201,7 @@ def evidence_excerpt(page,source):
 
 def collect_source(store,source):
     started=now();count=0;status='failed';error=None;errors=[]
+    source['_deadline']=time.monotonic()+source.get('time_budget',75)
     try:
         hosts=source['hosts'];policy=robot_policy(source['url'],hosts)
         queue=[(u,False) for u in dict.fromkeys([source['url']]+source.get('entry_urls',[]))][:3]
@@ -214,40 +220,53 @@ def collect_source(store,source):
                     exact=[p for p in page.paragraphs+[description] if len(p)>=50 and any(normalize_text(alias) in normalize_text(p) for alias in source['aliases'])]
                     if exact:
                         save_document(store,source['customer_id'],actual,page_title(page),exact[0][:900],page.published,['客户概况']);count+=1
-                for href,title in page.links:
+                ordered_links=sorted(page.links,key=lambda item:not any(w.lower() in item[1].lower() for w in PRIORITY_WORDS))
+                for href,title in ordered_links:
                     link=canonical_url(urllib.parse.urljoin(actual,href))
                     try:validate_url(link,hosts)
                     except ValueError:continue
                     if not policy.can_fetch(AGENT,link):continue
                     path=urllib.parse.urlsplit(link).path
+                    leadership=source.get('discover_leaders',True) and any(w.lower() in title.lower() for w in LEADER_WORDS)
+                    if leadership:
+                        candidates.setdefault(link,(title,'leadership'))
+                        if not is_listing and listing_count<4 and link not in visited:
+                            queue.append((link,'leadership'));listing_count+=1
+                        continue
+                    if is_listing=='leadership' and urllib.parse.urlsplit(link).path.endswith(('.html','.htm','.shtml')) and (re.fullmatch(r'[\u4e00-\u9fff·]{2,4}',title.strip()) or any(w in title for w in ('局长','主任','书记','董事长','总经理'))):
+                        candidates.setdefault(link,(title,'leadership'));continue
                     profile=source.get('discover_profiles') and any(w.lower() in title.lower() for w in PROFILE_WORDS)
                     if profile:
                         candidates.setdefault(link,(title,'profile'));continue
-                    if not is_listing and listing_count<min(source.get('max_list_pages',2),3) and any(w.lower() in title.lower() for w in LIST_WORDS) and link not in visited:
+                    if not is_listing and listing_count<min(source.get('max_list_pages',4),4) and any(w.lower() in title.lower() for w in LIST_WORDS) and link not in visited:
                         queue.append((link,True));listing_count+=1
                     article=path.endswith(('.html','.htm','.shtml','.aspx','.jhtml')) or bool(urllib.parse.urlsplit(link).query)
                     focused=any(path.startswith(p) for p in source.get('article_prefixes',[]))
-                    if article and recent_url(link) and (focused or is_listing or categories(title) or any(normalize_text(alias) in normalize_text(title) for alias in source['aliases'])) and len(title.strip())>=6:
+                    if article and recent_url(link) and (focused or is_listing or any(w in title for w in ('采购','招标','预算','决算','信息化','数字化','规划')) or categories(title) or any(normalize_text(alias) in normalize_text(title) for alias in source['aliases'])) and len(title.strip())>=6:
                         candidates.setdefault(link,(title,'article'))
                 if source.get('kind')=='profile':candidates.setdefault(actual,(''.join(page.title_parts),'profile'))
             except Exception as exc:errors.append(type(exc).__name__+': '+str(exc)[:100])
         if not identity_found:
             raise PermissionError('; '.join(errors[:2]) or 'No matching source page could be read')
+        leaders=sorted([(u,t,k) for u,(t,k) in candidates.items() if k=='leadership'],key=lambda item:not urllib.parse.urlsplit(item[0]).path.endswith(('.html','.htm','.shtml')))[:5]
         profiles=[(u,t,k) for u,(t,k) in candidates.items() if k=='profile'][:2]
-        articles=[(u,t,k) for u,(t,k) in candidates.items() if k=='article'][:min(source.get('max_articles',5),8)]
-        for link,headline,kind in profiles+articles:
+        from facts import IT
+        articles=sorted([(u,t,k) for u,(t,k) in candidates.items() if k=='article'],key=lambda item:(not bool(IT.search(item[1])),not any(w.lower() in item[1].lower() for w in PRIORITY_WORDS)))[:min(source.get('max_articles',8),10)]
+        for link,headline,kind in leaders+articles+profiles:
             time.sleep(1)
             try:
                 detail,actual=load_page(link,source,policy)
                 if getattr(detail,'partial',False):
                     errors.append('Article response incomplete: '+link);continue
-                if not matches_customer(detail,source):continue
+                if not matches_customer(detail,source) and not (kind=='leadership' and source.get('dedicated',False)):continue
                 title=page_title(detail,headline)
                 if kind=='profile' and '信息列表' in ''.join(detail.title_parts):continue
                 excerpt=evidence_excerpt(detail,source)
-                if len(excerpt)<50:continue
-                record_categories=['客户概况'] if kind=='profile' else (categories(title) or ['客户动态'])
-                save_document(store,source['customer_id'],actual,title,excerpt,detail.published,record_categories);count+=1
+                if len(excerpt)<50 and kind!='leadership':continue
+                record_categories=['领导信息'] if kind=='leadership' else ['客户概况'] if kind=='profile' else (categories(title) or ['客户动态'])
+                fact_parts=detail.paragraphs+detail.parts
+                facts=extract_facts(title,fact_parts,source['aliases'],kind)
+                save_document(store,source['customer_id'],actual,title,excerpt,detail.published,record_categories,facts);count+=1
             except Exception as exc:errors.append(type(exc).__name__+': '+str(exc)[:100])
         status='success'
         if count==0 and source.get('diagnostic'):
