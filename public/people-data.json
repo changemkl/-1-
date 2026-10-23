@@ -1,0 +1,559 @@
+{
+  "customers": [
+    {
+      "id": "2100199365",
+      "people": [
+        {
+          "name": "周可璋",
+          "role": "党委书记、董事长",
+          "division": null,
+          "category": "单位领导",
+          "informationResponsibility": false,
+          "quote": "党委书记、董事长 周可璋",
+          "source": {
+            "url": "https://8bur.cscec.com/gywm18/gltd18/202604/3939463.html",
+            "title": "中建八局管理团队",
+            "publishedAt": "2026-04-15"
+          },
+          "checkedAt": "2026-10-23T01:20:37+00:00"
+        },
+        {
+          "name": "孙士东",
+          "role": "党委副书记、总经理",
+          "division": null,
+          "category": "单位领导",
+          "informationResponsibility": false,
+          "quote": "党委副书记、总经理 孙士东",
+          "source": {
+            "url": "https://8bur.cscec.com/gywm18/gltd18/202604/3939463.html",
+            "title": "中建八局管理团队",
+            "publishedAt": "2026-04-15"
+          },
+          "checkedAt": "2026-10-23T01:20:37+00:00"
+        },
+        {
+          "name": "方思忠",
+          "role": "党委副书记、董事、工会主席",
+          "division": null,
+          "category": "单位领导",
+          "informationResponsibility": false,
+          "quote": "党委副书记、董事、工会主席 方思忠",
+          "source": {
+            "url": "https://8bur.cscec.com/gywm18/gltd18/202604/3939463.html",
+            "title": "中建八局管理团队",
+            "publishedAt": "2026-04-15"
+          },
+          "checkedAt": "2026-10-23T01:20:37+00:00"
+        },
+        {
+          "name": "熊知平",
+          "role": "财务总监",
+          "division": null,
+          "category": "单位领导",
+          "informationResponsibility": false,
+          "quote": "财务总监 熊知平",
+          "source": {
+            "url": "https://8bur.cscec.com/gywm18/gltd18/202604/3939463.html",
+            "title": "中建八局管理团队",
+            "publishedAt": "2026-04-15"
+          },
+          "checkedAt": "2026-10-23T01:20:37+00:00"
+        },
+        {
+          "name": "沈健",
+          "role": "副总经理",
+          "division": null,
+          "category": "单位领导",
+          "informationResponsibility": false,
+          "quote": "副总经理 沈健",
+          "source": {
+            "url": "https://8bur.cscec.com/gywm18/gltd18/202604/3939463.html",
+            "title": "中建八局管理团队",
+            "publishedAt": "2026-04-15"
+          },
+          "checkedAt": "2026-10-23T01:20:37+00:00"
+        },
+        {
+          "name": "刘其泉",
+          "role": "纪委书记",
+          "division": null,
+          "category": "单位领导",
+          "informationResponsibility": false,
+          "quote": "纪委书记 刘其泉",
+          "source": {
+            "url": "https://8bur.cscec.com/gywm18/gltd18/202604/3939463.html",
+            "title": "中建八局管理团队",
+            "publishedAt": "2026-04-15"
+          },
+          "checkedAt": "2026-10-23T01:20:37+00:00"
+        },
+        {
+          "name": "徐建林",
+          "role": "副总经理",
+          "division": null,
+          "category": "单位领导",
+          "informationResponsibility": false,
+          "quote": "副总经理 徐建林",
+          "source": {
+            "url": "https://8bur.cscec.com/gywm18/gltd18/202604/3939463.html",
+            "title": "中建八局管理团队",
+            "publishedAt": "2026-04-15"
+          },
+          "checkedAt": "2026-10-23T01:20:37+00:00"
+        },
+        {
+          "name": "李未",
+          "role": "副总经理",
+          "division": null,
+          "category": "单位领导",
+          "informationResponsibility": false,
+          "quote": "副总经理 李未",
+          "source": {
+            "url": "https://8bur.cscec.com/gywm18/gltd18/202604/3939463.html",
+            "title": "中建八局管理团队",
+            "publishedAt": "2026-04-15"
+          },
+          "checkedAt": "2026-10-23T01:20:37+00:00"
+        },
+        {
+          "name": "亓立刚",
+          "role": "总工程师",
+          "division": null,
+          "category": "单位领导",
+          "informationResponsibility": false,
+          "quote": "总工程师 亓立刚",
+          "source": {
+            "url": "https://8bur.cscec.com/gywm18/gltd18/202604/3939463.html",
+            "title": "中建八局管理团队",
+            "publishedAt": "2026-04-15"
+          },
+          "checkedAt": "2026-10-23T01:20:37+00:00"
+        },
+        {
+          "name": "刘书冬",
+          "role": "副总经理",
+          "division": null,
+          "category": "单位领导",
+          "informationResponsibility": false,
+          "quote": "副总经理 刘书冬",
+          "source": {
+            "url": "https://8bur.cscec.com/gywm18/gltd18/202604/3939463.html",
+            "title": "中建八局管理团队",
+            "publishedAt": "2026-04-15"
+          },
+          "checkedAt": "2026-10-23T01:20:37+00:00"
+        },
+        {
+          "name": "哈小平",
+          "role": "副总经理",
+          "division": null,
+          "category": "单位领导",
+          "informationResponsibility": false,
+          "quote": "副总经理 哈小平",
+          "source": {
+            "url": "https://8bur.cscec.com/gywm18/gltd18/202604/3939463.html",
+            "title": "中建八局管理团队",
+            "publishedAt": "2026-04-15"
+          },
+          "checkedAt": "2026-10-23T01:20:37+00:00"
+        },
+        {
+          "name": "王文元",
+          "role": "副总经理",
+          "division": null,
+          "category": "单位领导",
+          "informationResponsibility": false,
+          "quote": "副总经理 王文元",
+          "source": {
+            "url": "https://8bur.cscec.com/gywm18/gltd18/202604/3939463.html",
+            "title": "中建八局管理团队",
+            "publishedAt": "2026-04-15"
+          },
+          "checkedAt": "2026-10-23T01:20:37+00:00"
+        },
+        {
+          "name": "许向阳",
+          "role": "副总经理",
+          "division": null,
+          "category": "单位领导",
+          "informationResponsibility": false,
+          "quote": "副总经理 许向阳",
+          "source": {
+            "url": "https://8bur.cscec.com/gywm18/gltd18/202604/3939463.html",
+            "title": "中建八局管理团队",
+            "publishedAt": "2026-04-15"
+          },
+          "checkedAt": "2026-10-23T01:20:37+00:00"
+        },
+        {
+          "name": "李伟",
+          "role": "副总经理",
+          "division": null,
+          "category": "单位领导",
+          "informationResponsibility": false,
+          "quote": "副总经理 李伟",
+          "source": {
+            "url": "https://8bur.cscec.com/gywm18/gltd18/202604/3939463.html",
+            "title": "中建八局管理团队",
+            "publishedAt": "2026-04-15"
+          },
+          "checkedAt": "2026-10-23T01:20:37+00:00"
+        },
+        {
+          "name": "谢圣美",
+          "role": "总经济师、总法律顾问、首席合规官",
+          "division": null,
+          "category": "单位领导",
+          "informationResponsibility": false,
+          "quote": "总经济师、总法律顾问、首席合规官 谢圣美",
+          "source": {
+            "url": "https://8bur.cscec.com/gywm18/gltd18/202604/3939463.html",
+            "title": "中建八局管理团队",
+            "publishedAt": "2026-04-15"
+          },
+          "checkedAt": "2026-10-23T01:20:37+00:00"
+        },
+        {
+          "name": "张巨伟",
+          "role": "副总经理",
+          "division": null,
+          "category": "单位领导",
+          "informationResponsibility": false,
+          "quote": "副总经理 张巨伟",
+          "source": {
+            "url": "https://8bur.cscec.com/gywm18/gltd18/202604/3939463.html",
+            "title": "中建八局管理团队",
+            "publishedAt": "2026-04-15"
+          },
+          "checkedAt": "2026-10-23T01:20:37+00:00"
+        },
+        {
+          "name": "樊则森",
+          "role": "副总经理、总建筑师",
+          "division": null,
+          "category": "单位领导",
+          "informationResponsibility": false,
+          "quote": "副总经理、总建筑师 樊则森",
+          "source": {
+            "url": "https://8bur.cscec.com/gywm18/gltd18/202604/3939463.html",
+            "title": "中建八局管理团队",
+            "publishedAt": "2026-04-15"
+          },
+          "checkedAt": "2026-10-23T01:20:37+00:00"
+        }
+      ],
+      "lastCheck": {
+        "at": "2026-10-23T01:20:37+00:00",
+        "status": "ok"
+      }
+    },
+    {
+      "id": "2100172632",
+      "people": [
+        {
+          "name": "王桢",
+          "role": "中共上海市城乡建设和交通工作委员会副书记、上海市住房和城乡建设管理委员会主任",
+          "division": null,
+          "category": "单位领导",
+          "informationResponsibility": false,
+          "quote": "王 桢 现任中共上海市城乡建设和交通工作委员会副书记、上海市住房和城乡建设管理委员会主任。",
+          "source": {
+            "url": "https://zjw.sh.gov.cn/jgld/index.html",
+            "title": "上海市住建委官网 · 机构领导",
+            "publishedAt": null
+          },
+          "checkedAt": "2026-10-23T01:20:37+00:00"
+        },
+        {
+          "name": "吴杰",
+          "role": "中共上海市城乡建设和交通工作委员会委员、上海市住房和城乡建设管理委员会副主任、一级巡视员",
+          "division": null,
+          "category": "单位领导",
+          "informationResponsibility": false,
+          "quote": "吴 杰 现任中共上海市城乡建设和交通工作委员会委员、上海市住房和城乡建设管理委员会副主任、一级巡视员。",
+          "source": {
+            "url": "https://zjw.sh.gov.cn/jgld/index.html",
+            "title": "上海市住建委官网 · 机构领导",
+            "publishedAt": null
+          },
+          "checkedAt": "2026-10-23T01:20:37+00:00"
+        },
+        {
+          "name": "洪继梁",
+          "role": "中共上海市城乡建设和交通工作委员会委员、上海市住房和城乡建设管理委员会副主任",
+          "division": null,
+          "category": "单位领导",
+          "informationResponsibility": false,
+          "quote": "洪继梁 现任中共上海市城乡建设和交通工作委员会委员、上海市住房和城乡建设管理委员会副主任。",
+          "source": {
+            "url": "https://zjw.sh.gov.cn/jgld/index.html",
+            "title": "上海市住建委官网 · 机构领导",
+            "publishedAt": null
+          },
+          "checkedAt": "2026-10-23T01:20:37+00:00"
+        },
+        {
+          "name": "张永刚",
+          "role": "中共上海市城乡建设和交通工作委员会委员、上海市住房和城乡建设管理委员会副主任，上海市城市管理行政执法局局长、党组书记",
+          "division": null,
+          "category": "单位领导",
+          "informationResponsibility": false,
+          "quote": "张永刚 现任中共上海市城乡建设和交通工作委员会委员、上海市住房和城乡建设管理委员会副主任，上海市城市管理行政执法局局长、党组书记 。",
+          "source": {
+            "url": "https://zjw.sh.gov.cn/jgld/index.html",
+            "title": "上海市住建委官网 · 机构领导",
+            "publishedAt": null
+          },
+          "checkedAt": "2026-10-23T01:20:37+00:00"
+        },
+        {
+          "name": "韦冬",
+          "role": "中共上海市城乡建设和交通工作委员会委员、上海市住房和城乡建设管理委员会副主任",
+          "division": null,
+          "category": "单位领导",
+          "informationResponsibility": false,
+          "quote": "韦 冬 现任中共上海市城乡建设和交通工作委员会委员、上海市住房和城乡建设管理委员会副主任。",
+          "source": {
+            "url": "https://zjw.sh.gov.cn/jgld/index.html",
+            "title": "上海市住建委官网 · 机构领导",
+            "publishedAt": null
+          },
+          "checkedAt": "2026-10-23T01:20:37+00:00"
+        },
+        {
+          "name": "高世昀",
+          "role": "中共上海市城乡建设和交通工作委员会委员、上海市住房和城乡建设管理委员会副主任，上海市房屋管理局局长、党组书记",
+          "division": null,
+          "category": "单位领导",
+          "informationResponsibility": false,
+          "quote": "高世昀 现任中共上海市城乡建设和交通工作委员会委员、上海市住房和城乡建设管理委员会副主任，上海市房屋管理局局长、党组书记 。",
+          "source": {
+            "url": "https://zjw.sh.gov.cn/jgld/index.html",
+            "title": "上海市住建委官网 · 机构领导",
+            "publishedAt": null
+          },
+          "checkedAt": "2026-10-23T01:20:37+00:00"
+        },
+        {
+          "name": "江丹",
+          "role": "中共上海市城乡建设和交通工作委员会委员、上海市住房和城乡建设管理委员会副主任",
+          "division": null,
+          "category": "单位领导",
+          "informationResponsibility": false,
+          "quote": "江 丹 现任中共上海市城乡建设和交通工作委员会委员、上海市住房和城乡建设管理委员会副主任。",
+          "source": {
+            "url": "https://zjw.sh.gov.cn/jgld/index.html",
+            "title": "上海市住建委官网 · 机构领导",
+            "publishedAt": null
+          },
+          "checkedAt": "2026-10-23T01:20:37+00:00"
+        },
+        {
+          "name": "刘千伟",
+          "role": "中共上海市城乡建设和交通工作委员会委员、上海市住房和城乡建设管理委员会一级巡视员",
+          "division": null,
+          "category": "单位领导",
+          "informationResponsibility": false,
+          "quote": "刘千伟 现任中共上海市城乡建设和交通工作委员会委员、上海市住房和城乡建设管理委员会一级巡视员。",
+          "source": {
+            "url": "https://zjw.sh.gov.cn/jgld/index.html",
+            "title": "上海市住建委官网 · 机构领导",
+            "publishedAt": null
+          },
+          "checkedAt": "2026-10-23T01:20:37+00:00"
+        }
+      ],
+      "lastCheck": {
+        "at": "2026-10-23T01:20:37+00:00",
+        "status": "ok"
+      }
+    },
+    {
+      "id": "2100161493",
+      "people": [
+        {
+          "name": "钟晓敏",
+          "role": "党组书记、局长",
+          "division": "主持局党组、局行政全面工作。",
+          "category": "单位领导",
+          "informationResponsibility": false,
+          "quote": "党组书记、局长 钟晓敏 主持局党组、局行政全面工作。",
+          "source": {
+            "url": "https://tyj.sh.gov.cn/ldcy/20260826/9046d44e22084601ad180f591f9ef951.html",
+            "title": "市体育局领导及工作分工",
+            "publishedAt": "2026-09-10"
+          },
+          "checkedAt": "2026-10-23T01:20:37+00:00"
+        },
+        {
+          "name": "陆檩",
+          "role": "党组副书记、副局长、直属机关党委书记",
+          "division": "分管：党建、党风廉政建设、宣传、人事、统战、老干部、科研医务、信息化、外事、信访、保密、安全稳定、应急管理、反兴奋剂、赛风赛纪、共青团工作、地方志工作。 协助分管：干部工作。",
+          "category": "单位领导",
+          "informationResponsibility": true,
+          "quote": "党组副书记、副局长、直属机关党委书记 陆檩 分管：党建、党风廉政建设、宣传、人事、统战、老干部、科研医务、信息化、外事、信访、保密、安全稳定、应急管理、反兴奋剂、赛风赛纪、共青团工作、地方志工作。 协助分管：干部工作。",
+          "source": {
+            "url": "https://tyj.sh.gov.cn/ldcy/20260826/9046d44e22084601ad180f591f9ef951.html",
+            "title": "市体育局领导及工作分工",
+            "publishedAt": "2026-09-10"
+          },
+          "checkedAt": "2026-10-23T01:20:37+00:00"
+        },
+        {
+          "name": "宋慧",
+          "role": "党组成员、 一级巡视员、局工会主席",
+          "division": "分管： 群众体育、非奥项目、体育场馆、精神文明、行政后勤、档案、工会工作。",
+          "category": "单位领导",
+          "informationResponsibility": false,
+          "quote": "党组成员、 一级巡视员、局工会主席 宋慧 分管： 群众体育、非奥项目、体育场馆、精神文明、行政后勤、档案、工会工作。",
+          "source": {
+            "url": "https://tyj.sh.gov.cn/ldcy/20260826/9046d44e22084601ad180f591f9ef951.html",
+            "title": "市体育局领导及工作分工",
+            "publishedAt": "2026-09-10"
+          },
+          "checkedAt": "2026-10-23T01:20:37+00:00"
+        },
+        {
+          "name": "许琦",
+          "role": "党组成员、副局长",
+          "division": "分管： 体育产业、政策法规、审计、行政审批、政务公开、建议提案、体育彩票、体育竞赛、裁判工作。 协助分管：财务工作。",
+          "category": "单位领导",
+          "informationResponsibility": false,
+          "quote": "党组成员、副局长 许琦 分管： 体育产业、政策法规、审计、行政审批、政务公开、建议提案、体育彩票、体育竞赛、裁判工作。 协助分管：财务工作。",
+          "source": {
+            "url": "https://tyj.sh.gov.cn/ldcy/20260826/9046d44e22084601ad180f591f9ef951.html",
+            "title": "市体育局领导及工作分工",
+            "publishedAt": "2026-09-10"
+          },
+          "checkedAt": "2026-10-23T01:20:37+00:00"
+        },
+        {
+          "name": "罗文桦",
+          "role": "党组成员、副局长",
+          "division": "分管： 青少年体育、文化教育（培训）、体教融合、基本建设工作。 协助分管：竞技体育工作。",
+          "category": "单位领导",
+          "informationResponsibility": false,
+          "quote": "党组成员、副局长 罗文桦 分管： 青少年体育、文化教育（培训）、体教融合、基本建设工作。 协助分管：竞技体育工作。",
+          "source": {
+            "url": "https://tyj.sh.gov.cn/ldcy/20260826/9046d44e22084601ad180f591f9ef951.html",
+            "title": "市体育局领导及工作分工",
+            "publishedAt": "2026-09-10"
+          },
+          "checkedAt": "2026-10-23T01:20:37+00:00"
+        },
+        {
+          "name": "王海威",
+          "role": "党组成员、竞技体育训练管理中心党委书记",
+          "division": "主持竞技体育训练管理中心全面工作。",
+          "category": "单位领导",
+          "informationResponsibility": false,
+          "quote": "党组成员、竞技体育训练管理中心党委书记 王海威 主持竞技体育训练管理中心全面工作。",
+          "source": {
+            "url": "https://tyj.sh.gov.cn/ldcy/20260826/9046d44e22084601ad180f591f9ef951.html",
+            "title": "市体育局领导及工作分工",
+            "publishedAt": "2026-09-10"
+          },
+          "checkedAt": "2026-10-23T01:20:37+00:00"
+        }
+      ],
+      "lastCheck": {
+        "at": "2026-10-23T01:20:37+00:00",
+        "status": "ok"
+      }
+    },
+    {
+      "id": "2108019729",
+      "people": [
+        {
+          "name": "孟庆宇",
+          "role": "党组书记、局长",
+          "division": "主持全面工作。",
+          "category": "单位领导",
+          "informationResponsibility": false,
+          "quote": "孟庆宇 现任水利部太湖流域管理局党组书记、局长。 工作分工：主持全面工作。",
+          "source": {
+            "url": "https://www.tba.gov.cn/slbthlyglj/mqy/mqy.htm",
+            "title": "太湖局官网 · 领导简介",
+            "publishedAt": "水利部太湖流域管理局"
+          },
+          "checkedAt": "2026-10-23T01:20:37+00:00"
+        },
+        {
+          "name": "朱月明",
+          "role": "党组成员、副局长",
+          "division": "负责机关政务、河湖管理、河湖长制、水土保持、农村水利水电、水利科技、国际合作方面的工作。",
+          "category": "单位领导",
+          "informationResponsibility": false,
+          "quote": "朱月明 现任水利部太湖流域管理局党组成员、副局长。 工作分工：负责机关政务、河湖管理、河湖长制、水土保持、农村水利水电、水利科技、国际合作方面的工作。",
+          "source": {
+            "url": "https://www.tba.gov.cn/slbthlyglj/zym/zym.htm",
+            "title": "太湖局官网 · 领导简介",
+            "publishedAt": "水利部太湖流域管理局"
+          },
+          "checkedAt": "2026-10-23T01:20:37+00:00"
+        },
+        {
+          "name": "戴甦",
+          "role": "党组成员、副局长、机关党委书记、一级巡视员",
+          "division": "负责人事、离退休干部、机关党务、 精神文明建设、水利信息化、水文、工会方面的工作。",
+          "category": "单位领导",
+          "informationResponsibility": true,
+          "quote": "戴甦 现任水利部太湖流域管理局党组成员、副局长、机关党委书记、一级巡视员。 工作分工：负责人事、离退休干部、机关党务、 精神文明建设、水利信息化、水文、工会方面的工作。",
+          "source": {
+            "url": "https://www.tba.gov.cn/slbthlyglj/d/d.htm",
+            "title": "太湖局官网 · 领导简介",
+            "publishedAt": "水利部太湖流域管理局"
+          },
+          "checkedAt": "2026-10-23T01:20:37+00:00"
+        },
+        {
+          "name": "姚似锦",
+          "role": "党组成员、机关党委副书记、机关纪委书记",
+          "division": "负责纪检方面的工作。",
+          "category": "单位领导",
+          "informationResponsibility": false,
+          "quote": "姚似锦 现任水利部太湖流域管理局党组成员、机关党委副书记、机关纪委书记。 工作分工：负责纪检方面的工作。",
+          "source": {
+            "url": "https://www.tba.gov.cn/slbthlyglj/ysj/ysj.htm",
+            "title": "太湖局官网 · 领导简介",
+            "publishedAt": "水利部太湖流域管理局"
+          },
+          "checkedAt": "2026-10-23T01:20:37+00:00"
+        },
+        {
+          "name": "徐家贵",
+          "role": "党组成员、副局长",
+          "division": "负责规划计划、政策法规、水政监察、财务经济、水利审计、工程建设与运行管理、后勤管理方面的工作。",
+          "category": "单位领导",
+          "informationResponsibility": false,
+          "quote": "徐家贵 现任水利部太湖流域管理局党组成员、副局长。 工作分工：负责规划计划、政策法规、水政监察、财务经济、水利审计、工程建设与运行管理、后勤管理方面的工作。",
+          "source": {
+            "url": "https://www.tba.gov.cn/slbthlyglj/xjg/xjg.htm",
+            "title": "太湖局官网 · 领导简介",
+            "publishedAt": "水利部太湖流域管理局"
+          },
+          "checkedAt": "2026-10-23T01:20:37+00:00"
+        },
+        {
+          "name": "金科",
+          "role": "党组成员、副局长",
+          "division": "负责水资源管理、节约用水、水资源保护、水利监督、安全生产、水旱灾害防御方面的工作。",
+          "category": "单位领导",
+          "informationResponsibility": false,
+          "quote": "金科 现任水利部太湖流域管理局党组成员、副局长。 工作分工：负责水资源管理、节约用水、水资源保护、水利监督、安全生产、水旱灾害防御方面的工作。",
+          "source": {
+            "url": "https://www.tba.gov.cn/slbthlyglj/jk/jk.htm",
+            "title": "太湖局官网 · 领导简介",
+            "publishedAt": "水利部太湖流域管理局"
+          },
+          "checkedAt": "2026-10-23T01:20:37+00:00"
+        }
+      ],
+      "lastCheck": {
+        "at": "2026-10-23T01:20:37+00:00",
+        "status": "ok"
+      }
+    }
+  ],
+  "updatedAt": "2026-10-23T01:20:37+00:00"
+}

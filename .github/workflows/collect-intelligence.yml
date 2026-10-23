@@ -43,6 +43,8 @@ jobs:
           else
             python intelligence/collector.py --sqlite "$RUNNER_TEMP/customer-intelligence.sqlite"
           fi
+      - name: Refresh official leadership records
+        run: python intelligence/people.py
       - name: Export independent public snapshot
         run: python intelligence/publish.py --sqlite "$RUNNER_TEMP/customer-intelligence.sqlite"
       - name: Report source failure
@@ -50,7 +52,7 @@ jobs:
         run: echo '::warning::Some sources could not be collected. Previous information is retained; inspect collection status on the page.'
       - name: Save published information
         run: |
-          git add public/profile-data.json
+          git add public/profile-data.json public/people-data.json
           if ! git diff --cached --quiet; then
             git config user.name 'github-actions[bot]'
             git config user.email '41898282+github-actions[bot]@users.noreply.github.com'

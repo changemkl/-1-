@@ -1,6 +1,8 @@
 /* Organization evidence is independent of the customer-name spreadsheet. */
 (() => {
   const records = new Map();
+  const peopleRecords = new Map();
+  window.organizationLeadersFor = x => (peopleRecords.get(customerIdentifier(x))?.people || []).filter(p => p.category === '单位领导');
   const escape = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const overlay = document.createElement('div');
   overlay.className = 'org-overlay';
@@ -10,12 +12,18 @@
   const panel = overlay.querySelector('.org-drawer');
   let trigger, closeTimer, selected;
   const tree = nodes => `<ul class="org-branches">${nodes.map(n => `<li>${n.children?.length ? `<details open><summary>${escape(n.name)}<small>${n.children.length}</small></summary>${tree(n.children)}</details>` : `<div class="org-leaf">${escape(n.name)}</div>`}</li>`).join('')}</ul>`;
+  function peopleView(id) {
+    const record = peopleRecords.get(id), people = record?.people || [];
+    const categories = [['单位领导', people.filter(p => p.category === '单位领导')], ['分管信息化领导', people.filter(p => p.informationResponsibility)], ['信息化部门负责人', people.filter(p => p.category === '信息化部门负责人')], ['采购项目联系人', people.filter(p => p.category === '采购项目联系人')]];
+    const personView = p => `<div class="org-person"><strong>${escape(p.name)}</strong><span>${escape(p.role)}</span>${p.division ? `<p>${escape(p.division)}</p>` : '<p class="org-unconfirmed">具体分工未确认</p>'}${p.source && /^https:\/\//.test(p.source.url) ? `<a href="${escape(p.source.url)}" target="_blank" rel="noopener noreferrer">${escape(p.source.title)} ↗</a>` : ''}<small>发布：${escape(p.source?.publishedAt || '未标注')} · 核对：${escape(p.checkedAt?.slice(0,10) || '未确认')}</small></div>`;
+    return `<section class="org-people"><h3>相关责任人 <small>${people.length} 人</small></h3><p class="org-people-note">按官网列示整理；招标联系人不代表项目决策人。</p>${record?.lastCheck?.status === 'unavailable' ? '<p class="org-unconfirmed">本次未能重新核对，以下为此前公开记录，请以原文为准。</p>' : ''}${categories.map(([label, list]) => `<details class="org-person-group" ${label === '分管信息化领导' ? 'open' : ''}><summary>${label}<small>${list.length}</small></summary>${list.length ? list.map(personView).join('') : '<p class="org-unconfirmed">暂无可核实的公开资料</p>'}</details>`).join('')}</section>`;
+  }
   function render() {
     const record = records.get(customerIdentifier(selected));
     overlay.querySelector('#org-title').textContent = new DOMParser().parseFromString(selected[0], 'text/html').body.textContent;
     const sources = record?.sources || (record?.source ? [record.source] : []);
     const links = sources.filter(source => /^https:\/\//.test(source.url)).map(source => `<a class="org-source" href="${escape(source.url)}" target="_blank" rel="noopener noreferrer">${escape(source.title)} ↗<small>发布：${escape(source.publishedAt)}</small></a>`).join('');
-    overlay.querySelector('.org-content').innerHTML = `<div class="org-root">${escape(overlay.querySelector('#org-title').textContent)}</div>${record?.nodes?.length ? tree(record.nodes) : '<p class="org-empty">暂无已核实的组织架构资料</p>'}<div class="org-note">${escape(record?.note || '机构层级待核实，暂不展示未经确认的部门及人员。')}</div>${links}${sources.length ? `<p class="org-checked">核对日期：${escape(record.checkedAt)}</p>` : ''}`;
+    overlay.querySelector('.org-content').innerHTML = `<div class="org-root">${escape(overlay.querySelector('#org-title').textContent)}</div>${peopleView(customerIdentifier(selected))}<h3 class="org-section-title">机构设置</h3>${record?.nodes?.length ? tree(record.nodes) : '<p class="org-empty">暂无已核实的组织架构资料</p>'}<div class="org-note">${escape(record?.note || '机构层级待核实，暂不展示未经确认的部门及人员。')}</div>${links}${sources.length ? `<p class="org-checked">核对日期：${escape(record.checkedAt)}</p>` : ''}`;
   }
   function close() {
     if (overlay.hidden) return;
@@ -51,8 +59,17 @@
       else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
     }
   });
-  fetch('./organization-data.json', {cache:'no-store'}).then(r => { if (!r.ok) throw Error('organization data'); return r.json(); }).then(data => {
-    for (const record of data.customers || []) records.set(String(record.id), record);
-    if (selected && !overlay.hidden) render();
-  }).catch(() => {});
+  const load = async (file, map) => {
+    try {
+      const r = await fetch(new URL('./' + file + '?v=' + Math.floor(Date.now()/60000), location.href), {cache:'no-store'});
+      if (!r.ok) throw Error('Public organization data unavailable');
+      const data = await r.json();
+      for (const record of data.customers || []) map.set(String(record.id), record);
+      if (selected && !overlay.hidden) render();
+      if (file === 'people-data.json' && typeof refreshProfiles === 'function') refreshProfiles();
+    } catch { /* Retain already loaded evidence. */ }
+  };
+  load('organization-data.json', records);
+  load('people-data.json', peopleRecords);
+  setInterval(() => load('people-data.json', peopleRecords), 300000);
 })();

@@ -17,3 +17,13 @@ test('organization evidence belongs to a current customer and has a public sourc
     } else assert.ok(record.note.includes('核实'));
   }
 });
+test('responsibility records retain evidence and only explicit IT assignments are labelled', () => {
+  const staff = JSON.parse(fs.readFileSync('public/people-data.json','utf8'));
+  for(const customer of staff.customers) for(const person of customer.people) {
+    assert.ok(person.name && person.role && person.quote);
+    assert.equal(new URL(person.source.url).protocol,'https:');
+    assert.ok(person.quote.replace(/\s+/g,'').includes(person.name));
+    assert.match(person.checkedAt,/^\d{4}-\d{2}-\d{2}/);
+    if(person.informationResponsibility) assert.match(person.division,/(负责|分管).*信息化/);
+  }
+});
