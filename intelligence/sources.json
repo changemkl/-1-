@@ -90,7 +90,8 @@
           ],
           "verified_by": "https://www.gzw.sh.gov.cn/shgzw_zxzx_gqdt/20240425/5ff075fb01c84fb387949cec5eeb2b33.html",
           "verification_note": "上海国资委公开检索结果及平台公开署名关联上海建工；当前正文访问受限，单独记录读取状态。",
-          "is_listing": true
+          "is_listing": true,
+          "render_public_list": true
         }
       ],
       "buyer_aliases": [
@@ -131,7 +132,8 @@
           "entry_urls": [
             "https://www.tba.gov.cn/slbthlyglj/zw/zw.html"
           ],
-          "time_budget": 60
+          "time_budget": 60,
+          "dedicated_listing": true
         },
         {
           "label": "中国政府采购网中央公告",
@@ -220,7 +222,8 @@
             "tyj.sh.gov.cn"
           ],
           "verified_by": "https://tyj.sh.gov.cn/mkft1/",
-          "is_listing": true
+          "is_listing": true,
+          "dedicated_listing": true
         }
       ],
       "buyer_aliases": [

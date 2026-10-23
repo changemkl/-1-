@@ -34,6 +34,7 @@ def stage_for(title):
     if any(w in title for w in ('终止公告','废标公告','取消采购')):return '终止或废标'
     if any(w in title for w in ('更正公告','变更公告')):return '更正公告'
     if '采购意向' in title:return '采购意向'
+    if any(w in title for w in ('招标意向','招标计划')):return '招标意向'
     if any(w in title for w in ('中标','成交','结果公告')):return '中标或成交信息'
     if '合同' in title:return '合同信息'
     if '验收' in title:return '验收信息'

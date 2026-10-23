@@ -6,7 +6,7 @@ from unittest.mock import patch
 sys.path.insert(0,str(Path('intelligence').resolve()))
 from collector import Page,sync_customers
 from store import Store
-from platforms import yzw_notice,html_notice_facts,collect_customer_platforms
+from platforms import yzw_notice,html_notice_facts,collect_customer_platforms,public_listing_project,collect_html
 
 SOURCE={'customer_id':'1','aliases':['中国建筑第八工程局有限公司','中建八局'],'buyer_aliases':['中国建筑第八工程局','中建八局']}
 
@@ -15,7 +15,9 @@ class PlatformTests(unittest.TestCase):
         return {'name':'中建八局信息化系统采购','tenderCompanyName':'中建八局第一建设有限公司','tenderCode':'public-test','status':1,'tenderEndDate':'2099-10-30 10:00:00',**changes}
 
     def test_registration_deadline_is_never_a_tender_deadline(self):
-        self.assertIsNone(yzw_notice(self.row(tenderEndDate=None,endTime='2099-10-30 10:00:00'),SOURCE))
+        notice=yzw_notice(self.row(tenderEndDate=None,endTime='2099-10-30 10:00:00'),SOURCE)
+        self.assertIsNone(notice[4]['projects'][0]['deadline'])
+        self.assertTrue(notice[4]['projects'][0]['public_title_only'])
         self.assertIsNone(yzw_notice(self.row(tenderEndDate='2025-01-01 10:00:00'),SOURCE))
 
     def test_keyword_hit_does_not_establish_customer_buyer_or_it_project(self):
@@ -55,5 +57,33 @@ class PlatformTests(unittest.TestCase):
         self.assertEqual(facts['projects'][0]['deadline']['value'],'2099-10-30 14:00')
         self.assertEqual(facts['projects'][0]['buyer']['value'],source['related_buyers'][0])
         self.assertIn('官网发布的关联采购',facts['projects'][0]['relation'])
+
+    def test_public_intent_title_does_not_require_body_or_invent_dates(self):
+        p=public_listing_project('中建八局信息化系统招标意向','https://platform.gov.cn/a',SOURCE,{},'报名截止时间：2099-10-30 10:00')
+        self.assertEqual(p['stage'],'招标意向')
+        self.assertIsNone(p['deadline'])
+        self.assertIsNone(p['planned_purchase'])
+        self.assertIsNone(p['buyer'])
+        self.assertTrue(p['public_title_only'])
+        self.assertIsNone(public_listing_project('中建八局2025年11月采购意向','https://platform.gov.cn/a',SOURCE,{}))
+        self.assertIsNone(public_listing_project('中建三局信息化系统招标意向','https://platform.gov.cn/a',SOURCE,{}))
+
+    def test_public_title_survives_protected_detail(self):
+        page=Page();page.feed('<ul><li><a href="/notice/1">中建八局信息化系统公开招标公告</a><span>采购人：中建八局第一建设有限公司</span></li></ul>')
+        spec={'url':'https://platform.gov.cn/notices/','hosts':['platform.gov.cn'],'kind':'html','label':'公开列表','is_listing':True}
+        with tempfile.TemporaryDirectory() as directory:
+            store=Store(directory+'/db.sqlite');store.initialize();sync_customers(store,{'1':'客户'})
+            with patch('platforms.robot_policy') as robot,patch('platforms.load_page',side_effect=[(page,spec['url']),PermissionError('Detail requires login')]) as load:
+                robot.return_value.can_fetch.return_value=True
+                count,diagnostics=collect_html(store,SOURCE,spec)
+            self.assertEqual(count,1)
+            self.assertEqual(load.call_count,2)
+            self.assertEqual(diagnostics['protected_details_skipped'],1)
+            import json
+            facts=json.loads(store.query('SELECT payload FROM document_facts')[0]['payload'])
+            self.assertEqual(facts['projects'][0]['name'],'中建八局信息化系统公开招标公告')
+            self.assertIsNone(facts['projects'][0]['deadline'])
+            self.assertEqual(store.query('SELECT url FROM documents')[0]['url'],spec['url'])
+            store.local.close()
 
 if __name__=='__main__':unittest.main()

@@ -1,6 +1,7 @@
 """Read public open-tender notices; never infer a buyer from a keyword hit."""
 import datetime
 import gzip
+import html
 import json
 import re
 import time
@@ -10,7 +11,7 @@ import urllib.error
 import urllib.robotparser
 import uuid
 from collector import Page, now, save_document
-from facts import extract_facts, normalize
+from facts import extract_facts, normalize, VERSION
 
 BASE = 'https://www.zfcg.sh.gov.cn'
 
@@ -73,41 +74,46 @@ def tender_facts(detail, buyer, aliases):
     return facts
 
 def collect_public_tenders(store, source):
+    from platforms import public_listing_project
     started=now();count=0;status='failed';error=None
     try:
-        policy=portal_policy()
-        end=datetime.datetime.now(datetime.timezone.utc)
-        payload={'keyword':source['aliases'][0],'firstCode':'ZcyAnnouncement','secondCode':'ZcyAnnouncement2','districtCode':[],
+        policy=portal_policy();end=datetime.datetime.now(datetime.timezone.utc);seen=set();detail_checks=0;successful_queries=0;errors=[]
+        payload={'keyword':source['aliases'][0],'firstCode':'ZcyAnnouncement','districtCode':[],
                  'publishDateBegin':int((end-datetime.timedelta(days=60)).timestamp()*1000),'publishDateEnd':int(end.timestamp()*1000),
-                 'pageNo':1,'pageSize':15,'isTitleSearch':0,'order':'desc','leaf':0}
-        seen=set()
-        for page_no in (1,2):
-            payload['pageNo']=page_no
-            result=request_json('/portal/all',policy,payload)
-            rows=result.get('data',[])
-            for row in rows:
-                buyer=row.get('purchaseName') or ''
-                canonical=source['aliases'][0]
-                # Excludes unrelated projects mentioning the client in qualification clauses.
-                if not buyer.startswith(canonical) or '公开招标公告' not in row.get('title',''):continue
-                aid=row.get('articleId')
-                if not aid or aid in seen:continue
-                seen.add(aid)
-                if len(seen)>4:break
+                 'pageSize':15,'isTitleSearch':0,'order':'desc','leaf':0}
+        for category in ('ZcyAnnouncement2','77-379845'):
+            for page_no in (1,2):
+                payload.update(secondCode=category,pageNo=page_no)
+                try:result=request_json('/portal/all',policy,payload);successful_queries+=1
+                except Exception as exc:errors.append(str(exc)[:120]);break
+                rows=result.get('data',[])
+                for row in rows:
+                    buyer=row.get('purchaseName') or ''
+                    if not buyer.startswith(source['aliases'][0]) or row.get('invalid')==1 or row.get('announcementType') not in (3001,10016):continue
+                    aid=row.get('articleId')
+                    if not aid or aid in seen:continue
+                    seen.add(aid)
+                    query=urllib.parse.urlencode({'parentId':row['parentId'],'articleId':aid});url=BASE+'/site/detail?'+query
+                    title=html.unescape(re.sub('<[^>]+>','',row['title']))
+                    snippet=html.unescape(re.sub('<[^>]+>','',row.get('content') or ''))
+                    project=public_listing_project(title,url,source,{},'采购人：'+buyer+'\n'+snippet)
+                    if not project:continue
+                    if not project['planned_purchase'] and not project['deadline'] and detail_checks<4:
+                        detail_checks+=1;time.sleep(1)
+                        try:
+                            detail=request_json('/portal/detail?'+query,policy)
+                            if any(link.get('isExist') and link.get('typeName') in ('结果公告','终止公告') for link in detail.get('announcementLinkDtoList',[])):continue
+                            page=Page();page.feed(detail.get('content',''))
+                            project=public_listing_project(title,url,source,{},'采购人：'+buyer+'\n'+'\n'.join(page.paragraphs+page.parts))
+                        except Exception:pass # The public list remains sufficient; no login handling.
+                    if not project:continue
+                    published=datetime.datetime.fromtimestamp(row['publishDate']/1000,datetime.timezone(datetime.timedelta(hours=8))).date().isoformat() if row.get('publishDate') else None
+                    facts={'version':VERSION,'kind':'public_title','projects':[project],'leaders':[]}
+                    save_document(store,source['customer_id'],url,title,project['quote'],published,['公开采购标题'],facts);count+=1
+                if len(rows)<15 or page_no*15>=result.get('total',0):break
                 time.sleep(1)
-                query=urllib.parse.urlencode({'parentId':row['parentId'],'articleId':aid})
-                detail=request_json('/portal/detail?'+query,policy)
-                if detail.get('announcementType')!=3001:continue
-                facts=tender_facts(detail,buyer,source['aliases'])
-                if not facts:continue
-                url=BASE+'/site/detail?'+query
-                page=Page();page.feed(detail.get('content',''))
-                published=datetime.datetime.fromtimestamp(detail['publishDate']/1000,datetime.timezone(datetime.timedelta(hours=8))).date().isoformat()
-                save_document(store,source['customer_id'],url,detail['title'],'\n'.join(page.parts)[:5000],published,['公开招标公告'],facts)
-                count+=1
-            if len(rows)<15 or page_no*15>=result.get('total',0) or len(seen)>=4:break
-            time.sleep(1)
-        status='success'
+        if not successful_queries:raise RuntimeError('; '.join(errors) or 'Public portal unavailable')
+        status='success';error='; '.join(errors) or None
     except Exception as exc:error=type(exc).__name__+': '+str(exc)[:160]
     store.query('INSERT INTO crawl_runs VALUES(?,?,?,?,?,?,?,?)',[str(uuid.uuid4()),source['customer_id'],BASE,started,now(),status,count,error])
-    return {'customer_id':source['customer_id'],'source':'上海市政府采购网公开招标','status':status,'documents_found':count,'error':error}
+    return {'customer_id':source['customer_id'],'source':'上海市政府采购网公开采购标题','status':status,'documents_found':count,'error':error}

@@ -6,15 +6,18 @@ function profileFor(x){return customerProfiles.get(customerIdentifier(x));}
 function sourceLink(p){const url=safeSource(p.url);return url?`<a class="original-source" href="${syncEscape(url)}" target="_blank" rel="noopener noreferrer">原文 · ${syncEscape(new URL(url).hostname)} ↗</a>`:'';}
 function sourceTime(p){return `${p.published_at?'发布：'+syncEscape(p.published_at)+' · ':'发布日期未确认 · '}采集：${syncEscape(new Date(p.fetched_at).toLocaleString('zh-CN',{timeZone:'Asia/Shanghai'}))}`;}
 function shanghaiDate(now=new Date()){return new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Shanghai',year:'numeric',month:'2-digit',day:'2-digit'}).format(now);}
+function publicTitleIsRecent(p,now){const checked=new Date(p.fetched_at||'');return Number.isFinite(checked.getTime())&&now-checked<=30*86400000&&now>=checked;}
 function projectIsCurrent(p,now=new Date()){
  const today=shanghaiDate(now);
- if(p.stage==='采购意向'){
+ if(p.stage==='采购意向'||p.stage==='招标意向'){
   const date=p.planned_purchase||'';
   if(/^\d{4}-\d{2}-\d{2}$/.test(date))return date>=today;
-  return /^\d{4}-\d{2}$/.test(date)&&date>=today.slice(0,7);
+  if(/^\d{4}-\d{2}$/.test(date))return date>=today.slice(0,7);
+  return p.public_title_only===true&&publicTitleIsRecent(p,now);
  }
  if(/采购公告|招标公告|磋商公告|询价公告|谈判公告/.test(p.stage||'')){
   const value=p.deadline?.value||'';
+  if(!value)return p.public_title_only===true&&publicTitleIsRecent(p,now);
   if(!/^\d{4}-\d{2}-\d{2}(?:[ T]\d{2}:\d{2}(?::\d{2})?)?$/.test(value))return false;
   const normalized=value.length===10?value+'T23:59:59':value.replace(' ','T');
   return new Date(normalized+'+08:00').getTime()>=now.getTime();
@@ -42,7 +45,7 @@ function profileCountFor(x){return profileProjectCountFor(x)+profileLeaderCountF
 function profilePreview(x){
  const p=profileFor(x),projects=visibleProjectsFor(x).sort((a,b)=>(b.planned_purchase||b.deadline?.value||'').localeCompare(a.planned_purchase||a.deadline?.value||'')),leaders=p?.leaders||[];
  if(!projects.length&&!leaders.length)return '<p class="information-empty">暂无有效期内的采购或可核验资料</p>';
- return `<div class="card-project-list">${projects.filter(r=>safeSource(r.url)).map(r=>`<div class="card-project-row" data-featured="${Boolean(r.featured)}"><a href="${syncEscape(safeSource(r.url))}" target="_blank" rel="noopener noreferrer" title="${syncEscape(r.buyer?.value||'')}">${syncEscape(r.name)} <span aria-hidden="true">↗</span></a><div class="card-project-date"><span>${r.stage==='采购意向'?'采购意向 · 计划采购':r.stage==='公开招标公告'?'公开招标 · 投标截止':r.deadline?'采购公告 · 响应截止':'发布日期'}</span><time>${syncEscape(r.planned_purchase||r.deadline?.value||r.published_at||'未确认')}</time></div></div>`).join('')}${leaders.map(r=>`<p class="leader-preview">${syncEscape(r.name)} · ${syncEscape(r.role)}</p>`).join('')}</div>`;
+ return `<div class="card-project-list">${projects.filter(r=>safeSource(r.notice_url||r.url)).map(r=>`<div class="card-project-row" data-featured="${Boolean(r.featured)}"><a href="${syncEscape(safeSource(r.notice_url||r.url))}" target="_blank" rel="noopener noreferrer" title="${syncEscape(r.buyer?.value||'')}">${syncEscape(r.name)} <span aria-hidden="true">↗</span></a><div class="card-project-date"><span>${r.planned_purchase?(r.stage==='招标意向'?'招标意向 · 计划招标':'采购意向 · 计划采购'):r.deadline?(r.stage==='公开招标公告'?'公开招标 · 投标截止':'采购公告 · 截止时间'):r.public_title_only?'公开标题 · 有效期待确认':'发布日期'}</span><time>${syncEscape(r.planned_purchase||r.deadline?.value||(r.public_title_only?'采购日期未公开':r.published_at||'未确认'))}</time></div></div>`).join('')}${leaders.map(r=>`<p class="leader-preview">${syncEscape(r.name)} · ${syncEscape(r.role)}</p>`).join('')}</div>`;
 }
 function profileSearchFor(x){const p=profileFor(x);return[...visibleProjectsFor(x).map(r=>r.name+' '+r.quote+' '+(r.buyer?.value||'')),...(p?.leaders||[]).map(r=>r.name+' '+r.role+' '+(r.division||''))].join(' ');}
 window.addEventListener('customers-updated',refreshProfiles);setInterval(refreshProfiles,300000);refreshProfiles();

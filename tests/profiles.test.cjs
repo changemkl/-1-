@@ -19,3 +19,11 @@ test('open tenders require an explicit deadline that has not passed in China tim
  assert.equal(context.projectIsCurrent({stage:'公开招标公告'},clock),false);
  assert.equal(context.shanghaiDate(new Date('2026-10-21T16:00:00Z')),'2026-10-22');
 });
+test('public title records can have unknown dates without being called active tenders',()=>{
+ const p={stage:'公开招标公告',public_title_only:true,fetched_at:'2026-10-22T03:00:00Z'};
+ assert.equal(context.projectIsCurrent(p,clock),true);
+ assert.equal(context.projectIsCurrent({...p,deadline:{value:'2026-10-21 09:00'}},clock),false);
+ assert.equal(context.projectIsCurrent({...p,fetched_at:'2025-01-01T00:00:00Z'},clock),false);
+ assert.equal(context.projectIsCurrent({...p,stage:'招标意向',planned_purchase:'2026-09'},clock),false);
+ assert.equal(context.projectIsCurrent({...p,stage:'招标意向',planned_purchase:'2026-11'},clock),true);
+});

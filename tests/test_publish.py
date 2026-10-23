@@ -6,9 +6,21 @@ import unittest
 sys.path.insert(0,str(Path('intelligence').resolve()))
 from store import Store
 from collector import sync_customers,save_document
-from publish import publish,deduplicate_signals
+from publish import publish,deduplicate_signals,merge_public_projects
 
 class PublishTests(unittest.TestCase):
+    def test_public_titles_do_not_replace_verified_dates_or_duplicate_notices(self):
+        detailed={'name':'明确项目','url':'https://unit.gov.cn/notice','planned_purchase':'2025-11'}
+        title={'name':'公开标题','url':'https://unit.gov.cn/list','notice_url':detailed['url'],'public_title_only':True}
+        result=merge_public_projects([title,detailed])
+        self.assertEqual(result,[detailed])
+        second={**title,'notice_url':'https://unit.gov.cn/other'}
+        self.assertEqual(len(merge_public_projects([second,dict(second)])),1)
+
+    def test_identical_monthly_intent_titles_on_different_notices_are_retained(self):
+        base={'category':'公开采购标题','title':'单位2099年11月采购意向','excerpt':'相同的列表摘要','fetched_at':'2026-10-23','url':'https://unit.gov.cn/a','facts':{'projects':[{'public_title_only':True}]}}
+        self.assertEqual(len(deduplicate_signals([base,{**base,'url':'https://unit.gov.cn/b'}])),2)
+
     def test_verified_notices_survive_repeated_automatic_exports(self):
         with tempfile.TemporaryDirectory() as directory:
             database=directory+'/db.sqlite';output=Path(directory)/'data.json'

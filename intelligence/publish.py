@@ -12,7 +12,10 @@ from facts import extract_facts,official_url,VERSION,is_standard_approval
 
 def deduplicate_signals(items):
     by_url = {}
-    for item in sorted(items,key=lambda s:s['fetched_at'],reverse=True):
+    def quality(item):
+        projects=(item.get('facts') or {}).get('projects',[])
+        return (2 if any(not p.get('public_title_only') for p in projects) else 1 if projects else 0,item['fetched_at'])
+    for item in sorted(items,key=quality,reverse=True):
         if item['category']=='客户概况' and '信息列表' in item['title']:continue
         url=item['url'].split('#')[0]
         by_url.setdefault(url,dict(item))
@@ -20,12 +23,35 @@ def deduplicate_signals(items):
     for item in by_url.values():
         title=re.sub(r'\s+','',unicodedata.normalize('NFKC',item['title'])).lower()
         excerpt=re.sub(r'\s+','',item['excerpt'])[:120]
-        key=(title,excerpt)
+        title_only=any(p.get('public_title_only') for p in (item.get('facts') or {}).get('projects',[]))
+        key=(title,excerpt,item['url'] if title_only else '')
         if key in seen:continue
         seen.add(key)
         item['source_host']=urllib.parse.urlsplit(item['url']).hostname
         unique.append(item)
     return unique
+
+
+def merge_public_projects(projects):
+    known={}
+    for project in projects:
+        key=project.get('notice_url') or project['url']
+        for field in ('planned_purchase','deadline'):
+            value=project.get(field)
+            if value:
+                identifier=value.get('value') if isinstance(value,dict) else value
+                known.setdefault((key,field),{})[identifier]=value
+    detailed={p['url'] for p in projects if not p.get('public_title_only')}
+    unique={}
+    for project in sorted(projects,key=lambda p:bool(p.get('public_title_only'))):
+        project=dict(project);url=project.get('notice_url') or project['url']
+        if project.get('public_title_only'):
+            if url in detailed:continue
+            for field in ('planned_purchase','deadline'):
+                values=known.get((url,field),{})
+                if not project.get(field) and len(values)==1:project[field]=next(iter(values.values()))
+        unique.setdefault((url,project['name']),project)
+    return list(unique.values())
 
 
 def publish(database, output):
@@ -72,6 +98,7 @@ def publish(database, output):
             projects.extend({**p,**provenance} for p in facts['projects'])
             leaders.extend({**p,**provenance} for p in facts['leaders'])
         unique_leaders={}
+        projects=merge_public_projects(projects)
         for leader in sorted(leaders,key=lambda p:p['fetched_at'],reverse=True):
             unique_leaders.setdefault((leader['name'],leader['role']),leader)
         source_specs=list((source or {}).get('procurement_sources',[]))

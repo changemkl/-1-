@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-23T00:43:18.792048+00:00",
+  "updatedAt": "2026-10-23T01:01:10.186767+00:00",
   "profiles": [
     {
       "id": "2100161493",
@@ -233,7 +233,7 @@
       "leaders": [],
       "procurementSources": [
         {
-          "finished_at": "2026-10-23T00:43:01.551865+00:00",
+          "finished_at": "2026-10-23T00:58:31.148787+00:00",
           "status": "success",
           "documents_found": 0,
           "label": "上海市政府采购网",
@@ -248,10 +248,10 @@
         }
       ],
       "lastRun": {
-        "finished_at": "2026-10-23T00:43:18.706062+00:00",
+        "finished_at": "2026-10-23T00:58:31.148787+00:00",
         "status": "success",
         "documents_found": 0,
-        "source_url": "https://tyj.sh.gov.cn/zfcg/"
+        "source_url": "https://www.zfcg.sh.gov.cn"
       }
     },
     {
@@ -414,6 +414,154 @@
             "leaders": []
           },
           "source_host": "www.zfcg.sh.gov.cn"
+        },
+        {
+          "category": "项目与采购公开信息",
+          "status": "pending",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=Kq1ACa2lkGG%2BjyRSW2M8kQ%3D%3D",
+          "title": "上海市住房和城乡建设管理委员会科学技术委员会事务中心2026年11月政府采购意向",
+          "excerpt": "采购人：上海市住房和城乡建设管理委员会科学技术委员会事务中心\n    为便于供应商及时了解政府采购信息，根据《财政部关于开展政府采购意向公开工作的通知》（财库〔2020〕10号）等有关规定，现将 上海市住房和城乡建设管理委员会科学技术委员会事务中心",
+          "published_at": "2026-10-16",
+          "fetched_at": "2026-10-23T00:58:28.582209+00:00",
+          "facts": {
+            "version": 1,
+            "kind": "public_title",
+            "projects": [
+              {
+                "name": "上海市住房和城乡建设管理委员会科学技术委员会事务中心2026年11月政府采购意向",
+                "stage": "采购意向",
+                "public_title_only": true,
+                "notice_url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=Kq1ACa2lkGG%2BjyRSW2M8kQ%3D%3D",
+                "quote": "采购人：上海市住房和城乡建设管理委员会科学技术委员会事务中心\n    为便于供应商及时了解政府采购信息，根据《财政部关于开展政府采购意向公开工作的通知》（财库〔2020〕10号）等有关规定，现将 上海市住房和城乡建设管理委员会科学技术委员会事务中心",
+                "buyer": {
+                  "value": "上海市住房和城乡建设管理委员会科学技术委员会事务中心",
+                  "unit": "",
+                  "quote": "采购人：上海市住房和城乡建设管理委员会科学技术委员会事务中心"
+                },
+                "supplier": null,
+                "budget": null,
+                "award_amount": null,
+                "planned_purchase": "2026-11",
+                "deadline": null,
+                "service_end": null,
+                "relation": "公开列表所列采购人：上海市住房和城乡建设管理委员会科学技术委员会事务中心",
+                "notice": "仅依据无需登录的公开标题及列表字段；未读取登录后详情。日期缺失时不确认采购有效期。"
+              }
+            ],
+            "leaders": []
+          },
+          "source_host": "www.zfcg.sh.gov.cn"
+        },
+        {
+          "category": "项目与采购公开信息",
+          "status": "pending",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=JTBJLjnhQVxJRsy2TLPizA%3D%3D",
+          "title": "上海市住房和城乡建设管理委员会人才开发评价中心2027年01月政府采购意向",
+          "excerpt": "采购人：上海市住房和城乡建设管理委员会人才开发评价中心\n    为便于供应商及时了解政府采购信息，根据《财政部关于开展政府采购意向公开工作的通知》（财库〔2020〕10号）等有关规定，现将 上海市住房和城乡建设管理委员会人才开发评价中心",
+          "published_at": "2026-10-09",
+          "fetched_at": "2026-10-23T00:58:28.582088+00:00",
+          "facts": {
+            "version": 1,
+            "kind": "public_title",
+            "projects": [
+              {
+                "name": "上海市住房和城乡建设管理委员会人才开发评价中心2027年01月政府采购意向",
+                "stage": "采购意向",
+                "public_title_only": true,
+                "notice_url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=JTBJLjnhQVxJRsy2TLPizA%3D%3D",
+                "quote": "采购人：上海市住房和城乡建设管理委员会人才开发评价中心\n    为便于供应商及时了解政府采购信息，根据《财政部关于开展政府采购意向公开工作的通知》（财库〔2020〕10号）等有关规定，现将 上海市住房和城乡建设管理委员会人才开发评价中心",
+                "buyer": {
+                  "value": "上海市住房和城乡建设管理委员会人才开发评价中心",
+                  "unit": "",
+                  "quote": "采购人：上海市住房和城乡建设管理委员会人才开发评价中心"
+                },
+                "supplier": null,
+                "budget": null,
+                "award_amount": null,
+                "planned_purchase": "2027-01",
+                "deadline": null,
+                "service_end": null,
+                "relation": "公开列表所列采购人：上海市住房和城乡建设管理委员会人才开发评价中心",
+                "notice": "仅依据无需登录的公开标题及列表字段；未读取登录后详情。日期缺失时不确认采购有效期。"
+              }
+            ],
+            "leaders": []
+          },
+          "source_host": "www.zfcg.sh.gov.cn"
+        },
+        {
+          "category": "项目与采购公开信息",
+          "status": "pending",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=9Sn2WZslcpqPZlq26f%2ByMQ%3D%3D",
+          "title": "上海市住房和城乡建设管理委员会人才开发评价中心2027年01月政府采购意向",
+          "excerpt": "采购人：上海市住房和城乡建设管理委员会人才开发评价中心\n    为便于供应商及时了解政府采购信息，根据《财政部关于开展政府采购意向公开工作的通知》（财库〔2020〕10号）等有关规定，现将 上海市住房和城乡建设管理委员会人才开发评价中心",
+          "published_at": "2026-10-09",
+          "fetched_at": "2026-10-23T00:58:28.581948+00:00",
+          "facts": {
+            "version": 1,
+            "kind": "public_title",
+            "projects": [
+              {
+                "name": "上海市住房和城乡建设管理委员会人才开发评价中心2027年01月政府采购意向",
+                "stage": "采购意向",
+                "public_title_only": true,
+                "notice_url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=9Sn2WZslcpqPZlq26f%2ByMQ%3D%3D",
+                "quote": "采购人：上海市住房和城乡建设管理委员会人才开发评价中心\n    为便于供应商及时了解政府采购信息，根据《财政部关于开展政府采购意向公开工作的通知》（财库〔2020〕10号）等有关规定，现将 上海市住房和城乡建设管理委员会人才开发评价中心",
+                "buyer": {
+                  "value": "上海市住房和城乡建设管理委员会人才开发评价中心",
+                  "unit": "",
+                  "quote": "采购人：上海市住房和城乡建设管理委员会人才开发评价中心"
+                },
+                "supplier": null,
+                "budget": null,
+                "award_amount": null,
+                "planned_purchase": "2027-01",
+                "deadline": null,
+                "service_end": null,
+                "relation": "公开列表所列采购人：上海市住房和城乡建设管理委员会人才开发评价中心",
+                "notice": "仅依据无需登录的公开标题及列表字段；未读取登录后详情。日期缺失时不确认采购有效期。"
+              }
+            ],
+            "leaders": []
+          },
+          "source_host": "www.zfcg.sh.gov.cn"
+        },
+        {
+          "category": "项目与采购公开信息",
+          "status": "pending",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=6zeBH3pFGb5I2dpvB%2FTkdA%3D%3D",
+          "title": "上海市住房和城乡建设管理委员会人才开发评价中心2027年01月政府采购意向",
+          "excerpt": "采购人：上海市住房和城乡建设管理委员会人才开发评价中心\n    为便于供应商及时了解政府采购信息，根据《财政部关于开展政府采购意向公开工作的通知》（财库〔2020〕10号）等有关规定，现将 上海市住房和城乡建设管理委员会人才开发评价中心",
+          "published_at": "2026-10-09",
+          "fetched_at": "2026-10-23T00:58:28.581588+00:00",
+          "facts": {
+            "version": 1,
+            "kind": "public_title",
+            "projects": [
+              {
+                "name": "上海市住房和城乡建设管理委员会人才开发评价中心2027年01月政府采购意向",
+                "stage": "采购意向",
+                "public_title_only": true,
+                "notice_url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=6zeBH3pFGb5I2dpvB%2FTkdA%3D%3D",
+                "quote": "采购人：上海市住房和城乡建设管理委员会人才开发评价中心\n    为便于供应商及时了解政府采购信息，根据《财政部关于开展政府采购意向公开工作的通知》（财库〔2020〕10号）等有关规定，现将 上海市住房和城乡建设管理委员会人才开发评价中心",
+                "buyer": {
+                  "value": "上海市住房和城乡建设管理委员会人才开发评价中心",
+                  "unit": "",
+                  "quote": "采购人：上海市住房和城乡建设管理委员会人才开发评价中心"
+                },
+                "supplier": null,
+                "budget": null,
+                "award_amount": null,
+                "planned_purchase": "2027-01",
+                "deadline": null,
+                "service_end": null,
+                "relation": "公开列表所列采购人：上海市住房和城乡建设管理委员会人才开发评价中心",
+                "notice": "仅依据无需登录的公开标题及列表字段；未读取登录后详情。日期缺失时不确认采购有效期。"
+              }
+            ],
+            "leaders": []
+          },
+          "source_host": "www.zfcg.sh.gov.cn"
         }
       ],
       "projects": [
@@ -521,14 +669,114 @@
           "published_at": "2026-01-06",
           "fetched_at": "2026-10-22T09:20:35.517483+00:00",
           "source_host": "www.zfcg.sh.gov.cn"
+        },
+        {
+          "name": "上海市住房和城乡建设管理委员会科学技术委员会事务中心2026年11月政府采购意向",
+          "stage": "采购意向",
+          "public_title_only": true,
+          "notice_url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=Kq1ACa2lkGG%2BjyRSW2M8kQ%3D%3D",
+          "quote": "采购人：上海市住房和城乡建设管理委员会科学技术委员会事务中心\n    为便于供应商及时了解政府采购信息，根据《财政部关于开展政府采购意向公开工作的通知》（财库〔2020〕10号）等有关规定，现将 上海市住房和城乡建设管理委员会科学技术委员会事务中心",
+          "buyer": {
+            "value": "上海市住房和城乡建设管理委员会科学技术委员会事务中心",
+            "unit": "",
+            "quote": "采购人：上海市住房和城乡建设管理委员会科学技术委员会事务中心"
+          },
+          "supplier": null,
+          "budget": null,
+          "award_amount": null,
+          "planned_purchase": "2026-11",
+          "deadline": null,
+          "service_end": null,
+          "relation": "公开列表所列采购人：上海市住房和城乡建设管理委员会科学技术委员会事务中心",
+          "notice": "仅依据无需登录的公开标题及列表字段；未读取登录后详情。日期缺失时不确认采购有效期。",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=Kq1ACa2lkGG%2BjyRSW2M8kQ%3D%3D",
+          "title": "上海市住房和城乡建设管理委员会科学技术委员会事务中心2026年11月政府采购意向",
+          "published_at": "2026-10-16",
+          "fetched_at": "2026-10-23T00:58:28.582209+00:00",
+          "source_host": "www.zfcg.sh.gov.cn"
+        },
+        {
+          "name": "上海市住房和城乡建设管理委员会人才开发评价中心2027年01月政府采购意向",
+          "stage": "采购意向",
+          "public_title_only": true,
+          "notice_url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=JTBJLjnhQVxJRsy2TLPizA%3D%3D",
+          "quote": "采购人：上海市住房和城乡建设管理委员会人才开发评价中心\n    为便于供应商及时了解政府采购信息，根据《财政部关于开展政府采购意向公开工作的通知》（财库〔2020〕10号）等有关规定，现将 上海市住房和城乡建设管理委员会人才开发评价中心",
+          "buyer": {
+            "value": "上海市住房和城乡建设管理委员会人才开发评价中心",
+            "unit": "",
+            "quote": "采购人：上海市住房和城乡建设管理委员会人才开发评价中心"
+          },
+          "supplier": null,
+          "budget": null,
+          "award_amount": null,
+          "planned_purchase": "2027-01",
+          "deadline": null,
+          "service_end": null,
+          "relation": "公开列表所列采购人：上海市住房和城乡建设管理委员会人才开发评价中心",
+          "notice": "仅依据无需登录的公开标题及列表字段；未读取登录后详情。日期缺失时不确认采购有效期。",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=JTBJLjnhQVxJRsy2TLPizA%3D%3D",
+          "title": "上海市住房和城乡建设管理委员会人才开发评价中心2027年01月政府采购意向",
+          "published_at": "2026-10-09",
+          "fetched_at": "2026-10-23T00:58:28.582088+00:00",
+          "source_host": "www.zfcg.sh.gov.cn"
+        },
+        {
+          "name": "上海市住房和城乡建设管理委员会人才开发评价中心2027年01月政府采购意向",
+          "stage": "采购意向",
+          "public_title_only": true,
+          "notice_url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=9Sn2WZslcpqPZlq26f%2ByMQ%3D%3D",
+          "quote": "采购人：上海市住房和城乡建设管理委员会人才开发评价中心\n    为便于供应商及时了解政府采购信息，根据《财政部关于开展政府采购意向公开工作的通知》（财库〔2020〕10号）等有关规定，现将 上海市住房和城乡建设管理委员会人才开发评价中心",
+          "buyer": {
+            "value": "上海市住房和城乡建设管理委员会人才开发评价中心",
+            "unit": "",
+            "quote": "采购人：上海市住房和城乡建设管理委员会人才开发评价中心"
+          },
+          "supplier": null,
+          "budget": null,
+          "award_amount": null,
+          "planned_purchase": "2027-01",
+          "deadline": null,
+          "service_end": null,
+          "relation": "公开列表所列采购人：上海市住房和城乡建设管理委员会人才开发评价中心",
+          "notice": "仅依据无需登录的公开标题及列表字段；未读取登录后详情。日期缺失时不确认采购有效期。",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=9Sn2WZslcpqPZlq26f%2ByMQ%3D%3D",
+          "title": "上海市住房和城乡建设管理委员会人才开发评价中心2027年01月政府采购意向",
+          "published_at": "2026-10-09",
+          "fetched_at": "2026-10-23T00:58:28.581948+00:00",
+          "source_host": "www.zfcg.sh.gov.cn"
+        },
+        {
+          "name": "上海市住房和城乡建设管理委员会人才开发评价中心2027年01月政府采购意向",
+          "stage": "采购意向",
+          "public_title_only": true,
+          "notice_url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=6zeBH3pFGb5I2dpvB%2FTkdA%3D%3D",
+          "quote": "采购人：上海市住房和城乡建设管理委员会人才开发评价中心\n    为便于供应商及时了解政府采购信息，根据《财政部关于开展政府采购意向公开工作的通知》（财库〔2020〕10号）等有关规定，现将 上海市住房和城乡建设管理委员会人才开发评价中心",
+          "buyer": {
+            "value": "上海市住房和城乡建设管理委员会人才开发评价中心",
+            "unit": "",
+            "quote": "采购人：上海市住房和城乡建设管理委员会人才开发评价中心"
+          },
+          "supplier": null,
+          "budget": null,
+          "award_amount": null,
+          "planned_purchase": "2027-01",
+          "deadline": null,
+          "service_end": null,
+          "relation": "公开列表所列采购人：上海市住房和城乡建设管理委员会人才开发评价中心",
+          "notice": "仅依据无需登录的公开标题及列表字段；未读取登录后详情。日期缺失时不确认采购有效期。",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=6zeBH3pFGb5I2dpvB%2FTkdA%3D%3D",
+          "title": "上海市住房和城乡建设管理委员会人才开发评价中心2027年01月政府采购意向",
+          "published_at": "2026-10-09",
+          "fetched_at": "2026-10-23T00:58:28.581588+00:00",
+          "source_host": "www.zfcg.sh.gov.cn"
         }
       ],
       "leaders": [],
       "procurementSources": [
         {
-          "finished_at": "2026-10-23T00:42:55.585180+00:00",
+          "finished_at": "2026-10-23T00:58:28.582539+00:00",
           "status": "success",
-          "documents_found": 0,
+          "documents_found": 5,
           "label": "上海市政府采购网",
           "url": "https://www.zfcg.sh.gov.cn"
         },
@@ -541,10 +789,10 @@
         }
       ],
       "lastRun": {
-        "finished_at": "2026-10-23T00:43:15.814837+00:00",
-        "status": "failed",
-        "documents_found": 0,
-        "source_url": "https://zjw.sh.gov.cn/zwgk/index.html"
+        "finished_at": "2026-10-23T00:58:28.582539+00:00",
+        "status": "success",
+        "documents_found": 5,
+        "source_url": "https://www.zfcg.sh.gov.cn"
       }
     },
     {

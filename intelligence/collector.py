@@ -52,10 +52,11 @@ def sync_customers(store, customers):
 
 class Page(HTMLParser):
     def __init__(self):
-        super().__init__(); self.skip=0; self.title=False; self.title_parts=[]; self.parts=[]; self.links=[]; self.anchor=None; self.anchor_parts=[]; self.published=None; self.description=None; self.paragraph_parts=[]; self.paragraphs=[]; self.in_paragraph=False; self.article_title=None; self.heading_tag=None; self.heading_parts=[]; self.headings=[]
+        super().__init__(); self.skip=0; self.title=False; self.title_parts=[]; self.parts=[]; self.links=[]; self.anchor=None; self.anchor_parts=[]; self.published=None; self.description=None; self.paragraph_parts=[]; self.paragraphs=[]; self.in_paragraph=False; self.article_title=None; self.heading_tag=None; self.heading_parts=[]; self.headings=[]; self.listing_stack=[]; self.listing_rows=[]
     def handle_starttag(self,tag,attrs):
         attrs=dict(attrs)
         if tag in ('script','style','noscript'): self.skip+=1
+        if tag in ('li','tr','article') and not self.skip:self.listing_stack.append({'tag':tag,'parts':[],'links':[]})
         if tag=='title':self.title=True
         if tag in ('h1','h2'):self.heading_tag=tag;self.heading_parts=[]
         if tag=='meta' and attrs.get('name','').lower() in ('articletitle','article_title','title'):self.article_title=attrs.get('content')
@@ -72,14 +73,18 @@ class Page(HTMLParser):
             self.heading_tag=None
         if tag=='a' and self.anchor:
             self.links.append((self.anchor,self.anchor_title or ''.join(self.anchor_parts).strip()));self.anchor=None
+            for row in self.listing_stack:row['links'].append(self.links[-1])
         if tag=='p' and self.in_paragraph:
             text=''.join(self.paragraph_parts).strip()
             if text:self.paragraphs.append(text)
             self.in_paragraph=False
+        if self.listing_stack and tag==self.listing_stack[-1]['tag']:
+            row=self.listing_stack.pop();row['text']=' '.join(row.pop('parts'));self.listing_rows.append(row)
     def handle_data(self,data):
         if self.skip:return
         text=data.strip()
         if text:self.parts.append(text)
+        for row in self.listing_stack:row['parts'].append(text)
         if self.title:self.title_parts.append(text)
         if self.heading_tag:self.heading_parts.append(text)
         if self.anchor:self.anchor_parts.append(text)
