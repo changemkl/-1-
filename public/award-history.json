@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-23T17:58:07+08:00",
+  "updatedAt": "2026-10-23T20:12:50+08:00",
   "customers": [
     {
       "id": "2100303078",
@@ -170,7 +170,7 @@
         "truncated": false
       },
       "lastCheck": {
-        "at": "2026-10-23T16:33:19+08:00",
+        "at": "2026-10-23T20:12:50+08:00",
         "status": "ok"
       }
     },
@@ -250,7 +250,7 @@
         "truncated": true
       },
       "lastCheck": {
-        "at": "2026-10-23T16:33:19+08:00",
+        "at": "2026-10-23T20:12:50+08:00",
         "status": "ok"
       }
     },
@@ -265,7 +265,7 @@
         "truncated": false
       },
       "lastCheck": {
-        "at": "2026-10-23T17:07:11+08:00",
+        "at": "2026-10-23T20:12:50+08:00",
         "status": "ok"
       }
     },
@@ -280,7 +280,7 @@
         "truncated": false
       },
       "lastCheck": {
-        "at": "2026-10-23T17:07:11+08:00",
+        "at": "2026-10-23T20:12:50+08:00",
         "status": "ok"
       }
     },
@@ -295,7 +295,7 @@
         "truncated": true
       },
       "lastCheck": {
-        "at": "2026-10-23T17:07:11+08:00",
+        "at": "2026-10-23T20:12:50+08:00",
         "status": "ok"
       }
     },
@@ -310,7 +310,7 @@
         "truncated": false
       },
       "lastCheck": {
-        "at": "2026-10-23T17:07:11+08:00",
+        "at": "2026-10-23T20:12:50+08:00",
         "status": "ok"
       }
     },
@@ -342,7 +342,7 @@
         "truncated": true
       },
       "lastCheck": {
-        "at": "2026-10-23T17:07:11+08:00",
+        "at": "2026-10-23T20:12:50+08:00",
         "status": "ok"
       }
     },
@@ -355,6 +355,14 @@
           "date": "2026-10-15",
           "buyer": "上海市公安局黄浦分局（本级）",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=5O6JuyjCR6IBGW8wgcySkw%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "上海市公安局普陀分局档案室搬迁改建工程的中标（成交）结果公告",
+          "date": "2026-10-13",
+          "buyer": "上海市公安局普陀分局",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=%2Fb0pEzmhJzPH6WeXXsGpbw%3D%3D",
           "source": "上海市政府采购网",
           "dateLabel": "结果公告日期"
         },
@@ -447,6 +455,14 @@
           "dateLabel": "结果公告日期"
         },
         {
+          "title": "上海市公安局奉贤分局警用无人机服务项目的中标（成交）结果公告",
+          "date": "2025-11-12",
+          "buyer": "上海市公安局奉贤分局(本部)",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=RnU%2B5E47cfzCH6zcySoQzg%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
           "title": "上海市公安局普陀分局信息化建设项目的中标（成交）结果公告",
           "date": "2025-10-20",
           "buyer": "上海市公安局普陀分局",
@@ -467,6 +483,14 @@
           "date": "2025-09-29",
           "buyer": "上海市公安局（主管）",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=dWE%2FCJtQ%2FrS73%2BRbjbWBhg%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "上海市公安局奉贤分局执法记录仪采购项目的中标（成交）结果公告",
+          "date": "2025-09-18",
+          "buyer": "上海市公安局奉贤分局(本部)",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=DJ2oQEseabWQHpZF%2B6pdGw%3D%3D",
           "source": "上海市政府采购网",
           "dateLabel": "结果公告日期"
         },
@@ -790,7 +814,7 @@
         "truncated": true
       },
       "lastCheck": {
-        "at": "2026-10-23T17:07:11+08:00",
+        "at": "2026-10-23T20:12:50+08:00",
         "status": "ok"
       }
     },
