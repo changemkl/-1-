@@ -608,7 +608,12 @@
       "firstSeenAt": "2026-10-23T09:03:28+00:00",
       "previousNames": [],
       "active": true,
-      "sourceStatus": "pending"
+      "sourceStatus": "pending",
+      "discovery": {
+        "at": "2026-10-23T09:53:42+00:00",
+        "status": "unavailable",
+        "message": "Search listing disallows automated reading"
+      }
     },
     {
       "id": "name:上海市总工会",
@@ -642,5 +647,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-23T09:41:29+00:00"
+  "updatedAt": "2026-10-23T09:53:42+00:00"
 }

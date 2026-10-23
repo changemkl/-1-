@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-23T17:07:11+08:00",
+  "updatedAt": "2026-10-23T17:58:07+08:00",
   "customers": [
     {
       "id": "2100303078",
@@ -12,7 +12,7 @@
         "truncated": false
       },
       "lastCheck": {
-        "at": "2026-10-23T16:33:19+08:00",
+        "at": "2026-10-23T17:58:07+08:00",
         "status": "ok"
       }
     },
@@ -27,7 +27,7 @@
         "truncated": false
       },
       "lastCheck": {
-        "at": "2026-10-23T16:33:19+08:00",
+        "at": "2026-10-23T17:58:07+08:00",
         "status": "ok"
       }
     },
@@ -42,7 +42,7 @@
         "truncated": false
       },
       "lastCheck": {
-        "at": "2026-10-23T16:33:19+08:00",
+        "at": "2026-10-23T17:58:07+08:00",
         "status": "ok"
       }
     },
@@ -942,6 +942,588 @@
       },
       "lastCheck": {
         "at": "2026-10-23T17:07:11+08:00",
+        "status": "ok"
+      }
+    },
+    {
+      "id": "2100128579",
+      "name": "上海市教育委员会",
+      "results": [
+        {
+          "title": "上海市教育委员会助推民办教育内涵建设协同发展项目的中标（成交）结果公告",
+          "date": "2026-05-26",
+          "buyer": "上海市教育委员会",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=oJOJ1kbHVgOj5PWMt%2Bx6tw%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "上海市教育委员会公务车驾驶员服务外包项目的中标（成交）结果公告",
+          "date": "2025-12-22",
+          "buyer": "上海市教育委员会",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=Is3XwI0cRYLfdOjiUsZwfw%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "上海市教育委员会竣工财务决算审计项目成交公告",
+          "date": "2025-07-15",
+          "buyer": "上海市教育委员会",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=hlYP%2BP13h9JK03Bj1%2FWhsQ%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "2025年上海市学生体育活动的中标（成交）结果公告",
+          "date": "2025-06-23",
+          "buyer": "上海市教育委员会",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=3DNJB%2FC9KJwO7A5SE00ZxQ%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "上海市教育委员会助推民办教育内涵建设协同发展项目的中标（成交）结果公告",
+          "date": "2025-06-16",
+          "buyer": "上海市教育委员会",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=VbZR4RFRCgAYF6LaMJPPLg%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "园区物业管理的中标（成交）结果公告",
+          "date": "2025-06-10",
+          "buyer": "上海市教育委员会教育技术装备中心",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=HTkykMOV6nSfxHGKFqmdoA%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "上海市教育委员会培训行业公益互助协调与促进的中标（成交）结果公告",
+          "date": "2025-05-23",
+          "buyer": "上海市教育委员会",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=d15l7xwPcbRU8aqwDj4eKA%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "培训市场行业治理机制建设与实践的中标（成交）结果公告",
+          "date": "2025-05-15",
+          "buyer": "上海市教育委员会",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=OV44xVah%2B%2F%2BwutObcd7j4A%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "上海市教育委员会本级财政预算项目管理系统(2025年升级改造)的中标（成交）结果公告",
+          "date": "2025-04-29",
+          "buyer": "上海市教育委员会财务与资产管理事务中心",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=jHLhaKwBOAuZSdS%2FUN7WNw%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "上海市教育委员会公务车驾驶员服务外包项目的中标（成交）结果公告",
+          "date": "2024-12-06",
+          "buyer": "上海市教育委员会",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=1uS2JU8LszAFvvEvl0BrLg%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "上海市教育委员会上海民办高校党建服务中心项目的中标（成交）结果公告",
+          "date": "2024-06-14",
+          "buyer": "上海市教育委员会",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=2vcAuIYp4%2Fks7j61C3vBhQ%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "2024年上海市学生体育活动的中标（成交）结果公告",
+          "date": "2024-06-14",
+          "buyer": "上海市教育委员会",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=1g4DvPGayd1aZtk4R18XLA%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "视频会议中心设备更新的中标（成交）结果公告",
+          "date": "2024-06-14",
+          "buyer": "上海市教育委员会教育技术装备中心",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=9tZ7j2wmBAy%2BMF2vwSnr5A%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "培训市场行业治理机制建设与实践的中标（成交）结果公告",
+          "date": "2024-06-04",
+          "buyer": "上海市教育委员会",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=t2ez6eXq9VWG7kYDSJ3dug%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "上海市培训市场跟踪管理与服务的中标（成交）结果公告",
+          "date": "2024-05-24",
+          "buyer": "上海市教育委员会",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=aGhE0%2FMqlfyCAvhs%2FL9NSg%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "上海市教育委员会公务车驾驶员服务外包项目的中标（成交）结果公告",
+          "date": "2023-12-26",
+          "buyer": "上海市教育委员会",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=Z8%2BsWojMw2kMZEVLY4k1Jg%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        }
+      ],
+      "coverage": {
+        "from": "2023-10-24",
+        "to": "2026-10-23",
+        "source": "https://www.zfcg.sh.gov.cn",
+        "truncated": true
+      },
+      "lastCheck": {
+        "at": "2026-10-23T17:58:07+08:00",
+        "status": "ok"
+      }
+    },
+    {
+      "id": "2100006103",
+      "name": "上海市市场监督管理局",
+      "results": [
+        {
+          "title": "上海市市场监督管理局食品安全信息追溯推广、咨询、培训的中标（成交）结果公告",
+          "date": "2026-04-30",
+          "buyer": "上海市市场监督管理局",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=3TJK9x389Tx9hfR4SFKu6A%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "上海市市场监督管理局执法总队餐饮服务的中标（成交）结果公告",
+          "date": "2026-03-04",
+          "buyer": "上海市市场监督管理局执法总队",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=lRGYvQTZLVoLUDyhiJMm5g%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "上海市市场监督管理局2026年机关车队服务的中标（成交）结果公告",
+          "date": "2026-01-29",
+          "buyer": "上海市市场监督管理局",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=Re9uouQD5lJ9vEfsomyq1A%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "上海市市场监督管理局2026年度机关食堂餐饮服务的中标（成交）结果公告",
+          "date": "2026-01-21",
+          "buyer": "上海市市场监督管理局",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=UXh4JMhKK7ep%2BOnJN5DsFQ%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "上海市市场监督管理局2025年质量监督抽查（护眼仪、烟花爆竹、防爆灯具等）项目的中标（成交）结果公告",
+          "date": "2025-10-10",
+          "buyer": "上海市市场监督管理局",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=8bx1qmWgPijk7ShiKAI%2FMw%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "上海市市场监督管理局2025年质量监督抽查（防爆灯具、老视成镜、老人鞋、涂料（内墙、木漆）等）项目的中标（成交）结果公告",
+          "date": "2025-09-17",
+          "buyer": "上海市市场监督管理局",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=R5ueDHiyLNippWh7jFdY2g%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "上海市市场监督管理局智慧档案库房建设项目的中标（成交）结果公告",
+          "date": "2025-05-14",
+          "buyer": "上海市市场监督管理局信息应用研究中心",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=S3SVJYnigowRWbjq9Ln1sw%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "上海市市场监督管理局2025年食品安全宣传周系列活动项目的中标（成交）结果公告",
+          "date": "2025-05-12",
+          "buyer": "上海市市场监督管理局",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=yHmUrOxQAKfWics85itVUg%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "上海市市场监督管理局2025年质量监督抽查（胶粘剂、卫浴家具、床垫产品等）项目的中标（成交）结果公告",
+          "date": "2025-04-18",
+          "buyer": "上海市市场监督管理局",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=j8viStTE6S71Rt9ufOLmdQ%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "上海市市场监督管理局网络交易信息搜索留证服务的中标（成交）结果公告",
+          "date": "2025-04-10",
+          "buyer": "上海市市场监督管理局",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=O2JxJWi9sfCv0HMMqaiJVw%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "上海市市场监督管理局工商大厦物业管理服务的中标（成交）结果公告",
+          "date": "2025-03-25",
+          "buyer": "上海市市场监督管理局",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=maUx3VmDaisePmqmdzDfyw%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "上海市市场监督管理局投诉举报热线服务的中标（成交）结果公告",
+          "date": "2025-03-14",
+          "buyer": "上海市市场监督管理局",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=thhfR1tHJoWGiWQTnsB5Ug%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "上海市市场监督管理局信息应用研究中心档案资料收集整理项目的中标（成交）结果公告",
+          "date": "2025-03-07",
+          "buyer": "上海市市场监督管理局信息应用研究中心",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=FN80nZNnLcZs0x1r1lQt5A%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "上海市市场监督管理局2025年质量监督抽查（儿童及婴幼儿服装、定配眼镜等）项目的中标（成交）结果公告",
+          "date": "2025-03-03",
+          "buyer": "上海市市场监督管理局",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=8xcBipVR4FwMsC6vBKn3Ng%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "上海市市场监督管理局机关车队服务项目的中标（成交）结果公告",
+          "date": "2025-02-24",
+          "buyer": "上海市市场监督管理局",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=GqG9MRUlooaUvkbDEVbsHw%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "上海市市场监督管理局机关食堂服务项目的中标（成交）结果公告",
+          "date": "2025-01-24",
+          "buyer": "上海市市场监督管理局",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=AxVUaWvJviiA2rakyDF60Q%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "上海市市场监督管理局执法总队购买餐饮服务项目的中标（成交）结果公告",
+          "date": "2025-01-21",
+          "buyer": "上海市市场监督管理局执法总队",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=mJce%2Fq%2BM3D07%2FlwAuh%2BOIw%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "上海市市场监督管理局“两个责任”包保干部培训项目的中标（成交）结果公告",
+          "date": "2024-12-02",
+          "buyer": "上海市市场监督管理局",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=bgnaSdh4YwphsRdUbQc1rA%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "上海市市场监督管理局执法总队柳州路615号物业管理服务的中标（成交）结果公告",
+          "date": "2024-11-08",
+          "buyer": "上海市市场监督管理局执法总队",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=uxEEiRu0wtZtmKrdibQMXA%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "上海市市场监督管理局执法总队2024年柳州路食堂餐饮服务项目的中标（成交）结果公告",
+          "date": "2024-07-22",
+          "buyer": "上海市市场监督管理局执法总队",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=69YJCA0jBc%2FU%2BpfF6zV0ZA%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "上海市市场监督管理局全国市场监管数字化试验区（上海）基础建设项目的中标（成交）结果公告",
+          "date": "2024-07-16",
+          "buyer": "上海市市场监督管理局",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=GcyMPHuUFM48j28crZDHNA%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "上海市市场监督管理局2024年车队服务项目的中标（成交）结果公告",
+          "date": "2024-06-27",
+          "buyer": "上海市市场监督管理局",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=GWwp0dDzFVIEYcHjooCzVA%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "上海市市场监督管理局检验检测机构资质认定许可事项技术评审(建工等领域)项目的中标（成交）结果公告",
+          "date": "2024-06-18",
+          "buyer": "上海市市场监督管理局",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=BWLFed7ZnqsfQA55xrcFJg%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "上海市市场监督管理局检验检测机构资质认定许可事项技术评审(综合领域)的中标（成交）结果公告",
+          "date": "2024-06-12",
+          "buyer": "上海市市场监督管理局",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=o2Lhg7ByBaT1JT0DneWQIg%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "上海市市场监督管理局检验检测机构资质认定告知承诺后续监管检查（含后续整改等技术评审）项目的中标（成交）结果公告",
+          "date": "2024-06-12",
+          "buyer": "上海市市场监督管理局",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=7DloNG%2BrqDmNU0KTIOVNZg%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "上海市市场监督管理局2024年食堂服务项目的中标（成交）结果公告",
+          "date": "2024-05-29",
+          "buyer": "上海市市场监督管理局",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=MgVseiJgrpI6VDntyttRCg%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "上海市市场监督管理局2024年上海市食品安全宣传周主题活动宣传项目的中标（成交）结果公告",
+          "date": "2024-05-14",
+          "buyer": "上海市市场监督管理局",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=JUONFqCsI5ZzaWPTiyqghA%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "上海市市场监督管理局2024年服装鞋帽类质量监督抽查（进口服装、丝绸服装、休闲鞋等）项目的中标（成交）结果公告",
+          "date": "2024-05-10",
+          "buyer": "上海市市场监督管理局",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=TV05XXYxcxwbsbV3cBGFkw%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "上海市市场监督管理局2024年服装鞋帽类质量监督抽查（衬衫、皮革服装、运动鞋等）项目的中标（成交）结果公告",
+          "date": "2024-05-08",
+          "buyer": "上海市市场监督管理局",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=VNqe0vISCTrs73Ttklt5QA%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "上海市市场监督管理局2024年儿童及婴幼儿服装质量监督抽查项目的中标（成交）结果公告",
+          "date": "2024-03-07",
+          "buyer": "上海市市场监督管理局",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=WsucWhSwuZHonPR2yei9Jg%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "上海市市场监督管理局2024年儿童袜子、手套、围巾质量监督抽查项目的中标（成交）结果公告",
+          "date": "2024-03-07",
+          "buyer": "上海市市场监督管理局",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=cWZFGEvSZosRPYHjVoyvmw%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "上海市市场监督管理局2024年美容护理器具、家用制氧机质量监督抽查项目的中标（成交）结果公告",
+          "date": "2024-03-07",
+          "buyer": "上海市市场监督管理局",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=gbmuIXUR75CXZ%2Fh02GMb4A%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "上海市市场监督管理局广告监测服务与数据采购项目的中标（成交）结果公告",
+          "date": "2023-11-09",
+          "buyer": "上海市市场监督管理局",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=nK30PqfqQFxj3jzOYyrPGA%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "上海市市场监督管理局2023年车队服务项目的中标（成交）结果公告",
+          "date": "2023-10-27",
+          "buyer": "上海市市场监督管理局",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=Ww093XnXDpazJrtxun7tTA%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        }
+      ],
+      "coverage": {
+        "from": "2023-10-24",
+        "to": "2026-10-23",
+        "source": "https://www.zfcg.sh.gov.cn",
+        "truncated": true
+      },
+      "lastCheck": {
+        "at": "2026-10-23T17:58:07+08:00",
+        "status": "ok"
+      }
+    },
+    {
+      "id": "name:上海市委党校",
+      "name": "上海市委党校",
+      "results": [],
+      "coverage": {
+        "from": "2023-10-24",
+        "to": "2026-10-23",
+        "source": "https://www.zfcg.sh.gov.cn",
+        "truncated": false
+      },
+      "lastCheck": {
+        "at": "2026-10-23T17:58:07+08:00",
+        "status": "ok"
+      }
+    },
+    {
+      "id": "name:上海市城市运行管理中心",
+      "name": "上海市城市运行管理中心",
+      "results": [],
+      "coverage": {
+        "from": "2023-10-24",
+        "to": "2026-10-23",
+        "source": "https://www.zfcg.sh.gov.cn",
+        "truncated": true
+      },
+      "lastCheck": {
+        "at": "2026-10-23T17:58:07+08:00",
+        "status": "ok"
+      }
+    },
+    {
+      "id": "name:上海市总工会",
+      "name": "上海市总工会",
+      "results": [
+        {
+          "title": "沪东工人文化宫健身房项目的中标（成交）结果公告",
+          "date": "2026-10-16",
+          "buyer": "上海市总工会沪东工人文化宫",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=XWV8g1JcHJpgc4jsVQ9YDA%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "东宫水泵房修缮及设备更新项目的中标（成交）结果公告",
+          "date": "2026-09-28",
+          "buyer": "上海市总工会沪东工人文化宫",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=W5sbuHw%2FUmV1t3HTZOJFzQ%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "2026年上海市总工会静安区工人文化宫北宫一体化物业管理服务项目的中标（成交）结果公告",
+          "date": "2026-07-01",
+          "buyer": "上海市总工会静安区工人文化宫",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=ABO96pooHrgu8dQ0Umw78w%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "2026年度上海市总工会黄浦区工人文化宫物业管理的中标（成交）结果公告",
+          "date": "2026-02-03",
+          "buyer": "上海市总工会黄浦区工人文化宫",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=U7my6Gx51iwdz%2B826vY5JQ%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "东宫中心花园绿化提升及构筑物修缮项目的中标（成交）结果公告",
+          "date": "2026-01-16",
+          "buyer": "上海市总工会沪东工人文化宫",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=V7aYcpBikzLNPGNmR4Ikww%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "2026年上海市总工会静安区工人文化宫一体化物业管理服务的中标（成交）结果公告",
+          "date": "2025-12-25",
+          "buyer": "上海市总工会静安区工人文化宫",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=yaBZDnqOQMm%2FVlvJdbtQyg%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "影剧院专业系统设备采购的中标（成交）结果公告",
+          "date": "2025-11-18",
+          "buyer": "上海市总工会沪东工人文化宫",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=xywr%2BnaqMHowHKvQjcZIIQ%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "舞台配套设备设施的中标（成交）结果公告",
+          "date": "2025-05-16",
+          "buyer": "上海市总工会沪东工人文化宫",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=buF495hH2IKAIO4sVOWCjA%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "剧场吊杆灯光系统改造项目的中标（成交）结果公告",
+          "date": "2025-03-27",
+          "buyer": "上海市总工会沪东工人文化宫",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=5EBSVVCHA4xf0CISODUuxw%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "2025年上海市总工会静安区工人文化宫一体化物业管理服务的中标（成交）结果公告",
+          "date": "2025-02-14",
+          "buyer": "上海市总工会静安区工人文化宫",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=7NG5Lafk%2FetDbTysJVWr4Q%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "上海市总工会沪东工人文化宫物业项目的中标（成交）结果公告",
+          "date": "2025-01-10",
+          "buyer": "上海市总工会沪东工人文化宫",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=T6U4uImdFqtiYRwsHq5tFg%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "2024年上海市总工会静安区工人文化宫一体化物业管理服务的中标（成交）结果公告",
+          "date": "2024-02-29",
+          "buyer": "上海市总工会静安区工人文化宫",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=FbVI3PQBDF%2BSHoPq4xQaNg%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "上海市总工会黄浦区工人体育馆——上海市总工会黄浦区工人体育馆物业管理服务项目的中标（成交）结果公告",
+          "date": "2023-12-20",
+          "buyer": "上海市总工会黄浦区工人体育馆",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=NajP2%2B94UhxSnx9u3Gd0QA%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        }
+      ],
+      "coverage": {
+        "from": "2023-10-24",
+        "to": "2026-10-23",
+        "source": "https://www.zfcg.sh.gov.cn",
+        "truncated": false
+      },
+      "lastCheck": {
+        "at": "2026-10-23T17:58:07+08:00",
         "status": "ok"
       }
     }
