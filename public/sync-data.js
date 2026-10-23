@@ -67,5 +67,10 @@ async function refreshSheetData() {
     $('sync-status').textContent=syncVersion?'暂时无法刷新，当前资料已保留':'客户资料加载失败，请点击刷新资料重试';
   } finally {syncBusy=false;}
 }
-$('refresh-data').onclick=refreshSheetData;
+const refreshCustomerButtons=[$('refresh-data'),$('refresh-customers')].filter(Boolean);
+for(const button of refreshCustomerButtons)button.onclick=async()=>{
+  for(const b of refreshCustomerButtons){b.disabled=true;b.dataset.label=b.textContent;b.textContent='刷新中…';}
+  try{await refreshSheetData();if(typeof refreshProfiles==='function')await refreshProfiles();}
+  finally{for(const b of refreshCustomerButtons){b.disabled=false;b.textContent=b.dataset.label;}}
+};
 refreshSheetData();setInterval(refreshSheetData,60000);
