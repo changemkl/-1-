@@ -148,7 +148,11 @@
         "水利部太湖流域管理局",
         "太湖流域管理局",
         "太湖局"
-      ]
+      ],
+      "related_buyers": [
+        "太湖流域水文水资源监测中心(太湖流域水环境监测中心)"
+      ],
+      "related_buyer_evidence": "https://www.tba.gov.cn/slbthlyglj/tbgg/content/e09c13cd-b1dd-474e-b280-a8f85f4c4655.html"
     },
     {
       "customer_id": "2100172632",

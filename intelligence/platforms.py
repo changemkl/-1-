@@ -16,10 +16,10 @@ SECTIONS=('招标','采购','交易公告','公示公告')
 NOTICES=('招标','采购公告','询价','磋商','采购意向')
 
 def belongs_to_customer(buyer,source):
-    return bool(buyer and any(normalize(buyer).startswith(normalize(a)) for a in source.get('buyer_aliases',source['aliases'])))
+    return bool(buyer and (any(normalize(buyer).startswith(normalize(a)) for a in source.get('buyer_aliases',source['aliases'])) or normalize(buyer) in map(normalize,source.get('related_buyers',[]))))
 
 def deadline_value(text):
-    pattern=r'(?:投标(?:文件递交)?截止(?:时间)?|提交投标文件截止时间|响应(?:文件提交)?截止(?:时间)?|报价截止(?:时间)?|递交投标文件(?:的)?截止时间)\s*[:：为]?\s*(\d{4})[年/.-]\s*(\d{1,2})[月/.-]\s*(\d{1,2})日?\s*(?:北京时间)?\s*(\d{1,2})\s*[:：时]\s*(\d{2})'
+    pattern=r'(?:投标(?:文件递交)?截止(?:时间)?|提交投标文件截止时间|响应(?:文件提交)?截止(?:时间)?|报价截止(?:时间)?|递交投标文件(?:的)?截止时间)(?:[、，和][^\n\d]{1,25})?\s*[:：为]?\s*(\d{4})[年/.-]\s*(\d{1,2})[月/.-]\s*(\d{1,2})日?\s*(?:北京时间)?\s*(\d{1,2})\s*[:：时]\s*(\d{2})'
     match=re.search(pattern,text)
     if not match:return None
     try:stamp=datetime.datetime(*map(int,match.groups()),tzinfo=CHINA)
@@ -30,7 +30,7 @@ def deadline_value(text):
 def html_notice_facts(page,title,source):
     if not any(word in title for word in NOTICES) or any(word in title for word in ('中标','成交','结果公告','废标','终止','更正','澄清')):return None
     text='\n'.join(page.paragraphs+page.parts)
-    match=re.search(r'(?<![\u4e00-\u9fff])(?:采购人|招标人|采购单位|招标单位)(?:(?:信息)?\s*[:：]?\s*(?:名\s*称))?\s*[:：为]\s*([^\n。；;]{2,100})',text)
+    match=re.search(r'(?<![\u4e00-\u9fff])(?:采购人|招标人|采购单位|招标单位)(?:(?:信息)?\s*[:：]?\s*(?:单位)?(?:名\s*称))?\s*[:：为]\s*([^\n。；;]{2,100})',text)
     if not match:return None
     buyer=match.group(1).strip()
     if not belongs_to_customer(buyer,source):return None
@@ -49,7 +49,7 @@ def html_notice_facts(page,title,source):
         project['buyer']={'value':buyer,'unit':'','quote':match.group(0)}
         project['deadline']=deadline
         project['planned_purchase']=planned
-        project['relation']='客户本级采购' if normalize(buyer) in map(normalize,source['aliases']) else '关联单位独立采购，实际采购人以原文为准'
+        project['relation']='客户本级采购' if normalize(buyer) in map(normalize,source['aliases']) else '官网发布的关联采购，实际采购人为'+buyer
     return facts
 
 def yzw_notice(row,source):

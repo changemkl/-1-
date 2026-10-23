@@ -48,4 +48,12 @@ class PlatformTests(unittest.TestCase):
             self.assertEqual(len(store.query('SELECT * FROM crawl_runs')),2)
             store.local.close()
 
+    def test_official_related_buyer_and_deadline_on_next_line(self):
+        source={**SOURCE,'related_buyers':['太湖流域水文水资源监测中心(太湖流域水环境监测中心)']}
+        page=Page();page.feed('<p>项目名称：无人机巢智能巡查项目</p><p>1.采购人信息</p><p>单位名称：太湖流域水文水资源监测中心(太湖流域水环境监测中心)</p><p>四、提交投标文件截止时间、开标时间和地点</p><p>2099-10-30 14:00（北京时间）</p>')
+        facts=html_notice_facts(page,'无人机巢智能巡查项目采购公告',source)
+        self.assertEqual(facts['projects'][0]['deadline']['value'],'2099-10-30 14:00')
+        self.assertEqual(facts['projects'][0]['buyer']['value'],source['related_buyers'][0])
+        self.assertIn('官网发布的关联采购',facts['projects'][0]['relation'])
+
 if __name__=='__main__':unittest.main()
