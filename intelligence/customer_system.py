@@ -167,7 +167,7 @@ def effective_sources(customers,definitions=None,state=None):
 def archive_removed(state,stamp):
     archived=read_json(ARCHIVE,{'customers':[]});entries={r['id']:r for r in archived['customers']}
     snapshots={key:{str(r['id']):r for r in read_json(Path(path),{field:[]}).get(field,[])} for key,path,field in [
-        ('profile','public/profile-data.json','profiles'),('organization','public/organization-data.json','customers'),('people','public/people-data.json','customers')]}
+        ('profile','public/profile-data.json','profiles'),('organization','public/organization-data.json','customers'),('people','public/people-data.json','customers'),('awardHistory','public/award-history.json','customers')]}
     for record in state['customers']:
         if not record['active'] and (record['id'] not in entries or record.get('archivedAt')!=entries[record['id']].get('archivedAt')):
             entries[record['id']]={**copy.deepcopy(record),**{key:copy.deepcopy(values.get(record['id'])) for key,values in snapshots.items()}}

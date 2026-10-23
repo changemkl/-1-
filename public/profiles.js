@@ -9,6 +9,7 @@ function shanghaiDate(now=new Date()){return new Intl.DateTimeFormat('en-CA',{ti
 function publicTitleIsRecent(p,now){const checked=new Date(p.fetched_at||'');return Number.isFinite(checked.getTime())&&now-checked<=30*86400000&&now>=checked;}
 function projectIsCurrent(p,now=new Date()){
  const today=shanghaiDate(now);
+ if(p.stage==='中标或成交信息')return false;
  if(p.stage==='采购意向'||p.stage==='招标意向'){
   const date=p.planned_purchase||'';
   if(/^\d{4}-\d{2}-\d{2}$/.test(date))return date>=today;

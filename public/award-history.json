@@ -1,0 +1,258 @@
+{
+  "updatedAt": "2026-10-23T16:25:26+08:00",
+  "customers": [
+    {
+      "id": "2100303078",
+      "name": "上海建工集团股份有限公司",
+      "results": [],
+      "coverage": {
+        "from": "2023-10-24",
+        "to": "2026-10-23",
+        "source": "https://www.zfcg.sh.gov.cn",
+        "truncated": false
+      },
+      "lastCheck": {
+        "at": "2026-10-23T16:25:26+08:00",
+        "status": "ok"
+      }
+    },
+    {
+      "id": "2100199365",
+      "name": "中国建筑第八工程局有限公司",
+      "results": [],
+      "coverage": {
+        "from": "2023-10-24",
+        "to": "2026-10-23",
+        "source": "https://www.zfcg.sh.gov.cn",
+        "truncated": false
+      },
+      "lastCheck": {
+        "at": "2026-10-23T16:25:26+08:00",
+        "status": "ok"
+      }
+    },
+    {
+      "id": "2108019729",
+      "name": "水利部太湖流域管理局",
+      "results": [],
+      "coverage": {
+        "from": "2023-10-24",
+        "to": "2026-10-23",
+        "source": "https://www.zfcg.sh.gov.cn",
+        "truncated": false
+      },
+      "lastCheck": {
+        "at": "2026-10-23T16:25:26+08:00",
+        "status": "ok"
+      }
+    },
+    {
+      "id": "2100172632",
+      "name": "上海市住房和城乡建设管理委员会",
+      "results": [
+        {
+          "title": "浦东房地大厦办公用房装修项目的中标（成交）结果公告",
+          "date": "2026-10-10",
+          "buyer": "上海市住房和城乡建设管理委员会人才开发评价中心",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=cmzYaP7Duh3NflJHNsV2UQ%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "上海市城市更新专项规划编制的中标（成交）结果公告",
+          "date": "2026-09-04",
+          "buyer": "上海市住房和城乡建设管理委员会",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=%2Bfn1N7cMCSiWN0K8%2BMZ5aA%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "建设工程消防设计审查验收违法违规专项治理的中标（成交）结果公告",
+          "date": "2026-08-31",
+          "buyer": "上海市住房和城乡建设管理委员会",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=Y5mx1K2N554mHMgg6X%2F0Iw%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "2026年技术论证保障配合及工作保障服务的中标（成交）结果公告",
+          "date": "2026-04-29",
+          "buyer": "上海市住房和城乡建设管理委员会科学技术委员会事务中心",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=tE5ahRM1w3a%2BZ43uQ1o86Q%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "2026年度机关文书档案整理项目的中标（成交）结果公告",
+          "date": "2026-04-22",
+          "buyer": "上海市住房和城乡建设管理委员会档案管理中心",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=Db6YfupqhrVg6yeWriYYPQ%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "三类人员、房屋征收线下计算机考试技术服务费的中标（成交）结果公告",
+          "date": "2026-03-19",
+          "buyer": "上海市住房和城乡建设管理委员会人才开发评价中心",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=JqJncT6YWW90G5Bmy%2BkuVA%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "上海市住建委科技委信息服务管理平台建设项目(2026年升级改造)的中标（成交）结果公告",
+          "date": "2026-03-02",
+          "buyer": "上海市住房和城乡建设管理委员会科学技术委员会事务中心",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=%2BfvTWptZSfUsMl%2FsX6269w%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "监理师、委托行业服务考试线下机考技术服务费的中标（成交）结果公告",
+          "date": "2025-12-31",
+          "buyer": "上海市住房和城乡建设管理委员会人才开发评价中心",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=BBgu1ye49cVWhQP3c29pbg%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "建设工程消防设计审查验收违法违规专项治理的中标（成交）结果公告",
+          "date": "2025-10-21",
+          "buyer": "上海市住房和城乡建设管理委员会",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=PwTzVaWFG%2FQsJxTnvF0KLQ%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "2025年度机关文书档案整理项目的中标（成交）结果公告",
+          "date": "2025-04-09",
+          "buyer": "上海市住房和城乡建设管理委员会档案管理中心",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=NsiOPDBQ7Cdl3Run6Ks%2Bqw%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "技术论证保障配合及工作保障服务的中标（成交）结果公告",
+          "date": "2025-01-20",
+          "buyer": "上海市住房和城乡建设管理委员会科学技术委员会事务中心",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=ZVHi38uTQ2PccWQPMe7BWg%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "活动场地物业费的中标（成交）结果公告",
+          "date": "2025-01-10",
+          "buyer": "上海市住房和城乡建设管理委员会老干部活动室",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=%2FuKPS15qH7PiTRXBpq1s7g%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "2024年度机关文书档案整理项目的中标（成交）结果公告",
+          "date": "2024-04-10",
+          "buyer": "上海市住房和城乡建设管理委员会档案管理中心",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=dMmYNg4zr%2FABcR3GVlWfSQ%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "技术论证保障配合及工作保障服务的中标（成交）结果公告",
+          "date": "2023-12-26",
+          "buyer": "上海市住房和城乡建设管理委员会科学技术委员会事务中心",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=cXBr8JeRrp4%2BuNYueGFt5w%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        }
+      ],
+      "coverage": {
+        "from": "2023-10-24",
+        "to": "2026-10-23",
+        "source": "https://www.zfcg.sh.gov.cn",
+        "truncated": false
+      },
+      "lastCheck": {
+        "at": "2026-10-23T16:25:26+08:00",
+        "status": "ok"
+      }
+    },
+    {
+      "id": "2100161493",
+      "name": "上海市体育局",
+      "results": [
+        {
+          "title": "2026年《国家体育锻炼标准》达标赛赛事服务的中标（成交）结果公告",
+          "date": "2026-07-23",
+          "buyer": "上海市体育局",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=onD7sMjBBW5WRLEPvVcVuQ%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "2026年上海乒乓球嘉年华项目的中标（成交）结果公告",
+          "date": "2026-04-03",
+          "buyer": "上海市体育局",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=7dovP%2BtW2Gs9N01HujcwYw%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "上海市体育局体育科技服务项目的中标（成交）结果公告",
+          "date": "2025-09-08",
+          "buyer": "上海市体育局",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=nqPlEv2RhF02nMze5YBprg%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "2025年社区体育服务委托管理的中标（成交）结果公告",
+          "date": "2025-06-05",
+          "buyer": "上海市体育局",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=A%2FN1CTxSi5yliQ5LVMT6dw%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "2025年上海市体育消费券配送运营服务的中标（成交）结果公告",
+          "date": "2025-05-26",
+          "buyer": "上海市体育局",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=RoFThjUG01cwstmZzGbJFA%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "2024社区体育服务委托管理的中标（成交）结果公告",
+          "date": "2024-11-27",
+          "buyer": "上海市体育局",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=bbP1328QNqiCX3%2BN59Vxxw%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "2024年度上海体育年度重点工作报刊宣传的中标（成交）结果公告",
+          "date": "2024-10-29",
+          "buyer": "上海市体育局",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=1Gd%2F6bFZTJY5dv0JUiLIXQ%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "社区健康运动会的中标（成交）结果公告",
+          "date": "2023-11-14",
+          "buyer": "上海市体育局",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=qfPcOMnx%2BhVHA7G0KSBcVw%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        }
+      ],
+      "coverage": {
+        "from": "2023-10-24",
+        "to": "2026-10-23",
+        "source": "https://www.zfcg.sh.gov.cn",
+        "truncated": true
+      },
+      "lastCheck": {
+        "at": "2026-10-23T16:25:26+08:00",
+        "status": "ok"
+      }
+    }
+  ]
+}
