@@ -72,7 +72,15 @@ def publish(database, output):
         unique_leaders={}
         for leader in sorted(leaders,key=lambda p:p['fetched_at'],reverse=True):
             unique_leaders.setdefault((leader['name'],leader['role']),leader)
-        profiles.append({'id':identifier,'name':customer['name'],'attributes':[], 'signals':filtered[:30],'projects':projects[:30],'leaders':list(unique_leaders.values())[:20], 'lastRun':dict(run) if run else prior.get('lastRun')})
+        source_specs=list((source or {}).get('procurement_sources',[]))
+        if source and source.get('government_procurement',True):
+            source_specs.insert(0,{'label':'上海市政府采购网','url':'https://www.zfcg.sh.gov.cn'})
+        prior_checks={s['url']:s for s in prior.get('procurementSources',[])}
+        checks=[]
+        for spec in source_specs:
+            check=conn.execute('SELECT finished_at,status,documents_found FROM crawl_runs WHERE customer_id=? AND source_url=? ORDER BY finished_at DESC LIMIT 1',[identifier,spec['url']]).fetchone()
+            checks.append({'label':spec['label'],'url':spec['url'],**(dict(check) if check else prior_checks.get(spec['url'],{'status':'not_checked'}))})
+        profiles.append({'id':identifier,'name':customer['name'],'attributes':[], 'signals':filtered[:30],'projects':projects[:30],'leaders':list(unique_leaders.values())[:20], 'procurementSources':checks,'lastRun':dict(run) if run else prior.get('lastRun')})
 
     if not profiles:
         raise RuntimeError('No active customers; previous snapshot retained')

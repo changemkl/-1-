@@ -46,3 +46,10 @@ function profilePreview(x){
 }
 function profileSearchFor(x){const p=profileFor(x);return[...visibleProjectsFor(x).map(r=>r.name+' '+r.quote+' '+(r.buyer?.value||'')),...(p?.leaders||[]).map(r=>r.name+' '+r.role+' '+(r.division||''))].join(' ');}
 window.addEventListener('customers-updated',refreshProfiles);setInterval(refreshProfiles,300000);refreshProfiles();
+
+function profileSourcesFor(x){
+ const sources=profileFor(x)?.procurementSources||[];
+ if(!sources.length)return '';
+ const labels={success:'已检查公开范围',blocked:'暂不可自动读取',failed:'检查未完成',not_checked:'待检查'};
+ return `<div class="procurement-source-links"><span>采购来源</span>${sources.filter(s=>safeSource(s.url)).map(s=>`<a href="${syncEscape(safeSource(s.url))}" target="_blank" rel="noopener noreferrer" data-source-status="${syncEscape(s.status||'not_checked')}" title="${syncEscape(labels[s.status]||'待检查')}">${syncEscape(s.label)} ↗${s.status==='blocked'?' · 暂不可读':''}</a>`).join('')}</div>`;
+}

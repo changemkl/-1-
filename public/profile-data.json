@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-22T22:48:49.040303+00:00",
+  "updatedAt": "2026-10-23T00:35:09.138509+00:00",
   "profiles": [
     {
       "id": "2100161493",
@@ -231,6 +231,18 @@
         }
       ],
       "leaders": [],
+      "procurementSources": [
+        {
+          "label": "上海市政府采购网",
+          "url": "https://www.zfcg.sh.gov.cn",
+          "status": "not_checked"
+        },
+        {
+          "label": "体育局官网政府采购",
+          "url": "https://tyj.sh.gov.cn/zfcg/",
+          "status": "not_checked"
+        }
+      ],
       "lastRun": {
         "finished_at": "2026-10-22T22:48:48.964710+00:00",
         "status": "success",
@@ -508,6 +520,18 @@
         }
       ],
       "leaders": [],
+      "procurementSources": [
+        {
+          "label": "上海市政府采购网",
+          "url": "https://www.zfcg.sh.gov.cn",
+          "status": "not_checked"
+        },
+        {
+          "label": "住建委官网采购栏目",
+          "url": "https://zjw.sh.gov.cn/zwgk/index.html",
+          "status": "not_checked"
+        }
+      ],
       "lastRun": {
         "finished_at": "2026-10-22T22:48:42.903065+00:00",
         "status": "success",
@@ -522,11 +546,27 @@
       "signals": [],
       "projects": [],
       "leaders": [],
+      "procurementSources": [
+        {
+          "label": "云筑集采",
+          "url": "https://jc.yzw.cn/portal/",
+          "finished_at": "2026-10-23T00:29:04.781107+00:00",
+          "status": "blocked",
+          "documents_found": 0
+        },
+        {
+          "label": "中建八局官网采购栏目",
+          "url": "https://8bur.cscec.com/",
+          "finished_at": "2026-10-23T00:29:08.253084+00:00",
+          "status": "success",
+          "documents_found": 0
+        }
+      ],
       "lastRun": {
-        "finished_at": "2026-10-22T22:48:33.386260+00:00",
+        "finished_at": "2026-10-23T00:29:08.253084+00:00",
         "status": "success",
         "documents_found": 0,
-        "source_url": "https://www.zfcg.sh.gov.cn"
+        "source_url": "https://8bur.cscec.com/"
       }
     },
     {
@@ -536,11 +576,20 @@
       "signals": [],
       "projects": [],
       "leaders": [],
+      "procurementSources": [
+        {
+          "label": "上海建工电子商务平台",
+          "url": "https://www.yzscg.cn/GGList.htm",
+          "finished_at": "2026-10-23T00:29:13.057910+00:00",
+          "status": "blocked",
+          "documents_found": 0
+        }
+      ],
       "lastRun": {
-        "finished_at": "2026-10-22T22:48:35.321897+00:00",
-        "status": "success",
+        "finished_at": "2026-10-23T00:29:13.057910+00:00",
+        "status": "blocked",
         "documents_found": 0,
-        "source_url": "https://www.zfcg.sh.gov.cn"
+        "source_url": "https://www.yzscg.cn/GGList.htm"
       }
     },
     {
@@ -550,11 +599,27 @@
       "signals": [],
       "projects": [],
       "leaders": [],
+      "procurementSources": [
+        {
+          "label": "太湖局官网招标采购栏目",
+          "url": "https://www.tba.gov.cn/slbthlyglj/tbgg/tbgg.html",
+          "finished_at": "2026-10-23T00:32:56.687298+00:00",
+          "status": "failed",
+          "documents_found": 0
+        },
+        {
+          "label": "中国政府采购网中央公告",
+          "url": "https://www.ccgp.gov.cn/cggg/zygg/gkzb/",
+          "finished_at": "2026-10-23T00:29:33.820494+00:00",
+          "status": "success",
+          "documents_found": 0
+        }
+      ],
       "lastRun": {
-        "finished_at": "2026-10-22T22:48:37.211032+00:00",
-        "status": "success",
+        "finished_at": "2026-10-23T00:32:56.687298+00:00",
+        "status": "failed",
         "documents_found": 0,
-        "source_url": "https://www.zfcg.sh.gov.cn"
+        "source_url": "https://www.tba.gov.cn/slbthlyglj/tbgg/tbgg.html"
       }
     }
   ]

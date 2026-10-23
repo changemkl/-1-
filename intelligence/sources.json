@@ -4,7 +4,10 @@
       "customer_id": "2100199365",
       "url": "https://8bur.cscec.com/",
       "hosts": [
-        "8bur.cscec.com"
+        "8bur.cscec.com",
+        "jc.yzw.cn",
+        "yzmtg.yzw.cn",
+        "xy.yzw.cn"
       ],
       "enabled": true,
       "aliases": [
@@ -19,13 +22,44 @@
       "discover_profiles": true,
       "official": true,
       "dedicated": true,
-      "discover_leaders": true
+      "discover_leaders": true,
+      "government_procurement": false,
+      "procurement_sources": [
+        {
+          "label": "云筑集采",
+          "kind": "yzw",
+          "url": "https://jc.yzw.cn/portal/",
+          "api_url": "https://yzmtg.yzw.cn/mtg/common/publicTender",
+          "hosts": [
+            "jc.yzw.cn",
+            "yzmtg.yzw.cn",
+            "xy.yzw.cn"
+          ],
+          "verified_by": "https://www.yzw.cn/",
+          "verification_note": "云筑官网指向集采门户；门户公开说明及页面脚本确认匿名公告接口。"
+        },
+        {
+          "label": "中建八局官网采购栏目",
+          "kind": "html",
+          "url": "https://8bur.cscec.com/",
+          "hosts": [
+            "8bur.cscec.com"
+          ],
+          "verified_by": "https://8bur.cscec.com/"
+        }
+      ],
+      "buyer_aliases": [
+        "中国建筑第八工程局",
+        "中建八局"
+      ]
     },
     {
       "customer_id": "2100303078",
       "url": "https://www.scg.com.cn/",
       "hosts": [
-        "www.scg.com.cn"
+        "www.scg.com.cn",
+        "www.yzscg.cn",
+        "yzscg.cn"
       ],
       "enabled": true,
       "aliases": [
@@ -43,13 +77,33 @@
       "home_as_profile": true,
       "official": true,
       "dedicated": true,
-      "discover_leaders": true
+      "discover_leaders": true,
+      "government_procurement": false,
+      "procurement_sources": [
+        {
+          "label": "上海建工电子商务平台",
+          "kind": "html",
+          "url": "https://www.yzscg.cn/GGList.htm",
+          "hosts": [
+            "www.yzscg.cn",
+            "yzscg.cn"
+          ],
+          "verified_by": "https://www.gzw.sh.gov.cn/shgzw_zxzx_gqdt/20240425/5ff075fb01c84fb387949cec5eeb2b33.html",
+          "verification_note": "上海国资委公开检索结果及平台公开署名关联上海建工；当前正文访问受限，单独记录读取状态。",
+          "is_listing": true
+        }
+      ],
+      "buyer_aliases": [
+        "上海建工集团股份有限公司",
+        "上海建工"
+      ]
     },
     {
       "customer_id": "2108019729",
       "url": "https://www.tba.gov.cn/",
       "hosts": [
-        "www.tba.gov.cn"
+        "www.tba.gov.cn",
+        "www.ccgp.gov.cn"
       ],
       "enabled": true,
       "aliases": [
@@ -61,7 +115,40 @@
       "discover_profiles": true,
       "official": true,
       "dedicated": true,
-      "discover_leaders": true
+      "discover_leaders": true,
+      "government_procurement": false,
+      "procurement_sources": [
+        {
+          "label": "太湖局官网招标采购栏目",
+          "kind": "html",
+          "url": "https://www.tba.gov.cn/slbthlyglj/tbgg/tbgg.html",
+          "hosts": [
+            "www.tba.gov.cn"
+          ],
+          "verified_by": "https://www.tba.gov.cn/slbthlyglj/zw/zw.html",
+          "verification_note": "已读取官网政务公开页面，其招标公告栏目 MORE 链接直接指向该列表。",
+          "is_listing": true,
+          "entry_urls": [
+            "https://www.tba.gov.cn/slbthlyglj/zw/zw.html"
+          ],
+          "time_budget": 60
+        },
+        {
+          "label": "中国政府采购网中央公告",
+          "kind": "html",
+          "url": "https://www.ccgp.gov.cn/cggg/zygg/gkzb/",
+          "hosts": [
+            "www.ccgp.gov.cn"
+          ],
+          "verified_by": "https://www.ccgp.gov.cn/",
+          "is_listing": true
+        }
+      ],
+      "buyer_aliases": [
+        "水利部太湖流域管理局",
+        "太湖流域管理局",
+        "太湖局"
+      ]
     },
     {
       "customer_id": "2100172632",
@@ -82,7 +169,23 @@
       "discover_profiles": true,
       "official": true,
       "dedicated": true,
-      "discover_leaders": true
+      "discover_leaders": true,
+      "government_procurement": true,
+      "procurement_sources": [
+        {
+          "label": "住建委官网采购栏目",
+          "kind": "html",
+          "url": "https://zjw.sh.gov.cn/zwgk/index.html",
+          "hosts": [
+            "zjw.sh.gov.cn"
+          ],
+          "verified_by": "https://zjw.sh.gov.cn/"
+        }
+      ],
+      "buyer_aliases": [
+        "上海市住房和城乡建设管理委员会",
+        "市住房城乡建设管理委"
+      ]
     },
     {
       "customer_id": "2100161493",
@@ -102,7 +205,23 @@
       "discover_profiles": true,
       "official": true,
       "dedicated": true,
-      "discover_leaders": true
+      "discover_leaders": true,
+      "government_procurement": true,
+      "procurement_sources": [
+        {
+          "label": "体育局官网政府采购",
+          "kind": "html",
+          "url": "https://tyj.sh.gov.cn/zfcg/",
+          "hosts": [
+            "tyj.sh.gov.cn"
+          ],
+          "verified_by": "https://tyj.sh.gov.cn/mkft1/",
+          "is_listing": true
+        }
+      ],
+      "buyer_aliases": [
+        "上海市体育局"
+      ]
     }
   ]
 }

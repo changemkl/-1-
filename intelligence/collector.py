@@ -287,7 +287,9 @@ def main():
     if not selected:raise RuntimeError('No enabled, approved source for the selected customers')
     results=[collect_source(store,s) for s in selected]
     from procurement import collect_public_tenders
-    results.extend(collect_public_tenders(store,s) for s in selected)
+    results.extend(collect_public_tenders(store,s) for s in selected if s.get('government_procurement',True))
+    from platforms import collect_customer_platforms
+    for source in selected:results.extend(collect_customer_platforms(store,source))
     print(json.dumps(results,ensure_ascii=False))
     if all(r['status']!='success' for r in results):raise RuntimeError('All selected sources failed or blocked; previous evidence retained')
 
