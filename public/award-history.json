@@ -1,18 +1,18 @@
 {
-  "updatedAt": "2026-10-23T20:12:50+08:00",
+  "updatedAt": "2026-10-24T01:32:11+08:00",
   "customers": [
     {
       "id": "2100303078",
       "name": "上海建工集团股份有限公司",
       "results": [],
       "coverage": {
-        "from": "2023-10-24",
-        "to": "2026-10-23",
+        "from": "2023-10-25",
+        "to": "2026-10-24",
         "source": "https://www.zfcg.sh.gov.cn",
         "truncated": false
       },
       "lastCheck": {
-        "at": "2026-10-23T17:58:07+08:00",
+        "at": "2026-10-24T01:32:11+08:00",
         "status": "ok"
       }
     },
@@ -21,13 +21,13 @@
       "name": "中国建筑第八工程局有限公司",
       "results": [],
       "coverage": {
-        "from": "2023-10-24",
-        "to": "2026-10-23",
+        "from": "2023-10-25",
+        "to": "2026-10-24",
         "source": "https://www.zfcg.sh.gov.cn",
         "truncated": false
       },
       "lastCheck": {
-        "at": "2026-10-23T17:58:07+08:00",
+        "at": "2026-10-24T01:32:11+08:00",
         "status": "ok"
       }
     },
@@ -36,13 +36,13 @@
       "name": "水利部太湖流域管理局",
       "results": [],
       "coverage": {
-        "from": "2023-10-24",
-        "to": "2026-10-23",
+        "from": "2023-10-25",
+        "to": "2026-10-24",
         "source": "https://www.zfcg.sh.gov.cn",
         "truncated": false
       },
       "lastCheck": {
-        "at": "2026-10-23T17:58:07+08:00",
+        "at": "2026-10-24T01:32:11+08:00",
         "status": "ok"
       }
     },
@@ -823,13 +823,13 @@
       "name": "上海市消防救援总队",
       "results": [],
       "coverage": {
-        "from": "2023-10-24",
-        "to": "2026-10-23",
+        "from": "2023-10-25",
+        "to": "2026-10-24",
         "source": "https://www.zfcg.sh.gov.cn",
         "truncated": false
       },
       "lastCheck": {
-        "at": "2026-10-23T17:07:11+08:00",
+        "at": "2026-10-24T01:32:11+08:00",
         "status": "ok"
       }
     },
@@ -959,13 +959,13 @@
         }
       ],
       "coverage": {
-        "from": "2023-10-24",
-        "to": "2026-10-23",
+        "from": "2023-10-25",
+        "to": "2026-10-24",
         "source": "https://www.zfcg.sh.gov.cn",
         "truncated": true
       },
       "lastCheck": {
-        "at": "2026-10-23T17:07:11+08:00",
+        "at": "2026-10-24T01:32:11+08:00",
         "status": "ok"
       }
     },
@@ -998,6 +998,14 @@
           "dateLabel": "结果公告日期"
         },
         {
+          "title": "教育类社会组织与民办高校资金监督与管理的中标（成交）结果公告",
+          "date": "2025-06-30",
+          "buyer": "上海市教育委员会",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=JcY5%2F60QbqX7oXkhjBMqDg%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
           "title": "2025年上海市学生体育活动的中标（成交）结果公告",
           "date": "2025-06-23",
           "buyer": "上海市教育委员会",
@@ -1022,10 +1030,26 @@
           "dateLabel": "结果公告日期"
         },
         {
+          "title": "上海民办高校党建服务中心的中标（成交）结果公告",
+          "date": "2025-06-05",
+          "buyer": "上海市教育委员会",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=69azljUJZlUfsHkTik%2FEJQ%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
           "title": "上海市教育委员会培训行业公益互助协调与促进的中标（成交）结果公告",
           "date": "2025-05-23",
           "buyer": "上海市教育委员会",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=d15l7xwPcbRU8aqwDj4eKA%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "上海市培训市场跟踪管理与服务的中标（成交）结果公告",
+          "date": "2025-05-20",
+          "buyer": "上海市教育委员会",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=htPGnk5Kf%2B7ES27Ayw8Skw%3D%3D",
           "source": "上海市政府采购网",
           "dateLabel": "结果公告日期"
         },
@@ -1094,6 +1118,14 @@
           "dateLabel": "结果公告日期"
         },
         {
+          "title": "园区物业管理的中标（成交）结果公告",
+          "date": "2024-05-07",
+          "buyer": "上海市教育委员会教育技术装备中心",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=t4WKxJNNbyg6qm7CflUWug%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
           "title": "上海市教育委员会公务车驾驶员服务外包项目的中标（成交）结果公告",
           "date": "2023-12-26",
           "buyer": "上海市教育委员会",
@@ -1103,13 +1135,13 @@
         }
       ],
       "coverage": {
-        "from": "2023-10-24",
-        "to": "2026-10-23",
+        "from": "2023-10-25",
+        "to": "2026-10-24",
         "source": "https://www.zfcg.sh.gov.cn",
         "truncated": true
       },
       "lastCheck": {
-        "at": "2026-10-23T17:58:07+08:00",
+        "at": "2026-10-24T01:32:11+08:00",
         "status": "ok"
       }
     },
@@ -1391,13 +1423,13 @@
         }
       ],
       "coverage": {
-        "from": "2023-10-24",
-        "to": "2026-10-23",
+        "from": "2023-10-25",
+        "to": "2026-10-24",
         "source": "https://www.zfcg.sh.gov.cn",
         "truncated": true
       },
       "lastCheck": {
-        "at": "2026-10-23T17:58:07+08:00",
+        "at": "2026-10-24T01:32:11+08:00",
         "status": "ok"
       }
     },
@@ -1406,13 +1438,13 @@
       "name": "上海市委党校",
       "results": [],
       "coverage": {
-        "from": "2023-10-24",
-        "to": "2026-10-23",
+        "from": "2023-10-25",
+        "to": "2026-10-24",
         "source": "https://www.zfcg.sh.gov.cn",
         "truncated": false
       },
       "lastCheck": {
-        "at": "2026-10-23T17:58:07+08:00",
+        "at": "2026-10-24T01:32:11+08:00",
         "status": "ok"
       }
     },
