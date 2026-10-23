@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-23T00:38:56.717719+00:00",
+  "updatedAt": "2026-10-23T00:39:27.312026+00:00",
   "profiles": [
     {
       "id": "2100161493",
@@ -558,21 +558,21 @@
         {
           "label": "云筑集采",
           "url": "https://jc.yzw.cn/portal/",
-          "finished_at": "2026-10-23T00:29:04.781107+00:00",
+          "finished_at": "2026-10-23T00:37:30.174131+00:00",
           "status": "blocked",
           "documents_found": 0
         },
         {
           "label": "中建八局官网采购栏目",
           "url": "https://8bur.cscec.com/",
-          "finished_at": "2026-10-23T00:29:08.253084+00:00",
-          "status": "success",
+          "finished_at": "2026-10-23T00:37:31.547108+00:00",
+          "status": "failed",
           "documents_found": 0
         }
       ],
       "lastRun": {
-        "finished_at": "2026-10-23T00:29:08.253084+00:00",
-        "status": "success",
+        "finished_at": "2026-10-23T00:37:31.547108+00:00",
+        "status": "failed",
         "documents_found": 0,
         "source_url": "https://8bur.cscec.com/"
       }
@@ -588,13 +588,13 @@
         {
           "label": "上海建工电子商务平台",
           "url": "https://www.yzscg.cn/GGList.htm",
-          "finished_at": "2026-10-23T00:29:13.057910+00:00",
+          "finished_at": "2026-10-23T00:37:33.818168+00:00",
           "status": "blocked",
           "documents_found": 0
         }
       ],
       "lastRun": {
-        "finished_at": "2026-10-23T00:29:13.057910+00:00",
+        "finished_at": "2026-10-23T00:37:33.818168+00:00",
         "status": "blocked",
         "documents_found": 0,
         "source_url": "https://www.yzscg.cn/GGList.htm"
@@ -611,23 +611,23 @@
         {
           "label": "太湖局官网招标采购栏目",
           "url": "https://www.tba.gov.cn/slbthlyglj/tbgg/tbgg.html",
-          "finished_at": "2026-10-23T00:32:56.687298+00:00",
-          "status": "failed",
+          "finished_at": "2026-10-23T00:37:38.712997+00:00",
+          "status": "success",
           "documents_found": 0
         },
         {
           "label": "中国政府采购网中央公告",
           "url": "https://www.ccgp.gov.cn/cggg/zygg/gkzb/",
-          "finished_at": "2026-10-23T00:29:33.820494+00:00",
-          "status": "success",
+          "finished_at": "2026-10-23T00:37:40.600522+00:00",
+          "status": "blocked",
           "documents_found": 0
         }
       ],
       "lastRun": {
-        "finished_at": "2026-10-23T00:32:56.687298+00:00",
-        "status": "failed",
+        "finished_at": "2026-10-23T00:37:40.600522+00:00",
+        "status": "blocked",
         "documents_found": 0,
-        "source_url": "https://www.tba.gov.cn/slbthlyglj/tbgg/tbgg.html"
+        "source_url": "https://www.ccgp.gov.cn/cggg/zygg/gkzb/"
       }
     }
   ]

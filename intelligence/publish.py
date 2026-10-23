@@ -53,6 +53,7 @@ def publish(database, output):
             item['excerpt'] = item['excerpt'].replace(item['title'], '', 2).strip()
             signals[(item['url'],item['category'])] = item
         run = conn.execute('SELECT finished_at,status,documents_found,source_url FROM crawl_runs WHERE customer_id=? ORDER BY finished_at DESC LIMIT 1', [identifier]).fetchone()
+        latest_run=max([r for r in [dict(run) if run else None,prior.get('lastRun')] if r],key=lambda r:r.get('finished_at',''),default=None)
         filtered=[];projects=[];leaders=[]
         for item in deduplicate_signals(signals.values()):
             if is_standard_approval(item['title']):continue
@@ -80,8 +81,9 @@ def publish(database, output):
         checks=[]
         for spec in source_specs:
             check=conn.execute('SELECT finished_at,status,documents_found FROM crawl_runs WHERE customer_id=? AND source_url=? ORDER BY finished_at DESC LIMIT 1',[identifier,spec['url']]).fetchone()
-            checks.append({'label':spec['label'],'url':spec['url'],**(dict(check) if check else prior_checks.get(spec['url'],{'status':'not_checked'}))})
-        profiles.append({'id':identifier,'name':customer['name'],'attributes':[], 'signals':filtered[:30],'projects':projects[:30],'leaders':list(unique_leaders.values())[:20], 'procurementSources':checks,'lastRun':dict(run) if run else prior.get('lastRun')})
+            latest_check=max([r for r in [dict(check) if check else None,prior_checks.get(spec['url'])] if r],key=lambda r:r.get('finished_at',''),default={'status':'not_checked'})
+            checks.append({**latest_check,'label':spec['label'],'url':spec['url']})
+        profiles.append({'id':identifier,'name':customer['name'],'attributes':[], 'signals':filtered[:30],'projects':projects[:30],'leaders':list(unique_leaders.values())[:20], 'procurementSources':checks,'lastRun':latest_run})
 
     if not profiles:
         raise RuntimeError('No active customers; previous snapshot retained')
