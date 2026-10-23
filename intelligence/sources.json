@@ -229,6 +229,258 @@
       "buyer_aliases": [
         "上海市体育局"
       ]
+    },
+    {
+      "customer_id": "2102315260",
+      "url": "https://sdb.sh.gov.cn/",
+      "hosts": [
+        "sdb.sh.gov.cn"
+      ],
+      "entry_urls": [
+        "https://sdb.sh.gov.cn/fdzdgknr/"
+      ],
+      "enabled": true,
+      "official": true,
+      "dedicated": true,
+      "aliases": [
+        "上海市数据局"
+      ],
+      "discover_profiles": true,
+      "discover_leaders": true,
+      "max_articles": 4,
+      "max_list_pages": 3,
+      "time_budget": 45,
+      "government_procurement": true,
+      "verified_by": "https://sdb.sh.gov.cn/fdzdgknr/"
+    },
+    {
+      "customer_id": "2100128579",
+      "url": "https://edu.sh.gov.cn/",
+      "hosts": [
+        "edu.sh.gov.cn"
+      ],
+      "entry_urls": [
+        "https://edu.sh.gov.cn/xxgk2_zhzw_jgxx/index.html"
+      ],
+      "enabled": true,
+      "official": true,
+      "dedicated": true,
+      "aliases": [
+        "上海市教育委员会"
+      ],
+      "discover_profiles": true,
+      "discover_leaders": true,
+      "max_articles": 4,
+      "max_list_pages": 3,
+      "time_budget": 45,
+      "government_procurement": true,
+      "verified_by": "https://edu.sh.gov.cn/xxgk2_zhzw_jgxx/index.html"
+    },
+    {
+      "customer_id": "2101340371",
+      "url": "https://yjglj.sh.gov.cn/",
+      "hosts": [
+        "yjglj.sh.gov.cn"
+      ],
+      "entry_urls": [
+        "https://yjglj.sh.gov.cn/xxgk/xxgkml/jgzn/"
+      ],
+      "enabled": true,
+      "official": true,
+      "dedicated": true,
+      "aliases": [
+        "上海市应急管理局"
+      ],
+      "discover_profiles": true,
+      "discover_leaders": true,
+      "max_articles": 4,
+      "max_list_pages": 3,
+      "time_budget": 45,
+      "government_procurement": true,
+      "verified_by": "https://yjglj.sh.gov.cn/xxgk/xxgkml/jgzn/"
+    },
+    {
+      "customer_id": "2100006103",
+      "url": "https://scjgj.sh.gov.cn/",
+      "hosts": [
+        "scjgj.sh.gov.cn"
+      ],
+      "entry_urls": [],
+      "enabled": true,
+      "official": true,
+      "dedicated": true,
+      "aliases": [
+        "上海市市场监督管理局"
+      ],
+      "discover_profiles": true,
+      "discover_leaders": true,
+      "max_articles": 4,
+      "max_list_pages": 3,
+      "time_budget": 45,
+      "government_procurement": true,
+      "verified_by": "https://www.shanghai.gov.cn/"
+    },
+    {
+      "customer_id": "name:上海市委党校",
+      "url": "https://www.sdx.sh.cn/",
+      "hosts": [
+        "www.sdx.sh.cn"
+      ],
+      "entry_urls": [
+        "https://www.sdx.sh.cn/x_y_gk/x_y_jj.htm",
+        "https://www.sdx.sh.cn/x_y_gk/jgsz.htm"
+      ],
+      "enabled": true,
+      "official": true,
+      "dedicated": true,
+      "aliases": [
+        "上海市委党校",
+        "中共上海市委党校",
+        "上海行政学院"
+      ],
+      "discover_profiles": true,
+      "discover_leaders": true,
+      "max_articles": 4,
+      "max_list_pages": 3,
+      "time_budget": 45,
+      "government_procurement": true,
+      "verified_by": "https://www.sdx.sh.cn/x_y_gk/x_y_jj.htm",
+      "procurement_sources": []
+    },
+    {
+      "customer_id": "name:上海市总工会",
+      "url": "https://www.shszgh.cn/",
+      "hosts": [
+        "www.shszgh.cn"
+      ],
+      "entry_urls": [
+        "https://www.shszgh.cn/shszgh/ldjs/"
+      ],
+      "enabled": true,
+      "official": true,
+      "dedicated": true,
+      "aliases": [
+        "上海市总工会"
+      ],
+      "discover_profiles": true,
+      "discover_leaders": true,
+      "max_articles": 4,
+      "max_list_pages": 3,
+      "time_budget": 45,
+      "government_procurement": true,
+      "verified_by": "https://www.shszgh.cn/shszgh/ldjs/"
+    },
+    {
+      "customer_id": "2100000172",
+      "url": "https://sh.119.gov.cn/home",
+      "hosts": [
+        "sh.119.gov.cn"
+      ],
+      "entry_urls": [],
+      "enabled": true,
+      "official": true,
+      "dedicated": true,
+      "aliases": [
+        "上海市消防救援总队"
+      ],
+      "discover_profiles": true,
+      "discover_leaders": true,
+      "max_articles": 4,
+      "max_list_pages": 3,
+      "time_budget": 45,
+      "government_procurement": true,
+      "verified_by": "https://www.shanghai.gov.cn/"
+    },
+    {
+      "customer_id": "2100000260",
+      "url": "https://gaj.sh.gov.cn/",
+      "hosts": [
+        "gaj.sh.gov.cn"
+      ],
+      "entry_urls": [],
+      "enabled": true,
+      "official": true,
+      "dedicated": true,
+      "aliases": [
+        "上海市公安局"
+      ],
+      "discover_profiles": true,
+      "discover_leaders": true,
+      "max_articles": 4,
+      "max_list_pages": 3,
+      "time_budget": 45,
+      "government_procurement": true,
+      "verified_by": "https://www.shanghai.gov.cn/"
+    },
+    {
+      "customer_id": "2100127512",
+      "url": "https://www.celap.org.cn/",
+      "hosts": [
+        "www.celap.org.cn"
+      ],
+      "entry_urls": [],
+      "enabled": true,
+      "official": true,
+      "dedicated": true,
+      "aliases": [
+        "中国浦东干部学院"
+      ],
+      "discover_profiles": true,
+      "discover_leaders": true,
+      "max_articles": 4,
+      "max_list_pages": 3,
+      "time_budget": 45,
+      "government_procurement": true,
+      "verified_by": "https://www.sdx.sh.cn/x_y_gk/x_y_jj.htm"
+    },
+    {
+      "customer_id": "2102351543",
+      "url": "https://www.gzw.sh.gov.cn/",
+      "hosts": [
+        "www.gzw.sh.gov.cn"
+      ],
+      "entry_urls": [
+        "https://www.gzw.sh.gov.cn/shgzw_xwzx_gzyw/20260916/92d77554307942fba2a0ddbe4b1e4e4d.html"
+      ],
+      "enabled": true,
+      "official": true,
+      "dedicated": false,
+      "aliases": [
+        "上海库帕思科技有限公司"
+      ],
+      "discover_profiles": false,
+      "discover_leaders": false,
+      "max_articles": 4,
+      "max_list_pages": 3,
+      "time_budget": 45,
+      "government_procurement": false,
+      "verified_by": "https://www.gzw.sh.gov.cn/shgzw_xwzx_gzyw/20260916/92d77554307942fba2a0ddbe4b1e4e4d.html",
+      "verification_note": "来源为市国资委明确提及该企业的公开报道；不将国资委领导、机构认定为企业人员和部门。"
+    },
+    {
+      "customer_id": "2101882120",
+      "url": "https://www.gzw.sh.gov.cn/",
+      "hosts": [
+        "www.gzw.sh.gov.cn"
+      ],
+      "entry_urls": [
+        "https://www.gzw.sh.gov.cn/shgzw_zxzx_gqdt/20260509/aa489808c6e247709b027c8f7b0ede9d.html"
+      ],
+      "enabled": true,
+      "official": true,
+      "dedicated": false,
+      "aliases": [
+        "上海数据集团有限公司",
+        "上海数据集团"
+      ],
+      "discover_profiles": false,
+      "discover_leaders": false,
+      "max_articles": 4,
+      "max_list_pages": 3,
+      "time_budget": 45,
+      "government_procurement": false,
+      "verified_by": "https://www.gzw.sh.gov.cn/shgzw_zxzx_gqdt/20260509/aa489808c6e247709b027c8f7b0ede9d.html",
+      "verification_note": "来源为市国资委明确提及该企业的公开报道；不将国资委领导、机构认定为企业人员和部门。"
     }
   ]
 }

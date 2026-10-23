@@ -557,7 +557,351 @@
         "status": "ok"
       },
       "customerName": "水利部太湖流域管理局"
+    },
+    {
+      "id": "2102315260",
+      "customerName": "上海市数据局",
+      "people": [
+        {
+          "name": "邵军",
+          "role": "市数据局党组书记、局长",
+          "division": null,
+          "category": "单位领导",
+          "informationResponsibility": false,
+          "quote": "邵军 市数据局党组书记、局长。",
+          "source": {
+            "url": "https://sdb.sh.gov.cn/fdzdgknr/ldxx/",
+            "title": "官网 · 领导及分工",
+            "publishedAt": null
+          },
+          "checkedAt": "2026-10-23T09:32:01+00:00"
+        },
+        {
+          "name": "高天",
+          "role": "市数据局党组成员、副局长",
+          "division": null,
+          "category": "单位领导",
+          "informationResponsibility": false,
+          "quote": "高天 市数据局党组成员、副局长。",
+          "source": {
+            "url": "https://sdb.sh.gov.cn/fdzdgknr/ldxx/",
+            "title": "官网 · 领导及分工",
+            "publishedAt": null
+          },
+          "checkedAt": "2026-10-23T09:32:01+00:00"
+        },
+        {
+          "name": "钱晓",
+          "role": "市数据局党组成员、副局长",
+          "division": null,
+          "category": "单位领导",
+          "informationResponsibility": false,
+          "quote": "钱晓 市数据局党组成员、副局长。",
+          "source": {
+            "url": "https://sdb.sh.gov.cn/fdzdgknr/ldxx/",
+            "title": "官网 · 领导及分工",
+            "publishedAt": null
+          },
+          "checkedAt": "2026-10-23T09:32:01+00:00"
+        },
+        {
+          "name": "翁轶丛",
+          "role": "市数据局党组成员、副局长",
+          "division": null,
+          "category": "单位领导",
+          "informationResponsibility": false,
+          "quote": "翁轶丛 市数据局党组成员、副局长。",
+          "source": {
+            "url": "https://sdb.sh.gov.cn/fdzdgknr/ldxx/",
+            "title": "官网 · 领导及分工",
+            "publishedAt": null
+          },
+          "checkedAt": "2026-10-23T09:32:01+00:00"
+        }
+      ],
+      "lastCheck": {
+        "at": "2026-10-23T09:32:01+00:00",
+        "status": "ok"
+      }
+    },
+    {
+      "id": "2100128579",
+      "customerName": "上海市教育委员会",
+      "people": [
+        {
+          "name": "朱新远",
+          "role": "中共上海市教育卫生工作委员会副书记、上海市教育委员会主任",
+          "division": "全面负责市教委工作分管：秘书处（研究室）、财务和国有资产管理处（高校总会计师管理办公室）、审计处",
+          "category": "单位领导",
+          "informationResponsibility": false,
+          "quote": "朱新远中共上海市教育卫生工作委员会副书记、上海市教育委员会主任 全面负责市教委工作 分管：秘书处（研究室）、财务和国有资产管理处（高校总会计师管理办公室）、审计处",
+          "source": {
+            "url": "https://edu.sh.gov.cn/xxgk2_zhzw_rsxx_01/20260527/393489f4173d4819bd6b8b055a2849d9.html",
+            "title": "官网 · 领导及分工",
+            "publishedAt": "2026-05-29"
+          },
+          "checkedAt": "2026-10-23T09:32:01+00:00"
+        },
+        {
+          "name": "陈睦",
+          "role": "上海市教育委员会一级巡视员",
+          "division": "分管：发展规划处、政策法规处（政风行风办公室）协助分管：审计处",
+          "category": "单位领导",
+          "informationResponsibility": false,
+          "quote": "陈睦上海市教育委员会一级巡视员 分管：发展规划处、政策法规处（政风行风办公室） 协助分管：审计处",
+          "source": {
+            "url": "https://edu.sh.gov.cn/xxgk2_zhzw_rsxx_01/20260527/393489f4173d4819bd6b8b055a2849d9.html",
+            "title": "官网 · 领导及分工",
+            "publishedAt": "2026-05-29"
+          },
+          "checkedAt": "2026-10-23T09:32:01+00:00"
+        },
+        {
+          "name": "刘玉祥",
+          "role": "上海市教育委员会副主任、总督学",
+          "division": "分管：高等教育处、科学研究处、督导室、青少年保护工作处、信访办公室",
+          "category": "单位领导",
+          "informationResponsibility": false,
+          "quote": "刘玉祥上海市教育委员会副主任、总督学 分管：高等教育处、科学研究处、督导室、青少年保护工作处、信访办公室",
+          "source": {
+            "url": "https://edu.sh.gov.cn/xxgk2_zhzw_rsxx_01/20260527/393489f4173d4819bd6b8b055a2849d9.html",
+            "title": "官网 · 领导及分工",
+            "publishedAt": "2026-05-29"
+          },
+          "checkedAt": "2026-10-23T09:32:01+00:00"
+        },
+        {
+          "name": "杨振峰",
+          "role": "上海市教育委员会副主任",
+          "division": "分管：基础教育处、职业教育处、托幼工作处、教材和语言文字管理处",
+          "category": "单位领导",
+          "informationResponsibility": false,
+          "quote": "杨振峰上海市教育委员会副主任 分管：基础教育处、职业教育处、托幼工作处、教材和语言文字管理处",
+          "source": {
+            "url": "https://edu.sh.gov.cn/xxgk2_zhzw_rsxx_01/20260527/393489f4173d4819bd6b8b055a2849d9.html",
+            "title": "官网 · 领导及分工",
+            "publishedAt": "2026-05-29"
+          },
+          "checkedAt": "2026-10-23T09:32:01+00:00"
+        },
+        {
+          "name": "叶霖霖",
+          "role": "上海市教育委员会副主任",
+          "division": "分管：办公室、人事处、终身教育处、国际交流处（港澳台办公室）",
+          "category": "单位领导",
+          "informationResponsibility": false,
+          "quote": "叶霖霖上海市教育委员会副主任 分管：办公室、人事处、终身教育处、国际交流处（港澳台办公室）",
+          "source": {
+            "url": "https://edu.sh.gov.cn/xxgk2_zhzw_rsxx_01/20260527/393489f4173d4819bd6b8b055a2849d9.html",
+            "title": "官网 · 领导及分工",
+            "publishedAt": "2026-05-29"
+          },
+          "checkedAt": "2026-10-23T09:32:01+00:00"
+        }
+      ],
+      "lastCheck": {
+        "at": "2026-10-23T09:32:01+00:00",
+        "status": "ok"
+      }
+    },
+    {
+      "id": "2101340371",
+      "customerName": "上海市应急管理局",
+      "people": [
+        {
+          "name": "刘斌",
+          "role": "党委书记、局长，兼上海市消防救援总队（上海市消防救援局）第一政治委员",
+          "division": "主持局党政全面工作。负责党的建设、干部队伍建设、业务建设等工作。",
+          "category": "单位领导",
+          "informationResponsibility": false,
+          "quote": "刘斌党委书记、局长，兼上海市消防救援总队（上海市消防救援局）第一政治委员 主持局党政全面工作。负责党的建设、干部队伍建设、业务建设等工作。",
+          "source": {
+            "url": "https://yjglj.sh.gov.cn/xxgk/xxgkml/jgzn/jgld/20260506/c36aed2539754dbbad05f0e6733633e8.html",
+            "title": "官网 · 领导及分工",
+            "publishedAt": "2026-06-16"
+          },
+          "checkedAt": "2026-10-23T09:32:01+00:00"
+        },
+        {
+          "name": "梁云红",
+          "role": "党委副书记、副局长（兼），市消防救援总队总队长、党委副书记",
+          "division": null,
+          "category": "单位领导",
+          "informationResponsibility": false,
+          "quote": "梁云红党委副书记、副局长（兼），市消防救援总队总队长、党委副书记",
+          "source": {
+            "url": "https://yjglj.sh.gov.cn/xxgk/xxgkml/jgzn/jgld/20260506/c36aed2539754dbbad05f0e6733633e8.html",
+            "title": "官网 · 领导及分工",
+            "publishedAt": "2026-06-16"
+          },
+          "checkedAt": "2026-10-23T09:32:01+00:00"
+        },
+        {
+          "name": "曹俊",
+          "role": "党委委员、副局长",
+          "division": "负责工贸行业安全监管、调查评估和统计、科技和信息化、综合行政执法等工作。分管工贸安全监督管理处、调查评估和统计处、科技保障处、局执法总队。",
+          "category": "单位领导",
+          "informationResponsibility": true,
+          "quote": "曹俊党委委员、副局长 负责工贸行业安全监管、调查评估和统计、科技和信息化、综合行政执法等工作。分管工贸安全监督管理处、调查评估和统计处、科技保障处、局执法总队。",
+          "source": {
+            "url": "https://yjglj.sh.gov.cn/xxgk/xxgkml/jgzn/jgld/20260506/c36aed2539754dbbad05f0e6733633e8.html",
+            "title": "官网 · 领导及分工",
+            "publishedAt": "2026-06-16"
+          },
+          "checkedAt": "2026-10-23T09:32:01+00:00"
+        },
+        {
+          "name": "李彩云",
+          "role": "党委委员、副局长",
+          "division": "负责危险化学品安全监管、安全生产综合协调、安全生产巡查督查、政策法规、信访等工作。分管危险化学品安全监督管理处、安全生产综合协调处、安全生产巡查督查处、政策法规处、市安全生产科学研究所。",
+          "category": "单位领导",
+          "informationResponsibility": false,
+          "quote": "李彩云党委委员、副局长 负责危险化学品安全监管、安全生产综合协调、安全生产巡查督查、政策法规、信访等工作。分管危险化学品安全监督管理处、安全生产综合协调处、安全生产巡查督查处、政策法规处、市安全生产科学研究所。",
+          "source": {
+            "url": "https://yjglj.sh.gov.cn/xxgk/xxgkml/jgzn/jgld/20260506/c36aed2539754dbbad05f0e6733633e8.html",
+            "title": "官网 · 领导及分工",
+            "publishedAt": "2026-06-16"
+          },
+          "checkedAt": "2026-10-23T09:32:01+00:00"
+        },
+        {
+          "name": "金跃明",
+          "role": "党委委员、副局长",
+          "division": "协助党委书记分管干部队伍建设。负责机关事务、综合规划、安全发展、部门预决算、财务、内部审计等工作。协管组织人事处，分管办公室（党委办公室）、风险防控和安全发展处、财务处、市应急管理事务和化学品登记中心。",
+          "category": "单位领导",
+          "informationResponsibility": false,
+          "quote": "金跃明党委委员、副局长 协助党委书记分管干部队伍建设。负责机关事务、综合规划、安全发展、部门预决算、财务、内部审计等工作。协管组织人事处，分管办公室（党委办公室）、风险防控和安全发展处、财务处、市应急管理事务和化学品登记中心。",
+          "source": {
+            "url": "https://yjglj.sh.gov.cn/xxgk/xxgkml/jgzn/jgld/20260506/c36aed2539754dbbad05f0e6733633e8.html",
+            "title": "官网 · 领导及分工",
+            "publishedAt": "2026-06-16"
+          },
+          "checkedAt": "2026-10-23T09:32:01+00:00"
+        },
+        {
+          "name": "王德强",
+          "role": "党委委员、副局长",
+          "division": "负责应急值守、应急预案体系建设、应急救援现场协调保障、风险监测、综合防灾减灾等工作。分管应急指挥中心、防灾减灾处、救援协调和预案管理处。联系市应急管理与安全生产协会、市应急联动中心。",
+          "category": "单位领导",
+          "informationResponsibility": false,
+          "quote": "王德强党委委员、副局长 负责应急值守、应急预案体系建设、应急救援现场协调保障、风险监测、综合防灾减灾等工作。分管应急指挥中心、防灾减灾处、救援协调和预案管理处。联系市应急管理与安全生产协会、市应急联动中心。",
+          "source": {
+            "url": "https://yjglj.sh.gov.cn/xxgk/xxgkml/jgzn/jgld/20260506/c36aed2539754dbbad05f0e6733633e8.html",
+            "title": "官网 · 领导及分工",
+            "publishedAt": "2026-06-16"
+          },
+          "checkedAt": "2026-10-23T09:32:01+00:00"
+        },
+        {
+          "name": "宋劬侃",
+          "role": "市纪委监委驻局纪检监察组组长、党委委员",
+          "division": "负责市纪委监委驻局纪检监察组全面工作。",
+          "category": "单位领导",
+          "informationResponsibility": false,
+          "quote": "宋劬侃市纪委监委驻局纪检监察组组长、党委委员 负责市纪委监委驻局纪检监察组全面工作。",
+          "source": {
+            "url": "https://yjglj.sh.gov.cn/xxgk/xxgkml/jgzn/jgld/20260506/c36aed2539754dbbad05f0e6733633e8.html",
+            "title": "官网 · 领导及分工",
+            "publishedAt": "2026-06-16"
+          },
+          "checkedAt": "2026-10-23T09:32:01+00:00"
+        },
+        {
+          "name": "桂余才",
+          "role": "一级巡视员、直属机关党委书记",
+          "division": "协助党委书记分管党的建设。协管宣传培训、国际国内合作交流、协作发展、直属机关党委（直属机关纪委、工青妇）、精神文明建设等工作。协管宣传培训处、协作发展处、市应急管理宣传教育中心。",
+          "category": "单位领导",
+          "informationResponsibility": false,
+          "quote": "桂余才一级巡视员、直属机关党委书记 协助党委书记分管党的建设。协管宣传培训、国际国内合作交流、协作发展、直属机关党委（直属机关纪委、工青妇）、精神文明建设等工作。协管宣传培训处、协作发展处、市应急管理宣传教育中心。",
+          "source": {
+            "url": "https://yjglj.sh.gov.cn/xxgk/xxgkml/jgzn/jgld/20260506/c36aed2539754dbbad05f0e6733633e8.html",
+            "title": "官网 · 领导及分工",
+            "publishedAt": "2026-06-16"
+          },
+          "checkedAt": "2026-10-23T09:32:01+00:00"
+        }
+      ],
+      "lastCheck": {
+        "at": "2026-10-23T09:32:01+00:00",
+        "status": "ok"
+      }
+    },
+    {
+      "id": "2100000172",
+      "customerName": "上海市消防救援总队",
+      "people": [
+        {
+          "name": "刘斌",
+          "role": "第一政治委员",
+          "division": null,
+          "category": "单位领导",
+          "informationResponsibility": false,
+          "quote": "刘斌党委书记、局长，兼上海市消防救援总队（上海市消防救援局）第一政治委员 主持局党政全面工作。负责党的建设、干部队伍建设、业务建设等工作。",
+          "source": {
+            "url": "https://yjglj.sh.gov.cn/xxgk/xxgkml/jgzn/jgld/20260506/c36aed2539754dbbad05f0e6733633e8.html",
+            "title": "上海市应急管理局官网 · 明确列示的消防兼任职务",
+            "publishedAt": "2026-06-16"
+          },
+          "checkedAt": "2026-10-23T09:32:01+00:00"
+        },
+        {
+          "name": "梁云红",
+          "role": "总队长、党委副书记",
+          "division": null,
+          "category": "单位领导",
+          "informationResponsibility": false,
+          "quote": "梁云红党委副书记、副局长（兼），市消防救援总队总队长、党委副书记",
+          "source": {
+            "url": "https://yjglj.sh.gov.cn/xxgk/xxgkml/jgzn/jgld/20260506/c36aed2539754dbbad05f0e6733633e8.html",
+            "title": "上海市应急管理局官网 · 明确列示的消防兼任职务",
+            "publishedAt": "2026-06-16"
+          },
+          "checkedAt": "2026-10-23T09:32:01+00:00"
+        }
+      ],
+      "lastCheck": {
+        "at": "2026-10-23T09:32:01+00:00",
+        "status": "ok"
+      }
+    },
+    {
+      "id": "name:上海市委党校",
+      "customerName": "上海市委党校",
+      "people": [
+        {
+          "name": "张为",
+          "role": "上海市委常委、组织部部长，中共上海市委党校校长、校务委员会主任、上海行政学院院长",
+          "division": null,
+          "category": "单位领导",
+          "informationResponsibility": false,
+          "quote": "张为，上海市委常委、组织部部长，中共上海市委党校校长、校务委员会主任、上海行政学院院长",
+          "source": {
+            "url": "https://www.sdx.sh.cn/x_y_gk/x_y_ld.htm",
+            "title": "市委党校官网 · 校（院）领导",
+            "publishedAt": null
+          },
+          "checkedAt": "2026-10-23T09:32:01+00:00"
+        },
+        {
+          "name": "曾峻",
+          "role": "中共上海市委党校常务副校长、校务委员会副主任、上海行政学院常务副院长",
+          "division": null,
+          "category": "单位领导",
+          "informationResponsibility": false,
+          "quote": "曾峻，中共上海市委党校常务副校长、校务委员会副主任、上海行政学院常务副院长",
+          "source": {
+            "url": "https://www.sdx.sh.cn/x_y_gk/x_y_ld.htm",
+            "title": "市委党校官网 · 校（院）领导",
+            "publishedAt": null
+          },
+          "checkedAt": "2026-10-23T09:32:01+00:00"
+        }
+      ],
+      "lastCheck": {
+        "at": "2026-10-23T09:32:01+00:00",
+        "status": "ok"
+      }
     }
   ],
-  "updatedAt": "2026-10-23T09:07:11+00:00"
+  "updatedAt": "2026-10-23T09:32:01+00:00"
 }

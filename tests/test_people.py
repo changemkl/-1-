@@ -34,6 +34,19 @@ class PeopleTests(unittest.TestCase):
         self.assertFalse(person('测试','局长','不再分管信息化工作。','原文')['informationResponsibility'])
         with self.assertRaises(ValueError):parse_people('basin','会议由副局长某某出席。')
 
+    def test_department_adapters_do_not_turn_duties_into_people(self):
+        rows=parse_people('emergency','',[
+            '曹俊党委委员、副局长','负责科技和信息化工作。',
+            '金跃明党委委员、副局长','协助党委书记分管干部队伍建设。'])
+        self.assertEqual([r['name'] for r in rows],['曹俊','金跃明'])
+        self.assertTrue(rows[0]['informationResponsibility'])
+        rows=parse_people('education','',['陈 睦 上海市教育委员会一级巡视员','分管：发展规划处。'])
+        self.assertEqual(rows[0]['name'],'陈睦')
+        self.assertEqual(rows[0]['role'],'上海市教育委员会一级巡视员')
+        rows=parse_people('data_bureau','邵军 男，汉族，1979年生，中共党员。 市数据局党组书记、局长。')
+        self.assertEqual(rows[0]['name'],'邵军')
+        self.assertNotIn('1979',rows[0]['quote'])
+
     def test_changed_layout_never_becomes_a_successful_empty_list(self):
         class Reader:
             def read(self,url):

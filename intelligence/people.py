@@ -10,6 +10,10 @@ SOURCES = [
     {'id':'2100199365','kind':'team','url':'https://8bur.cscec.com/gywm18/gltd18/','article':'中建八局管理团队'},
     {'id':'2100172632','kind':'commission','url':'https://zjw.sh.gov.cn/jgld/index.html'},
     {'id':'2100161493','kind':'sports','url':'https://tyj.sh.gov.cn/ldcy/index.html','article':'市体育局领导及工作分工'},
+    {'id':'name:上海市委党校','kind':'school','url':'https://www.sdx.sh.cn/x_y_gk/x_y_ld.htm'},
+    {'id':'2102315260','kind':'data_bureau','url':'https://sdb.sh.gov.cn/fdzdgknr/ldxx/'},
+    {'id':'2100128579','kind':'education','url':'https://edu.sh.gov.cn/xxgk2_zhzw_rsxx_01/20260527/393489f4173d4819bd6b8b055a2849d9.html'},
+    {'id':'2101340371','kind':'emergency','url':'https://yjglj.sh.gov.cn/xxgk/xxgkml/jgzn/jgld/20260506/c36aed2539754dbbad05f0e6733633e8.html'},
     {'id':'2108019729','kind':'basin','url':'https://www.tba.gov.cn/slbthlyglj/jg/jg.html'},
 ]
 
@@ -23,8 +27,35 @@ def person(name, role, division, quote):
             'category':'单位领导','informationResponsibility':bool(re.search(r'(?:负责|分管)[^。]*信息化',division) and not re.search(r'不(?:再)?(?:负责|分管)[^。]*信息化',division)),
             'quote':clean(quote)}
 
-def parse_people(kind, text):
+def parse_people(kind, text, paragraphs=None):
     text=clean(text)
+    if kind=='school':
+        rows=[]
+        for part in paragraphs or []:
+            m=re.match(r'^([\u4e00-\u9fff]{2,4})，(.+)$',clean(part))
+            if m and any(role in m[2] for role in ('校长','院长')) and len(m[2])<180:rows.append(person(m[1],m[2],'',m[0]))
+        return rows
+    if kind=='data_bureau':
+        rows=[]
+        for m in re.finditer(r'([\u4e00-\u9fff]{2,4})\s+(?:男|女)，[^。]{1,150}。\s*市数据局([^。]{2,70})。',text):
+            rows.append(person(m[1],'市数据局'+m[2],'',m[1]+' 市数据局'+m[2]+'。'))
+        return rows
+    if kind in ('education','emergency'):
+        headers = r'^([\u4e00-\u9fff]{2,4}?)(中共上海市教育卫生工作委员会副书记、上海市教育委员会.+|上海市教育委员会.+)$' if kind=='education' else r'^([\u4e00-\u9fff]{2,4}?)(党委(?:书记|副书记|委员).+|市纪委监委驻局纪检监察组组长.+|一级巡视员.+)$'
+        rows=[];current=None
+        for part in paragraphs or []:
+            normalized=re.sub(r'\s+','',part)
+            if re.match(r'^(?:全面负责|主持|负责|分管|协助|协管|联系)',normalized):
+                if current:current[2]+=normalized;current[3]+=' '+normalized
+                continue
+            m=re.match(headers,normalized)
+            if m:
+                if current:rows.append(person(*current))
+                current=[m[1],m[2],'',m[0]]
+            elif current and re.match(r'^(?:全面负责|主持|负责|分管|协助|协管|联系)',normalized):
+                current[2]+=normalized;current[3]+=' '+normalized
+        if current:rows.append(person(*current))
+        return rows
     if kind=='commission':
         records=[]
         # Split the actual biography panels, never the navigation's name list.
@@ -80,11 +111,14 @@ def collect(source,reader,stamp):
         pages=[(u,reader.read(u)) for u in dict.fromkeys(links)]
     people=[]
     for url,page in pages:
-        records=parse_people(source['kind'],' '.join(page.parts))
+        records=parse_people(source['kind'],' '.join(page.parts),page.paragraphs)
         if not records:raise ValueError('No explicit leaders found')
-        title=source.get('article') or ('太湖局官网 · 领导简介' if source['kind']=='basin' else '上海市住建委官网 · 机构领导')
+        title=source.get('article') or ('太湖局官网 · 领导简介' if source['kind']=='basin' else '官网 · 领导信息')
         # Never take dates from unrelated news or activities below biographies.
         published=page.published
+        if source['kind'] in ('education','emergency'):
+            date=re.search(r'(?:发布日期|发布时间)[：:\s]*(\d{4}-\d{2}-\d{2})',' '.join(page.parts))
+            published=date[1] if date else published
         if source['kind'] in ('team','sports'):
             date=re.search(r'\d{4}-\d{2}-\d{2}', ' '.join(page.parts).split('字号：')[0])
             published=date[0] if date else published
@@ -114,6 +148,12 @@ def main():
         try:
             people=collect(source,reader,stamp)
             record.update(people=people,lastCheck={'at':stamp,'status':'ok'})
+            if source['kind']=='emergency' and active.get('2100000172')=='上海市消防救援总队':
+                fire=[]
+                for p in people:
+                    role='第一政治委员' if '上海市消防救援总队' in p['role'] and '第一政治委员' in p['role'] else '总队长、党委副书记' if '市消防救援总队总队长、党委副书记' in p['role'] else None
+                    if role:fire.append({**p,'role':role,'division':None})
+                if fire:previous['2100000172']={'id':'2100000172','customerName':'上海市消防救援总队','people':fire,'lastCheck':{'at':stamp,'status':'ok'}}
             print(source['id'],len(people),'official leaders')
         except Exception as exc:
             record['lastCheck']={'at':stamp,'status':'unavailable','message':str(exc)[:200]}

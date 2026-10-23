@@ -2,6 +2,7 @@
 (() => {
   const records = new Map();
   const peopleRecords = new Map();
+  window.organizationInfoFor = x => {const r=records.get(customerIdentifier(x));return r?.name===decoded(x)?r:null;};
   const decoded = x => new DOMParser().parseFromString(x[0], 'text/html').body.textContent;
   window.organizationLeadersFor = x => {const r=peopleRecords.get(customerIdentifier(x));return typeof customerSourceNeedsReview==='function'&&customerSourceNeedsReview(x)||r?.customerName&&r.customerName!==decoded(x)?[]:(r?.people||[]).filter(p=>p.category==='单位领导');};
   const escape = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -43,7 +44,8 @@
   }
   function open(button) {
     const article = button.closest('.card');
-    selected = filtered()[Number(article.dataset.customerIndex)];
+    const id=decodeURIComponent(article.dataset.customerKey);
+    selected = views.flatMap(v=>v.items).find(x=>customerIdentifier(x)===id);
     if (!selected) return;
     trigger = button;
     clearTimeout(closeTimer);
@@ -74,12 +76,14 @@
       const data = await r.json();
       for (const record of data.customers || []) map.set(String(record.id), record);
       if (selected && !overlay.hidden) render();
-      if (file === 'people-data.json' && typeof refreshProfiles === 'function') refreshProfiles();
+      if (typeof refreshProfiles === 'function') refreshProfiles();
     } catch { /* Retain already loaded evidence. */ }
   };
   const updateSelected=()=>{if(!selected||overlay.hidden)return;const id=customerIdentifier(selected);const current=views.flatMap(v=>v.items).find(x=>customerIdentifier(x)===id);if(!current){close();return;}selected=current;render();};
   for(const event of ['customer-sources-updated','customers-updated','public-profiles-updated'])window.addEventListener(event,updateSelected);
   load('organization-data.json', records);
   load('people-data.json', peopleRecords);
-  setInterval(() => load('people-data.json', peopleRecords), 300000);
+  const refreshOrganizationData=()=>{load('organization-data.json',records);load('people-data.json',peopleRecords);};
+  window.addEventListener('refresh-public-data',refreshOrganizationData);
+  setInterval(refreshOrganizationData,300000);
 })();

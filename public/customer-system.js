@@ -10,6 +10,7 @@
   window.customerStatePreview = x => {
     const r = window.customerSystemState(x);
     if (!r || r.sourceStatus === 'verified') return '';
+    if((typeof historyCountFor==='function'&&historyCountFor(x))||(typeof profileProjectCountFor==='function'&&profileProjectCountFor(x)))return '<p class="customer-source-state">采购资料已收录 · 官网资料待补充</p>';
     const label = r.nameChangedAt ? '名称已更新 · 资料来源待重新核实' : r.candidates?.length ? '已找到候选来源 · 待核实' : r.discovery?.status === 'unavailable' ? '公开资料来源待核实' : '正在查找公开资料来源';
     return `<p class="customer-source-state">${label}</p>`;
   };
@@ -28,4 +29,5 @@
   }
   refresh();setInterval(refresh,60000);
   window.addEventListener('customers-updated',refresh);
+  window.addEventListener('refresh-public-data',refresh);
 })();

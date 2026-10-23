@@ -6,7 +6,7 @@ const customers = JSON.parse(fs.readFileSync('public/tencent-data.json','utf8'))
 test('organization evidence belongs to a current customer and has a public source', () => {
   const ids = new Set();
   for (const record of data.customers) {
-    assert.ok(customers.some(([id]) => id === record.id));
+    assert.ok(customers.some(([id,name]) => (id || 'name:'+name.normalize('NFKC').toLowerCase().replace(/\s+/g,'')) === record.id));
     assert.ok(!ids.has(record.id));ids.add(record.id);
     if (record.nodes.length) {
       assert.equal(new URL(record.source.url).protocol, 'https:');

@@ -5,7 +5,19 @@
       "id": "2100303078",
       "name": "上海建工集团股份有限公司",
       "nodes": [],
-      "note": "尚未取得可核实的完整组织架构，暂不展示未经确认的部门及人员。"
+      "note": "尚未取得可核实的完整组织架构，暂不展示未经确认的部门及人员。",
+      "overview": "官网列示的五大核心业务为建筑施工、设计咨询、房地产开发、城市建设投资和建材工业。",
+      "basicSource": {
+        "url": "https://www.scg.com.cn/portal/index/index.htm",
+        "title": "上海建工集团官网 · 业务概况",
+        "publishedAt": "未标注"
+      },
+      "source": {
+        "url": "https://www.scg.com.cn/portal/index/index.htm",
+        "title": "上海建工集团官网 · 业务概况",
+        "publishedAt": "未标注"
+      },
+      "checkedAt": "2026-10-23"
     },
     {
       "id": "2100199365",
@@ -67,6 +79,12 @@
       "note": "来源发布日期：2026-01-08。官网介绍设有24个职能部门、27家二级公司和28处海外机构；本树仅展示原文点名的部门及分局区域，其余名单待核实。",
       "checkedAt": "2026-10-23",
       "source": {
+        "url": "https://8bur.cscec.com/xxgk_18/jbxx_18/202108/3389421.html",
+        "title": "中建八局官网 · 中建八局简介",
+        "publishedAt": "2026-01-08"
+      },
+      "overview": "官网列示重点发展高端房建、基础设施、地产开发、投资运营、创新业务五大板块。",
+      "basicSource": {
         "url": "https://8bur.cscec.com/xxgk_18/jbxx_18/202108/3389421.html",
         "title": "中建八局官网 · 中建八局简介",
         "publishedAt": "2026-01-08"
@@ -362,6 +380,513 @@
         "publishedAt": "2023-06-01"
       },
       "checkedAt": "2026-10-23"
+    },
+    {
+      "id": "2102315260",
+      "name": "上海市数据局",
+      "nodes": [
+        {
+          "name": "内设机构",
+          "children": [
+            {
+              "name": "办公室（计划财务处）"
+            },
+            {
+              "name": "组织人事处"
+            },
+            {
+              "name": "数据安全与合规处"
+            },
+            {
+              "name": "数据要素发展处"
+            },
+            {
+              "name": "数字经济和数字产业处"
+            },
+            {
+              "name": "数字基础设施处"
+            },
+            {
+              "name": "城市数字化转型处"
+            },
+            {
+              "name": "电子政务建设处"
+            }
+          ]
+        },
+        {
+          "name": "直属单位",
+          "children": [
+            {
+              "name": "上海市大数据中心"
+            },
+            {
+              "name": "上海市城市数字化转型应用促进中心（上海市智慧城市建设促进中心）"
+            },
+            {
+              "name": "上海超级计算中心"
+            }
+          ]
+        }
+      ],
+      "note": "按所列官方来源的公开名单整理；未核实的其他层级不补充。资料的发布日期见原文。",
+      "overview": "主管全市数据工作，统筹数据发展管理、数字经济与数字产业、数字基础设施、城市数字化转型和电子政务服务体系建设。",
+      "basicSource": {
+        "url": "https://sdb.sh.gov.cn/fdzdgknr/jgzn/20250612/c8212e0c6d494ca69580383ebdbfd6e6.html",
+        "title": "上海市数据局机构职责",
+        "publishedAt": "2025-06-12"
+      },
+      "source": {
+        "url": "https://sdb.sh.gov.cn/fdzdgknr/jgss/20250612/9517fd60462d487daa9e76bbb68a1692.html",
+        "title": "上海市数据局内设机构",
+        "publishedAt": "2025-06-12"
+      },
+      "checkedAt": "2026-10-23",
+      "sources": [
+        {
+          "url": "https://sdb.sh.gov.cn/fdzdgknr/jgss/20250612/9517fd60462d487daa9e76bbb68a1692.html",
+          "title": "上海市数据局内设机构",
+          "publishedAt": "2025-06-12"
+        },
+        {
+          "url": "https://sdb.sh.gov.cn/fdzdgknr/jgzn/20250612/c8212e0c6d494ca69580383ebdbfd6e6.html",
+          "title": "上海市数据局机构职责",
+          "publishedAt": "2025-06-12"
+        },
+        {
+          "url": "https://sdb.sh.gov.cn/fdzdgknr/zsdw/20250612/1691f591b3db4f54b4fbc57c27a2d1d0.html",
+          "title": "上海市数据局官网 · 直属单位",
+          "publishedAt": "2025-06-12"
+        }
+      ]
+    },
+    {
+      "id": "2100128579",
+      "name": "上海市教育委员会",
+      "nodes": [
+        {
+          "name": "内设处室",
+          "children": [
+            {
+              "name": "办公室"
+            },
+            {
+              "name": "秘书处（研究室）"
+            },
+            {
+              "name": "发展规划处"
+            },
+            {
+              "name": "人事处"
+            },
+            {
+              "name": "财务和国有资产管理处"
+            },
+            {
+              "name": "基础教育处"
+            },
+            {
+              "name": "职业教育处"
+            },
+            {
+              "name": "高等教育处"
+            },
+            {
+              "name": "终身教育处"
+            },
+            {
+              "name": "校外教育培训管理处"
+            },
+            {
+              "name": "托幼工作处"
+            },
+            {
+              "name": "民办教育管理处"
+            },
+            {
+              "name": "学生处"
+            },
+            {
+              "name": "科学研究处"
+            },
+            {
+              "name": "信息化工作处"
+            },
+            {
+              "name": "体育卫生艺术科普处"
+            },
+            {
+              "name": "国际交流处（港澳台办公室）"
+            },
+            {
+              "name": "学校后勤保卫处"
+            },
+            {
+              "name": "政策法规处（政风行风办公室）"
+            },
+            {
+              "name": "教材和语言文字管理处"
+            },
+            {
+              "name": "审计处"
+            },
+            {
+              "name": "德育处"
+            },
+            {
+              "name": "督导室"
+            },
+            {
+              "name": "青少年保护工作处"
+            },
+            {
+              "name": "信访办公室"
+            }
+          ]
+        }
+      ],
+      "note": "按所列官方来源的公开名单整理；未核实的其他层级不补充。资料的发布日期见原文。",
+      "overview": "公开机构职责涵盖基础教育、职业教育、高等教育、科研、教育督导等；信息化工作处负责教育信息化规划、项目归口管理、智慧教育和网络信息安全。",
+      "basicSource": {
+        "url": "https://edu.sh.gov.cn/xxgk2_zhzw_jgxx_03/20250630/1b5cfc339af94cd99e6a9ba26fb87f41.html",
+        "title": "内设机构和职责",
+        "publishedAt": "2024-02-21"
+      },
+      "address": "上海市大沽路100号（信息公开受理点）",
+      "source": {
+        "url": "https://edu.sh.gov.cn/xxgk2_zhzw_jgxx_03/20250630/1b5cfc339af94cd99e6a9ba26fb87f41.html",
+        "title": "内设机构和职责",
+        "publishedAt": "2024-02-21"
+      },
+      "checkedAt": "2026-10-23",
+      "addressSource": {
+        "url": "https://edu.sh.gov.cn/edu_newshanghai/",
+        "title": "上海市教育委员会政府信息公开指南",
+        "publishedAt": "未标注"
+      }
+    },
+    {
+      "id": "2101340371",
+      "name": "上海市应急管理局",
+      "nodes": [
+        {
+          "name": "内设机构",
+          "children": [
+            {
+              "name": "办公室（党委办公室）"
+            },
+            {
+              "name": "应急指挥中心"
+            },
+            {
+              "name": "组织人事处"
+            },
+            {
+              "name": "宣传培训处"
+            },
+            {
+              "name": "防灾减灾处"
+            },
+            {
+              "name": "救援协调和预案管理处"
+            },
+            {
+              "name": "危险化学品安全监督管理处"
+            },
+            {
+              "name": "工贸安全监督管理处"
+            },
+            {
+              "name": "安全生产综合协调处"
+            },
+            {
+              "name": "安全生产巡查督查处"
+            },
+            {
+              "name": "风险防控和安全发展处"
+            },
+            {
+              "name": "政策法规处"
+            },
+            {
+              "name": "协作发展处"
+            },
+            {
+              "name": "调查评估和统计处"
+            },
+            {
+              "name": "财务处"
+            },
+            {
+              "name": "科技保障处"
+            }
+          ]
+        }
+      ],
+      "note": "按所列官方来源的公开名单整理；未核实的其他层级不补充。资料的发布日期见原文。",
+      "overview": "承担应急管理、安全生产监督管理及综合防灾减灾等职责；牵头建设全市统一的应急管理信息系统，推进监测预警和信息共享。",
+      "basicSource": {
+        "url": "https://yjglj.sh.gov.cn/xxgk/xxgkml/jgzn/jgzz/20190320/0037-32434.html",
+        "title": "上海市应急管理局主要职责上海市应急管理局主要职责",
+        "publishedAt": "2019-03-20"
+      },
+      "address": "上海市复兴中路593号",
+      "source": {
+        "url": "https://yjglj.sh.gov.cn/xxgk/xxgkml/jgzn/nsjg/20230406/53afadf618b247518d06a35eed76f47c.html",
+        "title": "上海市应急管理局内设机构上海市应急管理局内设机构",
+        "publishedAt": "2023-04-06"
+      },
+      "checkedAt": "2026-10-23",
+      "sources": [
+        {
+          "url": "https://yjglj.sh.gov.cn/xxgk/xxgkml/jgzn/nsjg/20230406/53afadf618b247518d06a35eed76f47c.html",
+          "title": "上海市应急管理局内设机构上海市应急管理局内设机构",
+          "publishedAt": "2023-04-06"
+        },
+        {
+          "url": "https://yjglj.sh.gov.cn/xxgk/xxgkml/jgzn/jgzz/20190320/0037-32434.html",
+          "title": "上海市应急管理局主要职责上海市应急管理局主要职责",
+          "publishedAt": "2019-03-20"
+        }
+      ]
+    },
+    {
+      "id": "name:上海市委党校",
+      "name": "上海市委党校",
+      "nodes": [
+        {
+          "name": "官网机构设置",
+          "children": [
+            {
+              "name": "办公室（政策法规处）"
+            },
+            {
+              "name": "教务处"
+            },
+            {
+              "name": "科研处"
+            },
+            {
+              "name": "决策咨询部"
+            },
+            {
+              "name": "马克思主义学院"
+            },
+            {
+              "name": "哲学教研部"
+            },
+            {
+              "name": "经济学教研部"
+            },
+            {
+              "name": "科社教研部"
+            },
+            {
+              "name": "党史党建教研部"
+            },
+            {
+              "name": "政法教研部"
+            },
+            {
+              "name": "公共管理教研部"
+            },
+            {
+              "name": "社会学教研部"
+            },
+            {
+              "name": "领导科学教研部"
+            },
+            {
+              "name": "上海发展研究院"
+            },
+            {
+              "name": "干部人事处"
+            },
+            {
+              "name": "离退休工作处"
+            },
+            {
+              "name": "机关党委（机关纪委）"
+            },
+            {
+              "name": "学员工作处"
+            },
+            {
+              "name": "对外培训处"
+            },
+            {
+              "name": "培训处"
+            },
+            {
+              "name": "研究生部"
+            },
+            {
+              "name": "外事处"
+            },
+            {
+              "name": "校院工作处"
+            },
+            {
+              "name": "后勤保卫处"
+            },
+            {
+              "name": "资产管理处"
+            },
+            {
+              "name": "计划财务处"
+            },
+            {
+              "name": "信息化管理处"
+            },
+            {
+              "name": "校区管理办公室"
+            },
+            {
+              "name": "校刊编辑部"
+            },
+            {
+              "name": "经济管理干部学院（教师进修学院）"
+            },
+            {
+              "name": "图书馆"
+            },
+            {
+              "name": "服务保障中心"
+            },
+            {
+              "name": "财务结算中心"
+            }
+          ]
+        }
+      ],
+      "note": "按所列官方来源的公开名单整理；未核实的其他层级不补充。资料的发布日期见原文。",
+      "overview": "中共上海市委党校（上海行政学院）承担干部和党员教育培训，开展哲学社会科学研究、决策咨询等工作。",
+      "basicSource": {
+        "url": "https://www.sdx.sh.cn/x_y_gk/x_y_jj.htm",
+        "title": "校（院）简介 中共上海市委党校(上海行政学院）",
+        "publishedAt": "未标注"
+      },
+      "address": "上海市徐汇区虹漕南路200号、123号（校本部）",
+      "source": {
+        "url": "https://www.sdx.sh.cn/x_y_gk/jgsz.htm",
+        "title": "机构设置 中共上海市委党校(上海行政学院）",
+        "publishedAt": "未标注"
+      },
+      "checkedAt": "2026-10-23",
+      "addressSource": {
+        "url": "https://www.sdx.sh.cn/x_y_gk/x_y_jj.htm",
+        "title": "校（院）简介 中共上海市委党校(上海行政学院）",
+        "publishedAt": "未标注"
+      }
+    },
+    {
+      "id": "2100006103",
+      "name": "上海市市场监督管理局",
+      "nodes": [],
+      "note": "依据公开资料整理；未核实的信息待补充。",
+      "overview": "官网公开服务涉及商事主体登记、企业年报、食品经营、计量、认证认可与特种设备等事项。",
+      "basicSource": {
+        "url": "https://scjgj.sh.gov.cn/",
+        "title": "上海市市场监督管理局",
+        "publishedAt": "未标注"
+      },
+      "source": {
+        "url": "https://scjgj.sh.gov.cn/",
+        "title": "上海市市场监督管理局",
+        "publishedAt": "未标注"
+      },
+      "checkedAt": "2026-10-23"
+    },
+    {
+      "id": "2102351543",
+      "name": "上海库帕思科技有限公司",
+      "nodes": [],
+      "note": "依据公开资料整理；未核实的信息待补充。",
+      "overview": "据市国资委公开调研信息，库帕思是上海人工智能语料领域的国资平台，开展语料平台建设及相关技术、数据和生态服务。",
+      "basicSource": {
+        "url": "https://www.gzw.sh.gov.cn/shgzw_xwzx_gzyw/20260916/92d77554307942fba2a0ddbe4b1e4e4d.html",
+        "title": "市国资委调研上海库帕思科技有限公司_国资要闻",
+        "publishedAt": "2026-09-16"
+      },
+      "source": {
+        "url": "https://www.gzw.sh.gov.cn/shgzw_xwzx_gzyw/20260916/92d77554307942fba2a0ddbe4b1e4e4d.html",
+        "title": "市国资委调研上海库帕思科技有限公司_国资要闻",
+        "publishedAt": "2026-09-16"
+      },
+      "checkedAt": "2026-10-23"
+    },
+    {
+      "id": "2101882120",
+      "name": "上海数据集团有限公司",
+      "nodes": [],
+      "note": "依据公开资料整理；未核实的信息待补充。",
+      "overview": "据市国资委公开信息，上海数据集团研发“天机·数境”可信数据空间产品，涵盖空间运营平台、接入连接器及轻入口，开展数据流通基础设施建设。",
+      "basicSource": {
+        "url": "https://www.gzw.sh.gov.cn/shgzw_zxzx_gqdt/20260509/aa489808c6e247709b027c8f7b0ede9d.html",
+        "title": "数据集团可信数据空间通过首批可信能力测评_国企动态",
+        "publishedAt": "2026-05-09"
+      },
+      "source": {
+        "url": "https://www.gzw.sh.gov.cn/shgzw_zxzx_gqdt/20260509/aa489808c6e247709b027c8f7b0ede9d.html",
+        "title": "数据集团可信数据空间通过首批可信能力测评_国企动态",
+        "publishedAt": "2026-05-09"
+      },
+      "checkedAt": "2026-10-23"
+    },
+    {
+      "id": "2100127512",
+      "name": "中国浦东干部学院",
+      "overview": "中共中央直属事业单位，由中共中央组织部直接管理、中共上海市委协助管理，开展干部教育培训，并承接国内外有关党政、企业和社会团体委托培训。官网介绍设有信息技术部等8个内设机构，并建设网络学院开展在线培训。",
+      "basicSource": {
+        "url": "https://www.celap.org.cn/col/col117/index.html",
+        "title": "中国浦东干部学院情况介绍",
+        "publishedAt": "未标注"
+      },
+      "source": {
+        "url": "https://www.celap.org.cn/col/col117/index.html",
+        "title": "中国浦东干部学院情况介绍",
+        "publishedAt": "未标注"
+      },
+      "sources": [
+        {
+          "url": "https://www.celap.org.cn/col/col117/index.html",
+          "title": "中国浦东干部学院情况介绍",
+          "publishedAt": "未标注"
+        }
+      ],
+      "checkedAt": "2026-10-23",
+      "nodes": [
+        {
+          "name": "内设机构",
+          "children": [
+            {
+              "name": "办公厅"
+            },
+            {
+              "name": "教务部"
+            },
+            {
+              "name": "培训部"
+            },
+            {
+              "name": "对外交流与培训开发部"
+            },
+            {
+              "name": "教学研究部"
+            },
+            {
+              "name": "科研部"
+            },
+            {
+              "name": "信息技术部"
+            },
+            {
+              "name": "人力资源部（机关党委）"
+            }
+          ]
+        }
+      ],
+      "note": "机构及业务以学院官网情况介绍为依据；页面未标注发布日期。"
     }
   ]
 }

@@ -70,7 +70,7 @@ async function refreshSheetData() {
 const refreshCustomerButtons=[$('refresh-data'),$('refresh-customers')].filter(Boolean);
 for(const button of refreshCustomerButtons)button.onclick=async()=>{
   for(const b of refreshCustomerButtons){b.disabled=true;b.dataset.label=b.textContent;b.textContent='刷新中…';}
-  try{await refreshSheetData();if(typeof refreshProfiles==='function')await refreshProfiles();}
+  try{window.dispatchEvent(new Event('refresh-public-data'));await refreshSheetData();if(typeof refreshProfiles==='function')await refreshProfiles();}
   finally{for(const b of refreshCustomerButtons){b.disabled=false;b.textContent=b.dataset.label;}}
 };
 refreshSheetData();setInterval(refreshSheetData,60000);
