@@ -269,7 +269,111 @@
           "上海市体育局"
         ]
       }
+    },
+    {
+      "id": "2100153629",
+      "name": "公安部第三研究所",
+      "firstSeenAt": "2026-10-23T09:03:28+00:00",
+      "previousNames": [],
+      "active": true,
+      "sourceStatus": "pending"
+    },
+    {
+      "id": "2100127512",
+      "name": "中国浦东干部学院",
+      "firstSeenAt": "2026-10-23T09:03:28+00:00",
+      "previousNames": [],
+      "active": true,
+      "sourceStatus": "pending"
+    },
+    {
+      "id": "2101882120",
+      "name": "上海数据集团有限公司",
+      "firstSeenAt": "2026-10-23T09:03:28+00:00",
+      "previousNames": [],
+      "active": true,
+      "sourceStatus": "pending"
+    },
+    {
+      "id": "2102351543",
+      "name": "上海库帕思科技有限公司",
+      "firstSeenAt": "2026-10-23T09:03:28+00:00",
+      "previousNames": [],
+      "active": true,
+      "sourceStatus": "pending"
+    },
+    {
+      "id": "2102315260",
+      "name": "上海市数据局",
+      "firstSeenAt": "2026-10-23T09:03:28+00:00",
+      "previousNames": [],
+      "active": true,
+      "sourceStatus": "pending"
+    },
+    {
+      "id": "2100000260",
+      "name": "上海市公安局",
+      "firstSeenAt": "2026-10-23T09:03:28+00:00",
+      "previousNames": [],
+      "active": true,
+      "sourceStatus": "pending"
+    },
+    {
+      "id": "2100000172",
+      "name": "上海市消防救援总队",
+      "firstSeenAt": "2026-10-23T09:03:28+00:00",
+      "previousNames": [],
+      "active": true,
+      "sourceStatus": "pending"
+    },
+    {
+      "id": "2101340371",
+      "name": "上海市应急管理局",
+      "firstSeenAt": "2026-10-23T09:03:28+00:00",
+      "previousNames": [],
+      "active": true,
+      "sourceStatus": "pending"
+    },
+    {
+      "id": "2100128579",
+      "name": "上海市教育委员会",
+      "firstSeenAt": "2026-10-23T09:03:28+00:00",
+      "previousNames": [],
+      "active": true,
+      "sourceStatus": "pending"
+    },
+    {
+      "id": "2100006103",
+      "name": "上海市市场监督管理局",
+      "firstSeenAt": "2026-10-23T09:03:28+00:00",
+      "previousNames": [],
+      "active": true,
+      "sourceStatus": "pending"
+    },
+    {
+      "id": "name:上海市委党校",
+      "name": "上海市委党校",
+      "firstSeenAt": "2026-10-23T09:03:28+00:00",
+      "previousNames": [],
+      "active": true,
+      "sourceStatus": "pending"
+    },
+    {
+      "id": "name:上海市城市运行管理中心",
+      "name": "上海市城市运行管理中心",
+      "firstSeenAt": "2026-10-23T09:03:28+00:00",
+      "previousNames": [],
+      "active": true,
+      "sourceStatus": "pending"
+    },
+    {
+      "id": "name:上海市总工会",
+      "name": "上海市总工会",
+      "firstSeenAt": "2026-10-23T09:03:28+00:00",
+      "previousNames": [],
+      "active": true,
+      "sourceStatus": "pending"
     }
   ],
-  "updatedAt": "2026-10-23T06:48:39+00:00"
+  "updatedAt": "2026-10-23T09:03:28+00:00"
 }
