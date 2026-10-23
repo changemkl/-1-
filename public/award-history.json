@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-23T16:33:19+08:00",
+  "updatedAt": "2026-10-23T17:07:11+08:00",
   "customers": [
     {
       "id": "2100303078",
@@ -251,6 +251,697 @@
       },
       "lastCheck": {
         "at": "2026-10-23T16:33:19+08:00",
+        "status": "ok"
+      }
+    },
+    {
+      "id": "2100153629",
+      "name": "公安部第三研究所",
+      "results": [],
+      "coverage": {
+        "from": "2023-10-24",
+        "to": "2026-10-23",
+        "source": "https://www.zfcg.sh.gov.cn",
+        "truncated": false
+      },
+      "lastCheck": {
+        "at": "2026-10-23T17:07:11+08:00",
+        "status": "ok"
+      }
+    },
+    {
+      "id": "2100127512",
+      "name": "中国浦东干部学院",
+      "results": [],
+      "coverage": {
+        "from": "2023-10-24",
+        "to": "2026-10-23",
+        "source": "https://www.zfcg.sh.gov.cn",
+        "truncated": false
+      },
+      "lastCheck": {
+        "at": "2026-10-23T17:07:11+08:00",
+        "status": "ok"
+      }
+    },
+    {
+      "id": "2101882120",
+      "name": "上海数据集团有限公司",
+      "results": [],
+      "coverage": {
+        "from": "2023-10-24",
+        "to": "2026-10-23",
+        "source": "https://www.zfcg.sh.gov.cn",
+        "truncated": true
+      },
+      "lastCheck": {
+        "at": "2026-10-23T17:07:11+08:00",
+        "status": "ok"
+      }
+    },
+    {
+      "id": "2102351543",
+      "name": "上海库帕思科技有限公司",
+      "results": [],
+      "coverage": {
+        "from": "2023-10-24",
+        "to": "2026-10-23",
+        "source": "https://www.zfcg.sh.gov.cn",
+        "truncated": false
+      },
+      "lastCheck": {
+        "at": "2026-10-23T17:07:11+08:00",
+        "status": "ok"
+      }
+    },
+    {
+      "id": "2102315260",
+      "name": "上海市数据局",
+      "results": [
+        {
+          "title": "上海市数据局办公场所延伸服务的中标（成交）结果公告",
+          "date": "2026-02-27",
+          "buyer": "上海市数据局",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=ynOsJCNQ6W1QfEb6a09QZg%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "上海市数据局办公场所延伸服务的中标（成交）结果公告",
+          "date": "2025-02-07",
+          "buyer": "上海市数据局",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=Fr2O9xntxg1ZIFxgZjG4Ww%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        }
+      ],
+      "coverage": {
+        "from": "2023-10-24",
+        "to": "2026-10-23",
+        "source": "https://www.zfcg.sh.gov.cn",
+        "truncated": true
+      },
+      "lastCheck": {
+        "at": "2026-10-23T17:07:11+08:00",
+        "status": "ok"
+      }
+    },
+    {
+      "id": "2100000260",
+      "name": "上海市公安局",
+      "results": [
+        {
+          "title": "上海市公安局黄浦分局智能装备柜采购项目的中标（成交）结果公告",
+          "date": "2026-10-15",
+          "buyer": "上海市公安局黄浦分局（本级）",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=5O6JuyjCR6IBGW8wgcySkw%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "上海市公安局宝山分局所属大院保安服务的中标（成交）结果公告",
+          "date": "2026-09-07",
+          "buyer": "上海市公安局宝山分局",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=cV0DJv7iRUw4nUEK5MQmLw%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "上海市公安局农场分局线路年租费的中标（成交）结果公告",
+          "date": "2026-07-03",
+          "buyer": "上海市公安局（主管）",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=TEbEBNWxgIN4KOLHT4LLHA%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "上海市公安局浦东分局设备物业管理服务的中标（成交）结果公告",
+          "date": "2026-06-03",
+          "buyer": "上海市公安局浦东分局",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=7Cjblhx69V36ESTpizkcQw%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "上海市公安局金山分局电子警察维保服务的中标（成交）结果公告",
+          "date": "2026-05-14",
+          "buyer": "上海市公安局金山分局",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=5%2B1zvQD7EiytbZTfoLTKaQ%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "上海市公安局普陀分局会议中心建设工程的中标（成交）结果公告",
+          "date": "2026-05-08",
+          "buyer": "上海市公安局普陀分局",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=sM6BRzDLTsPxpr5qaXbQyQ%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "上海市公安局宝山分局2026年办案审计服务的中标（成交）结果公告",
+          "date": "2026-04-09",
+          "buyer": "上海市公安局宝山分局",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=vdhuWG0dtZvVzzLYpIaMbw%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "上海市公安局松江分局2026年度采购硒鼓耗材的中标（成交）结果公告",
+          "date": "2026-03-02",
+          "buyer": "上海市公安局松江分局（本部）",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=NC5ibD%2FI8FFXq0WQ5XXNjw%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "上海市公安局松江分局执法办案管理中心家具的中标（成交）结果公告",
+          "date": "2025-12-08",
+          "buyer": "上海市公安局松江分局（本部）",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=Hg3Voi0Jawn1HE3vnqjCbw%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "上海市公安局金山分局物业管理服务的中标（成交）结果公告",
+          "date": "2025-12-04",
+          "buyer": "上海市公安局金山分局",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=0qD1I19%2B3G2pmhQXN56xHw%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "上海市公安局杨浦分局图像控制中心建设项目的中标（成交）结果公告",
+          "date": "2025-11-27",
+          "buyer": "上海市公安局杨浦分局",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=aCFLGz6W1atqKlKQtPfE5g%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "上海市公安局静安分局“情指行”平台建设项目的中标（成交）结果公告",
+          "date": "2025-11-18",
+          "buyer": "上海市公安局静安分局（本部）",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=xu%2FDmvxamv81effinILR2A%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "上海市公安局普陀分局信息化建设项目的中标（成交）结果公告",
+          "date": "2025-10-20",
+          "buyer": "上海市公安局普陀分局",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=Q2IVxm45ggJO9kLc5rULtg%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "上海市公安局青浦分局光缆租赁项目的中标（成交）结果公告",
+          "date": "2025-10-11",
+          "buyer": "上海市公安局青浦分局",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=jsRGQwlYzo9OlhecJWfMqQ%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "上海市公安局业务技术用房程控交换机的中标（成交）结果公告",
+          "date": "2025-09-29",
+          "buyer": "上海市公安局（主管）",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=dWE%2FCJtQ%2FrS73%2BRbjbWBhg%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "上海市公安局大模型基础环境子系统建设项目的中标（成交）结果公告",
+          "date": "2025-09-02",
+          "buyer": "上海市公安局（主管）",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=SUCg4hqOMKn8seEtMb7z4A%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "上海市公安局金山分局雪亮边界升级改造项目的中标（成交）结果公告",
+          "date": "2025-08-14",
+          "buyer": "上海市公安局金山分局",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=GWg3W8y0C8t1LEfx%2Bb%2BxsQ%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "上海市公安局黄浦分局PDT通信装备采购项目的中标（成交）结果公告",
+          "date": "2025-07-30",
+          "buyer": "上海市公安局黄浦分局（本级）",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=NuGL28sNnpadeXzNCWJ%2Bgg%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "上海市公安局杨浦分局至派出所星网光缆项目的中标（成交）结果公告",
+          "date": "2025-07-30",
+          "buyer": "上海市公安局杨浦分局",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=btpGnFkgySOsJccTdCTacg%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "上海市公安局奉贤分局DNA实验室现场物证试剂项目的中标（成交）结果公告",
+          "date": "2025-07-22",
+          "buyer": "上海市公安局奉贤分局(本部)",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=yFmhj5GPoUbVz%2BhjC3QfwA%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "上海市公安局普陀分局数据运营服务项目的中标（成交）结果公告",
+          "date": "2025-07-18",
+          "buyer": "上海市公安局普陀分局",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=EAP0UFkXd6ZN5v9%2BynxRaw%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "上海市公安局杨浦分局看守所、拘留所修缮项目的中标（成交）结果公告",
+          "date": "2025-07-09",
+          "buyer": "上海市公安局杨浦分局",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=OkfKerp2vYZG1hTtZW7gug%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "上海市公安局杨浦分局司法审计项目的中标（成交）结果公告",
+          "date": "2025-06-25",
+          "buyer": "上海市公安局杨浦分局",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=BcK7WJxoLnN3QEjPZtDCTw%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "上海市公安局普陀分局A楼门厅改造修缮工程的中标（成交）结果公告",
+          "date": "2025-06-19",
+          "buyer": "上海市公安局普陀分局",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=%2FuINFqUgD7MWND8H%2BYDM%2Bw%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "上海市公安局静安分局大统路空调安装更新项目的中标（成交）结果公告",
+          "date": "2025-06-17",
+          "buyer": "上海市公安局静安分局（本部）",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=fSPkolGB804DdsEcYDkJzw%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "上海市公安局金山分局保安服务的中标（成交）结果公告",
+          "date": "2025-06-12",
+          "buyer": "上海市公安局金山分局",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=OzqlWaUsmerEZrIFNX6GsA%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "上海市公安局闵行分局门禁系统升级改造项目的中标（成交）结果公告",
+          "date": "2025-05-15",
+          "buyer": "上海市公安局闵行分局",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=5U6RH3ymAClBF6i2yLd3vQ%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "上海市公安局市局相关大院保安服务的中标（成交）结果公告",
+          "date": "2025-05-09",
+          "buyer": "上海市公安局（主管）",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=QTZX1IzQ%2B7bLGgxCCDQpfQ%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "上海市公安局金山分局电子警察维保服务的中标（成交）结果公告",
+          "date": "2025-04-30",
+          "buyer": "上海市公安局金山分局",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=NRLBhHK1JWc%2Bpsv8J7r%2FRg%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "上海市公安局松江分局警务中台回迁的中标（成交）结果公告",
+          "date": "2025-02-27",
+          "buyer": "上海市公安局松江分局（本部）",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=a0mYYoXePjORQXyjLA7GZg%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "上海市公安局护申子系统的中标（成交）结果公告",
+          "date": "2025-02-17",
+          "buyer": "上海市公安局（主管）",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=W9Q%2F6Xzcw71ObjP0XinJ2w%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "上海市公安局松江分局2025年度采购硒鼓耗材的中标（成交）结果公告",
+          "date": "2025-02-12",
+          "buyer": "上海市公安局松江分局（本部）",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=suzjoeLyE%2BJFvX0tomTM9A%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "上海市公安局徐汇分局车辆集中化管理项目的中标（成交）结果公告",
+          "date": "2024-12-27",
+          "buyer": "上海市公安局徐汇分局",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=9tFUgcT2M8Ai8R8DeK4R%2FQ%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "上海市公安局松江分局物业管理服务的中标（成交）结果公告",
+          "date": "2024-12-19",
+          "buyer": "上海市公安局松江分局（本部）",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=CkIbBHLDV4oM3GAHeT3pOA%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "上海市公安局松江分局人口数据分析服务的中标（成交）结果公告",
+          "date": "2024-12-11",
+          "buyer": "上海市公安局松江分局（本部）",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=5ftPXl22jlEAA7BAtnN%2BpQ%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "上海市公安局普陀分局图像及车辆算力扩容建设项目的中标（成交）结果公告",
+          "date": "2024-10-11",
+          "buyer": "上海市公安局普陀分局",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=dtRV1U9HNUfBWm5lOMs71w%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "上海市公安局普陀分局基础信息化系统建设项目的中标（成交）结果公告",
+          "date": "2024-09-29",
+          "buyer": "上海市公安局普陀分局",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=nJCuWFd4P9odVXy0BD2rNQ%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "上海市公安局（主管）北蔡大院办公家具购置的中标（成交）结果公告",
+          "date": "2024-09-25",
+          "buyer": "上海市公安局（主管）",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=gSFBtwc%2BvT4CxvwmtcOvsA%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "上海市公安局奉贤分局临时特保队伍项目的中标（成交）结果公告",
+          "date": "2024-09-20",
+          "buyer": "上海市公安局奉贤分局(本部)",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=rWDVCddC6S%2BYNRt%2Ff6WijA%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "上海市公安局静安分局警训队信息化建设项目的中标（成交）结果公告",
+          "date": "2024-09-03",
+          "buyer": "上海市公安局静安分局（本部）",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=K8caXrf5rxJlAT6sZu4xnA%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "上海市公安局杨浦分局2024年保安服务项目的中标（成交）结果公告",
+          "date": "2024-08-28",
+          "buyer": "上海市公安局杨浦分局",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=hzkGxGaGmIVNBS81aHCofQ%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "上海市公安局浦东分局云监测服务项目的中标（成交）结果公告",
+          "date": "2024-08-15",
+          "buyer": "上海市公安局浦东分局",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=ERJeQd4r14cgmqDxoY%2BUCQ%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "上海市公安局杨浦分局2024年物业管理项目的中标（成交）结果公告",
+          "date": "2024-07-31",
+          "buyer": "上海市公安局杨浦分局",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=xJWHxDfDHfGpCleks0prvg%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "2024年上海市公安局杨浦分局民辅警疗休养的中标（成交）结果公告",
+          "date": "2024-07-22",
+          "buyer": "上海市公安局杨浦分局",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=UoraxFq7NwqeqYwnBgHYQw%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "上海市公安局奉贤分局DNA实验室现场物证试剂项目的中标（成交）结果公告",
+          "date": "2024-07-01",
+          "buyer": "上海市公安局奉贤分局(本部)",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=vu6SOGW5%2FgPjhjVjeBeDBw%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "上海市公安局金山分局网络安全边界项目的中标（成交）结果公告",
+          "date": "2024-06-13",
+          "buyer": "上海市公安局金山分局",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=t9r3WyFnJkKvGQvBI%2Bd4kA%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "上海市公安局青浦分局食堂社会化服务的中标（成交）结果公告",
+          "date": "2024-06-11",
+          "buyer": "上海市公安局青浦分局",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=y9UerOwsz5sfL55m7P5XiQ%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "上海市公安局徐汇分局特保服务的中标（成交）结果公告",
+          "date": "2024-06-06",
+          "buyer": "上海市公安局徐汇分局",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=bPNZuBxvn5oKHfotdsk2aA%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "上海市公安局崇明分局保洁服务的中标（成交）结果公告",
+          "date": "2024-05-29",
+          "buyer": "上海市公安局崇明分局",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=iZNNOy9n00HcEYcA4pkoCw%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "上海市公安局崇明分局网络安全边界设备采购的中标（成交）结果公告",
+          "date": "2024-05-17",
+          "buyer": "上海市公安局崇明分局",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=H9SRweGxr%2Fu6RuyQ%2Fb2LzA%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "2024年上海市公安局宝山分局民辅警疗休养的中标（成交）结果公告",
+          "date": "2024-04-23",
+          "buyer": "上海市公安局宝山分局",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=SA0GM1uX2DC%2Fu8ibSZe0sA%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "上海市公安局崇明分局警用数字集群设备采购的中标（成交）结果公告",
+          "date": "2023-11-17",
+          "buyer": "上海市公安局崇明分局",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=NtlhuGemwgUCONNIyb8zwg%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "上海市公安局静安分局胶州路大院配电改造工程的中标（成交）结果公告",
+          "date": "2023-10-31",
+          "buyer": "上海市公安局静安分局（本部）",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=HJdqman9EobolbeTAAYCsw%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "上海市公安局崇明分局图像监控维保项目的中标（成交）结果公告",
+          "date": "2023-10-30",
+          "buyer": "上海市公安局崇明分局",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=PvJEWwcgsapOYji%2Frc3ajw%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        }
+      ],
+      "coverage": {
+        "from": "2023-10-24",
+        "to": "2026-10-23",
+        "source": "https://www.zfcg.sh.gov.cn",
+        "truncated": true
+      },
+      "lastCheck": {
+        "at": "2026-10-23T17:07:11+08:00",
+        "status": "ok"
+      }
+    },
+    {
+      "id": "2100000172",
+      "name": "上海市消防救援总队",
+      "results": [],
+      "coverage": {
+        "from": "2023-10-24",
+        "to": "2026-10-23",
+        "source": "https://www.zfcg.sh.gov.cn",
+        "truncated": false
+      },
+      "lastCheck": {
+        "at": "2026-10-23T17:07:11+08:00",
+        "status": "ok"
+      }
+    },
+    {
+      "id": "2101340371",
+      "name": "上海市应急管理局",
+      "results": [
+        {
+          "title": "上海市应急管理局应急通信专用设备项目保障服务（2026—2028）中标公告",
+          "date": "2026-05-19",
+          "buyer": "上海市应急管理局",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=EqwLK2qUul7DCGhIWCRUzg%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "上海市应急管理局应急指挥视频会议技术支持保障服务项目成交公告",
+          "date": "2026-04-01",
+          "buyer": "上海市应急管理局",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=8JTSVL7Ph%2FJTFW4OujTBDw%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "上海市应急管理局移动指挥方舱（半挂式）定制集成项目中标结果公告",
+          "date": "2025-11-25",
+          "buyer": "上海市应急管理局",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=O57yFBE3QK8zeSEjOPTPWg%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "上海市应急管理局执法总队综合业务大系统（2025年升级改造）的中标（成交）结果公告",
+          "date": "2025-04-09",
+          "buyer": "上海市应急管理局执法总队",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=hDE8KeukOgdB3seyXHtP%2Bw%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "上海市应急管理局应急指挥视频会议技术支持保障服务项目成交公告",
+          "date": "2025-03-25",
+          "buyer": "上海市应急管理局",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=VCm1eJDQoLFS%2BwLEPNdZ9A%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "上海市应急管理局危化品重大危险源企业监管数据立体画像（三维倾斜摄影）动态更新及模型研究项目中标公告",
+          "date": "2024-11-14",
+          "buyer": "上海市应急管理局",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=%2FhkwcWuMYgcoQEa%2FCGQTCA%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "上海市应急管理局指挥网络及火险站点监测能力和数据汇聚能力提升的中标（成交）结果公告",
+          "date": "2024-07-10",
+          "buyer": "上海市应急管理局",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=pNSvvQdBSHa0iaYMDWo%2FkA%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "上海市应急管理局航空应急项目的中标（成交）结果公告",
+          "date": "2024-06-17",
+          "buyer": "上海市应急管理局",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=%2BKgeN3p%2BJLvVNByZsZVGdg%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "上海市应急管理局370兆应急窄带基站项目中标公告",
+          "date": "2024-06-17",
+          "buyer": "上海市应急管理局",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=03BTUtkLoXv%2BhW2ly0RWIw%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "上海市应急管理局应急指挥通信设备购置及技术支撑装备定制项目中标公告",
+          "date": "2024-06-17",
+          "buyer": "上海市应急管理局",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=Z2t6l1Ypcz2svqWjXEpgqw%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "上海市应急管理局危险化学品、工贸企业安全生产标准化评审服务的中标（成交）结果公告",
+          "date": "2024-04-19",
+          "buyer": "上海市应急管理局",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=KeKWLhS6%2FxilEmpjcTdXgg%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "上海市应急管理局危险化学品、工贸企业安全生产标准化评审组织服务的中标（成交）结果公告",
+          "date": "2024-04-19",
+          "buyer": "上海市应急管理局",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=qEnWUjwEA%2FhQpLGdyfRc5A%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "上海市应急管理局危化许可证第三方技术审查的中标（成交）结果公告",
+          "date": "2024-04-18",
+          "buyer": "上海市应急管理局",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=AVLLabi6camMeEb0z63fZw%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "上海市应急管理局应急指挥视频会议技术支持保障服务项目成交公告",
+          "date": "2024-04-02",
+          "buyer": "上海市应急管理局",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=yZ3wzaPP4T1HzrA0xjA2Jw%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "上海市应急管理局粉尘涉爆企业安全生产风险监测预警系统省级部署及技术服务的中标（成交）结果公告",
+          "date": "2023-12-06",
+          "buyer": "上海市应急管理局",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=%2BB6YPvNjRSxII1WtV46a2Q%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        }
+      ],
+      "coverage": {
+        "from": "2023-10-24",
+        "to": "2026-10-23",
+        "source": "https://www.zfcg.sh.gov.cn",
+        "truncated": true
+      },
+      "lastCheck": {
+        "at": "2026-10-23T17:07:11+08:00",
         "status": "ok"
       }
     }

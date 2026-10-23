@@ -276,7 +276,12 @@
       "firstSeenAt": "2026-10-23T09:03:28+00:00",
       "previousNames": [],
       "active": true,
-      "sourceStatus": "pending"
+      "sourceStatus": "pending",
+      "discovery": {
+        "at": "2026-10-23T09:03:57+00:00",
+        "status": "unavailable",
+        "message": "Search listing disallows automated reading"
+      }
     },
     {
       "id": "2100127512",
@@ -284,7 +289,12 @@
       "firstSeenAt": "2026-10-23T09:03:28+00:00",
       "previousNames": [],
       "active": true,
-      "sourceStatus": "pending"
+      "sourceStatus": "pending",
+      "discovery": {
+        "at": "2026-10-23T09:03:57+00:00",
+        "status": "unavailable",
+        "message": "Search listing disallows automated reading"
+      }
     },
     {
       "id": "2101882120",
@@ -292,7 +302,12 @@
       "firstSeenAt": "2026-10-23T09:03:28+00:00",
       "previousNames": [],
       "active": true,
-      "sourceStatus": "pending"
+      "sourceStatus": "pending",
+      "discovery": {
+        "at": "2026-10-23T09:03:57+00:00",
+        "status": "unavailable",
+        "message": "Search listing disallows automated reading"
+      }
     },
     {
       "id": "2102351543",
@@ -375,5 +390,5 @@
       "sourceStatus": "pending"
     }
   ],
-  "updatedAt": "2026-10-23T09:03:28+00:00"
+  "updatedAt": "2026-10-23T09:03:57+00:00"
 }
