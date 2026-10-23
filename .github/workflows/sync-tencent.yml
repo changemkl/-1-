@@ -5,9 +5,10 @@ on:
     branches: [customer-workspace]
     paths: [".github/workflows/sync-tencent.yml", "scripts/sync-tencent.py", "public/**"]
   schedule:
-    - cron: '17 * * * *'
+    - cron: '2-57/5 * * * *'
 permissions:
   contents: write
+  actions: write
   pages: write
   id-token: write
 concurrency:
@@ -29,24 +30,41 @@ jobs:
           TENCENT_DOCS_ACCESS_TOKEN: ${{ secrets.TENCENT_DOCS_ACCESS_TOKEN }}
           TENCENT_DOCS_OPEN_ID: ${{ secrets.TENCENT_DOCS_OPEN_ID }}
         run: python scripts/sync-tencent.py
-      - name: Save changed public data
+      - name: Reconcile customer lifecycle
+        id: customers
         run: |
-          git add public/tencent-data.json
+          python intelligence/customer_system.py
+          if ! git diff --quiet -- public/customer-system.json public/customer-archive.json; then
+            echo 'changed=true' >> "$GITHUB_OUTPUT"
+          fi
+      - name: Save changed public data
+        id: save
+        run: |
+          git add public/tencent-data.json public/customer-system.json public/customer-archive.json
           if ! git diff --cached --quiet; then
             git config user.name 'github-actions[bot]'
             git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+            echo 'changed=true' >> "$GITHUB_OUTPUT"
             git commit -m 'Sync Tencent spreadsheet data'
             git pull --rebase origin customer-workspace
             git push origin HEAD:customer-workspace
           fi
+      - name: Queue enrichment for changed customers
+        if: steps.customers.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run collect-intelligence.yml --repo "$GITHUB_REPOSITORY" --ref customer-workspace
       # GITHUB_TOKEN pushes do not trigger a branch-based Pages rebuild.
       # Deploy the successful snapshot explicitly instead.
       - name: Prepare Pages site
+        if: steps.save.outputs.changed == 'true' || github.event_name != 'schedule'
         run: python scripts/prepare-pages.py
       - uses: actions/upload-pages-artifact@v3
+        if: steps.save.outputs.changed == 'true' || github.event_name != 'schedule'
         with:
           path: /tmp/customer-pages-site
       - uses: actions/deploy-pages@v4
+        if: steps.save.outputs.changed == 'true' || github.event_name != 'schedule'
         id: deployment
     environment:
       name: github-pages
