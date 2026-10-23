@@ -56,6 +56,11 @@ class SyncTests(unittest.TestCase):
         self.assertEqual(sync.name_only_rows(rows),[['集团编号','客户名称'],['001','客户甲']])
         with self.assertRaises(RuntimeError): sync.name_only_rows([['备注'],['未知列']])
 
+    def test_duplicate_ids_fail_before_publication_and_header_only_is_valid(self):
+        with self.assertRaisesRegex(RuntimeError,'Conflicting'):
+            sync.name_only_rows([['集团编号','客户名称'],['1','客户甲'],['1','客户乙']])
+        self.assertEqual(sync.name_only_rows([['集团编号','客户名称']]),[['集团编号','客户名称']])
+
     def test_missing_secrets(self):
         with patch.dict(os.environ, {}, clear=True):
             with self.assertRaisesRegex(RuntimeError, 'Missing GitHub Secrets'): sync.main()

@@ -1,7 +1,7 @@
 """Collect only explicit business roles from approved official leadership pages."""
 import json
 import re
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 from pathlib import Path
 from urllib.parse import urljoin, urlsplit
 from collector import Page, download, robot_policy
@@ -99,8 +99,18 @@ def main():
     data=json.loads(path.read_text()) if path.exists() else {'customers':[]}
     previous={r['id']:r for r in data['customers']};reader=Reader()
     stamp=datetime.now(timezone.utc).isoformat(timespec='seconds')
-    for source in SOURCES:
+    from collector import registry
+    from customer_system import matched_source,catalog
+    active=registry(json.loads(Path('public/tencent-data.json').read_text())['rows'],allow_empty=True)
+    definitions=catalog();rules={s['id']:s for s in SOURCES};selected=[]
+    for identifier,name in active.items():
+        approved=matched_source(identifier,name,definitions)
+        if approved and approved['customer_id'] in rules:selected.append({**rules[approved['customer_id']],'id':identifier})
+    for source in selected:
         record=previous.setdefault(source['id'],{'id':source['id'],'people':[]})
+        record['customerName']=active[source['id']]
+        checked=record.get('lastCheck',{})
+        if checked.get('status')=='ok' and checked.get('at') and datetime.fromisoformat(stamp)-datetime.fromisoformat(checked['at'])<timedelta(hours=24):continue
         try:
             people=collect(source,reader,stamp)
             record.update(people=people,lastCheck={'at':stamp,'status':'ok'})

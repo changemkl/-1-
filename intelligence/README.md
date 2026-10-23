@@ -1,16 +1,42 @@
-# 当前展示版：公开信息只读页面
+# 自动更新展示系统
 
-当前无需 Cloudflare 账号或云数据库。腾讯表格只提供客户名称及关联编号；采集内容单独保存在 public/profile-data.json，与名单分开发布。网页直接读取该文件，卡片展示近期动态及来源，展开可查看摘录和采集时间。不包含客户经理编辑、审核和跟进操作。
+腾讯文档只提供客户名称和稳定客户编号。名单变更、来源状态、采购资料、机构和领导信息独立保存，不写回在线表格。
 
-自动采集在 GitHub Actions 的 Collect customer intelligence 工作流执行，每小时第 47 分钟调度（可能延迟），也支持维护者手动运行。它使用临时 SQLite 执行采集，再合并导出公开 JSON；临时 SQLite 不作为长期存储，不上传数据库文件。上次采集内容保存在 GitHub 的 JSON 和提交历史中。失败时保留旧动态，标明来源异常；没有证据的客户不编造数据。
+## 更新流程
 
-已启用 5 家客户的官方来源，支持多个入口、栏目发现、机构概况、中文/英文页面及周期重试。采集环境与本地环境的可达性可能不同，不因一次本地失败永久停用来源。采集是固定官方来源的有界读取，不是无限制全网搜索。页面上的“官网公开信息”表示来源，不表示推导出的商机或痛点。
+- `Sync Tencent spreadsheet` 约每 5 分钟读取官方 API；GitHub 调度和前一轮采集可能造成延迟。网页每分钟读取已发布名单。没有变更的定时检查不重复发布站点。
+- 同步后执行 `intelligence/customer_system.py`：新增编号生成客户记录；同编号改名保留历史名称并重新核对来源；删除客户归档；重新加入同编号可恢复历史资料。有效表头且无客户行表示清空名单；API 异常、缺少表头、重复编号对应不同名称时保留上次名单。
+- 新增、改名、归档等生命周期变化自动排队执行资料采集。每小时还有一次常规采集；已适配的官网领导名单每 24 小时复查。
+- 来源优先按精确名称匹配已核实来源库，再尝试政府官网导航与公开搜索列表。只有 gov.cn 上标题精确匹配单位名称、且具备政府网站/公开栏目依据的主页可以自动采用。企业候选网站和身份不明确的网站保留待核实，绝不仅凭搜索排名确认官网。通用搜索可能禁止自动读取，不绕过限制。
+- 新的已核实来源自动进入有界官网采集；采购还会按完整客户名称查询上海政府采购公开范围。其他地区和企业自建平台需要有明确来源，不能视作已覆盖。每轮最多处理 12 个已核实来源、3 个待核实客户采购查询、3 个新来源发现，按检查时间轮转。
+- 官网页面明确列出的内设机构、姓名、现任职务和分工可以形成结构化资料。未识别的格式留空，不生成部门、决策人或商机。已人工整理的完整机构资料优先保留；新客户可显示采集得到的机构树。
+- 采购只展示标题和日期；明确过期的采购意向和投标截止时间不展示。标题能确认是往年意向时，即使刚被重新读取也不会当作新意向。
 
-维护者本地更新：
+## 存储与恢复
+
+- `public/tencent-data.json`：名单快照，不含 API 凭证。
+- `public/customer-system.json`：稳定编号、历史名称、是否启用、已核实/候选来源、发现状态。
+- `public/customer-archive.json`：移出名单时的画像、组织和领导快照，不级联删除资料。仅保留公开业务信息。
+- `public/profile-data.json`：采购、通用领导和机构提取的独立快照。
+- `public/organization-data.json`、`public/people-data.json`：已核实的机构资料和适配过的官网领导名单。
+
+数据库在 GitHub Actions 中为临时 SQLite，长期展示资料保存于上述 JSON 和 Git 提交历史。本展示版不需要新增 Cloudflare 或收费数据库。采集失败保留原始记录及原核对日期；改名且来源仍待核实期间不展示原单位资料，避免混入新单位。
+
+保留腾讯表格现有“集团编号/客户编号”列。缺少编号时按名称关联，改名会被视为新客户，无法可靠恢复同一客户身份。新企业来源经核实后，在 `intelligence/sources.json` 加入准确名称别名和官网地址即可自动进入后续流程；不需要改前端卡片。
+
+## 手动执行与验证
+
 ```sh
+python intelligence/customer_system.py --discover
 python intelligence/collector.py --sqlite /tmp/customer-intelligence.sqlite
+python intelligence/people.py
 python intelligence/publish.py --sqlite /tmp/customer-intelligence.sqlite
+python3 -m unittest discover -s tests
+node --test tests/*.test.cjs
+npm run check
 ```
+
+工作流定时配置同时保存在默认分支 main；运行时 checkout customer-workspace。修改调度逻辑时需同步这两个分支的工作流文件。
 
 以下 D1 代码保留为可选后续方案，当前展示不依赖它，也尚未部署。
 
@@ -31,7 +57,7 @@ python intelligence/publish.py --sqlite /tmp/customer-intelligence.sqlite
 - 重复文档去重，内容变更保存历史版本；访问失败写入 crawl_runs，不冒充成功无记录。
 - GitHub Actions 按小时执行，或在 Actions 手动运行 Collect customer intelligence 并填写集团编号。所谓实时是手动发起后待任务完成再刷新，不保证秒级或所有网站覆盖。
 - Workers 仅提供公开只读查询，爬虫在 GitHub Actions 中执行，不受免费 Workers 10ms CPU 的解析限制；需要关注 Actions 自身额度。
-- 5 家客户的来源均启用周期检查；单次失败不代表永久无法访问。新客户需配置并核实 sources.json 中的公开来源。没有自动猜官网。
+- 已核实来源自动复查；新增客户可以匹配来源库或严格识别政府官网。其他企业网站保持候选，需核实后加入来源库。
 
 ## 本地验证
 

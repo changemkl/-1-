@@ -105,6 +105,21 @@ def extract_leaders(title,paragraphs,kind):
     return [{'name':name,'role':role['value'],'division':division['value'] if division else None,'name_quote':name_quote,'role_quote':role['quote'],'division_quote':division['quote'] if division else None,'status':'官网领导页面列示','note':'记录采集时的官网列示，不从会议出席推断任职或分工。'}]
 
 
+def extract_organizations(paragraphs,kind):
+    if kind!='profile':return []
+    text='\n'.join(paragraphs)
+    section=re.search(r'内设机构[：:\s]+(.+)',text,re.S)
+    if not section:return []
+    body=re.split(r'直属单位|事业单位|[三四五六]、',section[1])[0]
+    pattern=r'[（(][一二三四五六七八九十百]+[）)]\s*([^。；;\n]{2,65})'
+    names=[]
+    for match in re.finditer(pattern,body):
+        name=match[1].strip().rstrip('：:')
+        if re.fullmatch(r'[\u4e00-\u9fff、]{2,40}(?:[（(][\u4e00-\u9fff、]{2,35}[）)])?',name) and re.search(r'(?:处|科|室|局|中心|委员会)(?:[（(].+[）)])?$',name):
+            if name not in names:names.append(name)
+    return [{'name':'内设机构（官网公开部分）','children':[{'name':name} for name in names]}] if names else []
+
+
 def extract_facts(title,paragraphs,aliases,kind='article'):
     paragraphs=list(dict.fromkeys(p.strip() for p in paragraphs if p and p.strip()))
-    return {'version':VERSION,'kind':kind,'projects':extract_projects(title,paragraphs,aliases,kind),'leaders':extract_leaders(title,paragraphs,kind)}
+    return {'version':VERSION,'kind':kind,'projects':extract_projects(title,paragraphs,aliases,kind),'leaders':extract_leaders(title,paragraphs,kind),'organizations':extract_organizations(paragraphs,kind)}

@@ -25,7 +25,8 @@ CATEGORIES = {'采购动态': ['招标','采购公告','采购意向','中标'],
 def now(): return datetime.datetime.now(datetime.timezone.utc).isoformat()
 def digest(s): return hashlib.sha256(s.encode()).hexdigest()
 
-def registry(rows):
+def registry(rows,allow_empty=False):
+    if not rows:raise ValueError('Customer header missing')
     headers = rows[0]
     name_index = next((i for i,h in enumerate(headers) if h in ['客户名称','名称','单位名称']),None)
     id_index = next((i for i,h in enumerate(headers) if h in ['集团编号','客户编号','ID']),None)
@@ -38,11 +39,11 @@ def registry(rows):
         identifier = identifier or 'name:'+re.sub(r'\s+','',unicodedata.normalize('NFKC',name).lower())
         if identifier in result and result[identifier] != name: raise ValueError('Conflicting customer identifiers')
         result[identifier] = name
-    if not result: raise ValueError('Empty customer registry; database not changed')
+    if not result and not allow_empty: raise ValueError('Empty customer registry; database not changed')
     return result
 
-def sync_customers(store, customers):
-    if not customers: raise ValueError('Empty customer registry')
+def sync_customers(store, customers,allow_empty=False):
+    if not customers and not allow_empty: raise ValueError('Empty customer registry')
     statements = []
     stamp = now()
     for identifier,name in customers.items():
@@ -151,7 +152,7 @@ def save_document(store,customer,url,title,excerpt,published,record_categories=N
         statements.append(('INSERT OR IGNORE INTO signals(id,customer_id,document_id,category,status,created_at) VALUES(?,?,?,?,\'pending\',?)',[digest(identifier+'|'+category),customer,identifier,category,stamp]))
     store.batch(statements)
 
-PROFILE_WORDS = ('公司简介','集团简介','企业概况','公司概况','机构职能','主要职责','机构职责','机构概况','部门职责','Company Profile','Group Profile','Corporate Profile','About Us','About SCG','Corporate Overview')
+PROFILE_WORDS = ('公司简介','集团简介','企业概况','公司概况','机构职能','主要职责','机构职责','机构概况','部门职责','机构设置','组织机构','内设机构','Company Profile','Group Profile','Corporate Profile','About Us','About SCG','Corporate Overview')
 LEADER_WORDS = ('领导介绍','领导信息','领导班子','领导之窗','局领导','委领导','领导分工','领导简历','管理团队','董事会','高管团队','领导成员','机构领导','Leadership','Management Team','Board of Directors')
 PRIORITY_WORDS = ('领导','采购','招标','预算','决算','信息化','数字化','规划','招投标','Management','Leadership','Board')
 LIST_WORDS = ('公司快讯','新闻中心','新闻动态','工作动态','通知公告','最新要闻','政务公开','太湖要闻','要闻','流域动态','政务动态','行业动态','信息公开','政府采购','招标采购','采购公告','采购意向','预算决算','规划计划','通知公告','Company News','News Center','Press Releases','Media Center','News')
@@ -265,6 +266,7 @@ def collect_source(store,source):
                     errors.append('Article response incomplete: '+link);continue
                 if not matches_customer(detail,source) and not (kind=='leadership' and source.get('dedicated',False)):continue
                 title=page_title(detail,headline)
+                if kind=='leadership' and re.fullmatch(r'[\u4e00-\u9fff·]{2,4}',headline.strip()):title=headline.strip()
                 if kind=='profile' and '信息列表' in ''.join(detail.title_parts):continue
                 excerpt=evidence_excerpt(detail,source)
                 if len(excerpt)<50 and kind!='leadership':continue
@@ -285,14 +287,23 @@ def collect_source(store,source):
 
 def main():
     parser=argparse.ArgumentParser();parser.add_argument('--sqlite');parser.add_argument('--customer-id');args=parser.parse_args()
-    customers=registry(json.loads(Path('public/tencent-data.json').read_text())['rows'])
-    store=Store(args.sqlite);store.initialize();sync_customers(store,customers)
-    sources=json.loads(Path('intelligence/sources.json').read_text())['sources']
+    customers=registry(json.loads(Path('public/tencent-data.json').read_text())['rows'],allow_empty=True)
+    store=Store(args.sqlite);store.initialize();sync_customers(store,customers,allow_empty=True)
+    if not customers:
+        print('Customer list is empty; historical data retained and inactive');return
+    from customer_system import effective_sources
+    sources=effective_sources(customers)
     selected=[s for s in sources if s.get('enabled') and s['customer_id'] in customers and (not args.customer_id or s['customer_id']==args.customer_id)]
-    if not selected:raise RuntimeError('No enabled, approved source for the selected customers')
+    prior=json.loads(Path('public/profile-data.json').read_text()) if Path('public/profile-data.json').exists() else {}
+    checked={p['id']:(p.get('lastRun') or {}).get('finished_at','') for p in prior.get('profiles',[])}
+    selected=sorted(selected,key=lambda s:checked.get(s['customer_id'],''))[:12]
     results=[collect_source(store,s) for s in selected]
     from procurement import collect_public_tenders
-    results.extend(collect_public_tenders(store,s) for s in selected if s.get('government_procurement',True))
+    procurement_sources=[s for s in selected if s.get('government_procurement',True)]
+    known={s['customer_id'] for s in selected}
+    unmatched=[(i,n) for i,n in customers.items() if i not in {s['customer_id'] for s in sources} and (not args.customer_id or i==args.customer_id)]
+    procurement_sources.extend({'customer_id':i,'aliases':[n]} for i,n in sorted(unmatched,key=lambda pair:checked.get(pair[0],''))[:3])
+    results.extend(collect_public_tenders(store,s) for s in procurement_sources)
     from platforms import collect_customer_platforms
     for source in selected:results.extend(collect_customer_platforms(store,source))
     print(json.dumps(results,ensure_ascii=False))

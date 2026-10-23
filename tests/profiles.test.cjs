@@ -27,3 +27,9 @@ test('public title records can have unknown dates without being called active te
  assert.equal(context.projectIsCurrent({...p,stage:'招标意向',planned_purchase:'2026-09'},clock),false);
  assert.equal(context.projectIsCurrent({...p,stage:'招标意向',planned_purchase:'2026-11'},clock),true);
 });
+
+test('newly fetched historical procurement intents do not become current',()=>{
+ const p={stage:'采购意向',public_title_only:true,fetched_at:'2026-10-22T03:00:00Z'};
+ assert.equal(context.projectIsCurrent({...p,name:'体育局2021年1（至）3月政府采购意向'},clock),false);
+ assert.equal(context.projectIsCurrent({...p,name:'体育局2027年采购意向'},clock),true);
+});

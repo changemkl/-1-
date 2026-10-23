@@ -54,11 +54,16 @@ def name_only_rows(rows):
     id_index = next((i for i,h in enumerate(header) if h in ['集团编号','客户编号','ID']), None)
     columns = ([id_index] if id_index is not None else []) + [name_index]
     result = [[header[i] for i in columns]]
+    seen = {}
     for row in rows[header_index+1:]:
         if len(row)>name_index and row[name_index].strip():
-            result.append([row[i] if i<len(row) else '' for i in columns])
-    if len(result)<2:
-        raise RuntimeError('Empty customer name list; previous data retained')
+            projected=[row[i].strip() if i<len(row) else '' for i in columns]
+            identifier=(projected[0] if id_index is not None else '') or 'name:'+projected[-1]
+            if identifier in seen:
+                if seen[identifier]!=projected[-1]:raise RuntimeError('Conflicting customer identifiers; previous data retained')
+                continue
+            seen[identifier]=projected[-1]
+            result.append(projected)
     return result
 
 

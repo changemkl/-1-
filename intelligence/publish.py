@@ -58,29 +58,35 @@ def publish(database, output):
     conn = sqlite3.connect(database)
     conn.row_factory = sqlite3.Row
     previous = json.loads(output.read_text()) if output.exists() else {'profiles': []}
-    old = {p['id']: p for p in previous.get('profiles', [])}
+    from customer_system import ARCHIVE,read_json,effective_sources,matched_source,catalog
+    archived={r['id']:r.get('profile') for r in read_json(ARCHIVE,{'customers':[]})['customers'] if r.get('profile')}
+    old = {**archived,**{p['id']: p for p in previous.get('profiles', [])}}
+    customer_names={r['id']:r['name'] for r in conn.execute('SELECT id,name FROM customers WHERE active=1')}
+    definitions=effective_sources(customer_names)
     verified = json.loads(Path('intelligence/verified-procurement.json').read_text()).get('records', [])
     profiles = []
     for customer in conn.execute('SELECT id,name FROM customers WHERE active=1 ORDER BY id'):
         identifier = customer['id']
         prior = old.get(identifier, {})
-        signals = {(s['url'],s['category']):s for s in prior.get('signals', [])}
+        lifecycle=next((r for r in read_json(Path('public/customer-system.json'),{'customers':[]})['customers'] if r['id']==identifier),{})
+        same_name=not prior.get('name') or prior['name']==customer['name']
+        signals = {(s['url'],s['category']):s for s in prior.get('signals', [])} if same_name else {}
         for record in verified:
-            if record['customer_id'] == identifier:
+            if record['customer_id'] == identifier and matched_source(identifier,customer['name'],catalog()):
                 item = {k:v for k,v in record.items() if k != 'customer_id'}
                 signals = {key:value for key,value in signals.items() if value['url'] != item['url']}
                 signals[(item['url'],item['category'])] = item
-        definitions=json.loads(Path('intelligence/sources.json').read_text())['sources']
         source=next((s for s in definitions if s['customer_id']==identifier),None)
         for row in conn.execute("SELECT s.category,s.status,d.url,d.title,d.excerpt,d.published_at,d.fetched_at,f.payload AS facts_json FROM signals s JOIN documents d ON d.id=s.document_id LEFT JOIN document_facts f ON f.document_id=d.id WHERE s.customer_id=? AND s.status!='rejected' ORDER BY d.fetched_at DESC", [identifier]):
             item = dict(row)
+            if lifecycle.get('nameChangedAt') and item['fetched_at']<lifecycle['nameChangedAt']:continue
             item['facts']=json.loads(item.pop('facts_json')) if item.get('facts_json') else None
             item.pop('facts_json',None)
             item['excerpt'] = item['excerpt'].replace(item['title'], '', 2).strip()
             signals[(item['url'],item['category'])] = item
         run = conn.execute('SELECT finished_at,status,documents_found,source_url FROM crawl_runs WHERE customer_id=? ORDER BY finished_at DESC LIMIT 1', [identifier]).fetchone()
         latest_run=max([r for r in [dict(run) if run else None,prior.get('lastRun')] if r],key=lambda r:r.get('finished_at',''),default=None)
-        filtered=[];projects=[];leaders=[]
+        filtered=[];projects=[];leaders=[];organizations=[]
         for item in deduplicate_signals(signals.values()):
             if is_standard_approval(item['title']):continue
             if not official_url(item['url'],source):continue
@@ -90,19 +96,20 @@ def publish(database, output):
                 # but never for confirming a current leader from a meeting report.
                 kind='profile' if item['category']=='客户概况' else 'article'
                 facts=extract_facts(item['title'],[item['excerpt']],source.get('aliases',[customer['name']]) if source else [customer['name']],kind)
-            if not facts['projects'] and not facts['leaders']:continue
+            if not facts['projects'] and not facts['leaders'] and not facts.get('organizations'):continue
             item['facts']=facts
-            item['category']='领导及分工' if facts['leaders'] else '项目与采购公开信息'
+            item['category']='领导及分工' if facts['leaders'] else '项目与采购公开信息' if facts['projects'] else '机构设置'
             filtered.append(item)
             provenance={k:item[k] for k in ['url','title','published_at','fetched_at','source_host']}
             projects.extend({**p,**provenance} for p in facts['projects'])
             leaders.extend({**p,**provenance} for p in facts['leaders'])
+            organizations.extend({**p,**provenance} for p in facts.get('organizations',[]))
         unique_leaders={}
         projects=merge_public_projects(projects)
         for leader in sorted(leaders,key=lambda p:p['fetched_at'],reverse=True):
             unique_leaders.setdefault((leader['name'],leader['role']),leader)
         source_specs=list((source or {}).get('procurement_sources',[]))
-        if source and source.get('government_procurement',True):
+        if not source or source.get('government_procurement',True):
             source_specs.insert(0,{'label':'上海市政府采购网','url':'https://www.zfcg.sh.gov.cn'})
         prior_checks={s['url']:s for s in prior.get('procurementSources',[])}
         checks=[]
@@ -110,10 +117,11 @@ def publish(database, output):
             check=conn.execute('SELECT finished_at,status,documents_found FROM crawl_runs WHERE customer_id=? AND source_url=? ORDER BY finished_at DESC LIMIT 1',[identifier,spec['url']]).fetchone()
             latest_check=max([r for r in [dict(check) if check else None,prior_checks.get(spec['url'])] if r],key=lambda r:r.get('finished_at',''),default={'status':'not_checked'})
             checks.append({**latest_check,'label':spec['label'],'url':spec['url']})
-        profiles.append({'id':identifier,'name':customer['name'],'attributes':[], 'signals':filtered[:30],'projects':projects[:30],'leaders':list(unique_leaders.values())[:20], 'procurementSources':checks,'lastRun':latest_run})
+        profiles.append({'id':identifier,'name':customer['name'],'attributes':[], 'signals':filtered[:30],'projects':projects[:30],'leaders':list(unique_leaders.values())[:20], 'organizations':organizations[:10], 'procurementSources':checks,'lastRun':latest_run})
 
     if not profiles:
-        raise RuntimeError('No active customers; previous snapshot retained')
+        from collector import registry
+        if registry(json.loads(Path('public/tencent-data.json').read_text())['rows'],allow_empty=True):raise RuntimeError('No active customers; previous snapshot retained')
     payload = {'updatedAt':datetime.datetime.now(datetime.timezone.utc).isoformat(),'profiles':profiles}
     output.parent.mkdir(parents=True,exist_ok=True)
     temp = output.with_suffix('.tmp')
