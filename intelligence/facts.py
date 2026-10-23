@@ -46,6 +46,7 @@ def stage_for(title):
 
 def extract_projects(title,paragraphs,aliases,kind):
     if kind in ('profile','leadership'):return []
+    if is_standard_approval(title):return []
     text='\n'.join(paragraphs)
     named=NAME_LABEL.findall(text)
     named_it=[n for n in named if IT.search(n)]
@@ -76,6 +77,10 @@ def extract_projects(title,paragraphs,aliases,kind):
         record['service_end']=label_value(text,['服务结束日期','合同结束日期','合同到期日期'])
     record['notice']='原文事实，不代表尚有采购机会。' if stage not in ('采购意向','公开招标公告','采购公告') else '公告计划及有效期限以原文为准；不自动认定仍在招标。'
     return [record]
+
+
+def is_standard_approval(title):
+    return '关于批准' in title and any(word in title for word in ('标准','规范')) and '通知' in title
 
 
 def extract_leaders(title,paragraphs,kind):

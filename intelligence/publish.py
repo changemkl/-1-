@@ -7,7 +7,7 @@ import unicodedata
 import urllib.parse
 from pathlib import Path
 import sqlite3
-from facts import extract_facts,official_url,VERSION
+from facts import extract_facts,official_url,VERSION,is_standard_approval
 
 
 def deduplicate_signals(items):
@@ -55,6 +55,7 @@ def publish(database, output):
         run = conn.execute('SELECT finished_at,status,documents_found,source_url FROM crawl_runs WHERE customer_id=? ORDER BY finished_at DESC LIMIT 1', [identifier]).fetchone()
         filtered=[];projects=[];leaders=[]
         for item in deduplicate_signals(signals.values()):
+            if is_standard_approval(item['title']):continue
             if not official_url(item['url'],source):continue
             facts=item.get('facts')
             if not facts or facts.get('version')!=VERSION:

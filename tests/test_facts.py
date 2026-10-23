@@ -53,4 +53,8 @@ class FactTests(unittest.TestCase):
         self.assertEqual(p['stage'],'公开招标公告')
         self.assertEqual(p['budget']['value'],'100万元')
 
+    def test_approval_of_a_standard_is_not_a_construction_project(self):
+        f=self.facts('关于批准《交通视频监控信息系统联网技术标准》为工程建设规范的通知','交通视频监控信息系统建设标准公布')
+        self.assertEqual(f['projects'],[])
+
 if __name__=='__main__':unittest.main()
