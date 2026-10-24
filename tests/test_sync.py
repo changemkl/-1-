@@ -53,13 +53,16 @@ class SyncTests(unittest.TestCase):
 
     def test_name_only_projection(self):
         rows = [['集团编号','客户名称','客户标签','客户类别'],['001','客户甲','旧标签','旧分类']]
-        self.assertEqual(sync.name_only_rows(rows),[['集团编号','客户名称','客户标签','客户类别'],['001','客户甲','旧标签','旧分类']])
+        self.assertEqual(sync.name_only_rows(rows),[['集团编号','客户名称','客户类别'],['001','客户甲','旧分类']])
         with self.assertRaises(RuntimeError): sync.name_only_rows([['备注'],['未知列']])
 
     def test_duplicate_ids_fail_before_publication_and_header_only_is_valid(self):
         with self.assertRaisesRegex(RuntimeError,'Conflicting'):
             sync.name_only_rows([['集团编号','客户名称'],['1','客户甲'],['1','客户乙']])
         self.assertEqual(sync.name_only_rows([['集团编号','客户名称']]),[['集团编号','客户名称']])
+
+    def test_industry_projection_keeps_categories_without_unrelated_columns(self):
+        self.assertEqual(sync.name_only_rows([['客户名称','客户类别','行业分类','备注'],['客户甲','政府','党政','不导入']]), [['客户名称','客户类别','行业分类'],['客户甲','政府','党政']])
 
     def test_missing_secrets(self):
         with patch.dict(os.environ, {}, clear=True):
