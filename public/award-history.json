@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-24T09:06:35+08:00",
+  "updatedAt": "2026-10-24T10:04:53+08:00",
   "customers": [
     {
       "id": "2100303078",
@@ -12,7 +12,7 @@
         "truncated": false
       },
       "lastCheck": {
-        "at": "2026-10-24T07:37:04+08:00",
+        "at": "2026-10-24T10:04:53+08:00",
         "status": "ok"
       }
     },
@@ -27,7 +27,7 @@
         "truncated": false
       },
       "lastCheck": {
-        "at": "2026-10-24T07:37:04+08:00",
+        "at": "2026-10-24T10:04:53+08:00",
         "status": "ok"
       }
     },
@@ -42,7 +42,7 @@
         "truncated": false
       },
       "lastCheck": {
-        "at": "2026-10-24T07:37:04+08:00",
+        "at": "2026-10-24T10:04:53+08:00",
         "status": "ok"
       }
     },
@@ -170,7 +170,7 @@
         "truncated": false
       },
       "lastCheck": {
-        "at": "2026-10-24T07:37:04+08:00",
+        "at": "2026-10-24T10:04:53+08:00",
         "status": "ok"
       }
     },
@@ -845,7 +845,7 @@
         "truncated": false
       },
       "lastCheck": {
-        "at": "2026-10-24T07:37:04+08:00",
+        "at": "2026-10-24T10:04:53+08:00",
         "status": "ok"
       }
     },
@@ -981,7 +981,7 @@
         "truncated": true
       },
       "lastCheck": {
-        "at": "2026-10-24T07:37:04+08:00",
+        "at": "2026-10-24T10:04:53+08:00",
         "status": "ok"
       }
     },
@@ -1475,7 +1475,7 @@
         "truncated": true
       },
       "lastCheck": {
-        "at": "2026-10-24T04:42:46+08:00",
+        "at": "2026-10-24T10:04:53+08:00",
         "status": "ok"
       }
     },
@@ -1496,6 +1496,14 @@
           "date": "2026-09-28",
           "buyer": "上海市总工会沪东工人文化宫",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=W5sbuHw%2FUmV1t3HTZOJFzQ%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期"
+        },
+        {
+          "title": "东宫配电房修缮及设备更新项目的中标（成交）结果公告",
+          "date": "2026-09-24",
+          "buyer": "上海市总工会沪东工人文化宫",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=V7kGLhtJkBMt4oGtUyMO6w%3D%3D",
           "source": "上海市政府采购网",
           "dateLabel": "结果公告日期"
         },
@@ -1595,7 +1603,7 @@
         "truncated": false
       },
       "lastCheck": {
-        "at": "2026-10-24T04:42:46+08:00",
+        "at": "2026-10-24T10:04:53+08:00",
         "status": "ok"
       }
     }
