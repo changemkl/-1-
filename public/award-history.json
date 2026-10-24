@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-24T20:19:42+08:00",
+  "updatedAt": "2026-10-25T00:21:27+08:00",
   "customers": [
     {
       "id": "2100303078",
@@ -275,13 +275,13 @@
       "name": "公安部第三研究所",
       "results": [],
       "coverage": {
-        "from": "2023-10-25",
-        "to": "2026-10-24",
+        "from": "2023-10-26",
+        "to": "2026-10-25",
         "source": "https://www.zfcg.sh.gov.cn",
         "truncated": false
       },
       "lastCheck": {
-        "at": "2026-10-24T15:41:14+08:00",
+        "at": "2026-10-25T00:21:27+08:00",
         "status": "ok"
       }
     },
@@ -290,13 +290,13 @@
       "name": "中国浦东干部学院",
       "results": [],
       "coverage": {
-        "from": "2023-10-25",
-        "to": "2026-10-24",
+        "from": "2023-10-26",
+        "to": "2026-10-25",
         "source": "https://www.zfcg.sh.gov.cn",
         "truncated": false
       },
       "lastCheck": {
-        "at": "2026-10-24T15:41:14+08:00",
+        "at": "2026-10-25T00:21:27+08:00",
         "status": "ok"
       }
     },
@@ -305,13 +305,13 @@
       "name": "上海数据集团有限公司",
       "results": [],
       "coverage": {
-        "from": "2023-10-25",
-        "to": "2026-10-24",
+        "from": "2023-10-26",
+        "to": "2026-10-25",
         "source": "https://www.zfcg.sh.gov.cn",
         "truncated": true
       },
       "lastCheck": {
-        "at": "2026-10-24T15:41:14+08:00",
+        "at": "2026-10-25T00:21:27+08:00",
         "status": "ok"
       }
     },
@@ -320,13 +320,13 @@
       "name": "上海库帕思科技有限公司",
       "results": [],
       "coverage": {
-        "from": "2023-10-25",
-        "to": "2026-10-24",
+        "from": "2023-10-26",
+        "to": "2026-10-25",
         "source": "https://www.zfcg.sh.gov.cn",
         "truncated": false
       },
       "lastCheck": {
-        "at": "2026-10-24T15:41:14+08:00",
+        "at": "2026-10-25T00:21:27+08:00",
         "status": "ok"
       }
     },
@@ -352,13 +352,13 @@
         }
       ],
       "coverage": {
-        "from": "2023-10-25",
-        "to": "2026-10-24",
+        "from": "2023-10-26",
+        "to": "2026-10-25",
         "source": "https://www.zfcg.sh.gov.cn",
         "truncated": true
       },
       "lastCheck": {
-        "at": "2026-10-24T15:41:14+08:00",
+        "at": "2026-10-25T00:21:27+08:00",
         "status": "ok"
       }
     },
@@ -824,13 +824,13 @@
         }
       ],
       "coverage": {
-        "from": "2023-10-25",
-        "to": "2026-10-24",
+        "from": "2023-10-26",
+        "to": "2026-10-25",
         "source": "https://www.zfcg.sh.gov.cn",
         "truncated": true
       },
       "lastCheck": {
-        "at": "2026-10-24T15:41:14+08:00",
+        "at": "2026-10-25T00:21:27+08:00",
         "status": "ok"
       }
     },
@@ -1469,13 +1469,13 @@
       "name": "上海市城市运行管理中心",
       "results": [],
       "coverage": {
-        "from": "2023-10-25",
-        "to": "2026-10-24",
+        "from": "2023-10-26",
+        "to": "2026-10-25",
         "source": "https://www.zfcg.sh.gov.cn",
         "truncated": true
       },
       "lastCheck": {
-        "at": "2026-10-24T10:04:53+08:00",
+        "at": "2026-10-25T00:21:27+08:00",
         "status": "ok"
       }
     },
@@ -1597,13 +1597,13 @@
         }
       ],
       "coverage": {
-        "from": "2023-10-25",
-        "to": "2026-10-24",
+        "from": "2023-10-26",
+        "to": "2026-10-25",
         "source": "https://www.zfcg.sh.gov.cn",
         "truncated": false
       },
       "lastCheck": {
-        "at": "2026-10-24T10:04:53+08:00",
+        "at": "2026-10-25T00:21:27+08:00",
         "status": "ok"
       }
     }
