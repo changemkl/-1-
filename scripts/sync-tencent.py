@@ -52,17 +52,18 @@ def name_only_rows(rows):
     header = rows[header_index]
     name_index = next(i for i,h in enumerate(header) if h in aliases)
     id_index = next((i for i,h in enumerate(header) if h in ['集团编号','客户编号','ID']), None)
-    columns = ([id_index] if id_index is not None else []) + [name_index]
+    category_index = next((i for i,h in enumerate(header) if h.strip() in ['板块','所属板块','分类','行业','客户类别','客户分类','行业分类']), None)
+    columns = ([id_index] if id_index is not None else []) + [name_index] + ([category_index] if category_index is not None else [])
     result = [[header[i] for i in columns]]
     seen = {}
     for row in rows[header_index+1:]:
         if len(row)>name_index and row[name_index].strip():
             projected=[row[i].strip() if i<len(row) else '' for i in columns]
-            identifier=(projected[0] if id_index is not None else '') or 'name:'+projected[-1]
+            identifier=(projected[0] if id_index is not None else '') or 'name:'+row[name_index].strip()
             if identifier in seen:
-                if seen[identifier]!=projected[-1]:raise RuntimeError('Conflicting customer identifiers; previous data retained')
+                if seen[identifier]!=row[name_index].strip():raise RuntimeError('Conflicting customer identifiers; previous data retained')
                 continue
-            seen[identifier]=projected[-1]
+            seen[identifier]=row[name_index].strip()
             result.append(projected)
     return result
 

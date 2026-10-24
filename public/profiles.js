@@ -37,7 +37,7 @@ async function refreshProfiles(){
   else{const base=new URL(config.apiBaseUrl);if(base.protocol!=='https:')return;for(let i=0;i<ids.length;i+=25){const url=new URL('/api/profiles',base);for(const id of ids.slice(i,i+25))url.searchParams.append('id',id);const r=await fetch(url,{cache:'no-store'});if(!r.ok)throw Error('Unavailable');incoming.push(...(await r.json()).profiles);}}
   profileConnection='connected';
   for(const p of incoming)customerProfiles.set(p.id,p);
-  for(const x of all){const p=profileFor(x);x[6]=[...new Set(visibleProjectsFor(x).map(r=>syncEscape(r.stage)))];if(profileLeaderCountFor(x))x[6].push('官网领导信息');x[4]=visibleProjectsFor(x).length?'有项目资料':profileLeaderCountFor(x)?'有领导资料':historyCountFor(x)?'有历史资料':organizationCountFor(x)?'有机构资料':basicInfoFor(x)?.overview?'有基础资料':'待补充资料';x[3]='待核实';x[2]=syncEscape(basicInfoFor(x)?.address||'');}
+  for(const x of all){const p=profileFor(x);x[6]=[...new Set(visibleProjectsFor(x).map(r=>syncEscape(r.stage)))];if(profileLeaderCountFor(x))x[6].push('官网领导信息');x[3]='待核实';x[2]=syncEscape(basicInfoFor(x)?.address||'');}
   for(const v of views)v.groups=[...new Set(v.items.map(x=>x[4]))];renderShell();window.dispatchEvent(new Event('public-profiles-updated'));
  }catch{document.getElementById('sync-status').textContent='公开资料暂时无法刷新，现有资料已保留';}
  finally{profilesBusy=false;if(profilesQueued){profilesQueued=false;refreshProfiles();}}
@@ -50,16 +50,9 @@ function organizationCountFor(x){return (basicInfoFor(x)?.nodes?.length||profile
 function profileCountFor(x){return profileProjectCountFor(x)+profileLeaderCountFor(x)+historyCountFor(x)+organizationCountFor(x)+(basicInfoFor(x)?.overview?1:0);}
 function profilePreview(x){
  const basics=basicInfoFor(x);const overview=basics?.overview?`<div class="customer-overview"><p>${syncEscape(basics.overview)}</p>${safeSource((basics.basicSource||basics.source)?.url)?`<a href="${syncEscape(safeSource((basics.basicSource||basics.source).url))}" target="_blank" rel="noopener noreferrer">资料来源 ↗</a>`:''}</div>`:'';
- const p=profileFor(x),projects=visibleProjectsFor(x).sort((a,b)=>(b.planned_purchase||b.deadline?.value||'').localeCompare(a.planned_purchase||a.deadline?.value||'')),leaders=p?.leaders||[];
- if(!projects.length&&!leaders.length){
-  const details=[];if(profileLeaderCountFor(x))details.push(profileLeaderCountFor(x)+' 位领导');if(organizationCountFor(x))details.push('机构设置');if(historyCountFor(x))details.push(historyCountFor(x)+' 条历史结果');
-  if(details.length)return overview+`<p class="information-empty">${details.join(' · ')}</p>`;
-  if(overview)return overview;
-  if(typeof customerStatePreview==='function'&&customerStatePreview(x))return '';
-  return '<p class="information-empty">暂无已核实的公开资料</p>';
- }
- return overview+`<div class="card-project-list">${projects.filter(r=>safeSource(r.notice_url||r.url)).map(r=>`<div class="card-project-row" data-featured="${Boolean(r.featured)}"><a href="${syncEscape(safeSource(r.notice_url||r.url))}" target="_blank" rel="noopener noreferrer" title="${syncEscape(r.buyer?.value||'')}">${syncEscape(r.name)} <span aria-hidden="true">↗</span></a><div class="card-project-date"><span>${r.planned_purchase?(r.stage==='招标意向'?'招标意向 · 计划招标':'采购意向 · 计划采购'):r.deadline?(r.stage==='公开招标公告'?'公开招标 · 投标截止':'采购公告 · 截止时间'):r.public_title_only?'公开标题 · 有效期待确认':'发布日期'}</span><time>${syncEscape(r.planned_purchase||r.deadline?.value||(r.public_title_only?'采购日期未公开':r.published_at||'未确认'))}</time></div></div>`).join('')}${leaders.map(r=>`<p class="leader-preview">${syncEscape(r.name)} · ${syncEscape(r.role)}</p>`).join('')}</div>`;
+ return overview||'<p class="information-empty">主要职能待补充</p>';
 }
+
 function profileSearchFor(x){const p=profileFor(x);return[...visibleProjectsFor(x).map(r=>r.name+' '+r.quote+' '+(r.buyer?.value||'')),...[...(p?.leaders||[]),...(typeof organizationLeadersFor==='function'?organizationLeadersFor(x):[])].map(r=>r.name+' '+r.role+' '+(r.division||''))].join(' ')+' '+(basicInfoFor(x)?.overview||'')+' '+JSON.stringify(basicInfoFor(x)?.nodes||[]);}
 window.addEventListener('customers-updated',refreshProfiles);setInterval(refreshProfiles,300000);refreshProfiles();
 
@@ -71,3 +64,19 @@ function profileSourcesFor(x){
  const labels={success:'已检查公开范围',blocked:'暂不可自动读取',failed:'检查未完成',not_checked:'待检查'};
  return `<div class="procurement-source-links"><span>采购来源</span>${sources.filter(s=>safeSource(s.url)).map(s=>`<a href="${syncEscape(safeSource(s.url))}" target="_blank" rel="noopener noreferrer" data-source-status="${syncEscape(s.status||'not_checked')}" title="${syncEscape(labels[s.status]||'待检查')}">${syncEscape(s.label)} ↗${s.status==='blocked'?' · 暂不可读':''}</a>`).join('')}</div>`+website;
 }
+
+window.addEventListener('DOMContentLoaded',() => {
+ const overlay=document.createElement('div');overlay.className='org-overlay procurement-overlay';overlay.hidden=true;
+ overlay.innerHTML='<section class="org-drawer" role="dialog" aria-modal="true" aria-labelledby="procurement-title"><header class="org-header"><div><span>采购意向与公开招标</span><h2 id="procurement-title"></h2></div><button class="org-close" aria-label="关闭采购意向">×</button></header><div class="org-content procurement-content"></div></section>';
+ document.body.append(overlay);let selected,trigger,timer;
+ function render(){
+  const name=document.createElement('textarea');name.innerHTML=selected[0];overlay.querySelector('h2').textContent=name.value;
+  const rows=visibleProjectsFor(selected).filter(r=>safeSource(r.notice_url||r.url)).sort((a,b)=>(a.planned_purchase||a.deadline?.value||'9999').localeCompare(b.planned_purchase||b.deadline?.value||'9999'));
+  overlay.querySelector('.procurement-content').innerHTML=`<p class="award-caption">${rows.length} 条公开信息 · 按采购及截止日期排序</p>`+(rows.length?rows.map(r=>`<div class="card-project-row"><div class="card-project-date"><span>${syncEscape(r.stage)} · ${r.planned_purchase?'计划采购':r.deadline?.value?'截止时间':'采购日期'}</span><time>${syncEscape(r.planned_purchase||r.deadline?.value||'未公开')}</time></div><a href="${syncEscape(safeSource(r.notice_url||r.url))}" target="_blank" rel="noopener noreferrer">${syncEscape(r.name)} ↗</a></div>`).join(''):'<p class="org-empty">暂无已核实的有效采购意向或招标公告</p>');
+ }
+ function close(){overlay.classList.remove('is-open');document.body.classList.remove('org-open');clearTimeout(timer);timer=setTimeout(()=>overlay.hidden=true,260);if(trigger?.isConnected)trigger.focus();}
+ document.getElementById('cards').addEventListener('click',e=>{const button=e.target.closest('[data-procurement-open]');if(!button)return;const id=decodeURIComponent(button.closest('.card').dataset.customerKey);selected=views.flatMap(v=>v.items).find(x=>customerIdentifier(x)===id);if(!selected)return;trigger=button;clearTimeout(timer);render();overlay.hidden=false;document.body.classList.add('org-open');requestAnimationFrame(()=>overlay.classList.add('is-open'));overlay.querySelector('button').focus();});
+ overlay.addEventListener('click',e=>{if(e.target===overlay||e.target.closest('.org-close'))close();});
+ overlay.addEventListener('keydown',e=>{if(e.key==='Escape'){e.preventDefault();close();}if(e.key==='Tab'){const a=[...overlay.querySelectorAll('button,a')],first=a[0],last=a.at(-1);if(e.shiftKey&&document.activeElement===first){e.preventDefault();last.focus();}else if(!e.shiftKey&&document.activeElement===last){e.preventDefault();first.focus();}}});
+ for(const event of ['customers-updated','public-profiles-updated'])window.addEventListener(event,()=>{if(!selected||overlay.hidden)return;const id=customerIdentifier(selected),current=views.flatMap(v=>v.items).find(x=>customerIdentifier(x)===id);if(!current){close();return;}selected=current;render();});
+});
