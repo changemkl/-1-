@@ -9,7 +9,7 @@ function applySheetRows(rows) {
   const headers = rows[headerIndex].map(x => String(x).trim());
   const column = names => headers.findIndex(h => names.includes(h));
   const nameCol = column(aliases), treeCol = column(['所属树','树类型','视图']);
-  const groupCol = ['行业分类','客户分类','分类','客户行业','所属行业','行业','所属板块','板块','客户标签','客户类别'].map(h=>headers.indexOf(h)).find(i=>i>=0) ?? -1;
+  const groupCol = ['行业分类','客户分类','分类','客户行业','所属行业','行业','所属板块','板块','客户类别'].map(h=>headers.indexOf(h)).find(i=>i>=0) ?? -1;
   const gradeCol = column(['等级','客户等级','重要程度']);
   const descCol = column(['描述','备注','客户描述','业务需求','需求']);
   const fullCol = column(['全称','单位全称','客户全称']);
