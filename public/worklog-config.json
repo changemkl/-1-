@@ -1,0 +1,48 @@
+{
+  "version": 1,
+  "capturedAt": "2026-10-26T14:07:29+08:00",
+  "baseColumns": [
+    {
+      "key": "header:集团编号:1",
+      "column": "A",
+      "header": "集团编号",
+      "nonemptyRows": 15
+    },
+    {
+      "key": "header:客户名称:1",
+      "column": "B",
+      "header": "客户名称",
+      "nonemptyRows": 18
+    },
+    {
+      "key": "header:客户标签:1",
+      "column": "C",
+      "header": "客户标签",
+      "nonemptyRows": 18
+    },
+    {
+      "key": "header:一级属地:1",
+      "column": "D",
+      "header": "一级属地",
+      "nonemptyRows": 18
+    },
+    {
+      "key": "header:二级属地:1",
+      "column": "E",
+      "header": "二级属地",
+      "nonemptyRows": 18
+    },
+    {
+      "key": "header:客户类别:1",
+      "column": "F",
+      "header": "客户类别",
+      "nonemptyRows": 18
+    },
+    {
+      "key": "column:G",
+      "column": "G",
+      "header": "",
+      "nonemptyRows": 3
+    }
+  ]
+}
