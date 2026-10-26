@@ -1,0 +1,257 @@
+{
+  "updatedAt": "2026-10-26T11:31:44+08:00",
+  "source": "东风平台",
+  "scope": "中移集成生态记录及账号可见线索/商机记录",
+  "partners": [
+    {
+      "name": "上海荆桂智能科技有限公司",
+      "aliases": [],
+      "relationship": "有合作记录",
+      "capabilities": "应急指挥",
+      "notes": "平台登记有合作成果。",
+      "source": "东风平台",
+      "sourceScope": "中移集成生态记录"
+    },
+    {
+      "name": "北京华宇软件股份有限公司",
+      "aliases": [
+        "华宇"
+      ],
+      "relationship": "有合作记录",
+      "capabilities": "市场监管、药品监管、司法大模型",
+      "notes": "平台登记有合作成果。",
+      "source": "东风平台",
+      "sourceScope": "中移集成生态记录"
+    },
+    {
+      "name": "北京易华录信息技术股份有限公司",
+      "aliases": [
+        "北京易华录信息技术股份有限公司(北京华录高诚科技有限公司)"
+      ],
+      "relationship": "有合作记录",
+      "capabilities": "交通大数据、智慧交通大脑",
+      "notes": "平台登记有合作成果。",
+      "source": "东风平台",
+      "sourceScope": "中移集成生态记录"
+    },
+    {
+      "name": "启明星辰信息技术集团股份有限公司",
+      "aliases": [
+        "启明星辰"
+      ],
+      "relationship": "有合作记录",
+      "capabilities": "AI安全治理方案",
+      "notes": "平台登记有合作成果。",
+      "source": "东风平台",
+      "sourceScope": "中移集成生态记录"
+    },
+    {
+      "name": "国泰新点软件股份有限公司",
+      "aliases": [],
+      "relationship": "有合作记录",
+      "capabilities": "数字住建全业务覆盖能力(数据平台、城市更新、质安监管、住房保障、村镇建设),AI+住建融合能力",
+      "notes": "平台登记有合作成果。",
+      "source": "东风平台",
+      "sourceScope": "中移集成生态记录"
+    },
+    {
+      "name": "成都华栖云科技有限公司",
+      "aliases": [],
+      "relationship": "有合作记录",
+      "capabilities": "华栖云AIGC工具集,基于自主研发的华生大模型驱动,集合AI非编、智变观澜(文生图与图生视频)、依案成片(稿件、诗词、课程自动成片)、数字分身、流光易识(直播流智能编辑)五大AIGC核心工具,面向泛媒体行业提供图、文、视频、音频、数据可视的AIGC编辑、全量制作、后期渲染等系列功能,为生产创作注入全新活力和灵感,赋能大试听时代下的内容生产。",
+      "notes": "平台登记有合作成果。",
+      "source": "东风平台",
+      "sourceScope": "中移集成生态记录"
+    },
+    {
+      "name": "新开普电子股份有限公司",
+      "aliases": [],
+      "relationship": "有合作记录",
+      "capabilities": "智慧一卡通",
+      "notes": "平台登记有合作成果。",
+      "source": "东风平台",
+      "sourceScope": "中移集成生态记录"
+    },
+    {
+      "name": "杭州海康威视数字技术股份有限公司",
+      "aliases": [
+        "海康"
+      ],
+      "relationship": "有合作记录",
+      "capabilities": "雪亮工程",
+      "notes": "平台登记有合作成果。",
+      "source": "东风平台",
+      "sourceScope": "中移集成生态记录"
+    },
+    {
+      "name": "江苏金智教育信息股份有限公司",
+      "aliases": [],
+      "relationship": "有合作记录",
+      "capabilities": "智慧校园",
+      "notes": "平台登记有合作成果。",
+      "source": "东风平台",
+      "sourceScope": "中移集成生态记录"
+    },
+    {
+      "name": "浙江大华技术股份有限公司",
+      "aliases": [
+        "大华"
+      ],
+      "relationship": "有合作记录",
+      "capabilities": "雪亮工程、交通领域物联感知设备",
+      "notes": "平台登记有合作成果。",
+      "source": "东风平台",
+      "sourceScope": "中移集成生态记录"
+    },
+    {
+      "name": "润建股份有限公司",
+      "aliases": [],
+      "relationship": "有合作记录",
+      "capabilities": "安全生产相关系统",
+      "notes": "平台登记有合作成果。",
+      "source": "东风平台",
+      "sourceScope": "中移集成生态记录"
+    },
+    {
+      "name": "联奕科技股份有限公司",
+      "aliases": [],
+      "relationship": "有合作记录",
+      "capabilities": "校务管理平台",
+      "notes": "平台登记有合作成果。",
+      "source": "东风平台",
+      "sourceScope": "中移集成生态记录"
+    },
+    {
+      "name": "上海商米科技集团股份有限公司",
+      "aliases": [
+        "商米"
+      ],
+      "relationship": "合作意向",
+      "capabilities": "连锁零售IOT",
+      "notes": "平台登记有合作切入点，未确认已合作。",
+      "source": "东风平台",
+      "sourceScope": "中移集成生态记录"
+    },
+    {
+      "name": "上海微盟企业发展有限公司",
+      "aliases": [
+        "微盟",
+        "上海微盟企业发展有限公司(微盟集团 2013.HK)"
+      ],
+      "relationship": "合作意向",
+      "capabilities": "零售,商超商业解决方案",
+      "notes": "平台登记有合作切入点，未确认已合作。",
+      "source": "东风平台",
+      "sourceScope": "中移集成生态记录"
+    },
+    {
+      "name": "上海肯汀通讯科技有限公司",
+      "aliases": [
+        "肯汀"
+      ],
+      "relationship": "合作意向",
+      "capabilities": "",
+      "notes": "线索/商机记录中有合作沟通。",
+      "source": "东风平台",
+      "sourceScope": "账号可见线索/商机记录"
+    },
+    {
+      "name": "北京世纪超星信息技术发展有限责任公司",
+      "aliases": [],
+      "relationship": "合作意向",
+      "capabilities": "科研管理平台",
+      "notes": "平台登记有合作切入点，未确认已合作。",
+      "source": "东风平台",
+      "sourceScope": "中移集成生态记录"
+    },
+    {
+      "name": "北京中长石基信息技术股份有限公司",
+      "aliases": [
+        "石基信息"
+      ],
+      "relationship": "合作意向",
+      "capabilities": "酒店信息化",
+      "notes": "平台登记有合作切入点，未确认已合作。",
+      "source": "东风平台",
+      "sourceScope": "中移集成生态记录"
+    },
+    {
+      "name": "卫宁健康科技集团股份有限公司",
+      "aliases": [
+        "卫宁健康"
+      ],
+      "relationship": "合作意向",
+      "capabilities": "智慧医院、智慧区域卫生、互联网+医疗健康、医疗AI大模型",
+      "notes": "平台登记有合作切入点，未确认已合作。",
+      "source": "东风平台",
+      "sourceScope": "中移集成生态记录"
+    },
+    {
+      "name": "奥看",
+      "aliases": [],
+      "relationship": "合作意向",
+      "capabilities": "",
+      "notes": "线索/商机记录中有合作沟通。企业全称待核实。",
+      "source": "东风平台",
+      "sourceScope": "账号可见线索/商机记录"
+    },
+    {
+      "name": "广州视睿电子科技有限公司",
+      "aliases": [],
+      "relationship": "合作意向",
+      "capabilities": "智慧教室与录播",
+      "notes": "平台登记有合作切入点，未确认已合作。",
+      "source": "东风平台",
+      "sourceScope": "中移集成生态记录"
+    },
+    {
+      "name": "汉朔科技股份有限公司",
+      "aliases": [
+        "汉朔科技"
+      ],
+      "relationship": "合作意向",
+      "capabilities": "数字化门店",
+      "notes": "平台登记有合作切入点，未确认已合作。",
+      "source": "东风平台",
+      "sourceScope": "中移集成生态记录"
+    },
+    {
+      "name": "浙江数链科技有限公司",
+      "aliases": [
+        "数链科技"
+      ],
+      "relationship": "合作意向",
+      "capabilities": "网络直播监测",
+      "notes": "平台登记有合作切入点，未确认已合作。",
+      "source": "东风平台",
+      "sourceScope": "中移集成生态记录"
+    },
+    {
+      "name": "深圳昂楷科技有限公司",
+      "aliases": [],
+      "relationship": "合作意向",
+      "capabilities": "院统方数据库审计",
+      "notes": "平台登记有合作切入点，未确认已合作。",
+      "source": "东风平台",
+      "sourceScope": "中移集成生态记录"
+    },
+    {
+      "name": "网智天元",
+      "aliases": [],
+      "relationship": "合作意向",
+      "capabilities": "金额AI",
+      "notes": "平台登记有合作切入点，未确认已合作。",
+      "source": "东风平台",
+      "sourceScope": "中移集成生态记录"
+    },
+    {
+      "name": "鼎力",
+      "aliases": [],
+      "relationship": "合作意向",
+      "capabilities": "",
+      "notes": "线索/商机记录中有合作沟通。企业全称待核实。",
+      "source": "东风平台",
+      "sourceScope": "账号可见线索/商机记录"
+    }
+  ]
+}

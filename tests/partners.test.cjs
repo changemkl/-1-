@@ -8,3 +8,8 @@ test('existing partners replace potential entries without losing award evidence'
  const potential=[{name:'甲公司',type:'潜在合作伙伴',evidence:[{lotName:'网络'}],customers:['客户甲'],wins:1}];
  const partners=c.mergeCooperationPartners(potential,[{name:'甲公司',notes:'已合作',capabilities:'网络安全'},{name:'乙公司',notes:'线下合作'}]);assert.equal(partners.length,2);assert.equal(partners[0].type,'合作伙伴');assert.equal(partners[0].wins,1);assert.equal(partners[0].evidence.length,1);assert.equal(partners[1].wins,0);assert.equal(potential[0].type,'潜在合作伙伴');
 });
+test('platform aliases promote supplier records without duplicating wins and local edits retain import status',()=>{
+ const potential=[{name:'浙江大华技术股份有限公司',type:'潜在合作伙伴',evidence:[{url:'https://example.gov.cn/a',lotNumber:'1',lotName:'视频',date:'2026-01-01'}],customers:['客户甲'],wins:1}];
+ const imported=c.mergeCooperationPartners(potential,[{name:'浙江大华技术股份有限公司',aliases:['大华'],source:'东风平台',relationship:'有合作记录',capabilities:'视频'}]);
+ const edited=c.mergeCooperationPartners(imported,[{name:'大华',notes:'本地备注'}]);assert.equal(edited.length,1);assert.equal(edited[0].type,'合作伙伴');assert.equal(edited[0].relationship,'有合作记录');assert.equal(edited[0].source,'东风平台');assert.equal(edited[0].wins,1);
+});
