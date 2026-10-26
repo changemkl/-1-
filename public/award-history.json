@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-26T09:47:59+08:00",
+  "updatedAt": "2026-10-26T10:49:29+08:00",
   "customers": [
     {
       "id": "2100303078",
@@ -56,7 +56,23 @@
           "buyer": "上海市住房和城乡建设管理委员会人才开发评价中心",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=cmzYaP7Duh3NflJHNsV2UQ%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "浦东房地大厦办公用房装修项目",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "浦东房地大厦办公用房装修项目",
+              "suppliers": [
+                "上海华融建设工程有限公司"
+              ],
+              "quote": "标项名称：浦东房地大厦办公用房装修项目；中标供应商名称：上海华融建设工程有限公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "上海市城市更新专项规划编制的中标（成交）结果公告",
@@ -64,7 +80,23 @@
           "buyer": "上海市住房和城乡建设管理委员会",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=%2Bfn1N7cMCSiWN0K8%2BMZ5aA%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "上海市城市更新专项规划编制",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "上海市城市更新专项规划编制",
+              "suppliers": [
+                "中国城市规划设计研究院"
+              ],
+              "quote": "标项名称：上海市城市更新专项规划编制；中标供应商名称：中国城市规划设计研究院"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "建设工程消防设计审查验收违法违规专项治理的中标（成交）结果公告",
@@ -72,7 +104,23 @@
           "buyer": "上海市住房和城乡建设管理委员会",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=Y5mx1K2N554mHMgg6X%2F0Iw%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "建设工程消防设计审查验收违法违规专项治理",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "建设工程消防设计审查验收违法违规专项治理",
+              "suppliers": [
+                "上海建科检验检测认证有限公司"
+              ],
+              "quote": "标项名称：建设工程消防设计审查验收违法违规专项治理；中标供应商名称：上海建科检验检测认证有限公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "2026年技术论证保障配合及工作保障服务的中标（成交）结果公告",
@@ -80,7 +128,31 @@
           "buyer": "上海市住房和城乡建设管理委员会科学技术委员会事务中心",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=tE5ahRM1w3a%2BZ43uQ1o86Q%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "2026年技术论证保障配合及工作保障服务",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "包件1：2026年技术论证保障配合及工作保障服务",
+              "suppliers": [
+                "上海建瓴工程咨询有限公司"
+              ],
+              "quote": "标项名称：包件1：2026年技术论证保障配合及工作保障服务；中标供应商名称：上海建瓴工程咨询有限公司"
+            },
+            {
+              "lotNumber": "2",
+              "lotName": "包件2：2026年基坑工程技术论证保障配合及工作保障服务",
+              "suppliers": [
+                "上海防灾救灾研究所"
+              ],
+              "quote": "标项名称：包件2：2026年基坑工程技术论证保障配合及工作保障服务；中标供应商名称：上海防灾救灾研究所"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "2026年度机关文书档案整理项目的中标（成交）结果公告",
@@ -88,7 +160,23 @@
           "buyer": "上海市住房和城乡建设管理委员会档案管理中心",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=Db6YfupqhrVg6yeWriYYPQ%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "2026年度机关文书档案整理项目",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "机关文书档案整理",
+              "suppliers": [
+                "上海三安档案管理技术有限公司"
+              ],
+              "quote": "标项名称：机关文书档案整理；中标供应商名称：上海三安档案管理技术有限公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "三类人员、房屋征收线下计算机考试技术服务费的中标（成交）结果公告",
@@ -96,7 +184,23 @@
           "buyer": "上海市住房和城乡建设管理委员会人才开发评价中心",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=JqJncT6YWW90G5Bmy%2BkuVA%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "三类人员、房屋征收线下计算机考试技术服务费",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "三类人员、房屋征收线下计算机考试技术服务费",
+              "suppliers": [
+                "上海安装工程职业技术培训中心"
+              ],
+              "quote": "标项名称：三类人员、房屋征收线下计算机考试技术服务费；中标供应商名称：上海安装工程职业技术培训中心"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "上海市住建委科技委信息服务管理平台建设项目(2026年升级改造)的中标（成交）结果公告",
@@ -104,7 +208,23 @@
           "buyer": "上海市住房和城乡建设管理委员会科学技术委员会事务中心",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=%2BfvTWptZSfUsMl%2FsX6269w%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "上海市住建委科技委信息服务管理平台建设项目(2026年升级改造)",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "上海市住建委科技委信息服务管理平台建设项目(2026年升级改造)",
+              "suppliers": [
+                "上海博坤信息技术有限公司"
+              ],
+              "quote": "标项名称：上海市住建委科技委信息服务管理平台建设项目(2026年升级改造)；中标供应商名称：上海博坤信息技术有限公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "监理师、委托行业服务考试线下机考技术服务费的中标（成交）结果公告",
@@ -112,7 +232,23 @@
           "buyer": "上海市住房和城乡建设管理委员会人才开发评价中心",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=BBgu1ye49cVWhQP3c29pbg%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "监理师、委托行业服务考试线下机考技术服务费",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "监理师、委托行业服务考试线下机考技术服务费",
+              "suppliers": [
+                "上海市安装人才培训中心"
+              ],
+              "quote": "标项名称：监理师、委托行业服务考试线下机考技术服务费；中标供应商名称：上海市安装人才培训中心"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "建设工程消防设计审查验收违法违规专项治理的中标（成交）结果公告",
@@ -120,7 +256,23 @@
           "buyer": "上海市住房和城乡建设管理委员会",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=PwTzVaWFG%2FQsJxTnvF0KLQ%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "建设工程消防设计审查验收违法违规专项治理",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "建设工程消防设计审查验收违法违规专项治理",
+              "suppliers": [
+                "上海建科检验有限公司"
+              ],
+              "quote": "标项名称：建设工程消防设计审查验收违法违规专项治理；中标供应商名称：上海建科检验有限公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "2025年度机关文书档案整理项目的中标（成交）结果公告",
@@ -128,7 +280,23 @@
           "buyer": "上海市住房和城乡建设管理委员会档案管理中心",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=NsiOPDBQ7Cdl3Run6Ks%2Bqw%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "2025年度机关文书档案整理项目",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "机关文书档案整理",
+              "suppliers": [
+                "上海三安档案管理技术有限公司"
+              ],
+              "quote": "标项名称：机关文书档案整理；中标供应商名称：上海三安档案管理技术有限公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "技术论证保障配合及工作保障服务的中标（成交）结果公告",
@@ -136,7 +304,23 @@
           "buyer": "上海市住房和城乡建设管理委员会科学技术委员会事务中心",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=ZVHi38uTQ2PccWQPMe7BWg%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "技术论证保障配合及工作保障服务",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "技术论证保障配合及工作保障服务",
+              "suppliers": [
+                "上海建瓴工程咨询有限公司"
+              ],
+              "quote": "标项名称：技术论证保障配合及工作保障服务；中标供应商名称：上海建瓴工程咨询有限公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "活动场地物业费的中标（成交）结果公告",
@@ -144,7 +328,23 @@
           "buyer": "上海市住房和城乡建设管理委员会老干部活动室",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=%2FuKPS15qH7PiTRXBpq1s7g%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "活动场地物业费",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "活动场地物业费",
+              "suppliers": [
+                "上海申大物业有限公司"
+              ],
+              "quote": "标项名称：活动场地物业费；中标供应商名称：上海申大物业有限公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "2024年度机关文书档案整理项目的中标（成交）结果公告",
@@ -152,7 +352,23 @@
           "buyer": "上海市住房和城乡建设管理委员会档案管理中心",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=dMmYNg4zr%2FABcR3GVlWfSQ%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "2024年度机关文书档案整理项目",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "2024年度机关文书档案整理项目",
+              "suppliers": [
+                "上海三安档案管理技术有限公司"
+              ],
+              "quote": "标项名称：2024年度机关文书档案整理项目；中标供应商名称：上海三安档案管理技术有限公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "技术论证保障配合及工作保障服务的中标（成交）结果公告",
@@ -160,7 +376,23 @@
           "buyer": "上海市住房和城乡建设管理委员会科学技术委员会事务中心",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=cXBr8JeRrp4%2BuNYueGFt5w%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "技术论证保障配合及工作保障服务",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "技术论证保障配合及工作保障服务",
+              "suppliers": [
+                "上海建瓴工程咨询有限公司"
+              ],
+              "quote": "标项名称：技术论证保障配合及工作保障服务；中标供应商名称：上海建瓴工程咨询有限公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         }
       ],
       "coverage": {
@@ -184,7 +416,23 @@
           "buyer": "上海市体育局",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=Uj0IJ8TYcW8HhhAAnZv%2Bvg%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "体育社会组织管理业务经费第1次再次采购",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "体育社会组织管理业务经费",
+              "suppliers": [
+                "上海市体育总会"
+              ],
+              "quote": "标项名称：体育社会组织管理业务经费；中标供应商名称：上海市体育总会"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "2026年《国家体育锻炼标准》达标赛赛事服务的中标（成交）结果公告",
@@ -192,7 +440,23 @@
           "buyer": "上海市体育局",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=onD7sMjBBW5WRLEPvVcVuQ%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "2026年《国家体育锻炼标准》达标赛赛事服务",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "2026年《国家体育锻炼标准》达标赛赛事服务",
+              "suppliers": [
+                "每维（上海）体育文化有限公司"
+              ],
+              "quote": "标项名称：2026年《国家体育锻炼标准》达标赛赛事服务；中标供应商名称：每维（上海）体育文化有限公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "2026年上海乒乓球嘉年华项目的中标（成交）结果公告",
@@ -200,7 +464,23 @@
           "buyer": "上海市体育局",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=7dovP%2BtW2Gs9N01HujcwYw%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "2026年上海乒乓球嘉年华项目",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "2026年上海乒乓球嘉年华项目",
+              "suppliers": [
+                "咪咕视讯科技有限公司"
+              ],
+              "quote": "标项名称：2026年上海乒乓球嘉年华项目；中标供应商名称：咪咕视讯科技有限公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "上海市体育局体育科技服务项目的中标（成交）结果公告",
@@ -208,7 +488,23 @@
           "buyer": "上海市体育局",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=nqPlEv2RhF02nMze5YBprg%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "上海市体育局体育科技服务项目",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "上海市体育局体育科技服务项目",
+              "suppliers": [
+                "上海市体育科学学会"
+              ],
+              "quote": "标项名称：上海市体育局体育科技服务项目；中标供应商名称：上海市体育科学学会"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "2025年社区体育服务委托管理的中标（成交）结果公告",
@@ -216,7 +512,23 @@
           "buyer": "上海市体育局",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=A%2FN1CTxSi5yliQ5LVMT6dw%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "2025年社区体育服务委托管理",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "2025年社区体育服务委托管理",
+              "suppliers": [
+                "上海市社区体育协会"
+              ],
+              "quote": "标项名称：2025年社区体育服务委托管理；中标供应商名称：上海市社区体育协会"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "2025年上海市体育消费券配送运营服务的中标（成交）结果公告",
@@ -224,7 +536,23 @@
           "buyer": "上海市体育局",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=RoFThjUG01cwstmZzGbJFA%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "2025年上海市体育消费券配送运营服务",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "2025年上海市体育消费券配送运营服务",
+              "suppliers": [
+                "上海天健体育科技发展有限公司"
+              ],
+              "quote": "标项名称：2025年上海市体育消费券配送运营服务；中标供应商名称：上海天健体育科技发展有限公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "2024社区体育服务委托管理的中标（成交）结果公告",
@@ -232,7 +560,23 @@
           "buyer": "上海市体育局",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=bbP1328QNqiCX3%2BN59Vxxw%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "2024社区体育服务委托管理",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "2024社区体育服务委托管理",
+              "suppliers": [
+                "上海市社区体育协会"
+              ],
+              "quote": "标项名称：2024社区体育服务委托管理；中标供应商名称：上海市社区体育协会"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "2024年度上海体育年度重点工作报刊宣传的中标（成交）结果公告",
@@ -240,7 +584,23 @@
           "buyer": "上海市体育局",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=1Gd%2F6bFZTJY5dv0JUiLIXQ%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "2024年度上海体育年度重点工作报刊宣传",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "2024年度上海体育年度重点工作报刊宣传",
+              "suppliers": [
+                "上海东体传媒有限公司"
+              ],
+              "quote": "标项名称：2024年度上海体育年度重点工作报刊宣传；中标供应商名称：上海东体传媒有限公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "2024年上海市体育消费券配送运营服务的中标（成交）结果公告",
@@ -248,7 +608,23 @@
           "buyer": "上海市体育局",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=cyGuxMQPwyd2Lz1viNtKOA%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "2024年上海市体育消费券配送运营服务",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "2024年上海市体育消费券配送运营服务",
+              "suppliers": [
+                "上海天健体育科技发展有限公司"
+              ],
+              "quote": "标项名称：2024年上海市体育消费券配送运营服务；中标供应商名称：上海天健体育科技发展有限公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "社区健康运动会的中标（成交）结果公告",
@@ -256,7 +632,23 @@
           "buyer": "上海市体育局",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=qfPcOMnx%2BhVHA7G0KSBcVw%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "社区健康运动会",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "社区健康运动会",
+              "suppliers": [
+                "上海市社区体育协会"
+              ],
+              "quote": "标项名称：社区健康运动会；中标供应商名称：上海市社区体育协会"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         }
       ],
       "coverage": {
@@ -340,7 +732,23 @@
           "buyer": "上海市数据局",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=ynOsJCNQ6W1QfEb6a09QZg%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "上海市数据局办公场所延伸服务",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "上海市数据局办公场所延伸服务",
+              "suppliers": [
+                "上海上勤高级楼宇管理有限公司"
+              ],
+              "quote": "标项名称：上海市数据局办公场所延伸服务；中标供应商名称：上海上勤高级楼宇管理有限公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "上海市数据局办公场所延伸服务的中标（成交）结果公告",
@@ -348,7 +756,23 @@
           "buyer": "上海市数据局",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=Fr2O9xntxg1ZIFxgZjG4Ww%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "上海市数据局办公场所延伸服务",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "上海市数据局办公场所延伸服务",
+              "suppliers": [
+                "上海上勤高级楼宇管理有限公司"
+              ],
+              "quote": "标项名称：上海市数据局办公场所延伸服务；中标供应商名称：上海上勤高级楼宇管理有限公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         }
       ],
       "coverage": {
@@ -372,7 +796,23 @@
           "buyer": "上海市公安局黄浦分局（本级）",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=5O6JuyjCR6IBGW8wgcySkw%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "上海市公安局黄浦分局智能装备柜采购项目",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "上海市公安局黄浦分局智能装备柜采购项目",
+              "suppliers": [
+                "上海铭岳实业发展有限公司"
+              ],
+              "quote": "标项名称：上海市公安局黄浦分局智能装备柜采购项目；中标供应商名称：上海铭岳实业发展有限公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "上海市公安局普陀分局档案室搬迁改建工程的中标（成交）结果公告",
@@ -380,7 +820,23 @@
           "buyer": "上海市公安局普陀分局",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=%2Fb0pEzmhJzPH6WeXXsGpbw%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "上海市公安局普陀分局档案室搬迁改建工程",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "上海市公安局普陀分局档案室搬迁改建工程",
+              "suppliers": [
+                "上海东园建筑装饰有限公司"
+              ],
+              "quote": "标项名称：上海市公安局普陀分局档案室搬迁改建工程；中标供应商名称：上海东园建筑装饰有限公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "上海市公安局宝山分局所属大院保安服务的中标（成交）结果公告",
@@ -388,7 +844,23 @@
           "buyer": "上海市公安局宝山分局",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=cV0DJv7iRUw4nUEK5MQmLw%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "上海市公安局宝山分局所属大院保安服务",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "上海市公安局宝山分局所属大院保安服务",
+              "suppliers": [
+                "上海宝山保安服务有限公司"
+              ],
+              "quote": "标项名称：上海市公安局宝山分局所属大院保安服务；中标供应商名称：上海宝山保安服务有限公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "上海市公安局农场分局线路年租费的中标（成交）结果公告",
@@ -396,7 +868,23 @@
           "buyer": "上海市公安局（主管）",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=TEbEBNWxgIN4KOLHT4LLHA%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "上海市公安局农场分局线路年租费",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "上海市公安局农场分局线路年租费",
+              "suppliers": [
+                "中国联合网络通信有限公司上海市分公司"
+              ],
+              "quote": "标项名称：上海市公安局农场分局线路年租费；中标供应商名称：中国联合网络通信有限公司上海市分公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "上海市公安局浦东分局设备物业管理服务的中标（成交）结果公告",
@@ -404,7 +892,23 @@
           "buyer": "上海市公安局浦东分局",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=7Cjblhx69V36ESTpizkcQw%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "上海市公安局浦东分局设备物业管理服务",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "上海市公安局浦东分局设备物业管理服务",
+              "suppliers": [
+                "上海东高物业管理有限公司"
+              ],
+              "quote": "标项名称：上海市公安局浦东分局设备物业管理服务；中标供应商名称：上海东高物业管理有限公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "上海市公安局金山分局电子警察维保服务的中标（成交）结果公告",
@@ -412,7 +916,23 @@
           "buyer": "上海市公安局金山分局",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=5%2B1zvQD7EiytbZTfoLTKaQ%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "上海市公安局金山分局电子警察维保服务",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "上海市公安局金山分局电子警察维保服务",
+              "suppliers": [
+                "上海金山保安服务有限公司"
+              ],
+              "quote": "标项名称：上海市公安局金山分局电子警察维保服务；中标供应商名称：上海金山保安服务有限公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "上海市公安局普陀分局会议中心建设工程的中标（成交）结果公告",
@@ -420,7 +940,23 @@
           "buyer": "上海市公安局普陀分局",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=sM6BRzDLTsPxpr5qaXbQyQ%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "上海市公安局普陀分局会议中心建设工程",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "上海市公安局普陀分局会议中心建设工程",
+              "suppliers": [
+                "上海欧亚建筑安装工程有限公司"
+              ],
+              "quote": "标项名称：上海市公安局普陀分局会议中心建设工程；中标供应商名称：上海欧亚建筑安装工程有限公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "上海市公安局宝山分局2026年办案审计服务的中标（成交）结果公告",
@@ -428,7 +964,23 @@
           "buyer": "上海市公安局宝山分局",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=vdhuWG0dtZvVzzLYpIaMbw%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "上海市公安局宝山分局2026年办案审计服务",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "上海市公安局宝山分局2026年办案审计服务",
+              "suppliers": [
+                "上海同大会计师事务所有限公司"
+              ],
+              "quote": "标项名称：上海市公安局宝山分局2026年办案审计服务；中标供应商名称：上海同大会计师事务所有限公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "上海市公安局松江分局2026年度采购硒鼓耗材的中标（成交）结果公告",
@@ -436,7 +988,31 @@
           "buyer": "上海市公安局松江分局（本部）",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=NC5ibD%2FI8FFXq0WQ5XXNjw%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "上海市公安局松江分局2026年度采购硒鼓耗材",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "上海市公安局松江分局2026年度采购硒鼓耗材（包件一）",
+              "suppliers": [
+                "上海云见办公用品有限公司"
+              ],
+              "quote": "标项名称：上海市公安局松江分局2026年度采购硒鼓耗材（包件一）；中标供应商名称：上海云见办公用品有限公司"
+            },
+            {
+              "lotNumber": "2",
+              "lotName": "上海市公安局松江分局2026年度采购硒鼓耗材（包件二）",
+              "suppliers": [
+                "上海溢孚实业有限公司"
+              ],
+              "quote": "标项名称：上海市公安局松江分局2026年度采购硒鼓耗材（包件二）；中标供应商名称：上海溢孚实业有限公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "上海市公安局松江分局执法办案管理中心家具的中标（成交）结果公告",
@@ -444,7 +1020,23 @@
           "buyer": "上海市公安局松江分局（本部）",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=Hg3Voi0Jawn1HE3vnqjCbw%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "上海市公安局松江分局执法办案管理中心家具",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "上海市公安局松江分局执法办案管理中心家具",
+              "suppliers": [
+                "上海沁优家具有限公司"
+              ],
+              "quote": "标项名称：上海市公安局松江分局执法办案管理中心家具；中标供应商名称：上海沁优家具有限公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "上海市公安局金山分局物业管理服务的中标（成交）结果公告",
@@ -452,7 +1044,23 @@
           "buyer": "上海市公安局金山分局",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=0qD1I19%2B3G2pmhQXN56xHw%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "上海市公安局金山分局物业管理服务",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "上海市公安局金山分局物业管理服务",
+              "suppliers": [
+                "上海芃桦实业发展有限公司"
+              ],
+              "quote": "标项名称：上海市公安局金山分局物业管理服务；中标供应商名称：上海芃桦实业发展有限公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "上海市公安局杨浦分局图像控制中心建设项目的中标（成交）结果公告",
@@ -460,7 +1068,23 @@
           "buyer": "上海市公安局杨浦分局",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=aCFLGz6W1atqKlKQtPfE5g%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "上海市公安局杨浦分局图像控制中心建设项目",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "上海市公安局杨浦分局图像控制中心建设项目",
+              "suppliers": [
+                "东方有线网络有限公司"
+              ],
+              "quote": "标项名称：上海市公安局杨浦分局图像控制中心建设项目；中标供应商名称：东方有线网络有限公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "上海市公安局静安分局“情指行”平台建设项目的中标（成交）结果公告",
@@ -468,7 +1092,23 @@
           "buyer": "上海市公安局静安分局（本部）",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=xu%2FDmvxamv81effinILR2A%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "上海市公安局静安分局“情指行”平台建设项目",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "上海市公安局静安分局“情指行”平台建设项目",
+              "suppliers": [
+                "中国电信股份有限公司上海分公司"
+              ],
+              "quote": "标项名称：上海市公安局静安分局“情指行”平台建设项目；中标供应商名称：中国电信股份有限公司上海分公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "上海市公安局奉贤分局警用无人机服务项目的中标（成交）结果公告",
@@ -476,7 +1116,23 @@
           "buyer": "上海市公安局奉贤分局(本部)",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=RnU%2B5E47cfzCH6zcySoQzg%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "上海市公安局奉贤分局警用无人机服务项目",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "上海市公安局奉贤分局警用无人机服务项目",
+              "suppliers": [
+                "上海新世纪科技有限公司"
+              ],
+              "quote": "标项名称：上海市公安局奉贤分局警用无人机服务项目；中标供应商名称：上海新世纪科技有限公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "上海市公安局普陀分局信息化建设项目的中标（成交）结果公告",
@@ -484,7 +1140,31 @@
           "buyer": "上海市公安局普陀分局",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=Q2IVxm45ggJO9kLc5rULtg%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "上海市公安局普陀分局信息化建设项目",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "上海市公安局普陀分局执法记录仪视音频管理系统与数字化执法办案管理中心系统对接建设项目（包件1）",
+              "suppliers": [
+                "上海济沧海智能科技有限公司"
+              ],
+              "quote": "标项名称：上海市公安局普陀分局执法记录仪视音频管理系统与数字化执法办案管理中心系统对接建设项目（包件1）；中标供应商名称：上海济沧海智能科技有限公司"
+            },
+            {
+              "lotNumber": "2",
+              "lotName": "上海市公安局普陀分局公安信息网及视频传输网系统建设项目（包件2）",
+              "suppliers": [
+                "上海松讯信息发展有限公司"
+              ],
+              "quote": "标项名称：上海市公安局普陀分局公安信息网及视频传输网系统建设项目（包件2）；中标供应商名称：上海松讯信息发展有限公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "上海市公安局青浦分局光缆租赁项目的中标（成交）结果公告",
@@ -492,7 +1172,23 @@
           "buyer": "上海市公安局青浦分局",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=jsRGQwlYzo9OlhecJWfMqQ%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "上海市公安局青浦分局光缆租赁项目",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "上海市公安局青浦分局光缆租赁项目",
+              "suppliers": [
+                "中国电信股份有限公司上海分公司"
+              ],
+              "quote": "标项名称：上海市公安局青浦分局光缆租赁项目；中标供应商名称：中国电信股份有限公司上海分公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "上海市公安局业务技术用房程控交换机的中标（成交）结果公告",
@@ -500,7 +1196,23 @@
           "buyer": "上海市公安局（主管）",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=dWE%2FCJtQ%2FrS73%2BRbjbWBhg%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "上海市公安局业务技术用房程控交换机",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "上海市公安局业务技术用房程控交换机",
+              "suppliers": [
+                "上海庞翎智能信息科技发展有限公司"
+              ],
+              "quote": "标项名称：上海市公安局业务技术用房程控交换机；中标供应商名称：上海庞翎智能信息科技发展有限公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "上海市公安局奉贤分局执法记录仪采购项目的中标（成交）结果公告",
@@ -508,7 +1220,23 @@
           "buyer": "上海市公安局奉贤分局(本部)",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=DJ2oQEseabWQHpZF%2B6pdGw%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "上海市公安局奉贤分局执法记录仪采购项目",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "上海市公安局奉贤分局执法记录仪采购项目",
+              "suppliers": [
+                "上海济沧海智能科技有限公司"
+              ],
+              "quote": "标项名称：上海市公安局奉贤分局执法记录仪采购项目；中标供应商名称：上海济沧海智能科技有限公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "上海市公安局大模型基础环境子系统建设项目的中标（成交）结果公告",
@@ -516,7 +1244,23 @@
           "buyer": "上海市公安局（主管）",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=SUCg4hqOMKn8seEtMb7z4A%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "上海市公安局大模型基础环境子系统建设项目",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "上海市公安局大模型基础环境子系统建设项目",
+              "suppliers": [
+                "中国电信股份有限公司上海分公司"
+              ],
+              "quote": "标项名称：上海市公安局大模型基础环境子系统建设项目；中标供应商名称：中国电信股份有限公司上海分公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "上海市公安局金山分局雪亮边界升级改造项目的中标（成交）结果公告",
@@ -524,7 +1268,23 @@
           "buyer": "上海市公安局金山分局",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=GWg3W8y0C8t1LEfx%2Bb%2BxsQ%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "上海市公安局金山分局雪亮边界升级改造项目",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "上海市公安局金山分局雪亮边界升级改造项目",
+              "suppliers": [
+                "上海金山保安服务有限公司"
+              ],
+              "quote": "标项名称：上海市公安局金山分局雪亮边界升级改造项目；中标供应商名称：上海金山保安服务有限公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "上海市公安局黄浦分局PDT通信装备采购项目的中标（成交）结果公告",
@@ -532,7 +1292,23 @@
           "buyer": "上海市公安局黄浦分局（本级）",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=NuGL28sNnpadeXzNCWJ%2Bgg%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "上海市公安局黄浦分局PDT通信装备采购项目",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "上海市公安局黄浦分局PDT通信装备采购项目",
+              "suppliers": [
+                "联通（上海）产业互联网有限公司"
+              ],
+              "quote": "标项名称：上海市公安局黄浦分局PDT通信装备采购项目；中标供应商名称：联通（上海）产业互联网有限公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "上海市公安局杨浦分局至派出所星网光缆项目的中标（成交）结果公告",
@@ -540,7 +1316,23 @@
           "buyer": "上海市公安局杨浦分局",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=btpGnFkgySOsJccTdCTacg%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "上海市公安局杨浦分局至派出所星网光缆项目",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "上海市公安局杨浦分局至派出所星网光缆项目",
+              "suppliers": [
+                "上海展通通信技术有限公司"
+              ],
+              "quote": "标项名称：上海市公安局杨浦分局至派出所星网光缆项目；中标供应商名称：上海展通通信技术有限公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "上海市公安局奉贤分局DNA实验室现场物证试剂项目的中标（成交）结果公告",
@@ -548,7 +1340,23 @@
           "buyer": "上海市公安局奉贤分局(本部)",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=yFmhj5GPoUbVz%2BhjC3QfwA%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "上海市公安局奉贤分局DNA实验室现场物证试剂项目",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "上海市公安局奉贤分局DNA实验室现场物证试剂项目",
+              "suppliers": [
+                "上海诚明融鑫科技有限公司"
+              ],
+              "quote": "标项名称：上海市公安局奉贤分局DNA实验室现场物证试剂项目；中标供应商名称：上海诚明融鑫科技有限公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "上海市公安局普陀分局数据运营服务项目的中标（成交）结果公告",
@@ -556,7 +1364,23 @@
           "buyer": "上海市公安局普陀分局",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=EAP0UFkXd6ZN5v9%2BynxRaw%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "上海市公安局普陀分局数据运营服务项目",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "上海市公安局普陀分局数据运营服务项目",
+              "suppliers": [
+                "北京海致科技集团股份有限公司"
+              ],
+              "quote": "标项名称：上海市公安局普陀分局数据运营服务项目；中标供应商名称：北京海致科技集团股份有限公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "上海市公安局杨浦分局看守所、拘留所修缮项目的中标（成交）结果公告",
@@ -564,7 +1388,23 @@
           "buyer": "上海市公安局杨浦分局",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=OkfKerp2vYZG1hTtZW7gug%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "上海市公安局杨浦分局看守所、拘留所修缮项目",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "上海市公安局杨浦分局看守所、拘留所修缮项目",
+              "suppliers": [
+                "上海建溧建设集团有限公司"
+              ],
+              "quote": "标项名称：上海市公安局杨浦分局看守所、拘留所修缮项目；中标供应商名称：上海建溧建设集团有限公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "上海市公安局杨浦分局司法审计项目的中标（成交）结果公告",
@@ -572,7 +1412,55 @@
           "buyer": "上海市公安局杨浦分局",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=BcK7WJxoLnN3QEjPZtDCTw%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "上海市公安局杨浦分局司法审计项目",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "司法审计项目包件一",
+              "suppliers": [
+                "上海复兴明方会计师事务所（特殊普通合伙）"
+              ],
+              "quote": "标项名称：司法审计项目包件一；中标供应商名称：上海复兴明方会计师事务所（特殊普通合伙）"
+            },
+            {
+              "lotNumber": "2",
+              "lotName": "司法审计项目包件二",
+              "suppliers": [
+                "上海公信会计师事务所有限公司"
+              ],
+              "quote": "标项名称：司法审计项目包件二；中标供应商名称：上海公信会计师事务所有限公司"
+            },
+            {
+              "lotNumber": "3",
+              "lotName": "司法审计项目包件三",
+              "suppliers": [
+                "上海华安会计师事务所有限公司"
+              ],
+              "quote": "标项名称：司法审计项目包件三；中标供应商名称：上海华安会计师事务所有限公司"
+            },
+            {
+              "lotNumber": "4",
+              "lotName": "司法审计项目包件四",
+              "suppliers": [
+                "上海同大会计师事务所有限公司"
+              ],
+              "quote": "标项名称：司法审计项目包件四；中标供应商名称：上海同大会计师事务所有限公司"
+            },
+            {
+              "lotNumber": "5",
+              "lotName": "司法审计项目包件五",
+              "suppliers": [
+                "上海政信会计师事务所有限公司"
+              ],
+              "quote": "标项名称：司法审计项目包件五；中标供应商名称：上海政信会计师事务所有限公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "上海市公安局普陀分局A楼门厅改造修缮工程的中标（成交）结果公告",
@@ -580,7 +1468,23 @@
           "buyer": "上海市公安局普陀分局",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=%2FuINFqUgD7MWND8H%2BYDM%2Bw%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "上海市公安局普陀分局A楼门厅改造修缮工程",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "上海市公安局普陀分局A楼门厅改造修缮工程",
+              "suppliers": [
+                "上海欧亚建筑安装工程有限公司"
+              ],
+              "quote": "标项名称：上海市公安局普陀分局A楼门厅改造修缮工程；中标供应商名称：上海欧亚建筑安装工程有限公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "上海市公安局静安分局大统路空调安装更新项目的中标（成交）结果公告",
@@ -588,7 +1492,23 @@
           "buyer": "上海市公安局静安分局（本部）",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=fSPkolGB804DdsEcYDkJzw%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "上海市公安局静安分局大统路空调安装更新项目",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "上海市公安局静安分局大统路空调安装更新项目",
+              "suppliers": [
+                "上海锦信电机工程有限公司"
+              ],
+              "quote": "标项名称：上海市公安局静安分局大统路空调安装更新项目；中标供应商名称：上海锦信电机工程有限公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "上海市公安局金山分局保安服务的中标（成交）结果公告",
@@ -596,7 +1516,23 @@
           "buyer": "上海市公安局金山分局",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=OzqlWaUsmerEZrIFNX6GsA%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "上海市公安局金山分局保安服务",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "上海市公安局金山分局保安服务",
+              "suppliers": [
+                "上海金山保安服务有限公司"
+              ],
+              "quote": "标项名称：上海市公安局金山分局保安服务；中标供应商名称：上海金山保安服务有限公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "上海市公安局闵行分局门禁系统升级改造项目的中标（成交）结果公告",
@@ -604,7 +1540,23 @@
           "buyer": "上海市公安局闵行分局",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=5U6RH3ymAClBF6i2yLd3vQ%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "上海市公安局闵行分局门禁系统升级改造项目",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "上海市公安局闵行分局门禁系统升级改造项目",
+              "suppliers": [
+                "上海昂盛智能工程股份有限公司"
+              ],
+              "quote": "标项名称：上海市公安局闵行分局门禁系统升级改造项目；中标供应商名称：上海昂盛智能工程股份有限公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "上海市公安局市局相关大院保安服务的中标（成交）结果公告",
@@ -612,7 +1564,23 @@
           "buyer": "上海市公安局（主管）",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=QTZX1IzQ%2B7bLGgxCCDQpfQ%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "上海市公安局市局相关大院保安服务",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "市局相关大院保安服务费",
+              "suppliers": [
+                "上海市保安服务（集团）有限公司"
+              ],
+              "quote": "标项名称：市局相关大院保安服务费；中标供应商名称：上海市保安服务（集团）有限公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "上海市公安局金山分局电子警察维保服务的中标（成交）结果公告",
@@ -620,7 +1588,23 @@
           "buyer": "上海市公安局金山分局",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=NRLBhHK1JWc%2Bpsv8J7r%2FRg%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "上海市公安局金山分局电子警察维保服务",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "上海市公安局金山分局电子警察维保服务",
+              "suppliers": [
+                "上海金山保安服务有限公司"
+              ],
+              "quote": "标项名称：上海市公安局金山分局电子警察维保服务；中标供应商名称：上海金山保安服务有限公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "上海市公安局松江分局警务中台回迁的中标（成交）结果公告",
@@ -628,7 +1612,23 @@
           "buyer": "上海市公安局松江分局（本部）",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=a0mYYoXePjORQXyjLA7GZg%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "上海市公安局松江分局警务中台回迁",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "上海市公安局松江分局警务中台回迁",
+              "suppliers": [
+                "上海地听信息科技有限公司"
+              ],
+              "quote": "标项名称：上海市公安局松江分局警务中台回迁；中标供应商名称：上海地听信息科技有限公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "上海市公安局护申子系统的中标（成交）结果公告",
@@ -636,7 +1636,23 @@
           "buyer": "上海市公安局（主管）",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=W9Q%2F6Xzcw71ObjP0XinJ2w%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "上海市公安局护申子系统",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "上海市公安局护申子系统",
+              "suppliers": [
+                "上海汇图信息科技有限公司"
+              ],
+              "quote": "标项名称：上海市公安局护申子系统；中标供应商名称：上海汇图信息科技有限公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "上海市公安局松江分局2025年度采购硒鼓耗材的中标（成交）结果公告",
@@ -644,7 +1660,31 @@
           "buyer": "上海市公安局松江分局（本部）",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=suzjoeLyE%2BJFvX0tomTM9A%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "上海市公安局松江分局2025年度采购硒鼓耗材",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "上海市公安局松江分局2025年度采购硒鼓耗材（包件一）",
+              "suppliers": [
+                "上海溢孚实业有限公司"
+              ],
+              "quote": "标项名称：上海市公安局松江分局2025年度采购硒鼓耗材（包件一）；中标供应商名称：上海溢孚实业有限公司"
+            },
+            {
+              "lotNumber": "2",
+              "lotName": "上海市公安局松江分局2025年度采购硒鼓耗材（包件二）",
+              "suppliers": [
+                "上海云见办公用品有限公司"
+              ],
+              "quote": "标项名称：上海市公安局松江分局2025年度采购硒鼓耗材（包件二）；中标供应商名称：上海云见办公用品有限公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "上海市公安局徐汇分局车辆集中化管理项目的中标（成交）结果公告",
@@ -652,7 +1692,23 @@
           "buyer": "上海市公安局徐汇分局",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=9tFUgcT2M8Ai8R8DeK4R%2FQ%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "上海市公安局徐汇分局车辆集中化管理项目",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "上海市公安局徐汇分局车辆集中化管理项目",
+              "suppliers": [
+                "上海洲辰物业管理服务中心"
+              ],
+              "quote": "标项名称：上海市公安局徐汇分局车辆集中化管理项目；中标供应商名称：上海洲辰物业管理服务中心"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "上海市公安局松江分局物业管理服务的中标（成交）结果公告",
@@ -660,7 +1716,23 @@
           "buyer": "上海市公安局松江分局（本部）",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=CkIbBHLDV4oM3GAHeT3pOA%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "上海市公安局松江分局物业管理服务",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "上海市公安局松江分局物业管理服务",
+              "suppliers": [
+                "上海申勤物业管理服务有限公司"
+              ],
+              "quote": "标项名称：上海市公安局松江分局物业管理服务；中标供应商名称：上海申勤物业管理服务有限公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "上海市公安局松江分局人口数据分析服务的中标（成交）结果公告",
@@ -668,7 +1740,23 @@
           "buyer": "上海市公安局松江分局（本部）",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=5ftPXl22jlEAA7BAtnN%2BpQ%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "上海市公安局松江分局人口数据分析服务",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "上海市公安局松江分局人口数据分析服务",
+              "suppliers": [
+                "上海索程安保工程有限公司"
+              ],
+              "quote": "标项名称：上海市公安局松江分局人口数据分析服务；中标供应商名称：上海索程安保工程有限公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "上海市公安局普陀分局图像及车辆算力扩容建设项目的中标（成交）结果公告",
@@ -676,7 +1764,23 @@
           "buyer": "上海市公安局普陀分局",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=dtRV1U9HNUfBWm5lOMs71w%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "上海市公安局普陀分局图像及车辆算力扩容建设项目",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "上海市公安局普陀分局图像及车辆算力扩容建设项目",
+              "suppliers": [
+                "上海理想信息产业（集团）有限公司"
+              ],
+              "quote": "标项名称：上海市公安局普陀分局图像及车辆算力扩容建设项目；中标供应商名称：上海理想信息产业（集团）有限公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "上海市公安局普陀分局基础信息化系统建设项目的中标（成交）结果公告",
@@ -684,7 +1788,23 @@
           "buyer": "上海市公安局普陀分局",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=nJCuWFd4P9odVXy0BD2rNQ%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "上海市公安局普陀分局基础信息化系统建设项目",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "上海市公安局普陀分局基础信息化系统建设项目",
+              "suppliers": [
+                "上海商甲信息科技有限公司"
+              ],
+              "quote": "标项名称：上海市公安局普陀分局基础信息化系统建设项目；中标供应商名称：上海商甲信息科技有限公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "上海市公安局（主管）北蔡大院办公家具购置的中标（成交）结果公告",
@@ -692,7 +1812,23 @@
           "buyer": "上海市公安局（主管）",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=gSFBtwc%2BvT4CxvwmtcOvsA%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "上海市公安局（主管）北蔡大院办公家具购置",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "北蔡大院办公家具购置",
+              "suppliers": [
+                "上海星泰企业发展有限公司"
+              ],
+              "quote": "标项名称：北蔡大院办公家具购置；中标供应商名称：上海星泰企业发展有限公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "上海市公安局奉贤分局临时特保队伍项目的中标（成交）结果公告",
@@ -700,7 +1836,23 @@
           "buyer": "上海市公安局奉贤分局(本部)",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=rWDVCddC6S%2BYNRt%2Ff6WijA%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "上海市公安局奉贤分局临时特保队伍项目",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "上海市公安局奉贤分局临时特保队伍项目",
+              "suppliers": [
+                "上海上安保安服务有限公司"
+              ],
+              "quote": "标项名称：上海市公安局奉贤分局临时特保队伍项目；中标供应商名称：上海上安保安服务有限公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "上海市公安局静安分局警训队信息化建设项目的中标（成交）结果公告",
@@ -708,7 +1860,23 @@
           "buyer": "上海市公安局静安分局（本部）",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=K8caXrf5rxJlAT6sZu4xnA%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "上海市公安局静安分局警训队信息化建设项目",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "上海市公安局静安分局警训队信息化建设项目",
+              "suppliers": [
+                "上海晨雨信息科技有限公司"
+              ],
+              "quote": "标项名称：上海市公安局静安分局警训队信息化建设项目；中标供应商名称：上海晨雨信息科技有限公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "上海市公安局杨浦分局2024年保安服务项目的中标（成交）结果公告",
@@ -716,7 +1884,23 @@
           "buyer": "上海市公安局杨浦分局",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=hzkGxGaGmIVNBS81aHCofQ%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "上海市公安局杨浦分局2024年保安服务项目",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "上海市公安局杨浦分局2024年保安服务项目",
+              "suppliers": [
+                "上海杨浦保安服务有限公司"
+              ],
+              "quote": "标项名称：上海市公安局杨浦分局2024年保安服务项目；中标供应商名称：上海杨浦保安服务有限公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "上海市公安局浦东分局云监测服务项目的中标（成交）结果公告",
@@ -724,7 +1908,23 @@
           "buyer": "上海市公安局浦东分局",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=ERJeQd4r14cgmqDxoY%2BUCQ%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "上海市公安局浦东分局云监测服务项目",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "上海市公安局浦东分局云监测服务项目",
+              "suppliers": [
+                "上海安恒智慧城市安全技术有限公司"
+              ],
+              "quote": "标项名称：上海市公安局浦东分局云监测服务项目；中标供应商名称：上海安恒智慧城市安全技术有限公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "上海市公安局杨浦分局2024年物业管理项目的中标（成交）结果公告",
@@ -732,7 +1932,23 @@
           "buyer": "上海市公安局杨浦分局",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=xJWHxDfDHfGpCleks0prvg%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "上海市公安局杨浦分局2024年物业管理项目",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "上海市公安局杨浦分局2024年物业管理项目",
+              "suppliers": [
+                "上海东湖物业管理有限公司"
+              ],
+              "quote": "标项名称：上海市公安局杨浦分局2024年物业管理项目；中标供应商名称：上海东湖物业管理有限公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "2024年上海市公安局杨浦分局民辅警疗休养的中标（成交）结果公告",
@@ -740,7 +1956,31 @@
           "buyer": "上海市公安局杨浦分局",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=UoraxFq7NwqeqYwnBgHYQw%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "2024年上海市公安局杨浦分局民辅警疗休养",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "2024年上海市公安局杨浦分局民警疗休养服务-1",
+              "suppliers": [
+                "上海中国青年旅行社有限公司"
+              ],
+              "quote": "标项名称：2024年上海市公安局杨浦分局民警疗休养服务-1；中标供应商名称：上海中国青年旅行社有限公司"
+            },
+            {
+              "lotNumber": "2",
+              "lotName": "2024年上海市公安杨浦分局辅警疗休养服务-2",
+              "suppliers": [
+                "上海中国青年旅行社有限公司"
+              ],
+              "quote": "标项名称：2024年上海市公安杨浦分局辅警疗休养服务-2；中标供应商名称：上海中国青年旅行社有限公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "上海市公安局奉贤分局DNA实验室现场物证试剂项目的中标（成交）结果公告",
@@ -748,7 +1988,23 @@
           "buyer": "上海市公安局奉贤分局(本部)",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=vu6SOGW5%2FgPjhjVjeBeDBw%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "上海市公安局奉贤分局DNA实验室现场物证试剂项目",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "上海市公安局奉贤分局DNA实验室现场物证试剂项目",
+              "suppliers": [
+                "上海诚明融鑫科技有限公司"
+              ],
+              "quote": "标项名称：上海市公安局奉贤分局DNA实验室现场物证试剂项目；中标供应商名称：上海诚明融鑫科技有限公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "上海市公安局金山分局网络安全边界项目的中标（成交）结果公告",
@@ -756,7 +2012,23 @@
           "buyer": "上海市公安局金山分局",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=t9r3WyFnJkKvGQvBI%2Bd4kA%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "上海市公安局金山分局网络安全边界项目",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "上海市公安局金山分局网络安全边界项目",
+              "suppliers": [
+                "上海金山保安服务有限公司"
+              ],
+              "quote": "标项名称：上海市公安局金山分局网络安全边界项目；中标供应商名称：上海金山保安服务有限公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "上海市公安局青浦分局食堂社会化服务的中标（成交）结果公告",
@@ -764,7 +2036,23 @@
           "buyer": "上海市公安局青浦分局",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=y9UerOwsz5sfL55m7P5XiQ%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "上海市公安局青浦分局食堂社会化服务",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "上海市公安局青浦分局食堂社会化服务",
+              "suppliers": [
+                "上海绿滔食品有限公司"
+              ],
+              "quote": "标项名称：上海市公安局青浦分局食堂社会化服务；中标供应商名称：上海绿滔食品有限公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "上海市公安局徐汇分局特保服务的中标（成交）结果公告",
@@ -772,7 +2060,23 @@
           "buyer": "上海市公安局徐汇分局",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=bPNZuBxvn5oKHfotdsk2aA%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "上海市公安局徐汇分局特保服务",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "上海市公安局徐汇分局特保服务",
+              "suppliers": [
+                "上海徐汇保安服务有限公司"
+              ],
+              "quote": "标项名称：上海市公安局徐汇分局特保服务；中标供应商名称：上海徐汇保安服务有限公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "上海市公安局崇明分局保洁服务的中标（成交）结果公告",
@@ -780,7 +2084,31 @@
           "buyer": "上海市公安局崇明分局",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=iZNNOy9n00HcEYcA4pkoCw%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "上海市公安局崇明分局保洁服务",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "上海市公安局崇明分局下属各部门保洁服务（包件一）",
+              "suppliers": [
+                "上海明之物业管理有限公司"
+              ],
+              "quote": "标项名称：上海市公安局崇明分局下属各部门保洁服务（包件一）；中标供应商名称：上海明之物业管理有限公司"
+            },
+            {
+              "lotNumber": "2",
+              "lotName": "上海市公安局崇明分局下属各部门保洁服务（包件二）",
+              "suppliers": [
+                "上海绿明保洁服务中心"
+              ],
+              "quote": "标项名称：上海市公安局崇明分局下属各部门保洁服务（包件二）；中标供应商名称：上海绿明保洁服务中心"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "上海市公安局崇明分局网络安全边界设备采购的中标（成交）结果公告",
@@ -788,7 +2116,23 @@
           "buyer": "上海市公安局崇明分局",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=H9SRweGxr%2Fu6RuyQ%2Fb2LzA%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "上海市公安局崇明分局网络安全边界设备采购",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "上海市公安局崇明分局安全边界设备采购",
+              "suppliers": [
+                "上海昂盛智能工程股份有限公司"
+              ],
+              "quote": "标项名称：上海市公安局崇明分局安全边界设备采购；中标供应商名称：上海昂盛智能工程股份有限公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "2024年上海市公安局宝山分局民辅警疗休养的中标（成交）结果公告",
@@ -796,7 +2140,31 @@
           "buyer": "上海市公安局宝山分局",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=SA0GM1uX2DC%2Fu8ibSZe0sA%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "2024年上海市公安局宝山分局民辅警疗休养",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "2024年上海市公安局宝山分局民警疗休养",
+              "suppliers": [
+                "上海宝览国际旅行社有限公司"
+              ],
+              "quote": "标项名称：2024年上海市公安局宝山分局民警疗休养；中标供应商名称：上海宝览国际旅行社有限公司"
+            },
+            {
+              "lotNumber": "2",
+              "lotName": "2024年上海市公安局宝山分局辅警疗休养",
+              "suppliers": [
+                "上海宝览国际旅行社有限公司"
+              ],
+              "quote": "标项名称：2024年上海市公安局宝山分局辅警疗休养；中标供应商名称：上海宝览国际旅行社有限公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "上海市公安局崇明分局警用数字集群设备采购的中标（成交）结果公告",
@@ -804,7 +2172,23 @@
           "buyer": "上海市公安局崇明分局",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=NtlhuGemwgUCONNIyb8zwg%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "上海市公安局崇明分局警用数字集群设备采购",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "上海市公安局崇明分局警用数字集群设备采购",
+              "suppliers": [
+                "上海三吉电子工程有限公司"
+              ],
+              "quote": "标项名称：上海市公安局崇明分局警用数字集群设备采购；中标供应商名称：上海三吉电子工程有限公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "上海市公安局静安分局胶州路大院配电改造工程的中标（成交）结果公告",
@@ -812,7 +2196,23 @@
           "buyer": "上海市公安局静安分局（本部）",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=HJdqman9EobolbeTAAYCsw%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "上海市公安局静安分局胶州路大院配电改造工程",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "上海市公安局静安分局胶州路大院配电改造工程",
+              "suppliers": [
+                "上海悦坤电气安装有限公司"
+              ],
+              "quote": "标项名称：上海市公安局静安分局胶州路大院配电改造工程；中标供应商名称：上海悦坤电气安装有限公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "上海市公安局崇明分局图像监控维保项目的中标（成交）结果公告",
@@ -820,7 +2220,23 @@
           "buyer": "上海市公安局崇明分局",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=PvJEWwcgsapOYji%2Frc3ajw%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "上海市公安局崇明分局图像监控维保项目",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "上海市公安局崇明分局图像监控维保项目",
+              "suppliers": [
+                "上海理想信息产业(集团)有限公司"
+              ],
+              "quote": "标项名称：上海市公安局崇明分局图像监控维保项目；中标供应商名称：上海理想信息产业(集团)有限公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         }
       ],
       "coverage": {
@@ -859,7 +2275,23 @@
           "buyer": "上海市应急管理局",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=EqwLK2qUul7DCGhIWCRUzg%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "上海市应急管理局应急通信专用设备项目保障服务（2026—2028）",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "应急通信专用设备项目保障服务（2026—2028）",
+              "suppliers": [
+                "中国电信股份有限公司上海分公司"
+              ],
+              "quote": "标项名称：应急通信专用设备项目保障服务（2026—2028）；中标供应商名称：中国电信股份有限公司上海分公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "上海市应急管理局应急指挥视频会议技术支持保障服务项目成交公告",
@@ -867,7 +2299,23 @@
           "buyer": "上海市应急管理局",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=8JTSVL7Ph%2FJTFW4OujTBDw%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "上海市应急管理局应急指挥视频会议技术支持保障服务项目",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "应急指挥视频会议技术支持保障服务",
+              "suppliers": [
+                "上海天信网络科技股份有限公司"
+              ],
+              "quote": "标项名称：应急指挥视频会议技术支持保障服务；中标供应商名称：上海天信网络科技股份有限公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "上海市应急管理局移动指挥方舱（半挂式）定制集成项目中标结果公告",
@@ -875,7 +2323,23 @@
           "buyer": "上海市应急管理局",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=O57yFBE3QK8zeSEjOPTPWg%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "上海市应急管理局移动指挥方舱（半挂式）定制集成项目",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "移动指挥方舱（半挂式）定制集成",
+              "suppliers": [
+                "中电信数智科技有限公司"
+              ],
+              "quote": "标项名称：移动指挥方舱（半挂式）定制集成；中标供应商名称：中电信数智科技有限公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "上海市应急管理局执法总队综合业务大系统（2025年升级改造）的中标（成交）结果公告",
@@ -883,7 +2347,23 @@
           "buyer": "上海市应急管理局执法总队",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=hDE8KeukOgdB3seyXHtP%2Bw%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "上海市应急管理局执法总队综合业务大系统（2025年升级改造）",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "上海市应急管理局执法总队综合业务大系统（2025年升级改造）",
+              "suppliers": [
+                "中国电信股份有限公司上海分公司"
+              ],
+              "quote": "标项名称：上海市应急管理局执法总队综合业务大系统（2025年升级改造）；中标供应商名称：中国电信股份有限公司上海分公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "上海市应急管理局应急指挥视频会议技术支持保障服务项目成交公告",
@@ -891,7 +2371,23 @@
           "buyer": "上海市应急管理局",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=VCm1eJDQoLFS%2BwLEPNdZ9A%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "上海市应急管理局应急指挥视频会议技术支持保障服务项目",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "应急指挥视频会议技术支持保障服务",
+              "suppliers": [
+                "上海天信网络科技股份有限公司"
+              ],
+              "quote": "标项名称：应急指挥视频会议技术支持保障服务；中标供应商名称：上海天信网络科技股份有限公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "上海市应急管理局危化品重大危险源企业监管数据立体画像（三维倾斜摄影）动态更新及模型研究项目中标公告",
@@ -899,7 +2395,23 @@
           "buyer": "上海市应急管理局",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=%2FhkwcWuMYgcoQEa%2FCGQTCA%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "上海市应急管理局危化品重大危险源企业监管数据立体画像（三维倾斜摄影）动态更新及模型研究项目",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "上海市应急管理局危化品重大危险源企业监管数据立体画像（三维倾斜摄影）动态更新及模型研究项目",
+              "suppliers": [
+                "联通（上海）产业互联网有限公司"
+              ],
+              "quote": "标项名称：上海市应急管理局危化品重大危险源企业监管数据立体画像（三维倾斜摄影）动态更新及模型研究项目；中标供应商名称：联通（上海）产业互联网有限公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "上海市应急管理局指挥网络及火险站点监测能力和数据汇聚能力提升的中标（成交）结果公告",
@@ -907,7 +2419,23 @@
           "buyer": "上海市应急管理局",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=pNSvvQdBSHa0iaYMDWo%2FkA%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "上海市应急管理局指挥网络及火险站点监测能力和数据汇聚能力提升",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "上海市应急管理局指挥网络及火险站点监测能力和数据汇聚能力提升",
+              "suppliers": [
+                "联通（上海）产业互联网有限公司"
+              ],
+              "quote": "标项名称：上海市应急管理局指挥网络及火险站点监测能力和数据汇聚能力提升；中标供应商名称：联通（上海）产业互联网有限公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "上海市应急管理局航空应急项目的中标（成交）结果公告",
@@ -915,7 +2443,23 @@
           "buyer": "上海市应急管理局",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=%2BKgeN3p%2BJLvVNByZsZVGdg%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "上海市应急管理局航空应急项目",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "上海市应急管理局航空应急项目",
+              "suppliers": [
+                "航天宏图信息技术股份有限公司"
+              ],
+              "quote": "标项名称：上海市应急管理局航空应急项目；中标供应商名称：航天宏图信息技术股份有限公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "上海市应急管理局370兆应急窄带基站项目中标公告",
@@ -923,7 +2467,23 @@
           "buyer": "上海市应急管理局",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=03BTUtkLoXv%2BhW2ly0RWIw%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "上海市应急管理局370兆应急窄带基站项目",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "上海市应急管理局370兆应急窄带基站项目",
+              "suppliers": [
+                "中国电信股份有限公司上海分公司"
+              ],
+              "quote": "标项名称：上海市应急管理局370兆应急窄带基站项目；中标供应商名称：中国电信股份有限公司上海分公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "上海市应急管理局应急指挥通信设备购置及技术支撑装备定制项目中标公告",
@@ -931,7 +2491,23 @@
           "buyer": "上海市应急管理局",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=Z2t6l1Ypcz2svqWjXEpgqw%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "上海市应急管理局应急指挥通信设备购置及技术支撑装备定制项目",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "上海市应急管理局应急指挥通信设备购置及技术支撑装备定制",
+              "suppliers": [
+                "中国电信股份有限公司上海分公司"
+              ],
+              "quote": "标项名称：上海市应急管理局应急指挥通信设备购置及技术支撑装备定制；中标供应商名称：中国电信股份有限公司上海分公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "上海市应急管理局危险化学品、工贸企业安全生产标准化评审服务的中标（成交）结果公告",
@@ -939,7 +2515,39 @@
           "buyer": "上海市应急管理局",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=KeKWLhS6%2FxilEmpjcTdXgg%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "上海市应急管理局危险化学品、工贸企业安全生产标准化评审服务",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "工贸企业安全生产标准化评审",
+              "suppliers": [
+                "上海建科检验有限公司"
+              ],
+              "quote": "标项名称：工贸企业安全生产标准化评审；中标供应商名称：上海建科检验有限公司"
+            },
+            {
+              "lotNumber": "3",
+              "lotName": "工贸企业安全生产标准化评审",
+              "suppliers": [
+                "上海普可建设工程科技有限公司"
+              ],
+              "quote": "标项名称：工贸企业安全生产标准化评审；中标供应商名称：上海普可建设工程科技有限公司"
+            },
+            {
+              "lotNumber": "4",
+              "lotName": "工贸企业安全生产标准化评审",
+              "suppliers": [
+                "国检测试控股集团上海有限公司"
+              ],
+              "quote": "标项名称：工贸企业安全生产标准化评审；中标供应商名称：国检测试控股集团上海有限公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "上海市应急管理局危险化学品、工贸企业安全生产标准化评审组织服务的中标（成交）结果公告",
@@ -947,7 +2555,23 @@
           "buyer": "上海市应急管理局",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=qEnWUjwEA%2FhQpLGdyfRc5A%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "上海市应急管理局危险化学品、工贸企业安全生产标准化评审组织服务",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "评审组织工作经费",
+              "suppliers": [
+                "上海市安全生产协会"
+              ],
+              "quote": "标项名称：评审组织工作经费；中标供应商名称：上海市安全生产协会"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "上海市应急管理局危化许可证第三方技术审查的中标（成交）结果公告",
@@ -955,7 +2579,55 @@
           "buyer": "上海市应急管理局",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=AVLLabi6camMeEb0z63fZw%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "上海市应急管理局危化许可证第三方技术审查",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "危化许可证第三方技术审查费",
+              "suppliers": [
+                "上海市化工行业协会"
+              ],
+              "quote": "标项名称：危化许可证第三方技术审查费；中标供应商名称：上海市化工行业协会"
+            },
+            {
+              "lotNumber": "2",
+              "lotName": "危化许可证第三方技术审查费",
+              "suppliers": [
+                "上海市安全生产科学研究所"
+              ],
+              "quote": "标项名称：危化许可证第三方技术审查费；中标供应商名称：上海市安全生产科学研究所"
+            },
+            {
+              "lotNumber": "3",
+              "lotName": "危化许可证第三方技术审查费",
+              "suppliers": [
+                "上海市特种设备监督检验技术研究院"
+              ],
+              "quote": "标项名称：危化许可证第三方技术审查费；中标供应商名称：上海市特种设备监督检验技术研究院"
+            },
+            {
+              "lotNumber": "4",
+              "lotName": "危化许可证第三方技术审查费",
+              "suppliers": [
+                "中海油安全技术服务有限公司上海分公司"
+              ],
+              "quote": "标项名称：危化许可证第三方技术审查费；中标供应商名称：中海油安全技术服务有限公司上海分公司"
+            },
+            {
+              "lotNumber": "5",
+              "lotName": "危化许可证第三方技术审查费",
+              "suppliers": [
+                "上海应用技术大学"
+              ],
+              "quote": "标项名称：危化许可证第三方技术审查费；中标供应商名称：上海应用技术大学"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "上海市应急管理局应急指挥视频会议技术支持保障服务项目成交公告",
@@ -963,7 +2635,23 @@
           "buyer": "上海市应急管理局",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=yZ3wzaPP4T1HzrA0xjA2Jw%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "上海市应急管理局应急指挥视频会议技术支持保障服务项目",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "应急指挥视频会议技术支持保障服务",
+              "suppliers": [
+                "上海天信网络科技股份有限公司"
+              ],
+              "quote": "标项名称：应急指挥视频会议技术支持保障服务；中标供应商名称：上海天信网络科技股份有限公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "上海市应急管理局粉尘涉爆企业安全生产风险监测预警系统省级部署及技术服务的中标（成交）结果公告",
@@ -971,7 +2659,23 @@
           "buyer": "上海市应急管理局",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=%2BB6YPvNjRSxII1WtV46a2Q%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "上海市应急管理局粉尘涉爆企业安全生产风险监测预警系统省级部署及技术服务",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "上海市应急管理局粉尘涉爆企业监测预警系统省级部署",
+              "suppliers": [
+                "上海化工院检测有限公司"
+              ],
+              "quote": "标项名称：上海市应急管理局粉尘涉爆企业监测预警系统省级部署；中标供应商名称：上海化工院检测有限公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         }
       ],
       "coverage": {
@@ -995,7 +2699,23 @@
           "buyer": "上海市教育委员会",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=oJOJ1kbHVgOj5PWMt%2Bx6tw%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "助推民办教育内涵建设协同发展项目",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "助推民办教育内涵建设协同发展项目",
+              "suppliers": [
+                "上海市民办教育协会"
+              ],
+              "quote": "标项名称：助推民办教育内涵建设协同发展项目；中标供应商名称：上海市民办教育协会"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "上海市教育委员会公务车驾驶员服务外包项目的中标（成交）结果公告",
@@ -1003,7 +2723,23 @@
           "buyer": "上海市教育委员会",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=Is3XwI0cRYLfdOjiUsZwfw%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "上海市教育委员会公务车驾驶员服务外包项目",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "公务车驾驶员服务外包",
+              "suppliers": [
+                "上海强生人力资源有限公司"
+              ],
+              "quote": "标项名称：公务车驾驶员服务外包；中标供应商名称：上海强生人力资源有限公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "上海市教育委员会竣工财务决算审计项目成交公告",
@@ -1011,7 +2747,111 @@
           "buyer": "上海市教育委员会",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=hlYP%2BP13h9JK03Bj1%2FWhsQ%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "上海市教育委员会竣工财务决算审计项目",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "上海出版印刷高等专科学校及上海电力大学",
+              "suppliers": [
+                "上海天城工程造价咨询有限公司"
+              ],
+              "quote": "标项名称：上海出版印刷高等专科学校及上海电力大学；中标供应商名称：上海天城工程造价咨询有限公司"
+            },
+            {
+              "lotNumber": "2",
+              "lotName": "上海海洋大学",
+              "suppliers": [
+                "立信国际工程咨询有限公司"
+              ],
+              "quote": "标项名称：上海海洋大学；中标供应商名称：立信国际工程咨询有限公司"
+            },
+            {
+              "lotNumber": "3",
+              "lotName": "上海市实验学校",
+              "suppliers": [
+                "上海文汇会计师事务所有限公司"
+              ],
+              "quote": "标项名称：上海市实验学校；中标供应商名称：上海文汇会计师事务所有限公司"
+            },
+            {
+              "lotNumber": "4",
+              "lotName": "上海立信会计金融学院",
+              "suppliers": [
+                "上海百通项管科技有限公司"
+              ],
+              "quote": "标项名称：上海立信会计金融学院；中标供应商名称：上海百通项管科技有限公司"
+            },
+            {
+              "lotNumber": "5",
+              "lotName": "上海工程技术大学",
+              "suppliers": [
+                "上海琳方会计师事务所有限公司"
+              ],
+              "quote": "标项名称：上海工程技术大学；中标供应商名称：上海琳方会计师事务所有限公司"
+            },
+            {
+              "lotNumber": "6",
+              "lotName": "上海第二工业大学",
+              "suppliers": [
+                "上海久信会计师事务所有限公司"
+              ],
+              "quote": "标项名称：上海第二工业大学；中标供应商名称：上海久信会计师事务所有限公司"
+            },
+            {
+              "lotNumber": "7",
+              "lotName": "上海应用技术大学",
+              "suppliers": [
+                "上海元咨投资咨询有限公司"
+              ],
+              "quote": "标项名称：上海应用技术大学；中标供应商名称：上海元咨投资咨询有限公司"
+            },
+            {
+              "lotNumber": "8",
+              "lotName": "上海海事大学",
+              "suppliers": [
+                "上海重实造价咨询有限公司"
+              ],
+              "quote": "标项名称：上海海事大学；中标供应商名称：上海重实造价咨询有限公司"
+            },
+            {
+              "lotNumber": "9",
+              "lotName": "上海商学院及上海电子信息职业技术学院",
+              "suppliers": [
+                "上海枫雅会计师事务所（普通合伙）"
+              ],
+              "quote": "标项名称：上海商学院及上海电子信息职业技术学院；中标供应商名称：上海枫雅会计师事务所（普通合伙）"
+            },
+            {
+              "lotNumber": "10",
+              "lotName": "上海师范大学",
+              "suppliers": [
+                "万隆建设工程咨询集团有限公司"
+              ],
+              "quote": "标项名称：上海师范大学；中标供应商名称：万隆建设工程咨询集团有限公司"
+            },
+            {
+              "lotNumber": "11",
+              "lotName": "上海电机学院",
+              "suppliers": [
+                "上海中创海佳会计师事务所有限公司"
+              ],
+              "quote": "标项名称：上海电机学院；中标供应商名称：上海中创海佳会计师事务所有限公司"
+            },
+            {
+              "lotNumber": "12",
+              "lotName": "上海大学",
+              "suppliers": [
+                "上海沪港金茂会计师事务所有限公司"
+              ],
+              "quote": "标项名称：上海大学；中标供应商名称：上海沪港金茂会计师事务所有限公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "教育类社会组织与民办高校资金监督与管理的中标（成交）结果公告",
@@ -1019,7 +2859,23 @@
           "buyer": "上海市教育委员会",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=JcY5%2F60QbqX7oXkhjBMqDg%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "教育类社会组织与民办高校资金监督与管理",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "教育类社会组织与民办高校资金监督与管理",
+              "suppliers": [
+                "上海市教育评估协会"
+              ],
+              "quote": "标项名称：教育类社会组织与民办高校资金监督与管理；中标供应商名称：上海市教育评估协会"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "2025年上海市学生体育活动的中标（成交）结果公告",
@@ -1027,7 +2883,23 @@
           "buyer": "上海市教育委员会",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=3DNJB%2FC9KJwO7A5SE00ZxQ%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "2025年上海市学生体育活动",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "2025年上海市学生体育活动",
+              "suppliers": [
+                "上海市中学生体育协会"
+              ],
+              "quote": "标项名称：2025年上海市学生体育活动；中标供应商名称：上海市中学生体育协会"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "上海市教育委员会助推民办教育内涵建设协同发展项目的中标（成交）结果公告",
@@ -1035,7 +2907,23 @@
           "buyer": "上海市教育委员会",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=VbZR4RFRCgAYF6LaMJPPLg%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "上海市教育委员会助推民办教育内涵建设协同发展项目",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "上海市教育委员会助推民办教育内涵建设协同发展项目",
+              "suppliers": [
+                "上海市民办教育协会"
+              ],
+              "quote": "标项名称：上海市教育委员会助推民办教育内涵建设协同发展项目；中标供应商名称：上海市民办教育协会"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "园区物业管理的中标（成交）结果公告",
@@ -1043,7 +2931,23 @@
           "buyer": "上海市教育委员会教育技术装备中心",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=HTkykMOV6nSfxHGKFqmdoA%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "园区物业管理",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "园区物业管理",
+              "suppliers": [
+                "上海申勤物业管理服务有限公司"
+              ],
+              "quote": "标项名称：园区物业管理；中标供应商名称：上海申勤物业管理服务有限公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "上海民办高校党建服务中心的中标（成交）结果公告",
@@ -1051,7 +2955,23 @@
           "buyer": "上海市教育委员会",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=69azljUJZlUfsHkTik%2FEJQ%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "上海民办高校党建服务中心",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "上海民办高校党建服务中心",
+              "suppliers": [
+                "上海市民办教育协会"
+              ],
+              "quote": "标项名称：上海民办高校党建服务中心；中标供应商名称：上海市民办教育协会"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "上海市教育委员会培训行业公益互助协调与促进的中标（成交）结果公告",
@@ -1059,7 +2979,23 @@
           "buyer": "上海市教育委员会",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=d15l7xwPcbRU8aqwDj4eKA%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "上海市教育委员会培训行业公益互助协调与促进",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "培训行业公益互助协调与促进",
+              "suppliers": [
+                "上海市培训协会"
+              ],
+              "quote": "标项名称：培训行业公益互助协调与促进；中标供应商名称：上海市培训协会"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "上海市培训市场跟踪管理与服务的中标（成交）结果公告",
@@ -1067,7 +3003,23 @@
           "buyer": "上海市教育委员会",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=htPGnk5Kf%2B7ES27Ayw8Skw%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "上海市培训市场跟踪管理与服务",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "上海市培训市场跟踪管理与服务",
+              "suppliers": [
+                "上海平协教育研究与评估事务所"
+              ],
+              "quote": "标项名称：上海市培训市场跟踪管理与服务；中标供应商名称：上海平协教育研究与评估事务所"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "培训市场行业治理机制建设与实践的中标（成交）结果公告",
@@ -1075,7 +3027,23 @@
           "buyer": "上海市教育委员会",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=OV44xVah%2B%2F%2BwutObcd7j4A%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "培训市场行业治理机制建设与实践",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "培训市场行业治理机制建设与实践",
+              "suppliers": [
+                "上海市培训协会"
+              ],
+              "quote": "标项名称：培训市场行业治理机制建设与实践；中标供应商名称：上海市培训协会"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "上海市教育委员会本级财政预算项目管理系统(2025年升级改造)的中标（成交）结果公告",
@@ -1083,7 +3051,23 @@
           "buyer": "上海市教育委员会财务与资产管理事务中心",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=jHLhaKwBOAuZSdS%2FUN7WNw%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "上海市教育委员会本级财政预算项目管理系统(2025年升级改造)",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "上海市教育委员会本级财政预算项目管理系统(2025年升级改造)",
+              "suppliers": [
+                "上海海天信息系统工程有限公司"
+              ],
+              "quote": "标项名称：上海市教育委员会本级财政预算项目管理系统(2025年升级改造)；中标供应商名称：上海海天信息系统工程有限公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "上海市教育委员会公务车驾驶员服务外包项目的中标（成交）结果公告",
@@ -1091,7 +3075,23 @@
           "buyer": "上海市教育委员会",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=1uS2JU8LszAFvvEvl0BrLg%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "上海市教育委员会公务车驾驶员服务外包项目",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "上海市教育委员会驾驶员服务外包",
+              "suppliers": [
+                "上海强生人力资源有限公司"
+              ],
+              "quote": "标项名称：上海市教育委员会驾驶员服务外包；中标供应商名称：上海强生人力资源有限公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "上海市教育委员会上海民办高校党建服务中心项目的中标（成交）结果公告",
@@ -1099,7 +3099,23 @@
           "buyer": "上海市教育委员会",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=2vcAuIYp4%2Fks7j61C3vBhQ%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "上海市教育委员会上海民办高校党建服务中心项目",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "上海市教育委员会上海民办高校党建服务中心",
+              "suppliers": [
+                "上海公信教育研究与评估中心"
+              ],
+              "quote": "标项名称：上海市教育委员会上海民办高校党建服务中心；中标供应商名称：上海公信教育研究与评估中心"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "2024年上海市学生体育活动的中标（成交）结果公告",
@@ -1107,7 +3123,23 @@
           "buyer": "上海市教育委员会",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=1g4DvPGayd1aZtk4R18XLA%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "2024年上海市学生体育活动",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "2024年上海市学生体育活动",
+              "suppliers": [
+                "上海市中学生体育协会"
+              ],
+              "quote": "标项名称：2024年上海市学生体育活动；中标供应商名称：上海市中学生体育协会"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "视频会议中心设备更新的中标（成交）结果公告",
@@ -1115,7 +3147,23 @@
           "buyer": "上海市教育委员会教育技术装备中心",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=9tZ7j2wmBAy%2BMF2vwSnr5A%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "视频会议中心设备更新",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "视频会议中心设备更新",
+              "suppliers": [
+                "蓝硕文化科技（上海）有限公司"
+              ],
+              "quote": "标项名称：视频会议中心设备更新；中标供应商名称：蓝硕文化科技（上海）有限公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "培训市场行业治理机制建设与实践的中标（成交）结果公告",
@@ -1123,7 +3171,23 @@
           "buyer": "上海市教育委员会",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=t2ez6eXq9VWG7kYDSJ3dug%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "培训市场行业治理机制建设与实践",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "培训市场行业治理机制建设与实践",
+              "suppliers": [
+                "上海市培训协会"
+              ],
+              "quote": "标项名称：培训市场行业治理机制建设与实践；中标供应商名称：上海市培训协会"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "上海市培训市场跟踪管理与服务的中标（成交）结果公告",
@@ -1131,7 +3195,23 @@
           "buyer": "上海市教育委员会",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=aGhE0%2FMqlfyCAvhs%2FL9NSg%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "上海市培训市场跟踪管理与服务",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "上海市培训市场跟踪管理与服务",
+              "suppliers": [
+                "上海平协教育研究与评估事务所"
+              ],
+              "quote": "标项名称：上海市培训市场跟踪管理与服务；中标供应商名称：上海平协教育研究与评估事务所"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "园区物业管理的中标（成交）结果公告",
@@ -1139,7 +3219,23 @@
           "buyer": "上海市教育委员会教育技术装备中心",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=t4WKxJNNbyg6qm7CflUWug%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "园区物业管理",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "园区物业管理",
+              "suppliers": [
+                "上海申勤物业管理服务有限公司"
+              ],
+              "quote": "标项名称：园区物业管理；中标供应商名称：上海申勤物业管理服务有限公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "上海市教育委员会公务车驾驶员服务外包项目的中标（成交）结果公告",
@@ -1147,7 +3243,23 @@
           "buyer": "上海市教育委员会",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=Z8%2BsWojMw2kMZEVLY4k1Jg%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "上海市教育委员会公务车驾驶员服务外包项目",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "上海市教育委员会公务车驾驶员服务外包项目",
+              "suppliers": [
+                "上海强生人力资源有限公司"
+              ],
+              "quote": "标项名称：上海市教育委员会公务车驾驶员服务外包项目；中标供应商名称：上海强生人力资源有限公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         }
       ],
       "coverage": {
@@ -1171,7 +3283,23 @@
           "buyer": "上海市市场监督管理局",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=3TJK9x389Tx9hfR4SFKu6A%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "上海市市场监督管理局食品安全信息追溯推广、咨询、培训",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "食品安全信息追溯推广、咨询、培训",
+              "suppliers": [
+                "上海仪电鑫森科技发展有限公司"
+              ],
+              "quote": "标项名称：食品安全信息追溯推广、咨询、培训；中标供应商名称：上海仪电鑫森科技发展有限公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "上海市市场监督管理局执法总队餐饮服务的中标（成交）结果公告",
@@ -1179,7 +3307,23 @@
           "buyer": "上海市市场监督管理局执法总队",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=lRGYvQTZLVoLUDyhiJMm5g%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "上海市市场监督管理局执法总队餐饮服务",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "上海市市场监督管理局执法总队餐饮服务",
+              "suppliers": [
+                "上海上勤餐饮管理有限公司"
+              ],
+              "quote": "标项名称：上海市市场监督管理局执法总队餐饮服务；中标供应商名称：上海上勤餐饮管理有限公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "上海市市场监督管理局2026年机关车队服务的中标（成交）结果公告",
@@ -1187,7 +3331,23 @@
           "buyer": "上海市市场监督管理局",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=Re9uouQD5lJ9vEfsomyq1A%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "上海市市场监督管理局2026年机关车队服务",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "上海市市场监督管理局2026年机关车队服务",
+              "suppliers": [
+                "上海久胜投资管理服务有限公司"
+              ],
+              "quote": "标项名称：上海市市场监督管理局2026年机关车队服务；中标供应商名称：上海久胜投资管理服务有限公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "上海市市场监督管理局2026年度机关食堂餐饮服务的中标（成交）结果公告",
@@ -1195,7 +3355,23 @@
           "buyer": "上海市市场监督管理局",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=UXh4JMhKK7ep%2BOnJN5DsFQ%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "上海市市场监督管理局2026年度机关食堂餐饮服务",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "上海市市场监督管理局2026年度机关食堂餐饮服务",
+              "suppliers": [
+                "上海上勤餐饮管理有限公司"
+              ],
+              "quote": "标项名称：上海市市场监督管理局2026年度机关食堂餐饮服务；中标供应商名称：上海上勤餐饮管理有限公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "上海市市场监督管理局2025年质量监督抽查（护眼仪、烟花爆竹、防爆灯具等）项目的中标（成交）结果公告",
@@ -1203,7 +3379,39 @@
           "buyer": "上海市市场监督管理局",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=8bx1qmWgPijk7ShiKAI%2FMw%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "上海市市场监督管理局2025年质量监督抽查（护眼仪、烟花爆竹、防爆灯具等）项目",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "护眼仪质量监督抽查",
+              "suppliers": [
+                "中认尚动（上海）检测技术有限公司"
+              ],
+              "quote": "标项名称：护眼仪质量监督抽查；中标供应商名称：中认尚动（上海）检测技术有限公司"
+            },
+            {
+              "lotNumber": "5",
+              "lotName": "涂料（内墙、木漆）质量监督抽查",
+              "suppliers": [
+                "上海市质量监督检验技术研究院有限公司"
+              ],
+              "quote": "标项名称：涂料（内墙、木漆）质量监督抽查；中标供应商名称：上海市质量监督检验技术研究院有限公司"
+            },
+            {
+              "lotNumber": "7",
+              "lotName": "读写台灯质量监督抽查",
+              "suppliers": [
+                "南京市产品质量监督检验院（南京市质量发展与先进技术应用研究院）"
+              ],
+              "quote": "标项名称：读写台灯质量监督抽查；中标供应商名称：南京市产品质量监督检验院（南京市质量发展与先进技术应用研究院）"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "上海市市场监督管理局2025年质量监督抽查（防爆灯具、老视成镜、老人鞋、涂料（内墙、木漆）等）项目的中标（成交）结果公告",
@@ -1211,7 +3419,55 @@
           "buyer": "上海市市场监督管理局",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=R5ueDHiyLNippWh7jFdY2g%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "上海市市场监督管理局2025年质量监督抽查（防爆灯具、老视成镜、老人鞋、涂料（内墙、木漆）等）项目",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "老人鞋质量监督抽查",
+              "suppliers": [
+                "上海鉴正质量检测技术有限公司"
+              ],
+              "quote": "标项名称：老人鞋质量监督抽查；中标供应商名称：上海鉴正质量检测技术有限公司"
+            },
+            {
+              "lotNumber": "5",
+              "lotName": "国旗、少先队旗、红领巾质量监督抽查",
+              "suppliers": [
+                "上海市质量监督检验技术研究院有限公司"
+              ],
+              "quote": "标项名称：国旗、少先队旗、红领巾质量监督抽查；中标供应商名称：上海市质量监督检验技术研究院有限公司"
+            },
+            {
+              "lotNumber": "9",
+              "lotName": "可坐骑儿童拉杆箱质量监督抽查",
+              "suppliers": [
+                "上海鉴正质量检测技术有限公司"
+              ],
+              "quote": "标项名称：可坐骑儿童拉杆箱质量监督抽查；中标供应商名称：上海鉴正质量检测技术有限公司"
+            },
+            {
+              "lotNumber": "10",
+              "lotName": "恒温龙头质量监督抽查",
+              "suppliers": [
+                "上海建科检验有限公司"
+              ],
+              "quote": "标项名称：恒温龙头质量监督抽查；中标供应商名称：上海建科检验有限公司"
+            },
+            {
+              "lotNumber": "11",
+              "lotName": "羽绒服质量监督抽查",
+              "suppliers": [
+                "上海纺织集团检测标准有限公司"
+              ],
+              "quote": "标项名称：羽绒服质量监督抽查；中标供应商名称：上海纺织集团检测标准有限公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "上海市市场监督管理局智慧档案库房建设项目的中标（成交）结果公告",
@@ -1219,7 +3475,55 @@
           "buyer": "上海市市场监督管理局信息应用研究中心",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=S3SVJYnigowRWbjq9Ln1sw%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "上海市市场监督管理局智慧档案库房建设项目",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "智慧档案库房建设",
+              "suppliers": [
+                "上海铭维信息科技有限公司"
+              ],
+              "quote": "标项名称：智慧档案库房建设；中标供应商名称：上海铭维信息科技有限公司"
+            },
+            {
+              "lotNumber": "2",
+              "lotName": "智慧档案库房建设",
+              "suppliers": [
+                "上海长达信息科技有限公司"
+              ],
+              "quote": "标项名称：智慧档案库房建设；中标供应商名称：上海长达信息科技有限公司"
+            },
+            {
+              "lotNumber": "3",
+              "lotName": "智慧档案库房建设",
+              "suppliers": [
+                "上海铭维信息科技有限公司"
+              ],
+              "quote": "标项名称：智慧档案库房建设；中标供应商名称：上海铭维信息科技有限公司"
+            },
+            {
+              "lotNumber": "4",
+              "lotName": "智慧档案库房建设",
+              "suppliers": [
+                "上海涵妍档案信息技术有限责任公司"
+              ],
+              "quote": "标项名称：智慧档案库房建设；中标供应商名称：上海涵妍档案信息技术有限责任公司"
+            },
+            {
+              "lotNumber": "5",
+              "lotName": "智慧档案库房建设",
+              "suppliers": [
+                "重庆威登普慧信息科技有限公司"
+              ],
+              "quote": "标项名称：智慧档案库房建设；中标供应商名称：重庆威登普慧信息科技有限公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "上海市市场监督管理局2025年食品安全宣传周系列活动项目的中标（成交）结果公告",
@@ -1227,7 +3531,23 @@
           "buyer": "上海市市场监督管理局",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=yHmUrOxQAKfWics85itVUg%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "上海市市场监督管理局2025年食品安全宣传周系列活动项目",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "上海市市场监督管理局2025年食品安全宣传周系列活动项目",
+              "suppliers": [
+                "上海东方网文化产业发展有限公司"
+              ],
+              "quote": "标项名称：上海市市场监督管理局2025年食品安全宣传周系列活动项目；中标供应商名称：上海东方网文化产业发展有限公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "上海市市场监督管理局2025年质量监督抽查（胶粘剂、卫浴家具、床垫产品等）项目的中标（成交）结果公告",
@@ -1235,7 +3555,55 @@
           "buyer": "上海市市场监督管理局",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=j8viStTE6S71Rt9ufOLmdQ%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "上海市市场监督管理局2025年质量监督抽查（胶粘剂、卫浴家具、床垫产品等）项目",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "卫生洁具软管、卫生间附属配件质量监督抽查",
+              "suppliers": [
+                "上海市质量监督检验技术研究院"
+              ],
+              "quote": "标项名称：卫生洁具软管、卫生间附属配件质量监督抽查；中标供应商名称：上海市质量监督检验技术研究院"
+            },
+            {
+              "lotNumber": "2",
+              "lotName": "卫浴家具质量监督抽查",
+              "suppliers": [
+                "上海市质量监督检验技术研究院"
+              ],
+              "quote": "标项名称：卫浴家具质量监督抽查；中标供应商名称：上海市质量监督检验技术研究院"
+            },
+            {
+              "lotNumber": "4",
+              "lotName": "胶粘剂质量监督抽查",
+              "suppliers": [
+                "上海建科检验有限公司"
+              ],
+              "quote": "标项名称：胶粘剂质量监督抽查；中标供应商名称：上海建科检验有限公司"
+            },
+            {
+              "lotNumber": "7",
+              "lotName": "床垫产品质量监督抽查",
+              "suppliers": [
+                "上海市质量监督检验技术研究院"
+              ],
+              "quote": "标项名称：床垫产品质量监督抽查；中标供应商名称：上海市质量监督检验技术研究院"
+            },
+            {
+              "lotNumber": "8",
+              "lotName": "石材产品质量监督抽查",
+              "suppliers": [
+                "上海建科检验有限公司"
+              ],
+              "quote": "标项名称：石材产品质量监督抽查；中标供应商名称：上海建科检验有限公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "上海市市场监督管理局网络交易信息搜索留证服务的中标（成交）结果公告",
@@ -1243,7 +3611,23 @@
           "buyer": "上海市市场监督管理局",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=O2JxJWi9sfCv0HMMqaiJVw%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "上海市市场监督管理局网络交易信息搜索留证服务",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "上海市市场监督管理局网络交易信息搜索留证服务",
+              "suppliers": [
+                "上海浦东软件园信息技术股份有限公司"
+              ],
+              "quote": "标项名称：上海市市场监督管理局网络交易信息搜索留证服务；中标供应商名称：上海浦东软件园信息技术股份有限公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "上海市市场监督管理局工商大厦物业管理服务的中标（成交）结果公告",
@@ -1251,7 +3635,23 @@
           "buyer": "上海市市场监督管理局",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=maUx3VmDaisePmqmdzDfyw%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "上海市市场监督管理局工商大厦物业管理服务",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "上海市市场监督管理局工商大厦物业管理服务",
+              "suppliers": [
+                "上海复欣物业管理发展有限公司"
+              ],
+              "quote": "标项名称：上海市市场监督管理局工商大厦物业管理服务；中标供应商名称：上海复欣物业管理发展有限公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "上海市市场监督管理局投诉举报热线服务的中标（成交）结果公告",
@@ -1259,7 +3659,23 @@
           "buyer": "上海市市场监督管理局",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=thhfR1tHJoWGiWQTnsB5Ug%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "上海市市场监督管理局投诉举报热线服务",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "投诉举报热线服务",
+              "suppliers": [
+                "中国电信股份有限公司上海分公司"
+              ],
+              "quote": "标项名称：投诉举报热线服务；中标供应商名称：中国电信股份有限公司上海分公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "上海市市场监督管理局信息应用研究中心档案资料收集整理项目的中标（成交）结果公告",
@@ -1267,7 +3683,23 @@
           "buyer": "上海市市场监督管理局信息应用研究中心",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=FN80nZNnLcZs0x1r1lQt5A%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "上海市市场监督管理局信息应用研究中心档案资料收集整理项目",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "上海市市场监督管理局信息应用研究中心档案资料收集整理项目",
+              "suppliers": [
+                "上海兰台信息技术有限公司"
+              ],
+              "quote": "标项名称：上海市市场监督管理局信息应用研究中心档案资料收集整理项目；中标供应商名称：上海兰台信息技术有限公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "上海市市场监督管理局2025年质量监督抽查（儿童及婴幼儿服装、定配眼镜等）项目的中标（成交）结果公告",
@@ -1275,7 +3707,39 @@
           "buyer": "上海市市场监督管理局",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=8xcBipVR4FwMsC6vBKn3Ng%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "上海市市场监督管理局2025年质量监督抽查（儿童及婴幼儿服装、定配眼镜等）项目",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "定配眼镜质量监督抽查",
+              "suppliers": [
+                "东华大学"
+              ],
+              "quote": "标项名称：定配眼镜质量监督抽查；中标供应商名称：东华大学"
+            },
+            {
+              "lotNumber": "2",
+              "lotName": "儿童及婴幼儿服装质量监督抽查",
+              "suppliers": [
+                "中纺标检验认证股份有限公司"
+              ],
+              "quote": "标项名称：儿童及婴幼儿服装质量监督抽查；中标供应商名称：中纺标检验认证股份有限公司"
+            },
+            {
+              "lotNumber": "4",
+              "lotName": "抗菌性针织品质量监督抽查",
+              "suppliers": [
+                "上海天伟标准技术服务有限公司"
+              ],
+              "quote": "标项名称：抗菌性针织品质量监督抽查；中标供应商名称：上海天伟标准技术服务有限公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "上海市市场监督管理局机关车队服务项目的中标（成交）结果公告",
@@ -1283,7 +3747,23 @@
           "buyer": "上海市市场监督管理局",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=GqG9MRUlooaUvkbDEVbsHw%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "上海市市场监督管理局机关车队服务项目",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "上海市市场监督管理局机关车队服务项目",
+              "suppliers": [
+                "上海久胜投资管理服务有限公司"
+              ],
+              "quote": "标项名称：上海市市场监督管理局机关车队服务项目；中标供应商名称：上海久胜投资管理服务有限公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "上海市市场监督管理局机关食堂服务项目的中标（成交）结果公告",
@@ -1291,7 +3771,23 @@
           "buyer": "上海市市场监督管理局",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=AxVUaWvJviiA2rakyDF60Q%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "上海市市场监督管理局机关食堂服务项目",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "上海市市场监督管理局机关食堂服务项目",
+              "suppliers": [
+                "上海上勤餐饮管理有限公司"
+              ],
+              "quote": "标项名称：上海市市场监督管理局机关食堂服务项目；中标供应商名称：上海上勤餐饮管理有限公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "上海市市场监督管理局执法总队购买餐饮服务项目的中标（成交）结果公告",
@@ -1299,7 +3795,23 @@
           "buyer": "上海市市场监督管理局执法总队",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=mJce%2Fq%2BM3D07%2FlwAuh%2BOIw%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "上海市市场监督管理局执法总队购买餐饮服务项目",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "上海市市场监督管理局执法总队购买餐饮服务项目",
+              "suppliers": [
+                "上海上勤餐饮管理有限公司"
+              ],
+              "quote": "标项名称：上海市市场监督管理局执法总队购买餐饮服务项目；中标供应商名称：上海上勤餐饮管理有限公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "上海市市场监督管理局“两个责任”包保干部培训项目的中标（成交）结果公告",
@@ -1307,7 +3819,23 @@
           "buyer": "上海市市场监督管理局",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=bgnaSdh4YwphsRdUbQc1rA%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "上海市市场监督管理局“两个责任”包保干部培训项目",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "上海市市场监督管理局“两个责任”包保干部培训项目",
+              "suppliers": [
+                "上海交通大学"
+              ],
+              "quote": "标项名称：上海市市场监督管理局“两个责任”包保干部培训项目；中标供应商名称：上海交通大学"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "上海市市场监督管理局执法总队柳州路615号物业管理服务的中标（成交）结果公告",
@@ -1315,7 +3843,23 @@
           "buyer": "上海市市场监督管理局执法总队",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=uxEEiRu0wtZtmKrdibQMXA%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "上海市市场监督管理局执法总队柳州路615号物业管理服务",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "柳州路物业管理费",
+              "suppliers": [
+                "上海上勤高级楼宇管理有限公司"
+              ],
+              "quote": "标项名称：柳州路物业管理费；中标供应商名称：上海上勤高级楼宇管理有限公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "上海市市场监督管理局执法总队2024年柳州路食堂餐饮服务项目的中标（成交）结果公告",
@@ -1323,7 +3867,23 @@
           "buyer": "上海市市场监督管理局执法总队",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=69YJCA0jBc%2FU%2BpfF6zV0ZA%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "上海市市场监督管理局执法总队2024年柳州路食堂餐饮服务项目",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "上海市市场监督管理局执法总队2024年柳州路食堂餐饮服务项目",
+              "suppliers": [
+                "上海上勤餐饮管理有限公司"
+              ],
+              "quote": "标项名称：上海市市场监督管理局执法总队2024年柳州路食堂餐饮服务项目；中标供应商名称：上海上勤餐饮管理有限公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "上海市市场监督管理局全国市场监管数字化试验区（上海）基础建设项目的中标（成交）结果公告",
@@ -1331,7 +3891,23 @@
           "buyer": "上海市市场监督管理局",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=GcyMPHuUFM48j28crZDHNA%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "上海市市场监督管理局全国市场监管数字化试验区（上海）基础建设项目",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "全国市场监督管理数字化试验区（上海）基础建设",
+              "suppliers": [
+                "上海市大数据股份有限公司"
+              ],
+              "quote": "标项名称：全国市场监督管理数字化试验区（上海）基础建设；中标供应商名称：上海市大数据股份有限公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "上海市市场监督管理局2024年车队服务项目的中标（成交）结果公告",
@@ -1339,7 +3915,23 @@
           "buyer": "上海市市场监督管理局",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=GWwp0dDzFVIEYcHjooCzVA%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "上海市市场监督管理局2024年车队服务项目",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "上海市市场监督管理局2024年车队服务项目",
+              "suppliers": [
+                "上海久胜投资管理服务有限公司"
+              ],
+              "quote": "标项名称：上海市市场监督管理局2024年车队服务项目；中标供应商名称：上海久胜投资管理服务有限公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "上海市市场监督管理局检验检测机构资质认定许可事项技术评审(建工等领域)项目的中标（成交）结果公告",
@@ -1347,7 +3939,23 @@
           "buyer": "上海市市场监督管理局",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=BWLFed7ZnqsfQA55xrcFJg%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "上海市市场监督管理局检验检测机构资质认定许可事项技术评审(建工等领域)项目",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "检验检测机构资质认定许可事项技术评审费（建工等领域）",
+              "suppliers": [
+                "上海市建设工程检测行业协会"
+              ],
+              "quote": "标项名称：检验检测机构资质认定许可事项技术评审费（建工等领域）；中标供应商名称：上海市建设工程检测行业协会"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "上海市市场监督管理局检验检测机构资质认定许可事项技术评审(综合领域)的中标（成交）结果公告",
@@ -1355,7 +3963,23 @@
           "buyer": "上海市市场监督管理局",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=o2Lhg7ByBaT1JT0DneWQIg%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "上海市市场监督管理局检验检测机构资质认定许可事项技术评审(综合领域)",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "上海市市场监督管理局检验检测机构资质认定许可事项技术评审(综合领域)",
+              "suppliers": [
+                "中启计量体系认证中心上海分中心"
+              ],
+              "quote": "标项名称：上海市市场监督管理局检验检测机构资质认定许可事项技术评审(综合领域)；中标供应商名称：中启计量体系认证中心上海分中心"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "上海市市场监督管理局检验检测机构资质认定告知承诺后续监管检查（含后续整改等技术评审）项目的中标（成交）结果公告",
@@ -1363,7 +3987,23 @@
           "buyer": "上海市市场监督管理局",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=7DloNG%2BrqDmNU0KTIOVNZg%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "上海市市场监督管理局检验检测机构资质认定告知承诺后续监管检查（含后续整改等技术评审）项目",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "检验检测机构资质认定告知承诺后续监管检查费（含后续整改等技术评审）",
+              "suppliers": [
+                "上海市计量测试学会"
+              ],
+              "quote": "标项名称：检验检测机构资质认定告知承诺后续监管检查费（含后续整改等技术评审）；中标供应商名称：上海市计量测试学会"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "上海市市场监督管理局2024年食堂服务项目的中标（成交）结果公告",
@@ -1371,7 +4011,23 @@
           "buyer": "上海市市场监督管理局",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=MgVseiJgrpI6VDntyttRCg%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "上海市市场监督管理局2024年食堂服务项目",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "上海市市场监督管理局2024年食堂服务项目",
+              "suppliers": [
+                "上海上勤餐饮管理有限公司"
+              ],
+              "quote": "标项名称：上海市市场监督管理局2024年食堂服务项目；中标供应商名称：上海上勤餐饮管理有限公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "上海市市场监督管理局2024年上海市食品安全宣传周主题活动宣传项目的中标（成交）结果公告",
@@ -1379,7 +4035,23 @@
           "buyer": "上海市市场监督管理局",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=JUONFqCsI5ZzaWPTiyqghA%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "上海市市场监督管理局2024年上海市食品安全宣传周主题活动宣传项目",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "上海市市场监督管理局2024年上海市食品安全宣传周主题活动宣传项目",
+              "suppliers": [
+                "上海东方网文化产业发展有限公司"
+              ],
+              "quote": "标项名称：上海市市场监督管理局2024年上海市食品安全宣传周主题活动宣传项目；中标供应商名称：上海东方网文化产业发展有限公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "上海市市场监督管理局2024年服装鞋帽类质量监督抽查（进口服装、丝绸服装、休闲鞋等）项目的中标（成交）结果公告",
@@ -1387,7 +4059,55 @@
           "buyer": "上海市市场监督管理局",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=TV05XXYxcxwbsbV3cBGFkw%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "上海市市场监督管理局2024年服装鞋帽类质量监督抽查（进口服装、丝绸服装、休闲鞋等）项目",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "秋冬大衣、风衣",
+              "suppliers": [
+                "中纺标检验认证股份有限公司"
+              ],
+              "quote": "标项名称：秋冬大衣、风衣；中标供应商名称：中纺标检验认证股份有限公司"
+            },
+            {
+              "lotNumber": "2",
+              "lotName": "羊绒羊毛服装和丝绸服装",
+              "suppliers": [
+                "苏州市纤维检验院"
+              ],
+              "quote": "标项名称：羊绒羊毛服装和丝绸服装；中标供应商名称：苏州市纤维检验院"
+            },
+            {
+              "lotNumber": "3",
+              "lotName": "进口服装",
+              "suppliers": [
+                "广检检测技术（上海）有限公司"
+              ],
+              "quote": "标项名称：进口服装；中标供应商名称：广检检测技术（上海）有限公司"
+            },
+            {
+              "lotNumber": "4",
+              "lotName": "休闲服装",
+              "suppliers": [
+                "中联品检（上海）技术服务有限公司"
+              ],
+              "quote": "标项名称：休闲服装；中标供应商名称：中联品检（上海）技术服务有限公司"
+            },
+            {
+              "lotNumber": "6",
+              "lotName": "瑜伽服、骑行服、运动针织服装",
+              "suppliers": [
+                "广检检测技术（上海）有限公司"
+              ],
+              "quote": "标项名称：瑜伽服、骑行服、运动针织服装；中标供应商名称：广检检测技术（上海）有限公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "上海市市场监督管理局2024年服装鞋帽类质量监督抽查（衬衫、皮革服装、运动鞋等）项目的中标（成交）结果公告",
@@ -1395,7 +4115,47 @@
           "buyer": "上海市市场监督管理局",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=VNqe0vISCTrs73Ttklt5QA%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "上海市市场监督管理局2024年服装鞋帽类质量监督抽查（衬衫、皮革服装、运动鞋等）项目",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "皮革服装",
+              "suppliers": [
+                "上海鉴正质量检测技术有限公司"
+              ],
+              "quote": "标项名称：皮革服装；中标供应商名称：上海鉴正质量检测技术有限公司"
+            },
+            {
+              "lotNumber": "2",
+              "lotName": "背提包和老人鞋",
+              "suppliers": [
+                "上海鉴正质量检测技术有限公司"
+              ],
+              "quote": "标项名称：背提包和老人鞋；中标供应商名称：上海鉴正质量检测技术有限公司"
+            },
+            {
+              "lotNumber": "3",
+              "lotName": "衬衫",
+              "suppliers": [
+                "中联品检（上海）技术服务有限公司"
+              ],
+              "quote": "标项名称：衬衫；中标供应商名称：中联品检（上海）技术服务有限公司"
+            },
+            {
+              "lotNumber": "4",
+              "lotName": "运动鞋",
+              "suppliers": [
+                "广检检测技术（上海）有限公司"
+              ],
+              "quote": "标项名称：运动鞋；中标供应商名称：广检检测技术（上海）有限公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "上海市市场监督管理局2024年儿童及婴幼儿服装质量监督抽查项目的中标（成交）结果公告",
@@ -1403,7 +4163,23 @@
           "buyer": "上海市市场监督管理局",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=WsucWhSwuZHonPR2yei9Jg%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "上海市市场监督管理局2024年儿童及婴幼儿服装质量监督抽查项目",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "儿童及婴幼儿服装",
+              "suppliers": [
+                "中纺标检验认证股份有限公司"
+              ],
+              "quote": "标项名称：儿童及婴幼儿服装；中标供应商名称：中纺标检验认证股份有限公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "上海市市场监督管理局2024年儿童袜子、手套、围巾质量监督抽查项目的中标（成交）结果公告",
@@ -1411,7 +4187,23 @@
           "buyer": "上海市市场监督管理局",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=cWZFGEvSZosRPYHjVoyvmw%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "上海市市场监督管理局2024年儿童袜子、手套、围巾质量监督抽查项目",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "儿童袜子、手套、围巾",
+              "suppliers": [
+                "上海纺织集团检测标准有限公司"
+              ],
+              "quote": "标项名称：儿童袜子、手套、围巾；中标供应商名称：上海纺织集团检测标准有限公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "上海市市场监督管理局2024年美容护理器具、家用制氧机质量监督抽查项目的中标（成交）结果公告",
@@ -1419,7 +4211,23 @@
           "buyer": "上海市市场监督管理局",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=gbmuIXUR75CXZ%2Fh02GMb4A%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "上海市市场监督管理局2024年美容护理器具、家用制氧机质量监督抽查项目",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "美容护理器具",
+              "suppliers": [
+                "上海市质量监督检验技术研究院"
+              ],
+              "quote": "标项名称：美容护理器具；中标供应商名称：上海市质量监督检验技术研究院"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "上海市市场监督管理局广告监测服务与数据采购项目的中标（成交）结果公告",
@@ -1427,7 +4235,23 @@
           "buyer": "上海市市场监督管理局",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=nK30PqfqQFxj3jzOYyrPGA%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "上海市市场监督管理局广告监测服务与数据采购项目",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "上海市市场监督管理局广告监测服务与数据采购项目",
+              "suppliers": [
+                "上海市市场监督管理局监测评价中心"
+              ],
+              "quote": "标项名称：上海市市场监督管理局广告监测服务与数据采购项目；中标供应商名称：上海市市场监督管理局监测评价中心"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "上海市市场监督管理局2023年车队服务项目的中标（成交）结果公告",
@@ -1435,7 +4259,23 @@
           "buyer": "上海市市场监督管理局",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=Ww093XnXDpazJrtxun7tTA%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "上海市市场监督管理局2023年车队服务项目",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "上海市市场监督管理局2023年车队服务项目",
+              "suppliers": [
+                "上海久胜投资管理服务有限公司"
+              ],
+              "quote": "标项名称：上海市市场监督管理局2023年车队服务项目；中标供应商名称：上海久胜投资管理服务有限公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         }
       ],
       "coverage": {
@@ -1489,7 +4329,23 @@
           "buyer": "上海市总工会沪东工人文化宫",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=XWV8g1JcHJpgc4jsVQ9YDA%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "沪东工人文化宫健身房项目",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "沪东工人文化宫健身房项目",
+              "suppliers": [
+                "上海杨卫建筑装潢工程有限公司"
+              ],
+              "quote": "标项名称：沪东工人文化宫健身房项目；中标供应商名称：上海杨卫建筑装潢工程有限公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "东宫水泵房修缮及设备更新项目的中标（成交）结果公告",
@@ -1497,7 +4353,23 @@
           "buyer": "上海市总工会沪东工人文化宫",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=W5sbuHw%2FUmV1t3HTZOJFzQ%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "东宫水泵房修缮及设备更新项目",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "东宫水泵房修缮及设备更新项目",
+              "suppliers": [
+                "上海胤协建设工程有限公司"
+              ],
+              "quote": "标项名称：东宫水泵房修缮及设备更新项目；中标供应商名称：上海胤协建设工程有限公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "东宫配电房修缮及设备更新项目的中标（成交）结果公告",
@@ -1505,7 +4377,23 @@
           "buyer": "上海市总工会沪东工人文化宫",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=V7kGLhtJkBMt4oGtUyMO6w%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "东宫配电房修缮及设备更新项目",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "东宫配电房修缮及设备更新项目",
+              "suppliers": [
+                "上海坤磐电力工程安装有限公司"
+              ],
+              "quote": "标项名称：东宫配电房修缮及设备更新项目；中标供应商名称：上海坤磐电力工程安装有限公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "2026年上海市总工会静安区工人文化宫北宫一体化物业管理服务项目的中标（成交）结果公告",
@@ -1513,7 +4401,23 @@
           "buyer": "上海市总工会静安区工人文化宫",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=ABO96pooHrgu8dQ0Umw78w%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "2026年上海市总工会静安区工人文化宫北宫一体化物业管理服务项目",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "2026年上海市总工会静安区工人文化宫北宫一体化物业管理服务项目",
+              "suppliers": [
+                "上海德一置行物业管理有限公司"
+              ],
+              "quote": "标项名称：2026年上海市总工会静安区工人文化宫北宫一体化物业管理服务项目；中标供应商名称：上海德一置行物业管理有限公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "2026年度上海市总工会黄浦区工人文化宫物业管理的中标（成交）结果公告",
@@ -1521,7 +4425,23 @@
           "buyer": "上海市总工会黄浦区工人文化宫",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=U7my6Gx51iwdz%2B826vY5JQ%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "2026年度上海市总工会黄浦区工人文化宫物业管理",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "2026年度上海市总工会黄浦区工人文化宫物业管理",
+              "suppliers": [
+                "上海复欣物业管理发展有限公司"
+              ],
+              "quote": "标项名称：2026年度上海市总工会黄浦区工人文化宫物业管理；中标供应商名称：上海复欣物业管理发展有限公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "东宫中心花园绿化提升及构筑物修缮项目的中标（成交）结果公告",
@@ -1529,7 +4449,23 @@
           "buyer": "上海市总工会沪东工人文化宫",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=V7aYcpBikzLNPGNmR4Ikww%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "东宫中心花园绿化提升及构筑物修缮项目",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "东宫中心花园绿化提升及构筑物修缮项目",
+              "suppliers": [
+                "上海弘明建设（集团）有限公司"
+              ],
+              "quote": "标项名称：东宫中心花园绿化提升及构筑物修缮项目；中标供应商名称：上海弘明建设（集团）有限公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "2026年上海市总工会静安区工人文化宫一体化物业管理服务的中标（成交）结果公告",
@@ -1537,7 +4473,23 @@
           "buyer": "上海市总工会静安区工人文化宫",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=yaBZDnqOQMm%2FVlvJdbtQyg%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "2026年上海市总工会静安区工人文化宫一体化物业管理服务",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "一体化物业管理服务",
+              "suppliers": [
+                "上海巨星物业有限公司"
+              ],
+              "quote": "标项名称：一体化物业管理服务；中标供应商名称：上海巨星物业有限公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "影剧院专业系统设备采购的中标（成交）结果公告",
@@ -1545,7 +4497,31 @@
           "buyer": "上海市总工会沪东工人文化宫",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=xywr%2BnaqMHowHKvQjcZIIQ%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "影剧院专业系统设备采购",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "影剧院专业系统设备采购",
+              "suppliers": [
+                "上海上影影视科技发展有限公司"
+              ],
+              "quote": "标项名称：影剧院专业系统设备采购；中标供应商名称：上海上影影视科技发展有限公司"
+            },
+            {
+              "lotNumber": "2",
+              "lotName": "影剧院专业系统设备采购（接受进口设备）",
+              "suppliers": [
+                "上海上影影视科技发展有限公司"
+              ],
+              "quote": "标项名称：影剧院专业系统设备采购（接受进口设备）；中标供应商名称：上海上影影视科技发展有限公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "舞台配套设备设施的中标（成交）结果公告",
@@ -1553,7 +4529,23 @@
           "buyer": "上海市总工会沪东工人文化宫",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=buF495hH2IKAIO4sVOWCjA%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "舞台配套设备设施",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "舞台配套设备设施",
+              "suppliers": [
+                "上海舞美艺术中心有限公司"
+              ],
+              "quote": "标项名称：舞台配套设备设施；中标供应商名称：上海舞美艺术中心有限公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "剧场吊杆灯光系统改造项目的中标（成交）结果公告",
@@ -1561,7 +4553,23 @@
           "buyer": "上海市总工会沪东工人文化宫",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=5EBSVVCHA4xf0CISODUuxw%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "剧场吊杆灯光系统改造项目",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "剧场吊杆灯光系统改造项目",
+              "suppliers": [
+                "上海舞美艺术中心有限公司"
+              ],
+              "quote": "标项名称：剧场吊杆灯光系统改造项目；中标供应商名称：上海舞美艺术中心有限公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "2025年上海市总工会静安区工人文化宫一体化物业管理服务的中标（成交）结果公告",
@@ -1569,7 +4577,23 @@
           "buyer": "上海市总工会静安区工人文化宫",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=7NG5Lafk%2FetDbTysJVWr4Q%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "2025年上海市总工会静安区工人文化宫一体化物业管理服务",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "2025年上海市总工会静安区工人文化宫一体化物业管理服务",
+              "suppliers": [
+                "上海巨星物业有限公司"
+              ],
+              "quote": "标项名称：2025年上海市总工会静安区工人文化宫一体化物业管理服务；中标供应商名称：上海巨星物业有限公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "上海市总工会沪东工人文化宫物业项目的中标（成交）结果公告",
@@ -1577,7 +4601,23 @@
           "buyer": "上海市总工会沪东工人文化宫",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=T6U4uImdFqtiYRwsHq5tFg%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "上海市总工会沪东工人文化宫物业项目",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "上海市总工会沪东工人文化宫物业项目",
+              "suppliers": [
+                "上海弘森物业管理有限公司"
+              ],
+              "quote": "标项名称：上海市总工会沪东工人文化宫物业项目；中标供应商名称：上海弘森物业管理有限公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "2024年上海市总工会静安区工人文化宫一体化物业管理服务的中标（成交）结果公告",
@@ -1585,7 +4625,23 @@
           "buyer": "上海市总工会静安区工人文化宫",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=FbVI3PQBDF%2BSHoPq4xQaNg%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "2024年上海市总工会静安区工人文化宫一体化物业管理服务",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "一体化物业费",
+              "suppliers": [
+                "上海巨星物业有限公司"
+              ],
+              "quote": "标项名称：一体化物业费；中标供应商名称：上海巨星物业有限公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         },
         {
           "title": "上海市总工会黄浦区工人体育馆——上海市总工会黄浦区工人体育馆物业管理服务项目的中标（成交）结果公告",
@@ -1593,7 +4649,23 @@
           "buyer": "上海市总工会黄浦区工人体育馆",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=NajP2%2B94UhxSnx9u3Gd0QA%3D%3D",
           "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期"
+          "dateLabel": "结果公告日期",
+          "projectName": "上海市总工会黄浦区工人体育馆——上海市总工会黄浦区工人体育馆物业管理服务项目",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "上海市总工会黄浦区工人体育馆——上海市总工会黄浦区工人体育馆物业管理服务项目",
+              "suppliers": [
+                "上海晟新物业经营管理有限公司"
+              ],
+              "quote": "标项名称：上海市总工会黄浦区工人体育馆——上海市总工会黄浦区工人体育馆物业管理服务项目；中标供应商名称：上海晟新物业经营管理有限公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-26T10:49:29+08:00",
+            "status": "ok"
+          }
         }
       ],
       "coverage": {
