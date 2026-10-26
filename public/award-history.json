@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-26T22:42:30+08:00",
+  "updatedAt": "2026-10-27T04:12:44+08:00",
   "customers": [
     {
       "id": "2100303078",
@@ -667,13 +667,13 @@
       "name": "公安部第三研究所",
       "results": [],
       "coverage": {
-        "from": "2023-10-27",
-        "to": "2026-10-26",
+        "from": "2023-10-28",
+        "to": "2026-10-27",
         "source": "https://www.zfcg.sh.gov.cn",
         "truncated": false
       },
       "lastCheck": {
-        "at": "2026-10-26T15:05:18+08:00",
+        "at": "2026-10-27T04:12:44+08:00",
         "status": "ok"
       }
     },
@@ -682,13 +682,13 @@
       "name": "中国浦东干部学院",
       "results": [],
       "coverage": {
-        "from": "2023-10-27",
-        "to": "2026-10-26",
+        "from": "2023-10-28",
+        "to": "2026-10-27",
         "source": "https://www.zfcg.sh.gov.cn",
         "truncated": false
       },
       "lastCheck": {
-        "at": "2026-10-26T15:05:18+08:00",
+        "at": "2026-10-27T04:12:44+08:00",
         "status": "ok"
       }
     },
@@ -697,13 +697,13 @@
       "name": "上海数据集团有限公司",
       "results": [],
       "coverage": {
-        "from": "2023-10-27",
-        "to": "2026-10-26",
+        "from": "2023-10-28",
+        "to": "2026-10-27",
         "source": "https://www.zfcg.sh.gov.cn",
         "truncated": true
       },
       "lastCheck": {
-        "at": "2026-10-26T15:05:18+08:00",
+        "at": "2026-10-27T04:12:44+08:00",
         "status": "ok"
       }
     },
@@ -712,13 +712,13 @@
       "name": "上海库帕思科技有限公司",
       "results": [],
       "coverage": {
-        "from": "2023-10-27",
-        "to": "2026-10-26",
+        "from": "2023-10-28",
+        "to": "2026-10-27",
         "source": "https://www.zfcg.sh.gov.cn",
         "truncated": false
       },
       "lastCheck": {
-        "at": "2026-10-26T15:05:18+08:00",
+        "at": "2026-10-27T04:12:44+08:00",
         "status": "ok"
       }
     },
@@ -776,13 +776,13 @@
         }
       ],
       "coverage": {
-        "from": "2023-10-27",
-        "to": "2026-10-26",
+        "from": "2023-10-28",
+        "to": "2026-10-27",
         "source": "https://www.zfcg.sh.gov.cn",
         "truncated": true
       },
       "lastCheck": {
-        "at": "2026-10-26T15:05:18+08:00",
+        "at": "2026-10-27T04:12:44+08:00",
         "status": "ok"
       }
     },
@@ -2240,13 +2240,13 @@
         }
       ],
       "coverage": {
-        "from": "2023-10-27",
-        "to": "2026-10-26",
+        "from": "2023-10-28",
+        "to": "2026-10-27",
         "source": "https://www.zfcg.sh.gov.cn",
         "truncated": true
       },
       "lastCheck": {
-        "at": "2026-10-26T15:05:18+08:00",
+        "at": "2026-10-27T04:12:44+08:00",
         "status": "ok"
       }
     },
@@ -4252,40 +4252,16 @@
             "at": "2026-10-26T10:49:29+08:00",
             "status": "ok"
           }
-        },
-        {
-          "title": "上海市市场监督管理局2023年车队服务项目的中标（成交）结果公告",
-          "date": "2023-10-27",
-          "buyer": "上海市市场监督管理局",
-          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=Ww093XnXDpazJrtxun7tTA%3D%3D",
-          "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期",
-          "projectName": "上海市市场监督管理局2023年车队服务项目",
-          "awards": [
-            {
-              "lotNumber": "1",
-              "lotName": "上海市市场监督管理局2023年车队服务项目",
-              "suppliers": [
-                "上海久胜投资管理服务有限公司"
-              ],
-              "quote": "标项名称：上海市市场监督管理局2023年车队服务项目；中标供应商名称：上海久胜投资管理服务有限公司"
-            }
-          ],
-          "detailCheck": {
-            "version": 1,
-            "at": "2026-10-26T10:49:29+08:00",
-            "status": "ok"
-          }
         }
       ],
       "coverage": {
-        "from": "2023-10-27",
-        "to": "2026-10-26",
+        "from": "2023-10-28",
+        "to": "2026-10-27",
         "source": "https://www.zfcg.sh.gov.cn",
         "truncated": true
       },
       "lastCheck": {
-        "at": "2026-10-26T10:59:09+08:00",
+        "at": "2026-10-27T04:12:44+08:00",
         "status": "ok"
       }
     },
@@ -4294,13 +4270,13 @@
       "name": "上海市委党校",
       "results": [],
       "coverage": {
-        "from": "2023-10-27",
-        "to": "2026-10-26",
+        "from": "2023-10-28",
+        "to": "2026-10-27",
         "source": "https://www.zfcg.sh.gov.cn",
         "truncated": false
       },
       "lastCheck": {
-        "at": "2026-10-26T10:59:09+08:00",
+        "at": "2026-10-27T04:12:44+08:00",
         "status": "ok"
       }
     },
