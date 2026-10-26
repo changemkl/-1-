@@ -32,13 +32,13 @@ async function refreshProfiles(){
  if(profilesBusy){profilesQueued=true;return;}profilesBusy=true;
  try{
   const config=await(await fetch(new URL('./profile-config.json?v='+Math.floor(Date.now()/60000),location.href),{cache:'no-store'})).json();
-  const all=views.flatMap(v=>v.items),ids=[...new Set(all.map(customerIdentifier))];let incoming=[];
+  const all=views.filter((v,i)=>i!==1).flatMap(v=>v.items),ids=[...new Set(all.map(customerIdentifier))];let incoming=[];
   if(!config.apiBaseUrl){const r=await fetch(new URL('./profile-data.json?v='+Math.floor(Date.now()/60000),location.href),{cache:'no-store'});if(!r.ok)throw Error('Information unavailable');const data=await r.json();if(!Array.isArray(data.profiles))throw Error('Invalid profiles');incoming=data.profiles;}
   else{const base=new URL(config.apiBaseUrl);if(base.protocol!=='https:')return;for(let i=0;i<ids.length;i+=25){const url=new URL('/api/profiles',base);for(const id of ids.slice(i,i+25))url.searchParams.append('id',id);const r=await fetch(url,{cache:'no-store'});if(!r.ok)throw Error('Unavailable');incoming.push(...(await r.json()).profiles);}}
   profileConnection='connected';
   for(const p of incoming)customerProfiles.set(p.id,p);
   for(const x of all){const p=profileFor(x);x[6]=[...new Set(visibleProjectsFor(x).map(r=>syncEscape(r.stage)))];if(profileLeaderCountFor(x))x[6].push('官网领导信息');x[3]='待核实';x[2]=syncEscape(basicInfoFor(x)?.address||'');}
-  for(const v of views)v.groups=[...new Set(v.items.map(x=>x[4]))];renderShell();window.dispatchEvent(new Event('public-profiles-updated'));
+  for(const v of views.filter((v,i)=>i!==1))v.groups=[...new Set(v.items.map(x=>x[4]))];renderShell();window.dispatchEvent(new Event('public-profiles-updated'));
  }catch{document.getElementById('sync-status').textContent='公开资料暂时无法刷新，现有资料已保留';}
  finally{profilesBusy=false;if(profilesQueued){profilesQueued=false;refreshProfiles();}}
 }

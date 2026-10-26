@@ -4,7 +4,7 @@ let syncVersion = '', syncBusy = false;
 function applySheetRows(rows) {
   const aliases = ['名称','客户名称','单位名称','企业名称','客户','单位','场景名称','伙伴名称'];
   const headerIndex = rows.findIndex(row => row.some(c => aliases.includes(String(c).trim())));
-  // Unrecognized layouts still display losslessly in the source table.
+  // Keep the current customer list if the header cannot be recognized.
   if (headerIndex < 0) return false;
   const headers = rows[headerIndex].map(x => String(x).trim());
   const column = names => headers.findIndex(h => names.includes(h));
@@ -38,6 +38,7 @@ function applySheetRows(rows) {
     const live = treeCol >= 0 || i===0;
     views[i].live=true;
     views[i].chanceKnown=chanceCol>=0;
+    if(i===1&&typeof rebuildPartners==='function')continue;
     views[i].items=buckets[i];
     views[i].groups=[...new Set(buckets[i].map(x=>x[4]))];
   }

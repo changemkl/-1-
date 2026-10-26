@@ -30,7 +30,8 @@ function awardSupplierTop3(rows){
 }
 (() => {
  const records=new Map();let selected,trigger,timer;
- window.awardHistoryCountFor=x=>{const r=records.get(customerIdentifier(x));const name=new DOMParser().parseFromString(x[0],'text/html').body.textContent;return r?.name===name?sortedAwardResults(r.results||[],shanghaiDate()).length:0;};
+ window.awardHistoryFor=x=>{const r=records.get(customerIdentifier(x));const name=new DOMParser().parseFromString(x[0],'text/html').body.textContent;return r?.name===name?sortedAwardResults(r.results||[],shanghaiDate()):[];};
+ window.awardHistoryCountFor=x=>window.awardHistoryFor(x).length;
  const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
  const overlay=document.createElement('div');overlay.className='org-overlay award-overlay';overlay.hidden=true;
  overlay.innerHTML='<section class="org-drawer" role="dialog" aria-modal="true" aria-labelledby="award-title"><header class="org-header"><div><span>历史招标结果</span><h2 id="award-title"></h2></div><button class="org-close" aria-label="关闭历史招标结果">×</button></header><div class="org-content award-content"></div></section>';
@@ -56,6 +57,6 @@ function awardSupplierTop3(rows){
  overlay.addEventListener('keydown',e=>{if(e.key==='Escape'){e.preventDefault();close();}if(e.key==='Tab'){const items=[...overlay.querySelectorAll('button,a')],first=items[0],last=items.at(-1);if(e.shiftKey&&document.activeElement===first){e.preventDefault();last.focus();}else if(!e.shiftKey&&document.activeElement===last){e.preventDefault();first.focus();}}});
  const update=()=>{if(!selected||overlay.hidden)return;const id=customerIdentifier(selected),current=views.flatMap(v=>v.items).find(x=>customerIdentifier(x)===id);if(!current){close();return;}selected=current;render();};
  for(const event of ['customers-updated','public-profiles-updated'])window.addEventListener(event,update);
- async function refresh(){try{const r=await fetch(new URL('./award-history.json?v='+Math.floor(Date.now()/60000),location.href),{cache:'no-store'});if(!r.ok)return;const data=await r.json();for(const record of data.customers||[])records.set(String(record.id),record);update();if(typeof refreshProfiles==='function')refreshProfiles();}catch{}}
+ async function refresh(){try{const r=await fetch(new URL('./award-history.json?v='+Math.floor(Date.now()/60000),location.href),{cache:'no-store'});if(!r.ok)return;const data=await r.json();for(const record of data.customers||[])records.set(String(record.id),record);update();window.dispatchEvent(new Event('award-history-updated'));if(typeof refreshProfiles==='function')refreshProfiles();}catch{}}
  window.addEventListener('refresh-public-data',refresh);refresh();setInterval(refresh,300000);
 })();

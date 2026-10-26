@@ -11,7 +11,7 @@ shutil.copy2('.nojekyll', root/'.nojekyll')
 shutil.copytree('public', root/'public', dirs_exist_ok=True)
 page = root/'public/index.html'
 html = page.read_text()
-for name in ('style.css', 'app.js', 'sync-data.js', 'profiles.js', 'organizations.js', 'customer-system.js', 'award-history.js'):
+for name in ('style.css', 'app.js', 'sync-data.js', 'profiles.js', 'organizations.js', 'customer-system.js', 'award-history.js', 'partners.js'):
     digest = hashlib.sha256((root/'public'/name).read_bytes()).hexdigest()[:12]
     html = re.sub(r'\./' + re.escape(name) + r'(?:\?[^"\s]*)?"', './' + name + '?v=' + digest + '"', html)
 page.write_text(html)
