@@ -1,0 +1,46 @@
+name: Read customer work logs
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: tencent-pages-sync
+  cancel-in-progress: false
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: customer-workspace
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Read new-column work logs
+        env:
+          TENCENT_DOCS_CLIENT_ID: ${{ secrets.TENCENT_DOCS_CLIENT_ID }}
+          TENCENT_DOCS_ACCESS_TOKEN: ${{ secrets.TENCENT_DOCS_ACCESS_TOKEN }}
+          TENCENT_DOCS_OPEN_ID: ${{ secrets.TENCENT_DOCS_OPEN_ID }}
+        run: python scripts/sync-tencent.py --worklogs-only
+      - name: Save changed work logs
+        run: |
+          git add public/worklog-config.json public/worklogs.json public/sheet-columns.json
+          if ! git diff --cached --quiet; then
+            git config user.name 'github-actions[bot]'
+            git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+            git commit -m 'Sync customer work logs'
+            git pull --rebase origin customer-workspace
+            git push origin HEAD:customer-workspace
+          fi
+      - name: Prepare Pages site
+        run: python scripts/prepare-pages.py
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: /tmp/customer-pages-site
+      - uses: actions/deploy-pages@v4
+        id: deployment

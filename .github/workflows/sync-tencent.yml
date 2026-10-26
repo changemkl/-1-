@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
   push:
     branches: [customer-workspace]
-    paths: [".github/workflows/sync-tencent.yml", "scripts/sync-tencent.py", "public/**"]
+    paths: [".github/workflows/sync-tencent.yml", "scripts/sync-tencent.py", "scripts/worklogs.py", "public/**"]
   schedule:
     - cron: '2-57/5 * * * *'
 permissions:
@@ -40,7 +40,7 @@ jobs:
       - name: Save changed public data
         id: save
         run: |
-          git add public/tencent-data.json public/customer-system.json public/customer-archive.json
+          git add public/tencent-data.json public/customer-system.json public/customer-archive.json public/worklog-config.json public/worklogs.json public/sheet-columns.json
           if ! git diff --cached --quiet; then
             git config user.name 'github-actions[bot]'
             git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
