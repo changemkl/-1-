@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-26T11:31:44+08:00",
+  "updatedAt": "2026-10-26T13:39:07+08:00",
   "source": "东风平台",
   "scope": "中移集成生态记录及账号可见线索/商机记录",
   "partners": [
@@ -10,7 +10,16 @@
       "capabilities": "应急指挥",
       "notes": "平台登记有合作成果。",
       "source": "东风平台",
-      "sourceScope": "中移集成生态记录"
+      "sourceScope": "中移集成生态记录",
+      "businessLinks": [],
+      "cooperationOutcomes": [
+        {
+          "title": "雄安新区应急指挥调度能力提升项目",
+          "type": "项目",
+          "source": "东风平台合作成果登记",
+          "note": ""
+        }
+      ]
     },
     {
       "name": "北京华宇软件股份有限公司",
@@ -21,7 +30,16 @@
       "capabilities": "市场监管、药品监管、司法大模型",
       "notes": "平台登记有合作成果。",
       "source": "东风平台",
-      "sourceScope": "中移集成生态记录"
+      "sourceScope": "中移集成生态记录",
+      "businessLinks": [],
+      "cooperationOutcomes": [
+        {
+          "title": "法律大模型联合研发",
+          "type": "成果描述",
+          "source": "东风平台合作成果登记",
+          "note": "原记录未注明项目名称"
+        }
+      ]
     },
     {
       "name": "北京易华录信息技术股份有限公司",
@@ -32,7 +50,22 @@
       "capabilities": "交通大数据、智慧交通大脑",
       "notes": "平台登记有合作成果。",
       "source": "东风平台",
-      "sourceScope": "中移集成生态记录"
+      "sourceScope": "中移集成生态记录",
+      "businessLinks": [],
+      "cooperationOutcomes": [
+        {
+          "title": "5G+智慧高速示范工程-G6京藏高速呼包段智能化提升改造项目",
+          "type": "项目",
+          "source": "东风平台合作成果登记",
+          "note": ""
+        },
+        {
+          "title": "文山州综合交通运输运行协调和应急指挥中心EPC项目",
+          "type": "项目",
+          "source": "东风平台合作成果登记",
+          "note": ""
+        }
+      ]
     },
     {
       "name": "启明星辰信息技术集团股份有限公司",
@@ -43,7 +76,16 @@
       "capabilities": "AI安全治理方案",
       "notes": "平台登记有合作成果。",
       "source": "东风平台",
-      "sourceScope": "中移集成生态记录"
+      "sourceScope": "中移集成生态记录",
+      "businessLinks": [
+        {
+          "title": "久事集团云改造",
+          "type": "线索",
+          "relationship": "合作沟通，未确认已合作",
+          "source": "东风平台线索/商机记录"
+        }
+      ],
+      "cooperationOutcomes": []
     },
     {
       "name": "国泰新点软件股份有限公司",
@@ -52,7 +94,22 @@
       "capabilities": "数字住建全业务覆盖能力(数据平台、城市更新、质安监管、住房保障、村镇建设),AI+住建融合能力",
       "notes": "平台登记有合作成果。",
       "source": "东风平台",
-      "sourceScope": "中移集成生态记录"
+      "sourceScope": "中移集成生态记录",
+      "businessLinks": [],
+      "cooperationOutcomes": [
+        {
+          "title": "陕西智慧住建项目",
+          "type": "项目",
+          "source": "东风平台合作成果登记",
+          "note": ""
+        },
+        {
+          "title": "黑龙江住建数据资源中心项目",
+          "type": "项目",
+          "source": "东风平台合作成果登记",
+          "note": ""
+        }
+      ]
     },
     {
       "name": "成都华栖云科技有限公司",
@@ -61,7 +118,16 @@
       "capabilities": "华栖云AIGC工具集,基于自主研发的华生大模型驱动,集合AI非编、智变观澜(文生图与图生视频)、依案成片(稿件、诗词、课程自动成片)、数字分身、流光易识(直播流智能编辑)五大AIGC核心工具,面向泛媒体行业提供图、文、视频、音频、数据可视的AIGC编辑、全量制作、后期渲染等系列功能,为生产创作注入全新活力和灵感,赋能大试听时代下的内容生产。",
       "notes": "平台登记有合作成果。",
       "source": "东风平台",
-      "sourceScope": "中移集成生态记录"
+      "sourceScope": "中移集成生态记录",
+      "businessLinks": [],
+      "cooperationOutcomes": [
+        {
+          "title": "人民日报社AIGC编辑部项目",
+          "type": "项目",
+          "source": "东风平台合作成果登记",
+          "note": ""
+        }
+      ]
     },
     {
       "name": "新开普电子股份有限公司",
@@ -70,7 +136,16 @@
       "capabilities": "智慧一卡通",
       "notes": "平台登记有合作成果。",
       "source": "东风平台",
-      "sourceScope": "中移集成生态记录"
+      "sourceScope": "中移集成生态记录",
+      "businessLinks": [],
+      "cooperationOutcomes": [
+        {
+          "title": "金华理工",
+          "type": "客户单位",
+          "source": "东风平台合作成果登记",
+          "note": "原记录未注明项目名称"
+        }
+      ]
     },
     {
       "name": "杭州海康威视数字技术股份有限公司",
@@ -81,7 +156,22 @@
       "capabilities": "雪亮工程",
       "notes": "平台登记有合作成果。",
       "source": "东风平台",
-      "sourceScope": "中移集成生态记录"
+      "sourceScope": "中移集成生态记录",
+      "businessLinks": [
+        {
+          "title": "军天湖监狱安防设施改造项目",
+          "type": "线索",
+          "relationship": "拟询价，未确认已合作",
+          "source": "东风平台线索/商机记录"
+        },
+        {
+          "title": "2026年上海市体育彩票管理中心录音录像改造项目",
+          "type": "线索",
+          "relationship": "询价沟通，未确认已合作",
+          "source": "东风平台线索/商机记录"
+        }
+      ],
+      "cooperationOutcomes": []
     },
     {
       "name": "江苏金智教育信息股份有限公司",
@@ -90,7 +180,16 @@
       "capabilities": "智慧校园",
       "notes": "平台登记有合作成果。",
       "source": "东风平台",
-      "sourceScope": "中移集成生态记录"
+      "sourceScope": "中移集成生态记录",
+      "businessLinks": [],
+      "cooperationOutcomes": [
+        {
+          "title": "云南楚雄职教园区",
+          "type": "客户单位",
+          "source": "东风平台合作成果登记",
+          "note": "原记录未注明项目名称"
+        }
+      ]
     },
     {
       "name": "浙江大华技术股份有限公司",
@@ -101,7 +200,29 @@
       "capabilities": "雪亮工程、交通领域物联感知设备",
       "notes": "平台登记有合作成果。",
       "source": "东风平台",
-      "sourceScope": "中移集成生态记录"
+      "sourceScope": "中移集成生态记录",
+      "businessLinks": [
+        {
+          "title": "2026年上海市体育彩票管理中心录音录像改造项目",
+          "type": "线索",
+          "relationship": "询价沟通，未确认已合作",
+          "source": "东风平台线索/商机记录"
+        }
+      ],
+      "cooperationOutcomes": [
+        {
+          "title": "海口市智能网联汽车“车路云一体化”应用试点(一期)项目",
+          "type": "项目",
+          "source": "东风平台合作成果登记",
+          "note": ""
+        },
+        {
+          "title": "长春市智能网联汽车“车路云一体化”应用试点建设项目（标段2）",
+          "type": "项目",
+          "source": "东风平台合作成果登记",
+          "note": ""
+        }
+      ]
     },
     {
       "name": "润建股份有限公司",
@@ -110,7 +231,16 @@
       "capabilities": "安全生产相关系统",
       "notes": "平台登记有合作成果。",
       "source": "东风平台",
-      "sourceScope": "中移集成生态记录"
+      "sourceScope": "中移集成生态记录",
+      "businessLinks": [],
+      "cooperationOutcomes": [
+        {
+          "title": "雄安新区应急指挥调度能力提升项目",
+          "type": "项目",
+          "source": "东风平台合作成果登记",
+          "note": ""
+        }
+      ]
     },
     {
       "name": "联奕科技股份有限公司",
@@ -119,7 +249,16 @@
       "capabilities": "校务管理平台",
       "notes": "平台登记有合作成果。",
       "source": "东风平台",
-      "sourceScope": "中移集成生态记录"
+      "sourceScope": "中移集成生态记录",
+      "businessLinks": [],
+      "cooperationOutcomes": [
+        {
+          "title": "贵州人文学院",
+          "type": "客户单位",
+          "source": "东风平台合作成果登记",
+          "note": "原记录未注明项目名称"
+        }
+      ]
     },
     {
       "name": "上海商米科技集团股份有限公司",
@@ -130,7 +269,9 @@
       "capabilities": "连锁零售IOT",
       "notes": "平台登记有合作切入点，未确认已合作。",
       "source": "东风平台",
-      "sourceScope": "中移集成生态记录"
+      "sourceScope": "中移集成生态记录",
+      "businessLinks": [],
+      "cooperationOutcomes": []
     },
     {
       "name": "上海微盟企业发展有限公司",
@@ -142,7 +283,9 @@
       "capabilities": "零售,商超商业解决方案",
       "notes": "平台登记有合作切入点，未确认已合作。",
       "source": "东风平台",
-      "sourceScope": "中移集成生态记录"
+      "sourceScope": "中移集成生态记录",
+      "businessLinks": [],
+      "cooperationOutcomes": []
     },
     {
       "name": "上海肯汀通讯科技有限公司",
@@ -153,7 +296,16 @@
       "capabilities": "",
       "notes": "线索/商机记录中有合作沟通。",
       "source": "东风平台",
-      "sourceScope": "账号可见线索/商机记录"
+      "sourceScope": "账号可见线索/商机记录",
+      "businessLinks": [
+        {
+          "title": "军天湖监狱安防设施改造项目",
+          "type": "线索",
+          "relationship": "合作沟通，未确认已合作",
+          "source": "东风平台线索/商机记录"
+        }
+      ],
+      "cooperationOutcomes": []
     },
     {
       "name": "北京世纪超星信息技术发展有限责任公司",
@@ -162,7 +314,9 @@
       "capabilities": "科研管理平台",
       "notes": "平台登记有合作切入点，未确认已合作。",
       "source": "东风平台",
-      "sourceScope": "中移集成生态记录"
+      "sourceScope": "中移集成生态记录",
+      "businessLinks": [],
+      "cooperationOutcomes": []
     },
     {
       "name": "北京中长石基信息技术股份有限公司",
@@ -173,7 +327,9 @@
       "capabilities": "酒店信息化",
       "notes": "平台登记有合作切入点，未确认已合作。",
       "source": "东风平台",
-      "sourceScope": "中移集成生态记录"
+      "sourceScope": "中移集成生态记录",
+      "businessLinks": [],
+      "cooperationOutcomes": []
     },
     {
       "name": "卫宁健康科技集团股份有限公司",
@@ -184,7 +340,9 @@
       "capabilities": "智慧医院、智慧区域卫生、互联网+医疗健康、医疗AI大模型",
       "notes": "平台登记有合作切入点，未确认已合作。",
       "source": "东风平台",
-      "sourceScope": "中移集成生态记录"
+      "sourceScope": "中移集成生态记录",
+      "businessLinks": [],
+      "cooperationOutcomes": []
     },
     {
       "name": "奥看",
@@ -193,7 +351,16 @@
       "capabilities": "",
       "notes": "线索/商机记录中有合作沟通。企业全称待核实。",
       "source": "东风平台",
-      "sourceScope": "账号可见线索/商机记录"
+      "sourceScope": "账号可见线索/商机记录",
+      "businessLinks": [
+        {
+          "title": "军天湖监狱安防设施改造项目",
+          "type": "线索",
+          "relationship": "合作沟通，未确认已合作",
+          "source": "东风平台线索/商机记录"
+        }
+      ],
+      "cooperationOutcomes": []
     },
     {
       "name": "广州视睿电子科技有限公司",
@@ -202,7 +369,9 @@
       "capabilities": "智慧教室与录播",
       "notes": "平台登记有合作切入点，未确认已合作。",
       "source": "东风平台",
-      "sourceScope": "中移集成生态记录"
+      "sourceScope": "中移集成生态记录",
+      "businessLinks": [],
+      "cooperationOutcomes": []
     },
     {
       "name": "汉朔科技股份有限公司",
@@ -213,7 +382,9 @@
       "capabilities": "数字化门店",
       "notes": "平台登记有合作切入点，未确认已合作。",
       "source": "东风平台",
-      "sourceScope": "中移集成生态记录"
+      "sourceScope": "中移集成生态记录",
+      "businessLinks": [],
+      "cooperationOutcomes": []
     },
     {
       "name": "浙江数链科技有限公司",
@@ -224,7 +395,9 @@
       "capabilities": "网络直播监测",
       "notes": "平台登记有合作切入点，未确认已合作。",
       "source": "东风平台",
-      "sourceScope": "中移集成生态记录"
+      "sourceScope": "中移集成生态记录",
+      "businessLinks": [],
+      "cooperationOutcomes": []
     },
     {
       "name": "深圳昂楷科技有限公司",
@@ -233,7 +406,9 @@
       "capabilities": "院统方数据库审计",
       "notes": "平台登记有合作切入点，未确认已合作。",
       "source": "东风平台",
-      "sourceScope": "中移集成生态记录"
+      "sourceScope": "中移集成生态记录",
+      "businessLinks": [],
+      "cooperationOutcomes": []
     },
     {
       "name": "网智天元",
@@ -242,7 +417,9 @@
       "capabilities": "金额AI",
       "notes": "平台登记有合作切入点，未确认已合作。",
       "source": "东风平台",
-      "sourceScope": "中移集成生态记录"
+      "sourceScope": "中移集成生态记录",
+      "businessLinks": [],
+      "cooperationOutcomes": []
     },
     {
       "name": "鼎力",
@@ -251,7 +428,16 @@
       "capabilities": "",
       "notes": "线索/商机记录中有合作沟通。企业全称待核实。",
       "source": "东风平台",
-      "sourceScope": "账号可见线索/商机记录"
+      "sourceScope": "账号可见线索/商机记录",
+      "businessLinks": [
+        {
+          "title": "军天湖监狱安防设施改造项目",
+          "type": "线索",
+          "relationship": "合作沟通，未确认已合作",
+          "source": "东风平台线索/商机记录"
+        }
+      ],
+      "cooperationOutcomes": []
     }
   ]
 }
