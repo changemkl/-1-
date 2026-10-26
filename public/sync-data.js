@@ -55,13 +55,7 @@ async function refreshSheetData() {
     const data=await response.json();
     if(!Array.isArray(data.rows)||!data.rows.every(r=>Array.isArray(r)&&r.every(c=>typeof c==='string'))||!Number.isFinite(Date.parse(data.updatedAt)))throw new Error('数据格式不正确');
     if(syncVersion===data.updatedAt)return;
-    const mapped=applySheetRows(data.rows);
-    const wrapper=document.createElement('div');wrapper.className='source-table-scroll';
-    const table=document.createElement('table');table.className='source-table';
-    const body=document.createElement('tbody');
-    const columns=Math.max(0,...data.rows.map(r=>r.length));
-    for(const row of data.rows){const tr=document.createElement('tr');for(let i=0;i<columns;i++){const td=document.createElement('td');td.textContent=row[i]||'';tr.appendChild(td);}body.appendChild(tr);}
-    table.appendChild(body);wrapper.appendChild(table);$('sheet-table').replaceChildren(wrapper);
+    applySheetRows(data.rows);
     const time=new Date(data.updatedAt).toLocaleString('zh-CN',{timeZone:'Asia/Shanghai'});
     $('sync-status').textContent=`资料更新：${time}`;
     group='全部板块';grade='全部等级';renderShell();syncVersion=data.updatedAt;window.dispatchEvent(new Event('customers-updated'));
