@@ -64,13 +64,7 @@ async function refreshSheetData() {
     $('sync-status').textContent=`资料更新：${time}`;
     group='全部板块';grade='全部等级';renderShell();syncVersion=data.updatedAt;window.dispatchEvent(new Event('customers-updated'));
   } catch(error) {
-    $('sync-status').textContent=syncVersion?'暂时无法刷新，当前资料已保留':'客户资料加载失败，请点击刷新资料重试';
+    $('sync-status').textContent=syncVersion?'暂时无法刷新，当前资料已保留':'客户资料加载失败，请稍后重试';
   } finally {syncBusy=false;}
 }
-const refreshCustomerButtons=[$('refresh-data'),$('refresh-customers')].filter(Boolean);
-for(const button of refreshCustomerButtons)button.onclick=async()=>{
-  for(const b of refreshCustomerButtons){b.disabled=true;b.dataset.label=b.textContent;b.textContent='刷新中…';}
-  try{window.dispatchEvent(new Event('refresh-public-data'));await refreshSheetData();if(typeof refreshProfiles==='function')await refreshProfiles();}
-  finally{for(const b of refreshCustomerButtons){b.disabled=false;b.textContent=b.dataset.label;}}
-};
 refreshSheetData();setInterval(refreshSheetData,60000);
