@@ -4,6 +4,8 @@ import os
 from pathlib import Path
 import tempfile
 import unittest
+import sys
+sys.path.insert(0,str(Path('scripts').resolve()))
 from unittest.mock import patch, MagicMock
 
 spec = importlib.util.spec_from_file_location('sync', 'scripts/sync-tencent.py')

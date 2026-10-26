@@ -1,5 +1,6 @@
 """Read public-business spreadsheet via Tencent's authenticated official API."""
 import datetime
+import argparse
 import json
 import os
 from pathlib import Path
@@ -68,7 +69,7 @@ def name_only_rows(rows):
     return result
 
 
-def main():
+def main(worklogs_only=False):
     names = {'Access-Token': 'TENCENT_DOCS_ACCESS_TOKEN', 'Client-Id': 'TENCENT_DOCS_CLIENT_ID', 'Open-Id': 'TENCENT_DOCS_OPEN_ID'}
     missing = [v for v in names.values() if not os.environ.get(v)]
     if missing:
@@ -112,7 +113,13 @@ def main():
         rows.pop()
     if not rows:
         raise RuntimeError('Empty spreadsheet; previous published data retained')
-    rows = name_only_rows(rows)
+    projected = name_only_rows(rows)
+    from worklogs import sync_worklogs
+    sync_worklogs(rows, OUTPUT.parent, 'https://docs.qq.com/sheet/' + ENCODED_ID + '?tab=' + SHEET_ID)
+    if worklogs_only:
+        print('Work logs synchronized; customer list unchanged')
+        return
+    rows = projected
     payload = {'encodedId': ENCODED_ID, 'fileId': file_id, 'sheetId': SHEET_ID, 'rows': rows,
                'source': 'https://docs.qq.com/sheet/' + ENCODED_ID + '?tab=' + SHEET_ID}
     if all(old.get(k) == v for k, v in payload.items()):
@@ -127,7 +134,9 @@ def main():
 
 if __name__ == '__main__':
     try:
-        main()
+        parser=argparse.ArgumentParser()
+        parser.add_argument('--worklogs-only',action='store_true')
+        main(worklogs_only=parser.parse_args().worklogs_only)
     except Exception as exc:
         print(f'Sync failed: {exc}', file=sys.stderr)
         sys.exit(1)
