@@ -6,3 +6,5 @@ __pycache__/
 *.db
 .wrangler/
 .dev.vars
+sync-service/.env
+sync-service/data/

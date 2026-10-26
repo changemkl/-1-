@@ -1,0 +1,11 @@
+services:
+  sync:
+    build: .
+    env_file: .env
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:8788:8788"
+    volumes:
+      - sync-data:/data
+volumes:
+  sync-data:

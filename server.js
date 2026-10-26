@@ -4,7 +4,7 @@ const path = require('node:path');
 const root = path.join(__dirname, 'public');
 const development = process.argv.includes('--dev');
 function revision() {
-  return ['index.html', 'style.css', 'app.js', 'sync-data.js', 'tencent-data.json', 'profiles.js', 'profile-config.json', 'organizations.js', 'organization-data.json', 'people-data.json', 'customer-system.js', 'customer-system.json', 'award-history.js', 'award-history.json', 'partners.js', 'cooperation-partners.json', 'worklogs.js', 'worklogs.json', 'worklog-config.json', 'sheet-columns.json'].map(name => {
+  return ['index.html', 'style.css', 'app.js', 'sync-data.js', 'tencent-data.json', 'profiles.js', 'profile-config.json', 'organizations.js', 'organization-data.json', 'people-data.json', 'customer-system.js', 'customer-system.json', 'award-history.js', 'award-history.json', 'partners.js', 'cooperation-partners.json', 'worklogs.js', 'worklogs.json', 'worklog-config.json', 'sheet-columns.json', 'remote-sync.js', 'sync-config.json'].map(name => {
     try { return fs.statSync(path.join(root, name)).mtimeMs; }
     catch { return 'missing'; }
   }).join('-');
