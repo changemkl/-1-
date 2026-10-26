@@ -1,6 +1,12 @@
 name: Read customer work logs
+run-name: "Work log sync · ${{ inputs.request_id || github.event_name }}"
 on:
   workflow_dispatch:
+    inputs:
+      request_id:
+        description: '独立同步接口的任务编号；手动运行可留空'
+        required: false
+        type: string
 permissions:
   contents: write
   pages: write
