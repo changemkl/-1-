@@ -44,12 +44,12 @@ function applySheetRows(rows) {
   }
   return true;
 }
-async function refreshSheetData() {
+async function refreshSheetData(force=false) {
   if(syncBusy)return;
   syncBusy=true;
   try {
     const dataUrl=new URL('./tencent-data.json',location.href);
-    dataUrl.searchParams.set('v',String(Math.floor(Date.now()/60000)));
+    dataUrl.searchParams.set('v',String(force?Date.now():Math.floor(Date.now()/60000)));
     const response=await fetch(dataUrl,{cache:'no-store'});
     if(response.status===404){$('sync-status').textContent='客户资料暂未更新';return;}
     if(!response.ok)throw new Error('获取数据失败');

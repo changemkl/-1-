@@ -75,7 +75,9 @@ def build_worklogs(rows,config=None,previous=None,now=None):
             log_id=hashlib.sha256('\0'.join(identifier_parts).encode()).hexdigest()[:24]
             prior=old.get(log_id,{})
             date,precision=work_date(column['header'],content,now.year)
-            if precision=='year-inferred' and prior.get('content')==content and prior.get('workDate') and prior.get('columnHeader')==column['header']:date=prior['workDate']
+            if precision=='year-inferred' and prior.get('firstSeenAt'):
+                try:date,precision=work_date(column['header'],content,datetime.datetime.fromisoformat(prior['firstSeenAt']).year)
+                except ValueError:pass
             record={'id':log_id,'customerId':identifier,'customerName':name,'workDate':date,'datePrecision':precision,'content':content,'columnHeader':column['header'],'column':column['column'],'cell':column['column']+str(row_index),'sourceRow':row_index,'firstSeenAt':prior.get('firstSeenAt',stamp)}
             unchanged=all(prior.get(k)==v for k,v in record.items())
             record['updatedAt']=prior.get('updatedAt',stamp) if unchanged else stamp

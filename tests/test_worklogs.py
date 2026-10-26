@@ -36,6 +36,13 @@ class WorklogTests(unittest.TestCase):
         self.assertEqual(work_date('工作日志','已沟通，下次会议2026-11-01',2026),(None,'unknown'))
         self.assertEqual(work_date('10.26工作日志','已沟通',2026),('2026-10-26','year-inferred'))
         self.assertEqual(work_date('2026-02-30','已沟通',2026),(None,'unknown'))
+    def test_edited_month_day_log_keeps_the_first_capture_year(self):
+        rows=[self.rows[0]+['10月26日'],self.rows[1]+['工作甲']]
+        _,first,_=build_worklogs(rows,self.config,now=self.now)
+        rows[1][-1]='修改后工作'
+        _,second,_=build_worklogs(rows,self.config,first,self.now.replace(year=2027))
+        self.assertEqual(second['entries'][0]['workDate'],'2026-10-26')
+
     def test_empty_new_column_is_not_reported_as_a_log_column(self):
         _,data,inventory=build_worklogs([self.rows[0]+[''],self.rows[1]+['']],self.config,now=self.now)
         self.assertEqual(data['entries'],[]);self.assertEqual(inventory['logColumns'],[])

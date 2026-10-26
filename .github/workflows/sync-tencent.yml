@@ -49,8 +49,8 @@ jobs:
             git pull --rebase origin customer-workspace
             git push origin HEAD:customer-workspace
           fi
-      - name: Queue enrichment for changed customers
-        if: steps.customers.outputs.changed == 'true'
+      - name: Queue customer enrichment
+        if: steps.customers.outputs.changed == 'true' || github.event_name == 'workflow_dispatch'
         env:
           GH_TOKEN: ${{ github.token }}
         run: gh workflow run collect-intelligence.yml --repo "$GITHUB_REPOSITORY" --ref customer-workspace
