@@ -15,6 +15,7 @@ function applySheetRows(rows) {
   const fullCol = column(['全称','单位全称','客户全称']);
   const addressCol = column(['地址','服务对象','地区']);
   const regionCols = [column(['一级属地']), column(['二级属地'])].filter(i=>i>=0);
+  const customerTagsCol = column(['客户标签']);
   const skillsCol = column(['能力','产品能力','标签','关键词','客户标签']);
   const chanceCol = column(['关联机会','机会数','关联机会数']);
   const profileCol = column(['已画像','画像状态','已完善画像']);
@@ -29,6 +30,7 @@ function applySheetRows(rows) {
     const raw = [text(nameCol),text(fullCol)||text(nameCol),text(addressCol)||regionCols.map(i=>text(i)).filter(Boolean).join(' / '),level,text(groupCol)||'未分类',text(descCol),text(skillsCol).split(/[、,，;；]/).filter(Boolean),Math.max(0,Number(text(chanceCol))||0),['是','已画像','已完善','true','1'].includes(text(profileCol))];
     const item=raw.map((x,i) => i===6?x.map(syncEscape):typeof x==='string'?syncEscape(x):x);
     item.push(headers.map((label,col)=>[syncEscape(label),syncEscape(row[col]||'')]).filter(([label])=>label));
+    item.push([...new Set(text(customerTagsCol).split(/[、,，;；\n]+/).map(t=>t.trim()).filter(Boolean))].map(syncEscape));
     buckets[index].push(item);
   }
   for (let i=0;i<3;i++) {

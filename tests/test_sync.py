@@ -53,7 +53,7 @@ class SyncTests(unittest.TestCase):
 
     def test_name_only_projection(self):
         rows = [['集团编号','客户名称','客户标签','客户类别'],['001','客户甲','旧标签','旧分类']]
-        self.assertEqual(sync.name_only_rows(rows),[['集团编号','客户名称','客户类别'],['001','客户甲','旧分类']])
+        self.assertEqual(sync.name_only_rows(rows),[['集团编号','客户名称','客户标签','客户类别'],['001','客户甲','旧标签','旧分类']])
         with self.assertRaises(RuntimeError): sync.name_only_rows([['备注'],['未知列']])
 
     def test_duplicate_ids_fail_before_publication_and_header_only_is_valid(self):

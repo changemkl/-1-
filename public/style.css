@@ -22,3 +22,5 @@
 .coverage-badge{display:inline-flex;align-items:center;border-radius:5px;padding:3px 7px;background:#edf2f7;color:#617186;font-size:11px;white-space:nowrap}.coverage-full{background:#e7f4ed;color:#20734a}.card-bottom{flex-wrap:wrap;gap:8px}
 
 .header-actions #sync-online-sheet{border-color:#b9cff4;color:#2463eb;background:#eef4ff;font-weight:500}.header-actions #sync-online-sheet:disabled{opacity:.65;cursor:default;filter:none}
+
+.customer-labels{display:flex;flex-wrap:wrap;gap:5px;margin:7px 0 11px}.customer-labels span{font-size:10px;line-height:1.6;padding:2px 7px;border-radius:4px;background:#edf3ff;color:#416cb0;border:1px solid #dce8fc;overflow-wrap:anywhere;max-width:100%}

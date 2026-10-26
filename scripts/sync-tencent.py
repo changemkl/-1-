@@ -52,7 +52,7 @@ def name_only_rows(rows):
     header = rows[header_index]
     name_index = next(i for i,h in enumerate(header) if h in aliases)
     id_index = next((i for i,h in enumerate(header) if h in ['集团编号','客户编号','ID']), None)
-    category_columns = [i for i,h in enumerate(header) if h.strip() in ['板块','所属板块','分类','行业','客户类别','客户分类','行业分类','所属行业','客户行业']]
+    category_columns = [i for i,h in enumerate(header) if h.strip() in ['板块','所属板块','分类','行业','客户类别','客户分类','行业分类','所属行业','客户行业','客户标签']]
     columns = ([id_index] if id_index is not None else []) + [name_index] + category_columns
     result = [[header[i] for i in columns]]
     seen = {}
