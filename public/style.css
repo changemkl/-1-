@@ -19,3 +19,5 @@
 .tools>#refresh-customers{background:#2463eb;border-color:#2463eb;color:#fff;font-weight:500;flex-shrink:0}.tools>#refresh-customers:hover{background:#1955d5;color:#fff}.header-actions #refresh-data{border-color:#b9cff4;color:#2463eb;background:#eef4ff;font-weight:500}#refresh-customers:disabled,#refresh-data:disabled{opacity:.65;cursor:wait}
 .customer-overview{border-top:1px solid #edf1f6;margin-top:12px;padding-top:10px}.customer-overview p{font-size:12px;color:#6d8098;line-height:1.8;margin:0 0 5px}.customer-overview a{font-size:10px;color:#7995b5;text-decoration:none}
 .customer-website{font-size:11px;color:#6885a4;text-decoration:none}.customer-website:hover{text-decoration:underline}
+
+.coverage-badge{display:inline-flex;align-items:center;border-radius:5px;padding:3px 7px;background:#edf2f7;color:#617186;font-size:11px;white-space:nowrap}.coverage-full{background:#e7f4ed;color:#20734a}.card-bottom{flex-wrap:wrap;gap:8px}

@@ -48,6 +48,11 @@ function basicInfoFor(x){return typeof organizationInfoFor==='function'?organiza
 function historyCountFor(x){return typeof awardHistoryCountFor==='function'?awardHistoryCountFor(x):0;}
 function organizationCountFor(x){return (basicInfoFor(x)?.nodes?.length||profileFor(x)?.organizations?.length||0);}
 function profileCountFor(x){return profileProjectCountFor(x)+profileLeaderCountFor(x)+historyCountFor(x)+organizationCountFor(x)+(basicInfoFor(x)?.overview?1:0);}
+function customerCoverageFor(x){
+ const fields=[['主要职能',Boolean(basicInfoFor(x)?.overview)],['组织架构',organizationCountFor(x)>0],['领导资料',profileLeaderCountFor(x)>0],['采购意向与招标',profileProjectCountFor(x)>0],['历史招标结果',historyCountFor(x)>0]];
+ return {count:fields.filter(([,present])=>present).length,total:fields.length,missing:fields.filter(([,present])=>!present).map(([label])=>label)};
+}
+function customerCoveragePreview(x){const c=customerCoverageFor(x);return `<span class="coverage-badge ${c.count===c.total?'coverage-full':''}" title="${syncEscape(c.missing.length?'待补充：'+c.missing.join('、'):'已覆盖五类资料，范围与时效以原文为准')}" aria-label="资料覆盖${c.count}/${c.total}类${c.missing.length?'，待补充：'+syncEscape(c.missing.join('、')):''}">资料覆盖 ${c.count}/${c.total}</span>`;}
 function profilePreview(x){
  const basics=basicInfoFor(x);const overview=basics?.overview?`<div class="customer-overview"><p>${syncEscape(basics.overview)}</p>${safeSource((basics.basicSource||basics.source)?.url)?`<a href="${syncEscape(safeSource((basics.basicSource||basics.source).url))}" target="_blank" rel="noopener noreferrer">资料来源 ↗</a>`:''}</div>`:'';
  return overview||'<p class="information-empty">主要职能待补充</p>';
