@@ -1,4 +1,6 @@
 const customerProfiles=new Map();
+const customerSupplements=new Map();
+function supplementFor(x){if(typeof customerSourceNeedsReview==='function'&&customerSourceNeedsReview(x))return null;const r=customerSupplements.get(customerIdentifier(x));const decoded=new DOMParser().parseFromString(x[0],'text/html').body.textContent;return r?.name===decoded?r:null;}
 let profilesBusy=false,profilesQueued=false,profileConnection='unconfigured';
 function customerIdentifier(x){const number=(x[9]||[]).find(([k])=>['集团编号','客户编号','ID'].includes(k))?.[1];const decoded=document.createElement('textarea');decoded.innerHTML=number||x[0];return number?decoded.value:'name:'+decoded.value.normalize('NFKC').toLowerCase().replace(/\s+/g,'');}
 function safeSource(url){try{const u=new URL(url);return u.protocol==='https:'?u.href:null;}catch{return null;}}
@@ -35,6 +37,7 @@ async function refreshProfiles(){
   const all=views.filter((v,i)=>i!==1).flatMap(v=>v.items),ids=[...new Set(all.map(customerIdentifier))];let incoming=[];
   if(!config.apiBaseUrl){const r=await fetch(new URL('./profile-data.json?v='+Math.floor(Date.now()/60000),location.href),{cache:'no-store'});if(!r.ok)throw Error('Information unavailable');const data=await r.json();if(!Array.isArray(data.profiles))throw Error('Invalid profiles');incoming=data.profiles;}
   else{const base=new URL(config.apiBaseUrl);if(base.protocol!=='https:')return;for(let i=0;i<ids.length;i+=25){const url=new URL('/api/profiles',base);for(const id of ids.slice(i,i+25))url.searchParams.append('id',id);const r=await fetch(url,{cache:'no-store'});if(!r.ok)throw Error('Unavailable');incoming.push(...(await r.json()).profiles);}}
+  try{const response=await fetch(new URL('./customer-supplements.json?v='+Math.floor(Date.now()/60000),location.href),{cache:'no-store'});if(response.ok){const data=await response.json();if(Array.isArray(data.customers)){customerSupplements.clear();for(const item of data.customers)customerSupplements.set(String(item.id),item);}}}catch{}
   profileConnection='connected';
   for(const p of incoming)customerProfiles.set(p.id,p);
   for(const x of all){const p=profileFor(x);x[6]=[...new Set(visibleProjectsFor(x).map(r=>syncEscape(r.stage)))];if(profileLeaderCountFor(x))x[6].push('官网领导信息');x[3]='待核实';x[2]=syncEscape(basicInfoFor(x)?.address||'');}
@@ -72,7 +75,9 @@ function profileSourcesFor(x){
 
 function customerProcurementMarkup(customer){
   const rows=visibleProjectsFor(customer).filter(r=>safeSource(r.notice_url||r.url)).sort((a,b)=>(a.planned_purchase||a.deadline?.value||'9999').localeCompare(b.planned_purchase||b.deadline?.value||'9999'));
- return `<p class="award-caption">${rows.length} 条公开信息 · 按采购及截止日期排序</p>`+(rows.length?rows.map(r=>`<div class="card-project-row"><div class="card-project-date"><span>${syncEscape(r.stage)} · ${r.planned_purchase?'计划采购':r.deadline?.value?'截止时间':'采购日期'}</span><time>${syncEscape(r.planned_purchase||r.deadline?.value||'未公开')}</time></div><a href="${syncEscape(safeSource(r.notice_url||r.url))}" target="_blank" rel="noopener noreferrer">${syncEscape(r.name)} ↗</a></div>`).join(''):'<p class="org-empty">暂无已核实的有效采购意向或招标公告</p>');
+ const policies=(supplementFor(customer)?.policies||[]).filter(p=>safeSource(p.url));
+ const policyMarkup=policies.length?`<section class="customer-tree-section"><h3>政策与建设方向</h3><p class="award-caption">规划方向，尚未确认具体采购安排</p>${policies.map(p=>`<div class="card-project-row"><div class="card-project-date"><span>发布日期</span><time>${syncEscape(p.date)}</time></div><a href="${syncEscape(safeSource(p.url))}" target="_blank" rel="noopener noreferrer">${syncEscape(p.title)} ↗</a><p class="customer-tree-caption">${syncEscape(p.summary)}</p></div>`).join('')}</section>`:'';
+ return `<p class="award-caption">${rows.length} 条公开信息 · 按采购及截止日期排序</p>`+(rows.length?rows.map(r=>`<div class="card-project-row"><div class="card-project-date"><span>${syncEscape(r.stage)} · ${r.planned_purchase?'计划采购':r.deadline?.value?'截止时间':'采购日期'}</span><time>${syncEscape(r.planned_purchase||r.deadline?.value||'未公开')}</time></div><a href="${syncEscape(safeSource(r.notice_url||r.url))}" target="_blank" rel="noopener noreferrer">${syncEscape(r.name)} ↗</a></div>`).join(''):'<p class="org-empty">暂无已核实的有效采购意向或招标公告</p>')+policyMarkup;
  }
 
 window.addEventListener('DOMContentLoaded',() => {

@@ -30,7 +30,7 @@ function awardSupplierTop3(rows){
 }
 (() => {
  const records=new Map();let selected,trigger,timer;
- window.awardHistoryFor=x=>{const r=records.get(customerIdentifier(x));const name=new DOMParser().parseFromString(x[0],'text/html').body.textContent;return r?.name===name?sortedAwardResults(r.results||[],shanghaiDate()):[];};
+ window.awardHistoryFor=x=>{const r=records.get(customerIdentifier(x));const name=new DOMParser().parseFromString(x[0],'text/html').body.textContent;return sortedAwardResults([...(r?.name===name?r.results||[]:[]),...(typeof supplementFor==='function'?supplementFor(x)?.results||[]:[])],shanghaiDate());};
  window.awardHistoryCountFor=x=>window.awardHistoryFor(x).length;
  const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
  const overlay=document.createElement('div');overlay.className='org-overlay award-overlay';overlay.hidden=true;
@@ -41,14 +41,19 @@ function awardSupplierTop3(rows){
   const saved=records.get(customerIdentifier(customer));const record=saved?.name===name?saved:null;
   const projects=(typeof profileFor==='function'?profileFor(customer)?.projects:[])||[];
   const extra=projects.filter(p=>p.stage==='中标或成交信息'&&p.buyer?.value?.startsWith(name)).map(p=>({title:p.title||p.name,date:(p.published_at||'').slice(0,10),buyer:p.buyer.value,url:p.notice_url||p.url}));
-  const rows=sortedAwardResults([...(record?.results||[]),...extra],shanghaiDate());let year='';
+  const supplement=typeof supplementFor==='function'?supplementFor(customer):null;
+  const rows=sortedAwardResults([...(record?.results||[]),...(supplement?.results||[]),...extra],shanghaiDate());let year='';
   const top=awardSupplierTop3(rows),verified=rows.filter(row=>verifiedAwardLots(row).length).length;
   const competitors=`<section class="award-competitors" aria-label="竞争对手 TOP3"><h3>竞争对手 <span>TOP3</span></h3>${top.length?`<ol>${top.map(s=>`<li><span>${esc(s.name)}</span><b>${s.count} 次</b></li>`).join('')}</ol>`:'<p class="org-unconfirmed">暂无已核实的中标供应商</p>'}<small>按已核实标项计次 · ${verified}/${rows.length} 条公告已核实供应商</small></section>`;
   const timeline=rows.map(row=>{const y=row.date.slice(0,4);const heading=y!==year?`<h3 class="award-year">${y}</h3>`:'';year=y;
    const lots=verifiedAwardLots(row),items=lots.length?lots:[{lotName:row.projectName||'标项名称待核实',suppliers:[]}];
-   return `${heading}<div class="award-item"><time datetime="${esc(row.date)}">${esc(row.date)}</time>${items.map(lot=>`<a class="award-lot" href="${esc(row.url)}" title="${esc(row.title)}" target="_blank" rel="noopener noreferrer"><strong>${esc(lot.lotName)} <span aria-hidden="true">↗</span></strong><span class="award-supplier">${lot.suppliers.length?'中标供应商：'+esc(lot.suppliers.join('、')):'中标供应商待核实'}</span></a>`).join('')}${row.buyer!==name?`<small>采购单位：${esc(row.buyer)}</small>`:''}</div>`;}).join('');
+   const contract=(supplement?.contracts||[]).find(c=>c.projectName===row.projectName&&c.buyer===row.buyer&&(!c.awardUrl||c.awardUrl===row.url));
+   const contractMarkup=contract&&/^https:\/\//.test(contract.url)?`<small>合同金额：${esc(contract.amountYuan/10000)} 万元 · ${esc(contract.term)}<br><a href="${esc(contract.url)}" target="_blank" rel="noopener noreferrer">合同公告 ${esc(contract.date)} ↗</a></small>`:'';
+   return `${heading}<div class="award-item"><time datetime="${esc(row.date)}">${esc(row.date)}</time>${items.map(lot=>`<a class="award-lot" href="${esc(row.url)}" title="${esc(row.title)}" target="_blank" rel="noopener noreferrer"><strong>${esc(lot.lotName)} <span aria-hidden="true">↗</span></strong><span class="award-supplier">${lot.suppliers.length?'中标供应商：'+esc(lot.suppliers.join('、')):'中标供应商待核实'}</span></a>`).join('')}${row.buyer!==name?`<small>采购单位：${esc(row.buyer)}</small>`:''}${contractMarkup}</div>`;}).join('');
   const coverage=record?.coverage;
-  return `${competitors}<p class="award-caption">${rows.length} 条公开结果 · 按结果公告日期倒序</p>${record?.lastCheck?.status==='unavailable'?'<p class="org-unconfirmed">本次读取未完成，保留此前已核实记录。</p>':''}${timeline||'<p class="org-empty">暂无已核实的公开招标结果</p>'}<div class="award-footnote">${coverage?`查询范围：${esc(coverage.from)} 至 ${esc(coverage.to)}<br>来源：上海市政府采购网${coverage.truncated?' · 分页范围内已核实记录':''}`:'历史结果正在补充，仅展示能核实到的公开记录。'}<br>未接入或无法读取的其他渠道不代表没有历史采购。</div>`;
+  const notices=(supplement?.notices||[]).filter(n=>/^https:\/\//.test(n.url));
+  const noticeMarkup=notices.length?`<section class="customer-tree-section"><h3>其他采购公示</h3>${notices.map(n=>`<div class="award-item"><time>${esc(n.date)}</time><a class="award-lot" href="${esc(n.url)}" target="_blank" rel="noopener noreferrer"><strong>${esc(n.title)} ↗</strong></a><small>${esc(n.stage)} · 公示期 ${esc(n.periodFrom)} 至 ${esc(n.periodTo)}${n.periodTo<shanghaiDate()?' · 已结束':''}<br>预算 ${esc(n.budgetYuan/10000)} 万元 · 拟定供应商：${esc(n.proposedSupplier)}<br>该公示不作为中标结果统计</small></div>`).join('')}</section>`:'';
+  return `${competitors}<p class="award-caption">${rows.length} 条公开结果 · 按结果公告日期倒序</p>${record?.lastCheck?.status==='unavailable'?'<p class="org-unconfirmed">本次读取未完成，保留此前已核实记录。</p>':''}${timeline||'<p class="org-empty">暂无已核实的公开招标结果</p>'}${noticeMarkup}<div class="award-footnote">${coverage?`查询范围：${esc(coverage.from)} 至 ${esc(coverage.to)}<br>来源：上海市政府采购网${coverage.truncated?' · 分页范围内已核实记录':''}`:'历史结果正在补充，仅展示能核实到的公开记录。'}<br>未接入或无法读取的其他渠道不代表没有历史采购。</div>`;
  };
  function render(){overlay.querySelector('#award-title').textContent=new DOMParser().parseFromString(selected[0],'text/html').body.textContent;overlay.querySelector('.award-content').innerHTML=window.customerAwardMarkup(selected);}
  function close(){overlay.classList.remove('is-open');document.body.classList.remove('org-open');clearTimeout(timer);timer=setTimeout(()=>overlay.hidden=true,260);if(trigger?.isConnected)trigger.focus();}

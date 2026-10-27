@@ -1,0 +1,80 @@
+{
+  "updatedAt": "2026-10-27T09:25:15.003315+00:00",
+  "customers": [
+    {
+      "id": "2100000260",
+      "name": "上海市公安局",
+      "results": [
+        {
+          "title": "上海市公安局静安分局弱电系统维护的中标（成交）结果公告",
+          "date": "2026-10-09",
+          "buyer": "上海市公安局静安分局（本部）",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=G3Um%2BXbGC1y4t1oT%2FYoUjQ%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期",
+          "projectName": "上海市公安局静安分局弱电系统维护",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "静安分局弱电系统维护",
+              "suppliers": [
+                "上海奂源工程设备有限公司"
+              ],
+              "quote": "标项名称：静安分局弱电系统维护；中标供应商名称：上海奂源工程设备有限公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-10-27T09:24:32.893220+00:00",
+            "status": "ok"
+          }
+        }
+      ],
+      "contracts": [
+        {
+          "projectName": "上海市公安局静安分局弱电系统维护",
+          "buyer": "上海市公安局静安分局（本部）",
+          "awardUrl": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=G3Um%2BXbGC1y4t1oT%2FYoUjQ%3D%3D",
+          "date": "2026-10-10",
+          "amountYuan": 2458000,
+          "term": "维保周期一年（未公开具体起止日）",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=Q6T1fdGCAKG%2F9r2wEvzbtQ%3D%3D"
+        },
+        {
+          "projectName": "上海市公安局农场分局线路年租费",
+          "buyer": "上海市公安局（主管）",
+          "awardUrl": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=TEbEBNWxgIN4KOLHT4LLHA%3D%3D",
+          "date": "2026-09-02",
+          "amountYuan": 1763328,
+          "term": "履约期 2026-11-18 至 2027-11-17",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=70ww9jp8Bi7xKzfI0Xyobg%3D%3D"
+        }
+      ]
+    },
+    {
+      "id": "2100006103",
+      "name": "上海市市场监督管理局",
+      "policies": [
+        {
+          "title": "上海市推进广告业扩能提质三年行动计划（2026—2028年）政策解读",
+          "date": "2026-09-02",
+          "url": "https://scjgj.sh.gov.cn/162/20260902/70fc5abb899c4b649a9c33b76f9aac13.html",
+          "summary": "提出建设AI＋广告公共服务平台、AI广告中试基地，研发广告监测智能体。未披露具体采购日期与预算。"
+        }
+      ],
+      "notices": [
+        {
+          "title": "投诉举报热线服务追加采购单一来源公示",
+          "date": "2026-09-24",
+          "stage": "单一来源公示",
+          "periodFrom": "2026-09-24",
+          "periodTo": "2026-10-09",
+          "budgetYuan": 1350000,
+          "proposedSupplier": "中国电信股份有限公司上海分公司",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=ZM5TwNJ3hdpx2LjqbkRwow%3D%3D",
+          "note": "从原供应商添购服务；与2025年中标记录分开，不确认本次已中标。"
+        }
+      ]
+    }
+  ]
+}
