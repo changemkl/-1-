@@ -13,3 +13,10 @@ test('platform aliases promote supplier records without duplicating wins and loc
  const imported=c.mergeCooperationPartners(potential,[{name:'浙江大华技术股份有限公司',aliases:['大华'],source:'东风平台',relationship:'有合作记录',capabilities:'视频'}]);
  const edited=c.mergeCooperationPartners(imported,[{name:'大华',notes:'本地备注'}]);assert.equal(edited.length,1);assert.equal(edited[0].type,'合作伙伴');assert.equal(edited[0].relationship,'有合作记录');assert.equal(edited[0].source,'东风平台');assert.equal(edited[0].wins,1);
 });
+test('telecom and unicom competitors are excluded from crawled, saved and alias partner entries',()=>{
+ const rows=[{url:'https://example.gov.cn/a',date:'2026-10-26',awards:[{lotName:'服务',suppliers:['中国电信股份有限公司上海分公司','中电信数智科技有限公司','中国联合网络通信有限公司上海市分公司','中国联通有限公司','甲公司']}]}];
+ const potential=c.aggregatePartnerSuppliers([{name:'客户甲',results:rows}]);assert.equal(potential.length,1);assert.equal(potential[0].name,'甲公司');
+ assert(!potential.some(p=>/电信|联通/.test(p.name)));
+ const merged=c.mergeCooperationPartners([{name:'电信公司'},{name:'甲公司'}],[{name:'乙公司',aliases:['联 通公司']},{name:'中电信数智公司'},{name:'丙公司'}]);assert.equal(merged.map(p=>p.name).join(','),'甲公司,丙公司');
+ assert.equal(c.awardSupplierTop3(rows).length,3); // Original historical results and competitor statistics stay intact.
+});

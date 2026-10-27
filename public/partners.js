@@ -1,10 +1,11 @@
 /* Supplier evidence is public. Manually added partners are local to this browser. */
 const PARTNER_STORAGE_KEY='changemkl/-1-/cooperation-partners-v1';
 const partnerNameKey=name=>String(name||'').normalize('NFKC').replace(/\s+/g,'').toLowerCase();
+function isCompetitorPartner(record){const names=typeof record==='string'?[record]:[record.name,...(record.aliases||[])];return names.some(name=>/电信|联通|中国联合网络通信|中国联合通信/.test(partnerNameKey(name)));}
 function aggregatePartnerSuppliers(customers){
  const partners=new Map(),own=new Set(['中移动系统集成有限公司','中移系统集成有限公司'].map(partnerNameKey));
  for(const customer of customers)for(const row of customer.results)for(const lot of verifiedAwardLots(row))for(const name of lot.suppliers){
-  const key=partnerNameKey(name);if(!key||own.has(key))continue;
+  const key=partnerNameKey(name);if(!key||own.has(key)||isCompetitorPartner(name))continue;
   let partner=partners.get(key);if(!partner){partner={name,type:'潜在合作伙伴',capabilities:'',notes:'',evidence:[],customers:new Set(),seen:new Set()};partners.set(key,partner);}
   partner.customers.add(customer.name);
   const win=[row.url.split('#')[0],lot.lotNumber||'',lot.lotName].join('|');if(partner.seen.has(win))continue;partner.seen.add(win);
@@ -13,8 +14,9 @@ function aggregatePartnerSuppliers(customers){
  return [...partners.values()].map(p=>({name:p.name,type:p.type,capabilities:'',notes:'',customers:[...p.customers],evidence:p.evidence.sort((a,b)=>b.date.localeCompare(a.date)),wins:p.evidence.length}));
 }
 function mergeCooperationPartners(potential,saved){
- const partners=new Map(potential.map(p=>[partnerNameKey(p.name),p]));
+ const partners=new Map(potential.filter(p=>!isCompetitorPartner(p)).map(p=>[partnerNameKey(p.name),p]));
  for(const record of saved){
+  if(isCompetitorPartner(record))continue;
   const names=new Set([record.name,...(record.aliases||[])].map(partnerNameKey));
   const matches=[...partners.values()].filter(p=>[p.name,...(p.aliases||[])].some(n=>names.has(partnerNameKey(n))));
   const evidence=new Map();for(const p of matches)for(const e of p.evidence||[])evidence.set([e.url,e.lotNumber||'',e.lotName].join('|'),e);
@@ -69,7 +71,7 @@ window.addEventListener('DOMContentLoaded',()=>{
  function save(next){if(partnerStorageError){error.textContent=partnerStorageError;return false;}try{localStorage.setItem(PARTNER_STORAGE_KEY,JSON.stringify(next));cooperationPartners=next;rebuildPartners();return true;}catch{error.textContent='保存失败：当前浏览器存储不可用或空间不足。';return false;}}
  $('add-partner').onclick=e=>open(null,e.currentTarget);
  $('cards').addEventListener('click',e=>{const button=e.target.closest('[data-partner-edit]');if(!button)return;const key=decodeURIComponent(button.dataset.partnerEdit),p=views[1].items.find(x=>partnerNameKey(x.partner.name)===key)?.partner;if(p)open(p,button);});
- form.addEventListener('submit',e=>{e.preventDefault();if(partnerSaveBusy)return;const name=form.elements.name.value.trim(),key=partnerNameKey(name);if(!key){error.textContent='请填写合作伙伴名称。';return;}if(['中移动系统集成有限公司','中移系统集成有限公司'].map(partnerNameKey).includes(key)){error.textContent='这是我方公司，请添加合作单位。';return;}if(views[1].items.some(x=>x.partner.type==='合作伙伴'&&[x.partner.name,...(x.partner.aliases||[])].some(n=>partnerNameKey(n)===key)&&partnerNameKey(x.partner.name)!==editing)){error.textContent='该合作伙伴已添加，请在对应卡片中编辑。';return;}const previous=cooperationPartners.find(p=>partnerNameKey(p.name)===editing);const record={name,capabilities:form.elements.capabilities.value.trim(),notes:form.elements.notes.value.trim(),addedAt:previous?.addedAt||new Date().toISOString()};partnerSaveBusy=true;try{if(save([...cooperationPartners.filter(p=>partnerNameKey(p.name)!==editing),record])){if(group==='潜在合作伙伴')group='合作伙伴';query='';$('search').value='';renderShell();close();}}finally{partnerSaveBusy=false;}});
+ form.addEventListener('submit',e=>{e.preventDefault();if(partnerSaveBusy)return;const name=form.elements.name.value.trim(),key=partnerNameKey(name);if(!key){error.textContent='请填写合作伙伴名称。';return;}if(isCompetitorPartner(name)){error.textContent='电信、联通属于竞争对手，不加入合作伙伴。';return;}if(['中移动系统集成有限公司','中移系统集成有限公司'].map(partnerNameKey).includes(key)){error.textContent='这是我方公司，请添加合作单位。';return;}if(views[1].items.some(x=>x.partner.type==='合作伙伴'&&[x.partner.name,...(x.partner.aliases||[])].some(n=>partnerNameKey(n)===key)&&partnerNameKey(x.partner.name)!==editing)){error.textContent='该合作伙伴已添加，请在对应卡片中编辑。';return;}const previous=cooperationPartners.find(p=>partnerNameKey(p.name)===editing);const record={name,capabilities:form.elements.capabilities.value.trim(),notes:form.elements.notes.value.trim(),addedAt:previous?.addedAt||new Date().toISOString()};partnerSaveBusy=true;try{if(save([...cooperationPartners.filter(p=>partnerNameKey(p.name)!==editing),record])){if(group==='潜在合作伙伴')group='合作伙伴';query='';$('search').value='';renderShell();close();}}finally{partnerSaveBusy=false;}});
  overlay.querySelector('.partner-delete').onclick=()=>{if(save(cooperationPartners.filter(p=>partnerNameKey(p.name)!==editing)))close();};
  overlay.addEventListener('click',e=>{if(e.target===overlay||e.target.closest('.org-close,.partner-cancel'))close();});
  overlay.addEventListener('keydown',e=>{if(e.key==='Escape'){e.preventDefault();close();}if(e.key==='Tab'){const a=[...overlay.querySelectorAll('button:not([hidden]),input,textarea')],first=a[0],last=a.at(-1);if(e.shiftKey&&document.activeElement===first){e.preventDefault();last.focus();}else if(!e.shiftKey&&document.activeElement===last){e.preventDefault();first.focus();}}});
