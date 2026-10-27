@@ -36,11 +36,10 @@ function awardSupplierTop3(rows){
  const overlay=document.createElement('div');overlay.className='org-overlay award-overlay';overlay.hidden=true;
  overlay.innerHTML='<section class="org-drawer" role="dialog" aria-modal="true" aria-labelledby="award-title"><header class="org-header"><div><span>历史招标结果</span><h2 id="award-title"></h2></div><button class="org-close" aria-label="关闭历史招标结果">×</button></header><div class="org-content award-content"></div></section>';
  document.body.append(overlay);
- function render(){
-  const name=new DOMParser().parseFromString(selected[0],'text/html').body.textContent;
-  overlay.querySelector('#award-title').textContent=name;
-  const saved=records.get(customerIdentifier(selected));const record=saved?.name===name?saved:null;
-  const projects=(typeof profileFor==='function'?profileFor(selected)?.projects:[])||[];
+ window.customerAwardMarkup=customer=>{
+  const name=new DOMParser().parseFromString(customer[0],'text/html').body.textContent;
+  const saved=records.get(customerIdentifier(customer));const record=saved?.name===name?saved:null;
+  const projects=(typeof profileFor==='function'?profileFor(customer)?.projects:[])||[];
   const extra=projects.filter(p=>p.stage==='中标或成交信息'&&p.buyer?.value?.startsWith(name)).map(p=>({title:p.title||p.name,date:(p.published_at||'').slice(0,10),buyer:p.buyer.value,url:p.notice_url||p.url}));
   const rows=sortedAwardResults([...(record?.results||[]),...extra],shanghaiDate());let year='';
   const top=awardSupplierTop3(rows),verified=rows.filter(row=>verifiedAwardLots(row).length).length;
@@ -49,8 +48,9 @@ function awardSupplierTop3(rows){
    const lots=verifiedAwardLots(row),items=lots.length?lots:[{lotName:row.projectName||'标项名称待核实',suppliers:[]}];
    return `${heading}<div class="award-item"><time datetime="${esc(row.date)}">${esc(row.date)}</time>${items.map(lot=>`<a class="award-lot" href="${esc(row.url)}" title="${esc(row.title)}" target="_blank" rel="noopener noreferrer"><strong>${esc(lot.lotName)} <span aria-hidden="true">↗</span></strong><span class="award-supplier">${lot.suppliers.length?'中标供应商：'+esc(lot.suppliers.join('、')):'中标供应商待核实'}</span></a>`).join('')}${row.buyer!==name?`<small>采购单位：${esc(row.buyer)}</small>`:''}</div>`;}).join('');
   const coverage=record?.coverage;
-  overlay.querySelector('.award-content').innerHTML=`${competitors}<p class="award-caption">${rows.length} 条公开结果 · 按结果公告日期倒序</p>${record?.lastCheck?.status==='unavailable'?'<p class="org-unconfirmed">本次读取未完成，保留此前已核实记录。</p>':''}${timeline||'<p class="org-empty">暂无已核实的公开招标结果</p>'}<div class="award-footnote">${coverage?`查询范围：${esc(coverage.from)} 至 ${esc(coverage.to)}<br>来源：上海市政府采购网${coverage.truncated?' · 分页范围内已核实记录':''}`:'历史结果正在补充，仅展示能核实到的公开记录。'}<br>未接入或无法读取的其他渠道不代表没有历史采购。</div>`;
- }
+  return `${competitors}<p class="award-caption">${rows.length} 条公开结果 · 按结果公告日期倒序</p>${record?.lastCheck?.status==='unavailable'?'<p class="org-unconfirmed">本次读取未完成，保留此前已核实记录。</p>':''}${timeline||'<p class="org-empty">暂无已核实的公开招标结果</p>'}<div class="award-footnote">${coverage?`查询范围：${esc(coverage.from)} 至 ${esc(coverage.to)}<br>来源：上海市政府采购网${coverage.truncated?' · 分页范围内已核实记录':''}`:'历史结果正在补充，仅展示能核实到的公开记录。'}<br>未接入或无法读取的其他渠道不代表没有历史采购。</div>`;
+ };
+ function render(){overlay.querySelector('#award-title').textContent=new DOMParser().parseFromString(selected[0],'text/html').body.textContent;overlay.querySelector('.award-content').innerHTML=window.customerAwardMarkup(selected);}
  function close(){overlay.classList.remove('is-open');document.body.classList.remove('org-open');clearTimeout(timer);timer=setTimeout(()=>overlay.hidden=true,260);if(trigger?.isConnected)trigger.focus();}
  document.getElementById('cards').addEventListener('click',e=>{const button=e.target.closest('[data-award-open]');if(!button)return;const id=decodeURIComponent(button.closest('.card').dataset.customerKey);selected=views.flatMap(v=>v.items).find(x=>customerIdentifier(x)===id);if(!selected)return;trigger=button;clearTimeout(timer);render();overlay.hidden=false;document.body.classList.add('org-open');requestAnimationFrame(()=>overlay.classList.add('is-open'));overlay.querySelector('.org-close').focus();});
  overlay.addEventListener('click',e=>{if(e.target===overlay||e.target.closest('.org-close'))close();});

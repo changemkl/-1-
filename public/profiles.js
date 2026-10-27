@@ -70,15 +70,16 @@ function profileSourcesFor(x){
  return `<div class="procurement-source-links"><span>采购来源</span>${sources.filter(s=>safeSource(s.url)).map(s=>`<a href="${syncEscape(safeSource(s.url))}" target="_blank" rel="noopener noreferrer" data-source-status="${syncEscape(s.status||'not_checked')}" title="${syncEscape(labels[s.status]||'待检查')}">${syncEscape(s.label)} ↗${s.status==='blocked'?' · 暂不可读':''}</a>`).join('')}</div>`+website;
 }
 
+function customerProcurementMarkup(customer){
+  const rows=visibleProjectsFor(customer).filter(r=>safeSource(r.notice_url||r.url)).sort((a,b)=>(a.planned_purchase||a.deadline?.value||'9999').localeCompare(b.planned_purchase||b.deadline?.value||'9999'));
+ return `<p class="award-caption">${rows.length} 条公开信息 · 按采购及截止日期排序</p>`+(rows.length?rows.map(r=>`<div class="card-project-row"><div class="card-project-date"><span>${syncEscape(r.stage)} · ${r.planned_purchase?'计划采购':r.deadline?.value?'截止时间':'采购日期'}</span><time>${syncEscape(r.planned_purchase||r.deadline?.value||'未公开')}</time></div><a href="${syncEscape(safeSource(r.notice_url||r.url))}" target="_blank" rel="noopener noreferrer">${syncEscape(r.name)} ↗</a></div>`).join(''):'<p class="org-empty">暂无已核实的有效采购意向或招标公告</p>');
+ }
+
 window.addEventListener('DOMContentLoaded',() => {
  const overlay=document.createElement('div');overlay.className='org-overlay procurement-overlay';overlay.hidden=true;
  overlay.innerHTML='<section class="org-drawer" role="dialog" aria-modal="true" aria-labelledby="procurement-title"><header class="org-header"><div><span>采购意向与公开招标</span><h2 id="procurement-title"></h2></div><button class="org-close" aria-label="关闭采购意向">×</button></header><div class="org-content procurement-content"></div></section>';
  document.body.append(overlay);let selected,trigger,timer;
- function render(){
-  const name=document.createElement('textarea');name.innerHTML=selected[0];overlay.querySelector('h2').textContent=name.value;
-  const rows=visibleProjectsFor(selected).filter(r=>safeSource(r.notice_url||r.url)).sort((a,b)=>(a.planned_purchase||a.deadline?.value||'9999').localeCompare(b.planned_purchase||b.deadline?.value||'9999'));
-  overlay.querySelector('.procurement-content').innerHTML=`<p class="award-caption">${rows.length} 条公开信息 · 按采购及截止日期排序</p>`+(rows.length?rows.map(r=>`<div class="card-project-row"><div class="card-project-date"><span>${syncEscape(r.stage)} · ${r.planned_purchase?'计划采购':r.deadline?.value?'截止时间':'采购日期'}</span><time>${syncEscape(r.planned_purchase||r.deadline?.value||'未公开')}</time></div><a href="${syncEscape(safeSource(r.notice_url||r.url))}" target="_blank" rel="noopener noreferrer">${syncEscape(r.name)} ↗</a></div>`).join(''):'<p class="org-empty">暂无已核实的有效采购意向或招标公告</p>');
- }
+ function render(){const name=document.createElement('textarea');name.innerHTML=selected[0];overlay.querySelector('h2').textContent=name.value;overlay.querySelector('.procurement-content').innerHTML=customerProcurementMarkup(selected);}
  function close(){overlay.classList.remove('is-open');document.body.classList.remove('org-open');clearTimeout(timer);timer=setTimeout(()=>overlay.hidden=true,260);if(trigger?.isConnected)trigger.focus();}
  document.getElementById('cards').addEventListener('click',e=>{const button=e.target.closest('[data-procurement-open]');if(!button)return;const id=decodeURIComponent(button.closest('.card').dataset.customerKey);selected=views.flatMap(v=>v.items).find(x=>customerIdentifier(x)===id);if(!selected)return;trigger=button;clearTimeout(timer);render();overlay.hidden=false;document.body.classList.add('org-open');requestAnimationFrame(()=>overlay.classList.add('is-open'));overlay.querySelector('button').focus();});
  overlay.addEventListener('click',e=>{if(e.target===overlay||e.target.closest('.org-close'))close();});

@@ -11,11 +11,12 @@ function sortedCustomerWorklogs(entries,id,name){
  const overlay=document.createElement('div');overlay.className='org-overlay worklog-overlay';overlay.hidden=true;
  overlay.innerHTML='<section class="org-drawer" role="dialog" aria-modal="true" aria-labelledby="worklog-title"><header class="org-header"><div><span>工作日志</span><h2 id="worklog-title"></h2></div><button class="org-close" aria-label="关闭工作日志">×</button></header><div class="org-content worklog-content"></div></section>';
  document.body.append(overlay);
- function render(){if(!selected)return;const name=decoded(selected);overlay.querySelector('h2').textContent=name;
-  const rows=sortedCustomerWorklogs(entries,customerIdentifier(selected),name);let day;
+ window.customerWorklogMarkup=customer=>{const name=decoded(customer);
+  const rows=sortedCustomerWorklogs(entries,customerIdentifier(customer),name);let day;
   const timeline=rows.map(r=>{const date=r.workDate||'未注明工作日期',heading=day!==date?`<h3 class="worklog-date">${esc(date)}</h3>`:'';day=date;return `${heading}<article class="worklog-item"><p class="worklog-text">${esc(r.content)}</p><small>${esc(r.columnHeader||r.column+'列')} · 来源单元格 ${esc(r.cell)}${r.datePrecision==='year-inferred'?' · 年份按首次读取年推定':''}</small></article>`;}).join('');
-  overlay.querySelector('.worklog-content').innerHTML=`<p class="award-caption">${rows.length} 条工作日志 · 按工作日期倒序</p>${readFailed?'<p class="org-unconfirmed">本次日志读取未完成，保留此前记录。</p>':''}${timeline||`<p class="org-empty">${loaded?'暂无工作日志。在基础列右侧新增一列，填写该客户的工作内容后同步。':'正在读取工作日志…'}</p>`}`;
- }
+  return `<p class="award-caption">${rows.length} 条工作日志 · 按工作日期倒序</p>${readFailed?'<p class="org-unconfirmed">本次日志读取未完成，保留此前记录。</p>':''}${timeline||`<p class="org-empty">${loaded?'暂无工作日志。在基础列右侧新增一列，填写该客户的工作内容后同步。':'正在读取工作日志…'}</p>`}`;
+ };
+ function render(){if(!selected)return;overlay.querySelector('h2').textContent=decoded(selected);overlay.querySelector('.worklog-content').innerHTML=window.customerWorklogMarkup(selected);}
  function close(){overlay.classList.remove('is-open');document.body.classList.remove('org-open');clearTimeout(closeTimer);closeTimer=setTimeout(()=>overlay.hidden=true,260);if(trigger?.isConnected)trigger.focus();}
  $('cards').addEventListener('click',e=>{const button=e.target.closest('[data-worklog-open]');if(!button)return;const id=decodeURIComponent(button.closest('.card').dataset.customerKey);selected=views[0].items.find(x=>customerIdentifier(x)===id);if(!selected)return;trigger=button;clearTimeout(closeTimer);render();overlay.hidden=false;document.body.classList.add('org-open');requestAnimationFrame(()=>overlay.classList.add('is-open'));overlay.querySelector('button').focus();});
  overlay.addEventListener('click',e=>{if(e.target===overlay||e.target.closest('.org-close'))close();});
