@@ -1,18 +1,18 @@
 {
-  "updatedAt": "2026-10-27T04:12:44+08:00",
+  "updatedAt": "2026-10-27T08:09:03+08:00",
   "customers": [
     {
       "id": "2100303078",
       "name": "上海建工集团股份有限公司",
       "results": [],
       "coverage": {
-        "from": "2023-10-27",
-        "to": "2026-10-26",
+        "from": "2023-10-28",
+        "to": "2026-10-27",
         "source": "https://www.zfcg.sh.gov.cn",
         "truncated": false
       },
       "lastCheck": {
-        "at": "2026-10-26T22:42:30+08:00",
+        "at": "2026-10-27T08:09:03+08:00",
         "status": "ok"
       }
     },
@@ -21,13 +21,13 @@
       "name": "中国建筑第八工程局有限公司",
       "results": [],
       "coverage": {
-        "from": "2023-10-27",
-        "to": "2026-10-26",
+        "from": "2023-10-28",
+        "to": "2026-10-27",
         "source": "https://www.zfcg.sh.gov.cn",
         "truncated": false
       },
       "lastCheck": {
-        "at": "2026-10-26T22:42:30+08:00",
+        "at": "2026-10-27T08:09:03+08:00",
         "status": "ok"
       }
     },
@@ -36,13 +36,13 @@
       "name": "水利部太湖流域管理局",
       "results": [],
       "coverage": {
-        "from": "2023-10-27",
-        "to": "2026-10-26",
+        "from": "2023-10-28",
+        "to": "2026-10-27",
         "source": "https://www.zfcg.sh.gov.cn",
         "truncated": false
       },
       "lastCheck": {
-        "at": "2026-10-26T22:42:30+08:00",
+        "at": "2026-10-27T08:09:03+08:00",
         "status": "ok"
       }
     },
@@ -396,13 +396,13 @@
         }
       ],
       "coverage": {
-        "from": "2023-10-27",
-        "to": "2026-10-26",
+        "from": "2023-10-28",
+        "to": "2026-10-27",
         "source": "https://www.zfcg.sh.gov.cn",
         "truncated": false
       },
       "lastCheck": {
-        "at": "2026-10-26T22:42:30+08:00",
+        "at": "2026-10-27T08:09:03+08:00",
         "status": "ok"
       }
     },
@@ -2255,13 +2255,13 @@
       "name": "上海市消防救援总队",
       "results": [],
       "coverage": {
-        "from": "2023-10-27",
-        "to": "2026-10-26",
+        "from": "2023-10-28",
+        "to": "2026-10-27",
         "source": "https://www.zfcg.sh.gov.cn",
         "truncated": false
       },
       "lastCheck": {
-        "at": "2026-10-26T22:42:30+08:00",
+        "at": "2026-10-27T08:09:03+08:00",
         "status": "ok"
       }
     },
@@ -2679,13 +2679,13 @@
         }
       ],
       "coverage": {
-        "from": "2023-10-27",
-        "to": "2026-10-26",
+        "from": "2023-10-28",
+        "to": "2026-10-27",
         "source": "https://www.zfcg.sh.gov.cn",
         "truncated": true
       },
       "lastCheck": {
-        "at": "2026-10-26T22:42:30+08:00",
+        "at": "2026-10-27T08:09:03+08:00",
         "status": "ok"
       }
     },
@@ -4285,13 +4285,13 @@
       "name": "上海市城市运行管理中心",
       "results": [],
       "coverage": {
-        "from": "2023-10-27",
-        "to": "2026-10-26",
+        "from": "2023-10-28",
+        "to": "2026-10-27",
         "source": "https://www.zfcg.sh.gov.cn",
         "truncated": true
       },
       "lastCheck": {
-        "at": "2026-10-26T15:05:18+08:00",
+        "at": "2026-10-27T08:09:03+08:00",
         "status": "ok"
       }
     },
@@ -4645,13 +4645,13 @@
         }
       ],
       "coverage": {
-        "from": "2023-10-27",
-        "to": "2026-10-26",
+        "from": "2023-10-28",
+        "to": "2026-10-27",
         "source": "https://www.zfcg.sh.gov.cn",
         "truncated": false
       },
       "lastCheck": {
-        "at": "2026-10-26T15:05:18+08:00",
+        "at": "2026-10-27T08:09:03+08:00",
         "status": "ok"
       }
     }
