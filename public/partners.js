@@ -34,7 +34,7 @@ function rebuildPartners(){
  const customers=views[0].items.map(x=>{const name=document.createElement('textarea');name.innerHTML=x[0];return {name:name.value,results:typeof awardHistoryFor==='function'?awardHistoryFor(x):[]};});
  const partners=mergeCooperationPartners(mergeCooperationPartners(aggregatePartnerSuppliers(customers),platformPartners),cooperationPartners);
  views[1].items=partners.map(p=>{const item=[syncEscape(p.name),syncEscape(p.name),'','待核实',p.type,syncEscape(p.notes),p.capabilities?[syncEscape(p.capabilities)]:[],p.wins,false,[...p.customers.map(name=>['关联客户',syncEscape(name)]),...(p.aliases||[]).map(name=>['平台名称',syncEscape(name)]),['合作状态',syncEscape(p.relationship||'')],...[...(p.businessLinks||[]),...(p.cooperationOutcomes||[])].map(r=>['关联业务',syncEscape(r.title)])],[]];item.partner=p;return item;});
- views[1].groups=['潜在合作伙伴','合作伙伴'];views[1].chanceKnown=false;renderShell();
+ views[1].groups=['潜在合作伙伴','合作伙伴'];views[1].chanceKnown=false;renderShell();window.dispatchEvent(new Event('partners-updated'));
 }
 function partnerStatPairs(){const items=views[1].items.map(x=>x.partner);return [['伙伴总数',items.length],['潜在合作伙伴',items.filter(p=>p.type==='潜在合作伙伴').length],['合作伙伴',items.filter(p=>p.type==='合作伙伴').length],['关联客户',new Set(items.flatMap(p=>p.customers)).size]];}
 function partnerBusinessView(p){

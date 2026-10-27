@@ -1,0 +1,39 @@
+function partnersForCustomerTree(name,results,cooperators){
+ const suppliers=aggregatePartnerSuppliers([{name,results}]);
+ const names=new Set(suppliers.map(p=>partnerNameKey(p.name)));
+ const matched=cooperators.filter(p=>[p.name,...(p.aliases||[])].some(n=>names.has(partnerNameKey(n))));
+ return mergeCooperationPartners(suppliers,matched).sort((a,b)=>Number(b.type==='合作伙伴')-Number(a.type==='合作伙伴')||b.wins-a.wins||a.name.localeCompare(b.name,'zh-CN'));
+}
+(() => {
+ const esc=syncEscape,decode=x=>new DOMParser().parseFromString(x[0],'text/html').body.textContent;
+ let selected=null,tab='organization',trigger,timer,scenes=[];
+ const tabs=[['organization','客户组织树'],['industry','产业链树'],['scenes','产品与场景树']];
+ const overlay=document.createElement('div');overlay.className='org-overlay customer-trees-overlay';overlay.hidden=true;
+ overlay.innerHTML='<section class="org-drawer customer-trees-drawer" role="dialog" aria-modal="true" aria-labelledby="customer-trees-title"><header class="org-header"><div><span>客户三棵树</span><h2 id="customer-trees-title"></h2></div><button class="org-close" aria-label="关闭客户三棵树">×</button></header><div class="customer-tree-tabs" role="tablist" aria-label="客户三棵树"></div><div id="customer-tree-panel" class="org-content customer-tree-content" role="tabpanel"></div></section>';
+ document.body.append(overlay);const panel=overlay.querySelector('[role="tabpanel"]'),tablist=overlay.querySelector('[role="tablist"]');
+ function industry(){
+  const partners=partnersForCustomerTree(decode(selected),typeof awardHistoryFor==='function'?awardHistoryFor(selected):[],views[1].items.filter(x=>x.partner?.type==='合作伙伴').map(x=>x.partner));
+  const groups=['合作伙伴','潜在合作伙伴'];
+  return `<p class="customer-tree-caption">关联依据：该客户及下属单位的公开中标结果。</p>${groups.map(type=>{const rows=partners.filter(p=>p.type===type);return `<section class="customer-tree-section"><h3>${type}<small>${rows.length}</small></h3>${rows.length?`<ul class="org-branches">${rows.map(p=>`<li><details class="customer-partner-node"><summary>${esc(p.name)}<small>${p.wins} 次</small></summary>${type==='合作伙伴'?'<p class="customer-tree-caption">我司合作伙伴 · 有该客户中标记录</p>':''}${p.evidence.map(e=>`<a href="${esc(safeSource(e.url))}" target="_blank" rel="noopener noreferrer"><span>${esc(e.lotName)} ↗</span><small>${esc(e.date)} · ${esc(e.buyer||e.customerName)}</small></a>`).join('')}</details></li>`).join('')}</ul>`:'<p class="org-empty">暂无已核实的关联'+type+'</p>'}</section>`;}).join('')}`;
+ }
+ function scenario(){
+  const saved=scenes.find(r=>r.customerId===customerIdentifier(selected)&&r.customerName===decode(selected));
+  const nodes=(saved?.scenes||[]).filter(s=>typeof s.name==='string'&&safeSource(s.sourceUrl));
+  const projects=visibleProjectsFor(selected).filter(p=>safeSource(p.notice_url||p.url));
+  const tree=nodes.length?`<ul class="org-branches">${nodes.map(s=>`<li><details open><summary>${esc(s.name)}</summary><ul class="org-branches">${(s.products||[]).filter(p=>typeof p.name==='string'&&safeSource(p.sourceUrl)).map(p=>`<li><a class="org-leaf" href="${esc(safeSource(p.sourceUrl))}" target="_blank" rel="noopener noreferrer">${esc(p.name)} ↗</a></li>`).join('')||'<li class="org-leaf">产品能力待关联</li>'}</ul><a class="org-source" href="${esc(safeSource(s.sourceUrl))}" target="_blank" rel="noopener noreferrer">场景来源 ↗</a></details></li>`).join('')}</ul>`:'<p class="org-empty">暂无已核实的场景与产品关联</p>';
+  return `<section class="customer-tree-section"><h3>场景与产品</h3>${tree}</section><section class="customer-tree-section"><h3>公开建设需求<small>${projects.length}</small></h3><p class="customer-tree-caption">按采购原文列示需求名称，场景与产品关系待核实。</p>${projects.length?`<ul class="org-branches">${projects.map(p=>`<li><a class="org-leaf customer-demand-node" href="${esc(safeSource(p.notice_url||p.url))}" target="_blank" rel="noopener noreferrer">${esc(p.name)} ↗<small>${esc(p.stage||'')} · ${esc(p.planned_purchase||p.deadline?.value||'采购日期未公开')}</small></a></li>`).join('')}</ul>`:'<p class="org-empty">暂无已核实的当前建设需求</p>'}</section>`;
+ }
+ function render(){if(!selected)return;overlay.querySelector('h2').textContent=decode(selected);tablist.innerHTML=tabs.map(([key,label])=>`<button type="button" role="tab" id="customer-tree-tab-${key}" aria-selected="${tab===key}" aria-controls="customer-tree-panel" tabindex="${tab===key?0:-1}" data-tree-tab="${key}">${label}</button>`).join('');panel.setAttribute('aria-labelledby','customer-tree-tab-'+tab);panel.innerHTML=tab==='organization'?(typeof customerOrganizationMarkup==='function'?customerOrganizationMarkup(selected):'<p class="org-empty">正在读取组织资料…</p>'):tab==='industry'?industry():scenario();}
+ function close(){overlay.classList.remove('is-open');document.body.classList.remove('org-open');clearTimeout(timer);timer=setTimeout(()=>overlay.hidden=true,260);if(trigger?.isConnected)trigger.focus();else [...document.querySelectorAll('.customer-card')].find(el=>el.dataset.customerKey===encodeURIComponent(customerIdentifier(selected)))?.focus();}
+ function open(article,button){const id=decodeURIComponent(article.dataset.customerKey);selected=views[0].items.find(x=>customerIdentifier(x)===id);if(!selected)return;trigger=button||article;tab='organization';clearTimeout(timer);render();overlay.hidden=false;document.body.classList.add('org-open');requestAnimationFrame(()=>overlay.classList.add('is-open'));overlay.querySelector('.org-close').focus();}
+ $('cards').addEventListener('click',e=>{const article=e.target.closest('.customer-card');if(!article)return;const button=e.target.closest('[data-customer-trees]');if(!button&&e.target.closest('button,a,input,textarea,select,summary,details,label'))return;if(!button&&window.getSelection()?.toString())return;open(article,button);});
+ $('cards').addEventListener('keydown',e=>{const article=e.target.closest('.customer-card');if(article&&e.target===article&&['Enter',' '].includes(e.key)){e.preventDefault();open(article);}});
+ tablist.addEventListener('click',e=>{const button=e.target.closest('[data-tree-tab]');if(!button)return;tab=button.dataset.treeTab;render();tablist.querySelector('[aria-selected="true"]').focus();});
+ tablist.addEventListener('keydown',e=>{let index=tabs.findIndex(([key])=>key===tab);if(!['ArrowLeft','ArrowRight','Home','End'].includes(e.key))return;e.preventDefault();index=e.key==='Home'?0:e.key==='End'?tabs.length-1:(index+(e.key==='ArrowRight'?1:-1)+tabs.length)%tabs.length;tab=tabs[index][0];render();tablist.querySelector('[aria-selected="true"]').focus();});
+ overlay.addEventListener('click',e=>{if(e.target===overlay||e.target.closest('.org-close'))close();});
+ overlay.addEventListener('keydown',e=>{if(e.key==='Escape'){e.preventDefault();close();}if(e.key==='Tab'){const a=[...overlay.querySelectorAll('button:not([tabindex="-1"]),a,summary')].filter(el=>!el.closest('details:not([open])')||el.tagName==='SUMMARY'),first=a[0],last=a.at(-1);if(e.shiftKey&&document.activeElement===first){e.preventDefault();last.focus();}else if(!e.shiftKey&&document.activeElement===last){e.preventDefault();first.focus();}}});
+ function update(){if(!selected||overlay.hidden)return;const id=customerIdentifier(selected);selected=views[0].items.find(x=>customerIdentifier(x)===id);if(!selected){close();return;}render();}
+ for(const event of ['customers-updated','public-profiles-updated','award-history-updated','partners-updated','customer-sources-updated'])window.addEventListener(event,update);
+ async function refreshScenes(){try{const r=await fetch(new URL('./customer-scenes.json?v='+Date.now(),location.href),{cache:'no-store'});if(!r.ok)return;const data=await r.json();if(Array.isArray(data.customers)){scenes=data.customers;update();}}catch{}}
+ window.addEventListener('refresh-public-data',refreshScenes);refreshScenes();setInterval(refreshScenes,300000);
+})();
