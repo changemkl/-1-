@@ -16,13 +16,8 @@ function partnersForCustomerTree(name,results,cooperators){
   const groups=['合作伙伴','潜在合作伙伴'];
   return `<p class="customer-tree-caption">关联依据：该客户及下属单位的公开中标结果。</p>${groups.map(type=>{const rows=partners.filter(p=>p.type===type);return `<section class="customer-tree-section"><h3>${type}<small>${rows.length}</small></h3>${rows.length?`<ul class="org-branches">${rows.map(p=>`<li><details class="customer-partner-node"><summary>${esc(p.name)}<small>${p.wins} 次</small></summary>${type==='合作伙伴'?'<p class="customer-tree-caption">我司合作伙伴 · 有该客户中标记录</p>':''}${p.evidence.map(e=>`<a href="${esc(safeSource(e.url))}" target="_blank" rel="noopener noreferrer"><span>${esc(e.lotName)} ↗</span><small>${esc(e.date)} · ${esc(e.buyer||e.customerName)}</small></a>`).join('')}</details></li>`).join('')}</ul>`:'<p class="org-empty">暂无已核实的关联'+type+'</p>'}</section>`;}).join('')}`;
  }
- function scenario(){
-  const saved=scenes.find(r=>r.customerId===customerIdentifier(selected)&&r.customerName===decode(selected));
-  const nodes=(saved?.scenes||[]).filter(s=>typeof s.name==='string'&&safeSource(s.sourceUrl));
-  const projects=visibleProjectsFor(selected).filter(p=>safeSource(p.notice_url||p.url));
-  const tree=nodes.length?`<ul class="org-branches">${nodes.map(s=>`<li><details open><summary>${esc(s.name)}</summary><ul class="org-branches">${(s.products||[]).filter(p=>typeof p.name==='string'&&safeSource(p.sourceUrl)).map(p=>`<li><a class="org-leaf" href="${esc(safeSource(p.sourceUrl))}" target="_blank" rel="noopener noreferrer">${esc(p.name)} ↗</a></li>`).join('')||'<li class="org-leaf">产品能力待关联</li>'}</ul><a class="org-source" href="${esc(safeSource(s.sourceUrl))}" target="_blank" rel="noopener noreferrer">场景来源 ↗</a></details></li>`).join('')}</ul>`:'<p class="org-empty">暂无已核实的场景与产品关联</p>';
-  return `<section class="customer-tree-section"><h3>场景与产品</h3>${tree}</section><section class="customer-tree-section"><h3>公开建设需求<small>${projects.length}</small></h3><p class="customer-tree-caption">按采购原文列示需求名称，场景与产品关系待核实。</p>${projects.length?`<ul class="org-branches">${projects.map(p=>`<li><a class="org-leaf customer-demand-node" href="${esc(safeSource(p.notice_url||p.url))}" target="_blank" rel="noopener noreferrer">${esc(p.name)} ↗<small>${esc(p.stage||'')} · ${esc(p.planned_purchase||p.deadline?.value||'采购日期未公开')}</small></a></li>`).join('')}</ul>`:'<p class="org-empty">暂无已核实的当前建设需求</p>'}</section>`;
- }
+ function scenario(){return '';}
+
  const sections=[['trees','三棵树'],['logs','工作日志'],['procurement','采购信息']],purchases=[['current','采购意向与招标'],['history','历史招标结果']];
  function render(){if(!selected)return;overlay.querySelector('h2').textContent=decode(selected);
   const number=(selected[9]||[]).find(([label])=>['集团编号','客户编号','ID'].includes(label))?.[1];
