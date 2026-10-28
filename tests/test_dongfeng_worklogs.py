@@ -21,6 +21,12 @@ class WorklogTests(unittest.TestCase):
         self.assertEqual(next(r for r in newer['entries']if r['id']!='initial')['workDate'],'2026-10-28')
         repeated,_=m.sync(self.data,self.customers,newer,state,now=self.now)
         self.assertEqual(repeated,newer)
+    def test_resource_only_timestamp_changes_do_not_create_new_progress(self):
+        task=self.data['tasks'][0];task['latestProgress']='准备方案';task['updatedAt']='2026-10-27T01:00:00Z'
+        initial,state=m.sync(self.data,self.customers,{'entries':[]},{},True,self.now)
+        task['updatedAt']='2026-10-28T01:00:00Z'
+        same,_=m.sync(self.data,self.customers,initial,state,now=self.now)
+        self.assertEqual(same['entries'],[])
     def test_only_completed_visits_and_explicit_dates(self):
         self.data['visits']=[{'id':'v','clientName':'公安三所','status':'PLANNED','plannedTime':'2026-10-28','visitOutcome':'待拜访'},{'id':'done','clientName':'公安三所','status':'COMPLETED','actualTime':'2026-10-27 13:00','visitOutcome':'需求交流'}]
         rows=m.candidates(self.data,self.customers)

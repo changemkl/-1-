@@ -98,7 +98,9 @@ def sync(data,customers,previous,state,initialize=False,now=None):
     now=now or dt.datetime.now(CHINA);stamp=now.isoformat(timespec='seconds')
     for key in ('tasks','visits','workLogs'):
         if not isinstance(data.get(key),list):raise ValueError('Incomplete Dongfeng response; previous logs retained')
-    current=candidates(data,customers);hashes={k:hashlib.sha256(json.dumps(v,sort_keys=True,ensure_ascii=False).encode()).hexdigest() for k,v in current.items()}
+    current=candidates(data,customers)
+    # Resource assignment can change updatedAt without a new business progress entry.
+    hashes={k:hashlib.sha256(json.dumps({field:value for field,value in v.items() if not (k.startswith('progress:') and field=='workDate')},sort_keys=True,ensure_ascii=False).encode()).hexdigest() for k,v in current.items()}
     if not state and not initialize:raise ValueError('Missing baseline; initialize explicitly to avoid importing old records as new work')
     entries={r['id']:r for r in previous.get('entries',[])}
     if not initialize:
