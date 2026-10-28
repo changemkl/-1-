@@ -1,0 +1,52 @@
+name: Sync Dongfeng work logs
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 * * * *'
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: tencent-pages-sync
+  cancel-in-progress: false
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: customer-workspace
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Read authorized Dongfeng work logs
+        env:
+          DONGFENG_ACCOUNT: ${{ secrets.DONGFENG_ACCOUNT }}
+          DONGFENG_PASSWORD: ${{ secrets.DONGFENG_PASSWORD }}
+        run: |
+          if [ -z "$DONGFENG_ACCOUNT" ] || [ -z "$DONGFENG_PASSWORD" ]; then
+            echo 'Configure repository Actions secrets DONGFENG_ACCOUNT and DONGFENG_PASSWORD. Existing logs are unchanged.'
+            exit 1
+          fi
+          python scripts/sync-dongfeng.py
+      - name: Save customer work logs
+        run: |
+          git add public/dongfeng-worklogs.json intelligence/dongfeng-worklog-state.json
+          if ! git diff --cached --quiet; then
+            git config user.name 'github-actions[bot]'
+            git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+            git commit -m 'Sync Dongfeng customer work logs'
+            git pull --rebase origin customer-workspace
+            git push origin HEAD:customer-workspace
+          fi
+      - name: Prepare Pages site
+        run: python scripts/prepare-pages.py
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: /tmp/customer-pages-site
+      - uses: actions/deploy-pages@v4
+        id: deployment

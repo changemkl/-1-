@@ -1,4 +1,4 @@
-/* Published spreadsheet logs only; no Tencent or GitHub credential enters the page. */
+/* Published customer logs from Tencent and Dongfeng; credentials stay on the server. */
 function sortedCustomerWorklogs(entries,id,name){
  const unique=new Map();
  for(const r of entries){if(r.customerId!==id||r.customerName!==name||typeof r.id!=='string'||typeof r.content!=='string'||!r.content.trim())continue;unique.set(r.id,r);}
@@ -13,7 +13,7 @@ function sortedCustomerWorklogs(entries,id,name){
  document.body.append(overlay);
  window.customerWorklogMarkup=customer=>{const name=decoded(customer);
   const rows=sortedCustomerWorklogs(entries,customerIdentifier(customer),name);let day;
-  const timeline=rows.map(r=>{const date=r.workDate||'未注明工作日期',heading=day!==date?`<h3 class="worklog-date">${esc(date)}</h3>`:'';day=date;return `${heading}<article class="worklog-item"><p class="worklog-text">${esc(r.content)}</p><small>${esc(r.columnHeader||r.column+'列')} · 来源单元格 ${esc(r.cell)}${r.datePrecision==='year-inferred'?' · 年份按首次读取年推定':''}</small></article>`;}).join('');
+  const timeline=rows.map(r=>{const date=r.workDate||'未注明工作日期',heading=day!==date?`<h3 class="worklog-date">${esc(date)}</h3>`:'';day=date;return `${heading}<article class="worklog-item"><p class="worklog-text">${esc(r.content)}</p><small>${r.sourceType==='dongfeng'?`${esc(r.sourceLabel||'东风平台')}${/^http:\/\/36\.140\.149\.89:18080\/dongfeng(?:\?|$)/.test(r.sourceUrl||'')?` · <a href="${esc(r.sourceUrl)}" target="_blank" rel="noopener noreferrer">来源 ↗</a>`:''}`:`${esc(r.columnHeader||r.column+'列')} · 来源单元格 ${esc(r.cell)}${r.datePrecision==='year-inferred'?' · 年份按首次读取年推定':''}`}</small></article>`;}).join('');
   return `<p class="award-caption">${rows.length} 条工作日志 · 按工作日期倒序</p>${readFailed?'<p class="org-unconfirmed">本次日志读取未完成，保留此前记录。</p>':''}${timeline||`<p class="org-empty">${loaded?'暂无工作日志。在基础列右侧新增一列，填写该客户的工作内容后同步。':'正在读取工作日志…'}</p>`}`;
  };
  function render(){if(!selected)return;overlay.querySelector('h2').textContent=decoded(selected);overlay.querySelector('.worklog-content').innerHTML=window.customerWorklogMarkup(selected);}
@@ -22,7 +22,13 @@ function sortedCustomerWorklogs(entries,id,name){
  overlay.addEventListener('click',e=>{if(e.target===overlay||e.target.closest('.org-close'))close();});
  overlay.addEventListener('keydown',e=>{if(e.key==='Escape'){e.preventDefault();close();}if(e.key==='Tab'){e.preventDefault();overlay.querySelector('button').focus();}});
  window.addEventListener('customers-updated',()=>{if(!selected||overlay.hidden)return;const id=customerIdentifier(selected);selected=views[0].items.find(x=>customerIdentifier(x)===id);if(!selected){close();return;}render();});
- async function refresh(){try{const r=await fetch(new URL('./worklogs.json?v='+Date.now(),location.href),{cache:'no-store'});if(!r.ok)throw Error('Unavailable');const data=await r.json();if(!Array.isArray(data.entries))throw Error('Invalid logs');entries=data.entries;loaded=true;readFailed=false;window.dispatchEvent(new Event('worklogs-updated'));}catch{readFailed=true;}if(!overlay.hidden)render();}
+ async function refresh(){
+  const results=await Promise.allSettled(['worklogs.json','dongfeng-worklogs.json'].map(async file=>{const r=await fetch(new URL('./'+file+'?v='+Date.now(),location.href),{cache:'no-store'});if(!r.ok)throw Error('Unavailable');const data=await r.json();if(!Array.isArray(data.entries))throw Error('Invalid logs');return data.entries;}));
+  const previous=[entries.filter(r=>r.sourceType!=='dongfeng'),entries.filter(r=>r.sourceType==='dongfeng')];
+  entries=results.flatMap((result,i)=>result.status==='fulfilled'?result.value:previous[i]);loaded=loaded||results.some(r=>r.status==='fulfilled');readFailed=results.some(r=>r.status==='rejected');
+  window.dispatchEvent(new Event('worklogs-updated'));if(!overlay.hidden)render();
+ }
+
  window.refreshWorklogs=refresh;window.addEventListener('refresh-public-data',refresh);refresh();setInterval(refresh,60000);
 })();
 

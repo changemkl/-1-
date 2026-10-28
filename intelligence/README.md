@@ -137,3 +137,7 @@ node --test tests/worker.test.mjs
 历史招标结果从上海市政府采购网公开结果表格提取标项名称与中标供应商，不把采购代理、候选人或评审描述当成中标供应商。按已核实标项统计竞争对手 TOP3；同一公告同一标项同一供应商去重，保留分公司与子公司的区别。统计范围随该客户已收录的本级及下属单位结果而定，不能代表全部历史采购。每日任务保留详情字段并逐批补录新公告，无法确认的标项及供应商明确标注待核实。
 
 公开资料补充：`public/customer-supplements.json` 保存逐条人工核实的官方政策、结果公告及合同佐证，通过客户编号和全称同时匹配。前端每五分钟读取，独立于腾讯表格和自动采集快照。结果按公告链接去重后计入历史与潜在伙伴；合同只补充对应结果的金额、期限和来源，不额外计次。政策不作为有效采购统计；追加采购的单一来源公示保留拟定供应商状态，不计为中标，不覆盖同名的往年结果。
+
+东风工作日志：`scripts/sync-dongfeng.py` 只读已授权账号的登录和 bootstrap 接口，登录信息仅从 `DONGFENG_ACCOUNT`、`DONGFENG_PASSWORD` 环境变量读取。GitHub 仓库 Settings → Secrets and variables → Actions 中添加同名 Repository secrets；工作流 `Sync Dongfeng work logs` 每小时第17分钟运行，首次填写后也可手动运行验证。定时工作流须同时存在于默认分支 main，执行时固定检出 customer-workspace。登录失败或响应不完整时不覆盖现有日志。
+
+`public/dongfeng-worklogs.json` 与腾讯 `worklogs.json` 独立保存，前端合并时间轴，某一路读取失败保留此前记录。首次按用户要求在2026-10-28生成11家客户的汇总，正文明确历史工作日期；`intelligence/dongfeng-worklog-state.json` 仅保存源记录摘要哈希，避免随后把全部旧记录重新导入。后续每日进展使用 workDate、完成拜访使用 actualTime、工作日志使用 workDate；项目进展使用 updatedAt 并明确标为“记录更新日期”。日期不明确则跳过，不用抓取当天替代。客户编号和名称双匹配，简称/关联单位仅采用 `intelligence/dongfeng-customers.json` 明确列出的映射，铁路公安不并入市公安局。源记录更新只更新对应条目，不同日期保留审计轨迹；原始接口响应、密码、Cookie、私人电话不写入仓库。首次汇总为人工归纳，后续采用按字段与客户分段的确定性整理，不调用大模型。东风日志属于用户授权展示的内部经营记录，不作为公开招标、领导任免或正式组织架构依据。
