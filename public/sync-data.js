@@ -25,11 +25,13 @@ function applySheetRows(rows) {
     const tree = treeCol < 0 ? '客户组织树' : String(row[treeCol] || '客户组织树').trim();
     const index = views.findIndex(v => v.name === tree);
     if (index < 0) throw new Error('存在未识别的所属树，请使用客户组织树、产业链树或产品与场景树');
-    const text = col => col < 0 ? '' : String(row[col] ?? '').trim();
+    // Confirmed customer-type corrections also apply after future sheet refreshes.
+    const correctedType = {'中国建筑第八工程局有限公司':'国企','水利部太湖流域管理局':'政府'}[String(row[nameCol]).normalize('NFKC').trim()];
+    const text = col => col < 0 ? '' : headers[col]==='客户类别'&&correctedType ? correctedType : String(row[col] ?? '').trim();
     const level = text(gradeCol).toUpperCase().match(/^[ABC]/)?.[0] || '待核实';
     const raw = [text(nameCol),text(fullCol)||text(nameCol),text(addressCol)||regionCols.map(i=>text(i)).filter(Boolean).join(' / '),level,text(groupCol)||'未分类',text(descCol),text(skillsCol).split(/[、,，;；]/).filter(Boolean),Math.max(0,Number(text(chanceCol))||0),['是','已画像','已完善','true','1'].includes(text(profileCol))];
     const item=raw.map((x,i) => i===6?x.map(syncEscape):typeof x==='string'?syncEscape(x):x);
-    item.push(headers.map((label,col)=>[syncEscape(label),syncEscape(row[col]||'')]).filter(([label])=>label));
+    item.push(headers.map((label,col)=>[syncEscape(label),syncEscape(text(col))]).filter(([label])=>label));
     item.push([...new Set(text(customerTagsCol).split(/[、,，;；\n]+/).map(t=>t.trim()).filter(Boolean))].map(syncEscape));
     buckets[index].push(item);
   }
