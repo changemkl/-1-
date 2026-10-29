@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-29T10:32:35.357990+00:00",
+  "updatedAt": "2026-10-29T17:10:09.417637+00:00",
   "profiles": [
     {
       "id": "2100000172",
@@ -11,7 +11,7 @@
       "organizations": [],
       "procurementSources": [
         {
-          "finished_at": "2026-10-29T10:30:21.673774+00:00",
+          "finished_at": "2026-10-29T17:08:22.950468+00:00",
           "status": "success",
           "documents_found": 0,
           "label": "上海市政府采购网",
@@ -19,7 +19,7 @@
         }
       ],
       "lastRun": {
-        "finished_at": "2026-10-29T10:30:21.673774+00:00",
+        "finished_at": "2026-10-29T17:08:22.950468+00:00",
         "status": "success",
         "documents_found": 0,
         "source_url": "https://www.zfcg.sh.gov.cn"
@@ -37,7 +37,7 @@
           "title": "上海市公安局浦东分局2026年10月政府采购意向",
           "excerpt": "采购人：上海市公安局浦东分局\n2026年10月",
           "published_at": "2026-09-14",
-          "fetched_at": "2026-10-29T07:14:59.080325+00:00",
+          "fetched_at": "2026-10-29T17:08:08.304265+00:00",
           "facts": {
             "version": 1,
             "kind": "public_title",
@@ -74,7 +74,7 @@
           "title": "上海市公安局浦东分局2026年10月政府采购意向",
           "excerpt": "采购人：上海市公安局浦东分局\n2026年10月",
           "published_at": "2026-09-14",
-          "fetched_at": "2026-10-29T07:14:59.079355+00:00",
+          "fetched_at": "2026-10-29T17:08:08.302974+00:00",
           "facts": {
             "version": 1,
             "kind": "public_title",
@@ -111,7 +111,7 @@
           "title": "上海市公安局黄浦分局2026年10月政府采购意向",
           "excerpt": "采购人：上海市公安局黄浦分局\n2026年10月",
           "published_at": "2026-09-14",
-          "fetched_at": "2026-10-29T07:14:59.078321+00:00",
+          "fetched_at": "2026-10-29T17:08:08.301778+00:00",
           "facts": {
             "version": 1,
             "kind": "public_title",
@@ -148,7 +148,7 @@
           "title": "上海市公安局浦东分局2026年10月政府采购意向",
           "excerpt": "采购人：上海市公安局浦东分局\n2026年10月",
           "published_at": "2026-09-14",
-          "fetched_at": "2026-10-29T07:14:59.077113+00:00",
+          "fetched_at": "2026-10-29T17:08:08.300774+00:00",
           "facts": {
             "version": 1,
             "kind": "public_title",
@@ -185,7 +185,7 @@
           "title": "上海市公安局虹口分局2026年10月政府采购意向",
           "excerpt": "采购人：上海市公安局虹口分局\n2026年10月",
           "published_at": "2026-09-24",
-          "fetched_at": "2026-10-29T07:14:59.075881+00:00",
+          "fetched_at": "2026-10-29T17:08:08.299521+00:00",
           "facts": {
             "version": 1,
             "kind": "public_title",
@@ -222,7 +222,7 @@
           "title": "上海市公安局虹口分局2026年10月政府采购意向",
           "excerpt": "采购人：上海市公安局虹口分局\n2026年10月",
           "published_at": "2026-09-24",
-          "fetched_at": "2026-10-29T07:14:59.074866+00:00",
+          "fetched_at": "2026-10-29T17:08:08.298405+00:00",
           "facts": {
             "version": 1,
             "kind": "public_title",
@@ -259,7 +259,7 @@
           "title": "上海市公安局杨浦分局2026年12月政府采购意向",
           "excerpt": "采购人：上海市公安局杨浦分局\n2026年12月",
           "published_at": "2026-10-16",
-          "fetched_at": "2026-10-29T07:14:59.073747+00:00",
+          "fetched_at": "2026-10-29T17:08:08.297161+00:00",
           "facts": {
             "version": 1,
             "kind": "public_title",
@@ -296,7 +296,7 @@
           "title": "上海市公安局静安分局2026年11月政府采购意向",
           "excerpt": "采购人：上海市公安局静安分局\n2026年11月",
           "published_at": "2026-10-19",
-          "fetched_at": "2026-10-29T07:14:59.072276+00:00",
+          "fetched_at": "2026-10-29T17:08:08.296170+00:00",
           "facts": {
             "version": 1,
             "kind": "public_title",
@@ -333,7 +333,7 @@
           "title": "上海市公安局杨浦分局2027年01月政府采购意向",
           "excerpt": "采购人：上海市公安局杨浦分局\n2027年01月",
           "published_at": "2026-09-18",
-          "fetched_at": "2026-10-29T07:14:59.070930+00:00",
+          "fetched_at": "2026-10-29T17:08:08.295105+00:00",
           "facts": {
             "version": 1,
             "kind": "public_title",
@@ -370,7 +370,7 @@
           "title": "上海市公安局宝山分局2026年10月政府采购意向",
           "excerpt": "采购人：上海市公安局宝山分局\n2026年10月",
           "published_at": "2026-10-29",
-          "fetched_at": "2026-10-29T07:14:59.069554+00:00",
+          "fetched_at": "2026-10-29T17:08:08.293764+00:00",
           "facts": {
             "version": 1,
             "kind": "public_title",
@@ -407,7 +407,7 @@
           "title": "上海市公安局静安分局2026年10月政府采购意向",
           "excerpt": "采购人：上海市公安局静安分局\n2026年10月",
           "published_at": "2026-09-30",
-          "fetched_at": "2026-10-29T07:14:59.067729+00:00",
+          "fetched_at": "2026-10-29T17:08:08.292518+00:00",
           "facts": {
             "version": 1,
             "kind": "public_title",
@@ -444,7 +444,7 @@
           "title": "上海市公安局青浦分局2026年10月政府采购意向",
           "excerpt": "采购人：上海市公安局青浦分局\n2026年10月",
           "published_at": "2026-09-16",
-          "fetched_at": "2026-10-29T07:14:56.829056+00:00",
+          "fetched_at": "2026-10-29T17:08:08.291455+00:00",
           "facts": {
             "version": 1,
             "kind": "public_title",
@@ -481,7 +481,7 @@
           "title": "上海市公安局奉贤分局2026年12月政府采购意向",
           "excerpt": "采购人：上海市公安局奉贤分局\n2026年12月",
           "published_at": "2026-10-16",
-          "fetched_at": "2026-10-29T07:14:56.827986+00:00",
+          "fetched_at": "2026-10-29T17:08:08.289851+00:00",
           "facts": {
             "version": 1,
             "kind": "public_title",
@@ -514,33 +514,33 @@
         {
           "category": "项目与采购公开信息",
           "status": "pending",
-          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=cSQoAiezV2edcl5vC%2F9Nsw%3D%3D",
-          "title": "上海市公安局闵行分局2026年12月政府采购意向",
-          "excerpt": "采购人：上海市公安局闵行分局\n2026年12月",
-          "published_at": "2026-10-09",
-          "fetched_at": "2026-10-29T07:14:56.826849+00:00",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=JK6YKyRbxpfapLuJ4pGdtg%3D%3D",
+          "title": "上海市公安局青浦分局2026年11月政府采购意向",
+          "excerpt": "采购人：上海市公安局青浦分局\n2026年11月",
+          "published_at": "2026-10-13",
+          "fetched_at": "2026-10-29T17:08:05.059037+00:00",
           "facts": {
             "version": 1,
             "kind": "public_title",
             "projects": [
               {
-                "name": "上海市公安局闵行分局2026年12月政府采购意向",
+                "name": "上海市公安局青浦分局2026年11月政府采购意向",
                 "stage": "采购意向",
                 "public_title_only": true,
-                "notice_url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=cSQoAiezV2edcl5vC%2F9Nsw%3D%3D",
-                "quote": "上海市公安局闵行分局2026年12月政府采购意向\n采购人：上海市公安局闵行分局\n2026年12月",
+                "notice_url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=JK6YKyRbxpfapLuJ4pGdtg%3D%3D",
+                "quote": "上海市公安局青浦分局2026年11月政府采购意向\n采购人：上海市公安局青浦分局\n2026年11月",
                 "buyer": {
-                  "value": "上海市公安局闵行分局",
+                  "value": "上海市公安局青浦分局",
                   "unit": "",
-                  "quote": "采购人：上海市公安局闵行分局"
+                  "quote": "采购人：上海市公安局青浦分局"
                 },
                 "supplier": null,
                 "budget": null,
                 "award_amount": null,
-                "planned_purchase": "2026-12",
+                "planned_purchase": "2026-11",
                 "deadline": null,
                 "service_end": null,
-                "relation": "公开列表所列采购人：上海市公安局闵行分局",
+                "relation": "公开列表所列采购人：上海市公安局青浦分局",
                 "notice": "仅依据无需登录的公开标题及列表字段；未读取登录后详情。日期缺失时不确认采购有效期。"
               }
             ],
@@ -551,11 +551,11 @@
         {
           "category": "项目与采购公开信息",
           "status": "pending",
-          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=Ikl5ByOG%2F%2FafHdk%2FdEGziw%3D%3D",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=M%2BrtZqLJH8FaMG2G9RENzQ%3D%3D",
           "title": "上海市公安局奉贤分局2026年12月政府采购意向",
           "excerpt": "采购人：上海市公安局奉贤分局\n2026年12月",
-          "published_at": "2026-10-22",
-          "fetched_at": "2026-10-29T07:14:56.825666+00:00",
+          "published_at": "2026-10-20",
+          "fetched_at": "2026-10-29T17:08:05.057790+00:00",
           "facts": {
             "version": 1,
             "kind": "public_title",
@@ -564,7 +564,7 @@
                 "name": "上海市公安局奉贤分局2026年12月政府采购意向",
                 "stage": "采购意向",
                 "public_title_only": true,
-                "notice_url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=Ikl5ByOG%2F%2FafHdk%2FdEGziw%3D%3D",
+                "notice_url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=M%2BrtZqLJH8FaMG2G9RENzQ%3D%3D",
                 "quote": "上海市公安局奉贤分局2026年12月政府采购意向\n采购人：上海市公安局奉贤分局\n2026年12月",
                 "buyer": {
                   "value": "上海市公安局奉贤分局",
@@ -592,7 +592,7 @@
           "title": "上海市公安局奉贤分局2026年12月政府采购意向",
           "excerpt": "采购人：上海市公安局奉贤分局\n2026年12月",
           "published_at": "2026-10-21",
-          "fetched_at": "2026-10-29T07:14:56.824166+00:00",
+          "fetched_at": "2026-10-29T17:08:05.056616+00:00",
           "facts": {
             "version": 1,
             "kind": "public_title",
@@ -629,7 +629,7 @@
           "title": "上海市公安局奉贤分局2026年12月政府采购意向",
           "excerpt": "采购人：上海市公安局奉贤分局\n2026年12月",
           "published_at": "2026-10-21",
-          "fetched_at": "2026-10-29T07:14:56.822824+00:00",
+          "fetched_at": "2026-10-29T17:08:05.055649+00:00",
           "facts": {
             "version": 1,
             "kind": "public_title",
@@ -666,7 +666,7 @@
           "title": "上海市公安局松江分局2026年11月政府采购意向",
           "excerpt": "采购人：上海市公安局松江分局\n2026年11月",
           "published_at": "2026-10-23",
-          "fetched_at": "2026-10-29T07:14:56.821854+00:00",
+          "fetched_at": "2026-10-29T17:08:05.054476+00:00",
           "facts": {
             "version": 1,
             "kind": "public_title",
@@ -699,11 +699,85 @@
         {
           "category": "项目与采购公开信息",
           "status": "pending",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=cSQoAiezV2edcl5vC%2F9Nsw%3D%3D",
+          "title": "上海市公安局闵行分局2026年12月政府采购意向",
+          "excerpt": "采购人：上海市公安局闵行分局\n2026年12月",
+          "published_at": "2026-10-09",
+          "fetched_at": "2026-10-29T17:08:05.053291+00:00",
+          "facts": {
+            "version": 1,
+            "kind": "public_title",
+            "projects": [
+              {
+                "name": "上海市公安局闵行分局2026年12月政府采购意向",
+                "stage": "采购意向",
+                "public_title_only": true,
+                "notice_url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=cSQoAiezV2edcl5vC%2F9Nsw%3D%3D",
+                "quote": "上海市公安局闵行分局2026年12月政府采购意向\n采购人：上海市公安局闵行分局\n2026年12月",
+                "buyer": {
+                  "value": "上海市公安局闵行分局",
+                  "unit": "",
+                  "quote": "采购人：上海市公安局闵行分局"
+                },
+                "supplier": null,
+                "budget": null,
+                "award_amount": null,
+                "planned_purchase": "2026-12",
+                "deadline": null,
+                "service_end": null,
+                "relation": "公开列表所列采购人：上海市公安局闵行分局",
+                "notice": "仅依据无需登录的公开标题及列表字段；未读取登录后详情。日期缺失时不确认采购有效期。"
+              }
+            ],
+            "leaders": []
+          },
+          "source_host": "www.zfcg.sh.gov.cn"
+        },
+        {
+          "category": "项目与采购公开信息",
+          "status": "pending",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=Ikl5ByOG%2F%2FafHdk%2FdEGziw%3D%3D",
+          "title": "上海市公安局奉贤分局2026年12月政府采购意向",
+          "excerpt": "采购人：上海市公安局奉贤分局\n2026年12月",
+          "published_at": "2026-10-22",
+          "fetched_at": "2026-10-29T17:08:05.052264+00:00",
+          "facts": {
+            "version": 1,
+            "kind": "public_title",
+            "projects": [
+              {
+                "name": "上海市公安局奉贤分局2026年12月政府采购意向",
+                "stage": "采购意向",
+                "public_title_only": true,
+                "notice_url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=Ikl5ByOG%2F%2FafHdk%2FdEGziw%3D%3D",
+                "quote": "上海市公安局奉贤分局2026年12月政府采购意向\n采购人：上海市公安局奉贤分局\n2026年12月",
+                "buyer": {
+                  "value": "上海市公安局奉贤分局",
+                  "unit": "",
+                  "quote": "采购人：上海市公安局奉贤分局"
+                },
+                "supplier": null,
+                "budget": null,
+                "award_amount": null,
+                "planned_purchase": "2026-12",
+                "deadline": null,
+                "service_end": null,
+                "relation": "公开列表所列采购人：上海市公安局奉贤分局",
+                "notice": "仅依据无需登录的公开标题及列表字段；未读取登录后详情。日期缺失时不确认采购有效期。"
+              }
+            ],
+            "leaders": []
+          },
+          "source_host": "www.zfcg.sh.gov.cn"
+        },
+        {
+          "category": "项目与采购公开信息",
+          "status": "pending",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=5cNawf4tIReUMyXoZRRzgg%3D%3D",
           "title": "上海市公安局普陀分局2026年10月政府采购意向",
           "excerpt": "采购人：上海市公安局普陀分局\n2026年10月",
           "published_at": "2026-09-21",
-          "fetched_at": "2026-10-29T07:14:56.820837+00:00",
+          "fetched_at": "2026-10-29T17:08:05.051269+00:00",
           "facts": {
             "version": 1,
             "kind": "public_title",
@@ -740,7 +814,7 @@
           "title": "上海市公安局奉贤分局2026年12月政府采购意向",
           "excerpt": "采购人：上海市公安局奉贤分局\n2026年12月",
           "published_at": "2026-10-21",
-          "fetched_at": "2026-10-29T07:14:56.819839+00:00",
+          "fetched_at": "2026-10-29T17:08:05.050059+00:00",
           "facts": {
             "version": 1,
             "kind": "public_title",
@@ -777,7 +851,7 @@
           "title": "上海市公安局奉贤分局2026年12月政府采购意向",
           "excerpt": "采购人：上海市公安局奉贤分局\n2026年12月",
           "published_at": "2026-10-21",
-          "fetched_at": "2026-10-29T07:14:56.818578+00:00",
+          "fetched_at": "2026-10-29T17:08:05.048856+00:00",
           "facts": {
             "version": 1,
             "kind": "public_title",
@@ -814,7 +888,7 @@
           "title": "上海市公安局奉贤分局2026年10月政府采购意向",
           "excerpt": "采购人：上海市公安局奉贤分局\n2026年10月",
           "published_at": "2026-10-21",
-          "fetched_at": "2026-10-29T07:14:56.817554+00:00",
+          "fetched_at": "2026-10-29T17:08:05.047541+00:00",
           "facts": {
             "version": 1,
             "kind": "public_title",
@@ -851,7 +925,7 @@
           "title": "上海市公安局奉贤分局2026年12月政府采购意向",
           "excerpt": "采购人：上海市公安局奉贤分局\n2026年12月",
           "published_at": "2026-10-21",
-          "fetched_at": "2026-10-29T07:14:56.816573+00:00",
+          "fetched_at": "2026-10-29T17:08:05.046277+00:00",
           "facts": {
             "version": 1,
             "kind": "public_title",
@@ -888,7 +962,7 @@
           "title": "上海市公安局松江分局2026年11月政府采购意向",
           "excerpt": "采购人：上海市公安局松江分局\n2026年11月",
           "published_at": "2026-10-09",
-          "fetched_at": "2026-10-29T07:14:56.815382+00:00",
+          "fetched_at": "2026-10-29T17:08:05.044901+00:00",
           "facts": {
             "version": 1,
             "kind": "public_title",
@@ -925,7 +999,7 @@
           "title": "上海市公安局普陀分局2026年10月政府采购意向",
           "excerpt": "采购人：上海市公安局普陀分局\n2026年10月",
           "published_at": "2026-09-28",
-          "fetched_at": "2026-10-29T07:14:56.813616+00:00",
+          "fetched_at": "2026-10-29T17:08:05.043129+00:00",
           "facts": {
             "version": 1,
             "kind": "public_title",
@@ -948,6 +1022,47 @@
                 "deadline": null,
                 "service_end": null,
                 "relation": "公开列表所列采购人：上海市公安局普陀分局",
+                "notice": "仅依据无需登录的公开标题及列表字段；未读取登录后详情。日期缺失时不确认采购有效期。"
+              }
+            ],
+            "leaders": []
+          },
+          "source_host": "www.zfcg.sh.gov.cn"
+        },
+        {
+          "category": "项目与采购公开信息",
+          "status": "pending",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=jEpDRWgN85lXSVcIk%2FB3hQ%3D%3D",
+          "title": "上海市公安局黄浦分局-110警情智能分析标准软件采购的公开招标公告",
+          "excerpt": "采购人：上海市公安局黄浦分局（本级）\n提交投标文件截止时间：2026年11月19日 11:00",
+          "published_at": "2026-10-29",
+          "fetched_at": "2026-10-29T17:08:02.819608+00:00",
+          "facts": {
+            "version": 1,
+            "kind": "public_title",
+            "projects": [
+              {
+                "name": "上海市公安局黄浦分局-110警情智能分析标准软件采购的公开招标公告",
+                "stage": "公开招标公告",
+                "public_title_only": true,
+                "notice_url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=jEpDRWgN85lXSVcIk%2FB3hQ%3D%3D",
+                "quote": "上海市公安局黄浦分局-110警情智能分析标准软件采购的公开招标公告\n采购人：上海市公安局黄浦分局（本级）\n提交投标文件截止时间：2026年11月19日 11:00",
+                "buyer": {
+                  "value": "上海市公安局黄浦分局（本级）",
+                  "unit": "",
+                  "quote": "采购人：上海市公安局黄浦分局（本级）"
+                },
+                "supplier": null,
+                "budget": null,
+                "award_amount": null,
+                "planned_purchase": null,
+                "deadline": {
+                  "value": "2026-11-19 11:00",
+                  "unit": "",
+                  "quote": "提交投标文件截止时间：2026年11月19日 11:00"
+                },
+                "service_end": null,
+                "relation": "公开列表所列采购人：上海市公安局黄浦分局（本级）",
                 "notice": "仅依据无需登录的公开标题及列表字段；未读取登录后详情。日期缺失时不确认采购有效期。"
               }
             ],
@@ -1028,117 +1143,6 @@
             "leaders": []
           },
           "source_host": "www.zfcg.sh.gov.cn"
-        },
-        {
-          "category": "项目与采购公开信息",
-          "status": "pending",
-          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=QfT8xEv2J7Pi%2Bi5JK6ux2Q%3D%3D",
-          "title": "上海市公安局徐汇分局2026年10月政府采购意向",
-          "excerpt": "采购人：上海市公安局徐汇分局\n2026年10月",
-          "published_at": "2026-09-01",
-          "fetched_at": "2026-10-29T06:21:25.807269+00:00",
-          "facts": {
-            "version": 1,
-            "kind": "public_title",
-            "projects": [
-              {
-                "name": "上海市公安局徐汇分局2026年10月政府采购意向",
-                "stage": "采购意向",
-                "public_title_only": true,
-                "notice_url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=QfT8xEv2J7Pi%2Bi5JK6ux2Q%3D%3D",
-                "quote": "上海市公安局徐汇分局2026年10月政府采购意向\n采购人：上海市公安局徐汇分局\n2026年10月",
-                "buyer": {
-                  "value": "上海市公安局徐汇分局",
-                  "unit": "",
-                  "quote": "采购人：上海市公安局徐汇分局"
-                },
-                "supplier": null,
-                "budget": null,
-                "award_amount": null,
-                "planned_purchase": "2026-10",
-                "deadline": null,
-                "service_end": null,
-                "relation": "公开列表所列采购人：上海市公安局徐汇分局",
-                "notice": "仅依据无需登录的公开标题及列表字段；未读取登录后详情。日期缺失时不确认采购有效期。"
-              }
-            ],
-            "leaders": []
-          },
-          "source_host": "www.zfcg.sh.gov.cn"
-        },
-        {
-          "category": "项目与采购公开信息",
-          "status": "pending",
-          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=iGTLubBedd5sphZYBju64w%3D%3D",
-          "title": "上海市公安局长宁分局2027年01月政府采购意向",
-          "excerpt": "采购人：上海市公安局长宁分局\n2027年01月",
-          "published_at": "2026-09-10",
-          "fetched_at": "2026-10-29T06:21:25.805426+00:00",
-          "facts": {
-            "version": 1,
-            "kind": "public_title",
-            "projects": [
-              {
-                "name": "上海市公安局长宁分局2027年01月政府采购意向",
-                "stage": "采购意向",
-                "public_title_only": true,
-                "notice_url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=iGTLubBedd5sphZYBju64w%3D%3D",
-                "quote": "上海市公安局长宁分局2027年01月政府采购意向\n采购人：上海市公安局长宁分局\n2027年01月",
-                "buyer": {
-                  "value": "上海市公安局长宁分局",
-                  "unit": "",
-                  "quote": "采购人：上海市公安局长宁分局"
-                },
-                "supplier": null,
-                "budget": null,
-                "award_amount": null,
-                "planned_purchase": "2027-01",
-                "deadline": null,
-                "service_end": null,
-                "relation": "公开列表所列采购人：上海市公安局长宁分局",
-                "notice": "仅依据无需登录的公开标题及列表字段；未读取登录后详情。日期缺失时不确认采购有效期。"
-              }
-            ],
-            "leaders": []
-          },
-          "source_host": "www.zfcg.sh.gov.cn"
-        },
-        {
-          "category": "项目与采购公开信息",
-          "status": "pending",
-          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=to0fEsNPq1r7adSVdha1ZQ%3D%3D",
-          "title": "上海市公安局徐汇分局2026年10月政府采购意向",
-          "excerpt": "采购人：上海市公安局徐汇分局\n2026年10月",
-          "published_at": "2026-09-10",
-          "fetched_at": "2026-10-29T06:21:25.804099+00:00",
-          "facts": {
-            "version": 1,
-            "kind": "public_title",
-            "projects": [
-              {
-                "name": "上海市公安局徐汇分局2026年10月政府采购意向",
-                "stage": "采购意向",
-                "public_title_only": true,
-                "notice_url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=to0fEsNPq1r7adSVdha1ZQ%3D%3D",
-                "quote": "上海市公安局徐汇分局2026年10月政府采购意向\n采购人：上海市公安局徐汇分局\n2026年10月",
-                "buyer": {
-                  "value": "上海市公安局徐汇分局",
-                  "unit": "",
-                  "quote": "采购人：上海市公安局徐汇分局"
-                },
-                "supplier": null,
-                "budget": null,
-                "award_amount": null,
-                "planned_purchase": "2026-10",
-                "deadline": null,
-                "service_end": null,
-                "relation": "公开列表所列采购人：上海市公安局徐汇分局",
-                "notice": "仅依据无需登录的公开标题及列表字段；未读取登录后详情。日期缺失时不确认采购有效期。"
-              }
-            ],
-            "leaders": []
-          },
-          "source_host": "www.zfcg.sh.gov.cn"
         }
       ],
       "projects": [
@@ -1164,7 +1168,7 @@
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=JWL8jnLlTDd%2BTuOQix872w%3D%3D",
           "title": "上海市公安局浦东分局2026年10月政府采购意向",
           "published_at": "2026-09-14",
-          "fetched_at": "2026-10-29T07:14:59.080325+00:00",
+          "fetched_at": "2026-10-29T17:08:08.304265+00:00",
           "source_host": "www.zfcg.sh.gov.cn"
         },
         {
@@ -1189,7 +1193,7 @@
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=0RJZhKQenQdGGy8FyktP8g%3D%3D",
           "title": "上海市公安局浦东分局2026年10月政府采购意向",
           "published_at": "2026-09-14",
-          "fetched_at": "2026-10-29T07:14:59.079355+00:00",
+          "fetched_at": "2026-10-29T17:08:08.302974+00:00",
           "source_host": "www.zfcg.sh.gov.cn"
         },
         {
@@ -1214,7 +1218,7 @@
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=OsammbdrhOkD61t4tEhA2Q%3D%3D",
           "title": "上海市公安局黄浦分局2026年10月政府采购意向",
           "published_at": "2026-09-14",
-          "fetched_at": "2026-10-29T07:14:59.078321+00:00",
+          "fetched_at": "2026-10-29T17:08:08.301778+00:00",
           "source_host": "www.zfcg.sh.gov.cn"
         },
         {
@@ -1239,7 +1243,7 @@
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=HRp5cJ3fr%2BrXACAKawYJzw%3D%3D",
           "title": "上海市公安局浦东分局2026年10月政府采购意向",
           "published_at": "2026-09-14",
-          "fetched_at": "2026-10-29T07:14:59.077113+00:00",
+          "fetched_at": "2026-10-29T17:08:08.300774+00:00",
           "source_host": "www.zfcg.sh.gov.cn"
         },
         {
@@ -1264,7 +1268,7 @@
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=LDrpEOIwmbv2f4SJg%2BxRNQ%3D%3D",
           "title": "上海市公安局虹口分局2026年10月政府采购意向",
           "published_at": "2026-09-24",
-          "fetched_at": "2026-10-29T07:14:59.075881+00:00",
+          "fetched_at": "2026-10-29T17:08:08.299521+00:00",
           "source_host": "www.zfcg.sh.gov.cn"
         },
         {
@@ -1289,7 +1293,7 @@
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=nJKFMfK8EcmDKLNwfMcScA%3D%3D",
           "title": "上海市公安局虹口分局2026年10月政府采购意向",
           "published_at": "2026-09-24",
-          "fetched_at": "2026-10-29T07:14:59.074866+00:00",
+          "fetched_at": "2026-10-29T17:08:08.298405+00:00",
           "source_host": "www.zfcg.sh.gov.cn"
         },
         {
@@ -1314,7 +1318,7 @@
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=4KiP3GpmfZUPJIep33OrJA%3D%3D",
           "title": "上海市公安局杨浦分局2026年12月政府采购意向",
           "published_at": "2026-10-16",
-          "fetched_at": "2026-10-29T07:14:59.073747+00:00",
+          "fetched_at": "2026-10-29T17:08:08.297161+00:00",
           "source_host": "www.zfcg.sh.gov.cn"
         },
         {
@@ -1339,7 +1343,7 @@
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=SbTa2O%2F%2BSM%2B8e69szJozww%3D%3D",
           "title": "上海市公安局静安分局2026年11月政府采购意向",
           "published_at": "2026-10-19",
-          "fetched_at": "2026-10-29T07:14:59.072276+00:00",
+          "fetched_at": "2026-10-29T17:08:08.296170+00:00",
           "source_host": "www.zfcg.sh.gov.cn"
         },
         {
@@ -1364,7 +1368,7 @@
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=xL8REBvSmxfiC8%2BrwGlHGw%3D%3D",
           "title": "上海市公安局杨浦分局2027年01月政府采购意向",
           "published_at": "2026-09-18",
-          "fetched_at": "2026-10-29T07:14:59.070930+00:00",
+          "fetched_at": "2026-10-29T17:08:08.295105+00:00",
           "source_host": "www.zfcg.sh.gov.cn"
         },
         {
@@ -1389,7 +1393,7 @@
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=qseUfW21sniTyqsvqeIJiw%3D%3D",
           "title": "上海市公安局宝山分局2026年10月政府采购意向",
           "published_at": "2026-10-29",
-          "fetched_at": "2026-10-29T07:14:59.069554+00:00",
+          "fetched_at": "2026-10-29T17:08:08.293764+00:00",
           "source_host": "www.zfcg.sh.gov.cn"
         },
         {
@@ -1414,7 +1418,7 @@
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=vbznNj0RW4I9qBmciorG0g%3D%3D",
           "title": "上海市公安局静安分局2026年10月政府采购意向",
           "published_at": "2026-09-30",
-          "fetched_at": "2026-10-29T07:14:59.067729+00:00",
+          "fetched_at": "2026-10-29T17:08:08.292518+00:00",
           "source_host": "www.zfcg.sh.gov.cn"
         },
         {
@@ -1439,7 +1443,7 @@
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=24tuewxalIB8s86vZG0SSg%3D%3D",
           "title": "上海市公安局青浦分局2026年10月政府采购意向",
           "published_at": "2026-09-16",
-          "fetched_at": "2026-10-29T07:14:56.829056+00:00",
+          "fetched_at": "2026-10-29T17:08:08.291455+00:00",
           "source_host": "www.zfcg.sh.gov.cn"
         },
         {
@@ -1464,39 +1468,39 @@
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=YM%2BtxGN%2BLKCdMd6zDmp0LQ%3D%3D",
           "title": "上海市公安局奉贤分局2026年12月政府采购意向",
           "published_at": "2026-10-16",
-          "fetched_at": "2026-10-29T07:14:56.827986+00:00",
+          "fetched_at": "2026-10-29T17:08:08.289851+00:00",
           "source_host": "www.zfcg.sh.gov.cn"
         },
         {
-          "name": "上海市公安局闵行分局2026年12月政府采购意向",
+          "name": "上海市公安局青浦分局2026年11月政府采购意向",
           "stage": "采购意向",
           "public_title_only": true,
-          "notice_url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=cSQoAiezV2edcl5vC%2F9Nsw%3D%3D",
-          "quote": "上海市公安局闵行分局2026年12月政府采购意向\n采购人：上海市公安局闵行分局\n2026年12月",
+          "notice_url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=JK6YKyRbxpfapLuJ4pGdtg%3D%3D",
+          "quote": "上海市公安局青浦分局2026年11月政府采购意向\n采购人：上海市公安局青浦分局\n2026年11月",
           "buyer": {
-            "value": "上海市公安局闵行分局",
+            "value": "上海市公安局青浦分局",
             "unit": "",
-            "quote": "采购人：上海市公安局闵行分局"
+            "quote": "采购人：上海市公安局青浦分局"
           },
           "supplier": null,
           "budget": null,
           "award_amount": null,
-          "planned_purchase": "2026-12",
+          "planned_purchase": "2026-11",
           "deadline": null,
           "service_end": null,
-          "relation": "公开列表所列采购人：上海市公安局闵行分局",
+          "relation": "公开列表所列采购人：上海市公安局青浦分局",
           "notice": "仅依据无需登录的公开标题及列表字段；未读取登录后详情。日期缺失时不确认采购有效期。",
-          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=cSQoAiezV2edcl5vC%2F9Nsw%3D%3D",
-          "title": "上海市公安局闵行分局2026年12月政府采购意向",
-          "published_at": "2026-10-09",
-          "fetched_at": "2026-10-29T07:14:56.826849+00:00",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=JK6YKyRbxpfapLuJ4pGdtg%3D%3D",
+          "title": "上海市公安局青浦分局2026年11月政府采购意向",
+          "published_at": "2026-10-13",
+          "fetched_at": "2026-10-29T17:08:05.059037+00:00",
           "source_host": "www.zfcg.sh.gov.cn"
         },
         {
           "name": "上海市公安局奉贤分局2026年12月政府采购意向",
           "stage": "采购意向",
           "public_title_only": true,
-          "notice_url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=Ikl5ByOG%2F%2FafHdk%2FdEGziw%3D%3D",
+          "notice_url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=M%2BrtZqLJH8FaMG2G9RENzQ%3D%3D",
           "quote": "上海市公安局奉贤分局2026年12月政府采购意向\n采购人：上海市公安局奉贤分局\n2026年12月",
           "buyer": {
             "value": "上海市公安局奉贤分局",
@@ -1511,10 +1515,10 @@
           "service_end": null,
           "relation": "公开列表所列采购人：上海市公安局奉贤分局",
           "notice": "仅依据无需登录的公开标题及列表字段；未读取登录后详情。日期缺失时不确认采购有效期。",
-          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=Ikl5ByOG%2F%2FafHdk%2FdEGziw%3D%3D",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=M%2BrtZqLJH8FaMG2G9RENzQ%3D%3D",
           "title": "上海市公安局奉贤分局2026年12月政府采购意向",
-          "published_at": "2026-10-22",
-          "fetched_at": "2026-10-29T07:14:56.825666+00:00",
+          "published_at": "2026-10-20",
+          "fetched_at": "2026-10-29T17:08:05.057790+00:00",
           "source_host": "www.zfcg.sh.gov.cn"
         },
         {
@@ -1539,7 +1543,7 @@
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=ccbFak%2BPSaa7711iQjDIvw%3D%3D",
           "title": "上海市公安局奉贤分局2026年12月政府采购意向",
           "published_at": "2026-10-21",
-          "fetched_at": "2026-10-29T07:14:56.824166+00:00",
+          "fetched_at": "2026-10-29T17:08:05.056616+00:00",
           "source_host": "www.zfcg.sh.gov.cn"
         },
         {
@@ -1564,7 +1568,7 @@
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=uhPJmQLSWuOtsjDphSDKbg%3D%3D",
           "title": "上海市公安局奉贤分局2026年12月政府采购意向",
           "published_at": "2026-10-21",
-          "fetched_at": "2026-10-29T07:14:56.822824+00:00",
+          "fetched_at": "2026-10-29T17:08:05.055649+00:00",
           "source_host": "www.zfcg.sh.gov.cn"
         },
         {
@@ -1589,7 +1593,57 @@
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=nlWJscKp7iLGAYCUwEs7Hw%3D%3D",
           "title": "上海市公安局松江分局2026年11月政府采购意向",
           "published_at": "2026-10-23",
-          "fetched_at": "2026-10-29T07:14:56.821854+00:00",
+          "fetched_at": "2026-10-29T17:08:05.054476+00:00",
+          "source_host": "www.zfcg.sh.gov.cn"
+        },
+        {
+          "name": "上海市公安局闵行分局2026年12月政府采购意向",
+          "stage": "采购意向",
+          "public_title_only": true,
+          "notice_url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=cSQoAiezV2edcl5vC%2F9Nsw%3D%3D",
+          "quote": "上海市公安局闵行分局2026年12月政府采购意向\n采购人：上海市公安局闵行分局\n2026年12月",
+          "buyer": {
+            "value": "上海市公安局闵行分局",
+            "unit": "",
+            "quote": "采购人：上海市公安局闵行分局"
+          },
+          "supplier": null,
+          "budget": null,
+          "award_amount": null,
+          "planned_purchase": "2026-12",
+          "deadline": null,
+          "service_end": null,
+          "relation": "公开列表所列采购人：上海市公安局闵行分局",
+          "notice": "仅依据无需登录的公开标题及列表字段；未读取登录后详情。日期缺失时不确认采购有效期。",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=cSQoAiezV2edcl5vC%2F9Nsw%3D%3D",
+          "title": "上海市公安局闵行分局2026年12月政府采购意向",
+          "published_at": "2026-10-09",
+          "fetched_at": "2026-10-29T17:08:05.053291+00:00",
+          "source_host": "www.zfcg.sh.gov.cn"
+        },
+        {
+          "name": "上海市公安局奉贤分局2026年12月政府采购意向",
+          "stage": "采购意向",
+          "public_title_only": true,
+          "notice_url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=Ikl5ByOG%2F%2FafHdk%2FdEGziw%3D%3D",
+          "quote": "上海市公安局奉贤分局2026年12月政府采购意向\n采购人：上海市公安局奉贤分局\n2026年12月",
+          "buyer": {
+            "value": "上海市公安局奉贤分局",
+            "unit": "",
+            "quote": "采购人：上海市公安局奉贤分局"
+          },
+          "supplier": null,
+          "budget": null,
+          "award_amount": null,
+          "planned_purchase": "2026-12",
+          "deadline": null,
+          "service_end": null,
+          "relation": "公开列表所列采购人：上海市公安局奉贤分局",
+          "notice": "仅依据无需登录的公开标题及列表字段；未读取登录后详情。日期缺失时不确认采购有效期。",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=Ikl5ByOG%2F%2FafHdk%2FdEGziw%3D%3D",
+          "title": "上海市公安局奉贤分局2026年12月政府采购意向",
+          "published_at": "2026-10-22",
+          "fetched_at": "2026-10-29T17:08:05.052264+00:00",
           "source_host": "www.zfcg.sh.gov.cn"
         },
         {
@@ -1614,7 +1668,7 @@
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=5cNawf4tIReUMyXoZRRzgg%3D%3D",
           "title": "上海市公安局普陀分局2026年10月政府采购意向",
           "published_at": "2026-09-21",
-          "fetched_at": "2026-10-29T07:14:56.820837+00:00",
+          "fetched_at": "2026-10-29T17:08:05.051269+00:00",
           "source_host": "www.zfcg.sh.gov.cn"
         },
         {
@@ -1639,7 +1693,7 @@
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=pDLpBIyXQ%2BAfgAK9TpEKdw%3D%3D",
           "title": "上海市公安局奉贤分局2026年12月政府采购意向",
           "published_at": "2026-10-21",
-          "fetched_at": "2026-10-29T07:14:56.819839+00:00",
+          "fetched_at": "2026-10-29T17:08:05.050059+00:00",
           "source_host": "www.zfcg.sh.gov.cn"
         },
         {
@@ -1664,7 +1718,7 @@
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=dqgjsaq8wiKCiiIMiyi%2F5A%3D%3D",
           "title": "上海市公安局奉贤分局2026年12月政府采购意向",
           "published_at": "2026-10-21",
-          "fetched_at": "2026-10-29T07:14:56.818578+00:00",
+          "fetched_at": "2026-10-29T17:08:05.048856+00:00",
           "source_host": "www.zfcg.sh.gov.cn"
         },
         {
@@ -1689,7 +1743,7 @@
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=bcaT3Zv1cNZAjnV%2Fjn4r5g%3D%3D",
           "title": "上海市公安局奉贤分局2026年10月政府采购意向",
           "published_at": "2026-10-21",
-          "fetched_at": "2026-10-29T07:14:56.817554+00:00",
+          "fetched_at": "2026-10-29T17:08:05.047541+00:00",
           "source_host": "www.zfcg.sh.gov.cn"
         },
         {
@@ -1714,7 +1768,7 @@
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=lMu4qSIhY1mGeusc8v27WA%3D%3D",
           "title": "上海市公安局奉贤分局2026年12月政府采购意向",
           "published_at": "2026-10-21",
-          "fetched_at": "2026-10-29T07:14:56.816573+00:00",
+          "fetched_at": "2026-10-29T17:08:05.046277+00:00",
           "source_host": "www.zfcg.sh.gov.cn"
         },
         {
@@ -1739,7 +1793,7 @@
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=lddVc0Ds%2FAIle16xImb66w%3D%3D",
           "title": "上海市公安局松江分局2026年11月政府采购意向",
           "published_at": "2026-10-09",
-          "fetched_at": "2026-10-29T07:14:56.815382+00:00",
+          "fetched_at": "2026-10-29T17:08:05.044901+00:00",
           "source_host": "www.zfcg.sh.gov.cn"
         },
         {
@@ -1764,7 +1818,36 @@
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=mhm%2FlKlTMV%2B3UAcGxqWMHA%3D%3D",
           "title": "上海市公安局普陀分局2026年10月政府采购意向",
           "published_at": "2026-09-28",
-          "fetched_at": "2026-10-29T07:14:56.813616+00:00",
+          "fetched_at": "2026-10-29T17:08:05.043129+00:00",
+          "source_host": "www.zfcg.sh.gov.cn"
+        },
+        {
+          "name": "上海市公安局黄浦分局-110警情智能分析标准软件采购的公开招标公告",
+          "stage": "公开招标公告",
+          "public_title_only": true,
+          "notice_url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=jEpDRWgN85lXSVcIk%2FB3hQ%3D%3D",
+          "quote": "上海市公安局黄浦分局-110警情智能分析标准软件采购的公开招标公告\n采购人：上海市公安局黄浦分局（本级）\n提交投标文件截止时间：2026年11月19日 11:00",
+          "buyer": {
+            "value": "上海市公安局黄浦分局（本级）",
+            "unit": "",
+            "quote": "采购人：上海市公安局黄浦分局（本级）"
+          },
+          "supplier": null,
+          "budget": null,
+          "award_amount": null,
+          "planned_purchase": null,
+          "deadline": {
+            "value": "2026-11-19 11:00",
+            "unit": "",
+            "quote": "提交投标文件截止时间：2026年11月19日 11:00"
+          },
+          "service_end": null,
+          "relation": "公开列表所列采购人：上海市公安局黄浦分局（本级）",
+          "notice": "仅依据无需登录的公开标题及列表字段；未读取登录后详情。日期缺失时不确认采购有效期。",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=jEpDRWgN85lXSVcIk%2FB3hQ%3D%3D",
+          "title": "上海市公安局黄浦分局-110警情智能分析标准软件采购的公开招标公告",
+          "published_at": "2026-10-29",
+          "fetched_at": "2026-10-29T17:08:02.819608+00:00",
           "source_host": "www.zfcg.sh.gov.cn"
         },
         {
@@ -1816,98 +1899,23 @@
           "published_at": "2026-10-29",
           "fetched_at": "2026-10-29T06:21:25.809568+00:00",
           "source_host": "www.zfcg.sh.gov.cn"
-        },
-        {
-          "name": "上海市公安局徐汇分局2026年10月政府采购意向",
-          "stage": "采购意向",
-          "public_title_only": true,
-          "notice_url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=QfT8xEv2J7Pi%2Bi5JK6ux2Q%3D%3D",
-          "quote": "上海市公安局徐汇分局2026年10月政府采购意向\n采购人：上海市公安局徐汇分局\n2026年10月",
-          "buyer": {
-            "value": "上海市公安局徐汇分局",
-            "unit": "",
-            "quote": "采购人：上海市公安局徐汇分局"
-          },
-          "supplier": null,
-          "budget": null,
-          "award_amount": null,
-          "planned_purchase": "2026-10",
-          "deadline": null,
-          "service_end": null,
-          "relation": "公开列表所列采购人：上海市公安局徐汇分局",
-          "notice": "仅依据无需登录的公开标题及列表字段；未读取登录后详情。日期缺失时不确认采购有效期。",
-          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=QfT8xEv2J7Pi%2Bi5JK6ux2Q%3D%3D",
-          "title": "上海市公安局徐汇分局2026年10月政府采购意向",
-          "published_at": "2026-09-01",
-          "fetched_at": "2026-10-29T06:21:25.807269+00:00",
-          "source_host": "www.zfcg.sh.gov.cn"
-        },
-        {
-          "name": "上海市公安局长宁分局2027年01月政府采购意向",
-          "stage": "采购意向",
-          "public_title_only": true,
-          "notice_url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=iGTLubBedd5sphZYBju64w%3D%3D",
-          "quote": "上海市公安局长宁分局2027年01月政府采购意向\n采购人：上海市公安局长宁分局\n2027年01月",
-          "buyer": {
-            "value": "上海市公安局长宁分局",
-            "unit": "",
-            "quote": "采购人：上海市公安局长宁分局"
-          },
-          "supplier": null,
-          "budget": null,
-          "award_amount": null,
-          "planned_purchase": "2027-01",
-          "deadline": null,
-          "service_end": null,
-          "relation": "公开列表所列采购人：上海市公安局长宁分局",
-          "notice": "仅依据无需登录的公开标题及列表字段；未读取登录后详情。日期缺失时不确认采购有效期。",
-          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=iGTLubBedd5sphZYBju64w%3D%3D",
-          "title": "上海市公安局长宁分局2027年01月政府采购意向",
-          "published_at": "2026-09-10",
-          "fetched_at": "2026-10-29T06:21:25.805426+00:00",
-          "source_host": "www.zfcg.sh.gov.cn"
-        },
-        {
-          "name": "上海市公安局徐汇分局2026年10月政府采购意向",
-          "stage": "采购意向",
-          "public_title_only": true,
-          "notice_url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=to0fEsNPq1r7adSVdha1ZQ%3D%3D",
-          "quote": "上海市公安局徐汇分局2026年10月政府采购意向\n采购人：上海市公安局徐汇分局\n2026年10月",
-          "buyer": {
-            "value": "上海市公安局徐汇分局",
-            "unit": "",
-            "quote": "采购人：上海市公安局徐汇分局"
-          },
-          "supplier": null,
-          "budget": null,
-          "award_amount": null,
-          "planned_purchase": "2026-10",
-          "deadline": null,
-          "service_end": null,
-          "relation": "公开列表所列采购人：上海市公安局徐汇分局",
-          "notice": "仅依据无需登录的公开标题及列表字段；未读取登录后详情。日期缺失时不确认采购有效期。",
-          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=to0fEsNPq1r7adSVdha1ZQ%3D%3D",
-          "title": "上海市公安局徐汇分局2026年10月政府采购意向",
-          "published_at": "2026-09-10",
-          "fetched_at": "2026-10-29T06:21:25.804099+00:00",
-          "source_host": "www.zfcg.sh.gov.cn"
         }
       ],
       "leaders": [],
       "organizations": [],
       "procurementSources": [
         {
-          "finished_at": "2026-10-29T07:15:00.081754+00:00",
+          "finished_at": "2026-10-29T17:08:09.305352+00:00",
           "status": "success",
-          "documents_found": 25,
+          "documents_found": 28,
           "label": "上海市政府采购网",
           "url": "https://www.zfcg.sh.gov.cn"
         }
       ],
       "lastRun": {
-        "finished_at": "2026-10-29T07:15:00.081754+00:00",
+        "finished_at": "2026-10-29T17:08:09.305352+00:00",
         "status": "success",
-        "documents_found": 25,
+        "documents_found": 28,
         "source_url": "https://www.zfcg.sh.gov.cn"
       }
     },
@@ -1923,7 +1931,7 @@
           "title": "上海市市场监督管理局信息应用研究中心2027年01月政府采购意向",
           "excerpt": "采购人：上海市市场监督管理局信息应用研究中心\n2027年01月",
           "published_at": "2026-10-29",
-          "fetched_at": "2026-10-29T10:30:10.963017+00:00",
+          "fetched_at": "2026-10-29T17:08:15.230517+00:00",
           "facts": {
             "version": 1,
             "kind": "public_title",
@@ -1960,7 +1968,7 @@
           "title": "上海市市场监督管理局机场分局2026年10月政府采购意向",
           "excerpt": "采购人：上海市市场监督管理局机场分局\n2026年10月",
           "published_at": "2026-10-27",
-          "fetched_at": "2026-10-29T10:30:10.961389+00:00",
+          "fetched_at": "2026-10-29T17:08:15.229404+00:00",
           "facts": {
             "version": 1,
             "kind": "public_title",
@@ -1997,7 +2005,7 @@
           "title": "上海市市场监督管理局执法总队2026年10月政府采购意向",
           "excerpt": "采购人：上海市市场监督管理局执法总队\n2026年10月",
           "published_at": "2026-10-20",
-          "fetched_at": "2026-10-29T10:30:10.960108+00:00",
+          "fetched_at": "2026-10-29T17:08:15.228118+00:00",
           "facts": {
             "version": 1,
             "kind": "public_title",
@@ -2034,7 +2042,7 @@
           "title": "上海市市场监督管理局2026年10月政府采购意向",
           "excerpt": "采购人：上海市市场监督管理局\n2026年10月",
           "published_at": "2026-10-12",
-          "fetched_at": "2026-10-29T10:30:10.958450+00:00",
+          "fetched_at": "2026-10-29T17:08:15.227095+00:00",
           "facts": {
             "version": 1,
             "kind": "public_title",
@@ -2071,7 +2079,7 @@
           "title": "上海市市场监督管理局执法总队2026年10月政府采购意向",
           "excerpt": "采购人：上海市市场监督管理局执法总队\n2026年10月",
           "published_at": "2026-10-20",
-          "fetched_at": "2026-10-29T10:30:10.956708+00:00",
+          "fetched_at": "2026-10-29T17:08:15.225573+00:00",
           "facts": {
             "version": 1,
             "kind": "public_title",
@@ -2125,7 +2133,7 @@
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=W7twCzUw8zocNsVNYXX5ow%3D%3D",
           "title": "上海市市场监督管理局信息应用研究中心2027年01月政府采购意向",
           "published_at": "2026-10-29",
-          "fetched_at": "2026-10-29T10:30:10.963017+00:00",
+          "fetched_at": "2026-10-29T17:08:15.230517+00:00",
           "source_host": "www.zfcg.sh.gov.cn"
         },
         {
@@ -2150,7 +2158,7 @@
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=vqQkB5eoqFmRCzlwT9Cy3Q%3D%3D",
           "title": "上海市市场监督管理局机场分局2026年10月政府采购意向",
           "published_at": "2026-10-27",
-          "fetched_at": "2026-10-29T10:30:10.961389+00:00",
+          "fetched_at": "2026-10-29T17:08:15.229404+00:00",
           "source_host": "www.zfcg.sh.gov.cn"
         },
         {
@@ -2175,7 +2183,7 @@
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=b3cBgBzg5v4w2FTQ6yHyXA%3D%3D",
           "title": "上海市市场监督管理局执法总队2026年10月政府采购意向",
           "published_at": "2026-10-20",
-          "fetched_at": "2026-10-29T10:30:10.960108+00:00",
+          "fetched_at": "2026-10-29T17:08:15.228118+00:00",
           "source_host": "www.zfcg.sh.gov.cn"
         },
         {
@@ -2200,7 +2208,7 @@
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=5LlGzisixVdDgH9NMvsxjQ%3D%3D",
           "title": "上海市市场监督管理局2026年10月政府采购意向",
           "published_at": "2026-10-12",
-          "fetched_at": "2026-10-29T10:30:10.958450+00:00",
+          "fetched_at": "2026-10-29T17:08:15.227095+00:00",
           "source_host": "www.zfcg.sh.gov.cn"
         },
         {
@@ -2225,7 +2233,7 @@
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=BbD8z7D0s0xVEDGtq9ksmw%3D%3D",
           "title": "上海市市场监督管理局执法总队2026年10月政府采购意向",
           "published_at": "2026-10-20",
-          "fetched_at": "2026-10-29T10:30:10.956708+00:00",
+          "fetched_at": "2026-10-29T17:08:15.225573+00:00",
           "source_host": "www.zfcg.sh.gov.cn"
         }
       ],
@@ -2233,7 +2241,7 @@
       "organizations": [],
       "procurementSources": [
         {
-          "finished_at": "2026-10-29T10:30:13.542143+00:00",
+          "finished_at": "2026-10-29T17:08:16.993822+00:00",
           "status": "success",
           "documents_found": 5,
           "label": "上海市政府采购网",
@@ -2241,7 +2249,7 @@
         }
       ],
       "lastRun": {
-        "finished_at": "2026-10-29T10:30:13.542143+00:00",
+        "finished_at": "2026-10-29T17:08:16.993822+00:00",
         "status": "success",
         "documents_found": 5,
         "source_url": "https://www.zfcg.sh.gov.cn"
@@ -2257,7 +2265,7 @@
       "organizations": [],
       "procurementSources": [
         {
-          "finished_at": "2026-10-29T10:30:16.983117+00:00",
+          "finished_at": "2026-10-29T17:08:20.181463+00:00",
           "status": "success",
           "documents_found": 0,
           "label": "上海市政府采购网",
@@ -2265,7 +2273,7 @@
         }
       ],
       "lastRun": {
-        "finished_at": "2026-10-29T10:30:16.983117+00:00",
+        "finished_at": "2026-10-29T17:08:20.181463+00:00",
         "status": "success",
         "documents_found": 0,
         "source_url": "https://www.zfcg.sh.gov.cn"
@@ -2283,7 +2291,7 @@
           "title": "上海市教育委员会2026年11月政府采购意向",
           "excerpt": "采购人：上海市教育委员会\n2026年11月",
           "published_at": "2026-10-28",
-          "fetched_at": "2026-10-29T10:30:43.345573+00:00",
+          "fetched_at": "2026-10-29T17:08:43.457166+00:00",
           "facts": {
             "version": 1,
             "kind": "public_title",
@@ -2337,7 +2345,7 @@
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=ihVRq4D2qJzgYanaH7hCMQ%3D%3D",
           "title": "上海市教育委员会2026年11月政府采购意向",
           "published_at": "2026-10-28",
-          "fetched_at": "2026-10-29T10:30:43.345573+00:00",
+          "fetched_at": "2026-10-29T17:08:43.457166+00:00",
           "source_host": "www.zfcg.sh.gov.cn"
         }
       ],
@@ -2345,7 +2353,7 @@
       "organizations": [],
       "procurementSources": [
         {
-          "finished_at": "2026-10-29T10:30:43.347770+00:00",
+          "finished_at": "2026-10-29T17:08:43.458773+00:00",
           "status": "success",
           "documents_found": 1,
           "label": "上海市政府采购网",
@@ -2353,7 +2361,7 @@
         }
       ],
       "lastRun": {
-        "finished_at": "2026-10-29T10:30:43.347770+00:00",
+        "finished_at": "2026-10-29T17:08:43.458773+00:00",
         "status": "success",
         "documents_found": 1,
         "source_url": "https://www.zfcg.sh.gov.cn"
@@ -2369,7 +2377,7 @@
       "organizations": [],
       "procurementSources": [
         {
-          "finished_at": "2026-10-29T10:30:48.968850+00:00",
+          "finished_at": "2026-10-29T17:08:50.248286+00:00",
           "status": "success",
           "documents_found": 0,
           "label": "上海市政府采购网",
@@ -2377,7 +2385,7 @@
         }
       ],
       "lastRun": {
-        "finished_at": "2026-10-29T10:30:48.968850+00:00",
+        "finished_at": "2026-10-29T17:08:50.248286+00:00",
         "status": "success",
         "documents_found": 0,
         "source_url": "https://www.zfcg.sh.gov.cn"
@@ -3595,14 +3603,14 @@
       "organizations": [],
       "procurementSources": [
         {
-          "finished_at": "2026-10-29T07:15:31.386113+00:00",
+          "finished_at": "2026-10-29T17:09:02.146447+00:00",
           "status": "blocked",
           "documents_found": 0,
           "label": "云筑集采",
           "url": "https://jc.yzw.cn/portal/"
         },
         {
-          "finished_at": "2026-10-29T07:15:36.146468+00:00",
+          "finished_at": "2026-10-29T17:09:03.515185+00:00",
           "status": "failed",
           "documents_found": 0,
           "label": "中建八局官网采购栏目",
@@ -3610,7 +3618,7 @@
         }
       ],
       "lastRun": {
-        "finished_at": "2026-10-29T07:15:36.146468+00:00",
+        "finished_at": "2026-10-29T17:09:03.515185+00:00",
         "status": "failed",
         "documents_found": 0,
         "source_url": "https://8bur.cscec.com/"
@@ -3648,6 +3656,68 @@
         {
           "category": "项目与采购公开信息",
           "status": "pending",
+          "url": "https://yjglj.sh.gov.cn/xxgk/xxgkml/czzj/zfcg/20261022/50078fd6b7ba4d2c902c5e01abc08498.html",
+          "title": "上海市应急管理局无线网络安全改造服务询比公告",
+          "excerpt": "2. 未被列入“信用中国”网站( www.creditchina.gov.cn)失信被执行人名单、重大税收违法案件当事人名单和中国政府采购网( www.ccgp.gov.cn)政府采购严重违法失信行为记录名单的供应商； 3. 提供参加政府采购活动前3年内在经营活动中没有重大违法记录的书面声明； 2026年09月21日-2026年09月23日上午9:00～11:30，下午13:00～16:00（北京时间，法定节假日除外） 1.依法核发加载统一社会信用代码的营业执照/事业单位法人证书/民办非企业登记证书/社会团体法人登记证书等法人组织单位证书的副本原件和复印件加盖公章； 1.将需要提交的资料电子版(1.依法核发加载统一社会信用代码的营业执照/事业单位法人证书/民办非企业登记证书/社会团体法人登记证书等法人组织单位证书的副本；2.法定代表人授权委托书及被委托人身份证)发送至邮箱sqzb3@sqzhaobiao.com，请在邮件信息中写明项目名称、单位名称。邮件主题：SQ26-0608单位名称；邮件内容：列明单位名称及项目联系人，联系方式；邮件附件：需采用A4纸幅面，将资料加盖公章，按顺序制作成1个PDF格式文件，文件名称与主题一致，复印件扫描无效。 1. 响应单位应将响应文件用信封密封(密封处加盖公章)，并标明项目名称及正本和副本。 2. 每一密封信封上注明“于2026年10月15日上午09:30  之前（指询比文件中规定的递交日期及时间）不准启封”的字样。 3. 响应单位名称(盖章)               联系人                联系方式： 4. 询比文件递交截止时间：2026年10月15日上午09:30  (北京时间)。 5. 地点：上海市杨浦区伟成路70号弘源创新大厦（1号楼）601-602室。 地           址：上海市杨浦区伟成路70号（1号楼）弘源创新大厦601-602室 电          话：021-55231987-8015、8033",
+          "published_at": "2026-09-20 16∶09",
+          "fetched_at": "2026-10-29T17:07:10.608780+00:00",
+          "facts": {
+            "version": 1,
+            "kind": "article",
+            "projects": [
+              {
+                "name": "上海市应急管理局无线网络安全改造服务",
+                "stage": "公开建设动态",
+                "quote": "项目名称：上海市应急管理局无线网络安全改造服务",
+                "buyer": null,
+                "supplier": null,
+                "budget": null,
+                "award_amount": null,
+                "deadline": null,
+                "service_end": null,
+                "relation": "官网公开关联信息，采购主体未明确",
+                "notice": "原文事实，不代表尚有采购机会。"
+              }
+            ],
+            "leaders": [],
+            "organizations": []
+          },
+          "source_host": "yjglj.sh.gov.cn"
+        },
+        {
+          "category": "项目与采购公开信息",
+          "status": "pending",
+          "url": "https://yjglj.sh.gov.cn/xxgk/xxgkml/czzj/zfcg/20261022/05aff045d6b94228bb4c6e53b116190a.html",
+          "title": "上海市应急管理局应急指挥通信设备技术驻场保障服务采购项目询比公告",
+          "excerpt": "2. 未被列入“信用中国”网站( www.creditchina.gov.cn)失信被执行人名单、重大税收违法案件当事人名单和中国政府采购网( www.ccgp.gov.cn)政府采购严重违法失信行为记录名单的供应商； 3. 提供参加政府采购活动前3年内在经营活动中没有重大违法记录的书面声明； 2026年10月9日-2026年10月12日上午9:00～11:30，下午13:00～16:00（北京时间，法定节假日除外） 1.将需要提交的资料电子版(1.依法核发加载统一社会信用代码的营业执照/事业单位法人证书/民办非企业登记证书/社会团体法人登记证书等法人组织单位证书的副本；2.法定代表人授权委托书及被委托人身份证)发送至邮箱sqzb3@sqzhaobiao.com，请在邮件信息中写明项目名称、单位名称。邮件主题：SQ26-0616单位名称；邮件内容：列明单位名称及项目联系人，联系方式；邮件附件：需采用A4纸幅面，将资料加盖公章，按顺序制作成1个PDF格式文件，文件名称与主题一致，复印件扫描无效。 1. 响应单位应将响应文件用信封密封(密封处加盖公章)，并标明项目名称及正本和副本。 2. 每一密封信封上注明“于2026年10月22日下午13:30 之前（指询比文件中规定的递交日期及时间）不准启封”的字样。 3. 响应单位名称(盖章)               联系人                联系方式： 4. 询比文件递交截止时间：2026年10月22日下午13:30  (北京时间)。 5. 地点：上海市杨浦区伟成路70号弘源创新大厦（1号楼）601-602室。 地        址：上海市杨浦区伟成路70号（1号楼）弘源创新大厦601-602室 电        话：021-55231987-8015、8033",
+          "published_at": "2026-10-08 10∶10",
+          "fetched_at": "2026-10-29T17:07:08.869160+00:00",
+          "facts": {
+            "version": 1,
+            "kind": "article",
+            "projects": [
+              {
+                "name": "应急指挥通信设备技术驻场保障服务采购项目",
+                "stage": "采购公告",
+                "quote": "项目名称：应急指挥通信设备技术驻场保障服务采购项目",
+                "buyer": null,
+                "supplier": null,
+                "budget": null,
+                "award_amount": null,
+                "deadline": null,
+                "service_end": null,
+                "relation": "官网公开关联信息，采购主体未明确",
+                "notice": "公告计划及有效期限以原文为准；不自动认定仍在招标。"
+              }
+            ],
+            "leaders": [],
+            "organizations": []
+          },
+          "source_host": "yjglj.sh.gov.cn"
+        },
+        {
+          "category": "项目与采购公开信息",
+          "status": "pending",
           "url": "https://yjglj.sh.gov.cn/xxgk/xxgkml/czzj/zfcg/20261022/9575a51892f64423aed4221ebe666020.html",
           "title": "应急指挥网络安全运营服务保障项目询比公告",
           "excerpt": "2. 未被列入“信用中国”网站( www.creditchina.gov.cn)失信被执行人名单、重大税收违法案件当事人名单和中国政府采购网( www.ccgp.gov.cn)政府采购严重违法失信行为记录名单的供应商； 3. 提供参加政府采购活动前3年内在经营活动中没有重大违法记录的书面声明； 2026年09月21日-2026年09月23日上午9:00～11:30，下午13:00～16:00（北京时间，法定节假日除外） 1.依法核发加载统一社会信用代码的营业执照/事业单位法人证书/民办非企业登记证书/社会团体法人登记证书等法人组织单位证书的副本原件和复印件加盖公章； 1.将需要提交的资料电子版(1.依法核发加载统一社会信用代码的营业执照/事业单位法人证书/民办非企业登记证书/社会团体法人登记证书等法人组织单位证书的副本；2.法定代表人授权委托书及被委托人身份证)发送至邮箱sqzb3@sqzhaobiao.com，请在邮件信息中写明项目名称、单位名称。邮件主题：SQ26-0607单位名称；邮件内容：列明单位名称及项目联系人，联系方式；邮件附件：需采用A4纸幅面，将资料加盖公章，按顺序制作成1个PDF格式文件，文件名称与主题一致，复印件扫描无效。 1. 响应单位应将响应文件用信封密封(密封处加盖公章)，并标明项目名称及正本和副本。 2. 每一密封信封上注明“于2026年10月15日上午09:30  之前（指询比文件中规定的递交日期及时间）不准启封”的字样。 3. 响应单位名称(盖章)               联系人                联系方式： 4. 询比文件递交截止时间：2026年10月15日上午09:30  (北京时间)。 5. 地点：上海市杨浦区伟成路70号弘源创新大厦（1号楼）601-602室。 地           址：上海市杨浦区伟成路70号（1号楼）弘源创新大厦601-602室 电           话：021-55231987-8015、8033",
@@ -3679,73 +3749,11 @@
         {
           "category": "项目与采购公开信息",
           "status": "pending",
-          "url": "https://yjglj.sh.gov.cn/xxgk/xxgkml/czzj/zfcg/20261022/50078fd6b7ba4d2c902c5e01abc08498.html",
-          "title": "上海市应急管理局无线网络安全改造服务询比公告",
-          "excerpt": "2. 未被列入“信用中国”网站( www.creditchina.gov.cn)失信被执行人名单、重大税收违法案件当事人名单和中国政府采购网( www.ccgp.gov.cn)政府采购严重违法失信行为记录名单的供应商； 3. 提供参加政府采购活动前3年内在经营活动中没有重大违法记录的书面声明； 2026年09月21日-2026年09月23日上午9:00～11:30，下午13:00～16:00（北京时间，法定节假日除外） 1.依法核发加载统一社会信用代码的营业执照/事业单位法人证书/民办非企业登记证书/社会团体法人登记证书等法人组织单位证书的副本原件和复印件加盖公章； 1.将需要提交的资料电子版(1.依法核发加载统一社会信用代码的营业执照/事业单位法人证书/民办非企业登记证书/社会团体法人登记证书等法人组织单位证书的副本；2.法定代表人授权委托书及被委托人身份证)发送至邮箱sqzb3@sqzhaobiao.com，请在邮件信息中写明项目名称、单位名称。邮件主题：SQ26-0608单位名称；邮件内容：列明单位名称及项目联系人，联系方式；邮件附件：需采用A4纸幅面，将资料加盖公章，按顺序制作成1个PDF格式文件，文件名称与主题一致，复印件扫描无效。 1. 响应单位应将响应文件用信封密封(密封处加盖公章)，并标明项目名称及正本和副本。 2. 每一密封信封上注明“于2026年10月15日上午09:30  之前（指询比文件中规定的递交日期及时间）不准启封”的字样。 3. 响应单位名称(盖章)               联系人                联系方式： 4. 询比文件递交截止时间：2026年10月15日上午09:30  (北京时间)。 5. 地点：上海市杨浦区伟成路70号弘源创新大厦（1号楼）601-602室。 地           址：上海市杨浦区伟成路70号（1号楼）弘源创新大厦601-602室 电          话：021-55231987-8015、8033",
-          "published_at": "2026-09-20 16∶09",
-          "fetched_at": "2026-10-29T10:29:01.108590+00:00",
-          "facts": {
-            "version": 1,
-            "kind": "article",
-            "projects": [
-              {
-                "name": "上海市应急管理局无线网络安全改造服务",
-                "stage": "公开建设动态",
-                "quote": "项目名称：上海市应急管理局无线网络安全改造服务",
-                "buyer": null,
-                "supplier": null,
-                "budget": null,
-                "award_amount": null,
-                "deadline": null,
-                "service_end": null,
-                "relation": "官网公开关联信息，采购主体未明确",
-                "notice": "原文事实，不代表尚有采购机会。"
-              }
-            ],
-            "leaders": [],
-            "organizations": []
-          },
-          "source_host": "yjglj.sh.gov.cn"
-        },
-        {
-          "category": "项目与采购公开信息",
-          "status": "pending",
-          "url": "https://yjglj.sh.gov.cn/xxgk/xxgkml/czzj/zfcg/20261022/05aff045d6b94228bb4c6e53b116190a.html",
-          "title": "上海市应急管理局应急指挥通信设备技术驻场保障服务采购项目询比公告",
-          "excerpt": "2. 未被列入“信用中国”网站( www.creditchina.gov.cn)失信被执行人名单、重大税收违法案件当事人名单和中国政府采购网( www.ccgp.gov.cn)政府采购严重违法失信行为记录名单的供应商； 3. 提供参加政府采购活动前3年内在经营活动中没有重大违法记录的书面声明； 2026年10月9日-2026年10月12日上午9:00～11:30，下午13:00～16:00（北京时间，法定节假日除外） 1.将需要提交的资料电子版(1.依法核发加载统一社会信用代码的营业执照/事业单位法人证书/民办非企业登记证书/社会团体法人登记证书等法人组织单位证书的副本；2.法定代表人授权委托书及被委托人身份证)发送至邮箱sqzb3@sqzhaobiao.com，请在邮件信息中写明项目名称、单位名称。邮件主题：SQ26-0616单位名称；邮件内容：列明单位名称及项目联系人，联系方式；邮件附件：需采用A4纸幅面，将资料加盖公章，按顺序制作成1个PDF格式文件，文件名称与主题一致，复印件扫描无效。 1. 响应单位应将响应文件用信封密封(密封处加盖公章)，并标明项目名称及正本和副本。 2. 每一密封信封上注明“于2026年10月22日下午13:30 之前（指询比文件中规定的递交日期及时间）不准启封”的字样。 3. 响应单位名称(盖章)               联系人                联系方式： 4. 询比文件递交截止时间：2026年10月22日下午13:30  (北京时间)。 5. 地点：上海市杨浦区伟成路70号弘源创新大厦（1号楼）601-602室。 地        址：上海市杨浦区伟成路70号（1号楼）弘源创新大厦601-602室 电        话：021-55231987-8015、8033",
-          "published_at": "2026-10-08 10∶10",
-          "fetched_at": "2026-10-29T10:28:59.072543+00:00",
-          "facts": {
-            "version": 1,
-            "kind": "article",
-            "projects": [
-              {
-                "name": "应急指挥通信设备技术驻场保障服务采购项目",
-                "stage": "采购公告",
-                "quote": "项目名称：应急指挥通信设备技术驻场保障服务采购项目",
-                "buyer": null,
-                "supplier": null,
-                "budget": null,
-                "award_amount": null,
-                "deadline": null,
-                "service_end": null,
-                "relation": "官网公开关联信息，采购主体未明确",
-                "notice": "公告计划及有效期限以原文为准；不自动认定仍在招标。"
-              }
-            ],
-            "leaders": [],
-            "organizations": []
-          },
-          "source_host": "yjglj.sh.gov.cn"
-        },
-        {
-          "category": "项目与采购公开信息",
-          "status": "pending",
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=l86ucoFj89685UtF7uNSVQ%3D%3D",
           "title": "上海市应急管理局2026年11月政府采购意向",
           "excerpt": "采购人：上海市应急管理局\n2026年11月",
           "published_at": "2026-09-24",
-          "fetched_at": "2026-10-29T10:30:25.854522+00:00",
+          "fetched_at": "2026-10-29T17:08:26.080007+00:00",
           "facts": {
             "version": 1,
             "kind": "public_title",
@@ -3782,7 +3790,7 @@
           "title": "上海市应急管理局2026年11月政府采购意向",
           "excerpt": "采购人：上海市应急管理局\n2026年11月",
           "published_at": "2026-09-28",
-          "fetched_at": "2026-10-29T10:30:25.852555+00:00",
+          "fetched_at": "2026-10-29T17:08:26.078084+00:00",
           "facts": {
             "version": 1,
             "kind": "public_title",
@@ -3819,7 +3827,7 @@
           "title": "中共上海市应急管理局委员会印发《上海市应急管理局执法总队主要职责内设机构和人员编制规定》的通知",
           "excerpt": "《上海市应急管理局执法总队主要职责、内设机构和人员编制规定》已经2021年8月9日第15次局党委会议审议通过，现予印发。 第一条  上海市应急管理局执法总队是上海市应急管理局所属行政执法机构，由上海市应急管理局管理，机构规格为正处级。 第二条  上海市应急管理局执法总队以上海市应急管理局名义统一执法，主要承担重大、跨区域等行政执法案件调查处理，重点行业企业的监管执法，统筹重大执法活动，对区应急管理局执法大队的业务指导及其他法定职责。主要职责是： 第四条  上海市应急管理局执法总队核定行政执法人员编制45名。设总队长1名，副总队长3名，正副科级领导职数12名。3个一线执法行政机构行政执法人员编制核定为39名。 （一）承担危险化学品、非煤矿山（含地质勘探）、工贸、安全生产专业服务机构等行业领域安全生产监管，以及地质灾害、水旱灾害、森林火灾等有关应急抢险和灾害救助、综合减灾等方面的行政检查、行政处罚、行政强制和有关普法职责。 （三）负责重大违法行政执法案件的调查处理和跨区域、跨行业行政执法的组织协调。 （四）统筹全市应急管理领域重大执法活动，配合局业务处室开展有关专项检查、专项整治、联合检查等工作，参与应急管理和安全生产督察、巡查、考核等现场调查核实工作。 （五）承担有关市级以上重大活动的安全生产监督检查综合工作，以及服务保障等工作。 （七）负责应急管理综合行政执法数据汇总、统计分析及信息公开等工作。 （八）统筹协调全市应急管理综合行政执法队伍建设，推进执法队伍和执法工作的规范化、标准化建设，指导协调各区应急管理局执法大队的执法工作。 （注：1.只接收对该政策性文件的相关咨询;2.留言时请注明政策性文件名称）",
           "published_at": "2021-08-12 15∶08",
-          "fetched_at": "2026-10-29T10:29:08.858989+00:00",
+          "fetched_at": "2026-10-29T17:07:18.342658+00:00",
           "facts": {
             "version": 1,
             "kind": "profile",
@@ -3841,24 +3849,6 @@
       ],
       "projects": [
         {
-          "name": "应急指挥网络安全运营服务保障项目",
-          "stage": "公开建设动态",
-          "quote": "项目名称：应急指挥网络安全运营服务保障项目",
-          "buyer": null,
-          "supplier": null,
-          "budget": null,
-          "award_amount": null,
-          "deadline": null,
-          "service_end": null,
-          "relation": "官网公开关联信息，采购主体未明确",
-          "notice": "原文事实，不代表尚有采购机会。",
-          "url": "https://yjglj.sh.gov.cn/xxgk/xxgkml/czzj/zfcg/20261022/9575a51892f64423aed4221ebe666020.html",
-          "title": "应急指挥网络安全运营服务保障项目询比公告",
-          "published_at": "2026-09-20 16∶09",
-          "fetched_at": "2026-10-29T10:29:05.008555+00:00",
-          "source_host": "yjglj.sh.gov.cn"
-        },
-        {
           "name": "上海市应急管理局无线网络安全改造服务",
           "stage": "公开建设动态",
           "quote": "项目名称：上海市应急管理局无线网络安全改造服务",
@@ -3873,7 +3863,7 @@
           "url": "https://yjglj.sh.gov.cn/xxgk/xxgkml/czzj/zfcg/20261022/50078fd6b7ba4d2c902c5e01abc08498.html",
           "title": "上海市应急管理局无线网络安全改造服务询比公告",
           "published_at": "2026-09-20 16∶09",
-          "fetched_at": "2026-10-29T10:29:01.108590+00:00",
+          "fetched_at": "2026-10-29T17:07:10.608780+00:00",
           "source_host": "yjglj.sh.gov.cn"
         },
         {
@@ -3891,7 +3881,25 @@
           "url": "https://yjglj.sh.gov.cn/xxgk/xxgkml/czzj/zfcg/20261022/05aff045d6b94228bb4c6e53b116190a.html",
           "title": "上海市应急管理局应急指挥通信设备技术驻场保障服务采购项目询比公告",
           "published_at": "2026-10-08 10∶10",
-          "fetched_at": "2026-10-29T10:28:59.072543+00:00",
+          "fetched_at": "2026-10-29T17:07:08.869160+00:00",
+          "source_host": "yjglj.sh.gov.cn"
+        },
+        {
+          "name": "应急指挥网络安全运营服务保障项目",
+          "stage": "公开建设动态",
+          "quote": "项目名称：应急指挥网络安全运营服务保障项目",
+          "buyer": null,
+          "supplier": null,
+          "budget": null,
+          "award_amount": null,
+          "deadline": null,
+          "service_end": null,
+          "relation": "官网公开关联信息，采购主体未明确",
+          "notice": "原文事实，不代表尚有采购机会。",
+          "url": "https://yjglj.sh.gov.cn/xxgk/xxgkml/czzj/zfcg/20261022/9575a51892f64423aed4221ebe666020.html",
+          "title": "应急指挥网络安全运营服务保障项目询比公告",
+          "published_at": "2026-09-20 16∶09",
+          "fetched_at": "2026-10-29T10:29:05.008555+00:00",
           "source_host": "yjglj.sh.gov.cn"
         },
         {
@@ -3916,7 +3924,7 @@
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=l86ucoFj89685UtF7uNSVQ%3D%3D",
           "title": "上海市应急管理局2026年11月政府采购意向",
           "published_at": "2026-09-24",
-          "fetched_at": "2026-10-29T10:30:25.854522+00:00",
+          "fetched_at": "2026-10-29T17:08:26.080007+00:00",
           "source_host": "www.zfcg.sh.gov.cn"
         },
         {
@@ -3941,7 +3949,7 @@
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=oHxCauGmi3NBxL97%2FhVnYQ%3D%3D",
           "title": "上海市应急管理局2026年11月政府采购意向",
           "published_at": "2026-09-28",
-          "fetched_at": "2026-10-29T10:30:25.852555+00:00",
+          "fetched_at": "2026-10-29T17:08:26.078084+00:00",
           "source_host": "www.zfcg.sh.gov.cn"
         }
       ],
@@ -3957,13 +3965,13 @@
           "url": "https://yjglj.sh.gov.cn/xxgk/xxgkml/jgzn/20210929/6b0dd2549e7c4811935a063ae9788800.html",
           "title": "中共上海市应急管理局委员会印发《上海市应急管理局执法总队主要职责内设机构和人员编制规定》的通知",
           "published_at": "2021-08-12 15∶08",
-          "fetched_at": "2026-10-29T10:29:08.858989+00:00",
+          "fetched_at": "2026-10-29T17:07:18.342658+00:00",
           "source_host": "yjglj.sh.gov.cn"
         }
       ],
       "procurementSources": [
         {
-          "finished_at": "2026-10-29T10:30:25.855880+00:00",
+          "finished_at": "2026-10-29T17:08:26.081092+00:00",
           "status": "success",
           "documents_found": 2,
           "label": "上海市政府采购网",
@@ -3971,7 +3979,7 @@
         }
       ],
       "lastRun": {
-        "finished_at": "2026-10-29T10:30:25.855880+00:00",
+        "finished_at": "2026-10-29T17:08:26.081092+00:00",
         "status": "success",
         "documents_found": 2,
         "source_url": "https://www.zfcg.sh.gov.cn"
@@ -3987,7 +3995,7 @@
       "organizations": [],
       "procurementSources": [],
       "lastRun": {
-        "finished_at": "2026-10-29T10:27:55.993238+00:00",
+        "finished_at": "2026-10-29T17:06:40.050783+00:00",
         "status": "success",
         "documents_found": 0,
         "source_url": "https://www.gzw.sh.gov.cn/"
@@ -4003,7 +4011,7 @@
       "organizations": [],
       "procurementSources": [
         {
-          "finished_at": "2026-10-29T10:30:38.625235+00:00",
+          "finished_at": "2026-10-29T17:08:38.690357+00:00",
           "status": "success",
           "documents_found": 0,
           "label": "上海市政府采购网",
@@ -4011,7 +4019,7 @@
         }
       ],
       "lastRun": {
-        "finished_at": "2026-10-29T10:30:38.625235+00:00",
+        "finished_at": "2026-10-29T17:08:38.690357+00:00",
         "status": "success",
         "documents_found": 0,
         "source_url": "https://www.zfcg.sh.gov.cn"
@@ -4027,7 +4035,7 @@
       "organizations": [],
       "procurementSources": [],
       "lastRun": {
-        "finished_at": "2026-10-29T10:28:02.814141+00:00",
+        "finished_at": "2026-10-29T17:06:43.924707+00:00",
         "status": "success",
         "documents_found": 0,
         "source_url": "https://www.gzw.sh.gov.cn/"
@@ -4074,7 +4082,7 @@
       "organizations": [],
       "procurementSources": [
         {
-          "finished_at": "2026-10-29T10:31:01.013896+00:00",
+          "finished_at": "2026-10-29T17:09:01.015162+00:00",
           "status": "success",
           "documents_found": 0,
           "label": "上海市政府采购网",
@@ -4082,7 +4090,7 @@
         }
       ],
       "lastRun": {
-        "finished_at": "2026-10-29T10:31:01.013896+00:00",
+        "finished_at": "2026-10-29T17:09:01.015162+00:00",
         "status": "success",
         "documents_found": 0,
         "source_url": "https://www.zfcg.sh.gov.cn"
@@ -4157,7 +4165,7 @@
       "organizations": [],
       "procurementSources": [
         {
-          "finished_at": "2026-10-29T07:14:47.682650+00:00",
+          "finished_at": "2026-10-29T17:07:53.777993+00:00",
           "status": "success",
           "documents_found": 0,
           "label": "上海市政府采购网",
@@ -4165,7 +4173,7 @@
         }
       ],
       "lastRun": {
-        "finished_at": "2026-10-29T07:14:47.682650+00:00",
+        "finished_at": "2026-10-29T17:07:53.777993+00:00",
         "status": "success",
         "documents_found": 0,
         "source_url": "https://www.zfcg.sh.gov.cn"
@@ -4183,7 +4191,7 @@
           "title": "上海市总工会静安区工人文化宫2026年11月政府采购意向",
           "excerpt": "采购人：上海市总工会静安区工人文化宫\n2026年11月",
           "published_at": "2026-10-29",
-          "fetched_at": "2026-10-29T07:15:03.713395+00:00",
+          "fetched_at": "2026-10-29T17:08:12.005795+00:00",
           "facts": {
             "version": 1,
             "kind": "public_title",
@@ -4220,7 +4228,7 @@
           "title": "上海市总工会黄浦区工人文化宫2026年12月政府采购意向",
           "excerpt": "采购人：上海市总工会黄浦区工人文化宫\n2026年12月",
           "published_at": "2026-10-22",
-          "fetched_at": "2026-10-29T07:15:03.708912+00:00",
+          "fetched_at": "2026-10-29T17:08:12.004407+00:00",
           "facts": {
             "version": 1,
             "kind": "public_title",
@@ -4274,7 +4282,7 @@
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=UoL0o2FJEK8bbZbxeDZxwQ%3D%3D",
           "title": "上海市总工会静安区工人文化宫2026年11月政府采购意向",
           "published_at": "2026-10-29",
-          "fetched_at": "2026-10-29T07:15:03.713395+00:00",
+          "fetched_at": "2026-10-29T17:08:12.005795+00:00",
           "source_host": "www.zfcg.sh.gov.cn"
         },
         {
@@ -4299,7 +4307,7 @@
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=9v8bu%2BsJ%2BkkhbEgcQslhTQ%3D%3D",
           "title": "上海市总工会黄浦区工人文化宫2026年12月政府采购意向",
           "published_at": "2026-10-22",
-          "fetched_at": "2026-10-29T07:15:03.708912+00:00",
+          "fetched_at": "2026-10-29T17:08:12.004407+00:00",
           "source_host": "www.zfcg.sh.gov.cn"
         }
       ],
@@ -4307,7 +4315,7 @@
       "organizations": [],
       "procurementSources": [
         {
-          "finished_at": "2026-10-29T07:15:03.715097+00:00",
+          "finished_at": "2026-10-29T17:08:12.006941+00:00",
           "status": "success",
           "documents_found": 2,
           "label": "上海市政府采购网",
@@ -4315,7 +4323,7 @@
         }
       ],
       "lastRun": {
-        "finished_at": "2026-10-29T07:15:03.715097+00:00",
+        "finished_at": "2026-10-29T17:08:12.006941+00:00",
         "status": "success",
         "documents_found": 2,
         "source_url": "https://www.zfcg.sh.gov.cn"
@@ -4333,7 +4341,7 @@
           "title": "上海市房地产交易中心2026年12月政府采购意向",
           "excerpt": "采购人：上海市房地产交易中心\n2026年12月",
           "published_at": "2026-09-21",
-          "fetched_at": "2026-10-29T10:30:46.378884+00:00",
+          "fetched_at": "2026-10-29T17:08:45.997938+00:00",
           "facts": {
             "version": 1,
             "kind": "public_title",
@@ -4370,7 +4378,7 @@
           "title": "上海市房地产交易中心2026年12月政府采购意向",
           "excerpt": "采购人：上海市房地产交易中心\n2026年12月",
           "published_at": "2026-09-21",
-          "fetched_at": "2026-10-29T10:30:46.376877+00:00",
+          "fetched_at": "2026-10-29T17:08:45.996511+00:00",
           "facts": {
             "version": 1,
             "kind": "public_title",
@@ -4424,7 +4432,7 @@
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=WaXDWldQTY%2B8TCQOgj9l8A%3D%3D",
           "title": "上海市房地产交易中心2026年12月政府采购意向",
           "published_at": "2026-09-21",
-          "fetched_at": "2026-10-29T10:30:46.378884+00:00",
+          "fetched_at": "2026-10-29T17:08:45.997938+00:00",
           "source_host": "www.zfcg.sh.gov.cn"
         },
         {
@@ -4449,7 +4457,7 @@
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=LJdXBkqiJkp4J4PF%2BKqFow%3D%3D",
           "title": "上海市房地产交易中心2026年12月政府采购意向",
           "published_at": "2026-09-21",
-          "fetched_at": "2026-10-29T10:30:46.376877+00:00",
+          "fetched_at": "2026-10-29T17:08:45.996511+00:00",
           "source_host": "www.zfcg.sh.gov.cn"
         }
       ],
@@ -4457,7 +4465,7 @@
       "organizations": [],
       "procurementSources": [
         {
-          "finished_at": "2026-10-29T10:30:46.380091+00:00",
+          "finished_at": "2026-10-29T17:08:45.999130+00:00",
           "status": "success",
           "documents_found": 2,
           "label": "上海市政府采购网",
@@ -4465,7 +4473,7 @@
         }
       ],
       "lastRun": {
-        "finished_at": "2026-10-29T10:30:46.380091+00:00",
+        "finished_at": "2026-10-29T17:08:45.999130+00:00",
         "status": "success",
         "documents_found": 2,
         "source_url": "https://www.zfcg.sh.gov.cn"
