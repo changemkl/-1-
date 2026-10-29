@@ -30,7 +30,7 @@ class WorklogTests(unittest.TestCase):
         task=self.data['tasks'][0];task['updatedAt']='2026-10-27T01:00:00Z'
         output,state=m.sync(self.data,self.customers,{'entries':[]},{},now=self.now)
         task['updatedAt']='2026-10-28T01:00:00Z'
-        same,state=m.sync(self.data,self.customers,output,state,now=self.now);self.assertEqual(same,output)
+        same,state=m.sync(self.data,self.customers,output,state,now=self.now);self.assertEqual(same['entries'],output['entries'])
         task['timeline'][0]['description']='补充方案交流';task['timeline'][0]['workDate']='2026-10-28'
         updated,_=m.sync(self.data,self.customers,same,state,now=self.now)
         self.assertEqual(len(updated['entries']),2);self.assertEqual(sum(r['content']=='工作内容：补充方案交流'for r in updated['entries']),1)
@@ -48,6 +48,20 @@ class WorklogTests(unittest.TestCase):
         self.assertEqual(m.customer_match('上海市公安局浦东分局',self.customers)['id'],'b');self.assertIsNone(m.customer_match('上海市铁路公安局',self.customers));self.assertEqual(m.customer_match('中浦院',self.customers)['id'],'c')
         first=self.data['tasks'][0]['timeline'][0];self.data['tasks'][0]['timeline'].append({**first,'id':'different','operatorName':'李四'})
         rows=m.candidates(self.data,self.customers);self.assertEqual(sum(r['key'].startswith('daily:')for r in rows.values()),2)
+    def test_conversion_ids_merge_but_same_named_independent_projects_do_not(self):
+        lead=self.data['tasks'][0];lead.update(code='DF-XS-A',businessStage='LEAD',latestProgress='已转为商机 DF-OPP-B')
+        self.data['tasks'].append({'id':'opp','code':'DF-OPP-B','clientName':'公安部第三研究所','title':'算力中心','businessStage':'OPPORTUNITY','taskType':'COMMERCIAL_OPP','timeline':[]})
+        self.data['tasks'].append({'id':'independent','code':'DF-OPP-C','clientName':'公安部第三研究所','title':'算力中心','businessStage':'OPPORTUNITY','timeline':[]})
+        projects,by_task=m.project_catalog(self.data,self.customers)
+        self.assertEqual(len(projects),2);self.assertEqual(by_task['t']['id'],by_task['opp']['id']);self.assertNotEqual(by_task['t']['id'],by_task['independent']['id'])
+        self.assertEqual(by_task['t']['type'],'商机')
+        rows=m.candidates(self.data,self.customers,(projects,by_task));self.assertEqual(rows['daily:d:a']['projectTypes'][by_task['t']['id']],'线索')
+    def test_multi_project_log_links_both_and_unknown_link_is_retained(self):
+        self.data['tasks'][0]['title']='人工智能算力中心项目'
+        self.data['tasks'].append({'id':'second','clientName':'公安部第三研究所','title':'视频加密建设项目','businessStage':'LEAD','timeline':[]})
+        self.data['workLogs']=[{'id':'w','title':'公安三所工作','content':'沟通人工智能算力中心项目和视频加密建设项目','workDate':'2026-10-28'},{'id':'general','title':'公安三所交流','content':'客户沟通，具体项目尚不明确'}]
+        rows=m.candidates(self.data,self.customers)
+        self.assertEqual(len(rows['worklog:w:a']['projectIds']),2);self.assertFalse(rows['worklog:general:a'].get('projectIds'))
     def test_long_narratives_and_bidding_updates_are_kept(self):
         self.data['tasks'][0]['timeline'][0]['description']='工作记录'*1000
         self.data['biddingRecords']=[{'id':'b','clientName':'公安部第三研究所','projectName':'项目','status':'LOST','bidDeadline':'2026-10-27'}]

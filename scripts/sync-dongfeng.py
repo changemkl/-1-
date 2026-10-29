@@ -53,7 +53,61 @@ def customer_match(name,customers):
 ROLES={'CUSTOMER_MANAGER':'客户经理','SOLUTION_MANAGER':'解决方案经理','PRE_SALES_MANAGER':'售前经理','PRESALES_MANAGER':'售前经理','PROJECT_MANAGER':'项目经理','BUSINESS_MANAGER':'商务经理'}
 SYSTEM_NAMES={'系统导入','业务流程引擎','平台调度中心','智能调度引擎','Zifang-Admin','系统','东风管理平台'}
 
-def candidates(data,customers):
+def record_type(task):
+    if task.get('businessStage')=='LEAD' or str(task.get('code','')).startswith('DF-XS-'):return '线索'
+    return '商机' if task.get('taskType')=='COMMERCIAL_OPP' or task.get('businessStage') in STAGES else '项目'
+
+def project_catalog(data,customers,previous=None):
+    tasks={};parent={}
+    for t in data['tasks']:
+        customer=customer_match(t.get('clientName'),customers)
+        if customer and t.get('id'):tasks[str(t['id'])]=(t,customer);parent[str(t['id'])]=str(t['id'])
+    def root(k):
+        while parent[k]!=k:parent[k]=parent[parent[k]];k=parent[k]
+        return k
+    def union(a,b):
+        if tasks[a][1]['id']==tasks[b][1]['id']:parent[root(b)]=root(a)
+    codes={t.get('code'):k for k,(t,c)in tasks.items() if t.get('code')}
+    for key,(task,customer)in tasks.items():
+        text='\n'.join([str(task.get('latestProgress')or''),*[str(e.get('description')or'') for e in task.get('timeline',[]) if re.search('转为商机|转化|转商机',str(e.get('title')or''))]])
+        # Only explicit lead-conversion references establish project identity; names alone never merge projects.
+        if re.search('转为商机|转商机|转化|生成商机|线索.*商机',text):
+            for code in re.findall(r'DF-(?:XS|OPP)-[A-Za-z0-9_-]+',text):
+                if code in codes:union(key,codes[code])
+        details=task.get('sourceDetails')or{}
+        for field in ('sourceLeadId','leadId','sourceTaskId','convertedFromId'):
+            ref=details.get(field)
+            if ref in tasks:union(key,ref)
+    groups={}
+    for key in tasks:groups.setdefault(root(key),[]).append(key)
+    projects=[];by_task={}
+    for keys in groups.values():
+        members=[tasks[k][0] for k in keys];customer=tasks[keys[0]][1]
+        commercial=[t for t in members if record_type(t)=='商机'];latest=max(commercial or members,key=lambda t:t.get('updatedAt')or'')
+        old=[p for p in previous or [] if p.get('customerId')==customer['id'] and set(p.get('taskIds',[]))&set(keys)]
+        identifier=old[0]['id'] if old else 'dfproject:'+hashlib.sha256((customer['id']+'|'+min(keys)).encode()).hexdigest()[:20]
+        aliases=list(dict.fromkeys(a for p in old for a in [p['id'],*p.get('aliasIds',[])] if a!=identifier))
+        project={'id':identifier,'aliasIds':aliases,'customerId':customer['id'],'customerName':customer['name'],'name':clean(latest.get('title')) or '未命名项目','type':'商机' if commercial else record_type(latest),'status':'已关闭' if latest.get('executionStatus')=='CLOSED' else STAGES.get(latest.get('businessStage'),clean(latest.get('businessStage')) or '待确认'),'relatedUnit':clean(latest.get('clientName')),'taskIds':keys,'codes':list(dict.fromkeys(t['code'] for t in members if t.get('code'))),'names':list(dict.fromkeys(clean(t.get('title'))for t in members if t.get('title'))),'updatedAt':latest.get('updatedAt')or''}
+        projects.append(project)
+        for key in keys:by_task[key]=project
+    for bid in data.get('biddingRecords',[]):
+        customer=customer_match(bid.get('clientName'),customers)
+        if not customer:continue
+        project=by_task.get(str(bid.get('taskId')))
+        if not project:
+            found=[p for p in projects if p['customerId']==customer['id'] and normalize(p['name'])==normalize(bid.get('projectName')) and normalize(p['relatedUnit'])==normalize(bid.get('clientName'))]
+            if len(found)==1:project=found[0]
+        if not project:
+            project={'id':'dfbid:'+str(bid.get('id')),'customerId':customer['id'],'customerName':customer['name'],'name':clean(bid.get('projectName')) or '未命名投标项目','type':'商机','status':STAGES.get(bid.get('status'),clean(bid.get('status')) or '待确认'),'relatedUnit':clean(bid.get('clientName')),'taskIds':[],'codes':[bid.get('biddingCode')or''],'names':[clean(bid.get('projectName'))],'updatedAt':bid.get('updatedAt')or''};projects.append(project)
+        by_task['bid:'+str(bid.get('id'))]=project
+    known={p['id'] for p in projects}|{a for p in projects for a in p.get('aliasIds',[])}
+    for old in previous or []:
+        if old['id'] not in known:projects.append(old)
+    return projects,by_task
+
+
+def candidates(data,customers,catalog=None):
+    projects,by_task=catalog or project_catalog(data,customers)
     rows={}
     personnel={str(p.get('id')):p for p in data.get('personnel',[]) if isinstance(p,dict)}
     personnel.update({str(p.get('employeeId')):p for p in data.get('personnel',[]) if p.get('employeeId')})
@@ -67,9 +121,23 @@ def candidates(data,customers):
         key=kind+':'+str(source_id)+':'+customer['id']
         item={'key':key,'customerId':customer['id'],'customerName':customer['name'],'workDate':date,'title':clean(title),'content':clean(content),'dateLabel':label,'relatedUnit':clean(related) if related and related!=customer['name'] else None,'actorName':name,'actorRole':role,**extra}
         if original:item['originalContent']=clean(original)
+        if kind in ('daily','event','progress','report'):
+            project=by_task.get(str(task.get('id')))
+            if project:item.update(projectIds=[project['id']],projectTypes={project['id']:record_type(task)})
+        elif kind=='bid':
+            project=by_task.get('bid:'+str(source_id))
+            if project:item.update(projectIds=[project['id']],projectTypes={project['id']:'商机'})
+        else:
+            text=normalize(title+'\n'+content+'\n'+original)
+            matches=[p for p in projects if p['customerId']==customer['id'] and (any(code and normalize(code) in text for code in p.get('codes',[])) or any(len(normalize(name))>=6 and normalize(name) in text for name in p.get('names',[p['name']])))]
+            # Same-name independent projects require a code/ID; otherwise retain the customer-level log.
+            matches=[p for p in matches if any(code and normalize(code) in text for code in p.get('codes',[])) or sum(normalize(q['name'])==normalize(p['name']) for q in projects if q['customerId']==customer['id'])==1]
+            if matches:item.update(projectIds=[p['id'] for p in matches],projectTypes={p['id']:p['type'] for p in matches})
         # Converted opportunities can repeat the same source event; retain one event and all project names.
         if key in rows:
             item['projectNames']=list(dict.fromkeys(rows[key].get('projectNames',[rows[key]['title']])+[item['title']]))
+            item['projectIds']=list(dict.fromkeys(rows[key].get('projectIds',[])+item.get('projectIds',[])))
+            item['projectTypes']={**rows[key].get('projectTypes',{}),**item.get('projectTypes',{})}
         rows[key]=item
     def parts(fields):return '\n'.join(label+'：'+clean(value) for label,value in fields if value not in (None,'',[],{}))
     def mentions(text):
@@ -149,7 +217,8 @@ def sync(data,customers,previous,state,initialize=False,now=None):
     now=now or dt.datetime.now(CHINA);stamp=now.isoformat(timespec='seconds')
     for key in ('tasks','visits','workLogs'):
         if not isinstance(data.get(key),list):raise ValueError('Incomplete Dongfeng response; previous logs retained')
-    current=candidates(data,customers)
+    catalog=project_catalog(data,customers,previous.get('projects',[]))
+    current=candidates(data,customers,catalog)
     hashes={k:hashlib.sha256(json.dumps({field:value for field,value in v.items() if not (k.startswith('progress:') and field in ('recordUpdatedDate','recordCreatedDate'))},sort_keys=True,ensure_ascii=False).encode()).hexdigest() for k,v in current.items()}
     # Replace generated synchronization summaries; retain all previously collected source records.
     entries={r['sourceRecordId']:r for r in previous.get('entries',[]) if r.get('sourceRecordId') and not r.get('isInitialSummary')}
@@ -164,7 +233,7 @@ def sync(data,customers,previous,state,initialize=False,now=None):
         for key in list(entries):
             if key not in current and key+':'+entries[key]['customerId'] in current:del entries[key]
     ordered=sorted(entries.values(),key=lambda r:(r.get('workDate')or'',r['id']),reverse=True)
-    output={**previous,'version':2,'source':'东风平台','entries':ordered,'coverage':{'sourceRecords':len(current),'byType':{kind:sum(k.startswith(kind+':') for k in current) for kind in ('daily','event','progress','visit','worklog','report','bid')},'unknownDates':sum(not r.get('workDate')for r in ordered)}}
+    output={**previous,'version':3,'source':'东风平台','projects':catalog[0],'entries':ordered,'coverage':{'sourceRecords':len(current),'byType':{kind:sum(k.startswith(kind+':') for k in current) for kind in ('daily','event','progress','visit','worklog','report','bid')},'unknownDates':sum(not r.get('workDate')for r in ordered)}}
     if ordered!=previous.get('entries',[]):output['updatedAt']=stamp
     next_state={'version':2,'initializedAt':state.get('initializedAt',stamp),'hashes':{**state.get('hashes',{}),**hashes}}
     return output,next_state

@@ -14,3 +14,5 @@
 人工录入共享保存复用本服务的访问码和会话认证。新增的 SQLite 数据库位于 `DATA_DIR/manual.sqlite`（Docker 下为 `/data/manual.sqlite`），重启后仍保留；备份时连同 SQLite 的 WAL 文件一致备份，或停止服务后复制数据库。重新构建 Docker 镜像会包含 `manual-store.mjs`。接口：认证后 `GET /api/manual-records`、`POST /api/manual-records`、`DELETE /api/manual-records/:id`，编辑/删除必须带当前 revision，冲突返回409；单条记录客户编号、名称及类型不可改。访问码为团队共享写入权限，当前没有逐人账号与权限区分。
 
 部署后把 `public/manual-config.json` 的 `apiBaseUrl` 配成该服务 HTTPS 地址，页面“录入信息”中输入访问码连接。当前默认地址为空：人工资料只存在当前浏览器的 localStorage，与自动同步完全分开，不能视作跨设备共享。配置共享服务后不自动上传此前本机资料，避免未确认的内部记录外传。人工人员、项目与日志不会由腾讯、东风或公开网页采集任务覆盖。共享数据库内容仅通过认证接口读取，不写入公开 GitHub JSON。
+
+人工工作日志支持可选的 `projectId`、`projectName`、`projectType` 字段。页面只提供关联项目选择，类型由已选项目自动带入；不选项目的日志保留在客户日常工作／待关联记录。

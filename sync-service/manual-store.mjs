@@ -1,6 +1,6 @@
 import {DatabaseSync} from 'node:sqlite';
 import crypto from 'node:crypto';
-const fields={person:{name:200,department:200,role:200,businessRole:200,topic:200,notes:600,infoSource:200,learnedDate:10,sourceUrl:1000,sourceTitle:200},project:{title:200,description:600,progress:600,nextAction:600,infoSource:200},log:{workDate:10,content:1800,infoSource:200}};
+const fields={person:{name:200,department:200,role:200,businessRole:200,topic:200,notes:600,infoSource:200,learnedDate:10,sourceUrl:1000,sourceTitle:200},project:{title:200,description:600,progress:600,nextAction:600,infoSource:200},log:{workDate:10,content:1800,infoSource:200,projectId:250,projectName:200,projectType:20}};
 const required={person:['name'],project:['title','description'],log:['workDate','content']};
 const fail=(message,status=400)=>{throw Object.assign(Error(message),{status});};
 function date(value){if(!/^\d{4}-\d{2}-\d{2}$/.test(value))return false;const stamp=new Date(value+'T00:00:00Z');return Number.isFinite(stamp.getTime())&&stamp.toISOString().slice(0,10)===value;}
