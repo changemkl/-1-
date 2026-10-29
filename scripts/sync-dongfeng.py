@@ -1,4 +1,4 @@
-"""Read authorized Dongfeng records; publish customer-scoped work-log summaries only."""
+"""Read authorized Dongfeng records; publish customer-scoped source work records."""
 import argparse
 import datetime as dt
 import hashlib
@@ -39,7 +39,7 @@ def clean(value):
     # Business narrative only: omit phone numbers and credential assignments.
     text=re.sub(r'(?<!\d)1[3-9]\d{9}(?!\d)','[联系方式已省略]',text)
     text=re.sub(r'(?i)(?:密码|password|access_token|token)\s*[:：=]\s*\S+','[凭据已省略]',text)
-    return text[:1800]
+    return text
 
 def normalize(value):return re.sub(r'\s+','',str(value or '')).replace('（','(').replace('）',')')
 
@@ -50,48 +50,99 @@ def customer_match(name,customers):
     related=[c for c in customers if any(name.startswith(normalize(p)) for p in c.get('relatedPrefixes',[])) or name in c.get('relatedNames',[])]
     return related[0] if len(related)==1 else None
 
+ROLES={'CUSTOMER_MANAGER':'客户经理','SOLUTION_MANAGER':'解决方案经理','PRE_SALES_MANAGER':'售前经理','PRESALES_MANAGER':'售前经理','PROJECT_MANAGER':'项目经理','BUSINESS_MANAGER':'商务经理'}
+SYSTEM_NAMES={'系统导入','业务流程引擎','平台调度中心','智能调度引擎','Zifang-Admin','系统','东风管理平台'}
+
 def candidates(data,customers):
     rows={}
-    def add(kind,source_id,customer,date,title,content,label,related=None):
-        if not source_id or not customer or not date or not content:return
-        key=kind+':'+str(source_id)
-        rows[key]={'key':key,'customerId':customer['id'],'customerName':customer['name'],'workDate':date,'title':clean(title),'content':clean(content),'dateLabel':label,'relatedUnit':clean(related) if related and related!=customer['name'] else None}
+    personnel={str(p.get('id')):p for p in data.get('personnel',[]) if isinstance(p,dict)}
+    personnel.update({str(p.get('employeeId')):p for p in data.get('personnel',[]) if p.get('employeeId')})
+    def actor(name,role='',identifier=None):
+        if not name and identifier and str(identifier) in personnel:name=personnel[str(identifier)].get('name')
+        name=clean(name) if isinstance(name,str) else ''
+        if name in SYSTEM_NAMES or re.search(r'系统|引擎|自动',name):return '', ''
+        return name,ROLES.get(role,clean(role)) if name else ''
+    def add(kind,source_id,customer,date,title,content,label,related=None,name='',role='',original='',**extra):
+        if not source_id or not customer or not str(content or '').strip():return
+        key=kind+':'+str(source_id)+':'+customer['id']
+        item={'key':key,'customerId':customer['id'],'customerName':customer['name'],'workDate':date,'title':clean(title),'content':clean(content),'dateLabel':label,'relatedUnit':clean(related) if related and related!=customer['name'] else None,'actorName':name,'actorRole':role,**extra}
+        if original:item['originalContent']=clean(original)
+        # Converted opportunities can repeat the same source event; retain one event and all project names.
+        if key in rows:
+            item['projectNames']=list(dict.fromkeys(rows[key].get('projectNames',[rows[key]['title']])+[item['title']]))
+        rows[key]=item
+    def parts(fields):return '\n'.join(label+'：'+clean(value) for label,value in fields if value not in (None,'',[],{}))
+    def mentions(text):
+        return [c for c in customers if any(a in text for a in [c['name'],*c.get('aliases',[])])]
+    all_customer_names=[str(c.get('fullName')or'') for c in data.get('customers',[]) if c.get('fullName')]
+    def blocks(content,targets):
+        """Keep continuation lines after a customer heading, stop at another known customer heading."""
+        result=[];active=False
+        for line in content.splitlines():
+            matched=mentions(line)
+            if matched:active=any(c['id'] in targets for c in matched)
+            elif any(n in line for n in all_customer_names if len(n)>=3):active=False
+            elif re.match(r'^\s*(?:\d+[、.．]|[一二三四五六七八九十]+[、.．])',line):active=False
+            elif re.match(r'^\s*[^:：]{2,25}[:：]',line) and not re.match(r'^\s*(?:下一步|进展|需求|结果|背景|备注|工作内容)[:：]',line):active=False
+            if active:result.append(line)
+        return '\n'.join(result).strip()
     for task in data['tasks']:
         customer=customer_match(task.get('clientName'),customers)
         if not customer:continue
-        title=clean(task.get('title'))
+        title=clean(task.get('title')) or '未命名项目'
         for event in task.get('timeline',[]):
-            if event.get('title')!='每日进展登记':continue
-            date=day(event.get('workDate')) or day(event.get('timestamp'))
-            body=event.get('description') or ''
-            if not body.strip():continue
-            # Skip generic automatically populated placeholders.
-            if body.strip() in ('线索已录入，等待后续协同推进。','商机已录入，等待后续协同推进。'):continue
-            add('daily',event.get('id'),customer,date,title+' · 工作进展',title+'：'+body,'东风工作日期',task.get('clientName'))
+            event_title=event.get('title','')
+            # Business actions by a person, plus migrated source-ledger progress. Skip automated configuration noise.
+            human_name,human_role=actor(event.get('operatorName'),event.get('operatorRole',''),event.get('operatorEmployeeId'))
+            business=event_title in ('每日进展登记','源台账进展导入','客户经理提交关闭申请','指挥部审核通过，任务正式关闭归档','商机已转投标','线索已转为商机','线索转化完成','客户经理录入商机并提交','客户经理录入线索并提交') or bool(human_name and not re.search(r'已配置|台账信息已更新|进入待研判池|自动匹配|协同待办',event_title))
+            if not business:continue
+            description=clean(event.get('description'))
+            body=parts([('工作内容',description),('下一步',event.get('nextStepPlan') if clean(event.get('nextStepPlan')) not in description else ''),('下一步时间',event.get('nextStepDueAt') if clean(event.get('nextStepDueAt')) not in description else '')])
+            if not body:body=event_title or '具体工作内容未注明'
+            date=day(event.get('workDate')) or (day(event.get('timestamp')) if event_title not in ('每日进展登记','源台账进展导入') else None)
+            label='东风工作日期' if day(event.get('workDate')) else '东风事件记录日期' if date else '东风日期未明确'
+            participants=[]
+            for person in event.get('participants',[]):
+                if isinstance(person,dict) and person.get('name'):participants.append(clean(person['name'])+('（'+ROLES.get(person.get('role'),clean(person.get('role')))+'）' if person.get('role') else ''))
+            add('daily' if event_title=='每日进展登记' else 'event',event.get('id'),customer,date,title+' · '+event_title,body,label,task.get('clientName'),human_name,human_role,participants=participants,recordUpdatedDate=day(event.get('timestamp')) if not date else None)
         progress=clean(task.get('latestProgress'))
-        if progress and not any(s in progress for s in ['等待后续协同推进','已转为商机','已由线索转为商机']):
-            stage='已关闭' if task.get('executionStatus')=='CLOSED' else STAGES.get(task.get('businessStage'),'待核实')
-            content=f'{title}：{progress}（平台阶段：{stage}）'
-            next_step=clean(task.get('nextStepPlan'))
-            if next_step and next_step not in ('无','待客户经理维护下一步计划。'):content+=' 下一步：'+next_step
-            add('progress',task.get('id'),customer,day(task.get('updatedAt')),title+' · 项目进展',content,'东风记录更新日期',task.get('clientName'))
+        body=parts([('项目',title),('建设内容',task.get('description')),('最新进展',progress),('下一步',task.get('nextStepPlan'))])
+        stage='已关闭' if task.get('executionStatus')=='CLOSED' else STAGES.get(task.get('businessStage'),clean(task.get('businessStage')) or '未注明')
+        body+='\n平台阶段：'+stage
+        outcomes=task.get('stageOutcomes')or{}
+        body+='\n'+parts([(label,outcomes.get(key)) for key,label in [('leadOutcome','线索结果'),('biddingOutcome','投标进展'),('winLostOutcome','中失标状态'),('lostReason','失标原因')]])
+        # The last editor is not assumed to be the person who performed the work.
+        add('progress',task.get('id'),customer,None,title+' · 最新项目记录',body,'实际工作日期未明确',task.get('clientName'),recordUpdatedDate=day(task.get('updatedAt')),recordCreatedDate=day(task.get('createdAt')),responsibleManager=clean(task.get('customerManagerName')))
+        for report_kind,report in (task.get('reports')or{}).items():
+            if not isinstance(report,dict):continue
+            content=parts([(k,v) for k,v in report.items() if isinstance(v,str) and k not in ('id','createdAt','updatedAt','submittedAt','author','authorName','creatorName','name','role','status','employeeId','userId')])
+            if not content:continue
+            name,role=actor(report.get('authorName')or report.get('creatorName'),report.get('role',''))
+            add('report',str(task.get('id'))+':'+report_kind,customer,day(report.get('workDate')),title+' · 支撑报告',content,'东风工作日期' if day(report.get('workDate')) else '东风日期未明确',task.get('clientName'),name,role)
     for visit in data['visits']:
-        if visit.get('status')!='COMPLETED':continue
         customer=customer_match(visit.get('clientName'),customers)
-        date=day(visit.get('actualTime')) # Never use planned visit dates as completed work dates.
-        content=clean(visit.get('visitOutcome'))
-        add('visit',visit.get('id'),customer,date,'客户拜访','客户拜访：'+content if content else '', '东风实际拜访日期',visit.get('clientName'))
+        completed=visit.get('status')=='COMPLETED'
+        content=parts([('拜访状态','已完成' if completed else '尚未确认完成'),('拜访目标',visit.get('visitGoal')),('拜访对象（源记录）',visit.get('targetPerson')),('客户反馈',visit.get('clientAttitude')),('客户需求',visit.get('clientDemands')),('拜访结果',visit.get('visitOutcome')),('下一步',visit.get('nextAction'))])
+        name,role=actor(visit.get('responsibleManager'),'')
+        date=day(visit.get('actualTime')) if completed else None
+        add('visit',visit.get('id'),customer,date,'客户拜访',content,'东风实际拜访日期' if date else '实际拜访日期未明确',visit.get('clientName'),name,role,actorLabel='负责经理',plannedVisitDate=day(visit.get('plannedTime')))
     for log in data['workLogs']:
         content=clean(log.get('content'));title=clean(log.get('title'))
-        # Require an explicit mention in the narrative; do not assign a multi-client log wholesale.
-        for customer in customers:
-            aliases=[customer['name'],*customer.get('aliases',[])]
-            parts=[p.strip() for p in re.split(r'[\n；;]',content) if any(a in p for a in aliases)]
-            if len(parts)==0 and any(a in title for a in aliases):parts=[content]
-            if not parts:continue
-            # A test-report reference is not work performed for that customer.
-            parts=[p for p in parts if not re.search(r'(检测|测评)报告',p)]
-            if parts:add('worklog',str(log.get('id'))+':'+customer['id'],customer,day(log.get('workDate')),'客户工作记录','\n'.join(parts),'东风工作日期')
+        direct=customer_match(log.get('clientName'),customers)
+        linked=mentions(title+'\n'+content)
+        if direct and all(c['id']!=direct['id'] for c in linked):linked.append(direct)
+        name,role=actor(log.get('creatorName'),log.get('creatorRole',''),log.get('creatorEmployeeId'))
+        for customer in linked:
+            excerpt=blocks(content,{customer['id']})
+            # Keep the original narrative when context cannot be separated confidently.
+            if not excerpt:excerpt=content or title or '工作内容未注明'
+            uncertain=not direct and not any(a in title for a in [customer['name'],*customer.get('aliases',[])])
+            add('worklog',log.get('id'),customer,day(log.get('workDate')),title or '客户工作记录',excerpt,'东风工作日期' if day(log.get('workDate')) else '东风日期未明确',name=name,role=role,original=content if content!=excerpt else '',associationNote='原始日志提及该客户，具体关联待确认' if uncertain else '',durationHours=log.get('durationHours'))
+    for bid in data.get('biddingRecords',[]):
+        customer=customer_match(bid.get('clientName'),customers)
+        content=parts([('项目',bid.get('projectName')),('投标状态',STAGES.get(bid.get('status'),bid.get('status'))),('投标阶段',bid.get('biddingStage')),('投标主体',bid.get('biddingEntity')),('投标截止时间（计划）',bid.get('bidDeadline'))])
+        # A bid deadline is never presented as work performed on that day.
+        add('bid',bid.get('id'),customer,None,'投标进展记录',content,'实际工作日期未明确',bid.get('clientName'),recordUpdatedDate=day(bid.get('updatedAt')))
     return rows
 
 def sync(data,customers,previous,state,initialize=False,now=None):
@@ -99,27 +150,25 @@ def sync(data,customers,previous,state,initialize=False,now=None):
     for key in ('tasks','visits','workLogs'):
         if not isinstance(data.get(key),list):raise ValueError('Incomplete Dongfeng response; previous logs retained')
     current=candidates(data,customers)
-    # Resource assignment can change updatedAt without a new business progress entry.
-    hashes={k:hashlib.sha256(json.dumps({field:value for field,value in v.items() if not (k.startswith('progress:') and field=='workDate')},sort_keys=True,ensure_ascii=False).encode()).hexdigest() for k,v in current.items()}
-    if not state and not initialize:raise ValueError('Missing baseline; initialize explicitly to avoid importing old records as new work')
-    entries={r['id']:r for r in previous.get('entries',[])}
+    hashes={k:hashlib.sha256(json.dumps({field:value for field,value in v.items() if not (k.startswith('progress:') and field in ('recordUpdatedDate','recordCreatedDate'))},sort_keys=True,ensure_ascii=False).encode()).hexdigest() for k,v in current.items()}
+    # Replace generated synchronization summaries; retain all previously collected source records.
+    entries={r['sourceRecordId']:r for r in previous.get('entries',[]) if r.get('sourceRecordId') and not r.get('isInitialSummary')}
     if not initialize:
         for key,record in current.items():
-            if hashes[key]==state.get('hashes',{}).get(key):continue
-            identifier='dongfeng:'+hashlib.sha256((key+'|'+record['workDate']).encode()).hexdigest()[:24]
-            content=record['content']
-            if record.get('relatedUnit'):content='关联单位：'+record['relatedUnit']+'\n'+content
-            prior=entries.get(identifier,{})
-            entry={'id':identifier,'customerId':record['customerId'],'customerName':record['customerName'],'workDate':record['workDate'],'datePrecision':'explicit','content':content,'sourceType':'dongfeng','sourceLabel':'东风平台 · '+record['dateLabel'],'sourceRecordId':key,'sourceUrl':BASE+'/dongfeng?workspace=DONGFENG','firstSeenAt':prior.get('firstSeenAt',stamp),'updatedAt':stamp}
-            # Daily entries may be copied into a converted opportunity; display one same-client/day/content.
-            duplicate=next((r for r in entries.values() if r['customerId']==entry['customerId'] and r['workDate']==entry['workDate'] and r['content']==entry['content']),None)
-            if not duplicate:entries[identifier]=entry
-            elif duplicate['id']==identifier:entries[identifier]=entry
-    ordered=sorted(entries.values(),key=lambda r:(r['workDate'],r['id']),reverse=True)
-    output={**previous,'version':1,'source':'东风平台','entries':ordered}
+            prior=entries.get(key,{})
+            if prior and hashes[key]==state.get('hashes',{}).get(key):continue
+            identifier='dongfeng:'+hashlib.sha256(key.encode()).hexdigest()[:24]
+            entry={**{k:v for k,v in record.items() if k not in ('key','dateLabel')},'id':identifier,'datePrecision':'explicit' if record['workDate'] else 'unknown','sourceType':'dongfeng','sourceLabel':'东风平台 · '+record['dateLabel'],'sourceRecordId':key,'sourceUrl':BASE+'/dongfeng?workspace=DONGFENG','firstSeenAt':prior.get('firstSeenAt',stamp),'updatedAt':stamp}
+            entries[key]=entry
+        # Superseded v1 entries are replaced by the corresponding explicit source record.
+        for key in list(entries):
+            if key not in current and key+':'+entries[key]['customerId'] in current:del entries[key]
+    ordered=sorted(entries.values(),key=lambda r:(r.get('workDate')or'',r['id']),reverse=True)
+    output={**previous,'version':2,'source':'东风平台','entries':ordered,'coverage':{'sourceRecords':len(current),'byType':{kind:sum(k.startswith(kind+':') for k in current) for kind in ('daily','event','progress','visit','worklog','report','bid')},'unknownDates':sum(not r.get('workDate')for r in ordered)}}
     if ordered!=previous.get('entries',[]):output['updatedAt']=stamp
-    next_state={'version':1,'initializedAt':state.get('initializedAt',stamp),'hashes':{**state.get('hashes',{}),**hashes}}
+    next_state={'version':2,'initializedAt':state.get('initializedAt',stamp),'hashes':{**state.get('hashes',{}),**hashes}}
     return output,next_state
+
 
 def fetch_platform(account,password):
     jar=http.cookiejar.CookieJar();opener=urllib.request.build_opener(urllib.request.HTTPCookieProcessor(jar))
