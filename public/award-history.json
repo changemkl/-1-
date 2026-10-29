@@ -1,18 +1,18 @@
 {
-  "updatedAt": "2026-10-30T01:09:03+08:00",
+  "updatedAt": "2026-10-30T06:05:49+08:00",
   "customers": [
     {
       "id": "2100303078",
       "name": "上海建工集团股份有限公司",
       "results": [],
       "coverage": {
-        "from": "2023-10-30",
-        "to": "2026-10-29",
+        "from": "2023-10-31",
+        "to": "2026-10-30",
         "source": "https://www.zfcg.sh.gov.cn",
         "truncated": false
       },
       "lastCheck": {
-        "at": "2026-10-29T18:31:53+08:00",
+        "at": "2026-10-30T06:05:49+08:00",
         "status": "ok"
       }
     },
@@ -21,13 +21,13 @@
       "name": "中国建筑第八工程局有限公司",
       "results": [],
       "coverage": {
-        "from": "2023-10-30",
-        "to": "2026-10-29",
+        "from": "2023-10-31",
+        "to": "2026-10-30",
         "source": "https://www.zfcg.sh.gov.cn",
         "truncated": false
       },
       "lastCheck": {
-        "at": "2026-10-29T18:31:53+08:00",
+        "at": "2026-10-30T06:05:49+08:00",
         "status": "ok"
       }
     },
@@ -36,13 +36,13 @@
       "name": "水利部太湖流域管理局",
       "results": [],
       "coverage": {
-        "from": "2023-10-30",
-        "to": "2026-10-29",
+        "from": "2023-10-31",
+        "to": "2026-10-30",
         "source": "https://www.zfcg.sh.gov.cn",
         "truncated": false
       },
       "lastCheck": {
-        "at": "2026-10-29T18:31:53+08:00",
+        "at": "2026-10-30T06:05:49+08:00",
         "status": "ok"
       }
     },
@@ -2237,40 +2237,16 @@
             "at": "2026-10-26T10:49:29+08:00",
             "status": "ok"
           }
-        },
-        {
-          "title": "上海市公安局崇明分局图像监控维保项目的中标（成交）结果公告",
-          "date": "2023-10-30",
-          "buyer": "上海市公安局崇明分局",
-          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=PvJEWwcgsapOYji%2Frc3ajw%3D%3D",
-          "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期",
-          "projectName": "上海市公安局崇明分局图像监控维保项目",
-          "awards": [
-            {
-              "lotNumber": "1",
-              "lotName": "上海市公安局崇明分局图像监控维保项目",
-              "suppliers": [
-                "上海理想信息产业(集团)有限公司"
-              ],
-              "quote": "标项名称：上海市公安局崇明分局图像监控维保项目；中标供应商名称：上海理想信息产业(集团)有限公司"
-            }
-          ],
-          "detailCheck": {
-            "version": 1,
-            "at": "2026-10-26T10:49:29+08:00",
-            "status": "ok"
-          }
         }
       ],
       "coverage": {
-        "from": "2023-10-30",
-        "to": "2026-10-29",
+        "from": "2023-10-31",
+        "to": "2026-10-30",
         "source": "https://www.zfcg.sh.gov.cn",
         "truncated": true
       },
       "lastCheck": {
-        "at": "2026-10-29T18:31:53+08:00",
+        "at": "2026-10-30T06:05:49+08:00",
         "status": "ok"
       }
     },
@@ -2279,13 +2255,13 @@
       "name": "上海市消防救援总队",
       "results": [],
       "coverage": {
-        "from": "2023-10-30",
-        "to": "2026-10-29",
+        "from": "2023-10-31",
+        "to": "2026-10-30",
         "source": "https://www.zfcg.sh.gov.cn",
         "truncated": false
       },
       "lastCheck": {
-        "at": "2026-10-29T18:31:53+08:00",
+        "at": "2026-10-30T06:05:49+08:00",
         "status": "ok"
       }
     },
@@ -4303,13 +4279,13 @@
         }
       ],
       "coverage": {
-        "from": "2023-10-30",
-        "to": "2026-10-29",
+        "from": "2023-10-31",
+        "to": "2026-10-30",
         "source": "https://www.zfcg.sh.gov.cn",
         "truncated": true
       },
       "lastCheck": {
-        "at": "2026-10-29T15:15:36+08:00",
+        "at": "2026-10-30T06:05:49+08:00",
         "status": "ok"
       }
     },
@@ -4318,13 +4294,13 @@
       "name": "上海市委党校",
       "results": [],
       "coverage": {
-        "from": "2023-10-30",
-        "to": "2026-10-29",
+        "from": "2023-10-31",
+        "to": "2026-10-30",
         "source": "https://www.zfcg.sh.gov.cn",
         "truncated": false
       },
       "lastCheck": {
-        "at": "2026-10-29T15:15:36+08:00",
+        "at": "2026-10-30T06:05:49+08:00",
         "status": "ok"
       }
     },
@@ -4708,13 +4684,13 @@
       "name": "上海市房地产交易中心",
       "results": [],
       "coverage": {
-        "from": "2023-10-30",
-        "to": "2026-10-29",
+        "from": "2023-10-31",
+        "to": "2026-10-30",
         "source": "https://www.zfcg.sh.gov.cn",
         "truncated": true
       },
       "lastCheck": {
-        "at": "2026-10-29T15:15:36+08:00",
+        "at": "2026-10-30T06:05:49+08:00",
         "status": "ok"
       }
     }
