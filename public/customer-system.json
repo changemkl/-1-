@@ -652,8 +652,13 @@
       "firstSeenAt": "2026-10-29T06:03:23+00:00",
       "previousNames": [],
       "active": true,
-      "sourceStatus": "pending"
+      "sourceStatus": "pending",
+      "discovery": {
+        "at": "2026-10-29T06:03:45+00:00",
+        "status": "unavailable",
+        "message": "Search listing disallows automated reading"
+      }
     }
   ],
-  "updatedAt": "2026-10-29T06:03:23+00:00"
+  "updatedAt": "2026-10-29T06:03:45+00:00"
 }
