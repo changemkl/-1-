@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-29T07:16:41.046811+00:00",
+  "updatedAt": "2026-10-29T10:32:35.357990+00:00",
   "profiles": [
     {
       "id": "2100000172",
@@ -11,7 +11,7 @@
       "organizations": [],
       "procurementSources": [
         {
-          "finished_at": "2026-10-29T07:14:21.200928+00:00",
+          "finished_at": "2026-10-29T10:30:21.673774+00:00",
           "status": "success",
           "documents_found": 0,
           "label": "上海市政府采购网",
@@ -19,7 +19,7 @@
         }
       ],
       "lastRun": {
-        "finished_at": "2026-10-29T07:14:21.200928+00:00",
+        "finished_at": "2026-10-29T10:30:21.673774+00:00",
         "status": "success",
         "documents_found": 0,
         "source_url": "https://www.zfcg.sh.gov.cn"
@@ -1923,7 +1923,7 @@
           "title": "上海市市场监督管理局信息应用研究中心2027年01月政府采购意向",
           "excerpt": "采购人：上海市市场监督管理局信息应用研究中心\n2027年01月",
           "published_at": "2026-10-29",
-          "fetched_at": "2026-10-29T07:14:09.671825+00:00",
+          "fetched_at": "2026-10-29T10:30:10.963017+00:00",
           "facts": {
             "version": 1,
             "kind": "public_title",
@@ -1960,7 +1960,7 @@
           "title": "上海市市场监督管理局机场分局2026年10月政府采购意向",
           "excerpt": "采购人：上海市市场监督管理局机场分局\n2026年10月",
           "published_at": "2026-10-27",
-          "fetched_at": "2026-10-29T07:14:09.670468+00:00",
+          "fetched_at": "2026-10-29T10:30:10.961389+00:00",
           "facts": {
             "version": 1,
             "kind": "public_title",
@@ -1997,7 +1997,7 @@
           "title": "上海市市场监督管理局执法总队2026年10月政府采购意向",
           "excerpt": "采购人：上海市市场监督管理局执法总队\n2026年10月",
           "published_at": "2026-10-20",
-          "fetched_at": "2026-10-29T07:14:09.669476+00:00",
+          "fetched_at": "2026-10-29T10:30:10.960108+00:00",
           "facts": {
             "version": 1,
             "kind": "public_title",
@@ -2034,7 +2034,7 @@
           "title": "上海市市场监督管理局2026年10月政府采购意向",
           "excerpt": "采购人：上海市市场监督管理局\n2026年10月",
           "published_at": "2026-10-12",
-          "fetched_at": "2026-10-29T07:14:09.668191+00:00",
+          "fetched_at": "2026-10-29T10:30:10.958450+00:00",
           "facts": {
             "version": 1,
             "kind": "public_title",
@@ -2071,7 +2071,7 @@
           "title": "上海市市场监督管理局执法总队2026年10月政府采购意向",
           "excerpt": "采购人：上海市市场监督管理局执法总队\n2026年10月",
           "published_at": "2026-10-20",
-          "fetched_at": "2026-10-29T07:14:09.666665+00:00",
+          "fetched_at": "2026-10-29T10:30:10.956708+00:00",
           "facts": {
             "version": 1,
             "kind": "public_title",
@@ -2125,7 +2125,7 @@
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=W7twCzUw8zocNsVNYXX5ow%3D%3D",
           "title": "上海市市场监督管理局信息应用研究中心2027年01月政府采购意向",
           "published_at": "2026-10-29",
-          "fetched_at": "2026-10-29T07:14:09.671825+00:00",
+          "fetched_at": "2026-10-29T10:30:10.963017+00:00",
           "source_host": "www.zfcg.sh.gov.cn"
         },
         {
@@ -2150,7 +2150,7 @@
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=vqQkB5eoqFmRCzlwT9Cy3Q%3D%3D",
           "title": "上海市市场监督管理局机场分局2026年10月政府采购意向",
           "published_at": "2026-10-27",
-          "fetched_at": "2026-10-29T07:14:09.670468+00:00",
+          "fetched_at": "2026-10-29T10:30:10.961389+00:00",
           "source_host": "www.zfcg.sh.gov.cn"
         },
         {
@@ -2175,7 +2175,7 @@
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=b3cBgBzg5v4w2FTQ6yHyXA%3D%3D",
           "title": "上海市市场监督管理局执法总队2026年10月政府采购意向",
           "published_at": "2026-10-20",
-          "fetched_at": "2026-10-29T07:14:09.669476+00:00",
+          "fetched_at": "2026-10-29T10:30:10.960108+00:00",
           "source_host": "www.zfcg.sh.gov.cn"
         },
         {
@@ -2200,7 +2200,7 @@
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=5LlGzisixVdDgH9NMvsxjQ%3D%3D",
           "title": "上海市市场监督管理局2026年10月政府采购意向",
           "published_at": "2026-10-12",
-          "fetched_at": "2026-10-29T07:14:09.668191+00:00",
+          "fetched_at": "2026-10-29T10:30:10.958450+00:00",
           "source_host": "www.zfcg.sh.gov.cn"
         },
         {
@@ -2225,7 +2225,7 @@
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=BbD8z7D0s0xVEDGtq9ksmw%3D%3D",
           "title": "上海市市场监督管理局执法总队2026年10月政府采购意向",
           "published_at": "2026-10-20",
-          "fetched_at": "2026-10-29T07:14:09.666665+00:00",
+          "fetched_at": "2026-10-29T10:30:10.956708+00:00",
           "source_host": "www.zfcg.sh.gov.cn"
         }
       ],
@@ -2233,7 +2233,7 @@
       "organizations": [],
       "procurementSources": [
         {
-          "finished_at": "2026-10-29T07:14:13.785948+00:00",
+          "finished_at": "2026-10-29T10:30:13.542143+00:00",
           "status": "success",
           "documents_found": 5,
           "label": "上海市政府采购网",
@@ -2241,7 +2241,7 @@
         }
       ],
       "lastRun": {
-        "finished_at": "2026-10-29T07:14:13.785948+00:00",
+        "finished_at": "2026-10-29T10:30:13.542143+00:00",
         "status": "success",
         "documents_found": 5,
         "source_url": "https://www.zfcg.sh.gov.cn"
@@ -2257,7 +2257,7 @@
       "organizations": [],
       "procurementSources": [
         {
-          "finished_at": "2026-10-29T07:14:17.371280+00:00",
+          "finished_at": "2026-10-29T10:30:16.983117+00:00",
           "status": "success",
           "documents_found": 0,
           "label": "上海市政府采购网",
@@ -2265,7 +2265,7 @@
         }
       ],
       "lastRun": {
-        "finished_at": "2026-10-29T07:14:17.371280+00:00",
+        "finished_at": "2026-10-29T10:30:16.983117+00:00",
         "status": "success",
         "documents_found": 0,
         "source_url": "https://www.zfcg.sh.gov.cn"
@@ -2283,7 +2283,7 @@
           "title": "上海市教育委员会2026年11月政府采购意向",
           "excerpt": "采购人：上海市教育委员会\n2026年11月",
           "published_at": "2026-10-28",
-          "fetched_at": "2026-10-29T07:14:44.983421+00:00",
+          "fetched_at": "2026-10-29T10:30:43.345573+00:00",
           "facts": {
             "version": 1,
             "kind": "public_title",
@@ -2337,7 +2337,7 @@
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=ihVRq4D2qJzgYanaH7hCMQ%3D%3D",
           "title": "上海市教育委员会2026年11月政府采购意向",
           "published_at": "2026-10-28",
-          "fetched_at": "2026-10-29T07:14:44.983421+00:00",
+          "fetched_at": "2026-10-29T10:30:43.345573+00:00",
           "source_host": "www.zfcg.sh.gov.cn"
         }
       ],
@@ -2345,7 +2345,7 @@
       "organizations": [],
       "procurementSources": [
         {
-          "finished_at": "2026-10-29T07:14:44.985181+00:00",
+          "finished_at": "2026-10-29T10:30:43.347770+00:00",
           "status": "success",
           "documents_found": 1,
           "label": "上海市政府采购网",
@@ -2353,7 +2353,7 @@
         }
       ],
       "lastRun": {
-        "finished_at": "2026-10-29T07:14:44.985181+00:00",
+        "finished_at": "2026-10-29T10:30:43.347770+00:00",
         "status": "success",
         "documents_found": 1,
         "source_url": "https://www.zfcg.sh.gov.cn"
@@ -2369,7 +2369,7 @@
       "organizations": [],
       "procurementSources": [
         {
-          "finished_at": "2026-10-29T07:15:15.094949+00:00",
+          "finished_at": "2026-10-29T10:30:48.968850+00:00",
           "status": "success",
           "documents_found": 0,
           "label": "上海市政府采购网",
@@ -2377,7 +2377,7 @@
         }
       ],
       "lastRun": {
-        "finished_at": "2026-10-29T07:15:15.094949+00:00",
+        "finished_at": "2026-10-29T10:30:48.968850+00:00",
         "status": "success",
         "documents_found": 0,
         "source_url": "https://www.zfcg.sh.gov.cn"
@@ -2525,7 +2525,7 @@
           "title": "体育局官网政府采购公开公告列表",
           "excerpt": "上海市体育局 2021年1（至）3月政府采购意向\n上海市体育宣传教育中心2021年1（至）12月政府采购意向\n上海市体育局2020年1（至）3月政府采购意向\n上海市体育局2021年1（至）12月政府采购意向\n上海体育馆2020年9（至）12月政府采购意向\n上海体育科学研究所（上海市反兴奋剂中心）2020年10（至）12月政府采购意向\n上海市体育训练基地管理中心2020年9（至）11月政府采购意向",
           "published_at": null,
-          "fetched_at": "2026-10-29T06:57:40.259298+00:00",
+          "fetched_at": "2026-10-29T10:31:53.562721+00:00",
           "facts": {
             "version": 1,
             "kind": "public_listing",
@@ -2654,7 +2654,7 @@
           "title": "体育局官网政府采购公开公告列表",
           "excerpt": "上海市体育局 2021年1（至）3月政府采购意向\n上海市体育宣传教育中心2021年1（至）12月政府采购意向\n上海市体育局2020年1（至）3月政府采购意向\n上海市体育局2021年1（至）12月政府采购意向\n上海体育馆2020年9（至）12月政府采购意向\n上海体育科学研究所（上海市反兴奋剂中心）2020年10（至）12月政府采购意向\n上海市体育训练基地管理中心2020年9（至）11月政府采购意向",
           "published_at": null,
-          "fetched_at": "2026-10-29T06:57:39.257203+00:00",
+          "fetched_at": "2026-10-29T10:31:52.509965+00:00",
           "facts": {
             "version": 1,
             "kind": "public_listing",
@@ -2887,7 +2887,7 @@
           "url": "https://tyj.sh.gov.cn/zfcg/index.html",
           "title": "体育局官网政府采购公开公告列表",
           "published_at": null,
-          "fetched_at": "2026-10-29T06:57:40.259298+00:00",
+          "fetched_at": "2026-10-29T10:31:53.562721+00:00",
           "source_host": "tyj.sh.gov.cn"
         },
         {
@@ -2908,7 +2908,7 @@
           "url": "https://tyj.sh.gov.cn/zfcg/index.html",
           "title": "体育局官网政府采购公开公告列表",
           "published_at": null,
-          "fetched_at": "2026-10-29T06:57:40.259298+00:00",
+          "fetched_at": "2026-10-29T10:31:53.562721+00:00",
           "source_host": "tyj.sh.gov.cn"
         },
         {
@@ -2929,7 +2929,7 @@
           "url": "https://tyj.sh.gov.cn/zfcg/index.html",
           "title": "体育局官网政府采购公开公告列表",
           "published_at": null,
-          "fetched_at": "2026-10-29T06:57:40.259298+00:00",
+          "fetched_at": "2026-10-29T10:31:53.562721+00:00",
           "source_host": "tyj.sh.gov.cn"
         },
         {
@@ -2950,7 +2950,7 @@
           "url": "https://tyj.sh.gov.cn/zfcg/index.html",
           "title": "体育局官网政府采购公开公告列表",
           "published_at": null,
-          "fetched_at": "2026-10-29T06:57:40.259298+00:00",
+          "fetched_at": "2026-10-29T10:31:53.562721+00:00",
           "source_host": "tyj.sh.gov.cn"
         },
         {
@@ -2971,7 +2971,7 @@
           "url": "https://tyj.sh.gov.cn/zfcg/index.html",
           "title": "体育局官网政府采购公开公告列表",
           "published_at": null,
-          "fetched_at": "2026-10-29T06:57:40.259298+00:00",
+          "fetched_at": "2026-10-29T10:31:53.562721+00:00",
           "source_host": "tyj.sh.gov.cn"
         },
         {
@@ -2992,7 +2992,7 @@
           "url": "https://tyj.sh.gov.cn/zfcg/index.html",
           "title": "体育局官网政府采购公开公告列表",
           "published_at": null,
-          "fetched_at": "2026-10-29T06:57:40.259298+00:00",
+          "fetched_at": "2026-10-29T10:31:53.562721+00:00",
           "source_host": "tyj.sh.gov.cn"
         },
         {
@@ -3013,7 +3013,7 @@
           "url": "https://tyj.sh.gov.cn/zfcg/index.html",
           "title": "体育局官网政府采购公开公告列表",
           "published_at": null,
-          "fetched_at": "2026-10-29T06:57:40.259298+00:00",
+          "fetched_at": "2026-10-29T10:31:53.562721+00:00",
           "source_host": "tyj.sh.gov.cn"
         }
       ],
@@ -3021,14 +3021,14 @@
       "organizations": [],
       "procurementSources": [
         {
-          "finished_at": "2026-10-29T06:55:38.325210+00:00",
+          "finished_at": "2026-10-29T10:30:03.770507+00:00",
           "status": "success",
           "documents_found": 0,
           "label": "上海市政府采购网",
           "url": "https://www.zfcg.sh.gov.cn"
         },
         {
-          "finished_at": "2026-10-29T06:57:40.264423+00:00",
+          "finished_at": "2026-10-29T10:31:53.565395+00:00",
           "status": "success",
           "documents_found": 14,
           "label": "体育局官网政府采购",
@@ -3036,7 +3036,7 @@
         }
       ],
       "lastRun": {
-        "finished_at": "2026-10-29T06:57:40.264423+00:00",
+        "finished_at": "2026-10-29T10:31:53.565395+00:00",
         "status": "success",
         "documents_found": 14,
         "source_url": "https://tyj.sh.gov.cn/zfcg/"
@@ -3054,7 +3054,7 @@
           "title": "市建设交通工作党委书记陈华文调研“AI+建设工程招投标”项目实践工作( 2026-10-11 )",
           "excerpt": "市建设交通工作党委办公室、干部人事处，市住房城乡建设管理委建筑市场监管处，市市场管理总站相关负责同志，“项目实践计划”专业干部和“AI+建设工程招投标”项目组组成单位相关人员参加会议。 为贯彻落实市委书记陈吉宁调研市建设交通工作党委讲话精神，深入推进“人工智能+”行动，深化专业干部“项目实践计划”实施成效，10月9日上午，市建设交通工作党委书记陈华文赴市市场管理总站，专题调研“AI+建设工程招投标”项目实践工作。市建设交通工作党委委员、市纪委监委驻市建设交通工作党委纪检监察组组长郑佐利参加调研座谈。 座谈会上，“AI+建设工程招投标”项目组汇报了阶段性成果，并进行了系统AI辅助评标演示。三位专业干部各自结合岗位实践，交流了参与项目锻炼的体会与收获，市市场管理总站负责人介绍了“项目实践计划”专业干部培养情况。 陈华文对专业干部“项目实践计划”的阶段性成果给予了充分肯定。他指出，市委组织部选派的三位专业干部分别来自基层一线、高校科研和大数据应用领域，结构互补、各展所长，在项目实践中得到了扎实锻炼。希望项目组再接再厉、乘势而上，加快试点应用和迭代优化，力争早日形成可复制、可推广的实战成果，以数智赋能推动建设工程招投标领域公平公正、阳光透明，为上海超大城市精细化治理和建设交通行业高质量发展贡献力量。 陈华文强调，一要深刻把握人工智能发展趋势。要从国家发展战略、行业发展规律和时代发展背景出发进行前瞻性研判，坚持模块化建设，厘清底层逻辑，确保核心技术底座经得起技术迭代考验，推动上海建设工程招投标领域数智化水平始终走在全国前列。二要牢牢把握招投标在工程建设中的功能定位。招投标是确保工程建设项目公平公正、防止腐败的重要环节，事关财政资金安全和市场营商环境。要推动智能体与业务逻辑深度融合，不断提升监管精准度，以数智赋能守住招投标的公平正义。三要总结工作方法，统筹推进项目落地见效。要以实战管用为导向，统筹各项工作有序推进，及时总结项目实践中干部人才培养的创新方法，推动重点工作推进和专业干部培养相互赋能。",
           "published_at": "2026-10-11",
-          "fetched_at": "2026-10-29T06:50:43.879480+00:00",
+          "fetched_at": "2026-10-29T10:26:32.752590+00:00",
           "facts": {
             "version": 1,
             "kind": "article",
@@ -3211,7 +3211,7 @@
           "title": "上海市住房和城乡建设管理委员会科学技术委员会事务中心2026年11月政府采购意向",
           "excerpt": "采购人：上海市住房和城乡建设管理委员会科学技术委员会事务中心\n2026年11月",
           "published_at": "2026-10-16",
-          "fetched_at": "2026-10-29T06:55:33.235123+00:00",
+          "fetched_at": "2026-10-29T10:29:58.898598+00:00",
           "facts": {
             "version": 1,
             "kind": "public_title",
@@ -3248,7 +3248,7 @@
           "title": "上海市住房和城乡建设管理委员会人才开发评价中心2027年01月政府采购意向",
           "excerpt": "采购人：上海市住房和城乡建设管理委员会人才开发评价中心\n2027年01月",
           "published_at": "2026-10-09",
-          "fetched_at": "2026-10-29T06:55:33.234163+00:00",
+          "fetched_at": "2026-10-29T10:29:58.896700+00:00",
           "facts": {
             "version": 1,
             "kind": "public_title",
@@ -3285,7 +3285,7 @@
           "title": "上海市住房和城乡建设管理委员会人才开发评价中心2027年01月政府采购意向",
           "excerpt": "采购人：上海市住房和城乡建设管理委员会人才开发评价中心\n2027年01月",
           "published_at": "2026-10-09",
-          "fetched_at": "2026-10-29T06:55:33.232965+00:00",
+          "fetched_at": "2026-10-29T10:29:58.895006+00:00",
           "facts": {
             "version": 1,
             "kind": "public_title",
@@ -3322,7 +3322,7 @@
           "title": "上海市住房和城乡建设管理委员会人才开发评价中心2027年01月政府采购意向",
           "excerpt": "采购人：上海市住房和城乡建设管理委员会人才开发评价中心\n2027年01月",
           "published_at": "2026-10-09",
-          "fetched_at": "2026-10-29T06:55:33.231470+00:00",
+          "fetched_at": "2026-10-29T10:29:58.892875+00:00",
           "facts": {
             "version": 1,
             "kind": "public_title",
@@ -3369,7 +3369,7 @@
           "url": "https://zjw.sh.gov.cn/gzdt/20261013/c4cd001f2b2f4598a6632e26c7f39799.html",
           "title": "市建设交通工作党委书记陈华文调研“AI+建设工程招投标”项目实践工作( 2026-10-11 )",
           "published_at": "2026-10-11",
-          "fetched_at": "2026-10-29T06:50:43.879480+00:00",
+          "fetched_at": "2026-10-29T10:26:32.752590+00:00",
           "source_host": "zjw.sh.gov.cn"
         },
         {
@@ -3481,7 +3481,7 @@
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=Kq1ACa2lkGG%2BjyRSW2M8kQ%3D%3D",
           "title": "上海市住房和城乡建设管理委员会科学技术委员会事务中心2026年11月政府采购意向",
           "published_at": "2026-10-16",
-          "fetched_at": "2026-10-29T06:55:33.235123+00:00",
+          "fetched_at": "2026-10-29T10:29:58.898598+00:00",
           "source_host": "www.zfcg.sh.gov.cn"
         },
         {
@@ -3506,7 +3506,7 @@
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=9Sn2WZslcpqPZlq26f%2ByMQ%3D%3D",
           "title": "上海市住房和城乡建设管理委员会人才开发评价中心2027年01月政府采购意向",
           "published_at": "2026-10-09",
-          "fetched_at": "2026-10-29T06:55:33.234163+00:00",
+          "fetched_at": "2026-10-29T10:29:58.896700+00:00",
           "source_host": "www.zfcg.sh.gov.cn"
         },
         {
@@ -3531,7 +3531,7 @@
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=JTBJLjnhQVxJRsy2TLPizA%3D%3D",
           "title": "上海市住房和城乡建设管理委员会人才开发评价中心2027年01月政府采购意向",
           "published_at": "2026-10-09",
-          "fetched_at": "2026-10-29T06:55:33.232965+00:00",
+          "fetched_at": "2026-10-29T10:29:58.895006+00:00",
           "source_host": "www.zfcg.sh.gov.cn"
         },
         {
@@ -3556,7 +3556,7 @@
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=6zeBH3pFGb5I2dpvB%2FTkdA%3D%3D",
           "title": "上海市住房和城乡建设管理委员会人才开发评价中心2027年01月政府采购意向",
           "published_at": "2026-10-09",
-          "fetched_at": "2026-10-29T06:55:33.231470+00:00",
+          "fetched_at": "2026-10-29T10:29:58.892875+00:00",
           "source_host": "www.zfcg.sh.gov.cn"
         }
       ],
@@ -3564,14 +3564,14 @@
       "organizations": [],
       "procurementSources": [
         {
-          "finished_at": "2026-10-29T06:55:33.237265+00:00",
+          "finished_at": "2026-10-29T10:29:58.901703+00:00",
           "status": "success",
           "documents_found": 5,
           "label": "上海市政府采购网",
           "url": "https://www.zfcg.sh.gov.cn"
         },
         {
-          "finished_at": "2026-10-29T06:57:32.668807+00:00",
+          "finished_at": "2026-10-29T10:31:45.050477+00:00",
           "status": "failed",
           "documents_found": 0,
           "label": "住建委官网采购栏目",
@@ -3579,7 +3579,7 @@
         }
       ],
       "lastRun": {
-        "finished_at": "2026-10-29T06:57:32.668807+00:00",
+        "finished_at": "2026-10-29T10:31:45.050477+00:00",
         "status": "failed",
         "documents_found": 0,
         "source_url": "https://zjw.sh.gov.cn/zwgk/index.html"
@@ -3626,16 +3626,16 @@
       "organizations": [],
       "procurementSources": [
         {
-          "finished_at": "2026-10-29T06:57:16.584930+00:00",
-          "status": "success",
+          "finished_at": "2026-10-29T10:31:28.964437+00:00",
+          "status": "failed",
           "documents_found": 0,
           "label": "上海建工电子商务平台",
           "url": "https://www.yzscg.cn/GGList.htm"
         }
       ],
       "lastRun": {
-        "finished_at": "2026-10-29T06:57:16.584930+00:00",
-        "status": "success",
+        "finished_at": "2026-10-29T10:31:28.964437+00:00",
+        "status": "failed",
         "documents_found": 0,
         "source_url": "https://www.yzscg.cn/GGList.htm"
       }
@@ -3652,7 +3652,7 @@
           "title": "应急指挥网络安全运营服务保障项目询比公告",
           "excerpt": "2. 未被列入“信用中国”网站( www.creditchina.gov.cn)失信被执行人名单、重大税收违法案件当事人名单和中国政府采购网( www.ccgp.gov.cn)政府采购严重违法失信行为记录名单的供应商； 3. 提供参加政府采购活动前3年内在经营活动中没有重大违法记录的书面声明； 2026年09月21日-2026年09月23日上午9:00～11:30，下午13:00～16:00（北京时间，法定节假日除外） 1.依法核发加载统一社会信用代码的营业执照/事业单位法人证书/民办非企业登记证书/社会团体法人登记证书等法人组织单位证书的副本原件和复印件加盖公章； 1.将需要提交的资料电子版(1.依法核发加载统一社会信用代码的营业执照/事业单位法人证书/民办非企业登记证书/社会团体法人登记证书等法人组织单位证书的副本；2.法定代表人授权委托书及被委托人身份证)发送至邮箱sqzb3@sqzhaobiao.com，请在邮件信息中写明项目名称、单位名称。邮件主题：SQ26-0607单位名称；邮件内容：列明单位名称及项目联系人，联系方式；邮件附件：需采用A4纸幅面，将资料加盖公章，按顺序制作成1个PDF格式文件，文件名称与主题一致，复印件扫描无效。 1. 响应单位应将响应文件用信封密封(密封处加盖公章)，并标明项目名称及正本和副本。 2. 每一密封信封上注明“于2026年10月15日上午09:30  之前（指询比文件中规定的递交日期及时间）不准启封”的字样。 3. 响应单位名称(盖章)               联系人                联系方式： 4. 询比文件递交截止时间：2026年10月15日上午09:30  (北京时间)。 5. 地点：上海市杨浦区伟成路70号弘源创新大厦（1号楼）601-602室。 地           址：上海市杨浦区伟成路70号（1号楼）弘源创新大厦601-602室 电           话：021-55231987-8015、8033",
           "published_at": "2026-09-20 16∶09",
-          "fetched_at": "2026-10-29T07:12:30.673018+00:00",
+          "fetched_at": "2026-10-29T10:29:05.008555+00:00",
           "facts": {
             "version": 1,
             "kind": "article",
@@ -3683,7 +3683,7 @@
           "title": "上海市应急管理局无线网络安全改造服务询比公告",
           "excerpt": "2. 未被列入“信用中国”网站( www.creditchina.gov.cn)失信被执行人名单、重大税收违法案件当事人名单和中国政府采购网( www.ccgp.gov.cn)政府采购严重违法失信行为记录名单的供应商； 3. 提供参加政府采购活动前3年内在经营活动中没有重大违法记录的书面声明； 2026年09月21日-2026年09月23日上午9:00～11:30，下午13:00～16:00（北京时间，法定节假日除外） 1.依法核发加载统一社会信用代码的营业执照/事业单位法人证书/民办非企业登记证书/社会团体法人登记证书等法人组织单位证书的副本原件和复印件加盖公章； 1.将需要提交的资料电子版(1.依法核发加载统一社会信用代码的营业执照/事业单位法人证书/民办非企业登记证书/社会团体法人登记证书等法人组织单位证书的副本；2.法定代表人授权委托书及被委托人身份证)发送至邮箱sqzb3@sqzhaobiao.com，请在邮件信息中写明项目名称、单位名称。邮件主题：SQ26-0608单位名称；邮件内容：列明单位名称及项目联系人，联系方式；邮件附件：需采用A4纸幅面，将资料加盖公章，按顺序制作成1个PDF格式文件，文件名称与主题一致，复印件扫描无效。 1. 响应单位应将响应文件用信封密封(密封处加盖公章)，并标明项目名称及正本和副本。 2. 每一密封信封上注明“于2026年10月15日上午09:30  之前（指询比文件中规定的递交日期及时间）不准启封”的字样。 3. 响应单位名称(盖章)               联系人                联系方式： 4. 询比文件递交截止时间：2026年10月15日上午09:30  (北京时间)。 5. 地点：上海市杨浦区伟成路70号弘源创新大厦（1号楼）601-602室。 地           址：上海市杨浦区伟成路70号（1号楼）弘源创新大厦601-602室 电          话：021-55231987-8015、8033",
           "published_at": "2026-09-20 16∶09",
-          "fetched_at": "2026-10-29T07:12:28.995405+00:00",
+          "fetched_at": "2026-10-29T10:29:01.108590+00:00",
           "facts": {
             "version": 1,
             "kind": "article",
@@ -3714,7 +3714,7 @@
           "title": "上海市应急管理局应急指挥通信设备技术驻场保障服务采购项目询比公告",
           "excerpt": "2. 未被列入“信用中国”网站( www.creditchina.gov.cn)失信被执行人名单、重大税收违法案件当事人名单和中国政府采购网( www.ccgp.gov.cn)政府采购严重违法失信行为记录名单的供应商； 3. 提供参加政府采购活动前3年内在经营活动中没有重大违法记录的书面声明； 2026年10月9日-2026年10月12日上午9:00～11:30，下午13:00～16:00（北京时间，法定节假日除外） 1.将需要提交的资料电子版(1.依法核发加载统一社会信用代码的营业执照/事业单位法人证书/民办非企业登记证书/社会团体法人登记证书等法人组织单位证书的副本；2.法定代表人授权委托书及被委托人身份证)发送至邮箱sqzb3@sqzhaobiao.com，请在邮件信息中写明项目名称、单位名称。邮件主题：SQ26-0616单位名称；邮件内容：列明单位名称及项目联系人，联系方式；邮件附件：需采用A4纸幅面，将资料加盖公章，按顺序制作成1个PDF格式文件，文件名称与主题一致，复印件扫描无效。 1. 响应单位应将响应文件用信封密封(密封处加盖公章)，并标明项目名称及正本和副本。 2. 每一密封信封上注明“于2026年10月22日下午13:30 之前（指询比文件中规定的递交日期及时间）不准启封”的字样。 3. 响应单位名称(盖章)               联系人                联系方式： 4. 询比文件递交截止时间：2026年10月22日下午13:30  (北京时间)。 5. 地点：上海市杨浦区伟成路70号弘源创新大厦（1号楼）601-602室。 地        址：上海市杨浦区伟成路70号（1号楼）弘源创新大厦601-602室 电        话：021-55231987-8015、8033",
           "published_at": "2026-10-08 10∶10",
-          "fetched_at": "2026-10-29T07:12:27.204870+00:00",
+          "fetched_at": "2026-10-29T10:28:59.072543+00:00",
           "facts": {
             "version": 1,
             "kind": "article",
@@ -3745,7 +3745,7 @@
           "title": "上海市应急管理局2026年11月政府采购意向",
           "excerpt": "采购人：上海市应急管理局\n2026年11月",
           "published_at": "2026-09-24",
-          "fetched_at": "2026-10-29T07:14:25.654187+00:00",
+          "fetched_at": "2026-10-29T10:30:25.854522+00:00",
           "facts": {
             "version": 1,
             "kind": "public_title",
@@ -3782,7 +3782,7 @@
           "title": "上海市应急管理局2026年11月政府采购意向",
           "excerpt": "采购人：上海市应急管理局\n2026年11月",
           "published_at": "2026-09-28",
-          "fetched_at": "2026-10-29T07:14:25.652371+00:00",
+          "fetched_at": "2026-10-29T10:30:25.852555+00:00",
           "facts": {
             "version": 1,
             "kind": "public_title",
@@ -3819,7 +3819,7 @@
           "title": "中共上海市应急管理局委员会印发《上海市应急管理局执法总队主要职责内设机构和人员编制规定》的通知",
           "excerpt": "《上海市应急管理局执法总队主要职责、内设机构和人员编制规定》已经2021年8月9日第15次局党委会议审议通过，现予印发。 第一条  上海市应急管理局执法总队是上海市应急管理局所属行政执法机构，由上海市应急管理局管理，机构规格为正处级。 第二条  上海市应急管理局执法总队以上海市应急管理局名义统一执法，主要承担重大、跨区域等行政执法案件调查处理，重点行业企业的监管执法，统筹重大执法活动，对区应急管理局执法大队的业务指导及其他法定职责。主要职责是： 第四条  上海市应急管理局执法总队核定行政执法人员编制45名。设总队长1名，副总队长3名，正副科级领导职数12名。3个一线执法行政机构行政执法人员编制核定为39名。 （一）承担危险化学品、非煤矿山（含地质勘探）、工贸、安全生产专业服务机构等行业领域安全生产监管，以及地质灾害、水旱灾害、森林火灾等有关应急抢险和灾害救助、综合减灾等方面的行政检查、行政处罚、行政强制和有关普法职责。 （三）负责重大违法行政执法案件的调查处理和跨区域、跨行业行政执法的组织协调。 （四）统筹全市应急管理领域重大执法活动，配合局业务处室开展有关专项检查、专项整治、联合检查等工作，参与应急管理和安全生产督察、巡查、考核等现场调查核实工作。 （五）承担有关市级以上重大活动的安全生产监督检查综合工作，以及服务保障等工作。 （七）负责应急管理综合行政执法数据汇总、统计分析及信息公开等工作。 （八）统筹协调全市应急管理综合行政执法队伍建设，推进执法队伍和执法工作的规范化、标准化建设，指导协调各区应急管理局执法大队的执法工作。 （注：1.只接收对该政策性文件的相关咨询;2.留言时请注明政策性文件名称）",
           "published_at": "2021-08-12 15∶08",
-          "fetched_at": "2026-10-29T07:12:34.260205+00:00",
+          "fetched_at": "2026-10-29T10:29:08.858989+00:00",
           "facts": {
             "version": 1,
             "kind": "profile",
@@ -3855,7 +3855,7 @@
           "url": "https://yjglj.sh.gov.cn/xxgk/xxgkml/czzj/zfcg/20261022/9575a51892f64423aed4221ebe666020.html",
           "title": "应急指挥网络安全运营服务保障项目询比公告",
           "published_at": "2026-09-20 16∶09",
-          "fetched_at": "2026-10-29T07:12:30.673018+00:00",
+          "fetched_at": "2026-10-29T10:29:05.008555+00:00",
           "source_host": "yjglj.sh.gov.cn"
         },
         {
@@ -3873,7 +3873,7 @@
           "url": "https://yjglj.sh.gov.cn/xxgk/xxgkml/czzj/zfcg/20261022/50078fd6b7ba4d2c902c5e01abc08498.html",
           "title": "上海市应急管理局无线网络安全改造服务询比公告",
           "published_at": "2026-09-20 16∶09",
-          "fetched_at": "2026-10-29T07:12:28.995405+00:00",
+          "fetched_at": "2026-10-29T10:29:01.108590+00:00",
           "source_host": "yjglj.sh.gov.cn"
         },
         {
@@ -3891,7 +3891,7 @@
           "url": "https://yjglj.sh.gov.cn/xxgk/xxgkml/czzj/zfcg/20261022/05aff045d6b94228bb4c6e53b116190a.html",
           "title": "上海市应急管理局应急指挥通信设备技术驻场保障服务采购项目询比公告",
           "published_at": "2026-10-08 10∶10",
-          "fetched_at": "2026-10-29T07:12:27.204870+00:00",
+          "fetched_at": "2026-10-29T10:28:59.072543+00:00",
           "source_host": "yjglj.sh.gov.cn"
         },
         {
@@ -3916,7 +3916,7 @@
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=l86ucoFj89685UtF7uNSVQ%3D%3D",
           "title": "上海市应急管理局2026年11月政府采购意向",
           "published_at": "2026-09-24",
-          "fetched_at": "2026-10-29T07:14:25.654187+00:00",
+          "fetched_at": "2026-10-29T10:30:25.854522+00:00",
           "source_host": "www.zfcg.sh.gov.cn"
         },
         {
@@ -3941,7 +3941,7 @@
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=oHxCauGmi3NBxL97%2FhVnYQ%3D%3D",
           "title": "上海市应急管理局2026年11月政府采购意向",
           "published_at": "2026-09-28",
-          "fetched_at": "2026-10-29T07:14:25.652371+00:00",
+          "fetched_at": "2026-10-29T10:30:25.852555+00:00",
           "source_host": "www.zfcg.sh.gov.cn"
         }
       ],
@@ -3957,13 +3957,13 @@
           "url": "https://yjglj.sh.gov.cn/xxgk/xxgkml/jgzn/20210929/6b0dd2549e7c4811935a063ae9788800.html",
           "title": "中共上海市应急管理局委员会印发《上海市应急管理局执法总队主要职责内设机构和人员编制规定》的通知",
           "published_at": "2021-08-12 15∶08",
-          "fetched_at": "2026-10-29T07:12:34.260205+00:00",
+          "fetched_at": "2026-10-29T10:29:08.858989+00:00",
           "source_host": "yjglj.sh.gov.cn"
         }
       ],
       "procurementSources": [
         {
-          "finished_at": "2026-10-29T07:14:25.655292+00:00",
+          "finished_at": "2026-10-29T10:30:25.855880+00:00",
           "status": "success",
           "documents_found": 2,
           "label": "上海市政府采购网",
@@ -3971,7 +3971,7 @@
         }
       ],
       "lastRun": {
-        "finished_at": "2026-10-29T07:14:25.655292+00:00",
+        "finished_at": "2026-10-29T10:30:25.855880+00:00",
         "status": "success",
         "documents_found": 2,
         "source_url": "https://www.zfcg.sh.gov.cn"
@@ -3987,7 +3987,7 @@
       "organizations": [],
       "procurementSources": [],
       "lastRun": {
-        "finished_at": "2026-10-29T07:12:04.739681+00:00",
+        "finished_at": "2026-10-29T10:27:55.993238+00:00",
         "status": "success",
         "documents_found": 0,
         "source_url": "https://www.gzw.sh.gov.cn/"
@@ -4003,7 +4003,7 @@
       "organizations": [],
       "procurementSources": [
         {
-          "finished_at": "2026-10-29T07:14:39.781232+00:00",
+          "finished_at": "2026-10-29T10:30:38.625235+00:00",
           "status": "success",
           "documents_found": 0,
           "label": "上海市政府采购网",
@@ -4011,7 +4011,7 @@
         }
       ],
       "lastRun": {
-        "finished_at": "2026-10-29T07:14:39.781232+00:00",
+        "finished_at": "2026-10-29T10:30:38.625235+00:00",
         "status": "success",
         "documents_found": 0,
         "source_url": "https://www.zfcg.sh.gov.cn"
@@ -4027,7 +4027,7 @@
       "organizations": [],
       "procurementSources": [],
       "lastRun": {
-        "finished_at": "2026-10-29T07:12:12.548411+00:00",
+        "finished_at": "2026-10-29T10:28:02.814141+00:00",
         "status": "success",
         "documents_found": 0,
         "source_url": "https://www.gzw.sh.gov.cn/"
@@ -4043,23 +4043,23 @@
       "organizations": [],
       "procurementSources": [
         {
-          "finished_at": "2026-10-29T06:57:23.002632+00:00",
+          "finished_at": "2026-10-29T10:31:36.290541+00:00",
           "status": "success",
           "documents_found": 0,
           "label": "太湖局官网招标采购栏目",
           "url": "https://www.tba.gov.cn/slbthlyglj/tbgg/tbgg.html"
         },
         {
-          "finished_at": "2026-10-29T06:57:29.430096+00:00",
-          "status": "success",
+          "finished_at": "2026-10-29T10:31:43.200585+00:00",
+          "status": "blocked",
           "documents_found": 0,
           "label": "中国政府采购网中央公告",
           "url": "https://www.ccgp.gov.cn/cggg/zygg/gkzb/"
         }
       ],
       "lastRun": {
-        "finished_at": "2026-10-29T06:57:29.430096+00:00",
-        "status": "success",
+        "finished_at": "2026-10-29T10:31:43.200585+00:00",
+        "status": "blocked",
         "documents_found": 0,
         "source_url": "https://www.ccgp.gov.cn/cggg/zygg/gkzb/"
       }
@@ -4074,7 +4074,7 @@
       "organizations": [],
       "procurementSources": [
         {
-          "finished_at": "2026-10-29T07:15:27.331899+00:00",
+          "finished_at": "2026-10-29T10:31:01.013896+00:00",
           "status": "success",
           "documents_found": 0,
           "label": "上海市政府采购网",
@@ -4082,7 +4082,7 @@
         }
       ],
       "lastRun": {
-        "finished_at": "2026-10-29T07:15:27.331899+00:00",
+        "finished_at": "2026-10-29T10:31:01.013896+00:00",
         "status": "success",
         "documents_found": 0,
         "source_url": "https://www.zfcg.sh.gov.cn"
@@ -4333,7 +4333,7 @@
           "title": "上海市房地产交易中心2026年12月政府采购意向",
           "excerpt": "采购人：上海市房地产交易中心\n2026年12月",
           "published_at": "2026-09-21",
-          "fetched_at": "2026-10-29T07:15:08.862335+00:00",
+          "fetched_at": "2026-10-29T10:30:46.378884+00:00",
           "facts": {
             "version": 1,
             "kind": "public_title",
@@ -4370,7 +4370,7 @@
           "title": "上海市房地产交易中心2026年12月政府采购意向",
           "excerpt": "采购人：上海市房地产交易中心\n2026年12月",
           "published_at": "2026-09-21",
-          "fetched_at": "2026-10-29T07:15:08.860889+00:00",
+          "fetched_at": "2026-10-29T10:30:46.376877+00:00",
           "facts": {
             "version": 1,
             "kind": "public_title",
@@ -4424,7 +4424,7 @@
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=WaXDWldQTY%2B8TCQOgj9l8A%3D%3D",
           "title": "上海市房地产交易中心2026年12月政府采购意向",
           "published_at": "2026-09-21",
-          "fetched_at": "2026-10-29T07:15:08.862335+00:00",
+          "fetched_at": "2026-10-29T10:30:46.378884+00:00",
           "source_host": "www.zfcg.sh.gov.cn"
         },
         {
@@ -4449,7 +4449,7 @@
           "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=LJdXBkqiJkp4J4PF%2BKqFow%3D%3D",
           "title": "上海市房地产交易中心2026年12月政府采购意向",
           "published_at": "2026-09-21",
-          "fetched_at": "2026-10-29T07:15:08.860889+00:00",
+          "fetched_at": "2026-10-29T10:30:46.376877+00:00",
           "source_host": "www.zfcg.sh.gov.cn"
         }
       ],
@@ -4457,7 +4457,7 @@
       "organizations": [],
       "procurementSources": [
         {
-          "finished_at": "2026-10-29T07:15:08.863535+00:00",
+          "finished_at": "2026-10-29T10:30:46.380091+00:00",
           "status": "success",
           "documents_found": 2,
           "label": "上海市政府采购网",
@@ -4465,7 +4465,7 @@
         }
       ],
       "lastRun": {
-        "finished_at": "2026-10-29T07:15:08.863535+00:00",
+        "finished_at": "2026-10-29T10:30:46.380091+00:00",
         "status": "success",
         "documents_found": 2,
         "source_url": "https://www.zfcg.sh.gov.cn"
