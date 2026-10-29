@@ -10,39 +10,118 @@
       "key": "header:客户名称:1",
       "column": "B",
       "header": "客户名称",
-      "nonemptyRows": 18
+      "nonemptyRows": 19
     },
     {
       "key": "header:客户标签:1",
       "column": "C",
       "header": "客户标签",
-      "nonemptyRows": 18
+      "nonemptyRows": 19
     },
     {
       "key": "header:一级属地:1",
       "column": "D",
       "header": "一级属地",
-      "nonemptyRows": 18
+      "nonemptyRows": 19
     },
     {
       "key": "header:二级属地:1",
       "column": "E",
       "header": "二级属地",
-      "nonemptyRows": 18
+      "nonemptyRows": 19
     },
     {
       "key": "header:客户类别:1",
       "column": "F",
       "header": "客户类别",
-      "nonemptyRows": 18
+      "nonemptyRows": 19
     },
     {
-      "key": "column:G",
+      "key": "header:移动客户经理:1",
       "column": "G",
-      "header": "",
-      "nonemptyRows": 3
+      "header": "移动客户经理",
+      "nonemptyRows": 10
+    },
+    {
+      "key": "header:集成客户经理:1",
+      "column": "H",
+      "header": "集成客户经理",
+      "nonemptyRows": 19
+    },
+    {
+      "key": "header:10.19-10.24:1",
+      "column": "I",
+      "header": "10.19-10.24",
+      "nonemptyRows": 0
+    },
+    {
+      "key": "header:10.26-10.30:1",
+      "column": "J",
+      "header": "10.26-10.30",
+      "nonemptyRows": 1
+    },
+    {
+      "key": "header:11.2-11.6:1",
+      "column": "K",
+      "header": "11.2-11.6",
+      "nonemptyRows": 0
+    },
+    {
+      "key": "header:11.9-11.13:1",
+      "column": "L",
+      "header": "11.9-11.13",
+      "nonemptyRows": 0
+    },
+    {
+      "key": "header:11.16-11.20:1",
+      "column": "M",
+      "header": "11.16-11.20",
+      "nonemptyRows": 0
     }
   ],
   "baselineCapturedAt": "2026-10-26T14:07:29+08:00",
-  "logColumns": []
+  "logColumns": [
+    {
+      "key": "header:移动客户经理:1",
+      "column": "G",
+      "header": "移动客户经理",
+      "nonemptyRows": 10
+    },
+    {
+      "key": "header:集成客户经理:1",
+      "column": "H",
+      "header": "集成客户经理",
+      "nonemptyRows": 19
+    },
+    {
+      "key": "header:10.19-10.24:1",
+      "column": "I",
+      "header": "10.19-10.24",
+      "nonemptyRows": 0
+    },
+    {
+      "key": "header:10.26-10.30:1",
+      "column": "J",
+      "header": "10.26-10.30",
+      "nonemptyRows": 1
+    },
+    {
+      "key": "header:11.2-11.6:1",
+      "column": "K",
+      "header": "11.2-11.6",
+      "nonemptyRows": 0
+    },
+    {
+      "key": "header:11.9-11.13:1",
+      "column": "L",
+      "header": "11.9-11.13",
+      "nonemptyRows": 0
+    },
+    {
+      "key": "header:11.16-11.20:1",
+      "column": "M",
+      "header": "11.16-11.20",
+      "nonemptyRows": 0
+    }
+  ]
 }

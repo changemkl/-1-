@@ -645,7 +645,15 @@
         "government_procurement": true,
         "verified_by": "https://www.shszgh.cn/shszgh/ldjs/"
       }
+    },
+    {
+      "id": "name:上海市房地产交易中心",
+      "name": "上海市房地产交易中心",
+      "firstSeenAt": "2026-10-29T06:03:23+00:00",
+      "previousNames": [],
+      "active": true,
+      "sourceStatus": "pending"
     }
   ],
-  "updatedAt": "2026-10-28T23:34:20+00:00"
+  "updatedAt": "2026-10-29T06:03:23+00:00"
 }
