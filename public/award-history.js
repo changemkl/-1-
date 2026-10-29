@@ -19,14 +19,14 @@ function verifiedAwardLots(row){
  }
  return [...lots.values()];
 }
-function awardSupplierTop3(rows){
+function awardSupplierTop10(rows){
  const suppliers=new Map(),seen=new Set();
  const normalize=name=>name.normalize('NFKC').replace(/\s+/g,'');
  for(const row of rows)for(const lot of verifiedAwardLots(row))for(const name of lot.suppliers){
   const key=normalize(name),win=[row.url.split('#')[0],lot.lotNumber||'',lot.lotName,key].join('|');if(seen.has(win))continue;seen.add(win);
   const old=suppliers.get(key)||{name,count:0,latest:''};old.count++;old.latest=old.latest>row.date?old.latest:row.date;suppliers.set(key,old);
  }
- return [...suppliers.values()].sort((a,b)=>b.count-a.count||b.latest.localeCompare(a.latest)||a.name.localeCompare(b.name,'zh-CN')).slice(0,3);
+ return [...suppliers.values()].sort((a,b)=>b.count-a.count||b.latest.localeCompare(a.latest)||a.name.localeCompare(b.name,'zh-CN')).slice(0,10);
 }
 (() => {
  const records=new Map();let selected,trigger,timer;
@@ -43,8 +43,8 @@ function awardSupplierTop3(rows){
   const extra=projects.filter(p=>p.stage==='中标或成交信息'&&p.buyer?.value?.startsWith(name)).map(p=>({title:p.title||p.name,date:(p.published_at||'').slice(0,10),buyer:p.buyer.value,url:p.notice_url||p.url}));
   const supplement=typeof supplementFor==='function'?supplementFor(customer):null;
   const rows=sortedAwardResults([...(record?.results||[]),...(supplement?.results||[]),...extra],shanghaiDate());let year='';
-  const top=awardSupplierTop3(rows),verified=rows.filter(row=>verifiedAwardLots(row).length).length;
-  const competitors=`<section class="award-competitors" aria-label="竞争对手 TOP3"><h3>竞争对手 <span>TOP3</span></h3>${top.length?`<ol>${top.map(s=>`<li><span>${esc(s.name)}</span><b>${s.count} 次</b></li>`).join('')}</ol>`:'<p class="org-unconfirmed">暂无已核实的中标供应商</p>'}<small>按已核实标项计次 · ${verified}/${rows.length} 条公告已核实供应商</small></section>`;
+  const top=awardSupplierTop10(rows),verified=rows.filter(row=>verifiedAwardLots(row).length).length;
+  const competitors=`<details class="award-competitors" aria-label="竞争对手 TOP10"><summary>竞争对手 <span>TOP10</span></summary>${top.length?`<ol>${top.map(s=>`<li><span>${esc(s.name)}</span><b>${s.count} 次</b></li>`).join('')}</ol>`:'<p class="org-unconfirmed">暂无已核实的中标供应商</p>'}<small>按已核实标项计次 · ${verified}/${rows.length} 条公告已核实供应商</small></details>`;
   const timeline=rows.map(row=>{const y=row.date.slice(0,4);const heading=y!==year?`<h3 class="award-year">${y}</h3>`:'';year=y;
    const lots=verifiedAwardLots(row),items=lots.length?lots:[{lotName:row.projectName||'标项名称待核实',suppliers:[]}];
    const contract=(supplement?.contracts||[]).find(c=>c.projectName===row.projectName&&c.buyer===row.buyer&&(!c.awardUrl||c.awardUrl===row.url));
