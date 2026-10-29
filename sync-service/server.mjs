@@ -1,4 +1,5 @@
 import http from 'node:http';
+import {createManualStore} from './manual-store.mjs';
 import fs from 'node:fs';
 import path from 'node:path';
 import crypto from 'node:crypto';
@@ -10,6 +11,7 @@ export function createSyncService({env=process.env,fetcher=fetch,now=Date.now}={
  const repo=env.GITHUB_REPOSITORY||'changemkl/-1-',ref=env.GITHUB_REF||'customer-workspace';
  if(!/^[\w.-]+\/[\w.-]+$/.test(repo))throw Error('Invalid repository');
  const dir=env.DATA_DIR||path.resolve('sync-service/data');fs.mkdirSync(dir,{recursive:true,mode:0o700});const store=path.join(dir,'jobs.json');
+ const manual=createManualStore(path.join(dir,'manual.sqlite'));
  let jobs=fs.existsSync(store)?JSON.parse(fs.readFileSync(store,'utf8')):[];const attempts=new Map();
  const save=()=>{jobs=jobs.filter(j=>now()-j.createdAt<86400000).slice(-100);fs.writeFileSync(store+'.tmp',JSON.stringify(jobs),{mode:0o600});fs.renameSync(store+'.tmp',store);};
  const sign=s=>crypto.createHmac('sha256',env.SYNC_SESSION_SECRET).update(s).digest('base64url');
@@ -18,11 +20,11 @@ export function createSyncService({env=process.env,fetcher=fetch,now=Date.now}={
  const authorized=req=>{try{const token=(req.headers.authorization||'').replace(/^Bearer /,'');const [p,s]=token.split('.');return Boolean(p&&s&&equal(s,sign(p))&&JSON.parse(Buffer.from(p,'base64url')).exp>now());}catch{return false;}};
  async function github(endpoint,init={}){const response=await fetcher('https://api.github.com/repos/'+repo+'/actions/'+endpoint,{...init,signal:AbortSignal.timeout(20000),headers:{Accept:'application/vnd.github+json',Authorization:'Bearer '+env.GITHUB_TOKEN,'X-GitHub-Api-Version':'2022-11-28','User-Agent':'CustomerWorkspaceSync','Content-Type':'application/json'}});if(!response.ok)throw Error('GitHub request failed ('+response.status+')');return response.status===204?null:response.json();}
  async function body(req){let text='';for await(const chunk of req){text+=chunk;if(text.length>4096)throw Object.assign(Error('Request too large'),{status:413});}try{return JSON.parse(text||'{}');}catch{throw Object.assign(Error('Invalid JSON'),{status:400});}}
- return http.createServer(async(req,res)=>{
+ const server=http.createServer(async(req,res)=>{
   const origin=req.headers.origin;res.setHeader('Vary','Origin');res.setHeader('Cache-Control','no-store');res.setHeader('X-Content-Type-Options','nosniff');
   const json=(data,status=200)=>{res.writeHead(status,{'Content-Type':'application/json; charset=utf-8'});res.end(JSON.stringify(data));};
   if(origin&&origin!==env.ALLOWED_ORIGIN)return json({error:'Origin not allowed'},403);
-  if(origin){res.setHeader('Access-Control-Allow-Origin',origin);res.setHeader('Access-Control-Allow-Headers','Authorization, Content-Type');res.setHeader('Access-Control-Allow-Methods','GET, POST, OPTIONS');}
+  if(origin){res.setHeader('Access-Control-Allow-Origin',origin);res.setHeader('Access-Control-Allow-Headers','Authorization, Content-Type');res.setHeader('Access-Control-Allow-Methods','GET, POST, DELETE, OPTIONS');}
   if(req.method==='OPTIONS'){res.writeHead(204);return res.end();}
   const url=new URL(req.url,'http://localhost');
   if(req.method==='GET'&&url.pathname==='/health')return json({ok:true});
@@ -33,6 +35,10 @@ export function createSyncService({env=process.env,fetcher=fetch,now=Date.now}={
     return json({token:issue(),expiresIn:3600});
    }
    if(!authorized(req))return json({error:'Sync authorization required'},401);
+   if(req.method==='GET'&&url.pathname==='/api/manual-records')return json({records:manual.list()});
+   if(req.method==='POST'&&url.pathname==='/api/manual-records')return json({record:manual.save(await body(req))});
+   const manualMatch=url.pathname.match(/^\/api\/manual-records\/([a-zA-Z0-9-]+)$/);
+   if(req.method==='DELETE'&&manualMatch){const data=await body(req);if(!Number.isInteger(data.revision))return json({error:'Revision required'},400);manual.remove(manualMatch[1],data.revision);return json({ok:true});}
    if(req.method==='POST'&&url.pathname==='/api/sync/jobs'){
     const data=await body(req);if(typeof data.kind!=='string'||!Object.hasOwn(workflows,data.kind))return json({error:'Unsupported sync operation'},400);
     const active=jobs.find(j=>j.kind===data.kind&&!['completed','failed'].includes(j.status)&&now()-j.createdAt<1800000);if(active)return json({id:active.id,status:active.status},202);
@@ -56,5 +62,7 @@ export function createSyncService({env=process.env,fetcher=fetch,now=Date.now}={
    return json({error:'Not found'},404);
   }catch(e){return json({error:e.status?e.message:'Sync service unavailable; existing website data is retained'},e.status||502);}
  });
+ server.on('close',()=>manual.close());
+ return server;
 }
 if(process.argv[1]&&path.resolve(process.argv[1])===fileURLToPath(import.meta.url))createSyncService().listen(Number(process.env.PORT||8788),'0.0.0.0');

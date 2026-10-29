@@ -10,3 +10,7 @@
 配置为空时，网站保留原入口，不会假装独立后台已部署。配置正确后，原“读取工作日志”“同步在线表格”按钮直接提交后台任务，不打开 GitHub；首次需要输入独立同步口令，浏览器只暂存一小时授权令牌。口令与 GitHub、腾讯密码无关。
 
 接口限定两类固定任务，不允许客户端选择其他仓库、分支或 workflow。每次任务携带随机 request_id，按同一编号查询 GitHub 任务，避免把其他人的运行误认成此次同步。部署服务端并配置 GitHub token 后，才能验证真实服务器至 GitHub 的网络连通性；目前代码准备好不代表已上线该接口。
+
+人工录入共享保存复用本服务的访问码和会话认证。新增的 SQLite 数据库位于 `DATA_DIR/manual.sqlite`（Docker 下为 `/data/manual.sqlite`），重启后仍保留；备份时连同 SQLite 的 WAL 文件一致备份，或停止服务后复制数据库。重新构建 Docker 镜像会包含 `manual-store.mjs`。接口：认证后 `GET /api/manual-records`、`POST /api/manual-records`、`DELETE /api/manual-records/:id`，编辑/删除必须带当前 revision，冲突返回409；单条记录客户编号、名称及类型不可改。访问码为团队共享写入权限，当前没有逐人账号与权限区分。
+
+部署后把 `public/manual-config.json` 的 `apiBaseUrl` 配成该服务 HTTPS 地址，页面“录入信息”中输入访问码连接。当前默认地址为空：人工资料只存在当前浏览器的 localStorage，与自动同步完全分开，可在录入弹窗导出/导入 JSON 备份；不能视作跨设备共享。配置共享服务后不自动上传此前本机资料，避免未确认的内部记录外传。人工人员、项目与日志不会由腾讯、东风或公开网页采集任务覆盖。共享数据库内容仅通过认证接口读取，不写入公开 GitHub JSON。
