@@ -62,6 +62,30 @@ class WorklogTests(unittest.TestCase):
         self.data['workLogs']=[{'id':'w','title':'公安三所工作','content':'沟通人工智能算力中心项目和视频加密建设项目','workDate':'2026-10-28'},{'id':'general','title':'公安三所交流','content':'客户沟通，具体项目尚不明确'}]
         rows=m.candidates(self.data,self.customers)
         self.assertEqual(len(rows['worklog:w:a']['projectIds']),2);self.assertFalse(rows['worklog:general:a'].get('projectIds'))
+    def test_duplicate_closure_purges_history_but_keeps_surviving_converted_opportunity(self):
+        lead=self.data['tasks'][0];lead.update(code='DF-XS-A',businessStage='LEAD',latestProgress='已转为商机 DF-OPP-B')
+        other={'id':'opp','code':'DF-OPP-B','clientName':'公安部第三研究所','title':'算力中心','businessStage':'OPPORTUNITY','timeline':[{'id':'good','title':'每日进展登记','workDate':'2026-10-28','description':'有效商机的方案沟通'}]}
+        self.data['tasks'].append(other)
+        before,state=m.sync(self.data,self.customers,{'entries':[]},{},now=self.now)
+        self.assertEqual(len(before['projects']),1)
+        lead['closeInfo']={'applyReason':'重复、无效或不再跟进的商机','applyDetail':'重复录入商机','auditDecision':'PENDING'}
+        after,state=m.sync(self.data,self.customers,before,state,now=self.now)
+        self.assertEqual(len(after['projects']),1);self.assertEqual(after['projects'][0]['taskIds'],['opp'])
+        self.assertFalse(any(r['sourceRecordId']=='daily:d:a'for r in after['entries']))
+        self.assertTrue(any(r['sourceRecordId']=='daily:good:a'for r in after['entries']))
+        self.assertEqual(m.sync(self.data,self.customers,after,state,now=self.now)[0],after)
+    def test_generic_invalid_or_normal_lost_closure_is_not_mistaken_for_duplicate(self):
+        task={'closeInfo':{'closeReasonCode':'DUPLICATE_OR_INVALID','applyReason':'重复、无效或不再跟进的商机','applyDetail':'预算取消，项目不再建设'},'timeline':[{'title':'客户经理提交关闭申请','description':'客户经理提交关闭申请：重复、无效或不再跟进的商机。'}]}
+        self.assertFalse(m.duplicate_close_request(task))
+        self.assertFalse(m.duplicate_close_request({'closeInfo':{'applyReason':'正常投标后失标','auditComment':'未中标，关闭'}}))
+        self.assertFalse(m.duplicate_close_request({'closeInfo':{'applyDetail':'不是重复商机'}}))
+        self.assertTrue(m.duplicate_close_request({'closeInfo':{'auditComment':'重复商机，允许关闭'}}))
+    def test_standalone_duplicate_project_does_not_reappear_from_archived_catalog(self):
+        before,state=m.sync(self.data,self.customers,{'entries':[]},{},now=self.now)
+        self.data['tasks'][0]['closeInfo']={'applyDetail':'重复商机'}
+        after,state=m.sync(self.data,self.customers,before,state,now=self.now)
+        self.assertEqual(after['projects'],[]);self.assertEqual(after['entries'],[])
+        self.assertEqual(m.sync(self.data,self.customers,after,state,now=self.now)[0],after)
     def test_long_narratives_and_bidding_updates_are_kept(self):
         self.data['tasks'][0]['timeline'][0]['description']='工作记录'*1000
         self.data['biddingRecords']=[{'id':'b','clientName':'公安部第三研究所','projectName':'项目','status':'LOST','bidDeadline':'2026-10-27'}]

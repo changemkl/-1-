@@ -6179,32 +6179,6 @@
       "updatedAt": "2026-10-29T14:45:24+08:00"
     },
     {
-      "customerId": "2100161493",
-      "customerName": "上海市体育局",
-      "workDate": "2026-09-16",
-      "title": "2026年上海市体育彩票管理中心录音录像改造项目 · 指挥部审核通过，任务正式关闭归档",
-      "content": "工作内容：指挥部审核意见：重复商机，允许关闭。",
-      "relatedUnit": null,
-      "actorName": "",
-      "actorRole": "",
-      "participants": [],
-      "recordUpdatedDate": null,
-      "projectIds": [
-        "dfproject:929e30dd53ab43d96af3"
-      ],
-      "projectTypes": {
-        "dfproject:929e30dd53ab43d96af3": "线索"
-      },
-      "id": "dongfeng:f5c9493b81900086261a034f",
-      "datePrecision": "explicit",
-      "sourceType": "dongfeng",
-      "sourceLabel": "东风平台 · 东风事件记录日期",
-      "sourceRecordId": "event:TL-1789528519667:2100161493",
-      "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
-      "firstSeenAt": "2026-10-29T14:13:10+08:00",
-      "updatedAt": "2026-10-29T14:45:24+08:00"
-    },
-    {
       "customerId": "2100153629",
       "customerName": "公安部第三研究所",
       "workDate": "2026-09-16",
@@ -6255,32 +6229,6 @@
       "updatedAt": "2026-10-29T14:45:24+08:00"
     },
     {
-      "customerId": "name:上海市城市运行管理中心",
-      "customerName": "上海市城市运行管理中心",
-      "workDate": "2026-09-16",
-      "title": "市城运城运中心人口洞察 · 指挥部审核通过，任务正式关闭归档",
-      "content": "工作内容：指挥部审核意见：重复商机，允许关闭。",
-      "relatedUnit": "上海市城运中心",
-      "actorName": "",
-      "actorRole": "",
-      "participants": [],
-      "recordUpdatedDate": null,
-      "projectIds": [
-        "dfproject:3b91a535fc00f5b1efd1"
-      ],
-      "projectTypes": {
-        "dfproject:3b91a535fc00f5b1efd1": "线索"
-      },
-      "id": "dongfeng:d78753d24139a66f875c5cbc",
-      "datePrecision": "explicit",
-      "sourceType": "dongfeng",
-      "sourceLabel": "东风平台 · 东风事件记录日期",
-      "sourceRecordId": "event:TL-1789528531056:name:上海市城市运行管理中心",
-      "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
-      "firstSeenAt": "2026-10-29T14:13:10+08:00",
-      "updatedAt": "2026-10-29T14:45:24+08:00"
-    },
-    {
       "customerId": "2100000260",
       "customerName": "上海市公安局",
       "workDate": "2026-09-16",
@@ -6302,58 +6250,6 @@
       "sourceType": "dongfeng",
       "sourceLabel": "东风平台 · 东风事件记录日期",
       "sourceRecordId": "event:TL-1789528868049:2100000260",
-      "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
-      "firstSeenAt": "2026-10-29T14:13:10+08:00",
-      "updatedAt": "2026-10-29T14:45:24+08:00"
-    },
-    {
-      "customerId": "2100172632",
-      "customerName": "上海市住房和城乡建设管理委员会",
-      "workDate": "2026-09-16",
-      "title": "区块链与智能体需求 · 指挥部审核通过，任务正式关闭归档",
-      "content": "工作内容：指挥部审核意见：重复商机，允许关闭。",
-      "relatedUnit": "上海市住房和城乡建设管理委员会行政服务中心",
-      "actorName": "",
-      "actorRole": "",
-      "participants": [],
-      "recordUpdatedDate": null,
-      "projectIds": [
-        "dfproject:fc1f4391faf481508e46"
-      ],
-      "projectTypes": {
-        "dfproject:fc1f4391faf481508e46": "线索"
-      },
-      "id": "dongfeng:c8646dc84fd1272c682542c1",
-      "datePrecision": "explicit",
-      "sourceType": "dongfeng",
-      "sourceLabel": "东风平台 · 东风事件记录日期",
-      "sourceRecordId": "event:TL-1789528537040:2100172632",
-      "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
-      "firstSeenAt": "2026-10-29T14:13:10+08:00",
-      "updatedAt": "2026-10-29T14:45:24+08:00"
-    },
-    {
-      "customerId": "2100000260",
-      "customerName": "上海市公安局",
-      "workDate": "2026-09-16",
-      "title": "上海市公安局数据中心私有云扩容 · 指挥部审核通过，任务正式关闭归档",
-      "content": "工作内容：指挥部审核意见：重复商机，允许关闭。",
-      "relatedUnit": null,
-      "actorName": "",
-      "actorRole": "",
-      "participants": [],
-      "recordUpdatedDate": null,
-      "projectIds": [
-        "dfproject:2d8df8262defdca79dc9"
-      ],
-      "projectTypes": {
-        "dfproject:2d8df8262defdca79dc9": "线索"
-      },
-      "id": "dongfeng:ae03d81723064d80a1adc7ba",
-      "datePrecision": "explicit",
-      "sourceType": "dongfeng",
-      "sourceLabel": "东风平台 · 东风事件记录日期",
-      "sourceRecordId": "event:TL-1789528681044:2100000260",
       "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
       "firstSeenAt": "2026-10-29T14:13:10+08:00",
       "updatedAt": "2026-10-29T14:45:24+08:00"
@@ -6384,110 +6280,6 @@
       "sourceRecordId": "daily:TL-DAILY-acf1c4c7-ee38-40b7-bb9b-8e3149799a2e:2100000260",
       "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
       "firstSeenAt": "2026-10-29T14:11:08+08:00",
-      "updatedAt": "2026-10-29T14:45:24+08:00"
-    },
-    {
-      "customerId": "2100000260",
-      "customerName": "上海市公安局",
-      "workDate": "2026-09-16",
-      "title": "上海市公安局闵行分局平安闵行项目 · 指挥部审核通过，任务正式关闭归档",
-      "content": "工作内容：指挥部审核意见：重复商机，允许关闭。",
-      "relatedUnit": "上海市公安局闵行分局",
-      "actorName": "",
-      "actorRole": "",
-      "participants": [],
-      "recordUpdatedDate": null,
-      "projectIds": [
-        "dfproject:4f3630f60bd2c9893772"
-      ],
-      "projectTypes": {
-        "dfproject:4f3630f60bd2c9893772": "线索"
-      },
-      "id": "dongfeng:9debc6ba04be2ca02b7a574c",
-      "datePrecision": "explicit",
-      "sourceType": "dongfeng",
-      "sourceLabel": "东风平台 · 东风事件记录日期",
-      "sourceRecordId": "event:TL-1789528333713:2100000260",
-      "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
-      "firstSeenAt": "2026-10-29T14:13:10+08:00",
-      "updatedAt": "2026-10-29T14:45:24+08:00"
-    },
-    {
-      "customerId": "2100172632",
-      "customerName": "上海市住房和城乡建设管理委员会",
-      "workDate": "2026-09-16",
-      "title": "服务器上云 · 指挥部审核通过，任务正式关闭归档",
-      "content": "工作内容：指挥部审核意见：重复商机，允许关闭。",
-      "relatedUnit": "上海市住房和城乡建设管理委员会行政服务中心",
-      "actorName": "",
-      "actorRole": "",
-      "participants": [],
-      "recordUpdatedDate": null,
-      "projectIds": [
-        "dfproject:67dd4b134f049a82848d"
-      ],
-      "projectTypes": {
-        "dfproject:67dd4b134f049a82848d": "线索"
-      },
-      "id": "dongfeng:996f1d0c2be778fa10bb2abc",
-      "datePrecision": "explicit",
-      "sourceType": "dongfeng",
-      "sourceLabel": "东风平台 · 东风事件记录日期",
-      "sourceRecordId": "event:TL-1789528833549:2100172632",
-      "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
-      "firstSeenAt": "2026-10-29T14:13:10+08:00",
-      "updatedAt": "2026-10-29T14:45:24+08:00"
-    },
-    {
-      "customerId": "2100000260",
-      "customerName": "上海市公安局",
-      "workDate": "2026-09-16",
-      "title": "上海公安智慧眼镜项目 · 指挥部审核通过，任务正式关闭归档",
-      "content": "工作内容：指挥部审核意见：重复商机，允许关闭。",
-      "relatedUnit": null,
-      "actorName": "",
-      "actorRole": "",
-      "participants": [],
-      "recordUpdatedDate": null,
-      "projectIds": [
-        "dfproject:5143f0aaac384a100a8c"
-      ],
-      "projectTypes": {
-        "dfproject:5143f0aaac384a100a8c": "线索"
-      },
-      "id": "dongfeng:990bfcd0c626c94bda88ebb5",
-      "datePrecision": "explicit",
-      "sourceType": "dongfeng",
-      "sourceLabel": "东风平台 · 东风事件记录日期",
-      "sourceRecordId": "event:TL-1789528775669:2100000260",
-      "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
-      "firstSeenAt": "2026-10-29T14:13:10+08:00",
-      "updatedAt": "2026-10-29T14:45:24+08:00"
-    },
-    {
-      "customerId": "2100127512",
-      "customerName": "中国浦东干部学院",
-      "workDate": "2026-09-16",
-      "title": "中浦院校园二期建设配套工程 · 指挥部审核通过，任务正式关闭归档",
-      "content": "工作内容：指挥部审核意见：重复商机，允许关闭。",
-      "relatedUnit": "中浦院",
-      "actorName": "",
-      "actorRole": "",
-      "participants": [],
-      "recordUpdatedDate": null,
-      "projectIds": [
-        "dfproject:db57f12ce3e65dfc9d80"
-      ],
-      "projectTypes": {
-        "dfproject:db57f12ce3e65dfc9d80": "线索"
-      },
-      "id": "dongfeng:98a5d46bf5d9af740d5f3912",
-      "datePrecision": "explicit",
-      "sourceType": "dongfeng",
-      "sourceLabel": "东风平台 · 东风事件记录日期",
-      "sourceRecordId": "event:TL-1789528360187:2100127512",
-      "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
-      "firstSeenAt": "2026-10-29T14:13:10+08:00",
       "updatedAt": "2026-10-29T14:45:24+08:00"
     },
     {
@@ -6577,58 +6369,6 @@
       "updatedAt": "2026-10-29T14:45:24+08:00"
     },
     {
-      "customerId": "name:上海市城市运行管理中心",
-      "customerName": "上海市城市运行管理中心",
-      "workDate": "2026-09-16",
-      "title": "数据治理+AI+政务应用 · 指挥部审核通过，任务正式关闭归档",
-      "content": "工作内容：指挥部审核意见：重复商机，允许关闭。",
-      "relatedUnit": "上海市城运中心",
-      "actorName": "",
-      "actorRole": "",
-      "participants": [],
-      "recordUpdatedDate": null,
-      "projectIds": [
-        "dfproject:b7f0ebbe8c054bbc48bb"
-      ],
-      "projectTypes": {
-        "dfproject:b7f0ebbe8c054bbc48bb": "线索"
-      },
-      "id": "dongfeng:7f3a6d48d539966bf5d5f00c",
-      "datePrecision": "explicit",
-      "sourceType": "dongfeng",
-      "sourceLabel": "东风平台 · 东风事件记录日期",
-      "sourceRecordId": "event:TL-1789528459808:name:上海市城市运行管理中心",
-      "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
-      "firstSeenAt": "2026-10-29T14:13:10+08:00",
-      "updatedAt": "2026-10-29T14:45:24+08:00"
-    },
-    {
-      "customerId": "2100000260",
-      "customerName": "上海市公安局",
-      "workDate": "2026-09-16",
-      "title": "上海警航无人机项目 · 指挥部审核通过，任务正式关闭归档",
-      "content": "工作内容：指挥部审核意见：重复商机，允许关闭。",
-      "relatedUnit": "上海市公安局警务航空队",
-      "actorName": "",
-      "actorRole": "",
-      "participants": [],
-      "recordUpdatedDate": null,
-      "projectIds": [
-        "dfproject:b65b1b13b6c2d3e5c293"
-      ],
-      "projectTypes": {
-        "dfproject:b65b1b13b6c2d3e5c293": "线索"
-      },
-      "id": "dongfeng:7d9e5d1a30148c6b18a1af11",
-      "datePrecision": "explicit",
-      "sourceType": "dongfeng",
-      "sourceLabel": "东风平台 · 东风事件记录日期",
-      "sourceRecordId": "event:TL-1789528685287:2100000260",
-      "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
-      "firstSeenAt": "2026-10-29T14:13:10+08:00",
-      "updatedAt": "2026-10-29T14:45:24+08:00"
-    },
-    {
       "customerId": "2100000260",
       "customerName": "上海市公安局",
       "workDate": "2026-09-16",
@@ -6682,136 +6422,6 @@
       "sourceRecordId": "daily:TL-DAILY-b39098c5-02d4-4c62-b09e-f770f5f812e6:2100000260",
       "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
       "firstSeenAt": "2026-10-29T14:11:08+08:00",
-      "updatedAt": "2026-10-29T14:45:24+08:00"
-    },
-    {
-      "customerId": "2100153629",
-      "customerName": "公安部第三研究所",
-      "workDate": "2026-09-16",
-      "title": "公安三所视频加密项目 · 指挥部审核通过，任务正式关闭归档",
-      "content": "工作内容：指挥部审核意见：重复商机，允许关闭。",
-      "relatedUnit": null,
-      "actorName": "",
-      "actorRole": "",
-      "participants": [],
-      "recordUpdatedDate": null,
-      "projectIds": [
-        "dfproject:aafbbbc2c5546e8ef5d9"
-      ],
-      "projectTypes": {
-        "dfproject:aafbbbc2c5546e8ef5d9": "线索"
-      },
-      "id": "dongfeng:725a67741d6141b44afb85e6",
-      "datePrecision": "explicit",
-      "sourceType": "dongfeng",
-      "sourceLabel": "东风平台 · 东风事件记录日期",
-      "sourceRecordId": "event:TL-1789528671839:2100153629",
-      "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
-      "firstSeenAt": "2026-10-29T14:13:10+08:00",
-      "updatedAt": "2026-10-29T14:45:24+08:00"
-    },
-    {
-      "customerId": "name:上海市委党校",
-      "customerName": "上海市委党校",
-      "workDate": "2026-09-16",
-      "title": "数智校园建设项目 · 指挥部审核通过，任务正式关闭归档",
-      "content": "工作内容：指挥部审核意见：重复商机，允许关闭。",
-      "relatedUnit": null,
-      "actorName": "",
-      "actorRole": "",
-      "participants": [],
-      "recordUpdatedDate": null,
-      "projectIds": [
-        "dfproject:c7621d43d5ee3d757847"
-      ],
-      "projectTypes": {
-        "dfproject:c7621d43d5ee3d757847": "线索"
-      },
-      "id": "dongfeng:67fcf30bc756b8d485eeb9bb",
-      "datePrecision": "explicit",
-      "sourceType": "dongfeng",
-      "sourceLabel": "东风平台 · 东风事件记录日期",
-      "sourceRecordId": "event:TL-1789528779879:name:上海市委党校",
-      "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
-      "firstSeenAt": "2026-10-29T14:13:10+08:00",
-      "updatedAt": "2026-10-29T14:45:24+08:00"
-    },
-    {
-      "customerId": "2100000260",
-      "customerName": "上海市公安局",
-      "workDate": "2026-09-16",
-      "title": "警务通项目 · 指挥部审核通过，任务正式关闭归档",
-      "content": "工作内容：指挥部审核意见：重复商机，允许关闭。",
-      "relatedUnit": null,
-      "actorName": "",
-      "actorRole": "",
-      "participants": [],
-      "recordUpdatedDate": null,
-      "projectIds": [
-        "dfproject:8077b21148f2cde09d35"
-      ],
-      "projectTypes": {
-        "dfproject:8077b21148f2cde09d35": "线索"
-      },
-      "id": "dongfeng:6445062ae6b8fd6edf317205",
-      "datePrecision": "explicit",
-      "sourceType": "dongfeng",
-      "sourceLabel": "东风平台 · 东风事件记录日期",
-      "sourceRecordId": "event:TL-1789528676511:2100000260",
-      "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
-      "firstSeenAt": "2026-10-29T14:13:10+08:00",
-      "updatedAt": "2026-10-29T14:45:24+08:00"
-    },
-    {
-      "customerId": "name:上海市委党校",
-      "customerName": "上海市委党校",
-      "workDate": "2026-09-16",
-      "title": "市委党校量子专线需求 · 指挥部审核通过，任务正式关闭归档",
-      "content": "工作内容：指挥部审核意见：重复商机，选择关闭。。",
-      "relatedUnit": null,
-      "actorName": "",
-      "actorRole": "",
-      "participants": [],
-      "recordUpdatedDate": null,
-      "projectIds": [
-        "dfproject:98fe07fe6fb73dc075ce"
-      ],
-      "projectTypes": {
-        "dfproject:98fe07fe6fb73dc075ce": "线索"
-      },
-      "id": "dongfeng:5d365fabd320e60a87b8ddd9",
-      "datePrecision": "explicit",
-      "sourceType": "dongfeng",
-      "sourceLabel": "东风平台 · 东风事件记录日期",
-      "sourceRecordId": "event:TL-1789528884006:name:上海市委党校",
-      "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
-      "firstSeenAt": "2026-10-29T14:13:10+08:00",
-      "updatedAt": "2026-10-29T14:45:24+08:00"
-    },
-    {
-      "customerId": "2100199365",
-      "customerName": "中国建筑第八工程局有限公司",
-      "workDate": "2026-09-16",
-      "title": "城市运维数字化项目 · 指挥部审核通过，任务正式关闭归档",
-      "content": "工作内容：指挥部审核意见：重复商机，允许关闭。",
-      "relatedUnit": "中建八局",
-      "actorName": "",
-      "actorRole": "",
-      "participants": [],
-      "recordUpdatedDate": null,
-      "projectIds": [
-        "dfproject:a797ab56b3590a4518d3"
-      ],
-      "projectTypes": {
-        "dfproject:a797ab56b3590a4518d3": "线索"
-      },
-      "id": "dongfeng:588f2dbe71617bc6878d0abd",
-      "datePrecision": "explicit",
-      "sourceType": "dongfeng",
-      "sourceLabel": "东风平台 · 东风事件记录日期",
-      "sourceRecordId": "event:TL-1789528690090:2100199365",
-      "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
-      "firstSeenAt": "2026-10-29T14:13:10+08:00",
       "updatedAt": "2026-10-29T14:45:24+08:00"
     },
     {
@@ -6929,84 +6539,6 @@
       "sourceRecordId": "daily:TL-DAILY-d8ed9f31-d653-49a1-8776-b58cad6b7164:2100000260",
       "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
       "firstSeenAt": "2026-10-29T14:11:08+08:00",
-      "updatedAt": "2026-10-29T14:45:24+08:00"
-    },
-    {
-      "customerId": "name:上海市总工会",
-      "customerName": "上海市总工会",
-      "workDate": "2026-09-16",
-      "title": "上海市总工会申工社职工服务平台升级改造项目 · 指挥部审核通过，任务正式关闭归档",
-      "content": "工作内容：指挥部审核意见：重复商机，允许关闭。",
-      "relatedUnit": null,
-      "actorName": "",
-      "actorRole": "",
-      "participants": [],
-      "recordUpdatedDate": null,
-      "projectIds": [
-        "dfproject:898c22dd19801bef6af7"
-      ],
-      "projectTypes": {
-        "dfproject:898c22dd19801bef6af7": "线索"
-      },
-      "id": "dongfeng:2ec6635a66e0c0dbf05275cd",
-      "datePrecision": "explicit",
-      "sourceType": "dongfeng",
-      "sourceLabel": "东风平台 · 东风事件记录日期",
-      "sourceRecordId": "event:TL-1789528344188:name:上海市总工会",
-      "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
-      "firstSeenAt": "2026-10-29T14:13:10+08:00",
-      "updatedAt": "2026-10-29T14:45:24+08:00"
-    },
-    {
-      "customerId": "2100172632",
-      "customerName": "上海市住房和城乡建设管理委员会",
-      "workDate": "2026-09-16",
-      "title": "服务器上云 · 指挥部审核通过，任务正式关闭归档",
-      "content": "工作内容：指挥部审核意见：重复商机，选择关闭。。",
-      "relatedUnit": "上海市住房和城乡建设管理委员会行政服务中心",
-      "actorName": "",
-      "actorRole": "",
-      "participants": [],
-      "recordUpdatedDate": null,
-      "projectIds": [
-        "dfproject:67dd4b134f049a82848d"
-      ],
-      "projectTypes": {
-        "dfproject:67dd4b134f049a82848d": "商机"
-      },
-      "id": "dongfeng:279a47b08c9a2edef7b20be2",
-      "datePrecision": "explicit",
-      "sourceType": "dongfeng",
-      "sourceLabel": "东风平台 · 东风事件记录日期",
-      "sourceRecordId": "event:TL-1789528966252:2100172632",
-      "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
-      "firstSeenAt": "2026-10-29T14:13:10+08:00",
-      "updatedAt": "2026-10-29T14:45:24+08:00"
-    },
-    {
-      "customerId": "2100000172",
-      "customerName": "上海市消防救援总队",
-      "workDate": "2026-09-16",
-      "title": "总队本级网络及安全设施升级改造项目 · 指挥部审核通过，任务正式关闭归档",
-      "content": "工作内容：指挥部审核意见：重复商机，选择关闭。。",
-      "relatedUnit": null,
-      "actorName": "",
-      "actorRole": "",
-      "participants": [],
-      "recordUpdatedDate": null,
-      "projectIds": [
-        "dfproject:a509d5fb204492a9f548"
-      ],
-      "projectTypes": {
-        "dfproject:a509d5fb204492a9f548": "线索"
-      },
-      "id": "dongfeng:277881937d6d796bdfd0205b",
-      "datePrecision": "explicit",
-      "sourceType": "dongfeng",
-      "sourceLabel": "东风平台 · 东风事件记录日期",
-      "sourceRecordId": "event:TL-1789528971384:2100000172",
-      "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
-      "firstSeenAt": "2026-10-29T14:13:10+08:00",
       "updatedAt": "2026-10-29T14:45:24+08:00"
     },
     {
@@ -7182,32 +6714,6 @@
       "updatedAt": "2026-10-29T14:45:24+08:00"
     },
     {
-      "customerId": "name:上海市城市运行管理中心",
-      "customerName": "上海市城市运行管理中心",
-      "workDate": "2026-09-15",
-      "title": "数据治理+AI+政务应用 · 客户经理提交关闭申请",
-      "content": "工作内容：客户经理提交关闭申请：重复、无效或不再跟进的商机。已完成简化必填校验，5项待完善资料随申请一并提交指挥部审核。",
-      "relatedUnit": "上海市城运中心",
-      "actorName": "许鹏宇",
-      "actorRole": "客户经理",
-      "participants": [],
-      "recordUpdatedDate": null,
-      "projectIds": [
-        "dfproject:b7f0ebbe8c054bbc48bb"
-      ],
-      "projectTypes": {
-        "dfproject:b7f0ebbe8c054bbc48bb": "线索"
-      },
-      "id": "dongfeng:ecd66e1405edd979b518baef",
-      "datePrecision": "explicit",
-      "sourceType": "dongfeng",
-      "sourceLabel": "东风平台 · 东风事件记录日期",
-      "sourceRecordId": "event:TL-1789464277025:name:上海市城市运行管理中心",
-      "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
-      "firstSeenAt": "2026-10-29T14:11:08+08:00",
-      "updatedAt": "2026-10-29T14:45:24+08:00"
-    },
-    {
       "customerId": "name:上海市总工会",
       "customerName": "上海市总工会",
       "workDate": "2026-09-15",
@@ -7259,58 +6765,6 @@
       "sourceType": "dongfeng",
       "sourceLabel": "东风平台 · 东风工作日期",
       "sourceRecordId": "daily:TL-DAILY-8062bca2-21e6-402b-8e8d-33af68487a2f:name:上海市总工会",
-      "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
-      "firstSeenAt": "2026-10-29T14:11:08+08:00",
-      "updatedAt": "2026-10-29T14:45:24+08:00"
-    },
-    {
-      "customerId": "name:上海市委党校",
-      "customerName": "上海市委党校",
-      "workDate": "2026-09-15",
-      "title": "市委党校量子专线需求 · 线索转化完成",
-      "content": "工作内容：已生成商机 DF-OPP-20260915-MU22FN1A-VN4BM4，原线索继续保留用于漏斗统计与追溯。",
-      "relatedUnit": null,
-      "actorName": "许鹏宇",
-      "actorRole": "客户经理",
-      "participants": [],
-      "recordUpdatedDate": null,
-      "projectIds": [
-        "dfproject:98fe07fe6fb73dc075ce"
-      ],
-      "projectTypes": {
-        "dfproject:98fe07fe6fb73dc075ce": "线索"
-      },
-      "id": "dongfeng:e492b89c9d368409d08d07d5",
-      "datePrecision": "explicit",
-      "sourceType": "dongfeng",
-      "sourceLabel": "东风平台 · 东风事件记录日期",
-      "sourceRecordId": "event:TL-1789440101470-LEAD:name:上海市委党校",
-      "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
-      "firstSeenAt": "2026-10-29T14:11:08+08:00",
-      "updatedAt": "2026-10-29T14:45:24+08:00"
-    },
-    {
-      "customerId": "2100000260",
-      "customerName": "上海市公安局",
-      "workDate": "2026-09-15",
-      "title": "警务通项目 · 客户经理提交关闭申请",
-      "content": "工作内容：客户经理提交关闭申请：重复、无效或不再跟进的商机。已完成简化必填校验，5项待完善资料随申请一并提交指挥部审核。",
-      "relatedUnit": null,
-      "actorName": "张羽池",
-      "actorRole": "客户经理",
-      "participants": [],
-      "recordUpdatedDate": null,
-      "projectIds": [
-        "dfproject:8077b21148f2cde09d35"
-      ],
-      "projectTypes": {
-        "dfproject:8077b21148f2cde09d35": "线索"
-      },
-      "id": "dongfeng:e487312cc97476d5c56a4ef5",
-      "datePrecision": "explicit",
-      "sourceType": "dongfeng",
-      "sourceLabel": "东风平台 · 东风事件记录日期",
-      "sourceRecordId": "event:TL-1789464007643:2100000260",
       "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
       "firstSeenAt": "2026-10-29T14:11:08+08:00",
       "updatedAt": "2026-10-29T14:45:24+08:00"
@@ -7375,32 +6829,6 @@
       "customerId": "2100000260",
       "customerName": "上海市公安局",
       "workDate": "2026-09-15",
-      "title": "上海市公安局数据中心私有云扩容 · 客户经理提交关闭申请",
-      "content": "工作内容：客户经理提交关闭申请：重复、无效或不再跟进的商机。已完成简化必填校验，5项待完善资料随申请一并提交指挥部审核。",
-      "relatedUnit": null,
-      "actorName": "张羽池",
-      "actorRole": "客户经理",
-      "participants": [],
-      "recordUpdatedDate": null,
-      "projectIds": [
-        "dfproject:2d8df8262defdca79dc9"
-      ],
-      "projectTypes": {
-        "dfproject:2d8df8262defdca79dc9": "线索"
-      },
-      "id": "dongfeng:c759f0912c37a3dde46eea42",
-      "datePrecision": "explicit",
-      "sourceType": "dongfeng",
-      "sourceLabel": "东风平台 · 东风事件记录日期",
-      "sourceRecordId": "event:TL-1789463995147:2100000260",
-      "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
-      "firstSeenAt": "2026-10-29T14:11:08+08:00",
-      "updatedAt": "2026-10-29T14:45:24+08:00"
-    },
-    {
-      "customerId": "2100000260",
-      "customerName": "上海市公安局",
-      "workDate": "2026-09-15",
       "title": "分局道路图像监控租赁（三期）服务续租第七年 · 每日进展登记",
       "content": "工作内容：完成度 60%｜本日进展：完成服务器、数通设备成本询价｜下一步：协同商务经理向北区移动汇报成本评估情况，共同商定下一步工作计划｜风险/阻塞：1. 核心厂商海康不提供支撑",
       "relatedUnit": "上海市公安局杨浦分局",
@@ -7454,162 +6882,6 @@
       "updatedAt": "2026-10-29T14:45:24+08:00"
     },
     {
-      "customerId": "2100000260",
-      "customerName": "上海市公安局",
-      "workDate": "2026-09-15",
-      "title": "上海公安智慧眼镜项目 · 客户经理提交关闭申请",
-      "content": "工作内容：客户经理提交关闭申请：重复、无效或不再跟进的商机。已完成简化必填校验，5项待完善资料随申请一并提交指挥部审核。",
-      "relatedUnit": null,
-      "actorName": "张羽池",
-      "actorRole": "客户经理",
-      "participants": [],
-      "recordUpdatedDate": null,
-      "projectIds": [
-        "dfproject:5143f0aaac384a100a8c"
-      ],
-      "projectTypes": {
-        "dfproject:5143f0aaac384a100a8c": "线索"
-      },
-      "id": "dongfeng:a752d4448a73496017df608b",
-      "datePrecision": "explicit",
-      "sourceType": "dongfeng",
-      "sourceLabel": "东风平台 · 东风事件记录日期",
-      "sourceRecordId": "event:TL-1789463759338:2100000260",
-      "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
-      "firstSeenAt": "2026-10-29T14:11:08+08:00",
-      "updatedAt": "2026-10-29T14:45:24+08:00"
-    },
-    {
-      "customerId": "2100161493",
-      "customerName": "上海市体育局",
-      "workDate": "2026-09-15",
-      "title": "2026年上海市体育彩票管理中心录音录像改造项目 · 客户经理提交关闭申请",
-      "content": "工作内容：客户经理提交关闭申请：重复、无效或不再跟进的商机。已完成简化必填校验，5项待完善资料随申请一并提交指挥部审核。",
-      "relatedUnit": null,
-      "actorName": "张羽池",
-      "actorRole": "客户经理",
-      "participants": [],
-      "recordUpdatedDate": null,
-      "projectIds": [
-        "dfproject:929e30dd53ab43d96af3"
-      ],
-      "projectTypes": {
-        "dfproject:929e30dd53ab43d96af3": "线索"
-      },
-      "id": "dongfeng:a3d0dfdf9d8269cb08147210",
-      "datePrecision": "explicit",
-      "sourceType": "dongfeng",
-      "sourceLabel": "东风平台 · 东风事件记录日期",
-      "sourceRecordId": "event:TL-1789464147017:2100161493",
-      "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
-      "firstSeenAt": "2026-10-29T14:11:08+08:00",
-      "updatedAt": "2026-10-29T14:45:24+08:00"
-    },
-    {
-      "customerId": "name:上海市城市运行管理中心",
-      "customerName": "上海市城市运行管理中心",
-      "workDate": "2026-09-15",
-      "title": "市城运城运中心人口洞察 · 客户经理提交关闭申请",
-      "content": "工作内容：客户经理提交关闭申请：重复、无效或不再跟进的商机。已完成简化必填校验，5项待完善资料随申请一并提交指挥部审核。",
-      "relatedUnit": "上海市城运中心",
-      "actorName": "许鹏宇",
-      "actorRole": "客户经理",
-      "participants": [],
-      "recordUpdatedDate": null,
-      "projectIds": [
-        "dfproject:3b91a535fc00f5b1efd1"
-      ],
-      "projectTypes": {
-        "dfproject:3b91a535fc00f5b1efd1": "线索"
-      },
-      "id": "dongfeng:9d85d4fb07c557599049ea22",
-      "datePrecision": "explicit",
-      "sourceType": "dongfeng",
-      "sourceLabel": "东风平台 · 东风事件记录日期",
-      "sourceRecordId": "event:TL-1789464056812:name:上海市城市运行管理中心",
-      "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
-      "firstSeenAt": "2026-10-29T14:11:08+08:00",
-      "updatedAt": "2026-10-29T14:45:24+08:00"
-    },
-    {
-      "customerId": "name:上海市委党校",
-      "customerName": "上海市委党校",
-      "workDate": "2026-09-15",
-      "title": "市委党校量子专线需求 · 客户经理提交关闭申请",
-      "content": "工作内容：客户经理提交关闭申请：其他原因。已完成简化必填校验，5项待完善资料随申请一并提交指挥部审核。",
-      "relatedUnit": null,
-      "actorName": "许鹏宇",
-      "actorRole": "客户经理",
-      "participants": [],
-      "recordUpdatedDate": null,
-      "projectIds": [
-        "dfproject:98fe07fe6fb73dc075ce"
-      ],
-      "projectTypes": {
-        "dfproject:98fe07fe6fb73dc075ce": "线索"
-      },
-      "id": "dongfeng:9ced98146b5b5a53f9dd1faf",
-      "datePrecision": "explicit",
-      "sourceType": "dongfeng",
-      "sourceLabel": "东风平台 · 东风事件记录日期",
-      "sourceRecordId": "event:TL-1789440740449:name:上海市委党校",
-      "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
-      "firstSeenAt": "2026-10-29T14:11:08+08:00",
-      "updatedAt": "2026-10-29T14:45:24+08:00"
-    },
-    {
-      "customerId": "2100172632",
-      "customerName": "上海市住房和城乡建设管理委员会",
-      "workDate": "2026-09-15",
-      "title": "区块链与智能体需求 · 客户经理提交关闭申请",
-      "content": "工作内容：客户经理提交关闭申请：重复、无效或不再跟进的商机。已完成简化必填校验，5项待完善资料随申请一并提交指挥部审核。",
-      "relatedUnit": "上海市住房和城乡建设管理委员会行政服务中心",
-      "actorName": "张羽池",
-      "actorRole": "客户经理",
-      "participants": [],
-      "recordUpdatedDate": null,
-      "projectIds": [
-        "dfproject:fc1f4391faf481508e46"
-      ],
-      "projectTypes": {
-        "dfproject:fc1f4391faf481508e46": "线索"
-      },
-      "id": "dongfeng:98d2b0f0aa1c60df2081cd4d",
-      "datePrecision": "explicit",
-      "sourceType": "dongfeng",
-      "sourceLabel": "东风平台 · 东风事件记录日期",
-      "sourceRecordId": "event:TL-1789464046449:2100172632",
-      "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
-      "firstSeenAt": "2026-10-29T14:11:08+08:00",
-      "updatedAt": "2026-10-29T14:45:24+08:00"
-    },
-    {
-      "customerId": "name:上海市委党校",
-      "customerName": "上海市委党校",
-      "workDate": "2026-09-15",
-      "title": "数智校园建设项目 · 客户经理提交关闭申请",
-      "content": "工作内容：客户经理提交关闭申请：重复、无效或不再跟进的商机。已完成简化必填校验，5项待完善资料随申请一并提交指挥部审核。",
-      "relatedUnit": null,
-      "actorName": "许鹏宇",
-      "actorRole": "客户经理",
-      "participants": [],
-      "recordUpdatedDate": null,
-      "projectIds": [
-        "dfproject:c7621d43d5ee3d757847"
-      ],
-      "projectTypes": {
-        "dfproject:c7621d43d5ee3d757847": "线索"
-      },
-      "id": "dongfeng:8dce152a77edeb53aad73be8",
-      "datePrecision": "explicit",
-      "sourceType": "dongfeng",
-      "sourceLabel": "东风平台 · 东风事件记录日期",
-      "sourceRecordId": "event:TL-1789463722053:name:上海市委党校",
-      "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
-      "firstSeenAt": "2026-10-29T14:11:08+08:00",
-      "updatedAt": "2026-10-29T14:45:24+08:00"
-    },
-    {
       "customerId": "name:上海市委党校",
       "customerName": "上海市委党校",
       "workDate": "2026-09-15",
@@ -7638,32 +6910,6 @@
       "updatedAt": "2026-10-29T14:45:24+08:00"
     },
     {
-      "customerId": "2100153629",
-      "customerName": "公安部第三研究所",
-      "workDate": "2026-09-15",
-      "title": "公安三所视频加密项目 · 客户经理提交关闭申请",
-      "content": "工作内容：客户经理提交关闭申请：重复、无效或不再跟进的商机。已完成简化必填校验，5项待完善资料随申请一并提交指挥部审核。",
-      "relatedUnit": null,
-      "actorName": "张羽池",
-      "actorRole": "客户经理",
-      "participants": [],
-      "recordUpdatedDate": null,
-      "projectIds": [
-        "dfproject:aafbbbc2c5546e8ef5d9"
-      ],
-      "projectTypes": {
-        "dfproject:aafbbbc2c5546e8ef5d9": "线索"
-      },
-      "id": "dongfeng:85566c929ab00ec2ed00cd2d",
-      "datePrecision": "explicit",
-      "sourceType": "dongfeng",
-      "sourceLabel": "东风平台 · 东风事件记录日期",
-      "sourceRecordId": "event:TL-1789464020685:2100153629",
-      "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
-      "firstSeenAt": "2026-10-29T14:11:08+08:00",
-      "updatedAt": "2026-10-29T14:45:24+08:00"
-    },
-    {
       "customerId": "2100000172",
       "customerName": "上海市消防救援总队",
       "workDate": "2026-09-15",
@@ -7687,32 +6933,6 @@
       "sourceType": "dongfeng",
       "sourceLabel": "东风平台 · 东风工作日期",
       "sourceRecordId": "daily:TL-DAILY-957cc011-abf9-4f9a-994b-70c5662a6129:2100000172",
-      "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
-      "firstSeenAt": "2026-10-29T14:11:08+08:00",
-      "updatedAt": "2026-10-29T14:45:24+08:00"
-    },
-    {
-      "customerId": "2100000260",
-      "customerName": "上海市公安局",
-      "workDate": "2026-09-15",
-      "title": "上海市公安局闵行分局平安闵行项目 · 客户经理提交关闭申请",
-      "content": "工作内容：客户经理提交关闭申请：重复、无效或不再跟进的商机。已完成简化必填校验，5项待完善资料随申请一并提交指挥部审核。",
-      "relatedUnit": "上海市公安局闵行分局",
-      "actorName": "王洪飞",
-      "actorRole": "客户经理",
-      "participants": [],
-      "recordUpdatedDate": null,
-      "projectIds": [
-        "dfproject:4f3630f60bd2c9893772"
-      ],
-      "projectTypes": {
-        "dfproject:4f3630f60bd2c9893772": "线索"
-      },
-      "id": "dongfeng:81530e251067e250c6358292",
-      "datePrecision": "explicit",
-      "sourceType": "dongfeng",
-      "sourceLabel": "东风平台 · 东风事件记录日期",
-      "sourceRecordId": "event:TL-1789471980008:2100000260",
       "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
       "firstSeenAt": "2026-10-29T14:11:08+08:00",
       "updatedAt": "2026-10-29T14:45:24+08:00"
@@ -7798,58 +7018,6 @@
       "updatedAt": "2026-10-29T14:45:24+08:00"
     },
     {
-      "customerId": "2100199365",
-      "customerName": "中国建筑第八工程局有限公司",
-      "workDate": "2026-09-15",
-      "title": "城市运维数字化项目 · 客户经理提交关闭申请",
-      "content": "工作内容：客户经理提交关闭申请：重复、无效或不再跟进的商机。已完成简化必填校验，5项待完善资料随申请一并提交指挥部审核。",
-      "relatedUnit": "中建八局",
-      "actorName": "张羽池",
-      "actorRole": "客户经理",
-      "participants": [],
-      "recordUpdatedDate": null,
-      "projectIds": [
-        "dfproject:a797ab56b3590a4518d3"
-      ],
-      "projectTypes": {
-        "dfproject:a797ab56b3590a4518d3": "线索"
-      },
-      "id": "dongfeng:5be43d8db1f6e25ff9322111",
-      "datePrecision": "explicit",
-      "sourceType": "dongfeng",
-      "sourceLabel": "东风平台 · 东风事件记录日期",
-      "sourceRecordId": "event:TL-1789463956718:2100199365",
-      "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
-      "firstSeenAt": "2026-10-29T14:11:08+08:00",
-      "updatedAt": "2026-10-29T14:45:24+08:00"
-    },
-    {
-      "customerId": "2100127512",
-      "customerName": "中国浦东干部学院",
-      "workDate": "2026-09-15",
-      "title": "中浦院校园二期建设配套工程 · 客户经理提交关闭申请",
-      "content": "工作内容：客户经理提交关闭申请：重复、无效或不再跟进的商机。已完成简化必填校验，5项待完善资料随申请一并提交指挥部审核。",
-      "relatedUnit": "中浦院",
-      "actorName": "许鹏宇",
-      "actorRole": "客户经理",
-      "participants": [],
-      "recordUpdatedDate": null,
-      "projectIds": [
-        "dfproject:db57f12ce3e65dfc9d80"
-      ],
-      "projectTypes": {
-        "dfproject:db57f12ce3e65dfc9d80": "线索"
-      },
-      "id": "dongfeng:5b6dd87ce80270a07f824e4c",
-      "datePrecision": "explicit",
-      "sourceType": "dongfeng",
-      "sourceLabel": "东风平台 · 东风事件记录日期",
-      "sourceRecordId": "event:TL-1789464506117:2100127512",
-      "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
-      "firstSeenAt": "2026-10-29T14:11:08+08:00",
-      "updatedAt": "2026-10-29T14:45:24+08:00"
-    },
-    {
       "customerId": "2100153629",
       "customerName": "公安部第三研究所",
       "workDate": "2026-09-15",
@@ -7869,32 +7037,6 @@
       "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
       "firstSeenAt": "2026-10-29T14:11:08+08:00",
       "updatedAt": "2026-10-29T14:11:08+08:00"
-    },
-    {
-      "customerId": "2100172632",
-      "customerName": "上海市住房和城乡建设管理委员会",
-      "workDate": "2026-09-15",
-      "title": "服务器上云 · 客户经理提交关闭申请",
-      "content": "工作内容：客户经理提交关闭申请：重复、无效或不再跟进的商机。已完成简化必填校验，5项待完善资料随申请一并提交指挥部审核。",
-      "relatedUnit": "上海市住房和城乡建设管理委员会行政服务中心",
-      "actorName": "张羽池",
-      "actorRole": "客户经理",
-      "participants": [],
-      "recordUpdatedDate": null,
-      "projectIds": [
-        "dfproject:67dd4b134f049a82848d"
-      ],
-      "projectTypes": {
-        "dfproject:67dd4b134f049a82848d": "线索"
-      },
-      "id": "dongfeng:4086a81de72a510ea64aa4e6",
-      "datePrecision": "explicit",
-      "sourceType": "dongfeng",
-      "sourceLabel": "东风平台 · 东风事件记录日期",
-      "sourceRecordId": "event:TL-1789463694786:2100172632",
-      "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
-      "firstSeenAt": "2026-10-29T14:11:08+08:00",
-      "updatedAt": "2026-10-29T14:45:24+08:00"
     },
     {
       "customerId": "2100127512",
@@ -7920,58 +7062,6 @@
       "sourceType": "dongfeng",
       "sourceLabel": "东风平台 · 东风工作日期",
       "sourceRecordId": "daily:TL-DAILY-360d09f6-9a04-4ca5-95eb-0a118acf1d2a:2100127512",
-      "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
-      "firstSeenAt": "2026-10-29T14:11:08+08:00",
-      "updatedAt": "2026-10-29T14:45:24+08:00"
-    },
-    {
-      "customerId": "name:上海市总工会",
-      "customerName": "上海市总工会",
-      "workDate": "2026-09-15",
-      "title": "上海市总工会申工社职工服务平台升级改造项目 · 客户经理提交关闭申请",
-      "content": "工作内容：客户经理提交关闭申请：重复、无效或不再跟进的商机。已完成简化必填校验，5项待完善资料随申请一并提交指挥部审核。",
-      "relatedUnit": null,
-      "actorName": "许鹏宇",
-      "actorRole": "客户经理",
-      "participants": [],
-      "recordUpdatedDate": null,
-      "projectIds": [
-        "dfproject:898c22dd19801bef6af7"
-      ],
-      "projectTypes": {
-        "dfproject:898c22dd19801bef6af7": "线索"
-      },
-      "id": "dongfeng:33c765c4098930d31a2928d4",
-      "datePrecision": "explicit",
-      "sourceType": "dongfeng",
-      "sourceLabel": "东风平台 · 东风事件记录日期",
-      "sourceRecordId": "event:TL-1789464659679:name:上海市总工会",
-      "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
-      "firstSeenAt": "2026-10-29T14:11:08+08:00",
-      "updatedAt": "2026-10-29T14:45:24+08:00"
-    },
-    {
-      "customerId": "2100000260",
-      "customerName": "上海市公安局",
-      "workDate": "2026-09-15",
-      "title": "上海警航无人机项目 · 客户经理提交关闭申请",
-      "content": "工作内容：客户经理提交关闭申请：重复、无效或不再跟进的商机。已完成简化必填校验，5项待完善资料随申请一并提交指挥部审核。",
-      "relatedUnit": "上海市公安局警务航空队",
-      "actorName": "张羽池",
-      "actorRole": "客户经理",
-      "participants": [],
-      "recordUpdatedDate": null,
-      "projectIds": [
-        "dfproject:b65b1b13b6c2d3e5c293"
-      ],
-      "projectTypes": {
-        "dfproject:b65b1b13b6c2d3e5c293": "线索"
-      },
-      "id": "dongfeng:29fda082e826e25c8f1a34e4",
-      "datePrecision": "explicit",
-      "sourceType": "dongfeng",
-      "sourceLabel": "东风平台 · 东风事件记录日期",
-      "sourceRecordId": "event:TL-1789463982254:2100000260",
       "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
       "firstSeenAt": "2026-10-29T14:11:08+08:00",
       "updatedAt": "2026-10-29T14:45:24+08:00"
@@ -8075,11 +7165,8 @@
         "dfproject:98fe07fe6fb73dc075ce"
       ],
       "projectTypes": {
-        "dfproject:98fe07fe6fb73dc075ce": "线索"
+        "dfproject:98fe07fe6fb73dc075ce": "商机"
       },
-      "projectNames": [
-        "市委党校量子专线需求 · 客户经理录入线索并提交"
-      ],
       "id": "dongfeng:01f21cc9e1c0048f6f23a15e",
       "datePrecision": "explicit",
       "sourceType": "dongfeng",
@@ -8087,7 +7174,7 @@
       "sourceRecordId": "event:TL-1789439239502-1:name:上海市委党校",
       "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
       "firstSeenAt": "2026-10-29T14:11:08+08:00",
-      "updatedAt": "2026-10-29T14:45:24+08:00"
+      "updatedAt": "2026-10-29T15:09:21+08:00"
     },
     {
       "customerId": "2100000260",
@@ -8113,32 +7200,6 @@
       "sourceType": "dongfeng",
       "sourceLabel": "东风平台 · 东风工作日期",
       "sourceRecordId": "daily:TL-DAILY-27295098-f5a6-45b6-9462-5059311fb5da:2100000260",
-      "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
-      "firstSeenAt": "2026-10-29T14:11:08+08:00",
-      "updatedAt": "2026-10-29T14:45:24+08:00"
-    },
-    {
-      "customerId": "2100172632",
-      "customerName": "上海市住房和城乡建设管理委员会",
-      "workDate": "2026-09-14",
-      "title": "服务器上云 · 客户经理提交关闭申请",
-      "content": "工作内容：客户经理提交关闭申请：重复、无效或不再跟进的商机。已完成简化必填校验，5项待完善资料随申请一并提交指挥部审核。",
-      "relatedUnit": "上海市住房和城乡建设管理委员会行政服务中心",
-      "actorName": "张羽池",
-      "actorRole": "客户经理",
-      "participants": [],
-      "recordUpdatedDate": null,
-      "projectIds": [
-        "dfproject:67dd4b134f049a82848d"
-      ],
-      "projectTypes": {
-        "dfproject:67dd4b134f049a82848d": "商机"
-      },
-      "id": "dongfeng:e4a944b5376a85d1e3f6b74e",
-      "datePrecision": "explicit",
-      "sourceType": "dongfeng",
-      "sourceLabel": "东风平台 · 东风事件记录日期",
-      "sourceRecordId": "event:TL-1789366974983:2100172632",
       "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
       "firstSeenAt": "2026-10-29T14:11:08+08:00",
       "updatedAt": "2026-10-29T14:45:24+08:00"
@@ -8310,32 +7371,6 @@
       "updatedAt": "2026-10-29T14:45:24+08:00"
     },
     {
-      "customerId": "2100161493",
-      "customerName": "上海市体育局",
-      "workDate": "2026-09-14",
-      "title": "2026年上海市体育彩票管理中心录音录像改造项目 · 客户经理提交关闭申请",
-      "content": "工作内容：客户经理提交关闭申请：重复、无效或不再跟进的商机。已完成简化必填校验，5项待完善资料随申请一并提交指挥部审核。",
-      "relatedUnit": null,
-      "actorName": "张羽池",
-      "actorRole": "客户经理",
-      "participants": [],
-      "recordUpdatedDate": null,
-      "projectIds": [
-        "dfproject:929e30dd53ab43d96af3"
-      ],
-      "projectTypes": {
-        "dfproject:929e30dd53ab43d96af3": "商机"
-      },
-      "id": "dongfeng:539f9417872f6111b046be3c",
-      "datePrecision": "explicit",
-      "sourceType": "dongfeng",
-      "sourceLabel": "东风平台 · 东风事件记录日期",
-      "sourceRecordId": "event:TL-1789366937554:2100161493",
-      "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
-      "firstSeenAt": "2026-10-29T14:11:08+08:00",
-      "updatedAt": "2026-10-29T14:45:24+08:00"
-    },
-    {
       "customerId": "2100000260",
       "customerName": "上海市公安局",
       "workDate": "2026-09-14",
@@ -8392,32 +7427,6 @@
       "updatedAt": "2026-10-29T14:45:24+08:00"
     },
     {
-      "customerId": "2100161493",
-      "customerName": "上海市体育局",
-      "workDate": "2026-09-14",
-      "title": "2026年上海市体育彩票管理中心录音录像改造项目 · 指挥部审核通过，任务正式关闭归档",
-      "content": "工作内容：指挥部审核意见：经指挥部核验，该战役各项指标全部达成，资产与合同完备，准予结项关闭归档。。",
-      "relatedUnit": null,
-      "actorName": "",
-      "actorRole": "",
-      "participants": [],
-      "recordUpdatedDate": null,
-      "projectIds": [
-        "dfproject:929e30dd53ab43d96af3"
-      ],
-      "projectTypes": {
-        "dfproject:929e30dd53ab43d96af3": "商机"
-      },
-      "id": "dongfeng:22104dd9edf319c78b0ee836",
-      "datePrecision": "explicit",
-      "sourceType": "dongfeng",
-      "sourceLabel": "东风平台 · 东风事件记录日期",
-      "sourceRecordId": "event:TL-1789380946834:2100161493",
-      "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
-      "firstSeenAt": "2026-10-29T14:13:10+08:00",
-      "updatedAt": "2026-10-29T14:45:24+08:00"
-    },
-    {
       "customerId": "2100153629",
       "customerName": "公安部第三研究所",
       "workDate": "2026-09-14",
@@ -8437,58 +7446,6 @@
       "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
       "firstSeenAt": "2026-10-29T14:11:08+08:00",
       "updatedAt": "2026-10-29T14:11:08+08:00"
-    },
-    {
-      "customerId": "2100000172",
-      "customerName": "上海市消防救援总队",
-      "workDate": "2026-09-14",
-      "title": "总队本级网络及安全设施升级改造项目 · 客户经理提交关闭申请",
-      "content": "工作内容：客户经理提交关闭申请：重复、无效或不再跟进的商机。已完成简化必填校验，5项待完善资料随申请一并提交指挥部审核。",
-      "relatedUnit": null,
-      "actorName": "许鹏宇",
-      "actorRole": "客户经理",
-      "participants": [],
-      "recordUpdatedDate": null,
-      "projectIds": [
-        "dfproject:a509d5fb204492a9f548"
-      ],
-      "projectTypes": {
-        "dfproject:a509d5fb204492a9f548": "线索"
-      },
-      "id": "dongfeng:1854cdae1fb00d1871d1419e",
-      "datePrecision": "explicit",
-      "sourceType": "dongfeng",
-      "sourceLabel": "东风平台 · 东风事件记录日期",
-      "sourceRecordId": "event:TL-1789380731472:2100000172",
-      "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
-      "firstSeenAt": "2026-10-29T14:11:08+08:00",
-      "updatedAt": "2026-10-29T14:45:24+08:00"
-    },
-    {
-      "customerId": "2100161493",
-      "customerName": "上海市体育局",
-      "workDate": "2026-09-11",
-      "title": "2026年上海市体育彩票管理中心录音录像改造项目 · 线索转化完成",
-      "content": "工作内容：已生成商机 DF-OPP-20260911-MTW8XR7P-P93THN，原线索继续保留用于漏斗统计与追溯。",
-      "relatedUnit": null,
-      "actorName": "张羽池",
-      "actorRole": "客户经理",
-      "participants": [],
-      "recordUpdatedDate": null,
-      "projectIds": [
-        "dfproject:929e30dd53ab43d96af3"
-      ],
-      "projectTypes": {
-        "dfproject:929e30dd53ab43d96af3": "线索"
-      },
-      "id": "dongfeng:e4ecf97513124d21ccc85128",
-      "datePrecision": "explicit",
-      "sourceType": "dongfeng",
-      "sourceLabel": "东风平台 · 东风事件记录日期",
-      "sourceRecordId": "event:TL-1789088227334-LEAD:2100161493",
-      "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
-      "firstSeenAt": "2026-10-29T14:11:08+08:00",
-      "updatedAt": "2026-10-29T14:45:24+08:00"
     },
     {
       "customerId": "2100000260",
@@ -8746,32 +7703,6 @@
       "sourceType": "dongfeng",
       "sourceLabel": "东风平台 · 东风工作日期",
       "sourceRecordId": "daily:TL-DAILY-82a1824a-26b8-4a29-8627-5223a46685f4:2100128579",
-      "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
-      "firstSeenAt": "2026-10-29T14:11:08+08:00",
-      "updatedAt": "2026-10-29T14:45:24+08:00"
-    },
-    {
-      "customerId": "2100161493",
-      "customerName": "上海市体育局",
-      "workDate": "2026-09-11",
-      "title": "2026年上海市体育彩票管理中心录音录像改造项目 · 线索已转为商机",
-      "content": "工作内容：来源线索 DF-XS-20260909-MTTNRYCW-RTEH29，生成商机 DF-OPP-20260911-MTW8XR7P-P93THN；预计金额 640 万元，客户预算 640 万元。",
-      "relatedUnit": null,
-      "actorName": "张羽池",
-      "actorRole": "客户经理",
-      "participants": [],
-      "recordUpdatedDate": null,
-      "projectIds": [
-        "dfproject:929e30dd53ab43d96af3"
-      ],
-      "projectTypes": {
-        "dfproject:929e30dd53ab43d96af3": "商机"
-      },
-      "id": "dongfeng:62a89aa4cb7f3245bfccee24",
-      "datePrecision": "explicit",
-      "sourceType": "dongfeng",
-      "sourceLabel": "东风平台 · 东风事件记录日期",
-      "sourceRecordId": "event:TL-1789088227334-OPP:2100161493",
       "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
       "firstSeenAt": "2026-10-29T14:11:08+08:00",
       "updatedAt": "2026-10-29T14:45:24+08:00"
@@ -9089,32 +8020,6 @@
       "updatedAt": "2026-10-29T14:45:24+08:00"
     },
     {
-      "customerId": "name:上海市总工会",
-      "customerName": "上海市总工会",
-      "workDate": "2026-09-10",
-      "title": "上海市总工会申工社职工服务平台升级改造项目 · 线索转化完成",
-      "content": "工作内容：已生成商机 DF-OPP-20260910-MTVG2H29-K0GXR7，原线索继续保留用于漏斗统计与追溯。",
-      "relatedUnit": null,
-      "actorName": "许鹏宇",
-      "actorRole": "客户经理",
-      "participants": [],
-      "recordUpdatedDate": null,
-      "projectIds": [
-        "dfproject:898c22dd19801bef6af7"
-      ],
-      "projectTypes": {
-        "dfproject:898c22dd19801bef6af7": "线索"
-      },
-      "id": "dongfeng:b753ca6275ba1a07e23564f8",
-      "datePrecision": "explicit",
-      "sourceType": "dongfeng",
-      "sourceLabel": "东风平台 · 东风事件记录日期",
-      "sourceRecordId": "event:TL-1789039738598-LEAD:name:上海市总工会",
-      "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
-      "firstSeenAt": "2026-10-29T14:11:08+08:00",
-      "updatedAt": "2026-10-29T14:45:24+08:00"
-    },
-    {
       "customerId": "2100153629",
       "customerName": "公安部第三研究所",
       "workDate": "2026-09-10",
@@ -9323,32 +8228,6 @@
       "updatedAt": "2026-10-29T14:45:24+08:00"
     },
     {
-      "customerId": "2100000260",
-      "customerName": "上海市公安局",
-      "workDate": "2026-09-10",
-      "title": "上海市公安局闵行分局平安闵行项目 · 每日进展登记",
-      "content": "工作内容：完成度 0%｜本日进展：与当地移动沟通，了解项目进展情况，及先期运作情况，准备后续跟进。｜下一步：待客户经理维护下一步计划。",
-      "relatedUnit": "上海市公安局闵行分局",
-      "actorName": "王洪飞",
-      "actorRole": "客户经理",
-      "participants": [],
-      "recordUpdatedDate": null,
-      "projectIds": [
-        "dfproject:4f3630f60bd2c9893772"
-      ],
-      "projectTypes": {
-        "dfproject:4f3630f60bd2c9893772": "线索"
-      },
-      "id": "dongfeng:33ed27726fd271d31914d420",
-      "datePrecision": "explicit",
-      "sourceType": "dongfeng",
-      "sourceLabel": "东风平台 · 东风工作日期",
-      "sourceRecordId": "daily:TL-DAILY-389522c8-463e-4348-a70d-7c9a27363fec:2100000260",
-      "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
-      "firstSeenAt": "2026-10-29T14:11:08+08:00",
-      "updatedAt": "2026-10-29T14:45:24+08:00"
-    },
-    {
       "customerId": "name:上海市总工会",
       "customerName": "上海市总工会",
       "workDate": "2026-09-10",
@@ -9363,11 +8242,8 @@
         "dfproject:898c22dd19801bef6af7"
       ],
       "projectTypes": {
-        "dfproject:898c22dd19801bef6af7": "线索"
+        "dfproject:898c22dd19801bef6af7": "商机"
       },
-      "projectNames": [
-        "上海市总工会申工社职工服务平台升级改造项目 · 客户经理录入线索并提交"
-      ],
       "id": "dongfeng:2f84a4e710ac0fec985a1107",
       "datePrecision": "explicit",
       "sourceType": "dongfeng",
@@ -9375,7 +8251,7 @@
       "sourceRecordId": "event:TL-1789023923962-1:name:上海市总工会",
       "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
       "firstSeenAt": "2026-10-29T14:11:08+08:00",
-      "updatedAt": "2026-10-29T14:45:24+08:00"
+      "updatedAt": "2026-10-29T15:09:21+08:00"
     },
     {
       "customerId": "2100000260",
@@ -9444,11 +8320,8 @@
         "dfproject:a509d5fb204492a9f548"
       ],
       "projectTypes": {
-        "dfproject:a509d5fb204492a9f548": "线索"
+        "dfproject:a509d5fb204492a9f548": "商机"
       },
-      "projectNames": [
-        "总队本级网络及安全设施升级改造项目 · 客户经理录入线索并提交"
-      ],
       "id": "dongfeng:f74ee501b54beca8befcbfc0",
       "datePrecision": "explicit",
       "sourceType": "dongfeng",
@@ -9456,85 +8329,7 @@
       "sourceRecordId": "event:TL-1788949600582-1:2100000172",
       "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
       "firstSeenAt": "2026-10-29T14:11:08+08:00",
-      "updatedAt": "2026-10-29T14:45:24+08:00"
-    },
-    {
-      "customerId": "2100172632",
-      "customerName": "上海市住房和城乡建设管理委员会",
-      "workDate": "2026-09-09",
-      "title": "服务器上云 · 线索转化完成",
-      "content": "工作内容：已生成商机 DF-OPP-20260909-MTTMRXAH-4G07M9，原线索继续保留用于漏斗统计与追溯。",
-      "relatedUnit": "上海市住房和城乡建设管理委员会行政服务中心",
-      "actorName": "张羽池",
-      "actorRole": "客户经理",
-      "participants": [],
-      "recordUpdatedDate": null,
-      "projectIds": [
-        "dfproject:67dd4b134f049a82848d"
-      ],
-      "projectTypes": {
-        "dfproject:67dd4b134f049a82848d": "线索"
-      },
-      "id": "dongfeng:f702dcaa29d034738d2104cf",
-      "datePrecision": "explicit",
-      "sourceType": "dongfeng",
-      "sourceLabel": "东风平台 · 东风事件记录日期",
-      "sourceRecordId": "event:TL-1788930071371-LEAD:2100172632",
-      "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
-      "firstSeenAt": "2026-10-29T14:11:08+08:00",
-      "updatedAt": "2026-10-29T14:45:24+08:00"
-    },
-    {
-      "customerId": "name:上海市城市运行管理中心",
-      "customerName": "上海市城市运行管理中心",
-      "workDate": "2026-09-09",
-      "title": "市城运城运中心人口洞察 · 每日进展登记",
-      "content": "工作内容：完成度 10%｜本日进展：拜访客户｜下一步：待客户经理维护下一步计划。",
-      "relatedUnit": "上海市城运中心",
-      "actorName": "许鹏宇",
-      "actorRole": "客户经理",
-      "participants": [],
-      "recordUpdatedDate": null,
-      "projectIds": [
-        "dfproject:3b91a535fc00f5b1efd1"
-      ],
-      "projectTypes": {
-        "dfproject:3b91a535fc00f5b1efd1": "线索"
-      },
-      "id": "dongfeng:f542489229afd7a94244882d",
-      "datePrecision": "explicit",
-      "sourceType": "dongfeng",
-      "sourceLabel": "东风平台 · 东风工作日期",
-      "sourceRecordId": "daily:TL-DAILY-30ded022-9660-4409-85a8-dcc52b22e0f0:name:上海市城市运行管理中心",
-      "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
-      "firstSeenAt": "2026-10-29T14:11:08+08:00",
-      "updatedAt": "2026-10-29T14:45:24+08:00"
-    },
-    {
-      "customerId": "2100000260",
-      "customerName": "上海市公安局",
-      "workDate": "2026-09-09",
-      "title": "上海市公安局数据中心私有云扩容 · 客户经理录入线索并提交",
-      "content": "工作内容：客户经理 张羽池 通过工作台录入线索【上海市公安局数据中心私有云扩容】，生成唯一编号 DF-XS-20260909-MTTP2QWS-LD6749。",
-      "relatedUnit": null,
-      "actorName": "张羽池",
-      "actorRole": "客户经理",
-      "participants": [],
-      "recordUpdatedDate": null,
-      "projectIds": [
-        "dfproject:2d8df8262defdca79dc9"
-      ],
-      "projectTypes": {
-        "dfproject:2d8df8262defdca79dc9": "线索"
-      },
-      "id": "dongfeng:f37e849ed64e647bdcea4b7d",
-      "datePrecision": "explicit",
-      "sourceType": "dongfeng",
-      "sourceLabel": "东风平台 · 东风事件记录日期",
-      "sourceRecordId": "event:TL-1788933935548-1:2100000260",
-      "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
-      "firstSeenAt": "2026-10-29T14:11:08+08:00",
-      "updatedAt": "2026-10-29T14:45:24+08:00"
+      "updatedAt": "2026-10-29T15:09:21+08:00"
     },
     {
       "customerId": "2100153629",
@@ -9589,139 +8384,6 @@
       "updatedAt": "2026-10-29T14:45:24+08:00"
     },
     {
-      "customerId": "2100161493",
-      "customerName": "上海市体育局",
-      "workDate": "2026-09-09",
-      "title": "2026年上海市体育彩票管理中心录音录像改造项目 · 客户经理录入线索并提交",
-      "content": "工作内容：客户经理 张羽池 通过工作台录入线索【2026年上海市体育彩票管理中心录音录像改造项目】，生成唯一编号 DF-XS-20260909-MTTNRYCW-RTEH29。",
-      "relatedUnit": null,
-      "actorName": "张羽池",
-      "actorRole": "客户经理",
-      "participants": [],
-      "recordUpdatedDate": null,
-      "projectIds": [
-        "dfproject:929e30dd53ab43d96af3"
-      ],
-      "projectTypes": {
-        "dfproject:929e30dd53ab43d96af3": "线索"
-      },
-      "projectNames": [
-        "2026年上海市体育彩票管理中心录音录像改造项目 · 客户经理录入线索并提交"
-      ],
-      "id": "dongfeng:e9e35c2ef28b27a8a552582b",
-      "datePrecision": "explicit",
-      "sourceType": "dongfeng",
-      "sourceLabel": "东风平台 · 东风事件记录日期",
-      "sourceRecordId": "event:TL-1788931752368-1:2100161493",
-      "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
-      "firstSeenAt": "2026-10-29T14:11:08+08:00",
-      "updatedAt": "2026-10-29T14:45:24+08:00"
-    },
-    {
-      "customerId": "2100172632",
-      "customerName": "上海市住房和城乡建设管理委员会",
-      "workDate": "2026-09-09",
-      "title": "区块链与智能体需求 · 客户经理录入线索并提交",
-      "content": "工作内容：客户经理 张羽池 通过工作台录入线索【区块链与智能体需求】，生成唯一编号 DF-XS-20260909-MTTQZLZY-G99RL2。",
-      "relatedUnit": "上海市住房和城乡建设管理委员会行政服务中心",
-      "actorName": "张羽池",
-      "actorRole": "客户经理",
-      "participants": [],
-      "recordUpdatedDate": null,
-      "projectIds": [
-        "dfproject:fc1f4391faf481508e46"
-      ],
-      "projectTypes": {
-        "dfproject:fc1f4391faf481508e46": "线索"
-      },
-      "id": "dongfeng:e4779bc780215ce17148cfa9",
-      "datePrecision": "explicit",
-      "sourceType": "dongfeng",
-      "sourceLabel": "东风平台 · 东风事件记录日期",
-      "sourceRecordId": "event:TL-1788937148447-1:2100172632",
-      "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
-      "firstSeenAt": "2026-10-29T14:11:08+08:00",
-      "updatedAt": "2026-10-29T14:45:24+08:00"
-    },
-    {
-      "customerId": "2100153629",
-      "customerName": "公安部第三研究所",
-      "workDate": "2026-09-09",
-      "title": "公安三所视频加密项目 · 客户经理录入线索并提交",
-      "content": "工作内容：客户经理 张羽池 通过工作台录入线索【公安三所视频加密项目】，生成唯一编号 DF-XS-20260909-MTTP7K1R-8JV5ZW。",
-      "relatedUnit": null,
-      "actorName": "张羽池",
-      "actorRole": "客户经理",
-      "participants": [],
-      "recordUpdatedDate": null,
-      "projectIds": [
-        "dfproject:aafbbbc2c5546e8ef5d9"
-      ],
-      "projectTypes": {
-        "dfproject:aafbbbc2c5546e8ef5d9": "线索"
-      },
-      "id": "dongfeng:e2d48d8a0782aadabda9a6ca",
-      "datePrecision": "explicit",
-      "sourceType": "dongfeng",
-      "sourceLabel": "东风平台 · 东风事件记录日期",
-      "sourceRecordId": "event:TL-1788934159935-1:2100153629",
-      "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
-      "firstSeenAt": "2026-10-29T14:11:08+08:00",
-      "updatedAt": "2026-10-29T14:45:24+08:00"
-    },
-    {
-      "customerId": "2100127512",
-      "customerName": "中国浦东干部学院",
-      "workDate": "2026-09-09",
-      "title": "中浦院校园二期建设配套工程 · 客户经理录入线索并提交",
-      "content": "工作内容：客户经理 许鹏宇 通过工作台录入线索【中浦院校园二期建设配套工程】，生成唯一编号 DF-XS-20260909-MTTNQ385-ZHWX0F。",
-      "relatedUnit": "中浦院",
-      "actorName": "许鹏宇",
-      "actorRole": "客户经理",
-      "participants": [],
-      "recordUpdatedDate": null,
-      "projectIds": [
-        "dfproject:db57f12ce3e65dfc9d80"
-      ],
-      "projectTypes": {
-        "dfproject:db57f12ce3e65dfc9d80": "线索"
-      },
-      "id": "dongfeng:dd30d905d1610a32d9c6eb3a",
-      "datePrecision": "explicit",
-      "sourceType": "dongfeng",
-      "sourceLabel": "东风平台 · 东风事件记录日期",
-      "sourceRecordId": "event:TL-1788931665366-1:2100127512",
-      "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
-      "firstSeenAt": "2026-10-29T14:11:08+08:00",
-      "updatedAt": "2026-10-29T14:45:24+08:00"
-    },
-    {
-      "customerId": "name:上海市城市运行管理中心",
-      "customerName": "上海市城市运行管理中心",
-      "workDate": "2026-09-09",
-      "title": "数据治理+AI+政务应用 · 每日进展登记",
-      "content": "工作内容：完成度 5%｜本日进展：收集项目信息｜下一步：进一步拜访客户，深挖项目信息",
-      "relatedUnit": "上海市城运中心",
-      "actorName": "许鹏宇",
-      "actorRole": "客户经理",
-      "participants": [],
-      "recordUpdatedDate": null,
-      "projectIds": [
-        "dfproject:b7f0ebbe8c054bbc48bb"
-      ],
-      "projectTypes": {
-        "dfproject:b7f0ebbe8c054bbc48bb": "线索"
-      },
-      "id": "dongfeng:ccee193daf0ca0cbdd32f317",
-      "datePrecision": "explicit",
-      "sourceType": "dongfeng",
-      "sourceLabel": "东风平台 · 东风工作日期",
-      "sourceRecordId": "daily:TL-DAILY-487845b4-8033-42f4-8965-fefa51f3985b:name:上海市城市运行管理中心",
-      "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
-      "firstSeenAt": "2026-10-29T14:11:08+08:00",
-      "updatedAt": "2026-10-29T14:45:24+08:00"
-    },
-    {
       "customerId": "2100000260",
       "customerName": "上海市公安局",
       "workDate": "2026-09-09",
@@ -9743,58 +8405,6 @@
       "sourceType": "dongfeng",
       "sourceLabel": "东风平台 · 东风工作日期",
       "sourceRecordId": "daily:TL-DAILY-c8d68ebc-b183-41d2-a0bf-7be5c1841872:2100000260",
-      "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
-      "firstSeenAt": "2026-10-29T14:11:08+08:00",
-      "updatedAt": "2026-10-29T14:45:24+08:00"
-    },
-    {
-      "customerId": "2100000260",
-      "customerName": "上海市公安局",
-      "workDate": "2026-09-09",
-      "title": "警务通项目 · 客户经理录入线索并提交",
-      "content": "工作内容：客户经理 张羽池 通过工作台录入线索【警务通项目】，生成唯一编号 DF-XS-20260909-MTTP3VD8-BUH6S2。",
-      "relatedUnit": null,
-      "actorName": "张羽池",
-      "actorRole": "客户经理",
-      "participants": [],
-      "recordUpdatedDate": null,
-      "projectIds": [
-        "dfproject:8077b21148f2cde09d35"
-      ],
-      "projectTypes": {
-        "dfproject:8077b21148f2cde09d35": "线索"
-      },
-      "id": "dongfeng:c9702a39f90d45c64e18db05",
-      "datePrecision": "explicit",
-      "sourceType": "dongfeng",
-      "sourceLabel": "东风平台 · 东风事件记录日期",
-      "sourceRecordId": "event:TL-1788933987980-1:2100000260",
-      "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
-      "firstSeenAt": "2026-10-29T14:11:08+08:00",
-      "updatedAt": "2026-10-29T14:45:24+08:00"
-    },
-    {
-      "customerId": "name:上海市委党校",
-      "customerName": "上海市委党校",
-      "workDate": "2026-09-09",
-      "title": "数智校园建设项目 · 每日进展登记",
-      "content": "工作内容：完成度 0%｜本日进展：信息收集｜下一步：待客户经理维护下一步计划。",
-      "relatedUnit": null,
-      "actorName": "许鹏宇",
-      "actorRole": "客户经理",
-      "participants": [],
-      "recordUpdatedDate": null,
-      "projectIds": [
-        "dfproject:c7621d43d5ee3d757847"
-      ],
-      "projectTypes": {
-        "dfproject:c7621d43d5ee3d757847": "线索"
-      },
-      "id": "dongfeng:c2ab1746d3d2164d2b440d2c",
-      "datePrecision": "explicit",
-      "sourceType": "dongfeng",
-      "sourceLabel": "东风平台 · 东风工作日期",
-      "sourceRecordId": "daily:TL-DAILY-7fa12064-b7cb-453c-badf-f8536be84826:name:上海市委党校",
       "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
       "firstSeenAt": "2026-10-29T14:11:08+08:00",
       "updatedAt": "2026-10-29T14:45:24+08:00"
@@ -9826,84 +8436,6 @@
       "updatedAt": "2026-10-29T14:45:24+08:00"
     },
     {
-      "customerId": "2100000260",
-      "customerName": "上海市公安局",
-      "workDate": "2026-09-09",
-      "title": "上海警航无人机项目 · 客户经理录入线索并提交",
-      "content": "工作内容：客户经理 张羽池 通过工作台录入线索【上海警航无人机项目】，生成唯一编号 DF-XS-20260909-MTTOZU1K-UX53FG。",
-      "relatedUnit": "上海市公安局警务航空队",
-      "actorName": "张羽池",
-      "actorRole": "客户经理",
-      "participants": [],
-      "recordUpdatedDate": null,
-      "projectIds": [
-        "dfproject:b65b1b13b6c2d3e5c293"
-      ],
-      "projectTypes": {
-        "dfproject:b65b1b13b6c2d3e5c293": "线索"
-      },
-      "id": "dongfeng:c09dac5304bb68fdb6b01292",
-      "datePrecision": "explicit",
-      "sourceType": "dongfeng",
-      "sourceLabel": "东风平台 · 东风事件记录日期",
-      "sourceRecordId": "event:TL-1788933799641-1:2100000260",
-      "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
-      "firstSeenAt": "2026-10-29T14:11:08+08:00",
-      "updatedAt": "2026-10-29T14:45:24+08:00"
-    },
-    {
-      "customerId": "name:上海市城市运行管理中心",
-      "customerName": "上海市城市运行管理中心",
-      "workDate": "2026-09-09",
-      "title": "数据治理+AI+政务应用 · 客户经理录入线索并提交",
-      "content": "工作内容：客户经理 许鹏宇 通过工作台录入线索【数据治理+AI+政务应用】，生成唯一编号 DF-XS-20260909-MTTNF5BG-YPFQEH。",
-      "relatedUnit": "上海市城运中心",
-      "actorName": "许鹏宇",
-      "actorRole": "客户经理",
-      "participants": [],
-      "recordUpdatedDate": null,
-      "projectIds": [
-        "dfproject:b7f0ebbe8c054bbc48bb"
-      ],
-      "projectTypes": {
-        "dfproject:b7f0ebbe8c054bbc48bb": "线索"
-      },
-      "id": "dongfeng:b3d068d9f3b134faeb201d38",
-      "datePrecision": "explicit",
-      "sourceType": "dongfeng",
-      "sourceLabel": "东风平台 · 东风事件记录日期",
-      "sourceRecordId": "event:TL-1788931154861-1:name:上海市城市运行管理中心",
-      "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
-      "firstSeenAt": "2026-10-29T14:11:08+08:00",
-      "updatedAt": "2026-10-29T14:45:24+08:00"
-    },
-    {
-      "customerId": "2100000260",
-      "customerName": "上海市公安局",
-      "workDate": "2026-09-09",
-      "title": "上海公安智慧眼镜项目 · 客户经理录入线索并提交",
-      "content": "工作内容：客户经理 张羽池 通过工作台录入线索【上海公安智慧眼镜项目】，生成唯一编号 DF-XS-20260909-MTTOX3JT-M8R9ST。",
-      "relatedUnit": null,
-      "actorName": "张羽池",
-      "actorRole": "客户经理",
-      "participants": [],
-      "recordUpdatedDate": null,
-      "projectIds": [
-        "dfproject:5143f0aaac384a100a8c"
-      ],
-      "projectTypes": {
-        "dfproject:5143f0aaac384a100a8c": "线索"
-      },
-      "id": "dongfeng:a27703e83ef844953fd46c7f",
-      "datePrecision": "explicit",
-      "sourceType": "dongfeng",
-      "sourceLabel": "东风平台 · 东风事件记录日期",
-      "sourceRecordId": "event:TL-1788933671997-1:2100000260",
-      "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
-      "firstSeenAt": "2026-10-29T14:11:08+08:00",
-      "updatedAt": "2026-10-29T14:45:24+08:00"
-    },
-    {
       "customerId": "name:上海市委党校",
       "customerName": "上海市委党校",
       "workDate": "2026-09-09",
@@ -9930,32 +8462,6 @@
       "updatedAt": "2026-10-29T14:45:24+08:00"
     },
     {
-      "customerId": "name:上海市城市运行管理中心",
-      "customerName": "上海市城市运行管理中心",
-      "workDate": "2026-09-09",
-      "title": "市城运城运中心人口洞察 · 每日进展登记",
-      "content": "工作内容：完成度 0%｜本日进展：拜访客户｜下一步：待客户经理维护下一步计划。",
-      "relatedUnit": "上海市城运中心",
-      "actorName": "许鹏宇",
-      "actorRole": "客户经理",
-      "participants": [],
-      "recordUpdatedDate": null,
-      "projectIds": [
-        "dfproject:3b91a535fc00f5b1efd1"
-      ],
-      "projectTypes": {
-        "dfproject:3b91a535fc00f5b1efd1": "线索"
-      },
-      "id": "dongfeng:98c6d3cb5e51ccbf9b38463d",
-      "datePrecision": "explicit",
-      "sourceType": "dongfeng",
-      "sourceLabel": "东风平台 · 东风工作日期",
-      "sourceRecordId": "daily:TL-DAILY-15eaf69e-397c-4fc8-bcca-d252266d4a43:name:上海市城市运行管理中心",
-      "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
-      "firstSeenAt": "2026-10-29T14:11:08+08:00",
-      "updatedAt": "2026-10-29T14:45:24+08:00"
-    },
-    {
       "customerId": "2100000172",
       "customerName": "上海市消防救援总队",
       "workDate": "2026-09-09",
@@ -9977,58 +8483,6 @@
       "sourceType": "dongfeng",
       "sourceLabel": "东风平台 · 东风事件记录日期",
       "sourceRecordId": "event:TL-1788949735381-1:2100000172",
-      "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
-      "firstSeenAt": "2026-10-29T14:11:08+08:00",
-      "updatedAt": "2026-10-29T14:45:24+08:00"
-    },
-    {
-      "customerId": "2100000260",
-      "customerName": "上海市公安局",
-      "workDate": "2026-09-09",
-      "title": "上海市公安局闵行分局平安闵行项目 · 客户经理录入线索并提交",
-      "content": "工作内容：客户经理 王洪飞 通过工作台录入线索【上海市公安局闵行分局平安闵行项目】，生成唯一编号 DF-XS-20260909-MTTMU8PI-GYIR2L。",
-      "relatedUnit": "上海市公安局闵行分局",
-      "actorName": "王洪飞",
-      "actorRole": "客户经理",
-      "participants": [],
-      "recordUpdatedDate": null,
-      "projectIds": [
-        "dfproject:4f3630f60bd2c9893772"
-      ],
-      "projectTypes": {
-        "dfproject:4f3630f60bd2c9893772": "线索"
-      },
-      "id": "dongfeng:6f986abbdcf848938a580af0",
-      "datePrecision": "explicit",
-      "sourceType": "dongfeng",
-      "sourceLabel": "东风平台 · 东风事件记录日期",
-      "sourceRecordId": "event:TL-1788930179479-1:2100000260",
-      "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
-      "firstSeenAt": "2026-10-29T14:11:08+08:00",
-      "updatedAt": "2026-10-29T14:45:24+08:00"
-    },
-    {
-      "customerId": "name:上海市城市运行管理中心",
-      "customerName": "上海市城市运行管理中心",
-      "workDate": "2026-09-09",
-      "title": "市城运城运中心人口洞察 · 客户经理录入线索并提交",
-      "content": "工作内容：客户经理 许鹏宇 通过工作台录入线索【市城运城运中心人口洞察】，生成唯一编号 DF-XS-20260909-MTTMPR5K-QKPURK。",
-      "relatedUnit": "上海市城运中心",
-      "actorName": "许鹏宇",
-      "actorRole": "客户经理",
-      "participants": [],
-      "recordUpdatedDate": null,
-      "projectIds": [
-        "dfproject:3b91a535fc00f5b1efd1"
-      ],
-      "projectTypes": {
-        "dfproject:3b91a535fc00f5b1efd1": "线索"
-      },
-      "id": "dongfeng:6cf16c17d5b1e5441f5200e4",
-      "datePrecision": "explicit",
-      "sourceType": "dongfeng",
-      "sourceLabel": "东风平台 · 东风事件记录日期",
-      "sourceRecordId": "event:TL-1788929970104-1:name:上海市城市运行管理中心",
       "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
       "firstSeenAt": "2026-10-29T14:11:08+08:00",
       "updatedAt": "2026-10-29T14:45:24+08:00"
@@ -10086,84 +8540,6 @@
       "updatedAt": "2026-10-29T14:45:24+08:00"
     },
     {
-      "customerId": "2100127512",
-      "customerName": "中国浦东干部学院",
-      "workDate": "2026-09-09",
-      "title": "中浦院校园二期建设配套工程 · 每日进展登记",
-      "content": "工作内容：完成度 11%｜本日进展：收集信息｜下一步：待客户经理维护下一步计划。",
-      "relatedUnit": "中浦院",
-      "actorName": "许鹏宇",
-      "actorRole": "客户经理",
-      "participants": [],
-      "recordUpdatedDate": null,
-      "projectIds": [
-        "dfproject:db57f12ce3e65dfc9d80"
-      ],
-      "projectTypes": {
-        "dfproject:db57f12ce3e65dfc9d80": "线索"
-      },
-      "id": "dongfeng:5500bb81f7fdcae01f09e557",
-      "datePrecision": "explicit",
-      "sourceType": "dongfeng",
-      "sourceLabel": "东风平台 · 东风工作日期",
-      "sourceRecordId": "daily:TL-DAILY-af759d72-0321-4a6e-9160-fd279bd34c2c:2100127512",
-      "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
-      "firstSeenAt": "2026-10-29T14:11:08+08:00",
-      "updatedAt": "2026-10-29T14:45:24+08:00"
-    },
-    {
-      "customerId": "name:上海市委党校",
-      "customerName": "上海市委党校",
-      "workDate": "2026-09-09",
-      "title": "数智校园建设项目 · 每日进展登记",
-      "content": "工作内容：完成度 10%｜本日进展：信息收集｜下一步：待客户经理维护下一步计划。",
-      "relatedUnit": null,
-      "actorName": "许鹏宇",
-      "actorRole": "客户经理",
-      "participants": [],
-      "recordUpdatedDate": null,
-      "projectIds": [
-        "dfproject:c7621d43d5ee3d757847"
-      ],
-      "projectTypes": {
-        "dfproject:c7621d43d5ee3d757847": "线索"
-      },
-      "id": "dongfeng:540518b444d062bec8e828be",
-      "datePrecision": "explicit",
-      "sourceType": "dongfeng",
-      "sourceLabel": "东风平台 · 东风工作日期",
-      "sourceRecordId": "daily:TL-DAILY-a007f90a-105f-45e9-b9b3-1089e653f102:name:上海市委党校",
-      "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
-      "firstSeenAt": "2026-10-29T14:11:08+08:00",
-      "updatedAt": "2026-10-29T14:45:24+08:00"
-    },
-    {
-      "customerId": "2100000172",
-      "customerName": "上海市消防救援总队",
-      "workDate": "2026-09-09",
-      "title": "总队本级网络及安全设施升级改造项目 · 线索转化完成",
-      "content": "工作内容：已生成商机 DF-OPP-20260909-MTTYFBDB-IUUSQ9，原线索继续保留用于漏斗统计与追溯。",
-      "relatedUnit": null,
-      "actorName": "许鹏宇",
-      "actorRole": "客户经理",
-      "participants": [],
-      "recordUpdatedDate": null,
-      "projectIds": [
-        "dfproject:a509d5fb204492a9f548"
-      ],
-      "projectTypes": {
-        "dfproject:a509d5fb204492a9f548": "线索"
-      },
-      "id": "dongfeng:4d9bd2f414a062d76effacea",
-      "datePrecision": "explicit",
-      "sourceType": "dongfeng",
-      "sourceLabel": "东风平台 · 东风事件记录日期",
-      "sourceRecordId": "event:TL-1788949638480-LEAD:2100000172",
-      "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
-      "firstSeenAt": "2026-10-29T14:11:08+08:00",
-      "updatedAt": "2026-10-29T14:45:24+08:00"
-    },
-    {
       "customerId": "2100000260",
       "customerName": "上海市公安局",
       "workDate": "2026-09-09",
@@ -10216,35 +8592,6 @@
       "updatedAt": "2026-10-29T14:45:24+08:00"
     },
     {
-      "customerId": "2100172632",
-      "customerName": "上海市住房和城乡建设管理委员会",
-      "workDate": "2026-09-09",
-      "title": "服务器上云 · 客户经理录入线索并提交",
-      "content": "工作内容：客户经理 张羽池 通过工作台录入线索【服务器上云】，生成唯一编号 DF-XS-20260909-MTTMNUI4-8UVZJK。",
-      "relatedUnit": "上海市住房和城乡建设管理委员会行政服务中心",
-      "actorName": "张羽池",
-      "actorRole": "客户经理",
-      "participants": [],
-      "recordUpdatedDate": null,
-      "projectIds": [
-        "dfproject:67dd4b134f049a82848d"
-      ],
-      "projectTypes": {
-        "dfproject:67dd4b134f049a82848d": "线索"
-      },
-      "projectNames": [
-        "服务器上云 · 客户经理录入线索并提交"
-      ],
-      "id": "dongfeng:459f2ab9788e51d3af73e45c",
-      "datePrecision": "explicit",
-      "sourceType": "dongfeng",
-      "sourceLabel": "东风平台 · 东风事件记录日期",
-      "sourceRecordId": "event:TL-1788929881136-1:2100172632",
-      "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
-      "firstSeenAt": "2026-10-29T14:11:08+08:00",
-      "updatedAt": "2026-10-29T14:45:24+08:00"
-    },
-    {
       "customerId": "2100153629",
       "customerName": "公安部第三研究所",
       "workDate": "2026-09-09",
@@ -10266,58 +8613,6 @@
       "sourceType": "dongfeng",
       "sourceLabel": "东风平台 · 东风工作日期",
       "sourceRecordId": "daily:TL-DAILY-633ce86e-da19-4eb4-bbfd-3d0448826c16:2100153629",
-      "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
-      "firstSeenAt": "2026-10-29T14:11:08+08:00",
-      "updatedAt": "2026-10-29T14:45:24+08:00"
-    },
-    {
-      "customerId": "name:上海市委党校",
-      "customerName": "上海市委党校",
-      "workDate": "2026-09-09",
-      "title": "数智校园建设项目 · 客户经理录入线索并提交",
-      "content": "工作内容：客户经理 许鹏宇 通过工作台录入线索【数智校园建设项目】，生成唯一编号 DF-XS-20260909-MTTNM31U-V49CQI。",
-      "relatedUnit": null,
-      "actorName": "许鹏宇",
-      "actorRole": "客户经理",
-      "participants": [],
-      "recordUpdatedDate": null,
-      "projectIds": [
-        "dfproject:c7621d43d5ee3d757847"
-      ],
-      "projectTypes": {
-        "dfproject:c7621d43d5ee3d757847": "线索"
-      },
-      "id": "dongfeng:3d1456b43391860357cfcb55",
-      "datePrecision": "explicit",
-      "sourceType": "dongfeng",
-      "sourceLabel": "东风平台 · 东风事件记录日期",
-      "sourceRecordId": "event:TL-1788931478515-1:name:上海市委党校",
-      "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
-      "firstSeenAt": "2026-10-29T14:11:08+08:00",
-      "updatedAt": "2026-10-29T14:45:24+08:00"
-    },
-    {
-      "customerId": "2100199365",
-      "customerName": "中国建筑第八工程局有限公司",
-      "workDate": "2026-09-09",
-      "title": "城市运维数字化项目 · 客户经理录入线索并提交",
-      "content": "工作内容：客户经理 张羽池 通过工作台录入线索【城市运维数字化项目】，生成唯一编号 DF-XS-20260909-MTTNIL3P-P5397T。",
-      "relatedUnit": "中建八局",
-      "actorName": "张羽池",
-      "actorRole": "客户经理",
-      "participants": [],
-      "recordUpdatedDate": null,
-      "projectIds": [
-        "dfproject:a797ab56b3590a4518d3"
-      ],
-      "projectTypes": {
-        "dfproject:a797ab56b3590a4518d3": "线索"
-      },
-      "id": "dongfeng:3ccf84304ee5fa3cd5a0ad3c",
-      "datePrecision": "explicit",
-      "sourceType": "dongfeng",
-      "sourceLabel": "东风平台 · 东风事件记录日期",
-      "sourceRecordId": "event:TL-1788931315285-1:2100199365",
       "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
       "firstSeenAt": "2026-10-29T14:11:08+08:00",
       "updatedAt": "2026-10-29T14:45:24+08:00"
@@ -10370,58 +8665,6 @@
       "sourceType": "dongfeng",
       "sourceLabel": "东风平台 · 东风工作日期",
       "sourceRecordId": "daily:TL-DAILY-7fd25e88-d2d0-4138-96de-1d4fa68136ab:2100000260",
-      "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
-      "firstSeenAt": "2026-10-29T14:11:08+08:00",
-      "updatedAt": "2026-10-29T14:45:24+08:00"
-    },
-    {
-      "customerId": "name:上海市城市运行管理中心",
-      "customerName": "上海市城市运行管理中心",
-      "workDate": "2026-09-09",
-      "title": "数据治理+AI+政务应用 · 每日进展登记",
-      "content": "工作内容：完成度 10%｜本日进展：收集项目信息｜下一步：进一步拜访客户，深挖项目信息",
-      "relatedUnit": "上海市城运中心",
-      "actorName": "许鹏宇",
-      "actorRole": "客户经理",
-      "participants": [],
-      "recordUpdatedDate": null,
-      "projectIds": [
-        "dfproject:b7f0ebbe8c054bbc48bb"
-      ],
-      "projectTypes": {
-        "dfproject:b7f0ebbe8c054bbc48bb": "线索"
-      },
-      "id": "dongfeng:224854ae867101d7ab6685c7",
-      "datePrecision": "explicit",
-      "sourceType": "dongfeng",
-      "sourceLabel": "东风平台 · 东风工作日期",
-      "sourceRecordId": "daily:TL-DAILY-f7b70e67-5ffa-401b-84fd-6f5a2bfc441e:name:上海市城市运行管理中心",
-      "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
-      "firstSeenAt": "2026-10-29T14:11:08+08:00",
-      "updatedAt": "2026-10-29T14:45:24+08:00"
-    },
-    {
-      "customerId": "2100172632",
-      "customerName": "上海市住房和城乡建设管理委员会",
-      "workDate": "2026-09-09",
-      "title": "服务器上云 · 线索已转为商机",
-      "content": "工作内容：来源线索 DF-XS-20260909-MTTMNUI4-8UVZJK，生成商机 DF-OPP-20260909-MTTMRXAH-4G07M9；预计金额 100 万元，客户预算 100 万元。",
-      "relatedUnit": "上海市住房和城乡建设管理委员会行政服务中心",
-      "actorName": "张羽池",
-      "actorRole": "客户经理",
-      "participants": [],
-      "recordUpdatedDate": null,
-      "projectIds": [
-        "dfproject:67dd4b134f049a82848d"
-      ],
-      "projectTypes": {
-        "dfproject:67dd4b134f049a82848d": "商机"
-      },
-      "id": "dongfeng:099bee9b9d51e1bcd3c33a96",
-      "datePrecision": "explicit",
-      "sourceType": "dongfeng",
-      "sourceLabel": "东风平台 · 东风事件记录日期",
-      "sourceRecordId": "event:TL-1788930071371-OPP:2100172632",
       "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
       "firstSeenAt": "2026-10-29T14:11:08+08:00",
       "updatedAt": "2026-10-29T14:45:24+08:00"
@@ -10721,32 +8964,6 @@
       "updatedAt": "2026-10-29T14:11:08+08:00"
     },
     {
-      "customerId": "name:上海市城市运行管理中心",
-      "customerName": "上海市城市运行管理中心",
-      "workDate": "2026-09-08",
-      "title": "数据治理+AI+政务应用 · 每日进展登记",
-      "content": "工作内容：补录 2026-09-08｜完成度 5%｜本日进展：收集项目信息｜下一步：进一步拜访客户，深挖项目信息",
-      "relatedUnit": "上海市城运中心",
-      "actorName": "许鹏宇",
-      "actorRole": "客户经理",
-      "participants": [],
-      "recordUpdatedDate": null,
-      "projectIds": [
-        "dfproject:b7f0ebbe8c054bbc48bb"
-      ],
-      "projectTypes": {
-        "dfproject:b7f0ebbe8c054bbc48bb": "线索"
-      },
-      "id": "dongfeng:88e2b933e7ea5e73083692d1",
-      "datePrecision": "explicit",
-      "sourceType": "dongfeng",
-      "sourceLabel": "东风平台 · 东风工作日期",
-      "sourceRecordId": "daily:TL-DAILY-1d07ea0d-3f27-4bed-a089-d69d94c96d53:name:上海市城市运行管理中心",
-      "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
-      "firstSeenAt": "2026-10-29T14:11:08+08:00",
-      "updatedAt": "2026-10-29T14:45:24+08:00"
-    },
-    {
       "customerId": "2100000260",
       "customerName": "上海市公安局",
       "workDate": "2026-09-08",
@@ -10768,32 +8985,6 @@
       "sourceType": "dongfeng",
       "sourceLabel": "东风平台 · 东风事件记录日期",
       "sourceRecordId": "event:TL-1788857780153-1:2100000260",
-      "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
-      "firstSeenAt": "2026-10-29T14:11:08+08:00",
-      "updatedAt": "2026-10-29T14:45:24+08:00"
-    },
-    {
-      "customerId": "2100127512",
-      "customerName": "中国浦东干部学院",
-      "workDate": "2026-09-08",
-      "title": "中浦院校园二期建设配套工程 · 每日进展登记",
-      "content": "工作内容：补录 2026-09-08｜完成度 6%｜本日进展：收集信息｜下一步：待客户经理维护下一步计划。",
-      "relatedUnit": "中浦院",
-      "actorName": "许鹏宇",
-      "actorRole": "客户经理",
-      "participants": [],
-      "recordUpdatedDate": null,
-      "projectIds": [
-        "dfproject:db57f12ce3e65dfc9d80"
-      ],
-      "projectTypes": {
-        "dfproject:db57f12ce3e65dfc9d80": "线索"
-      },
-      "id": "dongfeng:73cba848ffc6a3a14c711813",
-      "datePrecision": "explicit",
-      "sourceType": "dongfeng",
-      "sourceLabel": "东风平台 · 东风工作日期",
-      "sourceRecordId": "daily:TL-DAILY-f79b76c6-28a2-4d2f-8ca2-471ff0e359d6:2100127512",
       "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
       "firstSeenAt": "2026-10-29T14:11:08+08:00",
       "updatedAt": "2026-10-29T14:45:24+08:00"
@@ -10877,32 +9068,6 @@
       "updatedAt": "2026-10-29T14:45:24+08:00"
     },
     {
-      "customerId": "name:上海市城市运行管理中心",
-      "customerName": "上海市城市运行管理中心",
-      "workDate": "2026-09-08",
-      "title": "市城运城运中心人口洞察 · 每日进展登记",
-      "content": "工作内容：补录 2026-09-08｜完成度 0%｜本日进展：拜访客户｜下一步：待客户经理维护下一步计划。",
-      "relatedUnit": "上海市城运中心",
-      "actorName": "许鹏宇",
-      "actorRole": "客户经理",
-      "participants": [],
-      "recordUpdatedDate": null,
-      "projectIds": [
-        "dfproject:3b91a535fc00f5b1efd1"
-      ],
-      "projectTypes": {
-        "dfproject:3b91a535fc00f5b1efd1": "线索"
-      },
-      "id": "dongfeng:623baa3176bef135fac06bdb",
-      "datePrecision": "explicit",
-      "sourceType": "dongfeng",
-      "sourceLabel": "东风平台 · 东风工作日期",
-      "sourceRecordId": "daily:TL-DAILY-069185ed-868a-46bb-ade2-f641dc238eca:name:上海市城市运行管理中心",
-      "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
-      "firstSeenAt": "2026-10-29T14:11:08+08:00",
-      "updatedAt": "2026-10-29T14:45:24+08:00"
-    },
-    {
       "customerId": "2100000260",
       "customerName": "上海市公安局",
       "workDate": "2026-09-08",
@@ -10924,32 +9089,6 @@
       "sourceType": "dongfeng",
       "sourceLabel": "东风平台 · 东风工作日期",
       "sourceRecordId": "daily:TL-DAILY-3b46ea3c-a740-4fc2-89ee-cb7cd4b9a36f:2100000260",
-      "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
-      "firstSeenAt": "2026-10-29T14:11:08+08:00",
-      "updatedAt": "2026-10-29T14:45:24+08:00"
-    },
-    {
-      "customerId": "2100172632",
-      "customerName": "上海市住房和城乡建设管理委员会",
-      "workDate": "2026-09-08",
-      "title": "区块链与智能体需求 · 每日进展登记",
-      "content": "工作内容：补录 2026-09-08｜完成度 50%｜本日进展：了解客户需求，客户对我放智能体产品兴趣较大。｜下一步：预计下周进行相关案例的讲解。",
-      "relatedUnit": "上海市住房和城乡建设管理委员会行政服务中心",
-      "actorName": "张羽池",
-      "actorRole": "客户经理",
-      "participants": [],
-      "recordUpdatedDate": null,
-      "projectIds": [
-        "dfproject:fc1f4391faf481508e46"
-      ],
-      "projectTypes": {
-        "dfproject:fc1f4391faf481508e46": "线索"
-      },
-      "id": "dongfeng:56fd9629c3a7bbc08c7daf7e",
-      "datePrecision": "explicit",
-      "sourceType": "dongfeng",
-      "sourceLabel": "东风平台 · 东风工作日期",
-      "sourceRecordId": "daily:TL-DAILY-f08347bb-6803-4e57-8aab-2f2c62acf14e:2100172632",
       "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
       "firstSeenAt": "2026-10-29T14:11:08+08:00",
       "updatedAt": "2026-10-29T14:45:24+08:00"
@@ -11073,32 +9212,6 @@
       "updatedAt": "2026-10-29T14:45:24+08:00"
     },
     {
-      "customerId": "2100127512",
-      "customerName": "中国浦东干部学院",
-      "workDate": "2026-09-07",
-      "title": "中浦院校园二期建设配套工程 · 每日进展登记",
-      "content": "工作内容：补录 2026-09-07｜完成度 2%｜本日进展：收集信息｜下一步：待客户经理维护下一步计划。",
-      "relatedUnit": "中浦院",
-      "actorName": "许鹏宇",
-      "actorRole": "客户经理",
-      "participants": [],
-      "recordUpdatedDate": null,
-      "projectIds": [
-        "dfproject:db57f12ce3e65dfc9d80"
-      ],
-      "projectTypes": {
-        "dfproject:db57f12ce3e65dfc9d80": "线索"
-      },
-      "id": "dongfeng:fbe7aa7b63028001dfb3983a",
-      "datePrecision": "explicit",
-      "sourceType": "dongfeng",
-      "sourceLabel": "东风平台 · 东风工作日期",
-      "sourceRecordId": "daily:TL-DAILY-cbb40b96-9c1f-44e3-a875-4fbf4322aec7:2100127512",
-      "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
-      "firstSeenAt": "2026-10-29T14:11:08+08:00",
-      "updatedAt": "2026-10-29T14:45:24+08:00"
-    },
-    {
       "customerId": "2100000260",
       "customerName": "上海市公安局",
       "workDate": "2026-09-07",
@@ -11146,84 +9259,6 @@
       "sourceType": "dongfeng",
       "sourceLabel": "东风平台 · 东风工作日期",
       "sourceRecordId": "daily:TL-EXCEL-7d8d14038346e815fdb5:2100000260",
-      "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
-      "firstSeenAt": "2026-10-29T14:11:08+08:00",
-      "updatedAt": "2026-10-29T14:45:24+08:00"
-    },
-    {
-      "customerId": "name:上海市城市运行管理中心",
-      "customerName": "上海市城市运行管理中心",
-      "workDate": "2026-09-07",
-      "title": "数据治理+AI+政务应用 · 每日进展登记",
-      "content": "工作内容：补录 2026-09-07｜完成度 5%｜本日进展：收集项目信息｜下一步：进一步拜访客户，深挖项目信息",
-      "relatedUnit": "上海市城运中心",
-      "actorName": "许鹏宇",
-      "actorRole": "客户经理",
-      "participants": [],
-      "recordUpdatedDate": null,
-      "projectIds": [
-        "dfproject:b7f0ebbe8c054bbc48bb"
-      ],
-      "projectTypes": {
-        "dfproject:b7f0ebbe8c054bbc48bb": "线索"
-      },
-      "id": "dongfeng:6f1c01c6171ae553d0b8d51a",
-      "datePrecision": "explicit",
-      "sourceType": "dongfeng",
-      "sourceLabel": "东风平台 · 东风工作日期",
-      "sourceRecordId": "daily:TL-DAILY-1152ef5d-93ea-4411-af4f-fe76375acedd:name:上海市城市运行管理中心",
-      "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
-      "firstSeenAt": "2026-10-29T14:11:08+08:00",
-      "updatedAt": "2026-10-29T14:45:24+08:00"
-    },
-    {
-      "customerId": "name:上海市城市运行管理中心",
-      "customerName": "上海市城市运行管理中心",
-      "workDate": "2026-09-07",
-      "title": "市城运城运中心人口洞察 · 每日进展登记",
-      "content": "工作内容：补录 2026-09-07｜完成度 0%｜本日进展：拜访客户｜下一步：待客户经理维护下一步计划。",
-      "relatedUnit": "上海市城运中心",
-      "actorName": "许鹏宇",
-      "actorRole": "客户经理",
-      "participants": [],
-      "recordUpdatedDate": null,
-      "projectIds": [
-        "dfproject:3b91a535fc00f5b1efd1"
-      ],
-      "projectTypes": {
-        "dfproject:3b91a535fc00f5b1efd1": "线索"
-      },
-      "id": "dongfeng:3e7de38ba62132daf4e574c0",
-      "datePrecision": "explicit",
-      "sourceType": "dongfeng",
-      "sourceLabel": "东风平台 · 东风工作日期",
-      "sourceRecordId": "daily:TL-DAILY-75229d59-2dbd-4d31-bbf8-9974f8f892fa:name:上海市城市运行管理中心",
-      "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
-      "firstSeenAt": "2026-10-29T14:11:08+08:00",
-      "updatedAt": "2026-10-29T14:45:24+08:00"
-    },
-    {
-      "customerId": "name:上海市委党校",
-      "customerName": "上海市委党校",
-      "workDate": "2026-09-07",
-      "title": "数智校园建设项目 · 每日进展登记",
-      "content": "工作内容：补录 2026-09-07｜完成度 0%｜本日进展：信息收集｜下一步：待客户经理维护下一步计划。",
-      "relatedUnit": null,
-      "actorName": "许鹏宇",
-      "actorRole": "客户经理",
-      "participants": [],
-      "recordUpdatedDate": null,
-      "projectIds": [
-        "dfproject:c7621d43d5ee3d757847"
-      ],
-      "projectTypes": {
-        "dfproject:c7621d43d5ee3d757847": "线索"
-      },
-      "id": "dongfeng:3da8dfe11d54e4360ff8db72",
-      "datePrecision": "explicit",
-      "sourceType": "dongfeng",
-      "sourceLabel": "东风平台 · 东风工作日期",
-      "sourceRecordId": "daily:TL-DAILY-aef2703b-0f3d-4bce-a03f-7a96b13b4d5a:name:上海市委党校",
       "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
       "firstSeenAt": "2026-10-29T14:11:08+08:00",
       "updatedAt": "2026-10-29T14:45:24+08:00"
@@ -12555,33 +10590,6 @@
       "updatedAt": "2026-10-29T14:45:24+08:00"
     },
     {
-      "customerId": "2100172632",
-      "customerName": "上海市住房和城乡建设管理委员会",
-      "workDate": null,
-      "title": "服务器上云 · 最新项目记录",
-      "content": "项目：服务器上云\n建设内容：20台服务器需要上云，看看我们有没有合适的报价，也要做杀毒软件的配套。在和三家运营商进行比较。需要我们需要我们做明年的预算，评估操作性。机房有运维费用，不需要我们管理。上云过程需要大数据中心审批。\n最新进展：已由线索转为商机，进入金额、预算与支撑协同管理。\n下一步：待客户经理维护下一步计划。\n平台阶段：已关闭\n线索结果：已完成线索登记，后续结果待维护。\n中失标状态：PENDING",
-      "relatedUnit": "上海市住房和城乡建设管理委员会行政服务中心",
-      "actorName": "",
-      "actorRole": "",
-      "recordUpdatedDate": "2026-09-16",
-      "recordCreatedDate": "2026-09-09",
-      "responsibleManager": "张羽池",
-      "projectIds": [
-        "dfproject:67dd4b134f049a82848d"
-      ],
-      "projectTypes": {
-        "dfproject:67dd4b134f049a82848d": "商机"
-      },
-      "id": "dongfeng:ffe074f79fc8b89944867480",
-      "datePrecision": "unknown",
-      "sourceType": "dongfeng",
-      "sourceLabel": "东风平台 · 实际工作日期未明确",
-      "sourceRecordId": "progress:TASK-1788930071370-OPP:2100172632",
-      "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
-      "firstSeenAt": "2026-10-29T14:11:08+08:00",
-      "updatedAt": "2026-10-29T14:45:24+08:00"
-    },
-    {
       "customerId": "2100000260",
       "customerName": "上海市公安局",
       "workDate": null,
@@ -12708,33 +10716,6 @@
       "sourceType": "dongfeng",
       "sourceLabel": "东风平台 · 实际工作日期未明确",
       "sourceRecordId": "progress:TASK-1789440101470-OPP:name:上海市委党校",
-      "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
-      "firstSeenAt": "2026-10-29T14:11:08+08:00",
-      "updatedAt": "2026-10-29T14:45:24+08:00"
-    },
-    {
-      "customerId": "name:上海市总工会",
-      "customerName": "上海市总工会",
-      "workDate": null,
-      "title": "上海市总工会申工社职工服务平台升级改造项目 · 最新项目记录",
-      "content": "项目：上海市总工会申工社职工服务平台升级改造项目\n建设内容：通过统一认证登录底座建设、多业务系统协同升级与新建，构建“统一入口、数据共享、智能服务”的数智化新格局，将“申工社”打造为覆盖身份认证、文化服务、婚恋交友、福利普惠等多元场景的工会线上服务总入口\n最新进展：已转为商机 DF-OPP-20260910-MTVG2H29-K0GXR7\n下一步：待客户经理维护下一步计划。\n平台阶段：已关闭\n线索结果：已完成线索登记，后续结果待维护。\n中失标状态：PENDING",
-      "relatedUnit": null,
-      "actorName": "",
-      "actorRole": "",
-      "recordUpdatedDate": "2026-09-16",
-      "recordCreatedDate": "2026-09-10",
-      "responsibleManager": "许鹏宇",
-      "projectIds": [
-        "dfproject:898c22dd19801bef6af7"
-      ],
-      "projectTypes": {
-        "dfproject:898c22dd19801bef6af7": "线索"
-      },
-      "id": "dongfeng:f7228200ce8989a0ac40ac65",
-      "datePrecision": "unknown",
-      "sourceType": "dongfeng",
-      "sourceLabel": "东风平台 · 实际工作日期未明确",
-      "sourceRecordId": "progress:TASK-1789023923962:name:上海市总工会",
       "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
       "firstSeenAt": "2026-10-29T14:11:08+08:00",
       "updatedAt": "2026-10-29T14:45:24+08:00"
@@ -12873,33 +10854,6 @@
       "updatedAt": "2026-10-29T14:45:24+08:00"
     },
     {
-      "customerId": "2100000260",
-      "customerName": "上海市公安局",
-      "workDate": null,
-      "title": "上海公安智慧眼镜项目 · 最新项目记录",
-      "content": "项目：上海公安智慧眼镜项目\n建设内容：公安智慧眼镜业务，面向特警、交警、技侦多类实战场景推进试点落地\n最新进展：线索已录入，等待后续协同推进。\n下一步：待客户经理维护下一步计划。\n平台阶段：已关闭\n线索结果：已完成线索登记，后续结果待维护。\n中失标状态：PENDING",
-      "relatedUnit": null,
-      "actorName": "",
-      "actorRole": "",
-      "recordUpdatedDate": "2026-09-16",
-      "recordCreatedDate": "2026-09-09",
-      "responsibleManager": "张羽池",
-      "projectIds": [
-        "dfproject:5143f0aaac384a100a8c"
-      ],
-      "projectTypes": {
-        "dfproject:5143f0aaac384a100a8c": "线索"
-      },
-      "id": "dongfeng:ebaa56d290f2bec708c18540",
-      "datePrecision": "unknown",
-      "sourceType": "dongfeng",
-      "sourceLabel": "东风平台 · 实际工作日期未明确",
-      "sourceRecordId": "progress:TASK-1788933671997:2100000260",
-      "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
-      "firstSeenAt": "2026-10-29T14:11:08+08:00",
-      "updatedAt": "2026-10-29T14:45:24+08:00"
-    },
-    {
       "customerId": "2100153629",
       "customerName": "公安部第三研究所",
       "workDate": null,
@@ -13001,60 +10955,6 @@
       "sourceType": "dongfeng",
       "sourceLabel": "东风平台 · 实际工作日期未明确",
       "sourceRecordId": "progress:DF-OPP-0224-C66DE8:2100000260",
-      "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
-      "firstSeenAt": "2026-10-29T14:11:08+08:00",
-      "updatedAt": "2026-10-29T14:45:24+08:00"
-    },
-    {
-      "customerId": "name:上海市委党校",
-      "customerName": "上海市委党校",
-      "workDate": null,
-      "title": "数智校园建设项目 · 最新项目记录",
-      "content": "项目：数智校园建设项目\n建设内容：学校拟总投入超1亿元规划建设数智校园，当前正在寻找供应商提供各系统方案。拟基于校园网络，进一步探索云智底座+安全+应用+运维等能力。（当前信息化基础弱，拟分批建设）累计项目预估1亿\n最新进展：信息收集\n下一步：待客户经理维护下一步计划。\n平台阶段：已关闭\n线索结果：已完成线索登记，后续结果待维护。\n中失标状态：PENDING",
-      "relatedUnit": null,
-      "actorName": "",
-      "actorRole": "",
-      "recordUpdatedDate": "2026-09-16",
-      "recordCreatedDate": "2026-09-09",
-      "responsibleManager": "许鹏宇",
-      "projectIds": [
-        "dfproject:c7621d43d5ee3d757847"
-      ],
-      "projectTypes": {
-        "dfproject:c7621d43d5ee3d757847": "线索"
-      },
-      "id": "dongfeng:e6e460c500008d995416b1a5",
-      "datePrecision": "unknown",
-      "sourceType": "dongfeng",
-      "sourceLabel": "东风平台 · 实际工作日期未明确",
-      "sourceRecordId": "progress:TASK-1788931478515:name:上海市委党校",
-      "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
-      "firstSeenAt": "2026-10-29T14:11:08+08:00",
-      "updatedAt": "2026-10-29T14:45:24+08:00"
-    },
-    {
-      "customerId": "2100161493",
-      "customerName": "上海市体育局",
-      "workDate": null,
-      "title": "2026年上海市体育彩票管理中心录音录像改造项目 · 最新项目记录",
-      "content": "项目：2026年上海市体育彩票管理中心录音录像改造项目\n建设内容：客户要求母公司投标，物联网公司在支撑。\n最新进展：已由线索转为商机，进入金额、预算与支撑协同管理。\n下一步：待客户经理维护下一步计划。\n平台阶段：已关闭\n线索结果：已完成线索登记，后续结果待维护。\n中失标状态：PENDING",
-      "relatedUnit": null,
-      "actorName": "",
-      "actorRole": "",
-      "recordUpdatedDate": "2026-09-14",
-      "recordCreatedDate": "2026-09-11",
-      "responsibleManager": "张羽池",
-      "projectIds": [
-        "dfproject:929e30dd53ab43d96af3"
-      ],
-      "projectTypes": {
-        "dfproject:929e30dd53ab43d96af3": "商机"
-      },
-      "id": "dongfeng:e67d5b940faf69c212ac6db7",
-      "datePrecision": "unknown",
-      "sourceType": "dongfeng",
-      "sourceLabel": "东风平台 · 实际工作日期未明确",
-      "sourceRecordId": "progress:TASK-1789088227333-OPP:2100161493",
       "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
       "firstSeenAt": "2026-10-29T14:11:08+08:00",
       "updatedAt": "2026-10-29T14:45:24+08:00"
@@ -13220,33 +11120,6 @@
       "updatedAt": "2026-10-29T14:45:24+08:00"
     },
     {
-      "customerId": "name:上海市城市运行管理中心",
-      "customerName": "上海市城市运行管理中心",
-      "workDate": null,
-      "title": "数据治理+AI+政务应用 · 最新项目记录",
-      "content": "项目：数据治理+AI+政务应用\n建设内容：基于政务云网基础，聚焦政务数据治理、AI+政务智能体开发、5G政务外网及应用等场景，通过课题研究、POC测试、驻场服务等方式争取打造市级项目标杆，如数据运维服务、安全服务集成、信令数据应用等项目；技术团队全面对接5个分中心，深度参与各委办局信息化项目方案提供，打造新一代移动执法、升级版数智审计、国资穿透式监管、大应急体系信息化建设等综合性项目。\n最新进展：收集项目信息\n下一步：进一步拜访客户，深挖项目信息\n平台阶段：已关闭\n线索结果：已完成线索登记，后续结果待维护。\n中失标状态：PENDING",
-      "relatedUnit": "上海市城运中心",
-      "actorName": "",
-      "actorRole": "",
-      "recordUpdatedDate": "2026-09-16",
-      "recordCreatedDate": "2026-09-09",
-      "responsibleManager": "许鹏宇",
-      "projectIds": [
-        "dfproject:b7f0ebbe8c054bbc48bb"
-      ],
-      "projectTypes": {
-        "dfproject:b7f0ebbe8c054bbc48bb": "线索"
-      },
-      "id": "dongfeng:d11ee50ddc461fcd3a2b4d0f",
-      "datePrecision": "unknown",
-      "sourceType": "dongfeng",
-      "sourceLabel": "东风平台 · 实际工作日期未明确",
-      "sourceRecordId": "progress:TASK-1788931154861:name:上海市城市运行管理中心",
-      "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
-      "firstSeenAt": "2026-10-29T14:11:08+08:00",
-      "updatedAt": "2026-10-29T14:45:24+08:00"
-    },
-    {
       "customerId": "2100000260",
       "customerName": "上海市公安局",
       "workDate": null,
@@ -13293,33 +11166,6 @@
       "sourceType": "dongfeng",
       "sourceLabel": "东风平台 · 东风日期未明确",
       "sourceRecordId": "event:TL-SOURCE-CD16F130:2100000260",
-      "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
-      "firstSeenAt": "2026-10-29T14:11:08+08:00",
-      "updatedAt": "2026-10-29T14:45:24+08:00"
-    },
-    {
-      "customerId": "2100127512",
-      "customerName": "中国浦东干部学院",
-      "workDate": null,
-      "title": "中浦院校园二期建设配套工程 · 最新项目记录",
-      "content": "项目：中浦院校园二期建设配套工程\n建设内容：学校计划建设二期地块，在信息化配套方面预计投入不低于1亿元。当前正寻找供应商提供信息化配套设计。我司拟基于网络+安全+应用+集成方面能力，参与其二期校园信息化建设。\n最新进展：收集信息\n下一步：待客户经理维护下一步计划。\n平台阶段：已关闭\n线索结果：已完成线索登记，后续结果待维护。\n中失标状态：PENDING",
-      "relatedUnit": "中浦院",
-      "actorName": "",
-      "actorRole": "",
-      "recordUpdatedDate": "2026-09-16",
-      "recordCreatedDate": "2026-09-09",
-      "responsibleManager": "许鹏宇",
-      "projectIds": [
-        "dfproject:db57f12ce3e65dfc9d80"
-      ],
-      "projectTypes": {
-        "dfproject:db57f12ce3e65dfc9d80": "线索"
-      },
-      "id": "dongfeng:ce4c3fc32208841279599468",
-      "datePrecision": "unknown",
-      "sourceType": "dongfeng",
-      "sourceLabel": "东风平台 · 实际工作日期未明确",
-      "sourceRecordId": "progress:TASK-1788931665366:2100127512",
       "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
       "firstSeenAt": "2026-10-29T14:11:08+08:00",
       "updatedAt": "2026-10-29T14:45:24+08:00"
@@ -13881,33 +11727,6 @@
       "updatedAt": "2026-10-29T14:45:24+08:00"
     },
     {
-      "customerId": "2100153629",
-      "customerName": "公安部第三研究所",
-      "workDate": null,
-      "title": "公安三所视频加密项目 · 最新项目记录",
-      "content": "项目：公安三所视频加密项目\n建设内容：对视频系统进行加密，用于传输工作秘密，移动已结合量子加密相关方案，与客户进行了交流推广\n最新进展：线索已录入，等待后续协同推进。\n下一步：待客户经理维护下一步计划。\n平台阶段：已关闭\n线索结果：已完成线索登记，后续结果待维护。\n中失标状态：PENDING",
-      "relatedUnit": null,
-      "actorName": "",
-      "actorRole": "",
-      "recordUpdatedDate": "2026-10-21",
-      "recordCreatedDate": "2026-09-09",
-      "responsibleManager": "张羽池",
-      "projectIds": [
-        "dfproject:aafbbbc2c5546e8ef5d9"
-      ],
-      "projectTypes": {
-        "dfproject:aafbbbc2c5546e8ef5d9": "线索"
-      },
-      "id": "dongfeng:9aa89d25148118eb5ad7259a",
-      "datePrecision": "unknown",
-      "sourceType": "dongfeng",
-      "sourceLabel": "东风平台 · 实际工作日期未明确",
-      "sourceRecordId": "progress:TASK-1788934159935:2100153629",
-      "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
-      "firstSeenAt": "2026-10-29T14:11:08+08:00",
-      "updatedAt": "2026-10-29T14:45:24+08:00"
-    },
-    {
       "customerId": "2100000260",
       "customerName": "上海市公安局",
       "workDate": null,
@@ -14010,33 +11829,6 @@
       "sourceType": "dongfeng",
       "sourceLabel": "东风平台 · 实际工作日期未明确",
       "sourceRecordId": "progress:DF-OPP-0280-AE55D2:2100000260",
-      "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
-      "firstSeenAt": "2026-10-29T14:11:08+08:00",
-      "updatedAt": "2026-10-29T14:45:24+08:00"
-    },
-    {
-      "customerId": "2100000260",
-      "customerName": "上海市公安局",
-      "workDate": null,
-      "title": "上海市公安局闵行分局平安闵行项目 · 最新项目记录",
-      "content": "项目：上海市公安局闵行分局平安闵行项目\n最新进展：与当地移动沟通，了解项目进展情况，及先期运作情况，准备后续跟进。\n下一步：待客户经理维护下一步计划。\n平台阶段：已关闭\n线索结果：已完成线索登记，后续结果待维护。\n中失标状态：PENDING",
-      "relatedUnit": "上海市公安局闵行分局",
-      "actorName": "",
-      "actorRole": "",
-      "recordUpdatedDate": "2026-09-16",
-      "recordCreatedDate": "2026-09-09",
-      "responsibleManager": "王洪飞",
-      "projectIds": [
-        "dfproject:4f3630f60bd2c9893772"
-      ],
-      "projectTypes": {
-        "dfproject:4f3630f60bd2c9893772": "线索"
-      },
-      "id": "dongfeng:8c75fc4b6c711a460389f19f",
-      "datePrecision": "unknown",
-      "sourceType": "dongfeng",
-      "sourceLabel": "东风平台 · 实际工作日期未明确",
-      "sourceRecordId": "progress:TASK-1788930179479:2100000260",
       "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
       "firstSeenAt": "2026-10-29T14:11:08+08:00",
       "updatedAt": "2026-10-29T14:45:24+08:00"
@@ -14259,33 +12051,6 @@
       "customerId": "2100000260",
       "customerName": "上海市公安局",
       "workDate": null,
-      "title": "警务通项目 · 最新项目记录",
-      "content": "项目：警务通项目\n建设内容：三家存量续约项目（DX份额最大，联通第二，我们第三），客户拟更新警务通终端服务，可能与一期类似按照存量份额分三包\n最新进展：线索已录入，等待后续协同推进。\n下一步：待客户经理维护下一步计划。\n平台阶段：已关闭\n线索结果：已完成线索登记，后续结果待维护。\n中失标状态：PENDING",
-      "relatedUnit": null,
-      "actorName": "",
-      "actorRole": "",
-      "recordUpdatedDate": "2026-09-16",
-      "recordCreatedDate": "2026-09-09",
-      "responsibleManager": "张羽池",
-      "projectIds": [
-        "dfproject:8077b21148f2cde09d35"
-      ],
-      "projectTypes": {
-        "dfproject:8077b21148f2cde09d35": "线索"
-      },
-      "id": "dongfeng:7f62bbe35d63be4902e4d02e",
-      "datePrecision": "unknown",
-      "sourceType": "dongfeng",
-      "sourceLabel": "东风平台 · 实际工作日期未明确",
-      "sourceRecordId": "progress:TASK-1788933987980:2100000260",
-      "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
-      "firstSeenAt": "2026-10-29T14:11:08+08:00",
-      "updatedAt": "2026-10-29T14:45:24+08:00"
-    },
-    {
-      "customerId": "2100000260",
-      "customerName": "上海市公安局",
-      "workDate": null,
       "title": "投标进展记录",
       "content": "项目：基于无人机机场的无人机+AI算法综合应用及可视化平台建设项目\n投标状态：未中标\n投标阶段：LOST\n投标主体：中移集成\n投标截止时间（计划）：2026-10-14",
       "relatedUnit": "上海市公安局青浦分局",
@@ -14357,33 +12122,6 @@
       "sourceType": "dongfeng",
       "sourceLabel": "东风平台 · 实际工作日期未明确",
       "sourceRecordId": "progress:DF-OPP-0140-049147:2100000260",
-      "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
-      "firstSeenAt": "2026-10-29T14:11:08+08:00",
-      "updatedAt": "2026-10-29T14:45:24+08:00"
-    },
-    {
-      "customerId": "2100000260",
-      "customerName": "上海市公安局",
-      "workDate": null,
-      "title": "上海市公安局数据中心私有云扩容 · 最新项目记录",
-      "content": "项目：上海市公安局数据中心私有云扩容\n建设内容：DX存量项目，客户警务云升级扩容，涉及硬件采购软件扩容等\n最新进展：线索已录入，等待后续协同推进。\n下一步：待客户经理维护下一步计划。\n平台阶段：已关闭\n线索结果：已完成线索登记，后续结果待维护。\n中失标状态：PENDING",
-      "relatedUnit": null,
-      "actorName": "",
-      "actorRole": "",
-      "recordUpdatedDate": "2026-09-16",
-      "recordCreatedDate": "2026-09-09",
-      "responsibleManager": "张羽池",
-      "projectIds": [
-        "dfproject:2d8df8262defdca79dc9"
-      ],
-      "projectTypes": {
-        "dfproject:2d8df8262defdca79dc9": "线索"
-      },
-      "id": "dongfeng:7267ee2f25d55cc82d341702",
-      "datePrecision": "unknown",
-      "sourceType": "dongfeng",
-      "sourceLabel": "东风平台 · 实际工作日期未明确",
-      "sourceRecordId": "progress:TASK-1788933935548:2100000260",
       "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
       "firstSeenAt": "2026-10-29T14:11:08+08:00",
       "updatedAt": "2026-10-29T14:45:24+08:00"
@@ -14543,33 +12281,6 @@
       "sourceType": "dongfeng",
       "sourceLabel": "东风平台 · 东风日期未明确",
       "sourceRecordId": "event:TL-SOURCE-25138FE7:2100000260",
-      "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
-      "firstSeenAt": "2026-10-29T14:11:08+08:00",
-      "updatedAt": "2026-10-29T14:45:24+08:00"
-    },
-    {
-      "customerId": "name:上海市城市运行管理中心",
-      "customerName": "上海市城市运行管理中心",
-      "workDate": null,
-      "title": "市城运城运中心人口洞察 · 最新项目记录",
-      "content": "项目：市城运城运中心人口洞察\n建设内容：拜访客户，为上海市城运提供“1+16+N”区域的人口信令数据服务，包括定制平台+数据服务+云网底座等内容。\n最新进展：拜访客户\n下一步：待客户经理维护下一步计划。\n平台阶段：已关闭\n线索结果：已完成线索登记，后续结果待维护。\n中失标状态：PENDING",
-      "relatedUnit": "上海市城运中心",
-      "actorName": "",
-      "actorRole": "",
-      "recordUpdatedDate": "2026-09-16",
-      "recordCreatedDate": "2026-09-09",
-      "responsibleManager": "许鹏宇",
-      "projectIds": [
-        "dfproject:3b91a535fc00f5b1efd1"
-      ],
-      "projectTypes": {
-        "dfproject:3b91a535fc00f5b1efd1": "线索"
-      },
-      "id": "dongfeng:5e257992fe9ea7bf38fe3617",
-      "datePrecision": "unknown",
-      "sourceType": "dongfeng",
-      "sourceLabel": "东风平台 · 实际工作日期未明确",
-      "sourceRecordId": "progress:TASK-1788929970104:name:上海市城市运行管理中心",
       "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
       "firstSeenAt": "2026-10-29T14:11:08+08:00",
       "updatedAt": "2026-10-29T14:45:24+08:00"
@@ -14790,33 +12501,6 @@
       "updatedAt": "2026-10-29T14:45:24+08:00"
     },
     {
-      "customerId": "2100000172",
-      "customerName": "上海市消防救援总队",
-      "workDate": null,
-      "title": "总队本级网络及安全设施升级改造项目 · 最新项目记录",
-      "content": "项目：总队本级网络及安全设施升级改造项目\n最新进展：已转为商机 DF-OPP-20260909-MTTYFBDB-IUUSQ9\n下一步：待客户经理维护下一步计划。\n平台阶段：已关闭\n线索结果：已完成线索登记，后续结果待维护。\n中失标状态：PENDING",
-      "relatedUnit": null,
-      "actorName": "",
-      "actorRole": "",
-      "recordUpdatedDate": "2026-09-16",
-      "recordCreatedDate": "2026-09-09",
-      "responsibleManager": "许鹏宇",
-      "projectIds": [
-        "dfproject:a509d5fb204492a9f548"
-      ],
-      "projectTypes": {
-        "dfproject:a509d5fb204492a9f548": "线索"
-      },
-      "id": "dongfeng:4c192b5a3a5c0859c7028285",
-      "datePrecision": "unknown",
-      "sourceType": "dongfeng",
-      "sourceLabel": "东风平台 · 实际工作日期未明确",
-      "sourceRecordId": "progress:TASK-1788949600582:2100000172",
-      "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
-      "firstSeenAt": "2026-10-29T14:11:08+08:00",
-      "updatedAt": "2026-10-29T14:45:24+08:00"
-    },
-    {
       "customerId": "2100000260",
       "customerName": "上海市公安局",
       "workDate": null,
@@ -14952,33 +12636,6 @@
       "updatedAt": "2026-10-29T14:45:24+08:00"
     },
     {
-      "customerId": "2100172632",
-      "customerName": "上海市住房和城乡建设管理委员会",
-      "workDate": null,
-      "title": "区块链与智能体需求 · 最新项目记录",
-      "content": "项目：区块链与智能体需求\n建设内容：客户是信息科主要负责建管管理，对方对区块链、智能体等新兴产物比较感兴趣，他们认为自己的系统建设较早比较落后。我方提出在住建部等地有项目支撑，对方希望我们下次来带着智能体方面的规划、项目全生命周期方面产品、或者认为亮点产品准备交流。\n最新进展：了解客户需求，客户对我放智能体产品兴趣较大。\n下一步：预计下周进行相关案例的讲解。\n平台阶段：已关闭\n线索结果：已完成线索登记，后续结果待维护。\n中失标状态：PENDING",
-      "relatedUnit": "上海市住房和城乡建设管理委员会行政服务中心",
-      "actorName": "",
-      "actorRole": "",
-      "recordUpdatedDate": "2026-09-16",
-      "recordCreatedDate": "2026-09-09",
-      "responsibleManager": "张羽池",
-      "projectIds": [
-        "dfproject:fc1f4391faf481508e46"
-      ],
-      "projectTypes": {
-        "dfproject:fc1f4391faf481508e46": "线索"
-      },
-      "id": "dongfeng:40550eab65380bd39b7b04b7",
-      "datePrecision": "unknown",
-      "sourceType": "dongfeng",
-      "sourceLabel": "东风平台 · 实际工作日期未明确",
-      "sourceRecordId": "progress:TASK-1788937148447:2100172632",
-      "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
-      "firstSeenAt": "2026-10-29T14:11:08+08:00",
-      "updatedAt": "2026-10-29T14:45:24+08:00"
-    },
-    {
       "customerId": "2100199365",
       "customerName": "中国建筑第八工程局有限公司",
       "workDate": null,
@@ -15033,33 +12690,6 @@
       "updatedAt": "2026-10-29T14:45:24+08:00"
     },
     {
-      "customerId": "2100172632",
-      "customerName": "上海市住房和城乡建设管理委员会",
-      "workDate": null,
-      "title": "服务器上云 · 最新项目记录",
-      "content": "项目：服务器上云\n建设内容：20台服务器需要上云，看看我们有没有合适的报价，也要做杀毒软件的配套。在和三家运营商进行比较。需要我们需要我们做明年的预算，评估操作性。机房有运维费用，不需要我们管理。上云过程需要大数据中心审批。\n最新进展：已转为商机 DF-OPP-20260909-MTTMRXAH-4G07M9\n下一步：待客户经理维护下一步计划。\n平台阶段：已关闭\n线索结果：已完成线索登记，后续结果待维护。\n中失标状态：PENDING",
-      "relatedUnit": "上海市住房和城乡建设管理委员会行政服务中心",
-      "actorName": "",
-      "actorRole": "",
-      "recordUpdatedDate": "2026-09-16",
-      "recordCreatedDate": "2026-09-09",
-      "responsibleManager": "张羽池",
-      "projectIds": [
-        "dfproject:67dd4b134f049a82848d"
-      ],
-      "projectTypes": {
-        "dfproject:67dd4b134f049a82848d": "线索"
-      },
-      "id": "dongfeng:3816d26da36017fe2c8b7e14",
-      "datePrecision": "unknown",
-      "sourceType": "dongfeng",
-      "sourceLabel": "东风平台 · 实际工作日期未明确",
-      "sourceRecordId": "progress:TASK-1788929881136:2100172632",
-      "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
-      "firstSeenAt": "2026-10-29T14:11:08+08:00",
-      "updatedAt": "2026-10-29T14:45:24+08:00"
-    },
-    {
       "customerId": "2100000260",
       "customerName": "上海市公安局",
       "workDate": null,
@@ -15081,60 +12711,6 @@
       "sourceType": "dongfeng",
       "sourceLabel": "东风平台 · 东风日期未明确",
       "sourceRecordId": "event:TL-SOURCE-573D13EF:2100000260",
-      "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
-      "firstSeenAt": "2026-10-29T14:11:08+08:00",
-      "updatedAt": "2026-10-29T14:45:24+08:00"
-    },
-    {
-      "customerId": "2100199365",
-      "customerName": "中国建筑第八工程局有限公司",
-      "workDate": null,
-      "title": "城市运维数字化项目 · 最新项目记录",
-      "content": "项目：城市运维数字化项目\n建设内容：城市运维数字化项目。安装城市运维物联网感知设备，搭建运维数字化平台。目前改为私有云方面建设。\n最新进展：线索已录入，等待后续协同推进。\n下一步：待客户经理维护下一步计划。\n平台阶段：已关闭\n线索结果：已完成线索登记，后续结果待维护。\n中失标状态：PENDING",
-      "relatedUnit": "中建八局",
-      "actorName": "",
-      "actorRole": "",
-      "recordUpdatedDate": "2026-09-16",
-      "recordCreatedDate": "2026-09-09",
-      "responsibleManager": "张羽池",
-      "projectIds": [
-        "dfproject:a797ab56b3590a4518d3"
-      ],
-      "projectTypes": {
-        "dfproject:a797ab56b3590a4518d3": "线索"
-      },
-      "id": "dongfeng:32d6a5eef514bbf599f68156",
-      "datePrecision": "unknown",
-      "sourceType": "dongfeng",
-      "sourceLabel": "东风平台 · 实际工作日期未明确",
-      "sourceRecordId": "progress:TASK-1788931315285:2100199365",
-      "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
-      "firstSeenAt": "2026-10-29T14:11:08+08:00",
-      "updatedAt": "2026-10-29T14:45:24+08:00"
-    },
-    {
-      "customerId": "2100161493",
-      "customerName": "上海市体育局",
-      "workDate": null,
-      "title": "2026年上海市体育彩票管理中心录音录像改造项目 · 最新项目记录",
-      "content": "项目：2026年上海市体育彩票管理中心录音录像改造项目\n建设内容：客户要求母公司投标，物联网公司在支撑。\n最新进展：已转为商机 DF-OPP-20260911-MTW8XR7P-P93THN\n下一步：待客户经理维护下一步计划。\n平台阶段：已关闭\n线索结果：已完成线索登记，后续结果待维护。\n中失标状态：PENDING",
-      "relatedUnit": null,
-      "actorName": "",
-      "actorRole": "",
-      "recordUpdatedDate": "2026-09-16",
-      "recordCreatedDate": "2026-09-09",
-      "responsibleManager": "张羽池",
-      "projectIds": [
-        "dfproject:929e30dd53ab43d96af3"
-      ],
-      "projectTypes": {
-        "dfproject:929e30dd53ab43d96af3": "线索"
-      },
-      "id": "dongfeng:2e105ddf726dd5a34d5133fc",
-      "datePrecision": "unknown",
-      "sourceType": "dongfeng",
-      "sourceLabel": "东风平台 · 实际工作日期未明确",
-      "sourceRecordId": "progress:TASK-1788931752368:2100161493",
       "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
       "firstSeenAt": "2026-10-29T14:11:08+08:00",
       "updatedAt": "2026-10-29T14:45:24+08:00"
@@ -15434,33 +13010,6 @@
       "updatedAt": "2026-10-29T14:45:24+08:00"
     },
     {
-      "customerId": "name:上海市委党校",
-      "customerName": "上海市委党校",
-      "workDate": null,
-      "title": "市委党校量子专线需求 · 最新项目记录",
-      "content": "项目：市委党校量子专线需求\n建设内容：市委党校量子专线需求，相关商务内容在同客户对接中。\n最新进展：已转为商机 DF-OPP-20260915-MU22FN1A-VN4BM4\n下一步：待客户经理维护下一步计划。\n平台阶段：已关闭\n线索结果：已完成线索登记，后续结果待维护。\n中失标状态：PENDING",
-      "relatedUnit": null,
-      "actorName": "",
-      "actorRole": "",
-      "recordUpdatedDate": "2026-09-16",
-      "recordCreatedDate": "2026-09-15",
-      "responsibleManager": "许鹏宇",
-      "projectIds": [
-        "dfproject:98fe07fe6fb73dc075ce"
-      ],
-      "projectTypes": {
-        "dfproject:98fe07fe6fb73dc075ce": "线索"
-      },
-      "id": "dongfeng:1a00fe32efd7b8345031f458",
-      "datePrecision": "unknown",
-      "sourceType": "dongfeng",
-      "sourceLabel": "东风平台 · 实际工作日期未明确",
-      "sourceRecordId": "progress:TASK-1789439239502:name:上海市委党校",
-      "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
-      "firstSeenAt": "2026-10-29T14:11:08+08:00",
-      "updatedAt": "2026-10-29T14:45:24+08:00"
-    },
-    {
       "customerId": "2100000260",
       "customerName": "上海市公安局",
       "workDate": null,
@@ -15596,33 +13145,6 @@
       "customerId": "2100000260",
       "customerName": "上海市公安局",
       "workDate": null,
-      "title": "上海警航无人机项目 · 最新项目记录",
-      "content": "项目：上海警航无人机项目\n建设内容：已经中标一批警用无人机，希望借此机会推广更多无人机终端、平台应用、5G-A基站的销售机会。\n基于当前上海无人机“黑飞”风险持续上升，低空治理需求紧迫，依托我司5G-A通感一体化技术优势，可精准侦测低空小型飞行器，契合公安管控场景。\n最新进展：线索已录入，等待后续协同推进。\n下一步：待客户经理维护下一步计划。\n平台阶段：已关闭\n线索结果：已完成线索登记，后续结果待维护。\n中失标状态：PENDING",
-      "relatedUnit": "上海市公安局警务航空队",
-      "actorName": "",
-      "actorRole": "",
-      "recordUpdatedDate": "2026-09-16",
-      "recordCreatedDate": "2026-09-09",
-      "responsibleManager": "张羽池",
-      "projectIds": [
-        "dfproject:b65b1b13b6c2d3e5c293"
-      ],
-      "projectTypes": {
-        "dfproject:b65b1b13b6c2d3e5c293": "线索"
-      },
-      "id": "dongfeng:03392a61dfdedd4c27d3aebd",
-      "datePrecision": "unknown",
-      "sourceType": "dongfeng",
-      "sourceLabel": "东风平台 · 实际工作日期未明确",
-      "sourceRecordId": "progress:TASK-1788933799641:2100000260",
-      "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
-      "firstSeenAt": "2026-10-29T14:11:08+08:00",
-      "updatedAt": "2026-10-29T14:45:24+08:00"
-    },
-    {
-      "customerId": "2100000260",
-      "customerName": "上海市公安局",
-      "workDate": null,
       "title": "青浦分局（瞳镜）智能体建设项目 · 最新项目记录",
       "content": "项目：青浦分局（瞳镜）智能体建设项目\n建设内容：青浦分局（瞳镜）智能体建设项目：建设一个在公安网内运行的情报协同智能体平台。平台以统一门户为入口，以人员查询、线索闭环和警情案件分析为主要场景，以要素、模型、知识和工具治理为支撑，使民警可以用自然语言说明任务，系统按权限调用现有数据和模型，并给出能够复核来源的结果。\n最新进展：暂无进展\n下一步：按源台账进展继续推进。\n平台阶段：商机\n线索结果：待维护\n投标进展：有效--跟进中\n中失标状态：PENDING",
       "relatedUnit": "上海市公安局青浦分局",
@@ -15647,20 +13169,20 @@
       "updatedAt": "2026-10-29T14:45:24+08:00"
     }
   ],
-  "updatedAt": "2026-10-29T14:45:24+08:00",
+  "updatedAt": "2026-10-29T15:09:21+08:00",
   "source": "东风平台",
   "coverage": {
-    "sourceRecords": 580,
+    "sourceRecords": 486,
     "byType": {
-      "daily": 337,
-      "event": 135,
-      "progress": 82,
+      "daily": 321,
+      "event": 76,
+      "progress": 63,
       "visit": 5,
       "worklog": 15,
       "report": 0,
       "bid": 6
     },
-    "unknownDates": 116
+    "unknownDates": 97
   },
   "projects": [
     {
@@ -16035,12 +13557,10 @@
       "status": "商机",
       "relatedUnit": "上海市委党校",
       "taskIds": [
-        "TASK-1789440101470-OPP",
-        "TASK-1789439239502"
+        "TASK-1789440101470-OPP"
       ],
       "codes": [
-        "DF-OPP-20260915-MU22FN1A-VN4BM4",
-        "DF-XS-20260915-MU21X5XP-G016VL"
+        "DF-OPP-20260915-MU22FN1A-VN4BM4"
       ],
       "names": [
         "市委党校量子专线需求"
@@ -16128,28 +13648,6 @@
       "updatedAt": "2026-10-14T03:19:08.045Z"
     },
     {
-      "id": "dfproject:929e30dd53ab43d96af3",
-      "aliasIds": [],
-      "customerId": "2100161493",
-      "customerName": "上海市体育局",
-      "name": "2026年上海市体育彩票管理中心录音录像改造项目",
-      "type": "商机",
-      "status": "已关闭",
-      "relatedUnit": "上海市体育局",
-      "taskIds": [
-        "TASK-1789088227333-OPP",
-        "TASK-1788931752368"
-      ],
-      "codes": [
-        "DF-OPP-20260911-MTW8XR7P-P93THN",
-        "DF-XS-20260909-MTTNRYCW-RTEH29"
-      ],
-      "names": [
-        "2026年上海市体育彩票管理中心录音录像改造项目"
-      ],
-      "updatedAt": "2026-09-14T10:15:47.179Z"
-    },
-    {
       "id": "dfproject:898c22dd19801bef6af7",
       "aliasIds": [],
       "customerId": "name:上海市总工会",
@@ -16159,12 +13657,10 @@
       "status": "未中标",
       "relatedUnit": "上海市总工会",
       "taskIds": [
-        "TASK-1789039738594-OPP",
-        "TASK-1789023923962"
+        "TASK-1789039738594-OPP"
       ],
       "codes": [
-        "DF-OPP-20260910-MTVG2H29-K0GXR7",
-        "DF-XS-20260910-MTV6NIEX-H1CEVY"
+        "DF-OPP-20260910-MTVG2H29-K0GXR7"
       ],
       "names": [
         "上海市总工会申工社职工服务平台升级改造项目"
@@ -16221,279 +13717,15 @@
       "status": "商机",
       "relatedUnit": "上海市消防救援总队",
       "taskIds": [
-        "TASK-1788949638479-OPP",
-        "TASK-1788949600582"
+        "TASK-1788949638479-OPP"
       ],
       "codes": [
-        "DF-OPP-20260909-MTTYFBDB-IUUSQ9",
-        "DF-XS-20260909-MTTYEI4M-XGZW7Z"
+        "DF-OPP-20260909-MTTYFBDB-IUUSQ9"
       ],
       "names": [
         "总队本级网络及安全设施升级改造项目"
       ],
       "updatedAt": "2026-10-28T08:29:39.298Z"
-    },
-    {
-      "id": "dfproject:fc1f4391faf481508e46",
-      "aliasIds": [],
-      "customerId": "2100172632",
-      "customerName": "上海市住房和城乡建设管理委员会",
-      "name": "区块链与智能体需求",
-      "type": "线索",
-      "status": "已关闭",
-      "relatedUnit": "上海市住房和城乡建设管理委员会行政服务中心",
-      "taskIds": [
-        "TASK-1788937148447"
-      ],
-      "codes": [
-        "DF-XS-20260909-MTTQZLZY-G99RL2"
-      ],
-      "names": [
-        "区块链与智能体需求"
-      ],
-      "updatedAt": "2026-09-16T03:15:37.170Z"
-    },
-    {
-      "id": "dfproject:aafbbbc2c5546e8ef5d9",
-      "aliasIds": [],
-      "customerId": "2100153629",
-      "customerName": "公安部第三研究所",
-      "name": "公安三所视频加密项目",
-      "type": "线索",
-      "status": "已关闭",
-      "relatedUnit": "公安部第三研究所",
-      "taskIds": [
-        "TASK-1788934159935"
-      ],
-      "codes": [
-        "DF-XS-20260909-MTTP7K1R-8JV5ZW"
-      ],
-      "names": [
-        "公安三所视频加密项目"
-      ],
-      "updatedAt": "2026-10-21T07:40:30.385Z"
-    },
-    {
-      "id": "dfproject:8077b21148f2cde09d35",
-      "aliasIds": [],
-      "customerId": "2100000260",
-      "customerName": "上海市公安局",
-      "name": "警务通项目",
-      "type": "线索",
-      "status": "已关闭",
-      "relatedUnit": "上海市公安局",
-      "taskIds": [
-        "TASK-1788933987980"
-      ],
-      "codes": [
-        "DF-XS-20260909-MTTP3VD8-BUH6S2"
-      ],
-      "names": [
-        "警务通项目"
-      ],
-      "updatedAt": "2026-09-16T03:17:56.553Z"
-    },
-    {
-      "id": "dfproject:2d8df8262defdca79dc9",
-      "aliasIds": [],
-      "customerId": "2100000260",
-      "customerName": "上海市公安局",
-      "name": "上海市公安局数据中心私有云扩容",
-      "type": "线索",
-      "status": "已关闭",
-      "relatedUnit": "上海市公安局",
-      "taskIds": [
-        "TASK-1788933935548"
-      ],
-      "codes": [
-        "DF-XS-20260909-MTTP2QWS-LD6749"
-      ],
-      "names": [
-        "上海市公安局数据中心私有云扩容"
-      ],
-      "updatedAt": "2026-09-16T03:18:01.182Z"
-    },
-    {
-      "id": "dfproject:b65b1b13b6c2d3e5c293",
-      "aliasIds": [],
-      "customerId": "2100000260",
-      "customerName": "上海市公安局",
-      "name": "上海警航无人机项目",
-      "type": "线索",
-      "status": "已关闭",
-      "relatedUnit": "上海市公安局警务航空队",
-      "taskIds": [
-        "TASK-1788933799641"
-      ],
-      "codes": [
-        "DF-XS-20260909-MTTOZU1K-UX53FG"
-      ],
-      "names": [
-        "上海警航无人机项目"
-      ],
-      "updatedAt": "2026-09-16T03:18:05.324Z"
-    },
-    {
-      "id": "dfproject:5143f0aaac384a100a8c",
-      "aliasIds": [],
-      "customerId": "2100000260",
-      "customerName": "上海市公安局",
-      "name": "上海公安智慧眼镜项目",
-      "type": "线索",
-      "status": "已关闭",
-      "relatedUnit": "上海市公安局",
-      "taskIds": [
-        "TASK-1788933671997"
-      ],
-      "codes": [
-        "DF-XS-20260909-MTTOX3JT-M8R9ST"
-      ],
-      "names": [
-        "上海公安智慧眼镜项目"
-      ],
-      "updatedAt": "2026-09-16T03:19:35.712Z"
-    },
-    {
-      "id": "dfproject:db57f12ce3e65dfc9d80",
-      "aliasIds": [],
-      "customerId": "2100127512",
-      "customerName": "中国浦东干部学院",
-      "name": "中浦院校园二期建设配套工程",
-      "type": "线索",
-      "status": "已关闭",
-      "relatedUnit": "中浦院",
-      "taskIds": [
-        "TASK-1788931665366"
-      ],
-      "codes": [
-        "DF-XS-20260909-MTTNQ385-ZHWX0F"
-      ],
-      "names": [
-        "中浦院校园二期建设配套工程"
-      ],
-      "updatedAt": "2026-09-16T03:12:40.231Z"
-    },
-    {
-      "id": "dfproject:c7621d43d5ee3d757847",
-      "aliasIds": [],
-      "customerId": "name:上海市委党校",
-      "customerName": "上海市委党校",
-      "name": "数智校园建设项目",
-      "type": "线索",
-      "status": "已关闭",
-      "relatedUnit": "上海市委党校",
-      "taskIds": [
-        "TASK-1788931478515"
-      ],
-      "codes": [
-        "DF-XS-20260909-MTTNM31U-V49CQI"
-      ],
-      "names": [
-        "数智校园建设项目"
-      ],
-      "updatedAt": "2026-09-16T03:19:39.934Z"
-    },
-    {
-      "id": "dfproject:a797ab56b3590a4518d3",
-      "aliasIds": [],
-      "customerId": "2100199365",
-      "customerName": "中国建筑第八工程局有限公司",
-      "name": "城市运维数字化项目",
-      "type": "线索",
-      "status": "已关闭",
-      "relatedUnit": "中建八局",
-      "taskIds": [
-        "TASK-1788931315285"
-      ],
-      "codes": [
-        "DF-XS-20260909-MTTNIL3P-P5397T"
-      ],
-      "names": [
-        "城市运维数字化项目"
-      ],
-      "updatedAt": "2026-09-16T03:18:10.123Z"
-    },
-    {
-      "id": "dfproject:b7f0ebbe8c054bbc48bb",
-      "aliasIds": [],
-      "customerId": "name:上海市城市运行管理中心",
-      "customerName": "上海市城市运行管理中心",
-      "name": "数据治理+AI+政务应用",
-      "type": "线索",
-      "status": "已关闭",
-      "relatedUnit": "上海市城运中心",
-      "taskIds": [
-        "TASK-1788931154861"
-      ],
-      "codes": [
-        "DF-XS-20260909-MTTNF5BG-YPFQEH"
-      ],
-      "names": [
-        "数据治理+AI+政务应用"
-      ],
-      "updatedAt": "2026-09-16T03:14:19.849Z"
-    },
-    {
-      "id": "dfproject:4f3630f60bd2c9893772",
-      "aliasIds": [],
-      "customerId": "2100000260",
-      "customerName": "上海市公安局",
-      "name": "上海市公安局闵行分局平安闵行项目",
-      "type": "线索",
-      "status": "已关闭",
-      "relatedUnit": "上海市公安局闵行分局",
-      "taskIds": [
-        "TASK-1788930179479"
-      ],
-      "codes": [
-        "DF-XS-20260909-MTTMU8PI-GYIR2L"
-      ],
-      "names": [
-        "上海市公安局闵行分局平安闵行项目"
-      ],
-      "updatedAt": "2026-09-16T03:12:13.762Z"
-    },
-    {
-      "id": "dfproject:67dd4b134f049a82848d",
-      "aliasIds": [],
-      "customerId": "2100172632",
-      "customerName": "上海市住房和城乡建设管理委员会",
-      "name": "服务器上云",
-      "type": "商机",
-      "status": "已关闭",
-      "relatedUnit": "上海市住房和城乡建设管理委员会行政服务中心",
-      "taskIds": [
-        "TASK-1788930071370-OPP",
-        "TASK-1788929881136"
-      ],
-      "codes": [
-        "DF-OPP-20260909-MTTMRXAH-4G07M9",
-        "DF-XS-20260909-MTTMNUI4-8UVZJK"
-      ],
-      "names": [
-        "服务器上云"
-      ],
-      "updatedAt": "2026-09-16T03:22:46.325Z"
-    },
-    {
-      "id": "dfproject:3b91a535fc00f5b1efd1",
-      "aliasIds": [],
-      "customerId": "name:上海市城市运行管理中心",
-      "customerName": "上海市城市运行管理中心",
-      "name": "市城运城运中心人口洞察",
-      "type": "线索",
-      "status": "已关闭",
-      "relatedUnit": "上海市城运中心",
-      "taskIds": [
-        "TASK-1788929970104"
-      ],
-      "codes": [
-        "DF-XS-20260909-MTTMPR5K-QKPURK"
-      ],
-      "names": [
-        "市城运城运中心人口洞察"
-      ],
-      "updatedAt": "2026-09-16T03:15:31.119Z"
     },
     {
       "id": "dfproject:fa3ce348f5f1e9636696",
@@ -17195,5 +14427,277 @@
       ],
       "updatedAt": "2026-10-10T11:39:58.235Z"
     }
-  ]
+  ],
+  "duplicateExclusions": {
+    "taskIds": [
+      "DF-OPP-0002-A246DE",
+      "DF-OPP-0069-3A4D77",
+      "DF-OPP-0096-E8D191",
+      "DF-OPP-0099-F0ACE9",
+      "DF-OPP-0157-FCEA18",
+      "DF-OPP-0269-D4ED4A",
+      "DF-OPP-0270-D9ADB4",
+      "TASK-1788928931518",
+      "TASK-1788929881136",
+      "TASK-1788929970104",
+      "TASK-1788930071370-OPP",
+      "TASK-1788930179479",
+      "TASK-1788930284602",
+      "TASK-1788930557786",
+      "TASK-1788931154861",
+      "TASK-1788931315285",
+      "TASK-1788931478515",
+      "TASK-1788931601252",
+      "TASK-1788931665366",
+      "TASK-1788931752368",
+      "TASK-1788931858905",
+      "TASK-1788931882579",
+      "TASK-1788931983700",
+      "TASK-1788932049251",
+      "TASK-1788933671997",
+      "TASK-1788933799641",
+      "TASK-1788933867552",
+      "TASK-1788933935548",
+      "TASK-1788933987980",
+      "TASK-1788934083847",
+      "TASK-1788934159935",
+      "TASK-1788934249864",
+      "TASK-1788937148447",
+      "TASK-1788949600582",
+      "TASK-1788950193753",
+      "TASK-1788950251594",
+      "TASK-1788950299250",
+      "TASK-1788950345620",
+      "TASK-1788950390752",
+      "TASK-1789023923962",
+      "TASK-1789033767158",
+      "TASK-1789088227333-OPP",
+      "TASK-1789112433285",
+      "TASK-1789380334097",
+      "TASK-1789439239502",
+      "TASK-1789463554523-OPP",
+      "TASK-1790585207956",
+      "TASK-1791624913696",
+      "TASK-1792337009626"
+    ],
+    "sourceRecordIds": [
+      "daily:TL-1788929881136-1:2100172632",
+      "daily:TL-1788929881136-2:2100172632",
+      "daily:TL-1788929970104-1:name:上海市城市运行管理中心",
+      "daily:TL-1788929970104-2:name:上海市城市运行管理中心",
+      "daily:TL-1788930071371-LEAD:2100172632",
+      "daily:TL-1788930071371-OPP:2100172632",
+      "daily:TL-1788930179479-1:2100000260",
+      "daily:TL-1788930179479-2:2100000260",
+      "daily:TL-1788931154861-1:name:上海市城市运行管理中心",
+      "daily:TL-1788931154861-2:name:上海市城市运行管理中心",
+      "daily:TL-1788931315285-1:2100199365",
+      "daily:TL-1788931315285-2:2100199365",
+      "daily:TL-1788931478515-1:name:上海市委党校",
+      "daily:TL-1788931478515-2:name:上海市委党校",
+      "daily:TL-1788931665366-1:2100127512",
+      "daily:TL-1788931665366-2:2100127512",
+      "daily:TL-1788931752368-1:2100161493",
+      "daily:TL-1788931752368-2:2100161493",
+      "daily:TL-1788933671997-1:2100000260",
+      "daily:TL-1788933671997-2:2100000260",
+      "daily:TL-1788933799641-1:2100000260",
+      "daily:TL-1788933799641-2:2100000260",
+      "daily:TL-1788933935548-1:2100000260",
+      "daily:TL-1788933935548-2:2100000260",
+      "daily:TL-1788933987980-1:2100000260",
+      "daily:TL-1788933987980-2:2100000260",
+      "daily:TL-1788934159935-1:2100153629",
+      "daily:TL-1788934159935-2:2100153629",
+      "daily:TL-1788937148447-1:2100172632",
+      "daily:TL-1788937148447-2:2100172632",
+      "daily:TL-1788949638480-LEAD:2100000172",
+      "daily:TL-1789039738598-LEAD:name:上海市总工会",
+      "daily:TL-1789041979780:name:上海市总工会",
+      "daily:TL-1789088211199:2100161493",
+      "daily:TL-1789088227334-LEAD:2100161493",
+      "daily:TL-1789088227334-OPP:2100161493",
+      "daily:TL-1789366937554:2100161493",
+      "daily:TL-1789366974983:2100172632",
+      "daily:TL-1789380731472:2100000172",
+      "daily:TL-1789380946834:2100161493",
+      "daily:TL-1789440101470-LEAD:name:上海市委党校",
+      "daily:TL-1789440740449:name:上海市委党校",
+      "daily:TL-1789463694786:2100172632",
+      "daily:TL-1789463722053:name:上海市委党校",
+      "daily:TL-1789463759338:2100000260",
+      "daily:TL-1789463956718:2100199365",
+      "daily:TL-1789463982254:2100000260",
+      "daily:TL-1789463995147:2100000260",
+      "daily:TL-1789464007643:2100000260",
+      "daily:TL-1789464020685:2100153629",
+      "daily:TL-1789464046449:2100172632",
+      "daily:TL-1789464056812:name:上海市城市运行管理中心",
+      "daily:TL-1789464147017:2100161493",
+      "daily:TL-1789464277025:name:上海市城市运行管理中心",
+      "daily:TL-1789464506117:2100127512",
+      "daily:TL-1789464659679:name:上海市总工会",
+      "daily:TL-1789471980008:2100000260",
+      "daily:TL-1789528333713:2100000260",
+      "daily:TL-1789528344188:name:上海市总工会",
+      "daily:TL-1789528360187:2100127512",
+      "daily:TL-1789528459808:name:上海市城市运行管理中心",
+      "daily:TL-1789528519667:2100161493",
+      "daily:TL-1789528531056:name:上海市城市运行管理中心",
+      "daily:TL-1789528537040:2100172632",
+      "daily:TL-1789528671839:2100153629",
+      "daily:TL-1789528676511:2100000260",
+      "daily:TL-1789528681044:2100000260",
+      "daily:TL-1789528685287:2100000260",
+      "daily:TL-1789528690090:2100199365",
+      "daily:TL-1789528775669:2100000260",
+      "daily:TL-1789528779879:name:上海市委党校",
+      "daily:TL-1789528833549:2100172632",
+      "daily:TL-1789528884006:name:上海市委党校",
+      "daily:TL-1789528966252:2100172632",
+      "daily:TL-1789528971384:2100000172",
+      "daily:TL-DAILY-069185ed-868a-46bb-ade2-f641dc238eca:name:上海市城市运行管理中心",
+      "daily:TL-DAILY-1152ef5d-93ea-4411-af4f-fe76375acedd:name:上海市城市运行管理中心",
+      "daily:TL-DAILY-15eaf69e-397c-4fc8-bcca-d252266d4a43:name:上海市城市运行管理中心",
+      "daily:TL-DAILY-1d07ea0d-3f27-4bed-a089-d69d94c96d53:name:上海市城市运行管理中心",
+      "daily:TL-DAILY-30ded022-9660-4409-85a8-dcc52b22e0f0:name:上海市城市运行管理中心",
+      "daily:TL-DAILY-389522c8-463e-4348-a70d-7c9a27363fec:2100000260",
+      "daily:TL-DAILY-487845b4-8033-42f4-8965-fefa51f3985b:name:上海市城市运行管理中心",
+      "daily:TL-DAILY-75229d59-2dbd-4d31-bbf8-9974f8f892fa:name:上海市城市运行管理中心",
+      "daily:TL-DAILY-7fa12064-b7cb-453c-badf-f8536be84826:name:上海市委党校",
+      "daily:TL-DAILY-a007f90a-105f-45e9-b9b3-1089e653f102:name:上海市委党校",
+      "daily:TL-DAILY-aef2703b-0f3d-4bce-a03f-7a96b13b4d5a:name:上海市委党校",
+      "daily:TL-DAILY-af759d72-0321-4a6e-9160-fd279bd34c2c:2100127512",
+      "daily:TL-DAILY-cbb40b96-9c1f-44e3-a875-4fbf4322aec7:2100127512",
+      "daily:TL-DAILY-f08347bb-6803-4e57-8aab-2f2c62acf14e:2100172632",
+      "daily:TL-DAILY-f79b76c6-28a2-4d2f-8ca2-471ff0e359d6:2100127512",
+      "daily:TL-DAILY-f7b70e67-5ffa-401b-84fd-6f5a2bfc441e:name:上海市城市运行管理中心",
+      "event:TL-1788929881136-1:2100172632",
+      "event:TL-1788929881136-2:2100172632",
+      "event:TL-1788929970104-1:name:上海市城市运行管理中心",
+      "event:TL-1788929970104-2:name:上海市城市运行管理中心",
+      "event:TL-1788930071371-LEAD:2100172632",
+      "event:TL-1788930071371-OPP:2100172632",
+      "event:TL-1788930179479-1:2100000260",
+      "event:TL-1788930179479-2:2100000260",
+      "event:TL-1788931154861-1:name:上海市城市运行管理中心",
+      "event:TL-1788931154861-2:name:上海市城市运行管理中心",
+      "event:TL-1788931315285-1:2100199365",
+      "event:TL-1788931315285-2:2100199365",
+      "event:TL-1788931478515-1:name:上海市委党校",
+      "event:TL-1788931478515-2:name:上海市委党校",
+      "event:TL-1788931665366-1:2100127512",
+      "event:TL-1788931665366-2:2100127512",
+      "event:TL-1788931752368-1:2100161493",
+      "event:TL-1788931752368-2:2100161493",
+      "event:TL-1788933671997-1:2100000260",
+      "event:TL-1788933671997-2:2100000260",
+      "event:TL-1788933799641-1:2100000260",
+      "event:TL-1788933799641-2:2100000260",
+      "event:TL-1788933935548-1:2100000260",
+      "event:TL-1788933935548-2:2100000260",
+      "event:TL-1788933987980-1:2100000260",
+      "event:TL-1788933987980-2:2100000260",
+      "event:TL-1788934159935-1:2100153629",
+      "event:TL-1788934159935-2:2100153629",
+      "event:TL-1788937148447-1:2100172632",
+      "event:TL-1788937148447-2:2100172632",
+      "event:TL-1788949638480-LEAD:2100000172",
+      "event:TL-1789039738598-LEAD:name:上海市总工会",
+      "event:TL-1789041979780:name:上海市总工会",
+      "event:TL-1789088211199:2100161493",
+      "event:TL-1789088227334-LEAD:2100161493",
+      "event:TL-1789088227334-OPP:2100161493",
+      "event:TL-1789366937554:2100161493",
+      "event:TL-1789366974983:2100172632",
+      "event:TL-1789380731472:2100000172",
+      "event:TL-1789380946834:2100161493",
+      "event:TL-1789440101470-LEAD:name:上海市委党校",
+      "event:TL-1789440740449:name:上海市委党校",
+      "event:TL-1789463694786:2100172632",
+      "event:TL-1789463722053:name:上海市委党校",
+      "event:TL-1789463759338:2100000260",
+      "event:TL-1789463956718:2100199365",
+      "event:TL-1789463982254:2100000260",
+      "event:TL-1789463995147:2100000260",
+      "event:TL-1789464007643:2100000260",
+      "event:TL-1789464020685:2100153629",
+      "event:TL-1789464046449:2100172632",
+      "event:TL-1789464056812:name:上海市城市运行管理中心",
+      "event:TL-1789464147017:2100161493",
+      "event:TL-1789464277025:name:上海市城市运行管理中心",
+      "event:TL-1789464506117:2100127512",
+      "event:TL-1789464659679:name:上海市总工会",
+      "event:TL-1789471980008:2100000260",
+      "event:TL-1789528333713:2100000260",
+      "event:TL-1789528344188:name:上海市总工会",
+      "event:TL-1789528360187:2100127512",
+      "event:TL-1789528459808:name:上海市城市运行管理中心",
+      "event:TL-1789528519667:2100161493",
+      "event:TL-1789528531056:name:上海市城市运行管理中心",
+      "event:TL-1789528537040:2100172632",
+      "event:TL-1789528671839:2100153629",
+      "event:TL-1789528676511:2100000260",
+      "event:TL-1789528681044:2100000260",
+      "event:TL-1789528685287:2100000260",
+      "event:TL-1789528690090:2100199365",
+      "event:TL-1789528775669:2100000260",
+      "event:TL-1789528779879:name:上海市委党校",
+      "event:TL-1789528833549:2100172632",
+      "event:TL-1789528884006:name:上海市委党校",
+      "event:TL-1789528966252:2100172632",
+      "event:TL-1789528971384:2100000172",
+      "event:TL-DAILY-069185ed-868a-46bb-ade2-f641dc238eca:name:上海市城市运行管理中心",
+      "event:TL-DAILY-1152ef5d-93ea-4411-af4f-fe76375acedd:name:上海市城市运行管理中心",
+      "event:TL-DAILY-15eaf69e-397c-4fc8-bcca-d252266d4a43:name:上海市城市运行管理中心",
+      "event:TL-DAILY-1d07ea0d-3f27-4bed-a089-d69d94c96d53:name:上海市城市运行管理中心",
+      "event:TL-DAILY-30ded022-9660-4409-85a8-dcc52b22e0f0:name:上海市城市运行管理中心",
+      "event:TL-DAILY-389522c8-463e-4348-a70d-7c9a27363fec:2100000260",
+      "event:TL-DAILY-487845b4-8033-42f4-8965-fefa51f3985b:name:上海市城市运行管理中心",
+      "event:TL-DAILY-75229d59-2dbd-4d31-bbf8-9974f8f892fa:name:上海市城市运行管理中心",
+      "event:TL-DAILY-7fa12064-b7cb-453c-badf-f8536be84826:name:上海市委党校",
+      "event:TL-DAILY-a007f90a-105f-45e9-b9b3-1089e653f102:name:上海市委党校",
+      "event:TL-DAILY-aef2703b-0f3d-4bce-a03f-7a96b13b4d5a:name:上海市委党校",
+      "event:TL-DAILY-af759d72-0321-4a6e-9160-fd279bd34c2c:2100127512",
+      "event:TL-DAILY-cbb40b96-9c1f-44e3-a875-4fbf4322aec7:2100127512",
+      "event:TL-DAILY-f08347bb-6803-4e57-8aab-2f2c62acf14e:2100172632",
+      "event:TL-DAILY-f79b76c6-28a2-4d2f-8ca2-471ff0e359d6:2100127512",
+      "event:TL-DAILY-f7b70e67-5ffa-401b-84fd-6f5a2bfc441e:name:上海市城市运行管理中心",
+      "progress:TASK-1788929881136:2100172632",
+      "progress:TASK-1788929970104:name:上海市城市运行管理中心",
+      "progress:TASK-1788930071370-OPP:2100172632",
+      "progress:TASK-1788930179479:2100000260",
+      "progress:TASK-1788931154861:name:上海市城市运行管理中心",
+      "progress:TASK-1788931315285:2100199365",
+      "progress:TASK-1788931478515:name:上海市委党校",
+      "progress:TASK-1788931665366:2100127512",
+      "progress:TASK-1788931752368:2100161493",
+      "progress:TASK-1788933671997:2100000260",
+      "progress:TASK-1788933799641:2100000260",
+      "progress:TASK-1788933935548:2100000260",
+      "progress:TASK-1788933987980:2100000260",
+      "progress:TASK-1788934159935:2100153629",
+      "progress:TASK-1788937148447:2100172632",
+      "progress:TASK-1788949600582:2100000172",
+      "progress:TASK-1789023923962:name:上海市总工会",
+      "progress:TASK-1789088227333-OPP:2100161493",
+      "progress:TASK-1789439239502:name:上海市委党校"
+    ],
+    "projectIds": [
+      "dfproject:2d8df8262defdca79dc9",
+      "dfproject:3b91a535fc00f5b1efd1",
+      "dfproject:4f3630f60bd2c9893772",
+      "dfproject:5143f0aaac384a100a8c",
+      "dfproject:67dd4b134f049a82848d",
+      "dfproject:8077b21148f2cde09d35",
+      "dfproject:929e30dd53ab43d96af3",
+      "dfproject:a797ab56b3590a4518d3",
+      "dfproject:aafbbbc2c5546e8ef5d9",
+      "dfproject:b65b1b13b6c2d3e5c293",
+      "dfproject:b7f0ebbe8c054bbc48bb",
+      "dfproject:c7621d43d5ee3d757847",
+      "dfproject:db57f12ce3e65dfc9d80",
+      "dfproject:fc1f4391faf481508e46"
+    ]
+  }
 }

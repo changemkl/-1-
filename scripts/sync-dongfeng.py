@@ -53,11 +53,62 @@ def customer_match(name,customers):
 ROLES={'CUSTOMER_MANAGER':'客户经理','SOLUTION_MANAGER':'解决方案经理','PRE_SALES_MANAGER':'售前经理','PRESALES_MANAGER':'售前经理','PROJECT_MANAGER':'项目经理','BUSINESS_MANAGER':'商务经理'}
 SYSTEM_NAMES={'系统导入','业务流程引擎','平台调度中心','智能调度引擎','Zifang-Admin','系统','东风管理平台'}
 
+def duplicate_close_request(task):
+    info=task.get('closeInfo')or{}
+    if str(info.get('auditDecision','')).upper() in ('REJECTED','RETURNED'):return False
+    def explicit(text):
+        text=str(text or '')
+        text=text.replace('重复、无效或不再跟进的商机','')
+        text=re.sub(r'(?:不是|并非|不属于|非|不)重复[^，。；;]*','',text)
+        return bool(re.search(r'重复(?:商机|线索|录入|项目|登记)?|已经?有(?:项目)?商机',text))
+    code=str(info.get('closeReasonCode')or'').upper()
+    if code in ('DUPLICATE','DUPLICATE_OPPORTUNITY','DUPLICATE_LEAD'):return True
+    if any(explicit(info.get(k)) for k in ('applyDetail','auditComment')):return True
+    if info.get('applyReason') and info.get('applyReason')!='重复、无效或不再跟进的商机' and explicit(info['applyReason']):return True
+    return any('关闭' in str(e.get('title','')) and explicit(e.get('description')) for e in task.get('timeline',[]))
+
+def exclude_duplicate_tasks(data,customers,previous=None):
+    if data.get('_duplicateExclusions')is not None:return data,data['_duplicateExclusions']
+    previous=previous or {};old=previous.get('duplicateExclusions',{})
+    present={str(t.get('id')) for t in data['tasks'] if t.get('id')}
+    excluded={str(t['id'])for t in data['tasks'] if t.get('id') and duplicate_close_request(t)}|(set(old.get('taskIds',[]))-present)
+    def source_keys(task):
+        customer=customer_match(task.get('clientName'),customers)
+        if not customer:return set()
+        suffix=':'+customer['id'];key=str(task.get('id'));keys={'progress:'+key+suffix}
+        for event in task.get('timeline',[]):
+            if event.get('id'):
+                for kind in ('daily','event'):keys.add(kind+':'+str(event['id'])+suffix)
+        for kind,report in (task.get('reports')or{}).items():
+            if isinstance(report,dict):keys.add('report:'+key+':'+kind+suffix)
+        return keys
+    dropped=set(old.get('sourceRecordIds',[]));valid=set()
+    for task in data['tasks']:
+        if str(task.get('id'))in excluded:dropped.update(source_keys(task))
+        else:valid.update(source_keys(task))
+    for bid in data.get('biddingRecords',[]):
+        customer=customer_match(bid.get('clientName'),customers)
+        if customer and bid.get('id'):
+            key='bid:'+str(bid['id'])+':'+customer['id']
+            (dropped if str(bid.get('taskId'))in excluded else valid).add(key)
+    # A copied source event attached to a valid surviving opportunity is retained once.
+    dropped-=valid
+    project_ids=set(old.get('projectIds',[]))
+    for p in previous.get('projects',[]):
+        ids={p['id'],*p.get('aliasIds',[])}
+        if p.get('taskIds') and set(p['taskIds'])<=excluded:project_ids.update(ids)
+        elif set(p.get('taskIds',[]))&(present-excluded):project_ids-=ids
+    result={'taskIds':sorted(excluded),'sourceRecordIds':sorted(dropped),'projectIds':sorted(project_ids)}
+    filtered={**data,'tasks':[t for t in data['tasks'] if str(t.get('id'))not in excluded],'biddingRecords':[b for b in data.get('biddingRecords',[]) if str(b.get('taskId'))not in excluded],'_duplicateExclusions':result}
+    return filtered,result
+
+
 def record_type(task):
     if task.get('businessStage')=='LEAD' or str(task.get('code','')).startswith('DF-XS-'):return '线索'
     return '商机' if task.get('taskType')=='COMMERCIAL_OPP' or task.get('businessStage') in STAGES else '项目'
 
 def project_catalog(data,customers,previous=None):
+    data,exclusions=exclude_duplicate_tasks(data,customers)
     tasks={};parent={}
     for t in data['tasks']:
         customer=customer_match(t.get('clientName'),customers)
@@ -102,11 +153,12 @@ def project_catalog(data,customers,previous=None):
         by_task['bid:'+str(bid.get('id'))]=project
     known={p['id'] for p in projects}|{a for p in projects for a in p.get('aliasIds',[])}
     for old in previous or []:
-        if old['id'] not in known:projects.append(old)
+        if old['id'] not in known and not (old.get('taskIds') and set(old['taskIds'])<=set(exclusions['taskIds'])):projects.append(old)
     return projects,by_task
 
 
 def candidates(data,customers,catalog=None):
+    data,_=exclude_duplicate_tasks(data,customers)
     projects,by_task=catalog or project_catalog(data,customers)
     rows={}
     personnel={str(p.get('id')):p for p in data.get('personnel',[]) if isinstance(p,dict)}
@@ -217,11 +269,12 @@ def sync(data,customers,previous,state,initialize=False,now=None):
     now=now or dt.datetime.now(CHINA);stamp=now.isoformat(timespec='seconds')
     for key in ('tasks','visits','workLogs'):
         if not isinstance(data.get(key),list):raise ValueError('Incomplete Dongfeng response; previous logs retained')
+    data,exclusions=exclude_duplicate_tasks(data,customers,previous)
     catalog=project_catalog(data,customers,previous.get('projects',[]))
     current=candidates(data,customers,catalog)
     hashes={k:hashlib.sha256(json.dumps({field:value for field,value in v.items() if not (k.startswith('progress:') and field in ('recordUpdatedDate','recordCreatedDate'))},sort_keys=True,ensure_ascii=False).encode()).hexdigest() for k,v in current.items()}
     # Replace generated synchronization summaries; retain all previously collected source records.
-    entries={r['sourceRecordId']:r for r in previous.get('entries',[]) if r.get('sourceRecordId') and not r.get('isInitialSummary')}
+    entries={r['sourceRecordId']:r for r in previous.get('entries',[]) if r.get('sourceRecordId') and not r.get('isInitialSummary') and r['sourceRecordId'] not in exclusions['sourceRecordIds'] and r['sourceRecordId']+':'+r['customerId'] not in exclusions['sourceRecordIds'] and not (r.get('projectIds') and set(r['projectIds'])<=set(exclusions['projectIds']) and r['sourceRecordId'] not in current)}
     if not initialize:
         for key,record in current.items():
             prior=entries.get(key,{})
@@ -233,7 +286,7 @@ def sync(data,customers,previous,state,initialize=False,now=None):
         for key in list(entries):
             if key not in current and key+':'+entries[key]['customerId'] in current:del entries[key]
     ordered=sorted(entries.values(),key=lambda r:(r.get('workDate')or'',r['id']),reverse=True)
-    output={**previous,'version':3,'source':'东风平台','projects':catalog[0],'entries':ordered,'coverage':{'sourceRecords':len(current),'byType':{kind:sum(k.startswith(kind+':') for k in current) for kind in ('daily','event','progress','visit','worklog','report','bid')},'unknownDates':sum(not r.get('workDate')for r in ordered)}}
+    output={**previous,'version':3,'source':'东风平台','duplicateExclusions':exclusions,'projects':catalog[0],'entries':ordered,'coverage':{'sourceRecords':len(current),'byType':{kind:sum(k.startswith(kind+':') for k in current) for kind in ('daily','event','progress','visit','worklog','report','bid')},'unknownDates':sum(not r.get('workDate')for r in ordered)}}
     if ordered!=previous.get('entries',[]):output['updatedAt']=stamp
     next_state={'version':2,'initializedAt':state.get('initializedAt',stamp),'hashes':{**state.get('hashes',{}),**hashes}}
     return output,next_state
