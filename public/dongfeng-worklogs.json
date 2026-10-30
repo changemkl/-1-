@@ -2,6 +2,104 @@
   "version": 3,
   "entries": [
     {
+      "customerId": "2100000260",
+      "customerName": "上海市公安局",
+      "workDate": "2026-10-30",
+      "title": "客户拜访",
+      "content": "拜访状态：已完成\n拜访对象（源记录）：卢伟峰\n客户反馈：SUPPORTIVE\n拜访结果：沟通陈行公路验收后的运维工作要求",
+      "relatedUnit": null,
+      "actorName": "张磊",
+      "actorRole": "",
+      "actorLabel": "负责经理",
+      "plannedVisitDate": "2026-10-30",
+      "id": "dongfeng:f0210a20408861fe2f4ad6e4",
+      "datePrecision": "explicit",
+      "sourceType": "dongfeng",
+      "sourceLabel": "东风平台 · 东风实际拜访日期",
+      "sourceRecordId": "visit:VISIT-1793361289795:2100000260",
+      "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
+      "firstSeenAt": "2026-10-30T22:05:24+08:00",
+      "updatedAt": "2026-10-30T22:05:24+08:00"
+    },
+    {
+      "customerId": "2100000172",
+      "customerName": "上海市消防救援总队",
+      "workDate": "2026-10-30",
+      "title": "拜访上海市消防总队",
+      "content": "拜访上海市消防总队，沟通确认包一招标参数",
+      "relatedUnit": null,
+      "actorName": "毛俊鹏",
+      "actorRole": "客户经理",
+      "associationNote": "",
+      "durationHours": 2,
+      "id": "dongfeng:ab4fe9f1184acd64668d84d9",
+      "datePrecision": "explicit",
+      "sourceType": "dongfeng",
+      "sourceLabel": "东风平台 · 东风工作日期",
+      "sourceRecordId": "worklog:WORK-9fb50ac1-59c0-4ce0-be7a-d0864d0c9771:2100000172",
+      "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
+      "firstSeenAt": "2026-10-30T22:05:24+08:00",
+      "updatedAt": "2026-10-30T22:05:24+08:00"
+    },
+    {
+      "customerId": "2100000172",
+      "customerName": "上海市消防救援总队",
+      "workDate": "2026-10-30",
+      "title": "总队本级网络及安全设施升级改造项目 · 每日进展登记",
+      "content": "工作内容：本日进展：与信通处沟通设备参数方案｜下一步：按照信通处领导要求做调整后重新提交｜下一步时间：2026-11-02",
+      "relatedUnit": null,
+      "actorName": "陈刚",
+      "actorRole": "方案经理",
+      "participants": [
+        "陈刚（解决方案经理）"
+      ],
+      "recordUpdatedDate": null,
+      "projectIds": [
+        "dfproject:a509d5fb204492a9f548"
+      ],
+      "projectTypes": {
+        "dfproject:a509d5fb204492a9f548": "商机"
+      },
+      "id": "dongfeng:8b65f85920ba0f770fe9cf5d",
+      "datePrecision": "explicit",
+      "sourceType": "dongfeng",
+      "sourceLabel": "东风平台 · 东风工作日期",
+      "sourceRecordId": "daily:TL-DAILY-6dc67fa8-ac2b-4ac8-952a-724bf3241bc1:2100000172",
+      "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
+      "firstSeenAt": "2026-10-30T22:05:24+08:00",
+      "updatedAt": "2026-10-30T22:05:24+08:00"
+    },
+    {
+      "customerId": "2100000260",
+      "customerName": "上海市公安局",
+      "workDate": "2026-10-30",
+      "title": "青浦雪亮工程视频监控增补项目 · 每日进展登记",
+      "content": "工作内容：本日进展：1、点位查勘：今日完成46点位，共计完成315/344；\n2、方案编制：大华预计下班前反馈平台和前端选型部分内容，除大华部分及需要实际设计方案的部分外，其他均已输出正在合并。｜下一步：1、预计本周日完成顶层设计方案初稿的输出，提交青浦公司共同审核。｜下一步时间：2026-11-01",
+      "relatedUnit": "上海市公安局青浦分局",
+      "actorName": "黄深远",
+      "actorRole": "方案经理",
+      "participants": [
+        "黄深远（解决方案经理）",
+        "任志伟（客户经理）",
+        "赵恩达（解决方案经理）"
+      ],
+      "recordUpdatedDate": null,
+      "projectIds": [
+        "dfproject:c7479a8ee38d25dee6b5"
+      ],
+      "projectTypes": {
+        "dfproject:c7479a8ee38d25dee6b5": "线索"
+      },
+      "id": "dongfeng:7b02c1f5145fdbc9d5568d93",
+      "datePrecision": "explicit",
+      "sourceType": "dongfeng",
+      "sourceLabel": "东风平台 · 东风工作日期",
+      "sourceRecordId": "daily:TL-DAILY-3e49bd2a-4b0f-4aad-854c-954ba2731f88:2100000260",
+      "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
+      "firstSeenAt": "2026-10-30T22:05:24+08:00",
+      "updatedAt": "2026-10-30T22:05:24+08:00"
+    },
+    {
       "customerId": "2100000172",
       "customerName": "上海市消防救援总队",
       "workDate": "2026-10-30",
@@ -30,6 +128,56 @@
       "updatedAt": "2026-10-30T15:03:46+08:00"
     },
     {
+      "customerId": "2100000260",
+      "customerName": "上海市公安局",
+      "workDate": "2026-10-30",
+      "title": "上海市公安局出入境管理总队拜访",
+      "content": "参与上海市公安局出入境管理总队拜访，记录沟通内容，明确管理总队领导需求。",
+      "relatedUnit": null,
+      "actorName": "张羽池",
+      "actorRole": "客户经理",
+      "associationNote": "",
+      "durationHours": 5,
+      "id": "dongfeng:38970e1d247eceb1ada7053f",
+      "datePrecision": "explicit",
+      "sourceType": "dongfeng",
+      "sourceLabel": "东风平台 · 东风工作日期",
+      "sourceRecordId": "worklog:WORK-b7101aeb-fc72-4c6a-a4c7-7efbbdd7409e:2100000260",
+      "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
+      "firstSeenAt": "2026-10-30T22:05:24+08:00",
+      "updatedAt": "2026-10-30T22:05:24+08:00"
+    },
+    {
+      "customerId": "2100000260",
+      "customerName": "上海市公安局",
+      "workDate": "2026-10-30",
+      "title": "青浦雪亮工程视频监控增补项目 · 每日进展登记",
+      "content": "工作内容：本日进展：今日完成46点位，共计完成315/344；方案部分大华预计下班前反馈平台和前端选型部分内容，除大华部分及需要实际设计方案的部分外，其他均已输出正在合并。｜下一步：完成不含详细规划设计方案的初稿材料，跟进点位查勘结果｜下一步时间：2026-11-02",
+      "relatedUnit": "上海市公安局青浦分局",
+      "actorName": "赵恩达",
+      "actorRole": "方案经理",
+      "participants": [
+        "赵恩达（解决方案经理）",
+        "黄深远（解决方案经理）",
+        "任志伟（客户经理）"
+      ],
+      "recordUpdatedDate": null,
+      "projectIds": [
+        "dfproject:c7479a8ee38d25dee6b5"
+      ],
+      "projectTypes": {
+        "dfproject:c7479a8ee38d25dee6b5": "线索"
+      },
+      "id": "dongfeng:28f6aab1b1c8aea2f49bb788",
+      "datePrecision": "explicit",
+      "sourceType": "dongfeng",
+      "sourceLabel": "东风平台 · 东风工作日期",
+      "sourceRecordId": "daily:TL-DAILY-70daa4e4-fbbf-412c-bfc0-528ff0ab8fdd:2100000260",
+      "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
+      "firstSeenAt": "2026-10-30T22:05:24+08:00",
+      "updatedAt": "2026-10-30T22:05:24+08:00"
+    },
+    {
       "customerId": "name:上海市城市运行管理中心",
       "customerName": "上海市城市运行管理中心",
       "workDate": "2026-10-30",
@@ -56,6 +204,64 @@
       "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
       "firstSeenAt": "2026-10-30T15:03:46+08:00",
       "updatedAt": "2026-10-30T15:03:46+08:00"
+    },
+    {
+      "customerId": "2100000172",
+      "customerName": "上海市消防救援总队",
+      "workDate": "2026-10-30",
+      "title": "总队本级网络及安全设施升级改造项目 · 每日进展登记",
+      "content": "工作内容：本日进展：与信通处沟通设备参数方案｜下一步：按照信通处领导要求做调整后重新提交｜下一步时间：2026-11-02",
+      "relatedUnit": null,
+      "actorName": "王凯",
+      "actorRole": "方案经理",
+      "participants": [
+        "王凯（解决方案经理）"
+      ],
+      "recordUpdatedDate": null,
+      "projectIds": [
+        "dfproject:a509d5fb204492a9f548"
+      ],
+      "projectTypes": {
+        "dfproject:a509d5fb204492a9f548": "商机"
+      },
+      "id": "dongfeng:1f17beb78f288c19fcca8b2a",
+      "datePrecision": "explicit",
+      "sourceType": "dongfeng",
+      "sourceLabel": "东风平台 · 东风工作日期",
+      "sourceRecordId": "daily:TL-DAILY-def5ae0e-f0b0-4571-a0eb-e1514db361f3:2100000172",
+      "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
+      "firstSeenAt": "2026-10-30T22:05:24+08:00",
+      "updatedAt": "2026-10-30T22:05:24+08:00"
+    },
+    {
+      "customerId": "2100000260",
+      "customerName": "上海市公安局",
+      "workDate": "2026-10-30",
+      "title": "青浦一网统飞平台 · 每日进展登记",
+      "content": "工作内容：本日进展：平台包件的可研方案正在进行评审，预计今日定稿。｜下一步：完成方案可研编写提交，等待客户反馈｜下一步时间：2026-11-02｜风险/阻塞：飞控平台若由电信与上海锋则捆绑合作中标，且电信中标并有赠送的价格优势",
+      "relatedUnit": "上海市公安局青浦分局",
+      "actorName": "赵恩达",
+      "actorRole": "方案经理",
+      "participants": [
+        "赵恩达（解决方案经理）",
+        "任志伟（客户经理）",
+        "黄深远（解决方案经理）"
+      ],
+      "recordUpdatedDate": null,
+      "projectIds": [
+        "dfproject:80808b990bf50250a018"
+      ],
+      "projectTypes": {
+        "dfproject:80808b990bf50250a018": "商机"
+      },
+      "id": "dongfeng:1d5fcb03e08ba4bcd957742c",
+      "datePrecision": "explicit",
+      "sourceType": "dongfeng",
+      "sourceLabel": "东风平台 · 东风工作日期",
+      "sourceRecordId": "daily:TL-DAILY-38cb049c-f6fd-4cb3-aabd-17b5c7269ea4:2100000260",
+      "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
+      "firstSeenAt": "2026-10-30T22:05:24+08:00",
+      "updatedAt": "2026-10-30T22:05:24+08:00"
     },
     {
       "customerId": "name:上海市城市运行管理中心",
@@ -11185,7 +11391,7 @@
       "customerName": "上海市消防救援总队",
       "workDate": null,
       "title": "总队本级网络及安全设施升级改造项目 · 最新项目记录",
-      "content": "项目：总队本级网络及安全设施升级改造项目\n最新进展：拜访业主，汇报参数修改方案。\n下一步：跟进项目招标进度\n平台阶段：商机\n线索结果：已完成线索登记，后续结果待维护。\n中失标状态：PENDING",
+      "content": "项目：总队本级网络及安全设施升级改造项目\n最新进展：与信通处沟通设备参数方案\n下一步：按照信通处领导要求做调整后重新提交\n平台阶段：商机\n线索结果：已完成线索登记，后续结果待维护。\n中失标状态：PENDING",
       "relatedUnit": null,
       "actorName": "",
       "actorRole": "",
@@ -11205,7 +11411,7 @@
       "sourceRecordId": "progress:TASK-1788949638479-OPP:2100000172",
       "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
       "firstSeenAt": "2026-10-29T14:11:08+08:00",
-      "updatedAt": "2026-10-30T15:03:46+08:00"
+      "updatedAt": "2026-10-30T22:05:24+08:00"
     },
     {
       "customerId": "2100153629",
@@ -11421,11 +11627,11 @@
       "customerName": "上海市公安局",
       "workDate": null,
       "title": "青浦雪亮工程视频监控增补项目 · 最新项目记录",
-      "content": "项目：青浦雪亮工程视频监控增补项目\n建设内容：300多个视频监控点位增补建设。\n最新进展：点位查勘：今日完成51点位，共计完成269/344；方案编制：目前项目概述、建设目标、需求分析初稿已完成并汇总，涉及方案和建设内容目前点位侧初稿已完成，待完成传输侧、配套侧、平台应用侧、产品侧。预计明天完成汇总。暂无法输出部分包括：点位清单、传输及点位规划、项目现状。\n下一步：完成顶设方案初稿准备审核，更新查勘进度\n平台阶段：线索\n线索结果：已完成线索登记，后续结果待维护。\n中失标状态：PENDING",
+      "content": "项目：青浦雪亮工程视频监控增补项目\n建设内容：300多个视频监控点位增补建设。\n最新进展：今日完成46点位，共计完成315/344；方案部分大华预计下班前反馈平台和前端选型部分内容，除大华部分及需要实际设计方案的部分外，其他均已输出正在合并。\n下一步：完成不含详细规划设计方案的初稿材料，跟进点位查勘结果\n平台阶段：线索\n线索结果：已完成线索登记，后续结果待维护。\n中失标状态：PENDING",
       "relatedUnit": "上海市公安局青浦分局",
       "actorName": "",
       "actorRole": "",
-      "recordUpdatedDate": "2026-10-29",
+      "recordUpdatedDate": "2026-10-30",
       "recordCreatedDate": "2026-10-19",
       "responsibleManager": "任志伟",
       "projectIds": [
@@ -11441,7 +11647,7 @@
       "sourceRecordId": "progress:TASK-1792398967815:2100000260",
       "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
       "firstSeenAt": "2026-10-29T14:11:08+08:00",
-      "updatedAt": "2026-10-30T00:05:51+08:00"
+      "updatedAt": "2026-10-30T22:05:24+08:00"
     },
     {
       "customerId": "2100000260",
@@ -12299,11 +12505,11 @@
       "customerName": "上海市公安局",
       "workDate": null,
       "title": "青浦一网统飞平台 · 最新项目记录",
-      "content": "项目：青浦一网统飞平台\n建设内容：一网统飞平台\n最新进展：输出硬件、飞手服务可研定稿版，与杨总汇报各包件（不含算法）的思路，待输出优势清单用于领导沟通；算法包件因大数据局原因未启动可研\n下一步：按照计划提交飞手、硬件可研方案，完成平台可研方案的评审和提交\n平台阶段：商机\n线索结果：标前引导\n投标进展：待维护\n中失标状态：PENDING",
+      "content": "项目：青浦一网统飞平台\n建设内容：一网统飞平台\n最新进展：平台包件的可研方案正在进行评审，预计今日定稿。\n下一步：完成方案可研编写提交，等待客户反馈\n平台阶段：商机\n线索结果：标前引导\n投标进展：待维护\n中失标状态：PENDING",
       "relatedUnit": "上海市公安局青浦分局",
       "actorName": "",
       "actorRole": "",
-      "recordUpdatedDate": "2026-10-29",
+      "recordUpdatedDate": "2026-10-30",
       "recordCreatedDate": "2026-09-04",
       "responsibleManager": "任志伟",
       "projectIds": [
@@ -12319,7 +12525,7 @@
       "sourceRecordId": "progress:DF-OPP-0140-049147:2100000260",
       "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
       "firstSeenAt": "2026-10-29T14:11:08+08:00",
-      "updatedAt": "2026-10-30T00:05:51+08:00"
+      "updatedAt": "2026-10-30T22:05:24+08:00"
     },
     {
       "customerId": "2100000260",
@@ -13364,16 +13570,16 @@
       "updatedAt": "2026-10-29T14:45:24+08:00"
     }
   ],
-  "updatedAt": "2026-10-30T15:03:46+08:00",
+  "updatedAt": "2026-10-30T22:05:24+08:00",
   "source": "东风平台",
   "coverage": {
-    "sourceRecords": 493,
+    "sourceRecords": 501,
     "byType": {
-      "daily": 327,
+      "daily": 332,
       "event": 76,
       "progress": 63,
-      "visit": 5,
-      "worklog": 16,
+      "visit": 6,
+      "worklog": 18,
       "report": 0,
       "bid": 6
     },
@@ -13438,7 +13644,7 @@
       "names": [
         "青浦雪亮工程视频监控增补项目"
       ],
-      "updatedAt": "2026-10-29T09:04:14.204Z"
+      "updatedAt": "2026-10-30T08:59:49.283Z"
     },
     {
       "id": "dfproject:a088984e837f8942f6a3",
@@ -13920,7 +14126,7 @@
       "names": [
         "总队本级网络及安全设施升级改造项目"
       ],
-      "updatedAt": "2026-10-30T03:37:36.034Z"
+      "updatedAt": "2026-10-30T08:12:55.671Z"
     },
     {
       "id": "dfproject:fa3ce348f5f1e9636696",
@@ -13940,7 +14146,7 @@
       "names": [
         "公安三所人工智能算力中心项目"
       ],
-      "updatedAt": "2026-10-26T10:16:36.150Z"
+      "updatedAt": "2026-10-30T08:57:33.389Z"
     },
     {
       "id": "dfproject:b2bf83fb131d1ea1191e",
@@ -14340,7 +14546,7 @@
       "names": [
         "青浦一网统飞平台"
       ],
-      "updatedAt": "2026-10-29T09:03:37.132Z"
+      "updatedAt": "2026-10-30T08:57:59.591Z"
     },
     {
       "id": "dfproject:bac68a6a402c2b00fd7d",
