@@ -23,8 +23,8 @@ function applySheetRows(rows) {
   for (const row of rows.slice(headerIndex+1)) {
     if (!String(row[nameCol] ?? '').trim()) continue;
     const tree = treeCol < 0 ? '客户组织树' : String(row[treeCol] || '客户组织树').trim();
-    const index = views.findIndex(v => v.name === tree);
-    if (index < 0) throw new Error('存在未识别的所属树，请使用客户组织树、产业链树或产品与场景树');
+    const index = views.findIndex(v => v.name === (tree === '产业链树' ? '生态树' : tree));
+    if (index < 0) throw new Error('存在未识别的所属树，请使用客户组织树、生态树或产品与场景树');
     // Confirmed customer-type corrections also apply after future sheet refreshes.
     const correctedType = {'中国建筑第八工程局有限公司':'国企','水利部太湖流域管理局':'政府'}[String(row[nameCol]).normalize('NFKC').trim()];
     const text = col => col < 0 ? '' : headers[col]==='客户类别'&&correctedType ? correctedType : String(row[col] ?? '').trim();

@@ -7,7 +7,7 @@ function partnersForCustomerTree(name,results,cooperators){
 (() => {
  const esc=syncEscape,decode=x=>new DOMParser().parseFromString(x[0],'text/html').body.textContent;
  let selected=null,tab='organization',section='trees',purchaseTab='current',trigger,timer,scenes=[];
- const tabs=[['organization','客户组织树'],['industry','产业链树'],['scenes','产品与场景树']];
+ const tabs=[['organization','客户组织树'],['industry','生态树'],['scenes','产品与场景树']];
  const overlay=document.createElement('div');overlay.className='org-overlay customer-trees-overlay';overlay.hidden=true;
  overlay.innerHTML='<section class="org-drawer customer-trees-drawer" role="dialog" aria-modal="true" aria-labelledby="customer-trees-title"><header class="org-header"><div><span>客户详情</span><h2 id="customer-trees-title"></h2></div><div class="customer-detail-actions"><button type="button" data-customer-entry>＋ 录入信息</button><button class="org-close" aria-label="关闭客户详情">×</button></div></header><div class="customer-detail-summary"></div><div class="customer-detail-nav" role="tablist" aria-label="客户内容"></div><div class="customer-tree-tabs" role="tablist" aria-label="客户三棵树"></div><div id="customer-tree-panel" class="org-content customer-tree-content" role="tabpanel"></div></section>';
  document.body.append(overlay);const panel=overlay.querySelector('[role="tabpanel"]'),tablist=overlay.querySelector('.customer-tree-tabs'),mainNav=overlay.querySelector('.customer-detail-nav');
