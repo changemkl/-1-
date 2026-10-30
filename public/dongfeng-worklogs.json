@@ -2,6 +2,62 @@
   "version": 3,
   "entries": [
     {
+      "customerId": "2100000172",
+      "customerName": "上海市消防救援总队",
+      "workDate": "2026-10-30",
+      "title": "总队本级网络及安全设施升级改造项目 · 每日进展登记",
+      "content": "工作内容：本日进展：拜访业主，汇报参数修改方案。｜下一步：跟进项目招标进度｜下一步时间：2026-11-02",
+      "relatedUnit": null,
+      "actorName": "许鹏宇",
+      "actorRole": "客户经理",
+      "participants": [
+        "许鹏宇（客户经理）"
+      ],
+      "recordUpdatedDate": null,
+      "projectIds": [
+        "dfproject:a509d5fb204492a9f548"
+      ],
+      "projectTypes": {
+        "dfproject:a509d5fb204492a9f548": "商机"
+      },
+      "id": "dongfeng:5ece2f3c8bcef0a78613410a",
+      "datePrecision": "explicit",
+      "sourceType": "dongfeng",
+      "sourceLabel": "东风平台 · 东风工作日期",
+      "sourceRecordId": "daily:TL-DAILY-78ede32d-79a1-427a-87ed-1b5118010e6b:2100000172",
+      "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
+      "firstSeenAt": "2026-10-30T15:03:46+08:00",
+      "updatedAt": "2026-10-30T15:03:46+08:00"
+    },
+    {
+      "customerId": "name:上海市城市运行管理中心",
+      "customerName": "上海市城市运行管理中心",
+      "workDate": "2026-10-30",
+      "title": "市城运城运中心人口洞察（含IOC） · 每日进展登记",
+      "content": "工作内容：本日进展：编制汇报交流材料｜下一步：编写汇报材料，约业主现场拜访交流｜下一步时间：2026-11-15",
+      "relatedUnit": "上海市城运中心",
+      "actorName": "李慧强",
+      "actorRole": "方案经理",
+      "participants": [
+        "李慧强（解决方案经理）"
+      ],
+      "recordUpdatedDate": null,
+      "projectIds": [
+        "dfproject:bbf269384c489f974cf9"
+      ],
+      "projectTypes": {
+        "dfproject:bbf269384c489f974cf9": "商机"
+      },
+      "id": "dongfeng:2017f77b1efc752c13b72546",
+      "datePrecision": "explicit",
+      "sourceType": "dongfeng",
+      "sourceLabel": "东风平台 · 东风工作日期",
+      "sourceRecordId": "daily:TL-DAILY-dc6b80e8-d8ca-4620-91fe-e3ff0478ccf3:name:上海市城市运行管理中心",
+      "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
+      "firstSeenAt": "2026-10-30T15:03:46+08:00",
+      "updatedAt": "2026-10-30T15:03:46+08:00"
+    },
+    {
       "customerId": "name:上海市城市运行管理中心",
       "customerName": "上海市城市运行管理中心",
       "workDate": "2026-10-29",
@@ -11129,11 +11185,11 @@
       "customerName": "上海市消防救援总队",
       "workDate": null,
       "title": "总队本级网络及安全设施升级改造项目 · 最新项目记录",
-      "content": "项目：总队本级网络及安全设施升级改造项目\n最新进展：包1修改后的参数已经提交，现需要给总队信通处领导汇报参数方案，目前已确定厂家技术汇报人员，移动商务明天约领导时间汇报。\n下一步：向业主汇报参数方案\n平台阶段：商机\n线索结果：已完成线索登记，后续结果待维护。\n中失标状态：PENDING",
+      "content": "项目：总队本级网络及安全设施升级改造项目\n最新进展：拜访业主，汇报参数修改方案。\n下一步：跟进项目招标进度\n平台阶段：商机\n线索结果：已完成线索登记，后续结果待维护。\n中失标状态：PENDING",
       "relatedUnit": null,
       "actorName": "",
       "actorRole": "",
-      "recordUpdatedDate": "2026-10-29",
+      "recordUpdatedDate": "2026-10-30",
       "recordCreatedDate": "2026-09-09",
       "responsibleManager": "许鹏宇",
       "projectIds": [
@@ -11149,7 +11205,7 @@
       "sourceRecordId": "progress:TASK-1788949638479-OPP:2100000172",
       "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
       "firstSeenAt": "2026-10-29T14:11:08+08:00",
-      "updatedAt": "2026-10-30T00:05:51+08:00"
+      "updatedAt": "2026-10-30T15:03:46+08:00"
     },
     {
       "customerId": "2100153629",
@@ -12966,11 +13022,11 @@
       "customerName": "上海市城市运行管理中心",
       "workDate": null,
       "title": "市城运城运中心人口洞察（含IOC） · 最新项目记录",
-      "content": "项目：市城运城运中心人口洞察（含IOC）\n建设内容：为上海市城运提供“1+16+N”区域的人口信令数据服务，包括定制平台+数据服务+云网底座等内容。\n最新进展：数据局领导更换，导致项目暂时搁，计划下周拜访城运中心领导，讲解公司概况、本项目已经做的工作以及在城运中心我司其他能力、产品和案例等，争取城运中心领导能在数据局为本项目站台，同时看是否有其他商机。\n下一步：编写汇报材料，约业主现场拜访交流\n平台阶段：商机\n线索结果：待维护\n投标进展：待维护\n中失标状态：PENDING",
+      "content": "项目：市城运城运中心人口洞察（含IOC）\n建设内容：为上海市城运提供“1+16+N”区域的人口信令数据服务，包括定制平台+数据服务+云网底座等内容。\n最新进展：编制汇报交流材料\n下一步：编写汇报材料，约业主现场拜访交流\n平台阶段：商机\n线索结果：待维护\n投标进展：待维护\n中失标状态：PENDING",
       "relatedUnit": "上海市城运中心",
       "actorName": "",
       "actorRole": "",
-      "recordUpdatedDate": "2026-10-29",
+      "recordUpdatedDate": "2026-10-30",
       "recordCreatedDate": "2025-09-01",
       "responsibleManager": "许鹏宇",
       "projectIds": [
@@ -12986,7 +13042,7 @@
       "sourceRecordId": "progress:DF-OPP-0118-04A83D:name:上海市城市运行管理中心",
       "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
       "firstSeenAt": "2026-10-29T14:11:08+08:00",
-      "updatedAt": "2026-10-29T14:45:24+08:00"
+      "updatedAt": "2026-10-30T15:03:46+08:00"
     },
     {
       "customerId": "2100172632",
@@ -13308,12 +13364,12 @@
       "updatedAt": "2026-10-29T14:45:24+08:00"
     }
   ],
-  "updatedAt": "2026-10-30T00:05:51+08:00",
+  "updatedAt": "2026-10-30T15:03:46+08:00",
   "source": "东风平台",
   "coverage": {
-    "sourceRecords": 491,
+    "sourceRecords": 493,
     "byType": {
-      "daily": 325,
+      "daily": 327,
       "event": 76,
       "progress": 63,
       "visit": 5,
@@ -13864,7 +13920,7 @@
       "names": [
         "总队本级网络及安全设施升级改造项目"
       ],
-      "updatedAt": "2026-10-29T09:45:13.426Z"
+      "updatedAt": "2026-10-30T03:37:36.034Z"
     },
     {
       "id": "dfproject:fa3ce348f5f1e9636696",
@@ -14164,7 +14220,7 @@
       "names": [
         "市城运城运中心人口洞察（含IOC）"
       ],
-      "updatedAt": "2026-10-29T03:49:17.439Z"
+      "updatedAt": "2026-10-30T03:22:38.980Z"
     },
     {
       "id": "dfproject:e0b02be0a716bcfa90c7",
