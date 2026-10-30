@@ -1,18 +1,18 @@
 {
-  "updatedAt": "2026-10-31T00:19:49+08:00",
+  "updatedAt": "2026-10-31T05:07:28+08:00",
   "customers": [
     {
       "id": "2100303078",
       "name": "上海建工集团股份有限公司",
       "results": [],
       "coverage": {
-        "from": "2023-10-31",
-        "to": "2026-10-30",
+        "from": "2023-11-01",
+        "to": "2026-10-31",
         "source": "https://www.zfcg.sh.gov.cn",
         "truncated": false
       },
       "lastCheck": {
-        "at": "2026-10-30T17:06:49+08:00",
+        "at": "2026-10-31T05:07:28+08:00",
         "status": "ok"
       }
     },
@@ -21,13 +21,13 @@
       "name": "中国建筑第八工程局有限公司",
       "results": [],
       "coverage": {
-        "from": "2023-10-31",
-        "to": "2026-10-30",
+        "from": "2023-11-01",
+        "to": "2026-10-31",
         "source": "https://www.zfcg.sh.gov.cn",
         "truncated": false
       },
       "lastCheck": {
-        "at": "2026-10-30T17:06:49+08:00",
+        "at": "2026-10-31T05:07:28+08:00",
         "status": "ok"
       }
     },
@@ -36,13 +36,13 @@
       "name": "水利部太湖流域管理局",
       "results": [],
       "coverage": {
-        "from": "2023-10-31",
-        "to": "2026-10-30",
+        "from": "2023-11-01",
+        "to": "2026-10-31",
         "source": "https://www.zfcg.sh.gov.cn",
         "truncated": false
       },
       "lastCheck": {
-        "at": "2026-10-30T17:06:49+08:00",
+        "at": "2026-10-31T05:07:28+08:00",
         "status": "ok"
       }
     },
@@ -396,13 +396,13 @@
         }
       ],
       "coverage": {
-        "from": "2023-10-31",
-        "to": "2026-10-30",
+        "from": "2023-11-01",
+        "to": "2026-10-31",
         "source": "https://www.zfcg.sh.gov.cn",
         "truncated": false
       },
       "lastCheck": {
-        "at": "2026-10-30T10:12:28+08:00",
+        "at": "2026-10-31T05:07:28+08:00",
         "status": "ok"
       }
     },
@@ -2213,40 +2213,16 @@
             "at": "2026-10-26T10:49:29+08:00",
             "status": "ok"
           }
-        },
-        {
-          "title": "上海市公安局静安分局胶州路大院配电改造工程的中标（成交）结果公告",
-          "date": "2023-10-31",
-          "buyer": "上海市公安局静安分局（本部）",
-          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=HJdqman9EobolbeTAAYCsw%3D%3D",
-          "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期",
-          "projectName": "上海市公安局静安分局胶州路大院配电改造工程",
-          "awards": [
-            {
-              "lotNumber": "1",
-              "lotName": "上海市公安局静安分局胶州路大院配电改造工程",
-              "suppliers": [
-                "上海悦坤电气安装有限公司"
-              ],
-              "quote": "标项名称：上海市公安局静安分局胶州路大院配电改造工程；中标供应商名称：上海悦坤电气安装有限公司"
-            }
-          ],
-          "detailCheck": {
-            "version": 1,
-            "at": "2026-10-26T10:49:29+08:00",
-            "status": "ok"
-          }
         }
       ],
       "coverage": {
-        "from": "2023-10-31",
-        "to": "2026-10-30",
+        "from": "2023-11-01",
+        "to": "2026-10-31",
         "source": "https://www.zfcg.sh.gov.cn",
         "truncated": true
       },
       "lastCheck": {
-        "at": "2026-10-30T17:06:49+08:00",
+        "at": "2026-10-31T05:07:28+08:00",
         "status": "ok"
       }
     },
@@ -2255,13 +2231,13 @@
       "name": "上海市消防救援总队",
       "results": [],
       "coverage": {
-        "from": "2023-10-31",
-        "to": "2026-10-30",
+        "from": "2023-11-01",
+        "to": "2026-10-31",
         "source": "https://www.zfcg.sh.gov.cn",
         "truncated": false
       },
       "lastCheck": {
-        "at": "2026-10-30T17:06:49+08:00",
+        "at": "2026-10-31T05:07:28+08:00",
         "status": "ok"
       }
     },
@@ -4309,13 +4285,13 @@
       "name": "上海市城市运行管理中心",
       "results": [],
       "coverage": {
-        "from": "2023-10-31",
-        "to": "2026-10-30",
+        "from": "2023-11-01",
+        "to": "2026-10-31",
         "source": "https://www.zfcg.sh.gov.cn",
         "truncated": true
       },
       "lastCheck": {
-        "at": "2026-10-30T10:12:28+08:00",
+        "at": "2026-10-31T05:07:28+08:00",
         "status": "ok"
       }
     },
@@ -4669,13 +4645,13 @@
         }
       ],
       "coverage": {
-        "from": "2023-10-31",
-        "to": "2026-10-30",
+        "from": "2023-11-01",
+        "to": "2026-10-31",
         "source": "https://www.zfcg.sh.gov.cn",
         "truncated": false
       },
       "lastCheck": {
-        "at": "2026-10-30T10:12:28+08:00",
+        "at": "2026-10-31T05:07:28+08:00",
         "status": "ok"
       }
     },
