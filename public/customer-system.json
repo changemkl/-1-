@@ -654,11 +654,11 @@
       "active": true,
       "sourceStatus": "pending",
       "discovery": {
-        "at": "2026-10-30T09:01:23+00:00",
+        "at": "2026-10-31T13:53:55+00:00",
         "status": "unavailable",
         "message": "Search listing disallows automated reading"
       }
     }
   ],
-  "updatedAt": "2026-10-31T07:30:24+00:00"
+  "updatedAt": "2026-10-31T13:53:55+00:00"
 }
