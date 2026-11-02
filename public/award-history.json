@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-02T14:22:26+08:00",
+  "updatedAt": "2026-11-02T14:31:52+08:00",
   "customers": [
     {
       "id": "2100303078",
@@ -841,20 +841,20 @@
         "truncated": false
       },
       "lastCheck": {
-        "at": "2026-11-02T03:57:08+08:00",
+        "at": "2026-11-02T14:30:38+08:00",
         "status": "ok"
       },
       "externalSourceChecks": {
         "https://www.ccgp.gov.cn/cggg/zygg/cjgg/202610/t20261027_27572179.htm": {
-          "at": "2026-11-02T14:22:26+08:00",
+          "at": "2026-11-02T14:31:52+08:00",
           "status": "ok"
         },
         "https://www.ccgp.gov.cn/cggg/zygg/jzxcs/202610/t20261027_27567383.htm": {
-          "at": "2026-11-02T14:22:26+08:00",
+          "at": "2026-11-02T14:31:52+08:00",
           "status": "ok"
         },
         "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202610/t20261014_27487405.htm": {
-          "at": "2026-11-02T14:22:26+08:00",
+          "at": "2026-11-02T14:31:52+08:00",
           "status": "ok"
         },
         "https://www.ccgp.gov.cn/cggg/zygg/zbgg/202608/t20260826_27206162.htm": {
@@ -915,12 +915,12 @@
         "truncated": false
       },
       "lastCheck": {
-        "at": "2026-11-02T03:57:08+08:00",
+        "at": "2026-11-02T14:30:38+08:00",
         "status": "ok"
       },
       "externalSourceChecks": {
         "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202610/t20261028_27575254.htm": {
-          "at": "2026-11-02T14:22:26+08:00",
+          "at": "2026-11-02T14:31:52+08:00",
           "status": "ok"
         },
         "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202610/t20261027_27572438.htm": {
@@ -948,7 +948,7 @@
         "truncated": true
       },
       "lastCheck": {
-        "at": "2026-11-02T03:57:08+08:00",
+        "at": "2026-11-02T14:30:38+08:00",
         "status": "ok"
       }
     },
@@ -963,7 +963,7 @@
         "truncated": false
       },
       "lastCheck": {
-        "at": "2026-11-02T03:57:08+08:00",
+        "at": "2026-11-02T14:30:38+08:00",
         "status": "ok"
       }
     },
@@ -1027,7 +1027,7 @@
         "truncated": true
       },
       "lastCheck": {
-        "at": "2026-11-02T03:57:08+08:00",
+        "at": "2026-11-02T14:30:38+08:00",
         "status": "ok"
       }
     },
@@ -4579,13 +4579,13 @@
         }
       ],
       "coverage": {
-        "from": "2023-11-02",
-        "to": "2026-11-01",
+        "from": "2023-11-03",
+        "to": "2026-11-02",
         "source": "https://www.zfcg.sh.gov.cn",
         "truncated": true
       },
       "lastCheck": {
-        "at": "2026-11-01T23:33:49+08:00",
+        "at": "2026-11-02T14:30:38+08:00",
         "status": "ok"
       }
     },
@@ -4594,13 +4594,13 @@
       "name": "上海市委党校",
       "results": [],
       "coverage": {
-        "from": "2023-11-02",
-        "to": "2026-11-01",
+        "from": "2023-11-03",
+        "to": "2026-11-02",
         "source": "https://www.zfcg.sh.gov.cn",
         "truncated": false
       },
       "lastCheck": {
-        "at": "2026-11-01T23:33:49+08:00",
+        "at": "2026-11-02T14:30:38+08:00",
         "status": "ok"
       }
     },
@@ -4984,13 +4984,13 @@
       "name": "上海市房地产交易中心",
       "results": [],
       "coverage": {
-        "from": "2023-11-02",
-        "to": "2026-11-01",
+        "from": "2023-11-03",
+        "to": "2026-11-02",
         "source": "https://www.zfcg.sh.gov.cn",
         "truncated": true
       },
       "lastCheck": {
-        "at": "2026-11-01T23:33:49+08:00",
+        "at": "2026-11-02T14:30:38+08:00",
         "status": "ok"
       }
     }
