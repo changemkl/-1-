@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-02T06:59:38.148978+00:00",
+  "updatedAt": "2026-11-02T15:05:21+08:00",
   "customers": [
     {
       "id": "2100303078",
@@ -122,7 +122,7 @@
       },
       "externalSourceChecks": {
         "https://www.ccgp.gov.cn/cggg/dfgg/zbgg/202408/t20240827_22995426.htm": {
-          "at": "2026-11-02T14:22:26+08:00",
+          "at": "2026-11-02T15:05:21+08:00",
           "status": "ok"
         },
         "https://www.ccgp.gov.cn/cggg/dfgg/zbgg/202407/t20240701_22508124.htm": {
@@ -785,7 +785,7 @@
         "truncated": true
       },
       "lastCheck": {
-        "at": "2026-11-02T08:00:01+08:00",
+        "at": "2026-11-02T15:04:08+08:00",
         "status": "ok"
       }
     },
@@ -841,7 +841,7 @@
         "truncated": false
       },
       "lastCheck": {
-        "at": "2026-11-02T14:30:38+08:00",
+        "at": "2026-11-02T15:04:08+08:00",
         "status": "ok"
       },
       "externalSourceChecks": {
@@ -915,7 +915,7 @@
         "truncated": false
       },
       "lastCheck": {
-        "at": "2026-11-02T14:30:38+08:00",
+        "at": "2026-11-02T15:04:08+08:00",
         "status": "ok"
       },
       "externalSourceChecks": {
@@ -948,7 +948,7 @@
         "truncated": true
       },
       "lastCheck": {
-        "at": "2026-11-02T14:30:38+08:00",
+        "at": "2026-11-02T15:04:08+08:00",
         "status": "ok"
       }
     },
@@ -963,7 +963,7 @@
         "truncated": false
       },
       "lastCheck": {
-        "at": "2026-11-02T14:30:38+08:00",
+        "at": "2026-11-02T15:04:08+08:00",
         "status": "ok"
       }
     },
@@ -1027,7 +1027,7 @@
         "truncated": true
       },
       "lastCheck": {
-        "at": "2026-11-02T14:30:38+08:00",
+        "at": "2026-11-02T15:04:08+08:00",
         "status": "ok"
       }
     },
@@ -2552,15 +2552,15 @@
       },
       "externalSourceChecks": {
         "https://www.ccgp.gov.cn/cggg/zygg/cjgg/202610/t20261030_27590679.htm": {
-          "at": "2026-11-02T14:22:26+08:00",
+          "at": "2026-11-02T15:05:21+08:00",
           "status": "ok"
         },
         "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202610/t20261028_27579691.htm": {
-          "at": "2026-11-02T14:22:26+08:00",
+          "at": "2026-11-02T15:05:21+08:00",
           "status": "ok"
         },
         "https://www.ccgp.gov.cn/cggg/zygg/cjgg/202610/t20261023_27549400.htm": {
-          "at": "2026-11-02T14:22:26+08:00",
+          "at": "2026-11-02T15:05:21+08:00",
           "status": "ok"
         }
       }
@@ -2985,7 +2985,7 @@
         "truncated": true
       },
       "lastCheck": {
-        "at": "2026-11-02T08:00:01+08:00",
+        "at": "2026-11-02T15:04:08+08:00",
         "status": "ok"
       }
     },
@@ -3593,7 +3593,7 @@
         "truncated": true
       },
       "lastCheck": {
-        "at": "2026-11-02T08:00:01+08:00",
+        "at": "2026-11-02T15:04:08+08:00",
         "status": "ok"
       }
     },
