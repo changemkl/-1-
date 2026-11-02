@@ -1,18 +1,18 @@
 {
-  "updatedAt": "2026-11-02T03:57:08+08:00",
+  "updatedAt": "2026-11-02T08:00:01+08:00",
   "customers": [
     {
       "id": "2100303078",
       "name": "上海建工集团股份有限公司",
       "results": [],
       "coverage": {
-        "from": "2023-11-02",
-        "to": "2026-11-01",
+        "from": "2023-11-03",
+        "to": "2026-11-02",
         "source": "https://www.zfcg.sh.gov.cn",
         "truncated": false
       },
       "lastCheck": {
-        "at": "2026-11-01T23:33:49+08:00",
+        "at": "2026-11-02T08:00:01+08:00",
         "status": "ok"
       }
     },
@@ -21,13 +21,13 @@
       "name": "中国建筑第八工程局有限公司",
       "results": [],
       "coverage": {
-        "from": "2023-11-02",
-        "to": "2026-11-01",
+        "from": "2023-11-03",
+        "to": "2026-11-02",
         "source": "https://www.zfcg.sh.gov.cn",
         "truncated": false
       },
       "lastCheck": {
-        "at": "2026-11-01T23:33:49+08:00",
+        "at": "2026-11-02T08:00:01+08:00",
         "status": "ok"
       }
     },
@@ -36,13 +36,13 @@
       "name": "水利部太湖流域管理局",
       "results": [],
       "coverage": {
-        "from": "2023-11-02",
-        "to": "2026-11-01",
+        "from": "2023-11-03",
+        "to": "2026-11-02",
         "source": "https://www.zfcg.sh.gov.cn",
         "truncated": false
       },
       "lastCheck": {
-        "at": "2026-11-01T23:33:49+08:00",
+        "at": "2026-11-02T08:00:01+08:00",
         "status": "ok"
       }
     },
@@ -652,13 +652,13 @@
         }
       ],
       "coverage": {
-        "from": "2023-11-02",
-        "to": "2026-11-01",
+        "from": "2023-11-03",
+        "to": "2026-11-02",
         "source": "https://www.zfcg.sh.gov.cn",
         "truncated": true
       },
       "lastCheck": {
-        "at": "2026-11-01T16:15:18+08:00",
+        "at": "2026-11-02T08:00:01+08:00",
         "status": "ok"
       }
     },
@@ -2191,6 +2191,30 @@
           }
         },
         {
+          "title": "上海市公安局黄浦分局一站式办案中心（一期）项目的中标（成交）结果公告",
+          "date": "2024-03-01",
+          "buyer": "上海市公安局黄浦分局（本级）",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=3fmRrBYwidwJcrxSTKGNuA%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期",
+          "projectName": "上海市公安局黄浦分局一站式办案中心（一期）项目",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "上海市公安局黄浦分局一站式办案中心（一期）项目",
+              "suppliers": [
+                "上海索程安保工程有限公司"
+              ],
+              "quote": "标项名称：上海市公安局黄浦分局一站式办案中心（一期）项目；中标供应商名称：上海索程安保工程有限公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-11-02T08:00:01+08:00",
+            "status": "ok"
+          }
+        },
+        {
           "title": "上海市公安局崇明分局警用数字集群设备采购的中标（成交）结果公告",
           "date": "2023-11-17",
           "buyer": "上海市公安局崇明分局",
@@ -2216,13 +2240,13 @@
         }
       ],
       "coverage": {
-        "from": "2023-11-02",
-        "to": "2026-11-01",
+        "from": "2023-11-03",
+        "to": "2026-11-02",
         "source": "https://www.zfcg.sh.gov.cn",
         "truncated": true
       },
       "lastCheck": {
-        "at": "2026-11-01T23:33:49+08:00",
+        "at": "2026-11-02T08:00:01+08:00",
         "status": "ok"
       }
     },
@@ -2231,13 +2255,13 @@
       "name": "上海市消防救援总队",
       "results": [],
       "coverage": {
-        "from": "2023-11-02",
-        "to": "2026-11-01",
+        "from": "2023-11-03",
+        "to": "2026-11-02",
         "source": "https://www.zfcg.sh.gov.cn",
         "truncated": false
       },
       "lastCheck": {
-        "at": "2026-11-01T23:33:49+08:00",
+        "at": "2026-11-02T08:00:01+08:00",
         "status": "ok"
       }
     },
@@ -2655,13 +2679,13 @@
         }
       ],
       "coverage": {
-        "from": "2023-11-02",
-        "to": "2026-11-01",
+        "from": "2023-11-03",
+        "to": "2026-11-02",
         "source": "https://www.zfcg.sh.gov.cn",
         "truncated": true
       },
       "lastCheck": {
-        "at": "2026-11-01T16:15:18+08:00",
+        "at": "2026-11-02T08:00:01+08:00",
         "status": "ok"
       }
     },
@@ -3263,13 +3287,13 @@
         }
       ],
       "coverage": {
-        "from": "2023-11-02",
-        "to": "2026-11-01",
+        "from": "2023-11-03",
+        "to": "2026-11-02",
         "source": "https://www.zfcg.sh.gov.cn",
         "truncated": true
       },
       "lastCheck": {
-        "at": "2026-11-01T16:15:18+08:00",
+        "at": "2026-11-02T08:00:01+08:00",
         "status": "ok"
       }
     },
