@@ -23,4 +23,36 @@ class ExternalNoticeTests(unittest.TestCase):
   body='2026年10月27日 采购单位\n公安部第三研究所\n截止时间：2026年11月12日09点00分'
   r=self.parse(body,title='网络设备竞争性磋商公告');self.assertEqual(r['record']['deadline']['value'],'2026-11-12 09:00')
   self.assertIsNone(self.parse(body.split('截止时间')[0],title='网络设备竞争性磋商公告'))
+
+class Trade365Tests(unittest.TestCase):
+ def body(self,title='上海数据集团有限公司专业测评服务中标结果公示',buyer='上海数据集团有限公司'):
+  return f'''{title}
+发布时间：2025-12-05 08:55:37
+一、中标人信息：
+001安全测评服务
+中标人
+中标价格
+上海市信息安全测评认证中心
+147.2万元(人民币)
+002密码应用测评服务
+中标人
+中标价格
+上海市信息安全测评认证中心
+137.8万元(人民币)
+003软件测评服务
+中标人
+中标价格
+上海计算机软件技术开发中心
+89.8万元(人民币)
+二、其他公告内容
+招标人：
+{buyer}
+'''
+ def parse(self,text):
+  return parse_notice(text,'服务招标 - 中招联合招标采购平台【官网】','https://www.365trade.com.cn/jfwzb/768353.jhtml',{'name':'上海数据集团有限公司'},'2026-11-02')
+ def test_final_result_lots_and_amounts(self):
+  r=self.parse(self.body());self.assertEqual(r['record']['date'],'2025-12-05');self.assertEqual(len(r['record']['awards']),3);self.assertEqual(r['record']['awards'][0]['amountYuan'],1472000);self.assertEqual(r['record']['awards'][2]['amountYuan'],898000);self.assertEqual(r['record']['source'],'中招联合招标采购平台')
+ def test_candidates_and_other_buyers_are_not_final_results(self):
+  self.assertIsNone(self.parse(self.body(title='专业测评服务中标候选人公示')));self.assertIsNone(self.parse(self.body(buyer='其他公司')))
+
 if __name__=='__main__':unittest.main()

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-02T15:05:21+08:00",
+  "updatedAt": "2026-11-02T08:18:02.904520+00:00",
   "customers": [
     {
       "id": "2100303078",
@@ -940,7 +940,47 @@
     {
       "id": "2101882120",
       "name": "上海数据集团有限公司",
-      "results": [],
+      "results": [
+        {
+          "title": "上海数据集团有限公司基于可信计算的智能化数据开发与运营平台（二阶段）专业测评服务中标结果公示",
+          "projectName": "基于可信计算的智能化数据开发与运营平台（二阶段）专业测评服务",
+          "date": "2025-12-05",
+          "buyer": "上海数据集团有限公司",
+          "url": "https://www.365trade.com.cn/jfwzb/768353.jhtml",
+          "source": "中招联合招标采购平台",
+          "dateLabel": "结果公示日期",
+          "awards": [
+            {
+              "lotNumber": "001",
+              "lotName": "安全测评服务",
+              "suppliers": [
+                "上海市信息安全测评认证中心"
+              ],
+              "amountYuan": 1472000.0,
+              "quote": "001安全测评服务\n中标人\n中标价格\n上海市信息安全测评认证中心\n147.2万元"
+            },
+            {
+              "lotNumber": "002",
+              "lotName": "密码应用测评服务",
+              "suppliers": [
+                "上海市信息安全测评认证中心"
+              ],
+              "amountYuan": 1378000.0,
+              "quote": "002密码应用测评服务\n中标人\n中标价格\n上海市信息安全测评认证中心\n137.8万元"
+            },
+            {
+              "lotNumber": "003",
+              "lotName": "软件测评服务",
+              "suppliers": [
+                "上海计算机软件技术开发中心"
+              ],
+              "amountYuan": 898000.0,
+              "quote": "003软件测评服务\n中标人\n中标价格\n上海计算机软件技术开发中心\n89.8万元"
+            }
+          ],
+          "mirror_url": "https://www.365trade.com.cn/jfwzb/768353.jhtml"
+        }
+      ],
       "coverage": {
         "from": "2023-11-03",
         "to": "2026-11-02",
@@ -950,6 +990,12 @@
       "lastCheck": {
         "at": "2026-11-02T15:04:08+08:00",
         "status": "ok"
+      },
+      "externalSourceChecks": {
+        "https://www.365trade.com.cn/jfwzb/768353.jhtml": {
+          "at": "2026-11-02T16:16:31+08:00",
+          "status": "ok"
+        }
       }
     },
     {

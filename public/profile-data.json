@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-02T07:05:28.120824+00:00",
+  "updatedAt": "2026-11-02T08:18:02.915040+00:00",
   "profiles": [
     {
       "id": "2100000172",
@@ -4294,7 +4294,16 @@
       "projects": [],
       "leaders": [],
       "organizations": [],
-      "procurementSources": [],
+      "procurementSources": [
+        {
+          "label": "中招联合·上海数据集团公告",
+          "url": "https://www.365trade.com.cn/search.jspx?q=%E4%B8%8A%E6%B5%B7%E6%95%B0%E6%8D%AE%E9%9B%86%E5%9B%A2",
+          "status": "success",
+          "finished_at": "2026-11-02T08:17:18.433280+00:00",
+          "documents_found": 0,
+          "historical_results_verified": 1
+        }
+      ],
       "lastRun": {
         "finished_at": "2026-11-02T07:01:35.688718+00:00",
         "status": "success",

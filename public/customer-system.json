@@ -333,7 +333,8 @@
         "customer_id": "2101882120",
         "url": "https://www.gzw.sh.gov.cn/",
         "hosts": [
-          "www.gzw.sh.gov.cn"
+          "www.gzw.sh.gov.cn",
+          "www.365trade.com.cn"
         ],
         "entry_urls": [
           "https://www.gzw.sh.gov.cn/shgzw_zxzx_gqdt/20260509/aa489808c6e247709b027c8f7b0ede9d.html"
@@ -352,7 +353,21 @@
         "time_budget": 45,
         "government_procurement": false,
         "verified_by": "https://www.gzw.sh.gov.cn/shgzw_zxzx_gqdt/20260509/aa489808c6e247709b027c8f7b0ede9d.html",
-        "verification_note": "来源为市国资委明确提及该企业的公开报道；不将国资委领导、机构认定为企业人员和部门。"
+        "verification_note": "来源为市国资委明确提及该企业的公开报道；不将国资委领导、机构认定为企业人员和部门。",
+        "procurement_sources": [
+          {
+            "label": "中招联合·上海数据集团公告",
+            "kind": "html",
+            "url": "https://www.365trade.com.cn/search.jspx?q=%E4%B8%8A%E6%B5%B7%E6%95%B0%E6%8D%AE%E9%9B%86%E5%9B%A2",
+            "hosts": [
+              "www.365trade.com.cn"
+            ],
+            "is_listing": true,
+            "time_budget": 45,
+            "verified_by": "https://www.365trade.com.cn/jfwzb/768353.jhtml",
+            "verification_note": "已核对招标人上海数据集团有限公司；仅采集公开公告，候选人公示不作为最终中标结果。"
+          }
+        ]
       }
     },
     {
@@ -711,5 +726,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-02T06:57:07+00:00"
+  "updatedAt": "2026-11-02T08:16:31+00:00"
 }

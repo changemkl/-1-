@@ -1,12 +1,29 @@
 """Refresh reviewed public notices. Never read masked fields or authenticated data."""
-import argparse,datetime,json,re,time,urllib.request
+import argparse,datetime,json,re,time,urllib.request,urllib.parse
 from pathlib import Path
 from collector import Page
 CHINA=datetime.timezone(datetime.timedelta(hours=8))
 MANIFEST=Path('intelligence/external-notices.json')
 
+def parse_365_award(text,url,customer,today):
+    heading=re.search(r'([^\n]+)\n发布时间[：:]\s*(\d{4}-\d{2}-\d{2})',text)
+    buyer=re.search(r'(?m)^招标人[：:]\s*([^\n]+)',text)
+    if not heading or not buyer:return None
+    title,date=heading.groups();buyer=buyer[1].strip()
+    if buyer!=customer['name'] or date>today or '中标结果公示' not in title or any(w in title for w in ['候选','更正','废标','终止']):return None
+    section=re.search(r'一、中标人信息[：:]([\s\S]+?)二、其他公告内容',text)
+    if not section:return None
+    lots=[]
+    for m in re.finditer(r'(?m)^(\d{3})\s*([^\n]+)\n中标人\n中标价格\n([^\n*]+)\n([\d.]+)万元',section[1]):
+        number,name,supplier,amount=m.groups()
+        lots.append({'lotNumber':number,'lotName':name.strip(),'suppliers':[supplier.strip()],'amountYuan':round(float(amount)*10000,2),'quote':m[0]})
+    if not lots:return None
+    pname=re.search(r'本\n([^\n]+)\n[（(]招标项目编号',text)
+    return {'kind':'award','record':{'title':title,'projectName':pname[1] if pname else title,'date':date,'buyer':buyer,'url':url,'source':'中招联合招标采购平台','dateLabel':'结果公示日期','awards':lots}}
+
 def parse_notice(text,title,url,customer,today=None):
     today=today or datetime.datetime.now(CHINA).date().isoformat()
+    if urllib.parse.urlsplit(url).hostname=='www.365trade.com.cn':return parse_365_award(text,url,customer,today)
     name=customer['name'];compact=lambda s:re.sub(r'\s+','',s).replace('（','(').replace('）',')')
     buyer=re.search(r'采购单位\s*\n([^\n]+)',text)
     if not buyer:buyer=re.search(r'(?:采购人|采购单位)信息\s*\n名\s*称\s*[:：]\s*([^\n]+)',text)
@@ -69,7 +86,7 @@ def refresh(evidence=None,limit=4):
                 rows={r['url']:r for r in h['results']};rows[spec['url']]=record;h['results']=sorted(rows.values(),key=lambda r:r['date'],reverse=True)
             else:
                 p=by_id[identifier];facts={'version':1,'kind':'procurement','projects':[record],'leaders':[],'organizations':[]}
-                signal={'url':spec['url'],'title':parsed['title'],'published_at':parsed['published_at'],'fetched_at':stamp,'source_host':'www.ccgp.gov.cn','category':'项目与采购公开信息','status':'verified','excerpt':record['quote'],'facts':facts}
+                signal={'url':spec['url'],'title':parsed['title'],'published_at':parsed['published_at'],'fetched_at':stamp,'source_host':urllib.parse.urlsplit(spec['url']).hostname,'category':'项目与采购公开信息','status':'verified','excerpt':record['quote'],'facts':facts}
                 p['signals']=[s for s in p.get('signals',[]) if s['url']!=spec['url']]+[signal]
                 p['projects']=[r for r in p.get('projects',[]) if (r.get('notice_url') or r.get('url'))!=spec['url']]+[{**record,**{k:signal[k] for k in ['url','title','published_at','fetched_at','source_host']}}]
         except Exception as exc:h.setdefault('externalSourceChecks',{})[spec['url']]={'at':stamp,'status':'unavailable','message':str(exc)[:150]}
