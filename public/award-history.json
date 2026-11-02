@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-02T08:18:02.904520+00:00",
+  "updatedAt": "2026-11-02T16:24:36+08:00",
   "customers": [
     {
       "id": "2100303078",
@@ -51,16 +51,16 @@
         "truncated": false
       },
       "lastCheck": {
-        "at": "2026-11-02T14:56:51+08:00",
+        "at": "2026-11-02T16:23:36+08:00",
         "status": "ok"
       },
       "externalSourceChecks": {
         "https://yzb.caigou2003.com/detail/1781944298544300032": {
-          "at": "2026-11-02T14:22:26+08:00",
+          "at": "2026-11-02T16:24:36+08:00",
           "status": "ok"
         },
         "https://yzb.caigou2003.com/detail/1779905424439640065": {
-          "at": "2026-11-02T14:22:26+08:00",
+          "at": "2026-11-02T16:24:36+08:00",
           "status": "ok"
         }
       }
@@ -117,7 +117,7 @@
         "truncated": false
       },
       "lastCheck": {
-        "at": "2026-11-02T14:56:51+08:00",
+        "at": "2026-11-02T16:23:36+08:00",
         "status": "ok"
       },
       "externalSourceChecks": {
@@ -126,7 +126,7 @@
           "status": "ok"
         },
         "https://www.ccgp.gov.cn/cggg/dfgg/zbgg/202407/t20240701_22508124.htm": {
-          "at": "2026-11-02T14:22:26+08:00",
+          "at": "2026-11-02T16:24:36+08:00",
           "status": "ok"
         }
       }
@@ -163,7 +163,7 @@
         "truncated": false
       },
       "lastCheck": {
-        "at": "2026-11-02T14:56:51+08:00",
+        "at": "2026-11-02T16:23:36+08:00",
         "status": "ok"
       },
       "externalSourceChecks": {
@@ -858,7 +858,7 @@
           "status": "ok"
         },
         "https://www.ccgp.gov.cn/cggg/zygg/zbgg/202608/t20260826_27206162.htm": {
-          "at": "2026-11-02T14:22:26+08:00",
+          "at": "2026-11-02T16:24:36+08:00",
           "status": "ok"
         }
       }
@@ -2537,7 +2537,7 @@
         "truncated": true
       },
       "lastCheck": {
-        "at": "2026-11-02T14:56:51+08:00",
+        "at": "2026-11-02T16:23:36+08:00",
         "status": "ok"
       }
     },
@@ -2593,7 +2593,7 @@
         "truncated": false
       },
       "lastCheck": {
-        "at": "2026-11-02T14:56:51+08:00",
+        "at": "2026-11-02T16:23:36+08:00",
         "status": "ok"
       },
       "externalSourceChecks": {
@@ -4631,7 +4631,7 @@
         "truncated": true
       },
       "lastCheck": {
-        "at": "2026-11-02T14:30:38+08:00",
+        "at": "2026-11-02T16:23:36+08:00",
         "status": "ok"
       }
     },
@@ -4646,7 +4646,7 @@
         "truncated": false
       },
       "lastCheck": {
-        "at": "2026-11-02T14:30:38+08:00",
+        "at": "2026-11-02T16:23:36+08:00",
         "status": "ok"
       }
     },
@@ -5133,7 +5133,7 @@
         "truncated": false
       },
       "lastCheck": {
-        "at": "2026-11-02T14:56:11+08:00",
+        "at": "2026-11-02T16:23:36+08:00",
         "status": "ok"
       }
     }
