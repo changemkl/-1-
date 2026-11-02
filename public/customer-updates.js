@@ -27,7 +27,9 @@ if(typeof window!=='undefined')(()=>{
  let initialized=Object.keys(state).length>0;
  const save=()=>{try{localStorage.setItem(key,JSON.stringify(state));}catch{}};
  window.customerHasUpdate=c=>Boolean(state[customerIdentifier(c)]?.unread);
- function paint(){document.querySelectorAll('.customer-card').forEach(card=>{
+ function paint(){
+  if(view===0){const expected=filtered().map(c=>encodeURIComponent(cardCustomerKey(c))),current=[...document.querySelectorAll('.customer-card')].map(c=>c.dataset.customerKey);if(expected.length!==current.length||expected.some((id,i)=>id!==current[i])){renderCards();return;}}
+  document.querySelectorAll('.customer-card').forEach(card=>{
   const row=state[decodeURIComponent(card.dataset.customerKey)],unread=Boolean(row?.unread);
   card.classList.toggle('has-unread-update',unread);
   let badges=card.querySelector('.customer-update-notices');
