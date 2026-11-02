@@ -2,6 +2,34 @@
   "version": 3,
   "entries": [
     {
+      "customerId": "2100000172",
+      "customerName": "上海市消防救援总队",
+      "workDate": "2026-11-02",
+      "title": "业务系统升级改造项目 · 每日进展登记",
+      "content": "工作内容：本日进展：分析招标文件｜下一步：随时跟进项目招标进展。｜下一步时间：2026-11-30",
+      "relatedUnit": null,
+      "actorName": "许鹏宇",
+      "actorRole": "客户经理",
+      "participants": [
+        "许鹏宇（客户经理）"
+      ],
+      "recordUpdatedDate": null,
+      "projectIds": [
+        "dfproject:71957667c1ba7f3d1b95"
+      ],
+      "projectTypes": {
+        "dfproject:71957667c1ba7f3d1b95": "商机"
+      },
+      "id": "dongfeng:6e136203d4d690a8ebb39f4c",
+      "datePrecision": "explicit",
+      "sourceType": "dongfeng",
+      "sourceLabel": "东风平台 · 东风工作日期",
+      "sourceRecordId": "daily:TL-DAILY-d4ff0a3e-a121-4f1a-baf7-008fe339c705:2100000172",
+      "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
+      "firstSeenAt": "2026-11-02T13:56:15+08:00",
+      "updatedAt": "2026-11-02T13:56:15+08:00"
+    },
+    {
       "customerId": "2100000260",
       "customerName": "上海市公安局",
       "workDate": "2026-10-30",
@@ -12478,11 +12506,11 @@
       "customerName": "上海市消防救援总队",
       "workDate": null,
       "title": "业务系统升级改造项目 · 最新项目记录",
-      "content": "项目：业务系统升级改造项目\n最新进展：与信安针对数字化预案子系统升级改造进行技术对接和商务沟通\n下一步：分别与5个模块厂商直接取得联系，准备招投标流程。\n平台阶段：商机\n线索结果：已完成商机登记，后续结果待维护。\n中失标状态：PENDING",
+      "content": "项目：业务系统升级改造项目\n最新进展：分析招标文件\n下一步：随时跟进项目招标进展。\n平台阶段：商机\n线索结果：已完成商机登记，后续结果待维护。\n中失标状态：PENDING",
       "relatedUnit": null,
       "actorName": "",
       "actorRole": "",
-      "recordUpdatedDate": "2026-10-27",
+      "recordUpdatedDate": "2026-11-02",
       "recordCreatedDate": "2026-09-09",
       "responsibleManager": "许鹏宇",
       "projectIds": [
@@ -12498,7 +12526,7 @@
       "sourceRecordId": "progress:TASK-1788949735381:2100000172",
       "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
       "firstSeenAt": "2026-10-29T14:11:08+08:00",
-      "updatedAt": "2026-10-29T14:45:24+08:00"
+      "updatedAt": "2026-11-02T13:56:15+08:00"
     },
     {
       "customerId": "2100000260",
@@ -13570,12 +13598,12 @@
       "updatedAt": "2026-10-29T14:45:24+08:00"
     }
   ],
-  "updatedAt": "2026-10-30T22:05:24+08:00",
+  "updatedAt": "2026-11-02T13:56:15+08:00",
   "source": "东风平台",
   "coverage": {
-    "sourceRecords": 501,
+    "sourceRecords": 502,
     "byType": {
-      "daily": 332,
+      "daily": 333,
       "event": 76,
       "progress": 63,
       "visit": 6,
@@ -14106,7 +14134,7 @@
       "names": [
         "业务系统升级改造项目"
       ],
-      "updatedAt": "2026-10-27T08:19:39.572Z"
+      "updatedAt": "2026-11-02T02:48:35.460Z"
     },
     {
       "id": "dfproject:a509d5fb204492a9f548",
