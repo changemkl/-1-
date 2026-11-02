@@ -17,6 +17,8 @@ function groupCustomerWorklogs(rows,projects){
 (() => {
  let entries=[],projects=[],loaded=false,readFailed=false,selected=null,trigger,closeTimer;
  const opened=new Set();
+ window.customerWorklogsFor=c=>sortedCustomerWorklogs([...entries,...(typeof manualWorklogsFor==='function'?manualWorklogsFor(c):[])],customerIdentifier(c),decoded(c));
+ window.customerWorklogsReady=()=>loaded;
  window.customerWorklogProjectsFor=c=>{const id=customerIdentifier(c),name=decoded(c);return [...projects.filter(p=>p.customerId===id&&p.customerName===name),...(typeof manualFor==='function'?manualFor(c,'project').map(r=>({id:'manualproject:'+r.id,name:r.title,type:'线索',status:r.progress||'人工补充',customerId:id,customerName:name})):[])];};
  const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
  const decoded=x=>new DOMParser().parseFromString(x[0],'text/html').body.textContent;

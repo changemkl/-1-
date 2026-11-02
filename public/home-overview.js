@@ -1,0 +1,22 @@
+function homeRecentLogs(customers,getRows,today){
+ return customers.flatMap(customer=>getRows(customer).filter(row=>/^\d{4}-\d{2}-\d{2}$/.test(row.workDate||'')&&row.workDate<=today).map(row=>({customer,row}))).sort((a,b)=>b.row.workDate.localeCompare(a.row.workDate)||String(a.row.id).localeCompare(String(b.row.id))).slice(0,5);
+}
+function homeUpcomingPurchases(customers,getRows){
+ const seen=new Set();
+ return customers.flatMap(customer=>getRows(customer).map(row=>({customer,row}))).filter(({row})=>/采购意向|招标意向|采购公告|招标公告|磋商公告|询价公告|谈判公告/.test(row.stage||'')).filter(({customer,row})=>{const key=JSON.stringify([customer[0],row.notice_url||row.url,row.name]);if(seen.has(key))return false;seen.add(key);return true;}).sort((a,b)=>(a.row.planned_purchase||a.row.deadline?.value||'9999').localeCompare(b.row.planned_purchase||b.row.deadline?.value||'9999')).slice(0,5);
+}
+if(typeof module!=='undefined')module.exports={homeRecentLogs,homeUpcomingPurchases};
+if(typeof window!=='undefined')(()=>{
+ const root=document.getElementById('business-overview');let logs=[],purchases=[];
+ const decode=value=>{const node=document.createElement('textarea');node.innerHTML=value||'';return node.value;};
+ const esc=syncEscape;
+ function render(){
+  const customers=views[0].items,today=shanghaiDate();
+  logs=homeRecentLogs(customers,c=>typeof customerWorklogsFor==='function'?customerWorklogsFor(c):[],today);
+  purchases=homeUpcomingPurchases(customers,c=>visibleProjectsFor(c).filter(r=>safeSource(r.notice_url||r.url)));
+  root.innerHTML=`<div class="home-overview-heading"><h2>近期业务动态</h2></div><div class="home-overview-grid"><section class="home-feed" aria-labelledby="home-log-title"><header><span class="home-feed-icon" aria-hidden="true">◷</span><h3 id="home-log-title">客户新动态</h3><span class="home-feed-subtitle">最近工作记录</span></header><div class="home-feed-list">${logs.length?logs.map(({customer,row},i)=>`<button type="button" class="home-feed-item" data-home-log="${i}"><span class="home-feed-meta"><strong>${esc(decode(customer[0]))}</strong><time>${esc(row.workDate)}</time></span>${row.title?`<span class="home-feed-project">${esc(row.title)}</span>`:''}<span class="home-feed-excerpt">${esc(row.content)}</span><span class="home-feed-bottom">${esc(row.actorName||row.sourceLabel||(row.sourceType==='manual'?'人工录入':row.sourceType==='dongfeng'?'东风平台':'腾讯在线表格'))}<span>查看日志 →</span></span></button>`).join(''):`<p class="home-feed-empty">${typeof customerWorklogsReady==='function'&&customerWorklogsReady()?'暂无日期明确的工作记录':'正在加载工作记录…'}</p>`}</div></section><section class="home-feed" aria-labelledby="home-purchase-title"><header><span class="home-feed-icon procurement" aria-hidden="true">▤</span><h3 id="home-purchase-title">近期采购</h3><span class="home-feed-subtitle">按采购及截止时间排序</span></header><div class="home-feed-list">${purchases.length?purchases.map(({customer,row},i)=>{const date=row.planned_purchase||row.deadline?.value||'',label=row.planned_purchase?'计划采购':row.deadline?.value?'截止':'日期未公开';return `<div class="home-purchase-row"><button type="button" class="home-feed-item" data-home-purchase="${i}"><span class="home-feed-meta"><strong>${esc(decode(customer[0]))}</strong><span class="home-purchase-date">${esc(label)}${date?' '+esc(date):''}</span></span><span class="home-feed-project">${esc(row.name||row.title||'采购公告')}</span><span class="home-feed-bottom">${esc(row.stage)}<span>查看采购 →</span></span></button><a class="home-source-link" href="${esc(safeSource(row.notice_url||row.url))}" target="_blank" rel="noopener noreferrer">公告原文 ↗</a></div>`;}).join(''):'<p class="home-feed-empty">暂无已核实的有效采购意向或招标公告</p>'}</div></section></div>`;
+ }
+ root.addEventListener('click',event=>{const log=event.target.closest('[data-home-log]'),purchase=event.target.closest('[data-home-purchase]');if(log){const item=logs[Number(log.dataset.homeLog)],row=item?.row;if(!item)return;const rawId=row.projectIds?.[0]||row.projectId||'__customer__',project=customerWorklogProjectsFor(item.customer).find(p=>p.id===rawId||p.aliasIds?.includes(rawId)),id=project?.id||rawId;openCustomerDetail(item.customer,{section:'logs',projectId:id},log);}if(purchase){const item=purchases[Number(purchase.dataset.homePurchase)];if(item)openCustomerDetail(item.customer,{section:'procurement'},purchase);}});
+ for(const event of ['customers-updated','public-profiles-updated','worklogs-updated','manual-records-updated'])window.addEventListener(event,render);
+ render();setInterval(render,60000);
+})();
