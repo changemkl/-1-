@@ -157,5 +157,10 @@ def main():
         print(identifier,len(record['results']),'public award results;',record['lastCheck']['status'])
     if policy is not None:enrich_award_records(records,policy,now)
     write_json(OUTPUT,{'updatedAt':stamp,'customers':list(records.values())})
+    # Recheck a bounded batch of reviewed external notices without dropping old evidence.
+    try:
+        from external_notices import refresh
+        refresh(limit=4)
+    except Exception as exc:print('External notice refresh unavailable:',str(exc)[:160])
 
 if __name__=='__main__':main()

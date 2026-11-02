@@ -1,6 +1,6 @@
 /* Per-browser read state; compare business content, never sync/check timestamps. */
 function updateContent(value){
- const ignored=new Set(['updatedAt','updated_at','fetched_at','checkedAt','firstSeenAt','lastSeenAt','lastRun','lastCheck','coverage','procurementSources','finished_at','recordUpdatedDate','sourceRow','cell','column']);
+ const ignored=new Set(['updatedAt','updated_at','fetched_at','checkedAt','firstSeenAt','lastSeenAt','lastRun','lastCheck','coverage','procurementSources','externalSourceChecks','finished_at','recordUpdatedDate','sourceRow','cell','column']);
  if(Array.isArray(value))return value.map(updateContent).sort((a,b)=>JSON.stringify(a).localeCompare(JSON.stringify(b)));
  if(value&&typeof value==='object')return Object.fromEntries(Object.keys(value).sort().filter(k=>!ignored.has(k)).map(k=>[k,updateContent(value[k])]));
  return value;

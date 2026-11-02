@@ -1,12 +1,73 @@
 {
-  "updatedAt": "2026-11-02T00:00:39.948463+00:00",
+  "updatedAt": "2026-11-02T14:22:26+08:00",
   "profiles": [
     {
       "id": "2100000172",
       "name": "上海市消防救援总队",
       "attributes": [],
-      "signals": [],
-      "projects": [],
+      "signals": [
+        {
+          "url": "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202610/t20261028_27579691.htm",
+          "title": "上海市消防救援总队2026年市级城维资金消防综合应急救援装备维护更新项目重新招标公告",
+          "published_at": "2026-10-28",
+          "fetched_at": "2026-11-02T14:22:26+08:00",
+          "source_host": "www.ccgp.gov.cn",
+          "category": "项目与采购公开信息",
+          "status": "verified",
+          "excerpt": "上海市消防救援总队2026年市级城维资金消防综合应急救援装备维护更新项目重新招标公告\n采购人：上海市消防救援总队\n提交投标文件截止时间：2026年11月18日 10点30",
+          "facts": {
+            "version": 1,
+            "kind": "procurement",
+            "projects": [
+              {
+                "name": "上海市消防救援总队2026年市级城维资金消防综合应急救援装备维护更新项目重新招标公告",
+                "stage": "采购公告",
+                "notice_url": "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202610/t20261028_27579691.htm",
+                "quote": "上海市消防救援总队2026年市级城维资金消防综合应急救援装备维护更新项目重新招标公告\n采购人：上海市消防救援总队\n提交投标文件截止时间：2026年11月18日 10点30",
+                "buyer": {
+                  "value": "上海市消防救援总队",
+                  "unit": "",
+                  "quote": "采购人：上海市消防救援总队"
+                },
+                "deadline": {
+                  "value": "2026-11-18 10:30",
+                  "unit": "",
+                  "quote": "提交投标文件截止时间：2026年11月18日 10点30"
+                },
+                "planned_purchase": null,
+                "mirror_url": "https://yzb.caigou2003.com/detail/2115420099321266176"
+              }
+            ],
+            "leaders": [],
+            "organizations": []
+          }
+        }
+      ],
+      "projects": [
+        {
+          "name": "上海市消防救援总队2026年市级城维资金消防综合应急救援装备维护更新项目重新招标公告",
+          "stage": "采购公告",
+          "notice_url": "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202610/t20261028_27579691.htm",
+          "quote": "上海市消防救援总队2026年市级城维资金消防综合应急救援装备维护更新项目重新招标公告\n采购人：上海市消防救援总队\n提交投标文件截止时间：2026年11月18日 10点30",
+          "buyer": {
+            "value": "上海市消防救援总队",
+            "unit": "",
+            "quote": "采购人：上海市消防救援总队"
+          },
+          "deadline": {
+            "value": "2026-11-18 10:30",
+            "unit": "",
+            "quote": "提交投标文件截止时间：2026年11月18日 10点30"
+          },
+          "planned_purchase": null,
+          "mirror_url": "https://yzb.caigou2003.com/detail/2115420099321266176",
+          "url": "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202610/t20261028_27579691.htm",
+          "title": "上海市消防救援总队2026年市级城维资金消防综合应急救援装备维护更新项目重新招标公告",
+          "published_at": "2026-10-28",
+          "fetched_at": "2026-11-02T14:22:26+08:00",
+          "source_host": "www.ccgp.gov.cn"
+        }
+      ],
       "leaders": [],
       "organizations": [],
       "procurementSources": [
@@ -2259,8 +2320,128 @@
       "id": "2100127512",
       "name": "中国浦东干部学院",
       "attributes": [],
-      "signals": [],
-      "projects": [],
+      "signals": [
+        {
+          "url": "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202610/t20261028_27575254.htm",
+          "title": "中国浦东干部学院消防安全设施改造工程公开招标公告",
+          "published_at": "2026-10-28",
+          "fetched_at": "2026-11-02T14:22:26+08:00",
+          "source_host": "www.ccgp.gov.cn",
+          "category": "项目与采购公开信息",
+          "status": "verified",
+          "excerpt": "中国浦东干部学院消防安全设施改造工程公开招标公告\n采购人：中国浦东干部学院\n提交投标文件截止时间：2026年11月19日 10点00",
+          "facts": {
+            "version": 1,
+            "kind": "procurement",
+            "projects": [
+              {
+                "name": "中国浦东干部学院消防安全设施改造工程公开招标公告",
+                "stage": "公开招标公告",
+                "notice_url": "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202610/t20261028_27575254.htm",
+                "quote": "中国浦东干部学院消防安全设施改造工程公开招标公告\n采购人：中国浦东干部学院\n提交投标文件截止时间：2026年11月19日 10点00",
+                "buyer": {
+                  "value": "中国浦东干部学院",
+                  "unit": "",
+                  "quote": "采购人：中国浦东干部学院"
+                },
+                "deadline": {
+                  "value": "2026-11-19 10:00",
+                  "unit": "",
+                  "quote": "提交投标文件截止时间：2026年11月19日 10点00"
+                },
+                "planned_purchase": null,
+                "mirror_url": "https://yzb.caigou2003.com/detail/2115342017021345793"
+              }
+            ],
+            "leaders": [],
+            "organizations": []
+          }
+        },
+        {
+          "url": "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202610/t20261027_27572438.htm",
+          "title": "中国浦东干部学院照明系统节能改造项目公开招标公告",
+          "published_at": "2026-10-27",
+          "fetched_at": "2026-11-02T14:22:26+08:00",
+          "source_host": "www.ccgp.gov.cn",
+          "category": "项目与采购公开信息",
+          "status": "verified",
+          "excerpt": "中国浦东干部学院照明系统节能改造项目公开招标公告\n采购人：中国浦东干部学院\n提交投标文件截止时间：2026年11月18日 10点00",
+          "facts": {
+            "version": 1,
+            "kind": "procurement",
+            "projects": [
+              {
+                "name": "中国浦东干部学院照明系统节能改造项目公开招标公告",
+                "stage": "公开招标公告",
+                "notice_url": "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202610/t20261027_27572438.htm",
+                "quote": "中国浦东干部学院照明系统节能改造项目公开招标公告\n采购人：中国浦东干部学院\n提交投标文件截止时间：2026年11月18日 10点00",
+                "buyer": {
+                  "value": "中国浦东干部学院",
+                  "unit": "",
+                  "quote": "采购人：中国浦东干部学院"
+                },
+                "deadline": {
+                  "value": "2026-11-18 10:00",
+                  "unit": "",
+                  "quote": "提交投标文件截止时间：2026年11月18日 10点00"
+                },
+                "planned_purchase": null,
+                "mirror_url": "https://yzb.caigou2003.com/detail/2115052871623114752"
+              }
+            ],
+            "leaders": [],
+            "organizations": []
+          }
+        }
+      ],
+      "projects": [
+        {
+          "name": "中国浦东干部学院消防安全设施改造工程公开招标公告",
+          "stage": "公开招标公告",
+          "notice_url": "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202610/t20261028_27575254.htm",
+          "quote": "中国浦东干部学院消防安全设施改造工程公开招标公告\n采购人：中国浦东干部学院\n提交投标文件截止时间：2026年11月19日 10点00",
+          "buyer": {
+            "value": "中国浦东干部学院",
+            "unit": "",
+            "quote": "采购人：中国浦东干部学院"
+          },
+          "deadline": {
+            "value": "2026-11-19 10:00",
+            "unit": "",
+            "quote": "提交投标文件截止时间：2026年11月19日 10点00"
+          },
+          "planned_purchase": null,
+          "mirror_url": "https://yzb.caigou2003.com/detail/2115342017021345793",
+          "url": "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202610/t20261028_27575254.htm",
+          "title": "中国浦东干部学院消防安全设施改造工程公开招标公告",
+          "published_at": "2026-10-28",
+          "fetched_at": "2026-11-02T14:22:26+08:00",
+          "source_host": "www.ccgp.gov.cn"
+        },
+        {
+          "name": "中国浦东干部学院照明系统节能改造项目公开招标公告",
+          "stage": "公开招标公告",
+          "notice_url": "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202610/t20261027_27572438.htm",
+          "quote": "中国浦东干部学院照明系统节能改造项目公开招标公告\n采购人：中国浦东干部学院\n提交投标文件截止时间：2026年11月18日 10点00",
+          "buyer": {
+            "value": "中国浦东干部学院",
+            "unit": "",
+            "quote": "采购人：中国浦东干部学院"
+          },
+          "deadline": {
+            "value": "2026-11-18 10:00",
+            "unit": "",
+            "quote": "提交投标文件截止时间：2026年11月18日 10点00"
+          },
+          "planned_purchase": null,
+          "mirror_url": "https://yzb.caigou2003.com/detail/2115052871623114752",
+          "url": "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202610/t20261027_27572438.htm",
+          "title": "中国浦东干部学院照明系统节能改造项目公开招标公告",
+          "published_at": "2026-10-27",
+          "fetched_at": "2026-11-02T14:22:26+08:00",
+          "source_host": "www.ccgp.gov.cn"
+        }
+      ],
       "leaders": [],
       "organizations": [],
       "procurementSources": [
@@ -2371,8 +2552,128 @@
       "id": "2100153629",
       "name": "公安部第三研究所",
       "attributes": [],
-      "signals": [],
-      "projects": [],
+      "signals": [
+        {
+          "url": "https://www.ccgp.gov.cn/cggg/zygg/jzxcs/202610/t20261027_27567383.htm",
+          "title": "公安部第三研究所信息安全设备采购项目Ⅱ竞争性磋商公告",
+          "published_at": "2026-10-27",
+          "fetched_at": "2026-11-02T14:22:26+08:00",
+          "source_host": "www.ccgp.gov.cn",
+          "category": "项目与采购公开信息",
+          "status": "verified",
+          "excerpt": "公安部第三研究所信息安全设备采购项目Ⅱ竞争性磋商公告\n采购人：公安部第三研究所\n截止时间：2026年11月12日 09点00",
+          "facts": {
+            "version": 1,
+            "kind": "procurement",
+            "projects": [
+              {
+                "name": "公安部第三研究所信息安全设备采购项目Ⅱ竞争性磋商公告",
+                "stage": "竞争性磋商公告",
+                "notice_url": "https://www.ccgp.gov.cn/cggg/zygg/jzxcs/202610/t20261027_27567383.htm",
+                "quote": "公安部第三研究所信息安全设备采购项目Ⅱ竞争性磋商公告\n采购人：公安部第三研究所\n截止时间：2026年11月12日 09点00",
+                "buyer": {
+                  "value": "公安部第三研究所",
+                  "unit": "",
+                  "quote": "采购人：公安部第三研究所"
+                },
+                "deadline": {
+                  "value": "2026-11-12 09:00",
+                  "unit": "",
+                  "quote": "截止时间：2026年11月12日 09点00"
+                },
+                "planned_purchase": null,
+                "mirror_url": "https://yzb.caigou2003.com/detail/2114979545416466432"
+              }
+            ],
+            "leaders": [],
+            "organizations": []
+          }
+        },
+        {
+          "url": "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202610/t20261014_27487405.htm",
+          "title": "2026年公安部第三研究所信息安全设备采购项目Ⅱ公开招标公告",
+          "published_at": "2026-10-14",
+          "fetched_at": "2026-11-02T14:22:26+08:00",
+          "source_host": "www.ccgp.gov.cn",
+          "category": "项目与采购公开信息",
+          "status": "verified",
+          "excerpt": "2026年公安部第三研究所信息安全设备采购项目Ⅱ公开招标公告\n采购人：公安部第三研究所\n提交投标文件截止时间：2026年11月04日 09点00",
+          "facts": {
+            "version": 1,
+            "kind": "procurement",
+            "projects": [
+              {
+                "name": "2026年公安部第三研究所信息安全设备采购项目Ⅱ公开招标公告",
+                "stage": "公开招标公告",
+                "notice_url": "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202610/t20261014_27487405.htm",
+                "quote": "2026年公安部第三研究所信息安全设备采购项目Ⅱ公开招标公告\n采购人：公安部第三研究所\n提交投标文件截止时间：2026年11月04日 09点00",
+                "buyer": {
+                  "value": "公安部第三研究所",
+                  "unit": "",
+                  "quote": "采购人：公安部第三研究所"
+                },
+                "deadline": {
+                  "value": "2026-11-04 09:00",
+                  "unit": "",
+                  "quote": "提交投标文件截止时间：2026年11月04日 09点00"
+                },
+                "planned_purchase": null,
+                "mirror_url": "https://yzb.caigou2003.com/detail/2110268687931146240"
+              }
+            ],
+            "leaders": [],
+            "organizations": []
+          }
+        }
+      ],
+      "projects": [
+        {
+          "name": "公安部第三研究所信息安全设备采购项目Ⅱ竞争性磋商公告",
+          "stage": "竞争性磋商公告",
+          "notice_url": "https://www.ccgp.gov.cn/cggg/zygg/jzxcs/202610/t20261027_27567383.htm",
+          "quote": "公安部第三研究所信息安全设备采购项目Ⅱ竞争性磋商公告\n采购人：公安部第三研究所\n截止时间：2026年11月12日 09点00",
+          "buyer": {
+            "value": "公安部第三研究所",
+            "unit": "",
+            "quote": "采购人：公安部第三研究所"
+          },
+          "deadline": {
+            "value": "2026-11-12 09:00",
+            "unit": "",
+            "quote": "截止时间：2026年11月12日 09点00"
+          },
+          "planned_purchase": null,
+          "mirror_url": "https://yzb.caigou2003.com/detail/2114979545416466432",
+          "url": "https://www.ccgp.gov.cn/cggg/zygg/jzxcs/202610/t20261027_27567383.htm",
+          "title": "公安部第三研究所信息安全设备采购项目Ⅱ竞争性磋商公告",
+          "published_at": "2026-10-27",
+          "fetched_at": "2026-11-02T14:22:26+08:00",
+          "source_host": "www.ccgp.gov.cn"
+        },
+        {
+          "name": "2026年公安部第三研究所信息安全设备采购项目Ⅱ公开招标公告",
+          "stage": "公开招标公告",
+          "notice_url": "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202610/t20261014_27487405.htm",
+          "quote": "2026年公安部第三研究所信息安全设备采购项目Ⅱ公开招标公告\n采购人：公安部第三研究所\n提交投标文件截止时间：2026年11月04日 09点00",
+          "buyer": {
+            "value": "公安部第三研究所",
+            "unit": "",
+            "quote": "采购人：公安部第三研究所"
+          },
+          "deadline": {
+            "value": "2026-11-04 09:00",
+            "unit": "",
+            "quote": "提交投标文件截止时间：2026年11月04日 09点00"
+          },
+          "planned_purchase": null,
+          "mirror_url": "https://yzb.caigou2003.com/detail/2110268687931146240",
+          "url": "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202610/t20261014_27487405.htm",
+          "title": "2026年公安部第三研究所信息安全设备采购项目Ⅱ公开招标公告",
+          "published_at": "2026-10-14",
+          "fetched_at": "2026-11-02T14:22:26+08:00",
+          "source_host": "www.ccgp.gov.cn"
+        }
+      ],
       "leaders": [],
       "organizations": [],
       "procurementSources": [

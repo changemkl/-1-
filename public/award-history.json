@@ -1,10 +1,49 @@
 {
-  "updatedAt": "2026-11-02T08:00:01+08:00",
+  "updatedAt": "2026-11-02T14:22:26+08:00",
   "customers": [
     {
       "id": "2100303078",
       "name": "上海建工集团股份有限公司",
-      "results": [],
+      "results": [
+        {
+          "title": "上海建工集团股份有限公司2024年工伤预防培训项目中标公告",
+          "projectName": "上海建工集团股份有限公司2024年工伤预防培训项目",
+          "date": "2024-04-21",
+          "buyer": "上海建工集团股份有限公司",
+          "url": "https://yzb.caigou2003.com/detail/1781944298544300032",
+          "source": "政府采购信息网·易找标（公开转载）",
+          "dateLabel": "结果公告日期",
+          "awards": [
+            {
+              "lotName": "上海建工集团股份有限公司2024年工伤预防培训项目",
+              "suppliers": [
+                "上海市建筑教育培训服务中心有限公司"
+              ],
+              "quote": "项目名称：上海建工集团股份有限公司2024年工伤预防培训项目；中标供应商：上海市建筑教育培训服务中心有限公司"
+            }
+          ],
+          "mirror_url": "https://yzb.caigou2003.com/detail/1781944298544300032"
+        },
+        {
+          "title": "上海建工集团股份有限公司2024年上海建工集团工伤预防（建筑业）宣传短片制作投播项目成交公告",
+          "projectName": "2024年上海建工集团工伤预防（建筑业）宣传短片制作投播项目",
+          "date": "2024-04-15",
+          "buyer": "上海建工集团股份有限公司",
+          "url": "https://yzb.caigou2003.com/detail/1779905424439640065",
+          "source": "政府采购信息网·易找标（公开转载）",
+          "dateLabel": "结果公告日期",
+          "awards": [
+            {
+              "lotName": "2024年上海建工集团工伤预防（建筑业）宣传短片制作投播项目",
+              "suppliers": [
+                "上海市建筑教育培训服务中心有限公司"
+              ],
+              "quote": "项目名称：2024年上海建工集团工伤预防（建筑业）宣传短片制作投播项目；中标供应商：上海市建筑教育培训服务中心有限公司"
+            }
+          ],
+          "mirror_url": "https://yzb.caigou2003.com/detail/1779905424439640065"
+        }
+      ],
       "coverage": {
         "from": "2023-11-03",
         "to": "2026-11-02",
@@ -14,12 +53,63 @@
       "lastCheck": {
         "at": "2026-11-02T08:00:01+08:00",
         "status": "ok"
+      },
+      "externalSourceChecks": {
+        "https://yzb.caigou2003.com/detail/1781944298544300032": {
+          "at": "2026-11-02T14:22:26+08:00",
+          "status": "ok"
+        },
+        "https://yzb.caigou2003.com/detail/1779905424439640065": {
+          "at": "2026-11-02T14:22:26+08:00",
+          "status": "ok"
+        }
       }
     },
     {
       "id": "2100199365",
       "name": "中国建筑第八工程局有限公司",
-      "results": [],
+      "results": [
+        {
+          "title": "上海外国语大学、中国建筑第八工程局有限公司上海外国语大学松江校区全球治理与区域国别研究大楼弱电工程中标公告",
+          "projectName": "上海外国语大学松江校区全球治理与区域国别研究大楼弱电工程",
+          "date": "2024-08-27",
+          "buyer": "上海外国语大学、中国建筑第八工程局有限公司",
+          "url": "https://www.ccgp.gov.cn/cggg/dfgg/zbgg/202408/t20240827_22995426.htm",
+          "source": "中国政府采购网",
+          "dateLabel": "结果公告日期",
+          "awards": [
+            {
+              "lotName": "上海外国语大学松江校区全球治理与区域国别研究大楼弱电工程",
+              "suppliers": [
+                "上海贝特科技工程有限公司"
+              ],
+              "quote": "项目名称：上海外国语大学松江校区全球治理与区域国别研究大楼弱电工程；中标供应商：上海贝特科技工程有限公司",
+              "amountYuan": 2816966.15
+            }
+          ],
+          "mirror_url": "https://yzb.caigou2003.com/detail/1828292549073436673"
+        },
+        {
+          "title": "中国建筑第八工程局有限公司华中科技大学计算机大楼项目智能化项目中标公告",
+          "projectName": "华中科技大学计算机大楼项目智能化项目",
+          "date": "2024-07-01",
+          "buyer": "中国建筑第八工程局有限公司",
+          "url": "https://www.ccgp.gov.cn/cggg/dfgg/zbgg/202407/t20240701_22508124.htm",
+          "source": "中国政府采购网",
+          "dateLabel": "结果公告日期",
+          "awards": [
+            {
+              "lotName": "华中科技大学计算机大楼项目智能化项目",
+              "suppliers": [
+                "中船凌久高科（武汉）有限公司"
+              ],
+              "quote": "项目名称：华中科技大学计算机大楼项目智能化项目；中标供应商：中船凌久高科（武汉）有限公司",
+              "amountYuan": 17077299.39
+            }
+          ],
+          "mirror_url": "https://yzb.caigou2003.com/detail/1807636475085586433"
+        }
+      ],
       "coverage": {
         "from": "2023-11-03",
         "to": "2026-11-02",
@@ -29,12 +119,43 @@
       "lastCheck": {
         "at": "2026-11-02T08:00:01+08:00",
         "status": "ok"
+      },
+      "externalSourceChecks": {
+        "https://www.ccgp.gov.cn/cggg/dfgg/zbgg/202408/t20240827_22995426.htm": {
+          "at": "2026-11-02T14:22:26+08:00",
+          "status": "ok"
+        },
+        "https://www.ccgp.gov.cn/cggg/dfgg/zbgg/202407/t20240701_22508124.htm": {
+          "at": "2026-11-02T14:22:26+08:00",
+          "status": "ok"
+        }
       }
     },
     {
       "id": "2108019729",
       "name": "水利部太湖流域管理局",
-      "results": [],
+      "results": [
+        {
+          "title": "水利部太湖流域管理局2025年引江济太望虞河常熟水利枢纽运行成交公告",
+          "projectName": "2025年引江济太望虞河常熟水利枢纽运行",
+          "date": "2025-06-03",
+          "buyer": "水利部太湖流域管理局（本级）",
+          "url": "https://www.ccgp.gov.cn/cggg/zygg/cjgg/202506/t20250603_24699101.htm",
+          "source": "中国政府采购网",
+          "dateLabel": "结果公告日期",
+          "awards": [
+            {
+              "lotName": "2025年引江济太望虞河常熟水利枢纽运行",
+              "suppliers": [
+                "江苏省太湖地区水利工程管理处"
+              ],
+              "quote": "项目名称：2025年引江济太望虞河常熟水利枢纽运行；中标供应商：江苏省太湖地区水利工程管理处",
+              "amountYuan": 1970000.0
+            }
+          ],
+          "mirror_url": "https://yzb.caigou2003.com/detail/1929760771701735424"
+        }
+      ],
       "coverage": {
         "from": "2023-11-03",
         "to": "2026-11-02",
@@ -44,6 +165,12 @@
       "lastCheck": {
         "at": "2026-11-02T08:00:01+08:00",
         "status": "ok"
+      },
+      "externalSourceChecks": {
+        "https://www.ccgp.gov.cn/cggg/zygg/cjgg/202506/t20250603_24699101.htm": {
+          "at": "2026-11-02T14:22:26+08:00",
+          "status": "ok"
+        }
       }
     },
     {
@@ -665,7 +792,48 @@
     {
       "id": "2100153629",
       "name": "公安部第三研究所",
-      "results": [],
+      "results": [
+        {
+          "title": "2026年公安部第三研究所网络安全设备采购成交公告",
+          "projectName": "2026年公安部第三研究所网络安全设备采购",
+          "date": "2026-10-27",
+          "buyer": "公安部第三研究所",
+          "url": "https://www.ccgp.gov.cn/cggg/zygg/cjgg/202610/t20261027_27572179.htm",
+          "source": "中国政府采购网",
+          "dateLabel": "结果公告日期",
+          "awards": [
+            {
+              "lotName": "2026年公安部第三研究所网络安全设备采购",
+              "suppliers": [
+                "内蒙古华迅信安科技有限公司"
+              ],
+              "quote": "项目名称：2026年公安部第三研究所网络安全设备采购；中标供应商：内蒙古华迅信安科技有限公司",
+              "amountYuan": 855700.0
+            }
+          ],
+          "mirror_url": "https://yzb.caigou2003.com/detail/2115055282295144449"
+        },
+        {
+          "title": "2026年公安部第三研究所网络及信息安全设备采购项目中标公告",
+          "projectName": "2026年公安部第三研究所网络及信息安全设备采购项目",
+          "date": "2026-08-26",
+          "buyer": "公安部第三研究所",
+          "url": "https://www.ccgp.gov.cn/cggg/zygg/zbgg/202608/t20260826_27206162.htm",
+          "source": "中国政府采购网",
+          "dateLabel": "结果公告日期",
+          "awards": [
+            {
+              "lotName": "2026年公安部第三研究所网络及信息安全设备采购项目",
+              "suppliers": [
+                "上海辰锐信息科技有限公司"
+              ],
+              "quote": "项目名称：2026年公安部第三研究所网络及信息安全设备采购项目；中标供应商：上海辰锐信息科技有限公司",
+              "amountYuan": 3967000.0
+            }
+          ],
+          "mirror_url": "https://yzb.caigou2003.com/detail/2092511490858024961"
+        }
+      ],
       "coverage": {
         "from": "2023-11-03",
         "to": "2026-11-02",
@@ -675,12 +843,71 @@
       "lastCheck": {
         "at": "2026-11-02T03:57:08+08:00",
         "status": "ok"
+      },
+      "externalSourceChecks": {
+        "https://www.ccgp.gov.cn/cggg/zygg/cjgg/202610/t20261027_27572179.htm": {
+          "at": "2026-11-02T14:22:26+08:00",
+          "status": "ok"
+        },
+        "https://www.ccgp.gov.cn/cggg/zygg/jzxcs/202610/t20261027_27567383.htm": {
+          "at": "2026-11-02T14:22:26+08:00",
+          "status": "ok"
+        },
+        "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202610/t20261014_27487405.htm": {
+          "at": "2026-11-02T14:22:26+08:00",
+          "status": "ok"
+        },
+        "https://www.ccgp.gov.cn/cggg/zygg/zbgg/202608/t20260826_27206162.htm": {
+          "at": "2026-11-02T14:22:26+08:00",
+          "status": "ok"
+        }
       }
     },
     {
       "id": "2100127512",
       "name": "中国浦东干部学院",
-      "results": [],
+      "results": [
+        {
+          "title": "中国浦东干部学院图书中心气体灭火系统钢瓶中标公告",
+          "projectName": "中国浦东干部学院图书中心气体灭火系统钢瓶",
+          "date": "2026-09-02",
+          "buyer": "中国浦东干部学院",
+          "url": "https://www.ccgp.gov.cn/cggg/zygg/zbgg/202609/t20260902_27248583.htm",
+          "source": "中国政府采购网",
+          "dateLabel": "结果公告日期",
+          "awards": [
+            {
+              "lotName": "中国浦东干部学院图书中心气体灭火系统钢瓶",
+              "suppliers": [
+                "上海先荣建筑集团有限公司"
+              ],
+              "quote": "项目名称：中国浦东干部学院图书中心气体灭火系统钢瓶；中标供应商：上海先荣建筑集团有限公司",
+              "amountYuan": 94770.0
+            }
+          ],
+          "mirror_url": "https://yzb.caigou2003.com/detail/2097291607262101504"
+        },
+        {
+          "title": "中国浦东干部学院照明系统节能改造项目施工监理服务成交公告",
+          "projectName": "中国浦东干部学院照明系统节能改造项目施工监理服务",
+          "date": "2026-08-25",
+          "buyer": "中国浦东干部学院",
+          "url": "https://www.ccgp.gov.cn/cggg/zygg/cjgg/202608/t20260825_27197715.htm",
+          "source": "中国政府采购网",
+          "dateLabel": "结果公告日期",
+          "awards": [
+            {
+              "lotName": "中国浦东干部学院照明系统节能改造项目施工监理服务",
+              "suppliers": [
+                "上海容基工程项目管理有限公司"
+              ],
+              "quote": "项目名称：中国浦东干部学院照明系统节能改造项目施工监理服务；中标供应商：上海容基工程项目管理有限公司",
+              "amountYuan": 158000.0
+            }
+          ],
+          "mirror_url": "https://yzb.caigou2003.com/detail/2092147946857693185"
+        }
+      ],
       "coverage": {
         "from": "2023-11-03",
         "to": "2026-11-02",
@@ -690,6 +917,24 @@
       "lastCheck": {
         "at": "2026-11-02T03:57:08+08:00",
         "status": "ok"
+      },
+      "externalSourceChecks": {
+        "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202610/t20261028_27575254.htm": {
+          "at": "2026-11-02T14:22:26+08:00",
+          "status": "ok"
+        },
+        "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202610/t20261027_27572438.htm": {
+          "at": "2026-11-02T14:22:26+08:00",
+          "status": "ok"
+        },
+        "https://www.ccgp.gov.cn/cggg/zygg/zbgg/202609/t20260902_27248583.htm": {
+          "at": "2026-11-02T14:22:26+08:00",
+          "status": "ok"
+        },
+        "https://www.ccgp.gov.cn/cggg/zygg/cjgg/202608/t20260825_27197715.htm": {
+          "at": "2026-11-02T14:22:26+08:00",
+          "status": "ok"
+        }
       }
     },
     {
@@ -2253,7 +2498,48 @@
     {
       "id": "2100000172",
       "name": "上海市消防救援总队",
-      "results": [],
+      "results": [
+        {
+          "title": "上海市消防救援总队特勤支队2026-2027年年度车辆保险采购服务项目成交公告",
+          "projectName": "上海市消防救援总队特勤支队2026-2027年年度车辆保险采购服务项目",
+          "date": "2026-10-30",
+          "buyer": "上海市消防救援总队特勤支队",
+          "url": "https://www.ccgp.gov.cn/cggg/zygg/cjgg/202610/t20261030_27590679.htm",
+          "source": "中国政府采购网",
+          "dateLabel": "结果公告日期",
+          "awards": [
+            {
+              "lotName": "上海市消防救援总队特勤支队2026-2027年年度车辆保险采购服务项目",
+              "suppliers": [
+                "申能财产保险股份有限公司上海分公司"
+              ],
+              "quote": "项目名称：上海市消防救援总队特勤支队2026-2027年年度车辆保险采购服务项目；中标供应商：申能财产保险股份有限公司上海分公司",
+              "amountYuan": 600000.0
+            }
+          ],
+          "mirror_url": "https://yzb.caigou2003.com/detail/2116063923269795841"
+        },
+        {
+          "title": "上海市消防救援总队特勤支队特勤支队基层队站车库战斗服架更新采购项目成交公告",
+          "projectName": "特勤支队基层队站车库战斗服架更新采购项目",
+          "date": "2026-10-23",
+          "buyer": "上海市消防救援总队特勤支队",
+          "url": "https://www.ccgp.gov.cn/cggg/zygg/cjgg/202610/t20261023_27549400.htm",
+          "source": "中国政府采购网",
+          "dateLabel": "结果公告日期",
+          "awards": [
+            {
+              "lotName": "特勤支队基层队站车库战斗服架更新采购项目",
+              "suppliers": [
+                "国信（山东）数字科技有限公司"
+              ],
+              "quote": "项目名称：特勤支队基层队站车库战斗服架更新采购项目；中标供应商：国信（山东）数字科技有限公司",
+              "amountYuan": 248999.31
+            }
+          ],
+          "mirror_url": "https://yzb.caigou2003.com/detail/2113530753139867648"
+        }
+      ],
       "coverage": {
         "from": "2023-11-03",
         "to": "2026-11-02",
@@ -2263,6 +2549,20 @@
       "lastCheck": {
         "at": "2026-11-02T08:00:01+08:00",
         "status": "ok"
+      },
+      "externalSourceChecks": {
+        "https://www.ccgp.gov.cn/cggg/zygg/cjgg/202610/t20261030_27590679.htm": {
+          "at": "2026-11-02T14:22:26+08:00",
+          "status": "ok"
+        },
+        "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202610/t20261028_27579691.htm": {
+          "at": "2026-11-02T14:22:26+08:00",
+          "status": "ok"
+        },
+        "https://www.ccgp.gov.cn/cggg/zygg/cjgg/202610/t20261023_27549400.htm": {
+          "at": "2026-11-02T14:22:26+08:00",
+          "status": "ok"
+        }
       }
     },
     {
