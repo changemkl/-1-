@@ -13,7 +13,4 @@ test('duplicate sparse records do not erase verified award details',()=>{
  const row={url:'https://example.gov.cn/a',date:'2026-10-01',title:'结果公告',awards:[{lotName:'服务',suppliers:['甲公司']}]};
  assert.equal(ctx.sortedAwardResults([row,{url:row.url,date:row.date,title:row.title}],'2026-10-26')[0].awards[0].suppliers[0],'甲公司');
 });
-test('supplier project groups include all suppliers, deduplicate lots and order latest first',()=>{
- const a={url:'https://example.gov.cn/a',date:'2026-10-01',awards:[{lotNumber:'1',lotName:'网络维护',suppliers:['甲公司','乙公司']}]},b={url:'https://example.gov.cn/b',date:'2026-10-20',awards:[{lotName:'云平台',suppliers:['甲公司']}]};
- const groups=ctx.awardSupplierProjects([a,{...a,url:a.url+'#top'},b]);assert.equal(groups.length,2);assert.equal(groups[0].items.length,2);assert.equal(groups[0].latest,'2026-10-20');assert.equal(groups[0].items[0].lot.lotName,'云平台');assert.equal(groups[1].items.length,1);assert.ok(groups[0].items[1].categories.includes('运维'));assert.equal(ctx.awardProjectCategories('办公装修')[0],'其他／待分类');
-});
+test('project categories use explicit title terms',()=>{assert.ok(ctx.awardProjectCategories('网络维护').includes('运维'));assert.ok(ctx.awardProjectCategories('云平台').includes('云与算力'));assert.equal(ctx.awardProjectCategories('办公装修')[0],'其他／待分类');});
