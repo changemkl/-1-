@@ -28,6 +28,19 @@ function awardSupplierTop10(rows){
  }
  return [...suppliers.values()].sort((a,b)=>b.count-a.count||b.latest.localeCompare(a.latest)||a.name.localeCompare(b.name,'zh-CN')).slice(0,10);
 }
+function awardProjectCategories(name){
+ const rules=[['网络',/网络|专线|光纤|宽带|通信|通讯|无线/],['云与算力',/算力|云平台|云服务|云资源|云计算|政务云/],['软件与平台',/软件|平台|应用系统|信息系统/],['安全',/网络安全|信息安全|数据安全|等保|防火墙|密码/],['运维',/运维|维护|维保/]];
+ const labels=rules.filter(([,pattern])=>pattern.test(name)).map(([label])=>label);return labels.length?labels:['其他／待分类'];
+}
+function awardSupplierProjects(rows){
+ const groups=new Map(),seen=new Set();
+ for(const row of rows)for(const lot of verifiedAwardLots(row))for(const name of lot.suppliers){
+  const key=name.normalize('NFKC').replace(/\s+/g,''),win=[row.url.split('#')[0],lot.lotNumber||'',lot.lotName,key].join('|');if(seen.has(win))continue;seen.add(win);
+  if(!groups.has(key))groups.set(key,{name,items:[],latest:''});
+  const group=groups.get(key);group.items.push({row,lot,categories:awardProjectCategories(lot.lotName)});group.latest=group.latest>row.date?group.latest:row.date;
+ }
+ return [...groups.values()].map(g=>({...g,items:g.items.sort((a,b)=>b.row.date.localeCompare(a.row.date))})).sort((a,b)=>b.items.length-a.items.length||b.latest.localeCompare(a.latest)||a.name.localeCompare(b.name,'zh-CN'));
+}
 (() => {
  const records=new Map();let selected,trigger,timer;
  window.awardHistoryFor=x=>{const r=records.get(customerIdentifier(x));const name=new DOMParser().parseFromString(x[0],'text/html').body.textContent;return sortedAwardResults([...(r?.name===name?r.results||[]:[]),...(typeof supplementFor==='function'?supplementFor(x)?.results||[]:[])],shanghaiDate());};
@@ -45,6 +58,13 @@ function awardSupplierTop10(rows){
   const rows=sortedAwardResults([...(record?.results||[]),...(supplement?.results||[]),...extra],shanghaiDate());let year='';
   const top=awardSupplierTop10(rows),verified=rows.filter(row=>verifiedAwardLots(row).length).length;
   const competitors=`<details class="award-competitors" aria-label="竞争对手 TOP10"><summary>竞争对手 <span>TOP10</span></summary>${top.length?`<ol>${top.map(s=>`<li><span>${esc(s.name)}</span><b>${s.count} 次</b></li>`).join('')}</ol>`:'<p class="org-unconfirmed">暂无已核实的中标供应商</p>'}<small>按已核实标项计次 · ${verified}/${rows.length} 条公告已核实供应商</small></details>`;
+  const suppliers=awardSupplierProjects(rows);
+  const supplierMarkup=`<section class="supplier-project-section"><h3 class="org-section-title">历史项目与供应商分布</h3>${suppliers.length?suppliers.map(s=>`<details class="supplier-project-group"><summary><strong>${esc(s.name)}</strong><span class="worklog-kind">供应商</span><small>最近中标：${esc(s.latest)} · ${s.items.length} 个标项</small></summary><div class="supplier-project-body">${s.items.map(({row,lot,categories})=>{
+   const contract=(supplement?.contracts||[]).find(c=>c.projectName===row.projectName&&c.buyer===row.buyer&&(!c.awardUrl||c.awardUrl===row.url));
+   const exactContract=contract&&verifiedAwardLots(row).length===1&&lot.suppliers.length===1;
+   const amount=Number.isFinite(lot.amountYuan)&&lot.amountYuan>0?`中标金额：${esc(lot.amountYuan/10000)} 万元`:'中标金额未公开／待核实';
+   return `<article class="supplier-project-item"><a href="${esc(row.url)}" target="_blank" rel="noopener noreferrer"><strong>${esc(lot.lotName)} ↗</strong></a><div class="supplier-project-tags">${categories.map(c=>`<span class="worklog-kind">${esc(c)}</span>`).join('')}</div><p>中标日期：${esc(row.date)}${row.buyer?' · 采购单位：'+esc(row.buyer):''}</p><p>${amount}</p>${lot.suppliers.length>1?`<p>该标项列有多家供应商：${esc(lot.suppliers.join('、'))}；金额不分别累计。</p>`:''}<p>服务期限：${esc(exactContract&&contract.term?contract.term:'未公开／待核实')}</p>${exactContract&&Number.isFinite(contract.amountYuan)?`<p>合同金额：${esc(contract.amountYuan/10000)} 万元</p>`:''}${exactContract&&/^https:\/\//.test(contract.url||'')?`<a class="supplier-contract-link" href="${esc(contract.url)}" target="_blank" rel="noopener noreferrer">合同公告 ↗</a>`:''}</article>`;
+  }).join('')}</div></details>`).join(''):'<p class="org-empty">暂无已核实的供应商项目</p>'}</section>`;
   const timeline=rows.map(row=>{const y=row.date.slice(0,4);const heading=y!==year?`<h3 class="award-year">${y}</h3>`:'';year=y;
    const lots=verifiedAwardLots(row),items=lots.length?lots:[{lotName:row.projectName||'标项名称待核实',suppliers:[]}];
    const contract=(supplement?.contracts||[]).find(c=>c.projectName===row.projectName&&c.buyer===row.buyer&&(!c.awardUrl||c.awardUrl===row.url));
@@ -53,7 +73,7 @@ function awardSupplierTop10(rows){
   const coverage=record?.coverage;
   const notices=(supplement?.notices||[]).filter(n=>/^https:\/\//.test(n.url));
   const noticeMarkup=notices.length?`<section class="customer-tree-section"><h3>其他采购公示</h3>${notices.map(n=>`<div class="award-item"><time>${esc(n.date)}</time><a class="award-lot" href="${esc(n.url)}" target="_blank" rel="noopener noreferrer"><strong>${esc(n.title)} ↗</strong></a><small>${esc(n.stage)} · 公示期 ${esc(n.periodFrom)} 至 ${esc(n.periodTo)}${n.periodTo<shanghaiDate()?' · 已结束':''}<br>预算 ${esc(n.budgetYuan/10000)} 万元 · 拟定供应商：${esc(n.proposedSupplier)}<br>该公示不作为中标结果统计</small></div>`).join('')}</section>`:'';
-  return `${competitors}<p class="award-caption">${rows.length} 条公开结果 · 按结果公告日期倒序</p>${record?.lastCheck?.status==='unavailable'?'<p class="org-unconfirmed">本次读取未完成，保留此前已核实记录。</p>':''}${timeline||'<p class="org-empty">暂无已核实的公开招标结果</p>'}${noticeMarkup}<div class="award-footnote">${coverage?`查询范围：${esc(coverage.from)} 至 ${esc(coverage.to)}<br>来源：上海市政府采购网${coverage.truncated?' · 分页范围内已核实记录':''}`:'历史结果正在补充，仅展示能核实到的公开记录。'}<br>未接入或无法读取的其他渠道不代表没有历史采购。</div>`;
+  return `${competitors}${supplierMarkup}<p class="award-caption">${rows.length} 条公开结果 · 按结果公告日期倒序</p>${record?.lastCheck?.status==='unavailable'?'<p class="org-unconfirmed">本次读取未完成，保留此前已核实记录。</p>':''}${timeline||'<p class="org-empty">暂无已核实的公开招标结果</p>'}${noticeMarkup}<div class="award-footnote">${coverage?`查询范围：${esc(coverage.from)} 至 ${esc(coverage.to)}<br>来源：上海市政府采购网${coverage.truncated?' · 分页范围内已核实记录':''}`:'历史结果正在补充，仅展示能核实到的公开记录。'}<br>未接入或无法读取的其他渠道不代表没有历史采购。</div>`;
  };
  function render(){overlay.querySelector('#award-title').textContent=new DOMParser().parseFromString(selected[0],'text/html').body.textContent;overlay.querySelector('.award-content').innerHTML=window.customerAwardMarkup(selected);}
  function close(){overlay.classList.remove('is-open');document.body.classList.remove('org-open');clearTimeout(timer);timer=setTimeout(()=>overlay.hidden=true,260);if(trigger?.isConnected)trigger.focus();}
