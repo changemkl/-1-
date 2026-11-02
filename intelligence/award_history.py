@@ -28,12 +28,12 @@ def result_row(row,name,today):
     url=BASE+'/site/detail?'+urllib.parse.urlencode({'parentId':row['parentId'],'articleId':row['articleId']})
     return {'title':title,'date':date.isoformat(),'buyer':buyer,'url':url,'source':'上海市政府采购网','dateLabel':'结果公告日期'}
 
-def collect(name,policy,now):
+def collect(name,policy,now,page_limit=4):
     begin=now.date()-datetime.timedelta(days=1095);results=[];truncated=False
     payload={'keyword':name,'firstCode':'ZcyAnnouncement','secondCode':'ZcyAnnouncement4','districtCode':[],
              'publishDateBegin':int(datetime.datetime.combine(begin,datetime.time.min,CHINA).timestamp()*1000),
              'publishDateEnd':int(now.timestamp()*1000),'pageSize':15,'isTitleSearch':0,'order':'desc','leaf':0}
-    for page in range(1,5):
+    for page in range(1,page_limit+1):
         payload['pageNo']=page;data=request_json('/portal/all',policy,payload)
         rows=data.get('data',[])
         for row in rows:
@@ -41,7 +41,7 @@ def collect(name,policy,now):
             if item and item['date']>=begin.isoformat():results.append(item)
         more=len(rows)>=15 and page*15<data.get('total',0)
         if not more:break
-        if page==4:truncated=True
+        if page==page_limit:truncated=True
         else:time.sleep(1)
     return results,{'from':begin.isoformat(),'to':now.date().isoformat(),'source':BASE,'truncated':truncated}
 
@@ -138,6 +138,8 @@ def main():
     active=registry(json.loads(Path('public/tencent-data.json').read_text())['rows'],allow_empty=True)
     prior=read_json(OUTPUT,{'customers':[]});records={r['id']:r for r in prior['customers']}
     now=datetime.datetime.now(CHINA);stamp=now.isoformat(timespec='seconds')
+    from customer_system import effective_sources
+    source_settings={s['customer_id']:s for s in effective_sources(active)}
     policy=None;policy_error=None
     try:policy=portal_policy()
     except Exception as exc:policy_error=str(exc)
@@ -148,7 +150,7 @@ def main():
         if not record or record['name']!=name:record={'id':identifier,'name':name,'results':[]}
         try:
             if policy_error:raise PermissionError(policy_error)
-            rows,coverage=collect(name,policy,now)
+            rows,coverage=collect(name,policy,now,page_limit=max(1,min(8,int(source_settings.get(identifier,{}).get('history_page_limit',4)))))
             combined={r['url']:r for r in record['results'] if r.get('date','')>=coverage['from']}
             combined.update({r['url']:{**combined.get(r['url'],{}),**r} for r in rows})
             record.update(results=sorted(combined.values(),key=lambda r:r['date'],reverse=True)[:200],coverage=coverage,lastCheck={'at':stamp,'status':'ok'})

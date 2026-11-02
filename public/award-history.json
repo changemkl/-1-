@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-02T14:57:46+08:00",
+  "updatedAt": "2026-11-02T06:59:38.148978+00:00",
   "customers": [
     {
       "id": "2100303078",
@@ -4982,15 +4982,112 @@
     {
       "id": "name:上海市房地产交易中心",
       "name": "上海市房地产交易中心",
-      "results": [],
+      "results": [
+        {
+          "title": "房地产交易与产权管理平台（2025升级改造）的中标（成交）结果公告",
+          "date": "2026-01-09",
+          "buyer": "上海市房地产交易中心",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=OHsKII6GDPu1bpzU6dbrXA%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期",
+          "projectName": "房地产交易与产权管理平台（2025升级改造）",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "应用软件",
+              "suppliers": [
+                "上海南康科技有限公司"
+              ],
+              "quote": "标项名称：应用软件；中标供应商名称：上海南康科技有限公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-11-02T14:56:11+08:00",
+            "status": "ok"
+          }
+        },
+        {
+          "title": "新开工楼盘预搭测绘项目的中标（成交）结果公告",
+          "date": "2024-02-21",
+          "buyer": "上海市房地产交易中心",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=DQ5DEVrTXU1ZcDsGwAUOmw%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期",
+          "projectName": "新开工楼盘预搭测绘项目",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "新开工楼盘预搭测绘项目",
+              "suppliers": [
+                "上海市房地产市场有限公司"
+              ],
+              "quote": "标项名称：新开工楼盘预搭测绘项目；中标供应商名称：上海市房地产市场有限公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-11-02T14:56:11+08:00",
+            "status": "ok"
+          }
+        },
+        {
+          "title": "网上一二手房管理的中标（成交）结果公告",
+          "date": "2024-02-20",
+          "buyer": "上海市房地产交易中心",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=uEK0PF6jLR8NUnaaVcrJxA%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期",
+          "projectName": "网上一二手房管理",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "网上一二手房管理",
+              "suppliers": [
+                "上海网上房地产投资管理有限公司"
+              ],
+              "quote": "标项名称：网上一二手房管理；中标供应商名称：上海网上房地产投资管理有限公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-11-02T14:56:11+08:00",
+            "status": "ok"
+          }
+        },
+        {
+          "title": "房屋建设监测的中标（成交）结果公告",
+          "date": "2024-02-20",
+          "buyer": "上海市房地产交易中心",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=qwubrCRMyE5x%2FKTOeDvb3A%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期",
+          "projectName": "房屋建设监测",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "房地产市场基础监测",
+              "suppliers": [
+                "上海市房地产市场有限公司"
+              ],
+              "quote": "标项名称：房地产市场基础监测；中标供应商名称：上海市房地产市场有限公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-11-02T14:56:11+08:00",
+            "status": "ok"
+          }
+        }
+      ],
       "coverage": {
         "from": "2023-11-03",
         "to": "2026-11-02",
         "source": "https://www.zfcg.sh.gov.cn",
-        "truncated": true
+        "truncated": false
       },
       "lastCheck": {
-        "at": "2026-11-02T14:30:38+08:00",
+        "at": "2026-11-02T14:56:11+08:00",
         "status": "ok"
       }
     }

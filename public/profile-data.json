@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-02T06:57:53.950347+00:00",
+  "updatedAt": "2026-11-02T06:59:38.159028+00:00",
   "profiles": [
     {
       "id": "2100000172",
@@ -4771,6 +4771,21 @@
           "documents_found": 2,
           "label": "上海市政府采购网",
           "url": "https://www.zfcg.sh.gov.cn"
+        },
+        {
+          "label": "中国政府采购网·交易中心检索",
+          "url": "https://search.ccgp.gov.cn/bxsearch?searchtype=1&page_index=1&bidSort=0&buyerName=%E4%B8%8A%E6%B5%B7%E5%B8%82%E6%88%BF%E5%9C%B0%E4%BA%A7%E4%BA%A4%E6%98%93%E4%B8%AD%E5%BF%83&timeType=6&dbselect=bidx&kw=%E4%B8%8A%E6%B5%B7%E5%B8%82%E6%88%BF%E5%9C%B0%E4%BA%A7%E4%BA%A4%E6%98%93%E4%B8%AD%E5%BF%83",
+          "finished_at": "2026-11-02T06:57:53.310373+00:00",
+          "status": "blocked",
+          "documents_found": 0,
+          "error": "公开检索页返回访问过于频繁，本轮未能完成读取。"
+        },
+        {
+          "label": "上海市住建委·公示公告",
+          "url": "https://zjw.sh.gov.cn/gsgg/index.html",
+          "finished_at": "2026-11-02T06:57:53.310373+00:00",
+          "status": "success",
+          "documents_found": 0
         }
       ],
       "lastRun": {

@@ -481,6 +481,57 @@
       "government_procurement": false,
       "verified_by": "https://www.gzw.sh.gov.cn/shgzw_zxzx_gqdt/20260509/aa489808c6e247709b027c8f7b0ede9d.html",
       "verification_note": "来源为市国资委明确提及该企业的公开报道；不将国资委领导、机构认定为企业人员和部门。"
+    },
+    {
+      "customer_id": "name:上海市房地产交易中心",
+      "url": "https://zjw.sh.gov.cn/gsgg/index.html",
+      "hosts": [
+        "zjw.sh.gov.cn",
+        "www.ccgp.gov.cn",
+        "search.ccgp.gov.cn"
+      ],
+      "enabled": true,
+      "official": true,
+      "dedicated": false,
+      "aliases": [
+        "上海市房地产交易中心"
+      ],
+      "buyer_aliases": [
+        "上海市房地产交易中心"
+      ],
+      "discover_profiles": false,
+      "discover_leaders": false,
+      "government_procurement": true,
+      "max_articles": 4,
+      "max_list_pages": 2,
+      "time_budget": 40,
+      "history_page_limit": 8,
+      "verified_by": "https://zjw.sh.gov.cn/zsdw/20180911/0011-2825.html",
+      "verification_note": "交易中心为住建委官网列示直属单位；此处为采购监测来源，不将住建委本部、区级交易中心的项目或人员归入市房地产交易中心。",
+      "procurement_sources": [
+        {
+          "label": "中国政府采购网·交易中心检索",
+          "kind": "html",
+          "url": "https://search.ccgp.gov.cn/bxsearch?searchtype=1&page_index=1&bidSort=0&buyerName=%E4%B8%8A%E6%B5%B7%E5%B8%82%E6%88%BF%E5%9C%B0%E4%BA%A7%E4%BA%A4%E6%98%93%E4%B8%AD%E5%BF%83&timeType=6&dbselect=bidx&kw=%E4%B8%8A%E6%B5%B7%E5%B8%82%E6%88%BF%E5%9C%B0%E4%BA%A7%E4%BA%A4%E6%98%93%E4%B8%AD%E5%BF%83",
+          "hosts": [
+            "search.ccgp.gov.cn",
+            "www.ccgp.gov.cn"
+          ],
+          "is_listing": true,
+          "time_budget": 30
+        },
+        {
+          "label": "上海市住建委·公示公告",
+          "kind": "html",
+          "url": "https://zjw.sh.gov.cn/gsgg/index.html",
+          "hosts": [
+            "zjw.sh.gov.cn"
+          ],
+          "is_listing": true,
+          "time_budget": 40,
+          "verified_by": "https://zjw.sh.gov.cn/gsgg/index.html"
+        }
+      ]
     }
   ]
 }
