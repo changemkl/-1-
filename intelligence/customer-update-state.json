@@ -99,7 +99,8 @@
               "updatedAt": "2026-10-29T14:03:23+08:00"
             }
           }
-        }
+        },
+        "商机进展": {}
       }
     },
     "2100153629": {
@@ -114,7 +115,7 @@
         "合同信息": "6cf76cc0a4d4cf6fa136f7aa7e7f453ea905870660a61d792b698cc73d4f2cef",
         "政策与建设方向": "6cf76cc0a4d4cf6fa136f7aa7e7f453ea905870660a61d792b698cc73d4f2cef",
         "工作日志": "4fc88c2d56f9375757fb784e44f07ee84435ab4ec7681d08aa7c424f5f00bfe6",
-        "商机进展": "9b8bcb14fea4dc02063debd0f662bef2e087864513dcb4f97601ed4f1b74aec0",
+        "商机进展": "27d6581f0094811cbcf12aebfc9bc20687b2c37413084d38519401ed08b09940",
         "产品与场景": "5525b44441576e0bd057cb4ce592a3c91fd673eadec321351b692bc374cab303",
         "生态伙伴": "adfe6f8759dc89ddc9e6061b8863a62d2993ead41abdff501e722440aa8300a4",
         "客户基本信息": "85db9abead136b892a2c468ce39dfc397fe4cb2f3697f3862bf4288064e24743"
@@ -1057,7 +1058,7 @@
         },
         "商机进展": {
           "dongfeng-worklogs:dfproject:fa3ce348f5f1e9636696": {
-            "hash": "95229f585f73f701d032170c8173a78e1b7aa465b7aa74ff5be5ad0c0522d3a4",
+            "hash": "f4ba21524d273b4e26d485001edf069319298cb40a0e7b6fcb3e0ad18f27f14b",
             "data": {
               "id": "dfproject:fa3ce348f5f1e9636696",
               "aliasIds": [],
@@ -1076,11 +1077,12 @@
               "names": [
                 "公安三所人工智能算力中心项目"
               ],
-              "updatedAt": "2026-11-01T13:22:19.673Z"
+              "updatedAt": "2026-11-01T13:22:19.673Z",
+              "latestProgress": "1、对接AI业务部沟通，关于token运营准备材料，为下次约访做准备；\n2、因发改无需对本项目做批复，客户内部计划针对可研和运营方案做内部汇报评审，形式待确认"
             }
           },
           "dongfeng-worklogs:dfproject:606f962792fa3b30961a": {
-            "hash": "a521dd62a2eead909ed8ebcb4750a78db410d16275c3627ccbb824ab53203592",
+            "hash": "d728a1224a4119b6fa9ed93c7f9df22f1225dd75b550b5a095c59fd9a6b6c18b",
             "data": {
               "id": "dfproject:606f962792fa3b30961a",
               "aliasIds": [],
@@ -1099,7 +1101,8 @@
               "names": [
                 "公安三所视频加密项目"
               ],
-              "updatedAt": "2026-10-21T07:40:30.839Z"
+              "updatedAt": "2026-10-21T07:40:30.839Z",
+              "latestProgress": "移动引导，沟通客户，希望走项目包直签，但是目前暂不确定能否申请项目"
             }
           }
         }
@@ -1117,7 +1120,7 @@
         "合同信息": "6cf76cc0a4d4cf6fa136f7aa7e7f453ea905870660a61d792b698cc73d4f2cef",
         "政策与建设方向": "6cf76cc0a4d4cf6fa136f7aa7e7f453ea905870660a61d792b698cc73d4f2cef",
         "工作日志": "6cafe8daf39fa25c4bb5c586d0c3cb49776d2841a67ac6b6fb5d90b8ee438cca",
-        "商机进展": "4ec5f18c8d34183906281f06ccf270a465afc7bdc5529e5e10fb30db571bfb6b",
+        "商机进展": "6d505f3de36912000d661f32abde9decc88283a6305b57c2e7e474783165321b",
         "产品与场景": "5525b44441576e0bd057cb4ce592a3c91fd673eadec321351b692bc374cab303",
         "生态伙伴": "adfe6f8759dc89ddc9e6061b8863a62d2993ead41abdff501e722440aa8300a4",
         "客户基本信息": "33bbcfc8ec3a7d4fca06bedc9ded9c7a9f808f621d036ea66e6cce66783807db"
@@ -1411,7 +1414,7 @@
         },
         "商机进展": {
           "dongfeng-worklogs:dfproject:bd1a3621c7764f32f833": {
-            "hash": "e25d470c1067f881d9976dda7e481606e5b25cdbffc7f760bc0d354c88ed744a",
+            "hash": "065513c7e7d18f6d024065fa9cda8bd2b9b9faddd8350e2b6ee66d35fefd23fe",
             "data": {
               "id": "dfproject:bd1a3621c7764f32f833",
               "aliasIds": [],
@@ -1430,7 +1433,8 @@
               "names": [
                 "中浦院校园二期建设配套工程"
               ],
-              "updatedAt": "2026-09-15T09:09:05.435Z"
+              "updatedAt": "2026-09-15T09:09:05.435Z",
+              "latestProgress": "准备安全产品报价，沟通相关内容"
             }
           }
         }
@@ -1448,7 +1452,7 @@
         "合同信息": "6cf76cc0a4d4cf6fa136f7aa7e7f453ea905870660a61d792b698cc73d4f2cef",
         "政策与建设方向": "6cf76cc0a4d4cf6fa136f7aa7e7f453ea905870660a61d792b698cc73d4f2cef",
         "工作日志": "743057079dd050d17a0b15118bd05b558fa64ab81af3073b9d87e37afd0b90e4",
-        "商机进展": "588ee2f14719e45f7e6ba0e4a31d41561c4145c63eaaa1df86d8693b26f07e48",
+        "商机进展": "36c5543505e6efd6b3533fcbd1415991cbd06d53939b49f2c363112de2e515db",
         "产品与场景": "5525b44441576e0bd057cb4ce592a3c91fd673eadec321351b692bc374cab303",
         "生态伙伴": "adfe6f8759dc89ddc9e6061b8863a62d2993ead41abdff501e722440aa8300a4",
         "客户基本信息": "fb3bf4a68ebc32927d0b346e8092ede9d996724361084bdc8c35e88f957f6f39"
@@ -1840,7 +1844,7 @@
         },
         "商机进展": {
           "dongfeng-worklogs:dfproject:0e9fbd5f4b36e2eafc4f": {
-            "hash": "f95e1f28607544c37e62ae6eda780cc843a660fb2a90fcd371cc99aa88fb3e8e",
+            "hash": "b7ff838688bd53fde1d0e51db4fee2ffe3f000bf891b601a91a56dddcb5cc15c",
             "data": {
               "id": "dfproject:0e9fbd5f4b36e2eafc4f",
               "aliasIds": [],
@@ -1859,11 +1863,12 @@
               "names": [
                 "东方枢纽上海东站站前区A3-01地块新建工程弱电工程"
               ],
-              "updatedAt": "2026-09-14T09:51:58.219Z"
+              "updatedAt": "2026-09-14T09:51:58.219Z",
+              "latestProgress": "今天客户经理去现场拜访客户，目前这个项目，我方机会不大"
             }
           },
           "dongfeng-worklogs:dfproject:60c9468cf60963d72821": {
-            "hash": "4432a5222c22d3aec1bdc8031daa95cd4b75345393aff5dcab79c61e94eb5a88",
+            "hash": "7af3068848e291ad7e995037a1b5c2d1f2c8558af39a55888912b9187d9db4d8",
             "data": {
               "id": "dfproject:60c9468cf60963d72821",
               "aliasIds": [],
@@ -1882,7 +1887,8 @@
               "names": [
                 "城市运维数字化项目"
               ],
-              "updatedAt": "2026-10-08T07:08:01.350Z"
+              "updatedAt": "2026-10-08T07:08:01.350Z",
+              "latestProgress": "节前又协调到专家进行了调试，有了进步，可能还有机会"
             }
           }
         }
@@ -1968,7 +1974,8 @@
               "updatedAt": "2026-10-29T14:03:23+08:00"
             }
           }
-        }
+        },
+        "商机进展": {}
       }
     },
     "2108019729": {
@@ -2049,7 +2056,8 @@
               "updatedAt": "2026-10-29T14:03:23+08:00"
             }
           }
-        }
+        },
+        "商机进展": {}
       }
     },
     "2102351543": {
@@ -2088,7 +2096,8 @@
               "updatedAt": "2026-10-29T14:03:23+08:00"
             }
           }
-        }
+        },
+        "商机进展": {}
       }
     },
     "2102315260": {
@@ -2183,7 +2192,8 @@
               "updatedAt": "2026-10-29T14:03:23+08:00"
             }
           }
-        }
+        },
+        "商机进展": {}
       }
     },
     "2100000260": {
@@ -2198,7 +2208,7 @@
         "合同信息": "43865dde3eec74ae0f33087cd9283a543474964d7d17792508c445bdc7cd583a",
         "政策与建设方向": "96ad9499cdbd8d32753e45fc41a8585e6f093dc3d62bc3160f3700ccd1b604d7",
         "工作日志": "7311b09b54e376cc4d33e02a5d09ceaef3c1fc4d0fd5db592320ad6442c8f3ea",
-        "商机进展": "cb6b49f7e26f96a14d070f3b8569f741a552dc1a31998169dc5b52bb3306b31a",
+        "商机进展": "e620eae4bf5bb1a454512d9f91bc7acae10679d49af0bbd40e04107f08e9e638",
         "产品与场景": "5525b44441576e0bd057cb4ce592a3c91fd673eadec321351b692bc374cab303",
         "生态伙伴": "adfe6f8759dc89ddc9e6061b8863a62d2993ead41abdff501e722440aa8300a4",
         "客户基本信息": "4f3bb1296a15ada2fac0d05442cf8f501339991406d5b293a54d6edcb714d022"
@@ -14109,7 +14119,7 @@
         },
         "商机进展": {
           "dongfeng-worklogs:dfproject:70df34fa9162eeec8afb": {
-            "hash": "92173b5f49ce796bf71d3f09ce19efde9b5f7052ae44704bf0ccde4e31c94085",
+            "hash": "764e79116141af88ae3d0f727b496e45b965961cf47e50899cfac4183d9d023a",
             "data": {
               "id": "dfproject:70df34fa9162eeec8afb",
               "aliasIds": [],
@@ -14128,11 +14138,12 @@
               "names": [
                 "上海交通治堵大模型外场卡口设备补点项目"
               ],
-              "updatedAt": "2026-11-02T13:07:15.769Z"
+              "updatedAt": "2026-11-02T13:07:15.769Z",
+              "latestProgress": "商机已录入，等待后续协同推进。"
             }
           },
           "dongfeng-worklogs:dfproject:3f3750bed8acb404e3ec": {
-            "hash": "009abee4d7e8d3e4ddde10d40148d369bf356f63357c13b030b2454cc81af84b",
+            "hash": "eb83b4d6f58bcc14189360500f43f9d7789112d11fa4098a2af74414fc6f3bd3",
             "data": {
               "id": "dfproject:3f3750bed8acb404e3ec",
               "aliasIds": [],
@@ -14151,11 +14162,12 @@
               "names": [
                 "图像监控系统前端设备及基础设施运维"
               ],
-              "updatedAt": "2026-11-02T10:52:15.426Z"
+              "updatedAt": "2026-11-02T10:52:15.426Z",
+              "latestProgress": "投标文件编写"
             }
           },
           "dongfeng-worklogs:dfproject:765836965dbf61a990c3": {
-            "hash": "6eb78f67c58a4fa16cff8183bc0ba2462484bb93a165d4dbc4547280c039b362",
+            "hash": "6bb7a73df1115da6164b8604879d8158b03a5ba0c3d1d5b407c5988b982a4e70",
             "data": {
               "id": "dfproject:765836965dbf61a990c3",
               "aliasIds": [],
@@ -14174,11 +14186,12 @@
               "names": [
                 "图像监控系统运维及应急任务"
               ],
-              "updatedAt": "2026-10-27T03:42:19.063Z"
+              "updatedAt": "2026-10-27T03:42:19.063Z",
+              "latestProgress": "11月8日投标，跟进成本评估、标书制作。"
             }
           },
           "dongfeng-worklogs:dfproject:c7479a8ee38d25dee6b5": {
-            "hash": "3b347c523bbde8185b26573250d5dc5a5c987475370bf04ff1c48b6ef657e31c",
+            "hash": "92d266e4dd7c9befecde81482c2a866c634e4097d5e41982f40997309c812c48",
             "data": {
               "id": "dfproject:c7479a8ee38d25dee6b5",
               "aliasIds": [],
@@ -14197,11 +14210,12 @@
               "names": [
                 "青浦雪亮工程视频监控增补项目"
               ],
-              "updatedAt": "2026-11-02T08:56:23.791Z"
+              "updatedAt": "2026-11-02T08:56:23.791Z",
+              "latestProgress": "1、青浦十三五雪亮增补项目：\na)点位查勘：今日完成全量344点位，预计中移信息5号前完成汇总；\nb)方案编制：按照领导要求及修改建议，更新一版高拜的合作建议，同时重新调整原先的顶设方案为合作建议的附件，并调整其中的内容，尽可能贴合合作建议。"
             }
           },
           "dongfeng-worklogs:dfproject:a088984e837f8942f6a3": {
-            "hash": "34656bf8ff856917497754035f4ec8e668c8090e35a14f84dff965a7bd8b6f29",
+            "hash": "8041dcb421199cfe07fa64eb256434b416a480e928434b1bc31e43aca75a1182",
             "data": {
               "id": "dfproject:a088984e837f8942f6a3",
               "aliasIds": [],
@@ -14220,11 +14234,12 @@
               "names": [
                 "雪亮工程三期"
               ],
-              "updatedAt": "2026-10-19T01:13:59.873Z"
+              "updatedAt": "2026-10-19T01:13:59.873Z",
+              "latestProgress": "线索已录入，等待后续协同推进。"
             }
           },
           "dongfeng-worklogs:dfproject:68bce35ee1eac0256891": {
-            "hash": "e5cd699f6d85c5ec95e9183c469105f4a925e1db828e4aaf10f36b917061f435",
+            "hash": "9760e7d64f1d7fc16c4c4e2a02602b806d47e99d41752df490bf02a277216dd0",
             "data": {
               "id": "dfproject:68bce35ee1eac0256891",
               "aliasIds": [],
@@ -14243,11 +14258,12 @@
               "names": [
                 "图像监控系统前端设备及基础设施运维"
               ],
-              "updatedAt": "2026-10-19T01:11:42.708Z"
+              "updatedAt": "2026-10-19T01:11:42.708Z",
+              "latestProgress": "线索已录入，等待后续协同推进。"
             }
           },
           "dongfeng-worklogs:dfproject:4ee7cb93b2fcab0a400c": {
-            "hash": "b4ab77d7e2e81a3319fb4c0db232dc0b49153e0431fe3c7cce7e11103a0050c7",
+            "hash": "a716f5867a610cedbfaf6f1634a23fd3ffaa89f0514117a0b5dd48e13811ab95",
             "data": {
               "id": "dfproject:4ee7cb93b2fcab0a400c",
               "aliasIds": [],
@@ -14266,11 +14282,12 @@
               "names": [
                 "十三五期间图像监控系统（雪亮工程）中心端设备维护"
               ],
-              "updatedAt": "2026-10-19T01:09:31.782Z"
+              "updatedAt": "2026-10-19T01:09:31.782Z",
+              "latestProgress": "线索已录入，等待后续协同推进。"
             }
           },
           "dongfeng-worklogs:dfproject:aea0f2c5823b750a2f96": {
-            "hash": "80c043656257cfa2f78cd5c31cd8f230661aa442e25bfe274b899b4879ce749b",
+            "hash": "e51d44c0135d95310ccc92de5f43ebfaeac87dfc8cd0624b6e61601753df128f",
             "data": {
               "id": "dfproject:aea0f2c5823b750a2f96",
               "aliasIds": [],
@@ -14289,11 +14306,12 @@
               "names": [
                 "嘉定公安监控、光缆及数据中心运维项目"
               ],
-              "updatedAt": "2026-10-18T15:22:25.586Z"
+              "updatedAt": "2026-10-18T15:22:25.586Z",
+              "latestProgress": "线索已录入，等待后续协同推进。"
             }
           },
           "dongfeng-worklogs:dfproject:11d3958045b8abe503da": {
-            "hash": "6385f1aebdc3b8c3f0522eda865a24b491849792627bba13baa78c4b42bf5579",
+            "hash": "e8a786ced165e00adc79fa8145d6cbce2b57320a9e779d51d4e7956f5f8fd0c2",
             "data": {
               "id": "dfproject:11d3958045b8abe503da",
               "aliasIds": [],
@@ -14312,11 +14330,12 @@
               "names": [
                 "松江公安监控补盲"
               ],
-              "updatedAt": "2026-11-02T07:40:00.061Z"
+              "updatedAt": "2026-11-02T07:40:00.061Z",
+              "latestProgress": "商机已录入，等待后续协同推进。"
             }
           },
           "dongfeng-worklogs:dfproject:79aa510c2c30cd0846a4": {
-            "hash": "75d53db7e8bab01ceae5d21c256c1ef14f6b68dcd18d612c7622d41f5923826a",
+            "hash": "80d6f8ed20d86662fc5823f7bd7f5c753fa386f392949b78437a28eac0afb01c",
             "data": {
               "id": "dfproject:79aa510c2c30cd0846a4",
               "aliasIds": [],
@@ -14335,11 +14354,12 @@
               "names": [
                 "视频监控系统对接调试服务"
               ],
-              "updatedAt": "2026-10-21T07:40:29.200Z"
+              "updatedAt": "2026-10-21T07:40:29.200Z",
+              "latestProgress": "商机已录入，等待后续协同推进。"
             }
           },
           "dongfeng-worklogs:dfproject:b1d0a71c9940502ba4e1": {
-            "hash": "6bb267564074eda0b4dfa7bfe2e54310623858b52e9878f4b4ac6d7bbd85e433",
+            "hash": "96a49c5344dd478adfbfe6c2db1738c696843f4a0abad470646db44c35ed6cfd",
             "data": {
               "id": "dfproject:b1d0a71c9940502ba4e1",
               "aliasIds": [],
@@ -14358,11 +14378,12 @@
               "names": [
                 "香花桥各个街道道路、24个汇聚点及图像监控中心的内场设备的维修、维护、保养工作等"
               ],
-              "updatedAt": "2026-10-21T07:40:28.187Z"
+              "updatedAt": "2026-10-21T07:40:28.187Z",
+              "latestProgress": "商机已录入，等待后续协同推进。"
             }
           },
           "dongfeng-worklogs:dfproject:2f667b4d3840575f592e": {
-            "hash": "c4d34f8b6b339c530e2fd1d2e7b2e1d0396dd7702fc4e4ae137fb5eda2d832ec",
+            "hash": "43f19ccdb9125e5121f20d63e25b0841bcb4e13138b996ace833734bc0d2c983",
             "data": {
               "id": "dfproject:2f667b4d3840575f592e",
               "aliasIds": [],
@@ -14381,11 +14402,12 @@
               "names": [
                 "2025年度徐泾镇“雪亮工程”视频监控系统租赁服务项目"
               ],
-              "updatedAt": "2026-10-21T07:40:28.579Z"
+              "updatedAt": "2026-10-21T07:40:28.579Z",
+              "latestProgress": "线索已录入，等待后续协同推进。"
             }
           },
           "dongfeng-worklogs:dfproject:e8f57033167fb2d911a5": {
-            "hash": "ba1ac9671d7c18bacf553734989f0bb59a8bb6b282d3e1ecce3b60683ec7ce88",
+            "hash": "c9fbf440b4a1d817c83c7668d5288b4cc4f6da0dd5f2913407dd36f3148d288c",
             "data": {
               "id": "dfproject:e8f57033167fb2d911a5",
               "aliasIds": [],
@@ -14404,11 +14426,12 @@
               "names": [
                 "上海市公安局农场分局规划项目"
               ],
-              "updatedAt": "2026-10-23T08:09:26.112Z"
+              "updatedAt": "2026-10-23T08:09:26.112Z",
+              "latestProgress": "华信设计院反馈点位勘测和设计的报价预算，同时要求确定合同才能启动勘测工作，与战客融合BU同步研判成本费用出处。"
             }
           },
           "dongfeng-worklogs:dfproject:9318a38d73b68888b8f7": {
-            "hash": "641b78796d3e7bb98609523edc8c218594375b37eddaee776307ce9d1bc45afa",
+            "hash": "34d0908a988e2c654abc77c5a7fde4f4a7d86345bf6302f794108b9c1d645c6e",
             "data": {
               "id": "dfproject:9318a38d73b68888b8f7",
               "aliasIds": [],
@@ -14429,11 +14452,12 @@
               "names": [
                 "公安局宣传片制作项目线索"
               ],
-              "updatedAt": "2026-10-14T10:10:59.154Z"
+              "updatedAt": "2026-10-14T10:10:59.154Z",
+              "latestProgress": "已由线索转为商机，进入金额、预算与支撑协同管理。"
             }
           },
           "dongfeng-worklogs:dfproject:843f88cef7d42a822ba6": {
-            "hash": "c07881854d155956efb22e4346d292ac5dac76b77674b84376db6134f27a91a2",
+            "hash": "bc450170b5706b3a6269999b827a382b3dd09be3c277c428ffb4921f02dcf564",
             "data": {
               "id": "dfproject:843f88cef7d42a822ba6",
               "aliasIds": [],
@@ -14452,11 +14476,12 @@
               "names": [
                 "已建智能交通系统养护通信及硬件维护费"
               ],
-              "updatedAt": "2026-10-22T11:40:51.898Z"
+              "updatedAt": "2026-10-22T11:40:51.898Z",
+              "latestProgress": "完成开标"
             }
           },
           "dongfeng-worklogs:dfproject:3f8d9283c141bf209d0a": {
-            "hash": "38c711459e216225631b042d5cb551504aa60a82a272184b21b34b00812ce5b0",
+            "hash": "f77716bec5e5bda2f625de5bf7dc6c73e2999ace925e60cc1a90f95098686a3f",
             "data": {
               "id": "dfproject:3f8d9283c141bf209d0a",
               "aliasIds": [],
@@ -14475,11 +14500,12 @@
               "names": [
                 "已建智能交通系统养护电子警察运维采购项目"
               ],
-              "updatedAt": "2026-10-23T08:12:24.849Z"
+              "updatedAt": "2026-10-23T08:12:24.849Z",
+              "latestProgress": "完成开标"
             }
           },
           "dongfeng-worklogs:dfproject:377ef770f61d578b0db9": {
-            "hash": "74d6c918c6c26c742ff3778199f1145d20ce36846f19a5a8401b39d618dd593e",
+            "hash": "4d05ae0d36f64e4c19c606f44ad257204cab7976039da4e86b2436eea4428530",
             "data": {
               "id": "dfproject:377ef770f61d578b0db9",
               "aliasIds": [],
@@ -14498,11 +14524,12 @@
               "names": [
                 "上海市公安局松江分局交通治堵DMX外场硬件设备采购项目"
               ],
-              "updatedAt": "2026-10-14T06:19:17.379Z"
+              "updatedAt": "2026-10-14T06:19:17.379Z",
+              "latestProgress": "找了海康也不配合，移动没让我们公司投标，好像找了铁通"
             }
           },
           "dongfeng-worklogs:dfproject:961b4b3eb2a5499ba82d": {
-            "hash": "194d169fa315ceb5bd70b6617e7d1e9c7cd9146cd3533f71836d430b66ab13bf",
+            "hash": "1e3a29664ba03838c4bfc48b5652168eac8f5a7d61bfd5cb5193c775f7637076",
             "data": {
               "id": "dfproject:961b4b3eb2a5499ba82d",
               "aliasIds": [],
@@ -14521,11 +14548,12 @@
               "names": [
                 "崇明公安局XC改造项目"
               ],
-              "updatedAt": "2026-10-14T03:19:08.045Z"
+              "updatedAt": "2026-10-14T03:19:08.045Z",
+              "latestProgress": "崇明移动反馈崇明公安有XC改造的需求，主要涉及服务器、操作系统、数据库，预计规模900万，目前联系产品事业部专家张兵欣提供了包括脱敏案例的材料并进行了传递"
             }
           },
           "dongfeng-worklogs:dfproject:df7ec676e6579cbfb1eb": {
-            "hash": "dff0910dd37a373f36fb9a37afc6c4b34c96b2c554c6de8c96ede1d0bd9e4f39",
+            "hash": "06898ec670c4691fcd08d19e35ad95b518e2485ffc7c7858f3f6c87bd7d7956d",
             "data": {
               "id": "dfproject:df7ec676e6579cbfb1eb",
               "aliasIds": [],
@@ -14544,11 +14572,12 @@
               "names": [
                 "2026年度桂江路办公楼弱电系统建设项目"
               ],
-              "updatedAt": "2026-10-14T03:17:34.233Z"
+              "updatedAt": "2026-10-14T03:17:34.233Z",
+              "latestProgress": "与客户沟通讨论专线报价"
             }
           },
           "dongfeng-worklogs:dfproject:b2bf83fb131d1ea1191e": {
-            "hash": "622e1221889a975d5999193046722d553ace03d49593591ab002f73581b86cb1",
+            "hash": "24f716490cdec2fffa702334274c65feec3893f398680fd9530bd2011f539231",
             "data": {
               "id": "dfproject:b2bf83fb131d1ea1191e",
               "aliasIds": [],
@@ -14567,11 +14596,12 @@
               "names": [
                 "虹口区街面和小区高清智能图像服务项目（二期）"
               ],
-              "updatedAt": "2026-09-09T01:27:54.036Z"
+              "updatedAt": "2026-09-09T01:27:54.036Z",
+              "latestProgress": "获取商机，拉动融合团队"
             }
           },
           "dongfeng-worklogs:dfproject:fe106ac441acc2da4a7d": {
-            "hash": "d137204e636a3c697c306063d26646c1f3e95eb56f87253abee27df83c83ae25",
+            "hash": "36c75e498b2e6b144469ff20660613547c5b21070c2e551d8fe92ccd421ca3dd",
             "data": {
               "id": "dfproject:fe106ac441acc2da4a7d",
               "aliasIds": [],
@@ -14590,11 +14620,12 @@
               "names": [
                 "虹口区街面和小区高清智能图像服务项目（一期）"
               ],
-              "updatedAt": "2026-09-08T08:56:16.295Z"
+              "updatedAt": "2026-09-08T08:56:16.295Z",
+              "latestProgress": "商机已录入，等待后续协同推进。"
             }
           },
           "dongfeng-worklogs:dfproject:dbc18769ed515524b173": {
-            "hash": "75e75e647fab243d8c16d6139e217dbab30624fe90958fcdb76b4ba166c7260b",
+            "hash": "b08dab76af224300f159c35e5e32f4aac448a6cdfb00dcafbaff17180e89437c",
             "data": {
               "id": "dfproject:dbc18769ed515524b173",
               "aliasIds": [],
@@ -14613,11 +14644,12 @@
               "names": [
                 "分局道路图像监控租赁（三期）服务续租第七年"
               ],
-              "updatedAt": "2026-09-23T07:54:18.142Z"
+              "updatedAt": "2026-09-23T07:54:18.142Z",
+              "latestProgress": "对招标文件交付实施内容进行风险评估"
             }
           },
           "dongfeng-worklogs:dfproject:9a9ef5add98474051da1": {
-            "hash": "b0d16bfb86d8df949ced4bd292c632def447afe1c1ec5ccd61acfda0928e8516",
+            "hash": "884e8aed701bfb6e13f0c7ceb83170e471ac9dd37b8dc3565c4e650fd55e1549",
             "data": {
               "id": "dfproject:9a9ef5add98474051da1",
               "aliasIds": [],
@@ -14636,11 +14668,12 @@
               "names": [
                 "手持式智能警务终端服务费"
               ],
-              "updatedAt": "2026-09-08T07:53:13.090Z"
+              "updatedAt": "2026-09-08T07:53:13.090Z",
+              "latestProgress": "商机已录入，等待后续协同推进。"
             }
           },
           "dongfeng-worklogs:dfproject:330aecec09db83e4e920": {
-            "hash": "d5616e6783da0391b232dfe5fd50d63f35c0da53a2100844031a1e0d7326f3df",
+            "hash": "a122f4566f87f57bc00ca2516dd967362aee6fd6258112eac9f35b943d64c856",
             "data": {
               "id": "dfproject:330aecec09db83e4e920",
               "aliasIds": [],
@@ -14659,11 +14692,12 @@
               "names": [
                 "上海市公安局普陀分局公共安全视频监控建设重点区域增补建设项目"
               ],
-              "updatedAt": "2026-09-28T01:35:16.970Z"
+              "updatedAt": "2026-09-28T01:35:16.970Z",
+              "latestProgress": "目前中移信息支撑中"
             }
           },
           "dongfeng-worklogs:dfproject:2807720371d603717c64": {
-            "hash": "fb1910bfae98bfa8113d16d558281521a77812410b971d9c7dab1d16415dd36d",
+            "hash": "a618769e40aa24a54495a2eda3500e9e8a0cee4009471ad0f063d031ff4be849",
             "data": {
               "id": "dfproject:2807720371d603717c64",
               "aliasIds": [],
@@ -14682,11 +14716,12 @@
               "names": [
                 "上海市公安局数据中心私有云扩容"
               ],
-              "updatedAt": "2026-09-15T07:17:59.918Z"
+              "updatedAt": "2026-09-15T07:17:59.918Z",
+              "latestProgress": "社采意愿已发，预计采购时间10月份"
             }
           },
           "dongfeng-worklogs:dfproject:01655c7421f7795f3460": {
-            "hash": "b69a27955524413817725b55e5e5421564c5f0a1054dd057c844b891aefcd815",
+            "hash": "edf16ead908a6f6afd02ee1494e48991720d2ad69511735137da04dfa4e1105f",
             "data": {
               "id": "dfproject:01655c7421f7795f3460",
               "aliasIds": [],
@@ -14705,11 +14740,12 @@
               "names": [
                 "警务通项目"
               ],
-              "updatedAt": "2026-09-15T07:18:05.489Z"
+              "updatedAt": "2026-09-15T07:18:05.489Z",
+              "latestProgress": "上一轮到期时间2026.10.31，本轮预计在2026年9月招标。"
             }
           },
           "dongfeng-worklogs:dfproject:6a3ae93b1c265f06caff": {
-            "hash": "cb6e5ef23da9065fafd23bb751ebc292ad246f6dbf26a9e3dedc24bcb5cbef4f",
+            "hash": "8330a13f4e736ee663e2c5567e7e0fa6674008d395c6458343cbde9ec73d0d6f",
             "data": {
               "id": "dfproject:6a3ae93b1c265f06caff",
               "aliasIds": [],
@@ -14728,11 +14764,12 @@
               "names": [
                 "上海公安智慧眼镜项目"
               ],
-              "updatedAt": "2026-09-15T07:18:12.500Z"
+              "updatedAt": "2026-09-15T07:18:12.500Z",
+              "latestProgress": "终端类存量项目"
             }
           },
           "dongfeng-worklogs:dfproject:b5212c4468fba445a01c": {
-            "hash": "99e7497272304c53ff00441462b1a135a1bb01d348b8d8cb4bb286325d8852e4",
+            "hash": "f5bd32ba7942d8d77f7fbaa5b74819a37f8a6e95116f8c8890793db6c150d1a5",
             "data": {
               "id": "dfproject:b5212c4468fba445a01c",
               "aliasIds": [],
@@ -14751,11 +14788,12 @@
               "names": [
                 "上海警航无人机项目"
               ],
-              "updatedAt": "2026-09-15T07:18:50.158Z"
+              "updatedAt": "2026-09-15T07:18:50.158Z",
+              "latestProgress": "客户指定生态，平台需求基本明确，近期即将招标，预计340-350万左右，前期移动参与引导工作较多，电信主要参与在投入无人机上。"
             }
           },
           "dongfeng-worklogs:dfproject:2e5b4486160f584242d6": {
-            "hash": "a39a14a7ef63157358209d3e027ef248ca81072202bb26c1d411bb898dd8d3fa",
+            "hash": "f3d23da0eea238554651f9f01869dc78a8234e8e88a6ca3e79190e6b66168e62",
             "data": {
               "id": "dfproject:2e5b4486160f584242d6",
               "aliasIds": [],
@@ -14774,11 +14812,12 @@
               "names": [
                 "青浦区智慧安防社区增补及新建应用项目"
               ],
-              "updatedAt": "2026-10-27T13:35:05.888Z"
+              "updatedAt": "2026-10-27T13:35:05.888Z",
+              "latestProgress": "青浦移动已协同电信，东方有线两次与政法委沟通，最终确定由公安牵头进行推进。"
             }
           },
           "dongfeng-worklogs:dfproject:444fa24d57654780a494": {
-            "hash": "87a1fcb3819e7d1c32c5c4af2eb109e25048d9d1e42e6e1f1e950a8d57ce4367",
+            "hash": "94e687fb11524f42f5e9f200206257841d7150feaa017349181956e911c4f5e6",
             "data": {
               "id": "dfproject:444fa24d57654780a494",
               "aliasIds": [],
@@ -14797,11 +14836,12 @@
               "names": [
                 "青浦“十三五”城市图像监控系统租赁续约项目（雪亮工程）"
               ],
-              "updatedAt": "2026-10-21T07:40:27.885Z"
+              "updatedAt": "2026-10-21T07:40:27.885Z",
+              "latestProgress": "现场勘察和沟通分工。"
             }
           },
           "dongfeng-worklogs:dfproject:5b8848b96f4e84622ebb": {
-            "hash": "9c2ea9b52c15bdba0be089f3e933af651fc708501f3e3e808a81ebeebcd2d0f0",
+            "hash": "21436e8a298c8b362c76e75c492bb5313266c522628ffbf464ca37fa53df6569",
             "data": {
               "id": "dfproject:5b8848b96f4e84622ebb",
               "aliasIds": [],
@@ -14820,11 +14860,12 @@
               "names": [
                 "基于无人机机场的无人机+AI算法综合应用及可视化平台建设项目"
               ],
-              "updatedAt": "2026-10-27T08:33:36.912Z"
+              "updatedAt": "2026-10-27T08:33:36.912Z",
+              "latestProgress": "投标文件定稿、上传。"
             }
           },
           "dongfeng-worklogs:dfproject:80808b990bf50250a018": {
-            "hash": "262da77e3dc340154f74c1b905d4bed253a76a4749ad6253c20617d214381292",
+            "hash": "10260462ca5b8beac2f41a6b73e2fcb09be79419816fa20ccb5df1c8eb856f29",
             "data": {
               "id": "dfproject:80808b990bf50250a018",
               "aliasIds": [],
@@ -14843,11 +14884,12 @@
               "names": [
                 "青浦一网统飞平台"
               ],
-              "updatedAt": "2026-10-30T08:57:59.591Z"
+              "updatedAt": "2026-10-30T08:57:59.591Z",
+              "latestProgress": "平台包件的可研方案正在进行评审，预计今日定稿。"
             }
           },
           "dongfeng-worklogs:dfproject:bac68a6a402c2b00fd7d": {
-            "hash": "99355ee6531f9c1c3260a783e4c65dfa79335fae31d08ee1c71e461d43b8cdb3",
+            "hash": "b1d4c9e990643eb50def9f18110d0ad1e1025e604e29b7254e0494691d5332c4",
             "data": {
               "id": "dfproject:bac68a6a402c2b00fd7d",
               "aliasIds": [],
@@ -14866,11 +14908,12 @@
               "names": [
                 "松江分局行政管理系统-交管业务子系统提供运维服务"
               ],
-              "updatedAt": "2026-09-23T08:54:20.698Z"
+              "updatedAt": "2026-09-23T08:54:20.698Z",
+              "latestProgress": "铁通支撑投标"
             }
           },
           "dongfeng-worklogs:dfproject:0a899f72a2c37da5564b": {
-            "hash": "6720de1826106dc447eaf6548e164a58bd162c56a500e97c94f5f7dd34b708f4",
+            "hash": "f257ef11eab69f7ad89d1ec428f5efb24847d50331923e057352fe08c0dfcbe7",
             "data": {
               "id": "dfproject:0a899f72a2c37da5564b",
               "aliasIds": [],
@@ -14889,11 +14932,12 @@
               "names": [
                 "青浦分局（瞳镜）智能体建设项目"
               ],
-              "updatedAt": "2026-10-21T07:40:29.937Z"
+              "updatedAt": "2026-10-21T07:40:29.937Z",
+              "latestProgress": "暂无进展"
             }
           },
           "dongfeng-worklogs:dfproject:b5df822f1a0e331ee30a": {
-            "hash": "feba02ccf5d31f51c769b79db5499f29caa8e3854b340ad149d80390e233482c",
+            "hash": "c525959eb4250da85f478750864a41c9b7d81af345665e2f4e54fb25e1ed934b",
             "data": {
               "id": "dfproject:b5df822f1a0e331ee30a",
               "aliasIds": [],
@@ -14912,11 +14956,12 @@
               "names": [
                 "宝山高铁城市安全管理配套项目"
               ],
-              "updatedAt": "2026-09-08T08:59:59.154Z"
+              "updatedAt": "2026-09-08T08:59:59.154Z",
+              "latestProgress": "计划9月8日前往奉贤拜访，协同各相关行业BU，制定完整支撑计划"
             }
           },
           "dongfeng-worklogs:dfproject:bc4aa2a7b5dfbb00910c": {
-            "hash": "af8debbc2385a74709e776b78a3c1a966c3465987561664f5723ba36f74e68e7",
+            "hash": "c266845a63af37b6e205354791010f6ee50db91b1871b7ff4b26d850ab01ac4b",
             "data": {
               "id": "dfproject:bc4aa2a7b5dfbb00910c",
               "aliasIds": [],
@@ -14935,11 +14980,12 @@
               "names": [
                 "无人机二期"
               ],
-              "updatedAt": "2026-09-09T01:30:42.470Z"
+              "updatedAt": "2026-09-09T01:30:42.470Z",
+              "latestProgress": "计划9月8日前往奉贤拜访，协同各相关行业BU，制定完整支撑计划"
             }
           },
           "dongfeng-worklogs:dfproject:2cc37c42a31be0211516": {
-            "hash": "24255e625479e065a08d55b2a73b5212418d7fd63795b410dae71d29069b1d83",
+            "hash": "a0710d52ad0485bf6acea815963a2080e796c02b1e112a17e7145764cfa24dfe",
             "data": {
               "id": "dfproject:2cc37c42a31be0211516",
               "aliasIds": [],
@@ -14958,11 +15004,12 @@
               "names": [
                 "公安视频监控新增补点项目"
               ],
-              "updatedAt": "2026-09-08T09:00:54.419Z"
+              "updatedAt": "2026-09-08T09:00:54.419Z",
+              "latestProgress": "计划9月8日前往奉贤拜访，协同各相关行业BU，制定完整支撑计划"
             }
           },
           "dongfeng-worklogs:dfproject:b7672182d8a8f8d2f8a8": {
-            "hash": "9335774e8ee572943e0d95cfa3b076e03b853dfc1a45c4f873d5d0ed13b1e4d4",
+            "hash": "f37e5db0eaea128f68c14c074b3c422572d5e94605ef15552050e62ecab300d4",
             "data": {
               "id": "dfproject:b7672182d8a8f8d2f8a8",
               "aliasIds": [],
@@ -14981,11 +15028,12 @@
               "names": [
                 "此项目重点推进监控点位的全域拓展与智能改造。针对老旧小区、城乡结合部等薄弱区域，实施视频监控补点建设，同步对现有设备进行高清化、智能化升级，新增人脸识别、车牌识别等智能感知终端，实现公共区域、重点场所的 360°，立体覆盖与精准感知。"
               ],
-              "updatedAt": "2026-10-10T11:17:47.792Z"
+              "updatedAt": "2026-10-10T11:17:47.792Z",
+              "latestProgress": "与浦东移动沟通项目情况，暂无新进展"
             }
           },
           "dongfeng-worklogs:dfproject:b4877670e747d5e9862c": {
-            "hash": "2aeb3ee4ef99407bee687c009ae51e3dd9aade4e62345720e10e41b4199faea8",
+            "hash": "4f28f763493b6e4f765ebf404cdbf4ab5357b5571d936ce3169fb0c86e8ebda4",
             "data": {
               "id": "dfproject:b4877670e747d5e9862c",
               "aliasIds": [],
@@ -15004,11 +15052,12 @@
               "names": [
                 "浦东新区公安局浦东分局警务项目"
               ],
-              "updatedAt": "2026-09-09T08:41:25.215Z"
+              "updatedAt": "2026-09-09T08:41:25.215Z",
+              "latestProgress": "沟通客户经理补充项目信息：该项目实际为看守所楼宇智能化项目，与雪亮项目类似。项目主要部分包括服务器，已批复预算约1.6亿，批复时间为服务器涨价前（大约2024-2025年），目前由于服务器涨价，预估成本远高于当前预算，原先提供预算方案的供应商反馈原方案成本已包不住，需要涨价且需要垫资才能承接该项目，因此目前项目未推进。目前区公司没有关键客户客情。"
             }
           },
           "dongfeng-worklogs:dfproject:aaf33095629087b5d3f2": {
-            "hash": "6212edaf890de938852aebbae12f9708900ffacc329e23a1fc37c9cb202f4bac",
+            "hash": "d8b4d3a2f640743e9b624a16d9f1bc6a46e5ca970fbf29939b229d46cc1ff0a0",
             "data": {
               "id": "dfproject:aaf33095629087b5d3f2",
               "aliasIds": [],
@@ -15027,11 +15076,12 @@
               "names": [
                 "交通治堵大模型项目"
               ],
-              "updatedAt": "2026-09-09T01:30:20.976Z"
+              "updatedAt": "2026-09-09T01:30:20.976Z",
+              "latestProgress": "实际采购是前端设备，目前已经完成投标，结果已公示，中标联通"
             }
           },
           "dongfeng-worklogs:dfproject:5f680a27b7d453af813c": {
-            "hash": "f563d1af0e52a4bfdab109d3de680612058c196cd1accc0cc23273be1eb0e8d5",
+            "hash": "e7a1020f97213cb1915338d2dcd0370f8caa5eb560dfe69d8d71d3de4e8c899e",
             "data": {
               "id": "dfproject:5f680a27b7d453af813c",
               "aliasIds": [],
@@ -15050,11 +15100,12 @@
               "names": [
                 "上海市公安局普陀分局国产算力设备采购服务"
               ],
-              "updatedAt": "2026-09-09T01:29:59.393Z"
+              "updatedAt": "2026-09-09T01:29:59.393Z",
+              "latestProgress": "现有2台电信提供的910B4试用，电信正在推动科信支队进行签单，已有华鲲振宇提供的设备报价清单。我们也想给试用，但客户未同意，目前想通过价格优惠来争取。"
             }
           },
           "dongfeng-worklogs:dfproject:b785019f99fb2a1b3223": {
-            "hash": "668900bb1e1f2077542a9331d619607fc42a7033e19499a2274b371747b233c1",
+            "hash": "04494415f0a31c3ff8df54ee0c3994e204bb35ddceda139876029c0d91a94270",
             "data": {
               "id": "dfproject:b785019f99fb2a1b3223",
               "aliasIds": [],
@@ -15073,11 +15124,12 @@
               "names": [
                 "电子警察新建"
               ],
-              "updatedAt": "2026-09-08T09:23:05.029Z"
+              "updatedAt": "2026-09-08T09:23:05.029Z",
+              "latestProgress": "静安公安高层正在变更，西区计划后续进行高拜打开突破口"
             }
           },
           "dongfeng-worklogs:dfproject:07adb6228cff17b9e5c7": {
-            "hash": "dca58853c337cb7cf4e5dca5660fcda026dd15fc8b0f519458e5aecc2ce65dec",
+            "hash": "f090e5e45ea5d726130d65cc06c6a2603b15d29d87fad90284df7514e71e8254",
             "data": {
               "id": "dfproject:07adb6228cff17b9e5c7",
               "aliasIds": [],
@@ -15096,11 +15148,12 @@
               "names": [
                 "南片视频增补"
               ],
-              "updatedAt": "2026-09-08T09:23:11.718Z"
+              "updatedAt": "2026-09-08T09:23:11.718Z",
+              "latestProgress": "静安公安高层正在变更，西区计划后续进行高拜打开突破口"
             }
           },
           "dongfeng-worklogs:dfproject:cc3b0b9c1d69f356d920": {
-            "hash": "ee74c8157979d8ec462d5f025a4eb46466aaa6ac5f4085875984d110c852885d",
+            "hash": "210e42243357c93d98e1331ead53ee7b90c49241769b7467b0678f3cb3fb4aca",
             "data": {
               "id": "dfproject:cc3b0b9c1d69f356d920",
               "aliasIds": [],
@@ -15119,11 +15172,12 @@
               "names": [
                 "裸光网络建设"
               ],
-              "updatedAt": "2026-09-09T01:29:38.782Z"
+              "updatedAt": "2026-09-09T01:29:38.782Z",
+              "latestProgress": "暂无进展"
             }
           },
           "dongfeng-worklogs:dfproject:3af9bfba002d44a78857": {
-            "hash": "2ed3fd82208160278538f694357d349c4921e69b275fa21d10a6e432747bf21a",
+            "hash": "6adff89ab77769a779fd9163a4636b64abfc8ff67eee74e677cb1e1aec503697",
             "data": {
               "id": "dfproject:3af9bfba002d44a78857",
               "aliasIds": [],
@@ -15142,11 +15196,12 @@
               "names": [
                 "平安闵行"
               ],
-              "updatedAt": "2026-11-02T10:13:25.577Z"
+              "updatedAt": "2026-11-02T10:13:25.577Z",
+              "latestProgress": "协调相关生态进行线下沟通，包括深信服、华为、宇视，推进专班组建工作。"
             }
           },
           "dongfeng-worklogs:dfproject:33226f691c1bb8d94781": {
-            "hash": "e1c61a66f810e44c8f072004fd2078f243f188deb14532b88f02d6d506927de1",
+            "hash": "5a8ffdeb8e817aeea8ac392b250dbd56a143ec425ad00e2141fe402d0769ab44",
             "data": {
               "id": "dfproject:33226f691c1bb8d94781",
               "aliasIds": [],
@@ -15165,7 +15220,8 @@
               "names": [
                 "上海西区公司静安区看守所（北片）改扩建工程技术信息系统项目"
               ],
-              "updatedAt": "2026-10-10T11:39:58.235Z"
+              "updatedAt": "2026-10-10T11:39:58.235Z",
+              "latestProgress": "我司提供相关技术方案支撑"
             }
           }
         }
@@ -15183,7 +15239,7 @@
         "合同信息": "6cf76cc0a4d4cf6fa136f7aa7e7f453ea905870660a61d792b698cc73d4f2cef",
         "政策与建设方向": "6cf76cc0a4d4cf6fa136f7aa7e7f453ea905870660a61d792b698cc73d4f2cef",
         "工作日志": "3913d878236630ba52ae729f89feb58cdd4eb976d23c9e5f5b3b4b061f2d7422",
-        "商机进展": "d357741bd7b944c310813c8dc23bed3cb98286fc02f7b42bfa43227d51cc7558",
+        "商机进展": "87b3f9aa89c0a2575f17f85fb992191ca3befe6fd358ae2536336f0492cfe4fb",
         "产品与场景": "5525b44441576e0bd057cb4ce592a3c91fd673eadec321351b692bc374cab303",
         "生态伙伴": "adfe6f8759dc89ddc9e6061b8863a62d2993ead41abdff501e722440aa8300a4",
         "客户基本信息": "141d4be2652c085297390008e0e7b7d8d24d72ff23ccc6fa64125f8a58fbc38a"
@@ -17178,7 +17234,7 @@
         },
         "商机进展": {
           "dongfeng-worklogs:dfproject:0a087fb268e40ee9cdbf": {
-            "hash": "b33a4b9177820c1840532bf7c84aed2ccd7805dfdeb93d180f11e5499b8c8af4",
+            "hash": "0ce24804225048a9f9967f974fe03b3cfcb29ca6b817f54a61acd5f8f3587ff6",
             "data": {
               "id": "dfproject:0a087fb268e40ee9cdbf",
               "aliasIds": [],
@@ -17197,11 +17253,12 @@
               "names": [
                 "消防AI大模型垂域业务应用子系统建设"
               ],
-              "updatedAt": "2026-10-27T07:21:08.257Z"
+              "updatedAt": "2026-10-27T07:21:08.257Z",
+              "latestProgress": "经过领导沟通确认，包七拟有LT承接，暂不参与该项目"
             }
           },
           "dongfeng-worklogs:dfproject:71957667c1ba7f3d1b95": {
-            "hash": "39af3791968486c682485a6f3ba7d504bd7a96ac39c030c93595f47b0715ba2f",
+            "hash": "9638551e8e7d9ec7eabf53fdf433fdb21b0ad048fa27946def33afa77d47c870",
             "data": {
               "id": "dfproject:71957667c1ba7f3d1b95",
               "aliasIds": [],
@@ -17220,11 +17277,12 @@
               "names": [
                 "业务系统升级改造项目"
               ],
-              "updatedAt": "2026-11-02T08:43:07.453Z"
+              "updatedAt": "2026-11-02T08:43:07.453Z",
+              "latestProgress": "分析招标文件、明确招标文件评分项"
             }
           },
           "dongfeng-worklogs:dfproject:a509d5fb204492a9f548": {
-            "hash": "0f938189eaa1d4a41d63f23816208780fd5d6f4abff50dd6afb4c0079d0b6fa7",
+            "hash": "c254710b38d534c33037431aa462f9298df7266a0e3d854e8ff44dee00efe9df",
             "data": {
               "id": "dfproject:a509d5fb204492a9f548",
               "aliasIds": [],
@@ -17243,7 +17301,8 @@
               "names": [
                 "总队本级网络及安全设施升级改造项目"
               ],
-              "updatedAt": "2026-11-02T08:59:14.085Z"
+              "updatedAt": "2026-11-02T08:59:14.085Z",
+              "latestProgress": "向咨询公司提供修改后参数方案"
             }
           }
         }
@@ -17878,7 +17937,8 @@
               "updatedAt": "2026-10-29T14:03:23+08:00"
             }
           }
-        }
+        },
+        "商机进展": {}
       }
     },
     "2100172632": {
@@ -17893,7 +17953,7 @@
         "合同信息": "6cf76cc0a4d4cf6fa136f7aa7e7f453ea905870660a61d792b698cc73d4f2cef",
         "政策与建设方向": "6cf76cc0a4d4cf6fa136f7aa7e7f453ea905870660a61d792b698cc73d4f2cef",
         "工作日志": "60bbe5aef5b3bdb952b45f3f17e31e29eb9c3abccda1b3056465fe3e97cc4b11",
-        "商机进展": "67250a8707dd886baf786ddcdd7e83195a961238bf3c1c1954f8ae86b5be965d",
+        "商机进展": "9fff97df2eb6d6bed62fd3df55f3834074b36eb6c7c0b8e400bc1d29659ee891",
         "产品与场景": "5525b44441576e0bd057cb4ce592a3c91fd673eadec321351b692bc374cab303",
         "生态伙伴": "adfe6f8759dc89ddc9e6061b8863a62d2993ead41abdff501e722440aa8300a4",
         "客户基本信息": "64580260d10a57354245aa363a3fe212530a35d8f7e56f2717b1a21a0b98aae5"
@@ -18774,7 +18834,7 @@
         },
         "商机进展": {
           "dongfeng-worklogs:dfproject:b076166a47b3bf9bd95c": {
-            "hash": "e34df64d0741c65e0d4d63ea7d9bbdf44974ca5f15aa3267d9177deaab25c79d",
+            "hash": "827ea0b40add3642864e2d4d980ce66db007cbf25fee1ccdbc72837f582e50c4",
             "data": {
               "id": "dfproject:b076166a47b3bf9bd95c",
               "aliasIds": [],
@@ -18793,11 +18853,12 @@
               "names": [
                 "住建委行政服务中心信息化建设"
               ],
-              "updatedAt": "2026-10-22T07:41:49.440Z"
+              "updatedAt": "2026-10-22T07:41:49.440Z",
+              "latestProgress": "之前我们提供了一版建设方案，客户反馈软件已经有厂家在做，我们可以通过算力，但是联通也在参与，联通可以前期免费提供测试，我们要一个月2万多。"
             }
           },
           "dongfeng-worklogs:dfproject:6449f93bc4ff2aeae132": {
-            "hash": "93f28402da14f257999065f5209e2c4b6338368fd2a40581ed38b18472e39bce",
+            "hash": "5335eeea4addacd1d189166f86408ff591779e24bc7cda8245d5011d93bb91bd",
             "data": {
               "id": "dfproject:6449f93bc4ff2aeae132",
               "aliasIds": [],
@@ -18816,7 +18877,8 @@
               "names": [
                 "政服务中心应用设计项目"
               ],
-              "updatedAt": "2026-09-18T07:43:33.534Z"
+              "updatedAt": "2026-09-18T07:43:33.534Z",
+              "latestProgress": "线索已录入，等待后续协同推进。"
             }
           }
         }
@@ -18834,7 +18896,7 @@
         "合同信息": "6cf76cc0a4d4cf6fa136f7aa7e7f453ea905870660a61d792b698cc73d4f2cef",
         "政策与建设方向": "6cf76cc0a4d4cf6fa136f7aa7e7f453ea905870660a61d792b698cc73d4f2cef",
         "工作日志": "3ee0388bdaa7ef16a2d343d9f667c9393385a713924814f57182cac8cde49d58",
-        "商机进展": "ec65f8ec2a3bbd52b73fd86fb0ac326053a3d31fb527b17ae7068d257b2caad6",
+        "商机进展": "e0afc31057d173d4079eeaf3284138bfa01f8b3050123ed4124155fbdf0cbe45",
         "产品与场景": "5525b44441576e0bd057cb4ce592a3c91fd673eadec321351b692bc374cab303",
         "生态伙伴": "adfe6f8759dc89ddc9e6061b8863a62d2993ead41abdff501e722440aa8300a4",
         "客户基本信息": "1845b42d7bded422a3f3f01fc57675563077efb3fff45e8aaaa10adde50bba72"
@@ -19697,7 +19759,7 @@
         },
         "商机进展": {
           "dongfeng-worklogs:dfproject:254d20693b9deede8259": {
-            "hash": "334173c9e813fe2e6be22f158ceacfe30d42b574407d998458fa42b48c333dde",
+            "hash": "a19a1929cf793b2080bbb7b017757b816fc073620ebe37c46005e688f85965ee",
             "data": {
               "id": "dfproject:254d20693b9deede8259",
               "aliasIds": [],
@@ -19716,7 +19778,8 @@
               "names": [
                 "2026-2027学年上海市青少年运动技能等级测试"
               ],
-              "updatedAt": "2026-11-02T08:38:26.308Z"
+              "updatedAt": "2026-11-02T08:38:26.308Z",
+              "latestProgress": "对项目进行评估研判，寻找相关厂家"
             }
           }
         }
@@ -19734,7 +19797,7 @@
         "合同信息": "6cf76cc0a4d4cf6fa136f7aa7e7f453ea905870660a61d792b698cc73d4f2cef",
         "政策与建设方向": "6cf76cc0a4d4cf6fa136f7aa7e7f453ea905870660a61d792b698cc73d4f2cef",
         "工作日志": "f21e97bfe222963b9d24fc74db7012af758aafb4d2bae22b0c10677ceb20b61b",
-        "商机进展": "2beac873bc08420b2090b443bb3c5c8aaec728a09d114e45949416f9841058ab",
+        "商机进展": "06443a7ec448908f18ad9dc0e456a158d1f4818f82ff2039622a34b45712574a",
         "产品与场景": "5525b44441576e0bd057cb4ce592a3c91fd673eadec321351b692bc374cab303",
         "生态伙伴": "adfe6f8759dc89ddc9e6061b8863a62d2993ead41abdff501e722440aa8300a4",
         "客户基本信息": "fa2a2035a59b5f0b163af9d81bbda50c9dcb7730a647dae7532eb28b258ac0fb"
@@ -20989,7 +21052,7 @@
         },
         "商机进展": {
           "dongfeng-worklogs:dfproject:7a4286d308afa0247d14": {
-            "hash": "c4df02f5ac5d1efa29fd7af1f9a92510c614d91fdb0290dfa3bc98465402d3b1",
+            "hash": "ee9429a45dedd758e5bcc24eadcca7aa29e4d69bd93ecdfed1601f331c91a09b",
             "data": {
               "id": "dfproject:7a4286d308afa0247d14",
               "aliasIds": [],
@@ -21008,11 +21071,12 @@
               "names": [
                 "2026年上海乒乓球嘉年华项目"
               ],
-              "updatedAt": "2026-09-20T08:36:10.345Z"
+              "updatedAt": "2026-09-20T08:36:10.345Z",
+              "latestProgress": "已招完，咪咕中标。"
             }
           },
           "dongfeng-worklogs:dfproject:4bfab21885f66779c2ff": {
-            "hash": "97b62046a086991231a17676a9548ec983862dcff458fbb79efb7a86f4a92c69",
+            "hash": "6bd7a99f38d36fbb8efb79a9d4736622586113e6ba2f4130a613713f4f6eff65",
             "data": {
               "id": "dfproject:4bfab21885f66779c2ff",
               "aliasIds": [],
@@ -21031,7 +21095,8 @@
               "names": [
                 "2026年上海市体育彩票管理中心录音录像改造项目"
               ],
-              "updatedAt": "2026-10-08T07:06:43.551Z"
+              "updatedAt": "2026-10-08T07:06:43.551Z",
+              "latestProgress": "结果还没发，但是内部说电信中标了，联通可能会发质疑，但是应该不会产生太大的影响"
             }
           }
         }
@@ -22306,7 +22371,8 @@
               "updatedAt": "2026-10-29T14:03:23+08:00"
             }
           }
-        }
+        },
+        "商机进展": {}
       }
     },
     "name:上海市委党校": {
@@ -22321,7 +22387,7 @@
         "合同信息": "6cf76cc0a4d4cf6fa136f7aa7e7f453ea905870660a61d792b698cc73d4f2cef",
         "政策与建设方向": "6cf76cc0a4d4cf6fa136f7aa7e7f453ea905870660a61d792b698cc73d4f2cef",
         "工作日志": "32d0c0b18b3963d6846f83309d37a7c064da55edb07f7cda5efbe7bbdf935b27",
-        "商机进展": "92691e44ac2485a0b5664a1b8a40f54273a34540d36643a3fb19e44332276943",
+        "商机进展": "346441b531d0bd5d4624d433464b456b58166a9fd59fafdfc31abc281d4ed578",
         "产品与场景": "5525b44441576e0bd057cb4ce592a3c91fd673eadec321351b692bc374cab303",
         "生态伙伴": "adfe6f8759dc89ddc9e6061b8863a62d2993ead41abdff501e722440aa8300a4",
         "客户基本信息": "020e9affae176a27f390432d8de957bf9187f9ccea5eaae47999f473bb0f949c"
@@ -22874,7 +22940,7 @@
         },
         "商机进展": {
           "dongfeng-worklogs:dfproject:98fe07fe6fb73dc075ce": {
-            "hash": "550ab608d074ab5080cc1ae70839c58bd8045092af7621e42c7ab3c68655094d",
+            "hash": "d7b7824a10a94da21064153aa92c502d1ac34d66dfe86fe41e899d41c85ee922",
             "data": {
               "id": "dfproject:98fe07fe6fb73dc075ce",
               "aliasIds": [],
@@ -22893,11 +22959,12 @@
               "names": [
                 "市委党校量子专线需求"
               ],
-              "updatedAt": "2026-10-19T07:39:00.970Z"
+              "updatedAt": "2026-10-19T07:39:00.970Z",
+              "latestProgress": "准备变更项目经理"
             }
           },
           "dongfeng-worklogs:dfproject:e0b02be0a716bcfa90c7": {
-            "hash": "13e9b8a67990a440c71cbf65d794bbf9297acd93a65b121301658ffe6043b541",
+            "hash": "6df96301587d83739a780f3cf63326f6e3dd06d148420c2a5608311a4f4753d8",
             "data": {
               "id": "dfproject:e0b02be0a716bcfa90c7",
               "aliasIds": [],
@@ -22916,7 +22983,8 @@
               "names": [
                 "数智校园建设项目"
               ],
-              "updatedAt": "2026-09-22T08:36:40.748Z"
+              "updatedAt": "2026-09-22T08:36:40.748Z",
+              "latestProgress": "准备整体建设方案"
             }
           }
         }
@@ -22934,7 +23002,7 @@
         "合同信息": "6cf76cc0a4d4cf6fa136f7aa7e7f453ea905870660a61d792b698cc73d4f2cef",
         "政策与建设方向": "6cf76cc0a4d4cf6fa136f7aa7e7f453ea905870660a61d792b698cc73d4f2cef",
         "工作日志": "93fd20d4ce5be6054af969e3ce9820b6741cacbf763ef14f1b52f3a3f8cb955d",
-        "商机进展": "5c176a7cd3be1cedf7d7c5b60d7fc9c1b33e23707a53471f42880f234c2ca2ac",
+        "商机进展": "e3d4402e775209ec740455468a2ab1b159c0b496eabdc12e0ace75dcf302e06a",
         "产品与场景": "5525b44441576e0bd057cb4ce592a3c91fd673eadec321351b692bc374cab303",
         "生态伙伴": "adfe6f8759dc89ddc9e6061b8863a62d2993ead41abdff501e722440aa8300a4",
         "客户基本信息": "26714b0cc3f2d0d8be3b8f8afe5cbcdfd0658da18a6e6388f965edb374f92d49"
@@ -23203,7 +23271,7 @@
         },
         "商机进展": {
           "dongfeng-worklogs:dfproject:bbf269384c489f974cf9": {
-            "hash": "6dc508d2ab4cb1b5f5804a59b1abea414207f7ccdd9cb6322273317b988da2de",
+            "hash": "03517398df3fd4405dbeec5a10c5b319e06e8157695ee950ca6a025e599def11",
             "data": {
               "id": "dfproject:bbf269384c489f974cf9",
               "aliasIds": [],
@@ -23222,7 +23290,8 @@
               "names": [
                 "市城运城运中心人口洞察（含IOC）"
               ],
-              "updatedAt": "2026-10-30T03:22:38.980Z"
+              "updatedAt": "2026-10-30T03:22:38.980Z",
+              "latestProgress": "编制汇报交流材料"
             }
           }
         }
@@ -23240,7 +23309,7 @@
         "合同信息": "6cf76cc0a4d4cf6fa136f7aa7e7f453ea905870660a61d792b698cc73d4f2cef",
         "政策与建设方向": "6cf76cc0a4d4cf6fa136f7aa7e7f453ea905870660a61d792b698cc73d4f2cef",
         "工作日志": "3e9a10a290ccb87990becc023bcf1887d856fd6630ecc2ab161e276e44c93d39",
-        "商机进展": "b72b821bf796daf6c9ecf7c8ff5a46c65d54dc0066fec9b74cb218d7eb0d12c3",
+        "商机进展": "22b391f9f1ee0e10102229efb149454a7646b2891224bac68731653ccec741fc",
         "产品与场景": "5525b44441576e0bd057cb4ce592a3c91fd673eadec321351b692bc374cab303",
         "生态伙伴": "adfe6f8759dc89ddc9e6061b8863a62d2993ead41abdff501e722440aa8300a4",
         "客户基本信息": "3cf2455e9dd0e431cdb76346d64923bf8cce77c4bee821d6b6e31ab3f1855d2b"
@@ -24837,7 +24906,7 @@
         },
         "商机进展": {
           "dongfeng-worklogs:dfproject:898c22dd19801bef6af7": {
-            "hash": "73a3e2e34b3c996909d99c1e7477d5f91baa0b0565f9b91253de882735344f0e",
+            "hash": "62849ae9147828cf5e9be88e31db1649da7e403caa6da45f296b0c3de0b2eb90",
             "data": {
               "id": "dfproject:898c22dd19801bef6af7",
               "aliasIds": [],
@@ -24856,7 +24925,8 @@
               "names": [
                 "上海市总工会申工社职工服务平台升级改造项目"
               ],
-              "updatedAt": "2026-10-19T07:50:23.609Z"
+              "updatedAt": "2026-10-19T07:50:23.609Z",
+              "latestProgress": "未中标"
             }
           }
         }
@@ -25066,7 +25136,8 @@
               "updatedAt": "2026-10-29T14:03:23+08:00"
             }
           }
-        }
+        },
+        "商机进展": {}
       }
     }
   },

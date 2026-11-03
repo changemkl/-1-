@@ -17,6 +17,7 @@ function changedUpdateMarkup(event,esc){
  const items=Array.isArray(event.items)?event.items:[];
  if(!items.length)return '<p class="home-feed-empty">这条旧动态未保存具体变更明细。</p>';
  const value=v=>v&&typeof v==='object'?v.value??'':v??'';
+ if(event.label==='商机进展')return items.map(item=>{const r=item.record||{};return `<article class="weekly-changed-record"><strong>${esc(r.name||r.projectName||'未命名项目')}</strong><p class="worklog-text">${esc(r.latestProgress||'暂无进展正文')}</p></article>`;}).join('');
  const link=(url,title)=>/^https?:\/\//i.test(url||'')?`<a href="${esc(url)}" target="_blank" rel="noopener noreferrer">${esc(title)} ↗</a>`:esc(title);
  const isLog=event.label==='工作日志',groups=new Map();
  for(const item of items){const r=item.record||{},name=isLog?r.projectName||r.title?.split(' · ')[0]||'客户日常工作':r.projectName||r.name||r.title||'未命名项目';const key=isLog?(r.projectIds?.join('|')||r.projectId||name):item.key;if(!groups.has(key))groups.set(key,{name,items:[]});groups.get(key).items.push(item);}

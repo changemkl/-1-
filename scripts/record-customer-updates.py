@@ -50,8 +50,15 @@ def snapshot(root=ROOT):
     if label in DETAIL_LABELS:
      records=value if file in ('dongfeng-worklogs','worklogs') else [item for row in rows for key in keys for item in row.get(key,[]) if isinstance(item,dict)]
      for item in records:
+      if label=='商机进展':
+       progress=next((entry for entry in data.get('entries',[]) if str(entry.get('sourceRecordId','')).startswith('progress:') and item.get('id') in entry.get('projectIds',[])),None)
+       if progress:
+        content=progress.get('content','')
+        match_progress=re.search(r'最新进展[：:]\s*(.*?)(?=\n(?:下一步|平台阶段|线索结果|中失标状态)[：:]|$)',content,re.S)
+        if match_progress:item={**item,'latestProgress':match_progress.group(1).strip()}
       key=record_key(file,item)
       c['records'].setdefault(label,{})[key]={'hash':fingerprint(item),'data':item}
+     if label=='商机进展':c['parts'][label][file]=[v['data'] for v in c['records'].get(label,{}).values()]
 
  for id,c in result.items():
   names=set()
