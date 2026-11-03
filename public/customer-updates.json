@@ -1,5 +1,555 @@
 {
   "version": 1,
   "initializedAt": "2026-11-03T08:45:49+08:00",
-  "events": []
+  "events": [
+    {
+      "id": "eabe11df18bdff045cf8d4a1",
+      "customerId": "2100000260",
+      "customerName": "上海市公安局",
+      "label": "采购意向与招标",
+      "title": "采购意向与招标更新",
+      "detectedAt": "2026-11-03T08:58:42+08:00",
+      "date": "2026-11-03",
+      "items": [
+        {
+          "key": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=SojS3mJjz7n9%2BM517cpm4w%3D%3D",
+          "change": "已有记录",
+          "record": {
+            "name": "上海市公安局杨浦分局2026年11月政府采购意向",
+            "stage": "采购意向",
+            "public_title_only": true,
+            "notice_url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=SojS3mJjz7n9%2BM517cpm4w%3D%3D",
+            "quote": "上海市公安局杨浦分局2026年11月政府采购意向\n采购人：上海市公安局杨浦分局\n2026年11月",
+            "buyer": {
+              "value": "上海市公安局杨浦分局",
+              "unit": "",
+              "quote": "采购人：上海市公安局杨浦分局"
+            },
+            "supplier": null,
+            "budget": null,
+            "award_amount": null,
+            "planned_purchase": "2026-11",
+            "deadline": null,
+            "service_end": null,
+            "relation": "公开列表所列采购人：上海市公安局杨浦分局",
+            "notice": "仅依据无需登录的公开标题及列表字段；未读取登录后详情。日期缺失时不确认采购有效期。",
+            "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=SojS3mJjz7n9%2BM517cpm4w%3D%3D",
+            "title": "上海市公安局杨浦分局2026年11月政府采购意向",
+            "published_at": "2026-11-02",
+            "fetched_at": "2026-11-03T00:57:12.980741+00:00",
+            "source_host": "www.zfcg.sh.gov.cn"
+          }
+        },
+        {
+          "key": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=Mo3ZLPWqjfkLlOfwkKvgpA%3D%3D",
+          "change": "已有记录",
+          "record": {
+            "name": "上海市公安局黄浦分局2026年12月政府采购意向",
+            "stage": "采购意向",
+            "public_title_only": true,
+            "notice_url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=Mo3ZLPWqjfkLlOfwkKvgpA%3D%3D",
+            "quote": "上海市公安局黄浦分局2026年12月政府采购意向\n采购人：上海市公安局黄浦分局\n2026年12月",
+            "buyer": {
+              "value": "上海市公安局黄浦分局",
+              "unit": "",
+              "quote": "采购人：上海市公安局黄浦分局"
+            },
+            "supplier": null,
+            "budget": null,
+            "award_amount": null,
+            "planned_purchase": "2026-12",
+            "deadline": null,
+            "service_end": null,
+            "relation": "公开列表所列采购人：上海市公安局黄浦分局",
+            "notice": "仅依据无需登录的公开标题及列表字段；未读取登录后详情。日期缺失时不确认采购有效期。",
+            "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=Mo3ZLPWqjfkLlOfwkKvgpA%3D%3D",
+            "title": "上海市公安局黄浦分局2026年12月政府采购意向",
+            "published_at": "2026-11-02",
+            "fetched_at": "2026-11-02T17:29:51.311940+00:00",
+            "source_host": "www.zfcg.sh.gov.cn"
+          }
+        },
+        {
+          "key": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=kYfW%2BTBPGTd75lTZblsA%2Fw%3D%3D",
+          "change": "已有记录",
+          "record": {
+            "name": "上海市公安局杨浦分局2026年11月政府采购意向",
+            "stage": "采购意向",
+            "public_title_only": true,
+            "notice_url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=kYfW%2BTBPGTd75lTZblsA%2Fw%3D%3D",
+            "quote": "上海市公安局杨浦分局2026年11月政府采购意向\n采购人：上海市公安局杨浦分局\n2026年11月",
+            "buyer": {
+              "value": "上海市公安局杨浦分局",
+              "unit": "",
+              "quote": "采购人：上海市公安局杨浦分局"
+            },
+            "supplier": null,
+            "budget": null,
+            "award_amount": null,
+            "planned_purchase": "2026-11",
+            "deadline": null,
+            "service_end": null,
+            "relation": "公开列表所列采购人：上海市公安局杨浦分局",
+            "notice": "仅依据无需登录的公开标题及列表字段；未读取登录后详情。日期缺失时不确认采购有效期。",
+            "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=kYfW%2BTBPGTd75lTZblsA%2Fw%3D%3D",
+            "title": "上海市公安局杨浦分局2026年11月政府采购意向",
+            "published_at": "2026-11-02",
+            "fetched_at": "2026-11-02T17:29:51.310885+00:00",
+            "source_host": "www.zfcg.sh.gov.cn"
+          }
+        },
+        {
+          "key": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=p8nHJ2j8ZCfloulPss9O%2Fw%3D%3D",
+          "change": "已有记录",
+          "record": {
+            "name": "上海市公安局杨浦分局2026年11月政府采购意向",
+            "stage": "采购意向",
+            "public_title_only": true,
+            "notice_url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=p8nHJ2j8ZCfloulPss9O%2Fw%3D%3D",
+            "quote": "上海市公安局杨浦分局2026年11月政府采购意向\n采购人：上海市公安局杨浦分局\n2026年11月",
+            "buyer": {
+              "value": "上海市公安局杨浦分局",
+              "unit": "",
+              "quote": "采购人：上海市公安局杨浦分局"
+            },
+            "supplier": null,
+            "budget": null,
+            "award_amount": null,
+            "planned_purchase": "2026-11",
+            "deadline": null,
+            "service_end": null,
+            "relation": "公开列表所列采购人：上海市公安局杨浦分局",
+            "notice": "仅依据无需登录的公开标题及列表字段；未读取登录后详情。日期缺失时不确认采购有效期。",
+            "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=p8nHJ2j8ZCfloulPss9O%2Fw%3D%3D",
+            "title": "上海市公安局杨浦分局2026年11月政府采购意向",
+            "published_at": "2026-11-02",
+            "fetched_at": "2026-11-02T17:29:51.309598+00:00",
+            "source_host": "www.zfcg.sh.gov.cn"
+          }
+        }
+      ]
+    },
+    {
+      "id": "6369398aca09b8cf04e404a6",
+      "customerId": "2100000260",
+      "customerName": "上海市公安局",
+      "label": "工作日志",
+      "title": "工作日志更新",
+      "detectedAt": "2026-11-03T08:58:42+08:00",
+      "date": "2026-11-03",
+      "items": [
+        {
+          "key": "dongfeng:e2fcef3c723305f3d9f0995e",
+          "change": "已有记录",
+          "record": {
+            "customerId": "2100000260",
+            "customerName": "上海市公安局",
+            "workDate": "2026-11-02",
+            "title": "青浦雪亮工程视频监控增补项目 · 每日进展登记",
+            "content": "工作内容：本日进展：1、青浦十三五雪亮增补项目：\na)点位查勘：今日完成全量344点位，预计中移信息5号前完成汇总；\nb)方案编制：按照领导要求及修改建议，更新一版高拜的合作建议，同时重新调整原先的顶设方案为合作建议的附件，并调整其中的内容，尽可能贴合合作建议。｜下一步：完善合作建议和方案附件，并将合作建议修改成ppt模式｜下一步时间：2026-11-03",
+            "relatedUnit": "上海市公安局青浦分局",
+            "actorName": "赵恩达",
+            "actorRole": "方案经理",
+            "participants": [
+              "赵恩达（解决方案经理）",
+              "黄深远（解决方案经理）",
+              "任志伟（客户经理）"
+            ],
+            "recordUpdatedDate": null,
+            "projectIds": [
+              "dfproject:c7479a8ee38d25dee6b5"
+            ],
+            "projectTypes": {
+              "dfproject:c7479a8ee38d25dee6b5": "线索"
+            },
+            "id": "dongfeng:e2fcef3c723305f3d9f0995e",
+            "datePrecision": "explicit",
+            "sourceType": "dongfeng",
+            "sourceLabel": "东风平台 · 东风工作日期",
+            "sourceRecordId": "daily:TL-DAILY-61cfe0da-6eb6-4bf2-94ea-af5a454df546:2100000260",
+            "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
+            "firstSeenAt": "2026-11-02T23:41:17+08:00",
+            "updatedAt": "2026-11-02T23:41:17+08:00"
+          }
+        },
+        {
+          "key": "dongfeng:47b84fe639df7b2adbde5432",
+          "change": "已有记录",
+          "record": {
+            "customerId": "2100000260",
+            "customerName": "上海市公安局",
+            "workDate": "2026-11-02",
+            "title": "平安闵行 · 每日进展登记",
+            "content": "工作内容：本日进展：协调相关生态进行线下沟通，包括深信服、华为、宇视，推进专班组建工作。｜下一步：明确跟进人员，推进人员派驻。｜下一步时间：2026-11-03｜风险/阻塞：（1）客户倾向于选择属地落税单位承接，请公司支撑闵行落税单位入驻事宜。（2）根据项目初期点位图，请公司统筹支撑后续网络建设交付资源及配套能力。（3）机房改造待确认？",
+            "relatedUnit": "上海市公安局闵行分局",
+            "actorName": "王洪飞",
+            "actorRole": "客户经理",
+            "participants": [
+              "王洪飞（客户经理）"
+            ],
+            "recordUpdatedDate": null,
+            "projectIds": [
+              "dfproject:3af9bfba002d44a78857"
+            ],
+            "projectTypes": {
+              "dfproject:3af9bfba002d44a78857": "商机"
+            },
+            "id": "dongfeng:47b84fe639df7b2adbde5432",
+            "datePrecision": "explicit",
+            "sourceType": "dongfeng",
+            "sourceLabel": "东风平台 · 东风工作日期",
+            "sourceRecordId": "daily:TL-DAILY-3e0b39d4-ad58-4c06-9c61-47f0b52ff2f8:2100000260",
+            "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
+            "firstSeenAt": "2026-11-02T23:41:17+08:00",
+            "updatedAt": "2026-11-02T23:41:17+08:00"
+          }
+        },
+        {
+          "key": "dongfeng:1eb072a07c40b24be2f8a5fb",
+          "change": "已有记录",
+          "record": {
+            "customerId": "2100000260",
+            "customerName": "上海市公安局",
+            "workDate": "2026-11-02",
+            "title": "图像监控系统前端设备及基础设施运维 · 每日进展登记",
+            "content": "工作内容：本日进展：投标文件编写｜下一步：待客户经理维护下一步计划。｜下一步时间：2026-11-03",
+            "relatedUnit": "上海市公安局浦东分局",
+            "actorName": "李锋",
+            "actorRole": "售前经理",
+            "participants": [
+              "李锋（售前经理）"
+            ],
+            "recordUpdatedDate": null,
+            "projectIds": [
+              "dfproject:3f3750bed8acb404e3ec"
+            ],
+            "projectTypes": {
+              "dfproject:3f3750bed8acb404e3ec": "商机"
+            },
+            "id": "dongfeng:1eb072a07c40b24be2f8a5fb",
+            "datePrecision": "explicit",
+            "sourceType": "dongfeng",
+            "sourceLabel": "东风平台 · 东风工作日期",
+            "sourceRecordId": "daily:TL-DAILY-c7e797b9-3558-4557-a43b-efd73c6a24ca:2100000260",
+            "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
+            "firstSeenAt": "2026-11-02T23:41:17+08:00",
+            "updatedAt": "2026-11-02T23:41:17+08:00"
+          }
+        },
+        {
+          "key": "dongfeng:1b2ab7f62b0980560538accc",
+          "change": "已有记录",
+          "record": {
+            "customerId": "2100000260",
+            "customerName": "上海市公安局",
+            "workDate": "2026-11-02",
+            "title": "上海交通治堵大模型外场卡口设备补点项目 · 客户经理录入商机并提交",
+            "content": "工作内容：客户经理 任志伟 通过工作台录入商机【上海交通治堵大模型外场卡口设备补点项目】，生成唯一编号 DF-OPP-20261102-MVZ9WZQ5-WVYS3P。",
+            "relatedUnit": "上海市公安局青浦分局",
+            "actorName": "任志伟",
+            "actorRole": "客户经理",
+            "participants": [],
+            "recordUpdatedDate": null,
+            "projectIds": [
+              "dfproject:70df34fa9162eeec8afb"
+            ],
+            "projectTypes": {
+              "dfproject:70df34fa9162eeec8afb": "商机"
+            },
+            "id": "dongfeng:1b2ab7f62b0980560538accc",
+            "datePrecision": "explicit",
+            "sourceType": "dongfeng",
+            "sourceLabel": "东风平台 · 东风事件记录日期",
+            "sourceRecordId": "event:TL-1793624834525-1:2100000260",
+            "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
+            "firstSeenAt": "2026-11-02T23:41:17+08:00",
+            "updatedAt": "2026-11-02T23:41:17+08:00"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b75fc51a849b076c1bb641a3",
+      "customerId": "2100000260",
+      "customerName": "上海市公安局",
+      "label": "商机进展",
+      "title": "商机进展更新",
+      "detectedAt": "2026-11-03T08:58:42+08:00",
+      "date": "2026-11-03",
+      "items": [
+        {
+          "key": "dfproject:70df34fa9162eeec8afb",
+          "change": "已有记录",
+          "record": {
+            "id": "dfproject:70df34fa9162eeec8afb",
+            "aliasIds": [],
+            "customerId": "2100000260",
+            "customerName": "上海市公安局",
+            "name": "上海交通治堵大模型外场卡口设备补点项目",
+            "type": "商机",
+            "status": "商机",
+            "relatedUnit": "上海市公安局青浦分局",
+            "taskIds": [
+              "TASK-1793624834525"
+            ],
+            "codes": [
+              "DF-OPP-20261102-MVZ9WZQ5-WVYS3P"
+            ],
+            "names": [
+              "上海交通治堵大模型外场卡口设备补点项目"
+            ],
+            "updatedAt": "2026-11-02T13:07:15.769Z"
+          }
+        },
+        {
+          "key": "dfproject:3f3750bed8acb404e3ec",
+          "change": "已有记录",
+          "record": {
+            "id": "dfproject:3f3750bed8acb404e3ec",
+            "aliasIds": [],
+            "customerId": "2100000260",
+            "customerName": "上海市公安局",
+            "name": "图像监控系统前端设备及基础设施运维",
+            "type": "商机",
+            "status": "投标中",
+            "relatedUnit": "上海市公安局浦东分局",
+            "taskIds": [
+              "TASK-1793106626674"
+            ],
+            "codes": [
+              "DF-OPP-20261027-MVQPDZZL-EC0J61"
+            ],
+            "names": [
+              "图像监控系统前端设备及基础设施运维"
+            ],
+            "updatedAt": "2026-11-02T10:52:15.426Z"
+          }
+        },
+        {
+          "key": "dfproject:c7479a8ee38d25dee6b5",
+          "change": "已有记录",
+          "record": {
+            "id": "dfproject:c7479a8ee38d25dee6b5",
+            "aliasIds": [],
+            "customerId": "2100000260",
+            "customerName": "上海市公安局",
+            "name": "青浦雪亮工程视频监控增补项目",
+            "type": "线索",
+            "status": "线索",
+            "relatedUnit": "上海市公安局青浦分局",
+            "taskIds": [
+              "TASK-1792398967815"
+            ],
+            "codes": [
+              "DF-XS-20261019-MVF02EX2-RRQQLW"
+            ],
+            "names": [
+              "青浦雪亮工程视频监控增补项目"
+            ],
+            "updatedAt": "2026-11-02T08:56:23.791Z"
+          }
+        },
+        {
+          "key": "dfproject:11d3958045b8abe503da",
+          "change": "已有记录",
+          "record": {
+            "id": "dfproject:11d3958045b8abe503da",
+            "aliasIds": [],
+            "customerId": "2100000260",
+            "customerName": "上海市公安局",
+            "name": "松江公安监控补盲",
+            "type": "商机",
+            "status": "商机",
+            "relatedUnit": "上海市公安局松江分局",
+            "taskIds": [
+              "TASK-1792205444336"
+            ],
+            "codes": [
+              "DF-OPP-20261017-MVBSUJ8V-UL8509"
+            ],
+            "names": [
+              "松江公安监控补盲"
+            ],
+            "updatedAt": "2026-11-02T07:40:00.061Z"
+          }
+        },
+        {
+          "key": "dfproject:3af9bfba002d44a78857",
+          "change": "已有记录",
+          "record": {
+            "id": "dfproject:3af9bfba002d44a78857",
+            "aliasIds": [],
+            "customerId": "2100000260",
+            "customerName": "上海市公安局",
+            "name": "平安闵行",
+            "type": "商机",
+            "status": "商机",
+            "relatedUnit": "上海市公安局闵行分局",
+            "taskIds": [
+              "DF-OPP-0281-C013A2"
+            ],
+            "codes": [
+              "DF-OPP-0281-C013A2"
+            ],
+            "names": [
+              "平安闵行"
+            ],
+            "updatedAt": "2026-11-02T10:13:25.577Z"
+          }
+        }
+      ]
+    },
+    {
+      "id": "d453783de7c721352ac3ad57",
+      "customerId": "2100000172",
+      "customerName": "上海市消防救援总队",
+      "label": "工作日志",
+      "title": "工作日志更新",
+      "detectedAt": "2026-11-03T08:58:42+08:00",
+      "date": "2026-11-03",
+      "items": [
+        {
+          "key": "dongfeng:6e136203d4d690a8ebb39f4c",
+          "change": "已有记录",
+          "record": {
+            "customerId": "2100000172",
+            "customerName": "上海市消防救援总队",
+            "workDate": "2026-11-02",
+            "title": "业务系统升级改造项目 · 每日进展登记",
+            "content": "工作内容：本日进展：分析招标文件｜下一步：随时跟进项目招标进展。｜下一步时间：2026-11-30",
+            "relatedUnit": null,
+            "actorName": "许鹏宇",
+            "actorRole": "客户经理",
+            "participants": [
+              "许鹏宇（客户经理）"
+            ],
+            "recordUpdatedDate": null,
+            "projectIds": [
+              "dfproject:71957667c1ba7f3d1b95"
+            ],
+            "projectTypes": {
+              "dfproject:71957667c1ba7f3d1b95": "商机"
+            },
+            "id": "dongfeng:6e136203d4d690a8ebb39f4c",
+            "datePrecision": "explicit",
+            "sourceType": "dongfeng",
+            "sourceLabel": "东风平台 · 东风工作日期",
+            "sourceRecordId": "daily:TL-DAILY-d4ff0a3e-a121-4f1a-baf7-008fe339c705:2100000172",
+            "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
+            "firstSeenAt": "2026-11-02T13:56:15+08:00",
+            "updatedAt": "2026-11-02T13:56:15+08:00"
+          }
+        },
+        {
+          "key": "dongfeng:385241004a9d4511f16103e9",
+          "change": "已有记录",
+          "record": {
+            "customerId": "2100000172",
+            "customerName": "上海市消防救援总队",
+            "workDate": "2026-11-02",
+            "title": "总队本级网络及安全设施升级改造项目 · 每日进展登记",
+            "content": "工作内容：本日进展：向咨询公司提供修改后参数方案｜下一步：按照信通处领导要求做调整后重新提交｜下一步时间：2026-11-02",
+            "relatedUnit": null,
+            "actorName": "王凯",
+            "actorRole": "方案经理",
+            "participants": [
+              "王凯（解决方案经理）"
+            ],
+            "recordUpdatedDate": null,
+            "projectIds": [
+              "dfproject:a509d5fb204492a9f548"
+            ],
+            "projectTypes": {
+              "dfproject:a509d5fb204492a9f548": "商机"
+            },
+            "id": "dongfeng:385241004a9d4511f16103e9",
+            "datePrecision": "explicit",
+            "sourceType": "dongfeng",
+            "sourceLabel": "东风平台 · 东风工作日期",
+            "sourceRecordId": "daily:TL-DAILY-c470f54a-0737-4353-9d88-fee48ca79dfc:2100000172",
+            "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
+            "firstSeenAt": "2026-11-02T23:41:17+08:00",
+            "updatedAt": "2026-11-02T23:41:17+08:00"
+          }
+        },
+        {
+          "key": "dongfeng:34cc4b4d1e121c4f7048b4e8",
+          "change": "已有记录",
+          "record": {
+            "customerId": "2100000172",
+            "customerName": "上海市消防救援总队",
+            "workDate": "2026-11-02",
+            "title": "业务系统升级改造项目 · 每日进展登记",
+            "content": "工作内容：本日进展：分析招标文件、明确招标文件评分项｜下一步：随时跟进项目招标进展。｜下一步时间：2026-11-30",
+            "relatedUnit": null,
+            "actorName": "王凯",
+            "actorRole": "方案经理",
+            "participants": [
+              "王凯（解决方案经理）",
+              "陈刚（解决方案经理）"
+            ],
+            "recordUpdatedDate": null,
+            "projectIds": [
+              "dfproject:71957667c1ba7f3d1b95"
+            ],
+            "projectTypes": {
+              "dfproject:71957667c1ba7f3d1b95": "商机"
+            },
+            "id": "dongfeng:34cc4b4d1e121c4f7048b4e8",
+            "datePrecision": "explicit",
+            "sourceType": "dongfeng",
+            "sourceLabel": "东风平台 · 东风工作日期",
+            "sourceRecordId": "daily:TL-DAILY-e1889f65-894d-44b8-b480-342b9fd4f0a5:2100000172",
+            "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
+            "firstSeenAt": "2026-11-02T23:41:17+08:00",
+            "updatedAt": "2026-11-02T23:41:17+08:00"
+          }
+        }
+      ]
+    },
+    {
+      "id": "32325bf54be9c21420f1b9b0",
+      "customerId": "2100128579",
+      "customerName": "上海市教育委员会",
+      "label": "工作日志",
+      "title": "工作日志更新",
+      "detectedAt": "2026-11-03T08:58:42+08:00",
+      "date": "2026-11-03",
+      "items": [
+        {
+          "key": "dongfeng:757cc7c1538d26dac457f0f3",
+          "change": "已有记录",
+          "record": {
+            "customerId": "2100128579",
+            "customerName": "上海市教育委员会",
+            "workDate": "2026-11-02",
+            "title": "2026-2027学年上海市青少年运动技能等级测试 · 每日进展登记",
+            "content": "工作内容：本日进展：对项目进行评估研判，寻找相关厂家｜下一步：项目投标｜下一步时间：2026-11-26",
+            "relatedUnit": null,
+            "actorName": "万全旦",
+            "actorRole": "方案经理",
+            "participants": [
+              "万全旦（解决方案经理）",
+              "许鹏宇（客户经理）"
+            ],
+            "recordUpdatedDate": null,
+            "projectIds": [
+              "dfproject:254d20693b9deede8259"
+            ],
+            "projectTypes": {
+              "dfproject:254d20693b9deede8259": "商机"
+            },
+            "id": "dongfeng:757cc7c1538d26dac457f0f3",
+            "datePrecision": "explicit",
+            "sourceType": "dongfeng",
+            "sourceLabel": "东风平台 · 东风工作日期",
+            "sourceRecordId": "daily:TL-DAILY-2309d0dc-4c93-4c81-85e4-1b4e4970925c:2100128579",
+            "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
+            "firstSeenAt": "2026-11-02T23:41:17+08:00",
+            "updatedAt": "2026-11-02T23:41:17+08:00"
+          }
+        }
+      ]
+    }
+  ]
 }
