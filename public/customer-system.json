@@ -278,7 +278,7 @@
       "active": true,
       "sourceStatus": "pending",
       "discovery": {
-        "at": "2026-11-02T08:18:19+00:00",
+        "at": "2026-11-03T15:28:54+00:00",
         "status": "unavailable",
         "message": "Search listing disallows automated reading"
       }
@@ -625,7 +625,7 @@
       "active": true,
       "sourceStatus": "pending",
       "discovery": {
-        "at": "2026-11-02T08:18:19+00:00",
+        "at": "2026-11-03T15:28:54+00:00",
         "status": "unavailable",
         "message": "Search listing disallows automated reading"
       }
@@ -726,5 +726,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-02T08:18:19+00:00"
+  "updatedAt": "2026-11-03T15:28:54+00:00"
 }
