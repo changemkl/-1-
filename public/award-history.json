@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-03T09:33:22+08:00",
+  "updatedAt": "2026-11-03T10:10:33+08:00",
   "customers": [
     {
       "id": "2100303078",
@@ -785,7 +785,7 @@
         "truncated": true
       },
       "lastCheck": {
-        "at": "2026-11-03T08:07:43+08:00",
+        "at": "2026-11-03T10:09:34+08:00",
         "status": "ok"
       }
     },
@@ -841,24 +841,24 @@
         "truncated": false
       },
       "lastCheck": {
-        "at": "2026-11-03T08:57:32+08:00",
+        "at": "2026-11-03T10:09:34+08:00",
         "status": "ok"
       },
       "externalSourceChecks": {
         "https://www.ccgp.gov.cn/cggg/zygg/cjgg/202610/t20261027_27572179.htm": {
-          "at": "2026-11-03T01:31:22+08:00",
+          "at": "2026-11-03T10:10:33+08:00",
           "status": "ok"
         },
         "https://www.ccgp.gov.cn/cggg/zygg/jzxcs/202610/t20261027_27567383.htm": {
-          "at": "2026-11-03T01:31:22+08:00",
+          "at": "2026-11-03T10:10:33+08:00",
           "status": "ok"
         },
         "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202610/t20261014_27487405.htm": {
-          "at": "2026-11-03T01:31:22+08:00",
+          "at": "2026-11-03T10:10:33+08:00",
           "status": "ok"
         },
         "https://www.ccgp.gov.cn/cggg/zygg/zbgg/202608/t20260826_27206162.htm": {
-          "at": "2026-11-02T16:24:36+08:00",
+          "at": "2026-11-03T10:10:33+08:00",
           "status": "ok"
         }
       }
@@ -915,7 +915,7 @@
         "truncated": false
       },
       "lastCheck": {
-        "at": "2026-11-03T08:57:32+08:00",
+        "at": "2026-11-03T10:09:34+08:00",
         "status": "ok"
       },
       "externalSourceChecks": {
@@ -988,7 +988,7 @@
         "truncated": true
       },
       "lastCheck": {
-        "at": "2026-11-03T08:57:32+08:00",
+        "at": "2026-11-03T10:09:34+08:00",
         "status": "ok"
       },
       "externalSourceChecks": {
@@ -1009,7 +1009,7 @@
         "truncated": false
       },
       "lastCheck": {
-        "at": "2026-11-03T08:57:32+08:00",
+        "at": "2026-11-03T10:09:34+08:00",
         "status": "ok"
       }
     },
@@ -1073,7 +1073,7 @@
         "truncated": true
       },
       "lastCheck": {
-        "at": "2026-11-03T08:57:32+08:00",
+        "at": "2026-11-03T10:09:34+08:00",
         "status": "ok"
       }
     },
@@ -3031,7 +3031,7 @@
         "truncated": true
       },
       "lastCheck": {
-        "at": "2026-11-03T08:07:43+08:00",
+        "at": "2026-11-03T10:09:34+08:00",
         "status": "ok"
       }
     },
@@ -3639,7 +3639,7 @@
         "truncated": true
       },
       "lastCheck": {
-        "at": "2026-11-03T08:07:43+08:00",
+        "at": "2026-11-03T10:09:34+08:00",
         "status": "ok"
       }
     },
