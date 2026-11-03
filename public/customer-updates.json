@@ -1854,6 +1854,75 @@
           }
         }
       ]
+    },
+    {
+      "id": "d87260beab8a36789034ff88",
+      "customerId": "2100000260",
+      "customerName": "上海市公安局",
+      "label": "采购意向与招标",
+      "title": "采购意向与招标更新",
+      "detectedAt": "2026-11-04T05:21:35+08:00",
+      "date": "2026-11-04",
+      "items": [
+        {
+          "key": "profile-data:https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=D386WlC9GvsWYhCfO4CtqA%3D%3D",
+          "change": "新增",
+          "record": {
+            "name": "上海市公安局浦东分局2026年12月政府采购意向",
+            "stage": "采购意向",
+            "public_title_only": true,
+            "notice_url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=D386WlC9GvsWYhCfO4CtqA%3D%3D",
+            "quote": "上海市公安局浦东分局2026年12月政府采购意向\n采购人：上海市公安局浦东分局\n2026年12月",
+            "buyer": {
+              "value": "上海市公安局浦东分局",
+              "unit": "",
+              "quote": "采购人：上海市公安局浦东分局"
+            },
+            "supplier": null,
+            "budget": null,
+            "award_amount": null,
+            "planned_purchase": "2026-12",
+            "deadline": null,
+            "service_end": null,
+            "relation": "公开列表所列采购人：上海市公安局浦东分局",
+            "notice": "仅依据无需登录的公开标题及列表字段；未读取登录后详情。日期缺失时不确认采购有效期。",
+            "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=D386WlC9GvsWYhCfO4CtqA%3D%3D",
+            "title": "上海市公安局浦东分局2026年12月政府采购意向",
+            "published_at": "2026-11-03",
+            "fetched_at": "2026-11-03T21:20:06.692477+00:00",
+            "source_host": "www.zfcg.sh.gov.cn"
+          }
+        },
+        {
+          "key": "profile-data:https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=qseUfW21sniTyqsvqeIJiw%3D%3D",
+          "change": "移除",
+          "record": {
+            "name": "上海市公安局宝山分局2026年10月政府采购意向",
+            "stage": "采购意向",
+            "public_title_only": true,
+            "notice_url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=qseUfW21sniTyqsvqeIJiw%3D%3D",
+            "quote": "上海市公安局宝山分局2026年10月政府采购意向\n采购人：上海市公安局宝山分局\n2026年10月",
+            "buyer": {
+              "value": "上海市公安局宝山分局",
+              "unit": "",
+              "quote": "采购人：上海市公安局宝山分局"
+            },
+            "supplier": null,
+            "budget": null,
+            "award_amount": null,
+            "planned_purchase": "2026-10",
+            "deadline": null,
+            "service_end": null,
+            "relation": "公开列表所列采购人：上海市公安局宝山分局",
+            "notice": "仅依据无需登录的公开标题及列表字段；未读取登录后详情。日期缺失时不确认采购有效期。",
+            "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=qseUfW21sniTyqsvqeIJiw%3D%3D",
+            "title": "上海市公安局宝山分局2026年10月政府采购意向",
+            "published_at": "2026-10-29",
+            "fetched_at": "2026-10-31T13:58:16.039569+00:00",
+            "source_host": "www.zfcg.sh.gov.cn"
+          }
+        }
+      ]
     }
   ]
 }
