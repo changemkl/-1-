@@ -1340,6 +1340,119 @@
           }
         }
       ]
+    },
+    {
+      "id": "ca78994e201d136e3dc8e9fe",
+      "customerId": "2100128579",
+      "customerName": "上海市教育委员会",
+      "label": "工作日志",
+      "title": "工作日志更新",
+      "detectedAt": "2026-11-03T14:42:27+08:00",
+      "date": "2026-11-03",
+      "items": [
+        {
+          "key": "dongfeng-worklogs:dongfeng:a4bed5cac0a33f63d61c5fbf",
+          "change": "新增",
+          "record": {
+            "customerId": "2100128579",
+            "customerName": "上海市教育委员会",
+            "workDate": "2026-11-03",
+            "title": "2026-2027学年上海市青少年运动技能等级测试 · 客户经理录入商机并提交",
+            "content": "工作内容：客户经理 许鹏宇 通过工作台录入商机【2026-2027学年上海市青少年运动技能等级测试】，生成唯一编号 DF-OPP-20261103-MW0317M9-P1SGZS。",
+            "relatedUnit": null,
+            "actorName": "许鹏宇",
+            "actorRole": "客户经理",
+            "participants": [],
+            "recordUpdatedDate": null,
+            "projectIds": [
+              "dfproject:9d4cd52052eabc4e4368"
+            ],
+            "projectTypes": {
+              "dfproject:9d4cd52052eabc4e4368": "商机"
+            },
+            "id": "dongfeng:a4bed5cac0a33f63d61c5fbf",
+            "datePrecision": "explicit",
+            "sourceType": "dongfeng",
+            "sourceLabel": "东风平台 · 东风事件记录日期",
+            "sourceRecordId": "event:TL-1793673740242-1:2100128579",
+            "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
+            "firstSeenAt": "2026-11-03T14:42:27+08:00",
+            "updatedAt": "2026-11-03T14:42:27+08:00"
+          }
+        },
+        {
+          "key": "dongfeng-worklogs:dongfeng:98fdcae02884afc2fb56d2a4",
+          "change": "新增",
+          "record": {
+            "customerId": "2100128579",
+            "customerName": "上海市教育委员会",
+            "workDate": null,
+            "title": "2026-2027学年上海市青少年运动技能等级测试 · 最新项目记录",
+            "content": "项目：2026-2027学年上海市青少年运动技能等级测试\n建设内容：需提供田径、游泳、乒乓球、足球、篮球类一至三级的智能化测试方案、需提供测试现场监控录像服务，需提供现场报名及身份识别终端：内置电子学生证读卡器，支持读取上海电子学生证。\n最新进展：商机已录入，等待后续协同推进。\n下一步：待客户经理维护下一步计划。\n平台阶段：商机\n线索结果：已完成商机登记，后续结果待维护。\n中失标状态：PENDING",
+            "relatedUnit": null,
+            "actorName": "",
+            "actorRole": "",
+            "recordUpdatedDate": "2026-11-03",
+            "recordCreatedDate": "2026-11-03",
+            "responsibleManager": "许鹏宇",
+            "projectIds": [
+              "dfproject:9d4cd52052eabc4e4368"
+            ],
+            "projectTypes": {
+              "dfproject:9d4cd52052eabc4e4368": "商机"
+            },
+            "id": "dongfeng:98fdcae02884afc2fb56d2a4",
+            "datePrecision": "unknown",
+            "sourceType": "dongfeng",
+            "sourceLabel": "东风平台 · 实际工作日期未明确",
+            "sourceRecordId": "progress:TASK-1793673740242:2100128579",
+            "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
+            "firstSeenAt": "2026-11-03T14:42:27+08:00",
+            "updatedAt": "2026-11-03T14:42:27+08:00"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c4aa3280d4b86cdd425a7c1f",
+      "customerId": "2100128579",
+      "customerName": "上海市教育委员会",
+      "label": "商机进展",
+      "title": "商机进展更新",
+      "detectedAt": "2026-11-03T14:42:27+08:00",
+      "date": "2026-11-03",
+      "items": [
+        {
+          "key": "dongfeng-worklogs:dfproject:9d4cd52052eabc4e4368",
+          "change": "新增",
+          "record": {
+            "id": "dfproject:9d4cd52052eabc4e4368",
+            "aliasIds": [],
+            "customerId": "2100128579",
+            "customerName": "上海市教育委员会",
+            "name": "2026-2027学年上海市青少年运动技能等级测试",
+            "type": "商机",
+            "status": "商机",
+            "relatedUnit": "上海市教育委员会",
+            "taskIds": [
+              "TASK-1793673740242"
+            ],
+            "codes": [
+              "DF-OPP-20261103-MW0317M9-P1SGZS"
+            ],
+            "names": [
+              "2026-2027学年上海市青少年运动技能等级测试"
+            ],
+            "updatedAt": "2026-11-03T02:44:07.879Z",
+            "latestProgress": "商机已录入，等待后续协同推进。",
+            "actorName": "",
+            "actorRole": "",
+            "recordMethod": "商机记录 · 最新进展",
+            "sourceRecordId": "progress:TASK-1793673740242:2100128579",
+            "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG"
+          }
+        }
+      ]
     }
   ]
 }
