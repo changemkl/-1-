@@ -11,7 +11,17 @@ function weeklyUpdateDays(events,today){
   if(!['工作日志','商机进展'].includes(e.label)||!e.items?.length)return [e];
   return e.items.map((item,i)=>{const r=item.record||{};const sourceDate=r.workDate||r.recordUpdatedDate||(r.updatedAt?new Date(r.updatedAt).toLocaleDateString('en-CA',{timeZone:'Asia/Shanghai'}):null);return {...e,id:e.id+':'+i,date:/^\d{4}-\d{2}-\d{2}$/.test(sourceDate||'')?sourceDate:e.date,recordDated:!!sourceDate,items:[item]};});
  });
- return Array.from({length:7},(_,i)=>{const d=new Date(monday);d.setUTCDate(monday.getUTCDate()+i);const date=d.toISOString().slice(0,10);return {date,weekday:['周一','周二','周三','周四','周五','周六','周日'][i],events:dated.filter(e=>e.date===date&&e.date<=today).sort((a,b)=>b.detectedAt.localeCompare(a.detectedAt))};});
+ const merged=new Map();
+ for(const e of dated){
+  if(!['工作日志','商机进展'].includes(e.label)||!e.items?.length){merged.set(e.id,e);continue;}
+  for(const item of e.items){const r=item.record||{},ids=r.projectIds?.length?r.projectIds:[r.projectId||(e.label==='商机进展'?r.id:null)||item.key];
+   for(const id of ids){const key=JSON.stringify([e.date,e.customerId,id]);let group=merged.get(key);if(!group){group={...e,id:key,label:'商机进展',title:r.projectName||r.name||r.title?.split(' · ')[0]||'客户工作更新',items:[],compactProject:true};merged.set(key,group);}
+    const source=r.attributionRecordId||r.sourceRecordId||r.id||item.key;
+    if(!group.items.some(x=>(x.record.attributionRecordId||x.record.sourceRecordId||x.record.id||x.key)===source))group.items.push({...item,record:{...r,name:group.title,latestProgress:r.latestProgress||r.content||''}});
+   }
+  }
+ }
+ return Array.from({length:7},(_,i)=>{const d=new Date(monday);d.setUTCDate(monday.getUTCDate()+i);const date=d.toISOString().slice(0,10);return {date,weekday:['周一','周二','周三','周四','周五','周六','周日'][i],events:[...merged.values()].filter(e=>e.date===date&&e.date<=today).sort((a,b)=>b.detectedAt.localeCompare(a.detectedAt))};});
 }
 function changedUpdateMarkup(event,esc){
  const items=Array.isArray(event.items)?event.items:[];
@@ -38,6 +48,7 @@ if(typeof window!=='undefined')(()=>{
  document.body.append(overlay);const panel=overlay.querySelector('#home-drawer-panel');
  function close(immediate=false){overlay.classList.remove('is-open');document.body.classList.remove('org-open');clearTimeout(closeTimer);if(immediate)overlay.hidden=true;else{closeTimer=setTimeout(()=>overlay.hidden=true,260);trigger?.focus();}}
  function updateMarkup(e,customer){
+  if(e.compactProject){const people=[...new Set(e.items.map(x=>x.record.actorName).filter(Boolean))];return `<section class="weekly-update-entry"><header><span class="home-feed-meta"><strong>${esc(e.customerName)}</strong></span><p class="home-feed-project">${esc(e.title)} · 有更新</p><small class="home-feed-bottom">记录人：${esc(people.join('、')||'未明确')}</small></header></section>`;}
   const meta=`<span class="home-feed-meta"><strong>${esc(e.customerName)}</strong><time>${e.recordDated?'东风记录':esc(e.detectedAt.slice(11,16))}</time></span><span class="home-feed-project">${esc(e.title)}</span>`;
   if(['工作日志','商机进展','采购意向与招标','历史招标结果','合同信息'].includes(e.label))return `<section class="weekly-update-entry"><header>${meta}<span class="home-feed-bottom">${esc(e.label)}</span></header><div class="weekly-log-body">${changedUpdateMarkup(e,esc)}</div></section>`;
   return `<button type="button" class="home-feed-item" data-home-update="${esc(e.id)}">${meta}<span class="home-feed-bottom">${esc(e.label)}<span>查看详情 →</span></span></button>`;
