@@ -114,7 +114,7 @@
         "合同信息": "6cf76cc0a4d4cf6fa136f7aa7e7f453ea905870660a61d792b698cc73d4f2cef",
         "政策与建设方向": "6cf76cc0a4d4cf6fa136f7aa7e7f453ea905870660a61d792b698cc73d4f2cef",
         "工作日志": "4fc88c2d56f9375757fb784e44f07ee84435ab4ec7681d08aa7c424f5f00bfe6",
-        "商机进展": "2373fcd3a6b29356deaaf14ae1177dfd002ff52f2fcd2e6f4b1e5ae5b800b402",
+        "商机进展": "b96d9db77b121021e142ec190c267cd6f6774715b5efe923a29d8199cd99d260",
         "产品与场景": "5525b44441576e0bd057cb4ce592a3c91fd673eadec321351b692bc374cab303",
         "生态伙伴": "adfe6f8759dc89ddc9e6061b8863a62d2993ead41abdff501e722440aa8300a4",
         "客户基本信息": "85db9abead136b892a2c468ce39dfc397fe4cb2f3697f3862bf4288064e24743"
@@ -1057,7 +1057,7 @@
         },
         "商机进展": {
           "dongfeng-worklogs:dfproject:fa3ce348f5f1e9636696": {
-            "hash": "d401fe5e0d4d106366a6025fdd85b1a0b2a9691b28078599f8c0239d41831442",
+            "hash": "60921a08caeb3a804e634c2a98d8e7fff6c038f3e5c7ff10776060ec661861f7",
             "data": {
               "id": "dfproject:fa3ce348f5f1e9636696",
               "aliasIds": [],
@@ -1078,11 +1078,13 @@
               ],
               "updatedAt": "2026-11-01T13:22:19.673Z",
               "latestProgress": "1、对接AI业务部沟通，关于token运营准备材料，为下次约访做准备；\n2、因发改无需对本项目做批复，客户内部计划针对可研和运营方案做内部汇报评审，形式待确认",
-              "actorName": "",
-              "actorRole": "",
-              "recordMethod": "商机记录 · 最新进展",
+              "actorName": "张丽雯",
+              "actorRole": "客户经理",
+              "recordMethod": "日志 · 每日进展登记",
               "sourceRecordId": "progress:TASK-1788861966061:2100153629",
-              "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG"
+              "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
+              "attributionRecordId": "daily:TL-DAILY-8a35a626-0731-40cf-b921-294f430905ea:2100153629",
+              "attributionNote": "同项目、同日、进展正文一致的原始日志"
             }
           },
           "dongfeng-worklogs:dfproject:606f962792fa3b30961a": {
@@ -1466,7 +1468,7 @@
         "合同信息": "6cf76cc0a4d4cf6fa136f7aa7e7f453ea905870660a61d792b698cc73d4f2cef",
         "政策与建设方向": "6cf76cc0a4d4cf6fa136f7aa7e7f453ea905870660a61d792b698cc73d4f2cef",
         "工作日志": "743057079dd050d17a0b15118bd05b558fa64ab81af3073b9d87e37afd0b90e4",
-        "商机进展": "1328370b7c45de85c1cd102d116bf83d76d489d5dba04b559aff25db7f801943",
+        "商机进展": "2a7bf16e04f9197ae61ccc2269aabb18de94f5fb117a710e3837b8fc8fc96e53",
         "产品与场景": "5525b44441576e0bd057cb4ce592a3c91fd673eadec321351b692bc374cab303",
         "生态伙伴": "adfe6f8759dc89ddc9e6061b8863a62d2993ead41abdff501e722440aa8300a4",
         "客户基本信息": "fb3bf4a68ebc32927d0b346e8092ede9d996724361084bdc8c35e88f957f6f39"
@@ -1887,7 +1889,7 @@
             }
           },
           "dongfeng-worklogs:dfproject:60c9468cf60963d72821": {
-            "hash": "a1f2ed0248196bf912ea4157480f9e2abc324e4319bb3d8265fb18258a9ef2bc",
+            "hash": "7be394e34edab4e98a50f1131c623e0c613783148b8917110446faadde0077ac",
             "data": {
               "id": "dfproject:60c9468cf60963d72821",
               "aliasIds": [],
@@ -1908,11 +1910,13 @@
               ],
               "updatedAt": "2026-10-08T07:08:01.350Z",
               "latestProgress": "节前又协调到专家进行了调试，有了进步，可能还有机会",
-              "actorName": "",
-              "actorRole": "",
-              "recordMethod": "线索记录 · 最新进展",
+              "actorName": "张学慧",
+              "actorRole": "方案经理",
+              "recordMethod": "日志 · 每日进展登记",
               "sourceRecordId": "progress:DF-XS-0085-3F9AE9:2100199365",
-              "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG"
+              "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
+              "attributionRecordId": "daily:TL-DAILY-d7c20c1f-1849-4b0e-a9e3-3c800908e814:2100199365",
+              "attributionNote": "同项目、同日、进展正文一致的原始日志"
             }
           }
         }
@@ -2228,7 +2232,7 @@
         "合同信息": "43865dde3eec74ae0f33087cd9283a543474964d7d17792508c445bdc7cd583a",
         "政策与建设方向": "96ad9499cdbd8d32753e45fc41a8585e6f093dc3d62bc3160f3700ccd1b604d7",
         "工作日志": "7311b09b54e376cc4d33e02a5d09ceaef3c1fc4d0fd5db592320ad6442c8f3ea",
-        "商机进展": "929c98442e041dfd022f6dc8329acccb63de2e6a70fe1df80ab447bd278d0e1d",
+        "商机进展": "f40add085b8096b002ee5b37451a1492defd32f2bf996515d821364ad69ad5cf",
         "产品与场景": "5525b44441576e0bd057cb4ce592a3c91fd673eadec321351b692bc374cab303",
         "生态伙伴": "adfe6f8759dc89ddc9e6061b8863a62d2993ead41abdff501e722440aa8300a4",
         "客户基本信息": "4f3bb1296a15ada2fac0d05442cf8f501339991406d5b293a54d6edcb714d022"
@@ -14168,7 +14172,7 @@
             }
           },
           "dongfeng-worklogs:dfproject:3f3750bed8acb404e3ec": {
-            "hash": "1885c7b3f22ec03a0a13188ea30faa418d9a29cee23aef41edfa13b2ccdd885f",
+            "hash": "46a94f063a85ec9a3f72c54cd1a4bffbe651ee2b1ec8c23681b6dcdb31e097df",
             "data": {
               "id": "dfproject:3f3750bed8acb404e3ec",
               "aliasIds": [],
@@ -14189,15 +14193,17 @@
               ],
               "updatedAt": "2026-11-02T10:52:15.426Z",
               "latestProgress": "投标文件编写",
-              "actorName": "",
-              "actorRole": "",
-              "recordMethod": "商机记录 · 最新进展",
+              "actorName": "李锋",
+              "actorRole": "售前经理",
+              "recordMethod": "日志 · 每日进展登记",
               "sourceRecordId": "progress:TASK-1793106626674:2100000260",
-              "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG"
+              "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
+              "attributionRecordId": "daily:TL-DAILY-c7e797b9-3558-4557-a43b-efd73c6a24ca:2100000260",
+              "attributionNote": "同项目、同日、进展正文一致的原始日志"
             }
           },
           "dongfeng-worklogs:dfproject:765836965dbf61a990c3": {
-            "hash": "fc1e8b99bd96f81af0eb356c6ab06a6d3ca13059e294165339525cef7069a245",
+            "hash": "61b049318f297ecafe08043d1c75d1875757e5cae65d8cc9fd5ee1135742345a",
             "data": {
               "id": "dfproject:765836965dbf61a990c3",
               "aliasIds": [],
@@ -14218,15 +14224,17 @@
               ],
               "updatedAt": "2026-10-27T03:42:19.063Z",
               "latestProgress": "11月8日投标，跟进成本评估、标书制作。",
-              "actorName": "",
-              "actorRole": "",
-              "recordMethod": "商机记录 · 最新进展",
+              "actorName": "贠泽",
+              "actorRole": "客户经理",
+              "recordMethod": "日志 · 每日进展登记",
               "sourceRecordId": "progress:TASK-1793071926637:2100000260",
-              "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG"
+              "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
+              "attributionRecordId": "daily:TL-DAILY-e2887d1e-5293-4c04-97b0-54ddf5218604:2100000260",
+              "attributionNote": "同项目、同日、进展正文一致的原始日志"
             }
           },
           "dongfeng-worklogs:dfproject:c7479a8ee38d25dee6b5": {
-            "hash": "51f1cee07ca8dde25065618173f481753e9339e2bcfccba75b0acd27d06d8e9f",
+            "hash": "faf8acbe6065d6e730703791d8c79519f59fb64b68737685833830ca9809b785",
             "data": {
               "id": "dfproject:c7479a8ee38d25dee6b5",
               "aliasIds": [],
@@ -14247,11 +14255,13 @@
               ],
               "updatedAt": "2026-11-02T08:56:23.791Z",
               "latestProgress": "1、青浦十三五雪亮增补项目：\na)点位查勘：今日完成全量344点位，预计中移信息5号前完成汇总；\nb)方案编制：按照领导要求及修改建议，更新一版高拜的合作建议，同时重新调整原先的顶设方案为合作建议的附件，并调整其中的内容，尽可能贴合合作建议。",
-              "actorName": "",
-              "actorRole": "",
-              "recordMethod": "线索记录 · 最新进展",
+              "actorName": "赵恩达",
+              "actorRole": "方案经理",
+              "recordMethod": "日志 · 每日进展登记",
               "sourceRecordId": "progress:TASK-1792398967815:2100000260",
-              "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG"
+              "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
+              "attributionRecordId": "daily:TL-DAILY-61cfe0da-6eb6-4bf2-94ea-af5a454df546:2100000260",
+              "attributionNote": "同项目、同日、进展正文一致的原始日志"
             }
           },
           "dongfeng-worklogs:dfproject:a088984e837f8942f6a3": {
@@ -14487,7 +14497,7 @@
             }
           },
           "dongfeng-worklogs:dfproject:e8f57033167fb2d911a5": {
-            "hash": "1cefe04d6889086342208b3f12c78bbe6cb8b8e000aac2398af27c44af9ba73c",
+            "hash": "7dd3262e30c894fa6063a49a8538bb285967eb3ec666b61f116ea548b1bd68d6",
             "data": {
               "id": "dfproject:e8f57033167fb2d911a5",
               "aliasIds": [],
@@ -14508,11 +14518,13 @@
               ],
               "updatedAt": "2026-10-23T08:09:26.112Z",
               "latestProgress": "华信设计院反馈点位勘测和设计的报价预算，同时要求确定合同才能启动勘测工作，与战客融合BU同步研判成本费用出处。",
-              "actorName": "",
-              "actorRole": "",
-              "recordMethod": "商机记录 · 最新进展",
+              "actorName": "黄深远",
+              "actorRole": "方案经理",
+              "recordMethod": "日志 · 每日进展登记",
               "sourceRecordId": "progress:TASK-1792058909132:2100000260",
-              "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG"
+              "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
+              "attributionRecordId": "daily:TL-DAILY-fed8e243-7c1b-4fba-a7ee-177e6168ff88:2100000260",
+              "attributionNote": "同项目、同日、进展正文一致的原始日志"
             }
           },
           "dongfeng-worklogs:dfproject:9318a38d73b68888b8f7": {
@@ -14808,7 +14820,7 @@
             }
           },
           "dongfeng-worklogs:dfproject:330aecec09db83e4e920": {
-            "hash": "6f426a8b33b6f15c80406bb16a4bb5a1e359f3e341a22fefd8b165aa7ae52c7c",
+            "hash": "7774d07121f81539642f6ce7dc67b01fa9d99a593a3df741938cbe5c0e64865a",
             "data": {
               "id": "dfproject:330aecec09db83e4e920",
               "aliasIds": [],
@@ -14829,11 +14841,13 @@
               ],
               "updatedAt": "2026-09-28T01:35:16.970Z",
               "latestProgress": "目前中移信息支撑中",
-              "actorName": "",
-              "actorRole": "",
-              "recordMethod": "商机记录 · 最新进展",
+              "actorName": "唐隆",
+              "actorRole": "客户经理",
+              "recordMethod": "日志 · 每日进展登记",
               "sourceRecordId": "progress:DF-OPP-0040-8D86DF:2100000260",
-              "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG"
+              "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
+              "attributionRecordId": "daily:TL-DAILY-d4fcc2bf-df7e-49fd-9c02-5da2d6cbf203:2100000260",
+              "attributionNote": "同项目、同日、进展正文一致的原始日志"
             }
           },
           "dongfeng-worklogs:dfproject:2807720371d603717c64": {
@@ -14953,7 +14967,7 @@
             }
           },
           "dongfeng-worklogs:dfproject:2e5b4486160f584242d6": {
-            "hash": "117c619f6af65942cc1cbe602b1257cf2960bcbbb3cd64b9b3ba47410679b33f",
+            "hash": "33d55e07eb7b2d01c6f19e22c3f50e65d81e2aac6e856adcd85c935f4153b174",
             "data": {
               "id": "dfproject:2e5b4486160f584242d6",
               "aliasIds": [],
@@ -14974,11 +14988,13 @@
               ],
               "updatedAt": "2026-10-27T13:35:05.888Z",
               "latestProgress": "青浦移动已协同电信，东方有线两次与政法委沟通，最终确定由公安牵头进行推进。",
-              "actorName": "",
-              "actorRole": "",
-              "recordMethod": "商机记录 · 最新进展",
+              "actorName": "任志伟",
+              "actorRole": "客户经理",
+              "recordMethod": "日志 · 每日进展登记",
               "sourceRecordId": "progress:DF-OPP-0134-062F60:2100000260",
-              "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG"
+              "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
+              "attributionRecordId": "daily:TL-DAILY-e91b1244-219b-417c-beac-43270edef492:2100000260",
+              "attributionNote": "同项目、同日、进展正文一致的原始日志"
             }
           },
           "dongfeng-worklogs:dfproject:444fa24d57654780a494": {
@@ -15040,7 +15056,7 @@
             }
           },
           "dongfeng-worklogs:dfproject:80808b990bf50250a018": {
-            "hash": "e01c96509585fb60b6adf155c818c50abd3e9e8f94a0a124578df63ddf3ccca4",
+            "hash": "bd90750838fe23aa9fda432de074d5428cb5163ff15a9b00172f4850756d849c",
             "data": {
               "id": "dfproject:80808b990bf50250a018",
               "aliasIds": [],
@@ -15061,11 +15077,13 @@
               ],
               "updatedAt": "2026-10-30T08:57:59.591Z",
               "latestProgress": "平台包件的可研方案正在进行评审，预计今日定稿。",
-              "actorName": "",
-              "actorRole": "",
-              "recordMethod": "商机记录 · 最新进展",
+              "actorName": "赵恩达",
+              "actorRole": "方案经理",
+              "recordMethod": "日志 · 每日进展登记",
               "sourceRecordId": "progress:DF-OPP-0140-049147:2100000260",
-              "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG"
+              "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
+              "attributionRecordId": "daily:TL-DAILY-38cb049c-f6fd-4cb3-aabd-17b5c7269ea4:2100000260",
+              "attributionNote": "同项目、同日、进展正文一致的原始日志"
             }
           },
           "dongfeng-worklogs:dfproject:bac68a6a402c2b00fd7d": {
@@ -15214,7 +15232,7 @@
             }
           },
           "dongfeng-worklogs:dfproject:b7672182d8a8f8d2f8a8": {
-            "hash": "7c668193a8a00cb2df3d2206855955d5b3da0f595d3090453f07c217f096d709",
+            "hash": "eed74da9d512167d257d156d2a87a61ec2cc72978458a606bc1904fefd76a95b",
             "data": {
               "id": "dfproject:b7672182d8a8f8d2f8a8",
               "aliasIds": [],
@@ -15235,11 +15253,13 @@
               ],
               "updatedAt": "2026-10-10T11:17:47.792Z",
               "latestProgress": "与浦东移动沟通项目情况，暂无新进展",
-              "actorName": "",
-              "actorRole": "",
-              "recordMethod": "商机记录 · 最新进展",
+              "actorName": "贠泽",
+              "actorRole": "客户经理",
+              "recordMethod": "日志 · 每日进展登记",
               "sourceRecordId": "progress:DF-OPP-0235-41949E:2100000260",
-              "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG"
+              "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
+              "attributionRecordId": "daily:TL-DAILY-cd2873cd-3b51-4e69-9fe6-35a63d601793:2100000260",
+              "attributionNote": "同项目、同日、进展正文一致的原始日志"
             }
           },
           "dongfeng-worklogs:dfproject:b4877670e747d5e9862c": {
@@ -15417,7 +15437,7 @@
             }
           },
           "dongfeng-worklogs:dfproject:3af9bfba002d44a78857": {
-            "hash": "7a673cac737c265d0044f757db4cf350d40a379ed9a0ce3aa05286552272b979",
+            "hash": "3b5b5e79d9e9123c96cc9f19e40422ff99097289adc6ae341c7ab4535223763b",
             "data": {
               "id": "dfproject:3af9bfba002d44a78857",
               "aliasIds": [],
@@ -15438,11 +15458,13 @@
               ],
               "updatedAt": "2026-11-02T10:13:25.577Z",
               "latestProgress": "协调相关生态进行线下沟通，包括深信服、华为、宇视，推进专班组建工作。",
-              "actorName": "",
-              "actorRole": "",
-              "recordMethod": "商机记录 · 最新进展",
+              "actorName": "王洪飞",
+              "actorRole": "客户经理",
+              "recordMethod": "日志 · 每日进展登记",
               "sourceRecordId": "progress:DF-OPP-0281-C013A2:2100000260",
-              "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG"
+              "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
+              "attributionRecordId": "daily:TL-DAILY-3e0b39d4-ad58-4c06-9c61-47f0b52ff2f8:2100000260",
+              "attributionNote": "同项目、同日、进展正文一致的原始日志"
             }
           },
           "dongfeng-worklogs:dfproject:33226f691c1bb8d94781": {
@@ -15489,7 +15511,7 @@
         "合同信息": "6cf76cc0a4d4cf6fa136f7aa7e7f453ea905870660a61d792b698cc73d4f2cef",
         "政策与建设方向": "6cf76cc0a4d4cf6fa136f7aa7e7f453ea905870660a61d792b698cc73d4f2cef",
         "工作日志": "3913d878236630ba52ae729f89feb58cdd4eb976d23c9e5f5b3b4b061f2d7422",
-        "商机进展": "9d3a87e66b76333aa2bd1cb63e1d4bb24952b34962b726fa7e7c2b37dfa73966",
+        "商机进展": "622ca8fbbcc58c0eb81dd6b871faa408c7258f5ac816c8c5c3b613c3fd771300",
         "产品与场景": "5525b44441576e0bd057cb4ce592a3c91fd673eadec321351b692bc374cab303",
         "生态伙伴": "adfe6f8759dc89ddc9e6061b8863a62d2993ead41abdff501e722440aa8300a4",
         "客户基本信息": "141d4be2652c085297390008e0e7b7d8d24d72ff23ccc6fa64125f8a58fbc38a"
@@ -17484,7 +17506,7 @@
         },
         "商机进展": {
           "dongfeng-worklogs:dfproject:0a087fb268e40ee9cdbf": {
-            "hash": "18dbb342c86182f5f6394fb3c3395028981eed43198ca403958a48fc2074ee58",
+            "hash": "316b7a018fb6c1c8291a53acf86dc170db63984276c106dca62d1ec4df2cacfc",
             "data": {
               "id": "dfproject:0a087fb268e40ee9cdbf",
               "aliasIds": [],
@@ -17505,15 +17527,17 @@
               ],
               "updatedAt": "2026-10-27T07:21:08.257Z",
               "latestProgress": "经过领导沟通确认，包七拟有LT承接，暂不参与该项目",
-              "actorName": "",
-              "actorRole": "",
-              "recordMethod": "商机记录 · 最新进展",
+              "actorName": "陈刚",
+              "actorRole": "方案经理",
+              "recordMethod": "日志 · 每日进展登记",
               "sourceRecordId": "progress:TASK-1789116414976:2100000172",
-              "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG"
+              "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
+              "attributionRecordId": "daily:TL-DAILY-846f1026-461b-4da9-98ad-e9dbb5221642:2100000172",
+              "attributionNote": "同项目、同日、进展正文一致的原始日志"
             }
           },
           "dongfeng-worklogs:dfproject:71957667c1ba7f3d1b95": {
-            "hash": "c1be59891afc068f29e60b0c8c4ac3ca0ed810b9fc421b0bf22de41399d4e40a",
+            "hash": "6bdec378f5ce25af8bb20bdb137cde78afe2137cb14f3a2031e1e8e43b2731a1",
             "data": {
               "id": "dfproject:71957667c1ba7f3d1b95",
               "aliasIds": [],
@@ -17534,15 +17558,17 @@
               ],
               "updatedAt": "2026-11-02T08:43:07.453Z",
               "latestProgress": "分析招标文件、明确招标文件评分项",
-              "actorName": "",
-              "actorRole": "",
-              "recordMethod": "商机记录 · 最新进展",
+              "actorName": "王凯",
+              "actorRole": "方案经理",
+              "recordMethod": "日志 · 每日进展登记",
               "sourceRecordId": "progress:TASK-1788949735381:2100000172",
-              "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG"
+              "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
+              "attributionRecordId": "daily:TL-DAILY-e1889f65-894d-44b8-b480-342b9fd4f0a5:2100000172",
+              "attributionNote": "同项目、同日、进展正文一致的原始日志"
             }
           },
           "dongfeng-worklogs:dfproject:a509d5fb204492a9f548": {
-            "hash": "32b9b0dd226f18832325c5f63f4f5fa7ccb2148f8155268f6e04baed965fd096",
+            "hash": "53f4d95191c481c5109724960478f2dcf44c2b6e981a9168a5aa68d740089e87",
             "data": {
               "id": "dfproject:a509d5fb204492a9f548",
               "aliasIds": [],
@@ -17563,11 +17589,13 @@
               ],
               "updatedAt": "2026-11-02T08:59:14.085Z",
               "latestProgress": "向咨询公司提供修改后参数方案",
-              "actorName": "",
-              "actorRole": "",
-              "recordMethod": "商机记录 · 最新进展",
+              "actorName": "王凯",
+              "actorRole": "方案经理",
+              "recordMethod": "日志 · 每日进展登记",
               "sourceRecordId": "progress:TASK-1788949638479-OPP:2100000172",
-              "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG"
+              "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
+              "attributionRecordId": "daily:TL-DAILY-c470f54a-0737-4353-9d88-fee48ca79dfc:2100000172",
+              "attributionNote": "同项目、同日、进展正文一致的原始日志"
             }
           }
         }
@@ -18217,7 +18245,7 @@
         "合同信息": "6cf76cc0a4d4cf6fa136f7aa7e7f453ea905870660a61d792b698cc73d4f2cef",
         "政策与建设方向": "6cf76cc0a4d4cf6fa136f7aa7e7f453ea905870660a61d792b698cc73d4f2cef",
         "工作日志": "60bbe5aef5b3bdb952b45f3f17e31e29eb9c3abccda1b3056465fe3e97cc4b11",
-        "商机进展": "ecfdbb1714b774c965a6393e2429efbf5bb57cb9e179c46463e2521d5b862007",
+        "商机进展": "41d3c928d14cae2c9f4c4070f7415a8075325810e60f6a82864d86d23913ace2",
         "产品与场景": "5525b44441576e0bd057cb4ce592a3c91fd673eadec321351b692bc374cab303",
         "生态伙伴": "adfe6f8759dc89ddc9e6061b8863a62d2993ead41abdff501e722440aa8300a4",
         "客户基本信息": "64580260d10a57354245aa363a3fe212530a35d8f7e56f2717b1a21a0b98aae5"
@@ -19098,7 +19126,7 @@
         },
         "商机进展": {
           "dongfeng-worklogs:dfproject:b076166a47b3bf9bd95c": {
-            "hash": "2e8a474507be7063f6048ea2e2c2d3f75d6ce1eb5dc2f9b1b81ff5d21083ae61",
+            "hash": "2f62289229c65f45279fc036dbf426b9014f41eece35b6fd84050eac54456832",
             "data": {
               "id": "dfproject:b076166a47b3bf9bd95c",
               "aliasIds": [],
@@ -19119,11 +19147,13 @@
               ],
               "updatedAt": "2026-10-22T07:41:49.440Z",
               "latestProgress": "之前我们提供了一版建设方案，客户反馈软件已经有厂家在做，我们可以通过算力，但是联通也在参与，联通可以前期免费提供测试，我们要一个月2万多。",
-              "actorName": "",
-              "actorRole": "",
-              "recordMethod": "线索记录 · 最新进展",
+              "actorName": "张学慧",
+              "actorRole": "方案经理",
+              "recordMethod": "日志 · 每日进展登记",
               "sourceRecordId": "progress:TASK-1789720207192:2100172632",
-              "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG"
+              "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
+              "attributionRecordId": "daily:TL-DAILY-72527656-68a8-4d68-982b-60bab491de1e:2100172632",
+              "attributionNote": "同项目、同日、进展正文一致的原始日志"
             }
           },
           "dongfeng-worklogs:dfproject:6449f93bc4ff2aeae132": {
@@ -19170,7 +19200,7 @@
         "合同信息": "6cf76cc0a4d4cf6fa136f7aa7e7f453ea905870660a61d792b698cc73d4f2cef",
         "政策与建设方向": "6cf76cc0a4d4cf6fa136f7aa7e7f453ea905870660a61d792b698cc73d4f2cef",
         "工作日志": "3ee0388bdaa7ef16a2d343d9f667c9393385a713924814f57182cac8cde49d58",
-        "商机进展": "3ae40e424cfa9862da37e985ea1a6ca6b7b073bf0f41e85842e11a6c700d23d0",
+        "商机进展": "60c7ef27e527c5d142e46a04d95a6eb0f455e222d340f093a42ba64de970329d",
         "产品与场景": "5525b44441576e0bd057cb4ce592a3c91fd673eadec321351b692bc374cab303",
         "生态伙伴": "adfe6f8759dc89ddc9e6061b8863a62d2993ead41abdff501e722440aa8300a4",
         "客户基本信息": "1845b42d7bded422a3f3f01fc57675563077efb3fff45e8aaaa10adde50bba72"
@@ -20033,7 +20063,7 @@
         },
         "商机进展": {
           "dongfeng-worklogs:dfproject:254d20693b9deede8259": {
-            "hash": "2844a0d1973028b1cd7c0fc3c38d767144e0a6fea786e8fc905427718496664f",
+            "hash": "b36b1bf61efaed6ffdebda01f737d223f7f20a4113713ce1bdbc43100579dd73",
             "data": {
               "id": "dfproject:254d20693b9deede8259",
               "aliasIds": [],
@@ -20054,11 +20084,13 @@
               ],
               "updatedAt": "2026-11-02T08:38:26.308Z",
               "latestProgress": "对项目进行评估研判，寻找相关厂家",
-              "actorName": "",
-              "actorRole": "",
-              "recordMethod": "商机记录 · 最新进展",
+              "actorName": "万全旦",
+              "actorRole": "方案经理",
+              "recordMethod": "日志 · 每日进展登记",
               "sourceRecordId": "progress:TASK-1789108486909:2100128579",
-              "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG"
+              "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
+              "attributionRecordId": "daily:TL-DAILY-2309d0dc-4c93-4c81-85e4-1b4e4970925c:2100128579",
+              "attributionNote": "同项目、同日、进展正文一致的原始日志"
             }
           }
         }
@@ -20076,7 +20108,7 @@
         "合同信息": "6cf76cc0a4d4cf6fa136f7aa7e7f453ea905870660a61d792b698cc73d4f2cef",
         "政策与建设方向": "6cf76cc0a4d4cf6fa136f7aa7e7f453ea905870660a61d792b698cc73d4f2cef",
         "工作日志": "f21e97bfe222963b9d24fc74db7012af758aafb4d2bae22b0c10677ceb20b61b",
-        "商机进展": "415609c5ae80f4cc219094fc6b6a0aa71f812f18606bc4b75a91b90b03115f46",
+        "商机进展": "66762438463e0d3a46948e8126160decdb8690c8dd57d958dc373a13de3906eb",
         "产品与场景": "5525b44441576e0bd057cb4ce592a3c91fd673eadec321351b692bc374cab303",
         "生态伙伴": "adfe6f8759dc89ddc9e6061b8863a62d2993ead41abdff501e722440aa8300a4",
         "客户基本信息": "fa2a2035a59b5f0b163af9d81bbda50c9dcb7730a647dae7532eb28b258ac0fb"
@@ -21360,7 +21392,7 @@
             }
           },
           "dongfeng-worklogs:dfproject:4bfab21885f66779c2ff": {
-            "hash": "6f208f34ecdcb7fcef83dfbe0e7384a560bbfe6e50e04601cbb7064568e135b0",
+            "hash": "35de325430cf1b333e0aa4bee858e37b5b4f81311567d4ff2f8e5073db5b9f5a",
             "data": {
               "id": "dfproject:4bfab21885f66779c2ff",
               "aliasIds": [],
@@ -21381,11 +21413,13 @@
               ],
               "updatedAt": "2026-10-08T07:06:43.551Z",
               "latestProgress": "结果还没发，但是内部说电信中标了，联通可能会发质疑，但是应该不会产生太大的影响",
-              "actorName": "",
-              "actorRole": "",
-              "recordMethod": "线索记录 · 最新进展",
+              "actorName": "张学慧",
+              "actorRole": "方案经理",
+              "recordMethod": "日志 · 每日进展登记",
               "sourceRecordId": "progress:DF-XS-0089-E28D8B:2100161493",
-              "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG"
+              "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
+              "attributionRecordId": "daily:TL-DAILY-e8c16dfc-55ca-457d-97e4-9516cbf20b54:2100161493",
+              "attributionNote": "同项目、同日、进展正文一致的原始日志"
             }
           }
         }
@@ -22675,7 +22709,7 @@
         "合同信息": "6cf76cc0a4d4cf6fa136f7aa7e7f453ea905870660a61d792b698cc73d4f2cef",
         "政策与建设方向": "6cf76cc0a4d4cf6fa136f7aa7e7f453ea905870660a61d792b698cc73d4f2cef",
         "工作日志": "32d0c0b18b3963d6846f83309d37a7c064da55edb07f7cda5efbe7bbdf935b27",
-        "商机进展": "55f6684517ab84c18aa3812592073a0d8812f5280069851cf40239d82b3c71ce",
+        "商机进展": "9732447393cae56f4c8716fe3454612c8c65775c1be9f43619cef1bb44f5393b",
         "产品与场景": "5525b44441576e0bd057cb4ce592a3c91fd673eadec321351b692bc374cab303",
         "生态伙伴": "adfe6f8759dc89ddc9e6061b8863a62d2993ead41abdff501e722440aa8300a4",
         "客户基本信息": "020e9affae176a27f390432d8de957bf9187f9ccea5eaae47999f473bb0f949c"
@@ -23228,7 +23262,7 @@
         },
         "商机进展": {
           "dongfeng-worklogs:dfproject:98fe07fe6fb73dc075ce": {
-            "hash": "20b4a8ca053cb9d4cb7a90104b8795e60ffdeb9425e962b6e6cc740edeaba1a6",
+            "hash": "6088bcdad3f5c56d9ca338a2e4e8ce5b115d2e990aa50ed155f3b62c11e8af34",
             "data": {
               "id": "dfproject:98fe07fe6fb73dc075ce",
               "aliasIds": [],
@@ -23249,11 +23283,13 @@
               ],
               "updatedAt": "2026-10-19T07:39:00.970Z",
               "latestProgress": "准备变更项目经理",
-              "actorName": "",
-              "actorRole": "",
-              "recordMethod": "商机记录 · 最新进展",
+              "actorName": "许鹏宇",
+              "actorRole": "客户经理",
+              "recordMethod": "日志 · 每日进展登记",
               "sourceRecordId": "progress:TASK-1789440101470-OPP:name:上海市委党校",
-              "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG"
+              "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
+              "attributionRecordId": "daily:TL-DAILY-80809a57-6beb-41ea-8d5b-73c58f8b462a:name:上海市委党校",
+              "attributionNote": "同项目、同日、进展正文一致的原始日志"
             }
           },
           "dongfeng-worklogs:dfproject:e0b02be0a716bcfa90c7": {
@@ -23300,7 +23336,7 @@
         "合同信息": "6cf76cc0a4d4cf6fa136f7aa7e7f453ea905870660a61d792b698cc73d4f2cef",
         "政策与建设方向": "6cf76cc0a4d4cf6fa136f7aa7e7f453ea905870660a61d792b698cc73d4f2cef",
         "工作日志": "93fd20d4ce5be6054af969e3ce9820b6741cacbf763ef14f1b52f3a3f8cb955d",
-        "商机进展": "6a05aee1c49e81ba5260abf07c7b0a19a783de8513f6a8a5c370f1383ebdb034",
+        "商机进展": "49eea08ab58d513b8ba75036e948dd48f578266a4fe327c23a60c9a5acf9f16f",
         "产品与场景": "5525b44441576e0bd057cb4ce592a3c91fd673eadec321351b692bc374cab303",
         "生态伙伴": "adfe6f8759dc89ddc9e6061b8863a62d2993ead41abdff501e722440aa8300a4",
         "客户基本信息": "26714b0cc3f2d0d8be3b8f8afe5cbcdfd0658da18a6e6388f965edb374f92d49"
@@ -23569,7 +23605,7 @@
         },
         "商机进展": {
           "dongfeng-worklogs:dfproject:bbf269384c489f974cf9": {
-            "hash": "cb1935aee91d81b7ebcbfc803ac1dd047eaefced8fcf3085b440207b05e85517",
+            "hash": "b184cf696867c30bd7dc8a1c274fcadb6229889cdd6c59f5ff02add34233e3b6",
             "data": {
               "id": "dfproject:bbf269384c489f974cf9",
               "aliasIds": [],
@@ -23590,11 +23626,13 @@
               ],
               "updatedAt": "2026-10-30T03:22:38.980Z",
               "latestProgress": "编制汇报交流材料",
-              "actorName": "",
-              "actorRole": "",
-              "recordMethod": "商机记录 · 最新进展",
+              "actorName": "李慧强",
+              "actorRole": "方案经理",
+              "recordMethod": "日志 · 每日进展登记",
               "sourceRecordId": "progress:DF-OPP-0118-04A83D:name:上海市城市运行管理中心",
-              "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG"
+              "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
+              "attributionRecordId": "daily:TL-DAILY-dc6b80e8-d8ca-4620-91fe-e3ff0478ccf3:name:上海市城市运行管理中心",
+              "attributionNote": "同项目、同日、进展正文一致的原始日志"
             }
           }
         }
@@ -23612,7 +23650,7 @@
         "合同信息": "6cf76cc0a4d4cf6fa136f7aa7e7f453ea905870660a61d792b698cc73d4f2cef",
         "政策与建设方向": "6cf76cc0a4d4cf6fa136f7aa7e7f453ea905870660a61d792b698cc73d4f2cef",
         "工作日志": "3e9a10a290ccb87990becc023bcf1887d856fd6630ecc2ab161e276e44c93d39",
-        "商机进展": "fae40ed7cbb7749c0ea569f7d8691585a8c42c87ce26760438a5db631213eec6",
+        "商机进展": "50c544a627cd35b6e1cec7cee930cc6a2cd7cf6d6a295f8066b0523d2211962e",
         "产品与场景": "5525b44441576e0bd057cb4ce592a3c91fd673eadec321351b692bc374cab303",
         "生态伙伴": "adfe6f8759dc89ddc9e6061b8863a62d2993ead41abdff501e722440aa8300a4",
         "客户基本信息": "3cf2455e9dd0e431cdb76346d64923bf8cce77c4bee821d6b6e31ab3f1855d2b"
@@ -25209,7 +25247,7 @@
         },
         "商机进展": {
           "dongfeng-worklogs:dfproject:898c22dd19801bef6af7": {
-            "hash": "d4f618f2999aa5e36c25e917f05e1dec6a546f97605acee740cf3e4a68c15968",
+            "hash": "59ec7df7869ee8e8ba855d716f60edd78c58489d993513431e9c0c9b1c7232db",
             "data": {
               "id": "dfproject:898c22dd19801bef6af7",
               "aliasIds": [],
@@ -25230,11 +25268,13 @@
               ],
               "updatedAt": "2026-10-19T07:50:23.609Z",
               "latestProgress": "未中标",
-              "actorName": "",
-              "actorRole": "",
-              "recordMethod": "商机记录 · 最新进展",
+              "actorName": "许鹏宇",
+              "actorRole": "客户经理",
+              "recordMethod": "日志 · 每日进展登记",
               "sourceRecordId": "progress:TASK-1789039738594-OPP:name:上海市总工会",
-              "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG"
+              "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
+              "attributionRecordId": "daily:TL-DAILY-ff924231-a998-44f4-bb81-061b6a5326ca:name:上海市总工会",
+              "attributionNote": "同项目、同日、进展正文一致的原始日志"
             }
           }
         }
@@ -25448,5 +25488,5 @@
       }
     }
   },
-  "updatedAt": "2026-11-03T10:11:03+08:00"
+  "updatedAt": "2026-11-03T10:12:11+08:00"
 }

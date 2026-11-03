@@ -590,6 +590,756 @@
           }
         }
       ]
+    },
+    {
+      "id": "7890e5c4cd6fead066da7800",
+      "customerId": "2100153629",
+      "customerName": "公安部第三研究所",
+      "label": "商机进展",
+      "title": "商机进展更新",
+      "detectedAt": "2026-11-03T10:12:11+08:00",
+      "date": "2026-11-03",
+      "items": [
+        {
+          "key": "dongfeng-worklogs:dfproject:fa3ce348f5f1e9636696",
+          "change": "修改",
+          "record": {
+            "id": "dfproject:fa3ce348f5f1e9636696",
+            "aliasIds": [],
+            "customerId": "2100153629",
+            "customerName": "公安部第三研究所",
+            "name": "公安三所人工智能算力中心项目",
+            "type": "商机",
+            "status": "商机",
+            "relatedUnit": "公安部第三研究所",
+            "taskIds": [
+              "TASK-1788861966061"
+            ],
+            "codes": [
+              "DF-OPP-20260908-MTSI86W5-WGQCFN"
+            ],
+            "names": [
+              "公安三所人工智能算力中心项目"
+            ],
+            "updatedAt": "2026-11-01T13:22:19.673Z",
+            "latestProgress": "1、对接AI业务部沟通，关于token运营准备材料，为下次约访做准备；\n2、因发改无需对本项目做批复，客户内部计划针对可研和运营方案做内部汇报评审，形式待确认",
+            "actorName": "张丽雯",
+            "actorRole": "客户经理",
+            "recordMethod": "日志 · 每日进展登记",
+            "sourceRecordId": "progress:TASK-1788861966061:2100153629",
+            "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
+            "attributionRecordId": "daily:TL-DAILY-8a35a626-0731-40cf-b921-294f430905ea:2100153629",
+            "attributionNote": "同项目、同日、进展正文一致的原始日志"
+          }
+        }
+      ]
+    },
+    {
+      "id": "05ef8fa7e9e99a7b41a43942",
+      "customerId": "2100199365",
+      "customerName": "中国建筑第八工程局有限公司",
+      "label": "商机进展",
+      "title": "商机进展更新",
+      "detectedAt": "2026-11-03T10:12:11+08:00",
+      "date": "2026-11-03",
+      "items": [
+        {
+          "key": "dongfeng-worklogs:dfproject:60c9468cf60963d72821",
+          "change": "修改",
+          "record": {
+            "id": "dfproject:60c9468cf60963d72821",
+            "aliasIds": [],
+            "customerId": "2100199365",
+            "customerName": "中国建筑第八工程局有限公司",
+            "name": "城市运维数字化项目",
+            "type": "线索",
+            "status": "线索",
+            "relatedUnit": "中建八局",
+            "taskIds": [
+              "DF-XS-0085-3F9AE9"
+            ],
+            "codes": [
+              "DF-XS-0085-3F9AE9"
+            ],
+            "names": [
+              "城市运维数字化项目"
+            ],
+            "updatedAt": "2026-10-08T07:08:01.350Z",
+            "latestProgress": "节前又协调到专家进行了调试，有了进步，可能还有机会",
+            "actorName": "张学慧",
+            "actorRole": "方案经理",
+            "recordMethod": "日志 · 每日进展登记",
+            "sourceRecordId": "progress:DF-XS-0085-3F9AE9:2100199365",
+            "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
+            "attributionRecordId": "daily:TL-DAILY-d7c20c1f-1849-4b0e-a9e3-3c800908e814:2100199365",
+            "attributionNote": "同项目、同日、进展正文一致的原始日志"
+          }
+        }
+      ]
+    },
+    {
+      "id": "f40b4128c225bda642eaf795",
+      "customerId": "2100000260",
+      "customerName": "上海市公安局",
+      "label": "商机进展",
+      "title": "商机进展更新",
+      "detectedAt": "2026-11-03T10:12:11+08:00",
+      "date": "2026-11-03",
+      "items": [
+        {
+          "key": "dongfeng-worklogs:dfproject:3f3750bed8acb404e3ec",
+          "change": "修改",
+          "record": {
+            "id": "dfproject:3f3750bed8acb404e3ec",
+            "aliasIds": [],
+            "customerId": "2100000260",
+            "customerName": "上海市公安局",
+            "name": "图像监控系统前端设备及基础设施运维",
+            "type": "商机",
+            "status": "投标中",
+            "relatedUnit": "上海市公安局浦东分局",
+            "taskIds": [
+              "TASK-1793106626674"
+            ],
+            "codes": [
+              "DF-OPP-20261027-MVQPDZZL-EC0J61"
+            ],
+            "names": [
+              "图像监控系统前端设备及基础设施运维"
+            ],
+            "updatedAt": "2026-11-02T10:52:15.426Z",
+            "latestProgress": "投标文件编写",
+            "actorName": "李锋",
+            "actorRole": "售前经理",
+            "recordMethod": "日志 · 每日进展登记",
+            "sourceRecordId": "progress:TASK-1793106626674:2100000260",
+            "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
+            "attributionRecordId": "daily:TL-DAILY-c7e797b9-3558-4557-a43b-efd73c6a24ca:2100000260",
+            "attributionNote": "同项目、同日、进展正文一致的原始日志"
+          }
+        },
+        {
+          "key": "dongfeng-worklogs:dfproject:765836965dbf61a990c3",
+          "change": "修改",
+          "record": {
+            "id": "dfproject:765836965dbf61a990c3",
+            "aliasIds": [],
+            "customerId": "2100000260",
+            "customerName": "上海市公安局",
+            "name": "图像监控系统运维及应急任务",
+            "type": "商机",
+            "status": "商机",
+            "relatedUnit": "上海市公安局浦东分局",
+            "taskIds": [
+              "TASK-1793071926637"
+            ],
+            "codes": [
+              "DF-OPP-20261027-MVQ4Q99O-XIH12Z"
+            ],
+            "names": [
+              "图像监控系统运维及应急任务"
+            ],
+            "updatedAt": "2026-10-27T03:42:19.063Z",
+            "latestProgress": "11月8日投标，跟进成本评估、标书制作。",
+            "actorName": "贠泽",
+            "actorRole": "客户经理",
+            "recordMethod": "日志 · 每日进展登记",
+            "sourceRecordId": "progress:TASK-1793071926637:2100000260",
+            "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
+            "attributionRecordId": "daily:TL-DAILY-e2887d1e-5293-4c04-97b0-54ddf5218604:2100000260",
+            "attributionNote": "同项目、同日、进展正文一致的原始日志"
+          }
+        },
+        {
+          "key": "dongfeng-worklogs:dfproject:c7479a8ee38d25dee6b5",
+          "change": "修改",
+          "record": {
+            "id": "dfproject:c7479a8ee38d25dee6b5",
+            "aliasIds": [],
+            "customerId": "2100000260",
+            "customerName": "上海市公安局",
+            "name": "青浦雪亮工程视频监控增补项目",
+            "type": "线索",
+            "status": "线索",
+            "relatedUnit": "上海市公安局青浦分局",
+            "taskIds": [
+              "TASK-1792398967815"
+            ],
+            "codes": [
+              "DF-XS-20261019-MVF02EX2-RRQQLW"
+            ],
+            "names": [
+              "青浦雪亮工程视频监控增补项目"
+            ],
+            "updatedAt": "2026-11-02T08:56:23.791Z",
+            "latestProgress": "1、青浦十三五雪亮增补项目：\na)点位查勘：今日完成全量344点位，预计中移信息5号前完成汇总；\nb)方案编制：按照领导要求及修改建议，更新一版高拜的合作建议，同时重新调整原先的顶设方案为合作建议的附件，并调整其中的内容，尽可能贴合合作建议。",
+            "actorName": "赵恩达",
+            "actorRole": "方案经理",
+            "recordMethod": "日志 · 每日进展登记",
+            "sourceRecordId": "progress:TASK-1792398967815:2100000260",
+            "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
+            "attributionRecordId": "daily:TL-DAILY-61cfe0da-6eb6-4bf2-94ea-af5a454df546:2100000260",
+            "attributionNote": "同项目、同日、进展正文一致的原始日志"
+          }
+        },
+        {
+          "key": "dongfeng-worklogs:dfproject:e8f57033167fb2d911a5",
+          "change": "修改",
+          "record": {
+            "id": "dfproject:e8f57033167fb2d911a5",
+            "aliasIds": [],
+            "customerId": "2100000260",
+            "customerName": "上海市公安局",
+            "name": "上海市公安局农场分局规划项目",
+            "type": "商机",
+            "status": "商机",
+            "relatedUnit": "上海市公安局农场分局",
+            "taskIds": [
+              "TASK-1792058909132"
+            ],
+            "codes": [
+              "DF-OPP-20261015-MV9DLRYK-PNJTOM"
+            ],
+            "names": [
+              "上海市公安局农场分局规划项目"
+            ],
+            "updatedAt": "2026-10-23T08:09:26.112Z",
+            "latestProgress": "华信设计院反馈点位勘测和设计的报价预算，同时要求确定合同才能启动勘测工作，与战客融合BU同步研判成本费用出处。",
+            "actorName": "黄深远",
+            "actorRole": "方案经理",
+            "recordMethod": "日志 · 每日进展登记",
+            "sourceRecordId": "progress:TASK-1792058909132:2100000260",
+            "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
+            "attributionRecordId": "daily:TL-DAILY-fed8e243-7c1b-4fba-a7ee-177e6168ff88:2100000260",
+            "attributionNote": "同项目、同日、进展正文一致的原始日志"
+          }
+        },
+        {
+          "key": "dongfeng-worklogs:dfproject:330aecec09db83e4e920",
+          "change": "修改",
+          "record": {
+            "id": "dfproject:330aecec09db83e4e920",
+            "aliasIds": [],
+            "customerId": "2100000260",
+            "customerName": "上海市公安局",
+            "name": "上海市公安局普陀分局公共安全视频监控建设重点区域增补建设项目",
+            "type": "商机",
+            "status": "商机",
+            "relatedUnit": "上海市公安局普陀分局",
+            "taskIds": [
+              "DF-OPP-0040-8D86DF"
+            ],
+            "codes": [
+              "DF-OPP-0040-8D86DF"
+            ],
+            "names": [
+              "上海市公安局普陀分局公共安全视频监控建设重点区域增补建设项目"
+            ],
+            "updatedAt": "2026-09-28T01:35:16.970Z",
+            "latestProgress": "目前中移信息支撑中",
+            "actorName": "唐隆",
+            "actorRole": "客户经理",
+            "recordMethod": "日志 · 每日进展登记",
+            "sourceRecordId": "progress:DF-OPP-0040-8D86DF:2100000260",
+            "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
+            "attributionRecordId": "daily:TL-DAILY-d4fcc2bf-df7e-49fd-9c02-5da2d6cbf203:2100000260",
+            "attributionNote": "同项目、同日、进展正文一致的原始日志"
+          }
+        },
+        {
+          "key": "dongfeng-worklogs:dfproject:2e5b4486160f584242d6",
+          "change": "修改",
+          "record": {
+            "id": "dfproject:2e5b4486160f584242d6",
+            "aliasIds": [],
+            "customerId": "2100000260",
+            "customerName": "上海市公安局",
+            "name": "青浦区智慧安防社区增补及新建应用项目",
+            "type": "商机",
+            "status": "商机",
+            "relatedUnit": "上海市公安局青浦分局",
+            "taskIds": [
+              "DF-OPP-0134-062F60"
+            ],
+            "codes": [
+              "DF-OPP-0134-062F60"
+            ],
+            "names": [
+              "青浦区智慧安防社区增补及新建应用项目"
+            ],
+            "updatedAt": "2026-10-27T13:35:05.888Z",
+            "latestProgress": "青浦移动已协同电信，东方有线两次与政法委沟通，最终确定由公安牵头进行推进。",
+            "actorName": "任志伟",
+            "actorRole": "客户经理",
+            "recordMethod": "日志 · 每日进展登记",
+            "sourceRecordId": "progress:DF-OPP-0134-062F60:2100000260",
+            "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
+            "attributionRecordId": "daily:TL-DAILY-e91b1244-219b-417c-beac-43270edef492:2100000260",
+            "attributionNote": "同项目、同日、进展正文一致的原始日志"
+          }
+        },
+        {
+          "key": "dongfeng-worklogs:dfproject:80808b990bf50250a018",
+          "change": "修改",
+          "record": {
+            "id": "dfproject:80808b990bf50250a018",
+            "aliasIds": [],
+            "customerId": "2100000260",
+            "customerName": "上海市公安局",
+            "name": "青浦一网统飞平台",
+            "type": "商机",
+            "status": "商机",
+            "relatedUnit": "上海市公安局青浦分局",
+            "taskIds": [
+              "DF-OPP-0140-049147"
+            ],
+            "codes": [
+              "DF-OPP-0140-049147"
+            ],
+            "names": [
+              "青浦一网统飞平台"
+            ],
+            "updatedAt": "2026-10-30T08:57:59.591Z",
+            "latestProgress": "平台包件的可研方案正在进行评审，预计今日定稿。",
+            "actorName": "赵恩达",
+            "actorRole": "方案经理",
+            "recordMethod": "日志 · 每日进展登记",
+            "sourceRecordId": "progress:DF-OPP-0140-049147:2100000260",
+            "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
+            "attributionRecordId": "daily:TL-DAILY-38cb049c-f6fd-4cb3-aabd-17b5c7269ea4:2100000260",
+            "attributionNote": "同项目、同日、进展正文一致的原始日志"
+          }
+        },
+        {
+          "key": "dongfeng-worklogs:dfproject:b7672182d8a8f8d2f8a8",
+          "change": "修改",
+          "record": {
+            "id": "dfproject:b7672182d8a8f8d2f8a8",
+            "aliasIds": [],
+            "customerId": "2100000260",
+            "customerName": "上海市公安局",
+            "name": "此项目重点推进监控点位的全域拓展与智能改造。针对老旧小区、城乡结合部等薄弱区域，实施视频监控补点建设，同步对现有设备进行高清化、智能化升级，新增人脸识别、车牌识别等智能感知终端，实现公共区域、重点场所的 360°，立体覆盖与精准感知。",
+            "type": "商机",
+            "status": "商机",
+            "relatedUnit": "上海市公安局浦东分局",
+            "taskIds": [
+              "DF-OPP-0235-41949E"
+            ],
+            "codes": [
+              "DF-OPP-0235-41949E"
+            ],
+            "names": [
+              "此项目重点推进监控点位的全域拓展与智能改造。针对老旧小区、城乡结合部等薄弱区域，实施视频监控补点建设，同步对现有设备进行高清化、智能化升级，新增人脸识别、车牌识别等智能感知终端，实现公共区域、重点场所的 360°，立体覆盖与精准感知。"
+            ],
+            "updatedAt": "2026-10-10T11:17:47.792Z",
+            "latestProgress": "与浦东移动沟通项目情况，暂无新进展",
+            "actorName": "贠泽",
+            "actorRole": "客户经理",
+            "recordMethod": "日志 · 每日进展登记",
+            "sourceRecordId": "progress:DF-OPP-0235-41949E:2100000260",
+            "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
+            "attributionRecordId": "daily:TL-DAILY-cd2873cd-3b51-4e69-9fe6-35a63d601793:2100000260",
+            "attributionNote": "同项目、同日、进展正文一致的原始日志"
+          }
+        },
+        {
+          "key": "dongfeng-worklogs:dfproject:3af9bfba002d44a78857",
+          "change": "修改",
+          "record": {
+            "id": "dfproject:3af9bfba002d44a78857",
+            "aliasIds": [],
+            "customerId": "2100000260",
+            "customerName": "上海市公安局",
+            "name": "平安闵行",
+            "type": "商机",
+            "status": "商机",
+            "relatedUnit": "上海市公安局闵行分局",
+            "taskIds": [
+              "DF-OPP-0281-C013A2"
+            ],
+            "codes": [
+              "DF-OPP-0281-C013A2"
+            ],
+            "names": [
+              "平安闵行"
+            ],
+            "updatedAt": "2026-11-02T10:13:25.577Z",
+            "latestProgress": "协调相关生态进行线下沟通，包括深信服、华为、宇视，推进专班组建工作。",
+            "actorName": "王洪飞",
+            "actorRole": "客户经理",
+            "recordMethod": "日志 · 每日进展登记",
+            "sourceRecordId": "progress:DF-OPP-0281-C013A2:2100000260",
+            "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
+            "attributionRecordId": "daily:TL-DAILY-3e0b39d4-ad58-4c06-9c61-47f0b52ff2f8:2100000260",
+            "attributionNote": "同项目、同日、进展正文一致的原始日志"
+          }
+        }
+      ]
+    },
+    {
+      "id": "21663f3f59e0d6db9dc1e133",
+      "customerId": "2100000172",
+      "customerName": "上海市消防救援总队",
+      "label": "商机进展",
+      "title": "商机进展更新",
+      "detectedAt": "2026-11-03T10:12:11+08:00",
+      "date": "2026-11-03",
+      "items": [
+        {
+          "key": "dongfeng-worklogs:dfproject:0a087fb268e40ee9cdbf",
+          "change": "修改",
+          "record": {
+            "id": "dfproject:0a087fb268e40ee9cdbf",
+            "aliasIds": [],
+            "customerId": "2100000172",
+            "customerName": "上海市消防救援总队",
+            "name": "消防AI大模型垂域业务应用子系统建设",
+            "type": "商机",
+            "status": "商机",
+            "relatedUnit": "上海市消防救援总队",
+            "taskIds": [
+              "TASK-1789116414976"
+            ],
+            "codes": [
+              "DF-OPP-20260911-MTWPPWXR-N9FOOJ"
+            ],
+            "names": [
+              "消防AI大模型垂域业务应用子系统建设"
+            ],
+            "updatedAt": "2026-10-27T07:21:08.257Z",
+            "latestProgress": "经过领导沟通确认，包七拟有LT承接，暂不参与该项目",
+            "actorName": "陈刚",
+            "actorRole": "方案经理",
+            "recordMethod": "日志 · 每日进展登记",
+            "sourceRecordId": "progress:TASK-1789116414976:2100000172",
+            "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
+            "attributionRecordId": "daily:TL-DAILY-846f1026-461b-4da9-98ad-e9dbb5221642:2100000172",
+            "attributionNote": "同项目、同日、进展正文一致的原始日志"
+          }
+        },
+        {
+          "key": "dongfeng-worklogs:dfproject:71957667c1ba7f3d1b95",
+          "change": "修改",
+          "record": {
+            "id": "dfproject:71957667c1ba7f3d1b95",
+            "aliasIds": [],
+            "customerId": "2100000172",
+            "customerName": "上海市消防救援总队",
+            "name": "业务系统升级改造项目",
+            "type": "商机",
+            "status": "商机",
+            "relatedUnit": "上海市消防救援总队",
+            "taskIds": [
+              "TASK-1788949735381"
+            ],
+            "codes": [
+              "DF-OPP-20260909-MTTYHE50-UQ3PTE"
+            ],
+            "names": [
+              "业务系统升级改造项目"
+            ],
+            "updatedAt": "2026-11-02T08:43:07.453Z",
+            "latestProgress": "分析招标文件、明确招标文件评分项",
+            "actorName": "王凯",
+            "actorRole": "方案经理",
+            "recordMethod": "日志 · 每日进展登记",
+            "sourceRecordId": "progress:TASK-1788949735381:2100000172",
+            "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
+            "attributionRecordId": "daily:TL-DAILY-e1889f65-894d-44b8-b480-342b9fd4f0a5:2100000172",
+            "attributionNote": "同项目、同日、进展正文一致的原始日志"
+          }
+        },
+        {
+          "key": "dongfeng-worklogs:dfproject:a509d5fb204492a9f548",
+          "change": "修改",
+          "record": {
+            "id": "dfproject:a509d5fb204492a9f548",
+            "aliasIds": [],
+            "customerId": "2100000172",
+            "customerName": "上海市消防救援总队",
+            "name": "总队本级网络及安全设施升级改造项目",
+            "type": "商机",
+            "status": "商机",
+            "relatedUnit": "上海市消防救援总队",
+            "taskIds": [
+              "TASK-1788949638479-OPP"
+            ],
+            "codes": [
+              "DF-OPP-20260909-MTTYFBDB-IUUSQ9"
+            ],
+            "names": [
+              "总队本级网络及安全设施升级改造项目"
+            ],
+            "updatedAt": "2026-11-02T08:59:14.085Z",
+            "latestProgress": "向咨询公司提供修改后参数方案",
+            "actorName": "王凯",
+            "actorRole": "方案经理",
+            "recordMethod": "日志 · 每日进展登记",
+            "sourceRecordId": "progress:TASK-1788949638479-OPP:2100000172",
+            "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
+            "attributionRecordId": "daily:TL-DAILY-c470f54a-0737-4353-9d88-fee48ca79dfc:2100000172",
+            "attributionNote": "同项目、同日、进展正文一致的原始日志"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c1ebdd58b6f16b1da7358bf8",
+      "customerId": "2100172632",
+      "customerName": "上海市住房和城乡建设管理委员会",
+      "label": "商机进展",
+      "title": "商机进展更新",
+      "detectedAt": "2026-11-03T10:12:11+08:00",
+      "date": "2026-11-03",
+      "items": [
+        {
+          "key": "dongfeng-worklogs:dfproject:b076166a47b3bf9bd95c",
+          "change": "修改",
+          "record": {
+            "id": "dfproject:b076166a47b3bf9bd95c",
+            "aliasIds": [],
+            "customerId": "2100172632",
+            "customerName": "上海市住房和城乡建设管理委员会",
+            "name": "住建委行政服务中心信息化建设",
+            "type": "线索",
+            "status": "线索",
+            "relatedUnit": "上海市住房和城乡建设管理委员会行政服务中心",
+            "taskIds": [
+              "TASK-1789720207192"
+            ],
+            "codes": [
+              "DF-XS-20260918-MU6P79ZR-51A1V7"
+            ],
+            "names": [
+              "住建委行政服务中心信息化建设"
+            ],
+            "updatedAt": "2026-10-22T07:41:49.440Z",
+            "latestProgress": "之前我们提供了一版建设方案，客户反馈软件已经有厂家在做，我们可以通过算力，但是联通也在参与，联通可以前期免费提供测试，我们要一个月2万多。",
+            "actorName": "张学慧",
+            "actorRole": "方案经理",
+            "recordMethod": "日志 · 每日进展登记",
+            "sourceRecordId": "progress:TASK-1789720207192:2100172632",
+            "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
+            "attributionRecordId": "daily:TL-DAILY-72527656-68a8-4d68-982b-60bab491de1e:2100172632",
+            "attributionNote": "同项目、同日、进展正文一致的原始日志"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c34b72b465d8c7d16b9feb1c",
+      "customerId": "2100128579",
+      "customerName": "上海市教育委员会",
+      "label": "商机进展",
+      "title": "商机进展更新",
+      "detectedAt": "2026-11-03T10:12:11+08:00",
+      "date": "2026-11-03",
+      "items": [
+        {
+          "key": "dongfeng-worklogs:dfproject:254d20693b9deede8259",
+          "change": "修改",
+          "record": {
+            "id": "dfproject:254d20693b9deede8259",
+            "aliasIds": [],
+            "customerId": "2100128579",
+            "customerName": "上海市教育委员会",
+            "name": "2026-2027学年上海市青少年运动技能等级测试",
+            "type": "商机",
+            "status": "商机",
+            "relatedUnit": "上海市教育委员会",
+            "taskIds": [
+              "TASK-1789108486909"
+            ],
+            "codes": [
+              "DF-OPP-20260911-MTWKZZLO-QP7FMK"
+            ],
+            "names": [
+              "2026-2027学年上海市青少年运动技能等级测试"
+            ],
+            "updatedAt": "2026-11-02T08:38:26.308Z",
+            "latestProgress": "对项目进行评估研判，寻找相关厂家",
+            "actorName": "万全旦",
+            "actorRole": "方案经理",
+            "recordMethod": "日志 · 每日进展登记",
+            "sourceRecordId": "progress:TASK-1789108486909:2100128579",
+            "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
+            "attributionRecordId": "daily:TL-DAILY-2309d0dc-4c93-4c81-85e4-1b4e4970925c:2100128579",
+            "attributionNote": "同项目、同日、进展正文一致的原始日志"
+          }
+        }
+      ]
+    },
+    {
+      "id": "427c8ad240ea90712bc1bdf8",
+      "customerId": "2100161493",
+      "customerName": "上海市体育局",
+      "label": "商机进展",
+      "title": "商机进展更新",
+      "detectedAt": "2026-11-03T10:12:11+08:00",
+      "date": "2026-11-03",
+      "items": [
+        {
+          "key": "dongfeng-worklogs:dfproject:4bfab21885f66779c2ff",
+          "change": "修改",
+          "record": {
+            "id": "dfproject:4bfab21885f66779c2ff",
+            "aliasIds": [],
+            "customerId": "2100161493",
+            "customerName": "上海市体育局",
+            "name": "2026年上海市体育彩票管理中心录音录像改造项目",
+            "type": "线索",
+            "status": "线索",
+            "relatedUnit": "上海市体育局",
+            "taskIds": [
+              "DF-XS-0089-E28D8B"
+            ],
+            "codes": [
+              "DF-XS-0089-E28D8B"
+            ],
+            "names": [
+              "2026年上海市体育彩票管理中心录音录像改造项目"
+            ],
+            "updatedAt": "2026-10-08T07:06:43.551Z",
+            "latestProgress": "结果还没发，但是内部说电信中标了，联通可能会发质疑，但是应该不会产生太大的影响",
+            "actorName": "张学慧",
+            "actorRole": "方案经理",
+            "recordMethod": "日志 · 每日进展登记",
+            "sourceRecordId": "progress:DF-XS-0089-E28D8B:2100161493",
+            "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
+            "attributionRecordId": "daily:TL-DAILY-e8c16dfc-55ca-457d-97e4-9516cbf20b54:2100161493",
+            "attributionNote": "同项目、同日、进展正文一致的原始日志"
+          }
+        }
+      ]
+    },
+    {
+      "id": "50c24c267d6a7d4bffd7abc0",
+      "customerId": "name:上海市委党校",
+      "customerName": "上海市委党校",
+      "label": "商机进展",
+      "title": "商机进展更新",
+      "detectedAt": "2026-11-03T10:12:11+08:00",
+      "date": "2026-11-03",
+      "items": [
+        {
+          "key": "dongfeng-worklogs:dfproject:98fe07fe6fb73dc075ce",
+          "change": "修改",
+          "record": {
+            "id": "dfproject:98fe07fe6fb73dc075ce",
+            "aliasIds": [],
+            "customerId": "name:上海市委党校",
+            "customerName": "上海市委党校",
+            "name": "市委党校量子专线需求",
+            "type": "商机",
+            "status": "商机",
+            "relatedUnit": "上海市委党校",
+            "taskIds": [
+              "TASK-1789440101470-OPP"
+            ],
+            "codes": [
+              "DF-OPP-20260915-MU22FN1A-VN4BM4"
+            ],
+            "names": [
+              "市委党校量子专线需求"
+            ],
+            "updatedAt": "2026-10-19T07:39:00.970Z",
+            "latestProgress": "准备变更项目经理",
+            "actorName": "许鹏宇",
+            "actorRole": "客户经理",
+            "recordMethod": "日志 · 每日进展登记",
+            "sourceRecordId": "progress:TASK-1789440101470-OPP:name:上海市委党校",
+            "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
+            "attributionRecordId": "daily:TL-DAILY-80809a57-6beb-41ea-8d5b-73c58f8b462a:name:上海市委党校",
+            "attributionNote": "同项目、同日、进展正文一致的原始日志"
+          }
+        }
+      ]
+    },
+    {
+      "id": "a57291bd25a8e2e3889911d0",
+      "customerId": "name:上海市城市运行管理中心",
+      "customerName": "上海市城市运行管理中心",
+      "label": "商机进展",
+      "title": "商机进展更新",
+      "detectedAt": "2026-11-03T10:12:11+08:00",
+      "date": "2026-11-03",
+      "items": [
+        {
+          "key": "dongfeng-worklogs:dfproject:bbf269384c489f974cf9",
+          "change": "修改",
+          "record": {
+            "id": "dfproject:bbf269384c489f974cf9",
+            "aliasIds": [],
+            "customerId": "name:上海市城市运行管理中心",
+            "customerName": "上海市城市运行管理中心",
+            "name": "市城运城运中心人口洞察（含IOC）",
+            "type": "商机",
+            "status": "商机",
+            "relatedUnit": "上海市城运中心",
+            "taskIds": [
+              "DF-OPP-0118-04A83D"
+            ],
+            "codes": [
+              "DF-OPP-0118-04A83D"
+            ],
+            "names": [
+              "市城运城运中心人口洞察（含IOC）"
+            ],
+            "updatedAt": "2026-10-30T03:22:38.980Z",
+            "latestProgress": "编制汇报交流材料",
+            "actorName": "李慧强",
+            "actorRole": "方案经理",
+            "recordMethod": "日志 · 每日进展登记",
+            "sourceRecordId": "progress:DF-OPP-0118-04A83D:name:上海市城市运行管理中心",
+            "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
+            "attributionRecordId": "daily:TL-DAILY-dc6b80e8-d8ca-4620-91fe-e3ff0478ccf3:name:上海市城市运行管理中心",
+            "attributionNote": "同项目、同日、进展正文一致的原始日志"
+          }
+        }
+      ]
+    },
+    {
+      "id": "2a3c207370162a2eee3a79ea",
+      "customerId": "name:上海市总工会",
+      "customerName": "上海市总工会",
+      "label": "商机进展",
+      "title": "商机进展更新",
+      "detectedAt": "2026-11-03T10:12:11+08:00",
+      "date": "2026-11-03",
+      "items": [
+        {
+          "key": "dongfeng-worklogs:dfproject:898c22dd19801bef6af7",
+          "change": "修改",
+          "record": {
+            "id": "dfproject:898c22dd19801bef6af7",
+            "aliasIds": [],
+            "customerId": "name:上海市总工会",
+            "customerName": "上海市总工会",
+            "name": "上海市总工会申工社职工服务平台升级改造项目",
+            "type": "商机",
+            "status": "未中标",
+            "relatedUnit": "上海市总工会",
+            "taskIds": [
+              "TASK-1789039738594-OPP"
+            ],
+            "codes": [
+              "DF-OPP-20260910-MTVG2H29-K0GXR7"
+            ],
+            "names": [
+              "上海市总工会申工社职工服务平台升级改造项目"
+            ],
+            "updatedAt": "2026-10-19T07:50:23.609Z",
+            "latestProgress": "未中标",
+            "actorName": "许鹏宇",
+            "actorRole": "客户经理",
+            "recordMethod": "日志 · 每日进展登记",
+            "sourceRecordId": "progress:TASK-1789039738594-OPP:name:上海市总工会",
+            "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
+            "attributionRecordId": "daily:TL-DAILY-ff924231-a998-44f4-bb81-061b6a5326ca:name:上海市总工会",
+            "attributionNote": "同项目、同日、进展正文一致的原始日志"
+          }
+        }
+      ]
     }
   ]
 }
