@@ -9,7 +9,16 @@ function weeklyUpdateDays(events,today){
  const now=new Date(today+'T00:00:00Z'),monday=new Date(now);monday.setUTCDate(now.getUTCDate()-(now.getUTCDay()+6)%7);
  return Array.from({length:7},(_,i)=>{const d=new Date(monday);d.setUTCDate(monday.getUTCDate()+i);const date=d.toISOString().slice(0,10);return {date,weekday:['周一','周二','周三','周四','周五','周六','周日'][i],events:events.filter(e=>e.date===date&&e.date<=today).sort((a,b)=>b.detectedAt.localeCompare(a.detectedAt))};});
 }
-if(typeof module!=='undefined')module.exports={homeRecentLogs,homeUpcomingPurchases,weeklyUpdateDays};
+function changedUpdateMarkup(event,esc){
+ const items=Array.isArray(event.items)?event.items:[];
+ if(!items.length)return '<p class="home-feed-empty">这条旧动态未保存具体变更明细。</p>';
+ const value=v=>v&&typeof v==='object'?v.value??'':v??'';
+ const link=(url,title)=>/^https?:\/\//i.test(url||'')?`<a href="${esc(url)}" target="_blank" rel="noopener noreferrer">${esc(title)} ↗</a>`:esc(title);
+ const isLog=event.label==='工作日志',groups=new Map();
+ for(const item of items){const r=item.record||{},name=isLog?r.projectName||r.title?.split(' · ')[0]||'客户日常工作':r.projectName||r.name||r.title||'未命名项目';const key=isLog?(r.projectIds?.join('|')||r.projectId||name):item.key;if(!groups.has(key))groups.set(key,{name,items:[]});groups.get(key).items.push(item);}
+ return [...groups.values()].map(group=>`<details class="weekly-changed-project"><summary><strong>${esc(group.name)}</strong><small>${group.items.length} 条变更</small></summary><div class="weekly-changed-body">${group.items.map(item=>{const r=item.record||{},date=isLog?r.workDate:r.planned_purchase||value(r.deadline)||r.date||r.published_at;const heading=isLog?`${esc(r.actorName||'')} ${esc(r.actorRole||'')}`:link(r.notice_url||r.url,r.title||r.name||r.projectName||group.name);const suppliers=(r.awards||[]).flatMap(a=>a.suppliers||[]);return `<article class="weekly-changed-record"><div class="weekly-change-meta"><span>${esc(item.change)}</span><time>${esc(date||(isLog?'工作日期未明确':'日期未公开'))}</time></div><p>${heading}</p>${isLog?`<p class="worklog-text">${esc(r.content||'')}</p>`:`${r.stage?`<p>${esc(r.stage)}</p>`:''}${suppliers.length?`<p>中标供应商：${esc([...new Set(suppliers)].join('、'))}</p>`:''}${r.status?`<p>${esc(r.status)}</p>`:''}${r.term?`<p>服务期限：${esc(value(r.term))}</p>`:''}`}</article>`;}).join('')}</div></details>`).join('');
+}
+if(typeof module!=='undefined')module.exports={homeRecentLogs,homeUpcomingPurchases,weeklyUpdateDays,changedUpdateMarkup};
 if(typeof window!=='undefined')(()=>{
  const root=document.getElementById('business-overview'),esc=syncEscape;let events=[],loaded=false,failed=false,initializedAt='',trigger,closeTimer;const expanded=new Map();let manualEvents=[];try{manualEvents=JSON.parse(localStorage.getItem('customer-manual-update-journal-v1')||'[]');if(!Array.isArray(manualEvents))manualEvents=[];}catch{}
  const allEvents=()=>[...events,...manualEvents];
@@ -20,7 +29,7 @@ if(typeof window!=='undefined')(()=>{
  function close(immediate=false){overlay.classList.remove('is-open');document.body.classList.remove('org-open');clearTimeout(closeTimer);if(immediate)overlay.hidden=true;else{closeTimer=setTimeout(()=>overlay.hidden=true,260);trigger?.focus();}}
  function updateMarkup(e,customer){
   const meta=`<span class="home-feed-meta"><strong>${esc(e.customerName)}</strong><time>${esc(e.detectedAt.slice(11,16))}</time></span><span class="home-feed-project">${esc(e.title)}</span>`;
-  if(e.label==='工作日志')return `<details class="weekly-log-update" data-update-log="${esc(e.id)}" ${expanded.get('log:'+e.id)?'open':''}><summary class="home-feed-item">${meta}<span class="home-feed-bottom">工作日志<span>展开日志 <span class="weekly-log-arrow">▸</span></span></span></summary><div class="weekly-log-body"><p class="weekly-log-caption">当前工作日志 · 按项目展开查看</p>${typeof customerWorklogMarkup==='function'?customerWorklogMarkup(customer):'<p class="org-empty">正在读取工作日志…</p>'}</div></details>`;
+  if(['工作日志','商机进展','采购意向与招标','历史招标结果','合同信息'].includes(e.label))return `<details class="weekly-log-update" data-update-log="${esc(e.id)}" ${expanded.get('log:'+e.id)?'open':''}><summary class="home-feed-item">${meta}<span class="home-feed-bottom">${esc(e.label)}<span>展开变更 <span class="weekly-log-arrow">▸</span></span></span></summary><div class="weekly-log-body">${changedUpdateMarkup(e,esc)}</div></details>`;
   return `<button type="button" class="home-feed-item" data-home-update="${esc(e.id)}">${meta}<span class="home-feed-bottom">${esc(e.label)}<span>查看详情 →</span></span></button>`;
  }
  function render(){

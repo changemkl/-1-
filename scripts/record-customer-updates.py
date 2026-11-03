@@ -15,12 +15,29 @@ def normalize(value):
  return value
 
 def fingerprint(value):return hashlib.sha256(json.dumps(normalize(value),ensure_ascii=False,sort_keys=True).encode()).hexdigest()
+DETAIL_LABELS={'工作日志','商机进展','采购意向与招标','历史招标结果','合同信息'}
+def record_key(source,item):
+ identity=item.get('id') or item.get('notice_url') or item.get('url') or item.get('sourceRecordId') or (str(item.get('projectName',item.get('name',item.get('title',''))))+'|'+str(item.get('date',item.get('workDate',''))))
+ return source+':'+str(identity)
+def changed_items(current,previous):
+ changes=[]
+ for key,item in current.items():
+  if key not in previous or item['hash']!=previous[key]['hash']:
+   changes.append({'key':key,'change':'新增' if key not in previous else '修改','record':json.loads(json.dumps(item['data']))})
+ for key,item in previous.items():
+  if key not in current:changes.append({'key':key,'change':'移除','record':json.loads(json.dumps(item['data']))})
+ # Same notice can be present in the main collection and the supplements.
+ unique={}
+ for change in changes:
+  row=change['record'];identity=row.get('notice_url') or row.get('url') or row.get('id') or change['key']
+  unique[(identity,change['change'])]=change
+ return list(unique.values())
 def snapshot(root=ROOT):
  import sys
  sys.path.insert(0,str(root/'intelligence'))
  from collector import registry
  customers=registry(read(root/'public/tencent-data.json',{})['rows'],allow_empty=True)
- result={id:{'name':name,'parts':{}} for id,name in customers.items()}
+ result={id:{'name':name,'parts':{},'records':{}} for id,name in customers.items()}
  specs={'profile-data':{'采购意向与招标':['projects'],'领导资料':['leaders'],'组织架构':['organizations'],'公开动态':['attributes']},'organization-data':{'主要职能':['overview','basicSource'],'组织架构':['nodes','note','source','sources']},'people-data':{'领导资料':['people']},'award-history':{'历史招标结果':['results']},'customer-supplements':{'历史招标结果':['results'],'合同信息':['contracts'],'采购意向与招标':['projects','notices'],'政策与建设方向':['policies']},'dongfeng-worklogs':{'工作日志':['entries'],'商机进展':['projects']},'worklogs':{'工作日志':['entries']},'customer-scenes':{'产品与场景':['scenes']}}
  for file,parts in specs.items():
   data=read(root/f'public/{file}.json',{})
@@ -30,6 +47,12 @@ def snapshot(root=ROOT):
    for label,keys in parts.items():
     value=[r for k in keys if k in ('entries','projects') and k in data for r in data[k] if match(r)] if file in ('dongfeng-worklogs','worklogs') else [{k:r[k] for k in keys if k in r} for r in rows]
     c['parts'].setdefault(label,{})[file]=value
+    if label in DETAIL_LABELS:
+     records=value if file in ('dongfeng-worklogs','worklogs') else [item for row in rows for key in keys for item in row.get(key,[]) if isinstance(item,dict)]
+     for item in records:
+      key=record_key(file,item)
+      c['records'].setdefault(label,{})[key]={'hash':fingerprint(item),'data':item}
+
  for id,c in result.items():
   names=set()
   for file in ('award-history','customer-supplements'):
@@ -45,7 +68,7 @@ def snapshot(root=ROOT):
    if ni is None or ni>=len(row):continue
    name=str(row[ni]).strip();id=str(row[ii]).strip() if ii is not None and ii<len(row) and row[ii] else 'name:'+re.sub(r'\s+','',name).lower()
    if id in result:result[id]['parts']['客户基本信息']={'sheet':dict(zip(headers,row))}
- return {id:{'name':c['name'],'parts':{k:fingerprint(v) for k,v in c['parts'].items()}} for id,c in result.items()}
+ return {id:{'name':c['name'],'parts':{k:fingerprint(v) for k,v in c['parts'].items()},'records':c['records']} for id,c in result.items()}
 
 def record(current,previous,events,now):
  stamp=now.isoformat(timespec='seconds');day=now.date().isoformat();cutoff=(now.date()-datetime.timedelta(days=35)).isoformat();events=[e for e in events if e.get('date','')>=cutoff]
@@ -54,7 +77,13 @@ def record(current,previous,events,now):
   labels=['新增客户'] if previous and not old else [label for label,value in c['parts'].items() if old and label in old['parts'] and old['parts'][label]!=value]
   for label in labels:
    event_id=hashlib.sha256((id+label+stamp+c['parts'].get(label,'')).encode()).hexdigest()[:24]
-   events.append({'id':event_id,'customerId':id,'customerName':c['name'],'label':label,'title':label if label=='新增客户' else label+'更新','detectedAt':stamp,'date':day})
+   event={'id':event_id,'customerId':id,'customerName':c['name'],'label':label,'title':label if label=='新增客户' else label+'更新','detectedAt':stamp,'date':day}
+   if label in DETAIL_LABELS:
+    if old and 'records' in old:
+     event['items']=changed_items(c.get('records',{}).get(label,{}),old['records'].get(label,{}))
+     if not event['items']:continue
+    else:event['items']=[] # Old category-only state cannot establish individual changes.
+   events.append(event)
  return {'customers':json.loads(json.dumps(current)),'updatedAt':stamp},{'version':1,'initializedAt':None,'events':events}
 
 def main():
