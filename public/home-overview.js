@@ -7,7 +7,11 @@ function homeUpcomingPurchases(customers,getRows){
 }
 function weeklyUpdateDays(events,today){
  const now=new Date(today+'T00:00:00Z'),monday=new Date(now);monday.setUTCDate(now.getUTCDate()-(now.getUTCDay()+6)%7);
- return Array.from({length:7},(_,i)=>{const d=new Date(monday);d.setUTCDate(monday.getUTCDate()+i);const date=d.toISOString().slice(0,10);return {date,weekday:['周一','周二','周三','周四','周五','周六','周日'][i],events:events.filter(e=>e.date===date&&e.date<=today).sort((a,b)=>b.detectedAt.localeCompare(a.detectedAt))};});
+ const dated=events.flatMap(e=>{
+  if(!['工作日志','商机进展'].includes(e.label)||!e.items?.length)return [e];
+  return e.items.map((item,i)=>{const r=item.record||{};const sourceDate=r.workDate||r.recordUpdatedDate||(r.updatedAt?new Date(r.updatedAt).toLocaleDateString('en-CA',{timeZone:'Asia/Shanghai'}):null);return {...e,id:e.id+':'+i,date:/^\d{4}-\d{2}-\d{2}$/.test(sourceDate||'')?sourceDate:e.date,recordDated:!!sourceDate,items:[item]};});
+ });
+ return Array.from({length:7},(_,i)=>{const d=new Date(monday);d.setUTCDate(monday.getUTCDate()+i);const date=d.toISOString().slice(0,10);return {date,weekday:['周一','周二','周三','周四','周五','周六','周日'][i],events:dated.filter(e=>e.date===date&&e.date<=today).sort((a,b)=>b.detectedAt.localeCompare(a.detectedAt))};});
 }
 function changedUpdateMarkup(event,esc){
  const items=Array.isArray(event.items)?event.items:[];
@@ -28,7 +32,7 @@ if(typeof window!=='undefined')(()=>{
  document.body.append(overlay);const panel=overlay.querySelector('#home-drawer-panel');
  function close(immediate=false){overlay.classList.remove('is-open');document.body.classList.remove('org-open');clearTimeout(closeTimer);if(immediate)overlay.hidden=true;else{closeTimer=setTimeout(()=>overlay.hidden=true,260);trigger?.focus();}}
  function updateMarkup(e,customer){
-  const meta=`<span class="home-feed-meta"><strong>${esc(e.customerName)}</strong><time>${esc(e.detectedAt.slice(11,16))}</time></span><span class="home-feed-project">${esc(e.title)}</span>`;
+  const meta=`<span class="home-feed-meta"><strong>${esc(e.customerName)}</strong><time>${e.recordDated?'东风记录':esc(e.detectedAt.slice(11,16))}</time></span><span class="home-feed-project">${esc(e.title)}</span>`;
   if(['工作日志','商机进展','采购意向与招标','历史招标结果','合同信息'].includes(e.label))return `<section class="weekly-update-entry"><header>${meta}<span class="home-feed-bottom">${esc(e.label)}</span></header><div class="weekly-log-body">${changedUpdateMarkup(e,esc)}</div></section>`;
   return `<button type="button" class="home-feed-item" data-home-update="${esc(e.id)}">${meta}<span class="home-feed-bottom">${esc(e.label)}<span>查看详情 →</span></span></button>`;
  }
@@ -36,7 +40,7 @@ if(typeof window!=='undefined')(()=>{
   const customers=new Map(views[0].items.map(c=>[customerIdentifier(c),c]));
   const valid=allEvents().filter(e=>{const c=customers.get(e.customerId);if(!c)return false;const node=document.createElement('textarea');node.innerHTML=c[0];return node.value===e.customerName;});
   const today=shanghaiDate(),days=weeklyUpdateDays(valid,today);
-  panel.innerHTML=`<p class="weekly-range">${esc(days[0].date)} — ${esc(days.at(-1).date)}</p>${failed?'<p class="org-unconfirmed">更新记录暂时无法刷新，保留已加载内容。</p>':''}${!loaded&&!failed?'<p class="org-empty">正在读取本周更新…</p>':days.map(day=>`<details class="weekly-update-day" data-update-day="${day.date}" ${(expanded.has(day.date)?expanded.get(day.date):day.date===today)?'open':''}><summary><strong>${day.date.slice(5).replace('-','月')}日 ${day.weekday}${day.date===today?' · 今天':''}</strong><small>${day.events.length?day.events.length+' 条更新':'暂无更新'}</small></summary><div class="weekly-update-list">${day.events.length?day.events.map(e=>updateMarkup(e,customers.get(e.customerId))).join(''):'<p class="home-feed-empty">暂无更新</p>'}</div></details>`).join('')}${initializedAt?`<p class="weekly-record-start">从 ${esc(initializedAt.slice(0,10))} 起记录 · 按发现日期归档（北京时间）</p>`:''}`;
+  panel.innerHTML=`<p class="weekly-range">${esc(days[0].date)} — ${esc(days.at(-1).date)}</p>${failed?'<p class="org-unconfirmed">更新记录暂时无法刷新，保留已加载内容。</p>':''}${!loaded&&!failed?'<p class="org-empty">正在读取本周更新…</p>':days.map(day=>`<details class="weekly-update-day" data-update-day="${day.date}" ${(expanded.has(day.date)?expanded.get(day.date):day.date===today)?'open':''}><summary><strong>${day.date.slice(5).replace('-','月')}日 ${day.weekday}${day.date===today?' · 今天':''}</strong><small>${day.events.length?day.events.length+' 条更新':'暂无更新'}</small></summary><div class="weekly-update-list">${day.events.length?day.events.map(e=>updateMarkup(e,customers.get(e.customerId))).join(''):'<p class="home-feed-empty">暂无更新</p>'}</div></details>`).join('')}${initializedAt?`<p class="weekly-record-start">从 ${esc(initializedAt.slice(0,10))} 起记录 · 工作日志按东风记录日期归档（北京时间）</p>`:''}`;
  }
  async function refresh(){try{const response=await fetch(new URL('./customer-updates.json?v='+Math.floor(Date.now()/60000),location.href),{cache:'no-store'});if(!response.ok)throw Error();const data=await response.json();if(!Array.isArray(data.events))throw Error();events=data.events;initializedAt=data.initializedAt||'';loaded=true;failed=false;}catch{failed=true;}render();}
  root.addEventListener('click',e=>{const button=e.target.closest('[data-home-open]');if(!button)return;trigger=button;clearTimeout(closeTimer);render();overlay.hidden=false;document.body.classList.add('org-open');requestAnimationFrame(()=>overlay.classList.add('is-open'));overlay.querySelector('.org-close').focus();refresh();});
