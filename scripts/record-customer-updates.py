@@ -55,7 +55,7 @@ def snapshot(root=ROOT):
        if progress:
         content=progress.get('content','')
         match_progress=re.search(r'最新进展[：:]\s*(.*?)(?=\n(?:下一步|平台阶段|线索结果|中失标状态)[：:]|$)',content,re.S)
-        if match_progress:item={**item,'latestProgress':match_progress.group(1).strip()}
+        if match_progress:item={**item,'latestProgress':match_progress.group(1).strip(),'actorName':progress.get('actorName',''),'actorRole':progress.get('actorRole',''),'recordMethod':str(progress.get('projectTypes',{}).get(item.get('id'),item.get('type','项目')))+'记录 · 最新进展','sourceRecordId':progress.get('sourceRecordId',''),'sourceUrl':progress.get('sourceUrl','')}
       key=record_key(file,item)
       c['records'].setdefault(label,{})[key]={'hash':fingerprint(item),'data':item}
      if label=='商机进展':c['parts'][label][file]=[v['data'] for v in c['records'].get(label,{}).values()]
