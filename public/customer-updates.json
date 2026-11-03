@@ -1,5 +1,51 @@
 {
   "version": 1,
   "initializedAt": "2026-11-03T08:45:49+08:00",
-  "events": []
+  "events": [
+    {
+      "id": "eabe11df18bdff045cf8d4a1",
+      "customerId": "2100000260",
+      "customerName": "上海市公安局",
+      "label": "采购意向与招标",
+      "title": "采购意向与招标更新",
+      "detectedAt": "2026-11-03T08:58:42+08:00",
+      "date": "2026-11-03"
+    },
+    {
+      "id": "6369398aca09b8cf04e404a6",
+      "customerId": "2100000260",
+      "customerName": "上海市公安局",
+      "label": "工作日志",
+      "title": "工作日志更新",
+      "detectedAt": "2026-11-03T08:58:42+08:00",
+      "date": "2026-11-03"
+    },
+    {
+      "id": "b75fc51a849b076c1bb641a3",
+      "customerId": "2100000260",
+      "customerName": "上海市公安局",
+      "label": "商机进展",
+      "title": "商机进展更新",
+      "detectedAt": "2026-11-03T08:58:42+08:00",
+      "date": "2026-11-03"
+    },
+    {
+      "id": "d453783de7c721352ac3ad57",
+      "customerId": "2100000172",
+      "customerName": "上海市消防救援总队",
+      "label": "工作日志",
+      "title": "工作日志更新",
+      "detectedAt": "2026-11-03T08:58:42+08:00",
+      "date": "2026-11-03"
+    },
+    {
+      "id": "32325bf54be9c21420f1b9b0",
+      "customerId": "2100128579",
+      "customerName": "上海市教育委员会",
+      "label": "工作日志",
+      "title": "工作日志更新",
+      "detectedAt": "2026-11-03T08:58:42+08:00",
+      "date": "2026-11-03"
+    }
+  ]
 }

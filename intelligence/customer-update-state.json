@@ -147,7 +147,7 @@
     "2100000260": {
       "name": "上海市公安局",
       "parts": {
-        "采购意向与招标": "5ef8f2c2924dc2b316d83fccfd630cc0c52682d9194632f9fad617956d4cc701",
+        "采购意向与招标": "bd2591409db874268395701a84d0da779627d5c067a75a173a2856d8b74dd7e0",
         "领导资料": "810a5949411054aca248555a7c96bbb9026b38c29bea396d00f80188f91e371e",
         "组织架构": "5952f97c88d077a2eafdf1f984984e377b7ec89c8dfc480adbe18f646c84d839",
         "公开动态": "0a786800d917c2e5c959a273bd31221a38b0b51fd08f82a5223f12109d0d8644",
@@ -155,8 +155,8 @@
         "历史招标结果": "73862b7e6c0eaa786217ad2af8e7cff828d054182afad71851f071fc12f3b251",
         "合同信息": "43865dde3eec74ae0f33087cd9283a543474964d7d17792508c445bdc7cd583a",
         "政策与建设方向": "96ad9499cdbd8d32753e45fc41a8585e6f093dc3d62bc3160f3700ccd1b604d7",
-        "工作日志": "2609a8849e9bb6e5ab78c891bd0b60a10c8f0a53b5cb4d54492cb9a9da9856a5",
-        "商机进展": "b5429516fbfcd0d448b5294f85e78bc3bebb97a90cdab94e2fad1e5ad9e11bb5",
+        "工作日志": "7311b09b54e376cc4d33e02a5d09ceaef3c1fc4d0fd5db592320ad6442c8f3ea",
+        "商机进展": "cb6b49f7e26f96a14d070f3b8569f741a552dc1a31998169dc5b52bb3306b31a",
         "产品与场景": "5525b44441576e0bd057cb4ce592a3c91fd673eadec321351b692bc374cab303",
         "生态伙伴": "adfe6f8759dc89ddc9e6061b8863a62d2993ead41abdff501e722440aa8300a4",
         "客户基本信息": "4f3bb1296a15ada2fac0d05442cf8f501339991406d5b293a54d6edcb714d022"
@@ -173,7 +173,7 @@
         "历史招标结果": "919d513ab456bb17fdc162a83e6eee6e8bb31772f6f87fe342d9b180fc3ec861",
         "合同信息": "6cf76cc0a4d4cf6fa136f7aa7e7f453ea905870660a61d792b698cc73d4f2cef",
         "政策与建设方向": "6cf76cc0a4d4cf6fa136f7aa7e7f453ea905870660a61d792b698cc73d4f2cef",
-        "工作日志": "76817044e9f9316783ad9a658fef9829315bcb6f01a9e94b13a3a275fd300b62",
+        "工作日志": "3913d878236630ba52ae729f89feb58cdd4eb976d23c9e5f5b3b4b061f2d7422",
         "商机进展": "d357741bd7b944c310813c8dc23bed3cb98286fc02f7b42bfa43227d51cc7558",
         "产品与场景": "5525b44441576e0bd057cb4ce592a3c91fd673eadec321351b692bc374cab303",
         "生态伙伴": "adfe6f8759dc89ddc9e6061b8863a62d2993ead41abdff501e722440aa8300a4",
@@ -227,7 +227,7 @@
         "历史招标结果": "3ba18fb7f4db1be9b38ce0a2ba657e35d5ff7f67578b661ac7f78c1cc00b4d59",
         "合同信息": "6cf76cc0a4d4cf6fa136f7aa7e7f453ea905870660a61d792b698cc73d4f2cef",
         "政策与建设方向": "6cf76cc0a4d4cf6fa136f7aa7e7f453ea905870660a61d792b698cc73d4f2cef",
-        "工作日志": "73f4029bf72fcf64f2a84eb1822ce061b0c82b407a653eefc19760e8e4c2df8d",
+        "工作日志": "3ee0388bdaa7ef16a2d343d9f667c9393385a713924814f57182cac8cde49d58",
         "商机进展": "ec65f8ec2a3bbd52b73fd86fb0ac326053a3d31fb527b17ae7068d257b2caad6",
         "产品与场景": "5525b44441576e0bd057cb4ce592a3c91fd673eadec321351b692bc374cab303",
         "生态伙伴": "adfe6f8759dc89ddc9e6061b8863a62d2993ead41abdff501e722440aa8300a4",
@@ -343,5 +343,5 @@
       }
     }
   },
-  "updatedAt": "2026-11-03T08:54:09+08:00"
+  "updatedAt": "2026-11-03T08:58:42+08:00"
 }
