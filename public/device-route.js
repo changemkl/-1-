@@ -1,0 +1,1 @@
+(()=>{const mode=new URLSearchParams(location.search).get('view');let preference='';try{if(mode==='desktop')sessionStorage.setItem('workspace-view','desktop');preference=sessionStorage.getItem('workspace-view');}catch{}if(mode==='mobile'||(mode!=='desktop'&&preference!=='desktop'&&matchMedia('(max-width: 700px)').matches)){location.replace(new URL('./m/',location.href));}})();

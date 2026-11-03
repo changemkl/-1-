@@ -4,7 +4,7 @@ const path = require('node:path');
 const root = path.join(__dirname, 'public');
 const development = process.argv.includes('--dev');
 function revision() {
-  return ['index.html', 'style.css', 'app.js', 'sync-data.js', 'tencent-data.json', 'profiles.js', 'profile-config.json', 'organizations.js', 'organization-data.json', 'people-data.json', 'customer-system.js', 'customer-system.json', 'award-history.js', 'award-history.json', 'partners.js', 'cooperation-partners.json', 'worklogs.js', 'worklogs.json', 'worklog-config.json', 'sheet-columns.json', 'remote-sync.js', 'sync-config.json', 'customer-trees.js', 'customer-scenes.json'].map(name => {
+  return ['m/index.html', 'mobile.css', 'mobile.js', 'mobile-data.js', 'device-route.js', 'index.html', 'style.css', 'app.js', 'sync-data.js', 'tencent-data.json', 'profiles.js', 'profile-config.json', 'organizations.js', 'organization-data.json', 'people-data.json', 'customer-system.js', 'customer-system.json', 'award-history.js', 'award-history.json', 'partners.js', 'cooperation-partners.json', 'worklogs.js', 'worklogs.json', 'worklog-config.json', 'sheet-columns.json', 'remote-sync.js', 'sync-config.json', 'customer-trees.js', 'customer-scenes.json'].map(name => {
     try { return fs.statSync(path.join(root, name)).mtimeMs; }
     catch { return 'missing'; }
   }).join('-');
@@ -16,7 +16,7 @@ http.createServer((req,res)=>{
     res.setHeader('Content-Type', 'text/plain');
     return res.end(revision());
   }
-  const file = path.join(root, pathname === '/' ? 'index.html' : pathname);
+  const file = path.join(root, pathname.endsWith('/') ? pathname + 'index.html' : pathname);
   if (!file.startsWith(root + path.sep)) { res.writeHead(403); return res.end(); }
   fs.readFile(file,(err,data)=>{
     if(err){res.writeHead(404);return res.end('Not found');}
