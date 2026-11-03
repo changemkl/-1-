@@ -48,7 +48,11 @@ if(typeof window!=='undefined')(()=>{
  document.body.append(overlay);const panel=overlay.querySelector('#home-drawer-panel');
  function close(immediate=false){overlay.classList.remove('is-open');document.body.classList.remove('org-open');clearTimeout(closeTimer);if(immediate)overlay.hidden=true;else{closeTimer=setTimeout(()=>overlay.hidden=true,260);trigger?.focus();}}
  function updateMarkup(e,customer){
-  if(e.compactProject){const people=[...new Set(e.items.map(x=>x.record.actorName).filter(Boolean))];return `<section class="weekly-update-entry"><header><span class="home-feed-meta"><strong>${esc(e.customerName)}</strong></span><p class="home-feed-project">${esc(e.title)} · 有更新</p><small class="home-feed-bottom">记录人：${esc(people.join('、')||'未明确')}</small></header></section>`;}
+  if(e.compactProject){
+   const rows=new Map();
+   for(const item of e.items){const r=item.record,text=(r.latestProgress||r.content||'').replace(/^(?:工作内容[：:]\s*)?(?:本日进展[：:]\s*)?/,'').trim();const key=text.replace(/\s+/g,'');if(!key)continue;let row=rows.get(key);if(!row){row={text,people:new Set(),methods:new Set()};rows.set(key,row);}if(r.actorName)row.people.add(r.actorName+(r.actorRole?'（'+r.actorRole+'）':''));row.methods.add(r.recordMethod||((r.sourceRecordId||'').startsWith('daily:')?'日志 · 每日进展登记':r.title?.split(' · ').slice(1).join(' · ')||'项目记录'));}
+   return `<section class="weekly-update-entry"><header><span class="home-feed-meta"><strong>${esc(e.customerName)}</strong></span><p class="home-feed-project">${esc(e.title)}</p></header><div class="weekly-log-body">${[...rows.values()].map(r=>`<article class="weekly-changed-record"><small>记录人：${esc([...r.people].join('、')||'未明确')} · ${esc([...r.methods].join('、'))}</small><p class="worklog-text">${esc(r.text)}</p></article>`).join('')||'<p class="home-feed-empty">暂无进展正文</p>'}</div></section>`;
+  }
   const meta=`<span class="home-feed-meta"><strong>${esc(e.customerName)}</strong><time>${e.recordDated?'东风记录':esc(e.detectedAt.slice(11,16))}</time></span><span class="home-feed-project">${esc(e.title)}</span>`;
   if(['工作日志','商机进展','采购意向与招标','历史招标结果','合同信息'].includes(e.label))return `<section class="weekly-update-entry"><header>${meta}<span class="home-feed-bottom">${esc(e.label)}</span></header><div class="weekly-log-body">${changedUpdateMarkup(e,esc)}</div></section>`;
   return `<button type="button" class="home-feed-item" data-home-update="${esc(e.id)}">${meta}<span class="home-feed-bottom">${esc(e.label)}<span>查看详情 →</span></span></button>`;
