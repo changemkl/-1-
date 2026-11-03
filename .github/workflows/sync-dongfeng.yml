@@ -33,9 +33,11 @@ jobs:
             exit 1
           fi
           python scripts/sync-dongfeng.py
+      - name: Record customer data changes
+        run: python scripts/record-customer-updates.py
       - name: Save customer work logs
         run: |
-          git add public/dongfeng-worklogs.json intelligence/dongfeng-worklog-state.json
+          git add public/customer-updates.json intelligence/customer-update-state.json public/dongfeng-worklogs.json intelligence/dongfeng-worklog-state.json
           if ! git diff --cached --quiet; then
             git config user.name 'github-actions[bot]'
             git config user.email '41898282+github-actions[bot]@users.noreply.github.com'

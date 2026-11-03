@@ -33,9 +33,11 @@ jobs:
           TENCENT_DOCS_ACCESS_TOKEN: ${{ secrets.TENCENT_DOCS_ACCESS_TOKEN }}
           TENCENT_DOCS_OPEN_ID: ${{ secrets.TENCENT_DOCS_OPEN_ID }}
         run: python scripts/sync-tencent.py --worklogs-only
+      - name: Record customer data changes
+        run: python scripts/record-customer-updates.py
       - name: Save changed work logs
         run: |
-          git add public/worklog-config.json public/worklogs.json public/sheet-columns.json
+          git add public/customer-updates.json intelligence/customer-update-state.json public/worklog-config.json public/worklogs.json public/sheet-columns.json
           if ! git diff --cached --quiet; then
             git config user.name 'github-actions[bot]'
             git config user.email '41898282+github-actions[bot]@users.noreply.github.com'

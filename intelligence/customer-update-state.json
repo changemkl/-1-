@@ -1,0 +1,347 @@
+{
+  "customers": {
+    "2100303078": {
+      "name": "上海建工集团股份有限公司",
+      "parts": {
+        "采购意向与招标": "3a5dd8247d60bafdf4e561b2ac433f77e6d5313c6699825cb4569176174ae667",
+        "领导资料": "810a5949411054aca248555a7c96bbb9026b38c29bea396d00f80188f91e371e",
+        "组织架构": "f47379be8883699a7387f865d6c5d00fc6437864d4c2894145b0f355400990af",
+        "公开动态": "0a786800d917c2e5c959a273bd31221a38b0b51fd08f82a5223f12109d0d8644",
+        "主要职能": "153974f1e619de596b75b682c83e08b5f8dae92bb624a1e7ffa842f519212d77",
+        "历史招标结果": "2981a250419398b509ff40f71fd059cf122c7b4f25a60d98be457787b9535dac",
+        "合同信息": "6cf76cc0a4d4cf6fa136f7aa7e7f453ea905870660a61d792b698cc73d4f2cef",
+        "政策与建设方向": "6cf76cc0a4d4cf6fa136f7aa7e7f453ea905870660a61d792b698cc73d4f2cef",
+        "工作日志": "272be30bb4d83f79e1cbe4927eb520fc9d276ce1a8b636aa490c6e19a23f3eee",
+        "商机进展": "45f19b72e61d926b025af3a66ef7b26120b678460980ab648d9bafbe74aa9e84",
+        "产品与场景": "5525b44441576e0bd057cb4ce592a3c91fd673eadec321351b692bc374cab303",
+        "生态伙伴": "adfe6f8759dc89ddc9e6061b8863a62d2993ead41abdff501e722440aa8300a4",
+        "客户基本信息": "d259ce3d0c5c0abfb22699f60952cbd8525c356f49372afeda03078a3b18fc9e"
+      }
+    },
+    "2100153629": {
+      "name": "公安部第三研究所",
+      "parts": {
+        "采购意向与招标": "7d2ea2e9a8817d6450ee972650e08cb5f5bac1f126d0f24fcaeb4d4339483565",
+        "领导资料": "810a5949411054aca248555a7c96bbb9026b38c29bea396d00f80188f91e371e",
+        "组织架构": "5952f97c88d077a2eafdf1f984984e377b7ec89c8dfc480adbe18f646c84d839",
+        "公开动态": "0a786800d917c2e5c959a273bd31221a38b0b51fd08f82a5223f12109d0d8644",
+        "主要职能": "7eb2185b9e74903b1fa015c7815c2d53446eef3ea8dc5b8bedc3d36dbab117a9",
+        "历史招标结果": "fe88638c6bb1dac4719f30d0f49950bfff8952c6e28f639cf2c1e28b71e8f4c9",
+        "合同信息": "6cf76cc0a4d4cf6fa136f7aa7e7f453ea905870660a61d792b698cc73d4f2cef",
+        "政策与建设方向": "6cf76cc0a4d4cf6fa136f7aa7e7f453ea905870660a61d792b698cc73d4f2cef",
+        "工作日志": "4fc88c2d56f9375757fb784e44f07ee84435ab4ec7681d08aa7c424f5f00bfe6",
+        "商机进展": "9b8bcb14fea4dc02063debd0f662bef2e087864513dcb4f97601ed4f1b74aec0",
+        "产品与场景": "5525b44441576e0bd057cb4ce592a3c91fd673eadec321351b692bc374cab303",
+        "生态伙伴": "adfe6f8759dc89ddc9e6061b8863a62d2993ead41abdff501e722440aa8300a4",
+        "客户基本信息": "85db9abead136b892a2c468ce39dfc397fe4cb2f3697f3862bf4288064e24743"
+      }
+    },
+    "2100127512": {
+      "name": "中国浦东干部学院",
+      "parts": {
+        "采购意向与招标": "071810b7b063c4989f8334fba830ce6e7951a392e11421aa3ff45e9a8143eeca",
+        "领导资料": "810a5949411054aca248555a7c96bbb9026b38c29bea396d00f80188f91e371e",
+        "组织架构": "bf8137cc0e92138c50a275ca65165af5d684f6e5c414f221753c4caaabc674dc",
+        "公开动态": "0a786800d917c2e5c959a273bd31221a38b0b51fd08f82a5223f12109d0d8644",
+        "主要职能": "7ce78d36880dfb8bf9cd42247642a71de2730481fb2292c4a86766e39b0716be",
+        "历史招标结果": "11a4446c840f715eaecad8d9b7484416f8e6eee7dd5057a43bc3dfd0145c3cf7",
+        "合同信息": "6cf76cc0a4d4cf6fa136f7aa7e7f453ea905870660a61d792b698cc73d4f2cef",
+        "政策与建设方向": "6cf76cc0a4d4cf6fa136f7aa7e7f453ea905870660a61d792b698cc73d4f2cef",
+        "工作日志": "6cafe8daf39fa25c4bb5c586d0c3cb49776d2841a67ac6b6fb5d90b8ee438cca",
+        "商机进展": "4ec5f18c8d34183906281f06ccf270a465afc7bdc5529e5e10fb30db571bfb6b",
+        "产品与场景": "5525b44441576e0bd057cb4ce592a3c91fd673eadec321351b692bc374cab303",
+        "生态伙伴": "adfe6f8759dc89ddc9e6061b8863a62d2993ead41abdff501e722440aa8300a4",
+        "客户基本信息": "33bbcfc8ec3a7d4fca06bedc9ded9c7a9f808f621d036ea66e6cce66783807db"
+      }
+    },
+    "2100199365": {
+      "name": "中国建筑第八工程局有限公司",
+      "parts": {
+        "采购意向与招标": "3a5dd8247d60bafdf4e561b2ac433f77e6d5313c6699825cb4569176174ae667",
+        "领导资料": "55b49a8eb36b668b585a10fa4b8dc2e7b01054af99ab3321d9dcf92ceb72adbd",
+        "组织架构": "c43ac89bd22e7ac8ebe8dc287f0fd7169a9d6469e6d93b2fee940d53de427106",
+        "公开动态": "0a786800d917c2e5c959a273bd31221a38b0b51fd08f82a5223f12109d0d8644",
+        "主要职能": "fd315dd0b7d24cf9044a47e0c514ff67d7d0c1d150e51bbea88ab239f30334e1",
+        "历史招标结果": "88cc346e9997f68c56493f5de68f1fc19da173e96766d3173746d58f280fddb2",
+        "合同信息": "6cf76cc0a4d4cf6fa136f7aa7e7f453ea905870660a61d792b698cc73d4f2cef",
+        "政策与建设方向": "6cf76cc0a4d4cf6fa136f7aa7e7f453ea905870660a61d792b698cc73d4f2cef",
+        "工作日志": "743057079dd050d17a0b15118bd05b558fa64ab81af3073b9d87e37afd0b90e4",
+        "商机进展": "588ee2f14719e45f7e6ba0e4a31d41561c4145c63eaaa1df86d8693b26f07e48",
+        "产品与场景": "5525b44441576e0bd057cb4ce592a3c91fd673eadec321351b692bc374cab303",
+        "生态伙伴": "adfe6f8759dc89ddc9e6061b8863a62d2993ead41abdff501e722440aa8300a4",
+        "客户基本信息": "fb3bf4a68ebc32927d0b346e8092ede9d996724361084bdc8c35e88f957f6f39"
+      }
+    },
+    "2101882120": {
+      "name": "上海数据集团有限公司",
+      "parts": {
+        "采购意向与招标": "3a5dd8247d60bafdf4e561b2ac433f77e6d5313c6699825cb4569176174ae667",
+        "领导资料": "810a5949411054aca248555a7c96bbb9026b38c29bea396d00f80188f91e371e",
+        "组织架构": "ee6776d353ddafde12e3f0f0f1e9adf529f2940180684136a2b56f43d80da3fe",
+        "公开动态": "0a786800d917c2e5c959a273bd31221a38b0b51fd08f82a5223f12109d0d8644",
+        "主要职能": "36ec09b49ce3f51066e07c5f728e3ecadc0fa6cd8f1f96a235300a8cb32b6104",
+        "历史招标结果": "cbe34baaeba663b1334b51076530f15555f360fb5ba4892f2f9c88eca3c22ca8",
+        "合同信息": "6cf76cc0a4d4cf6fa136f7aa7e7f453ea905870660a61d792b698cc73d4f2cef",
+        "政策与建设方向": "6cf76cc0a4d4cf6fa136f7aa7e7f453ea905870660a61d792b698cc73d4f2cef",
+        "工作日志": "f865466479903067e4497473ad4bf70aef284f2bfe0abc68996ccbd7ccb1c53e",
+        "商机进展": "45f19b72e61d926b025af3a66ef7b26120b678460980ab648d9bafbe74aa9e84",
+        "产品与场景": "5525b44441576e0bd057cb4ce592a3c91fd673eadec321351b692bc374cab303",
+        "生态伙伴": "adfe6f8759dc89ddc9e6061b8863a62d2993ead41abdff501e722440aa8300a4",
+        "客户基本信息": "07f786d696b466ef097a40063c420b2d380eb073a61953fa8c52a8898fc78005"
+      }
+    },
+    "2108019729": {
+      "name": "水利部太湖流域管理局",
+      "parts": {
+        "采购意向与招标": "3a5dd8247d60bafdf4e561b2ac433f77e6d5313c6699825cb4569176174ae667",
+        "领导资料": "37360c85ce800d549e40d41ccb543d6f53ce56c4edd9cd30003b97cb714d5b4d",
+        "组织架构": "5afecf4521542b76e5564db1f8a2b95036bd9c7f50a8d55a443821393f33b18f",
+        "公开动态": "0a786800d917c2e5c959a273bd31221a38b0b51fd08f82a5223f12109d0d8644",
+        "主要职能": "446564b90fb1385d7d0ab05dbdb593c498cc3137227e84cddebc919c892c3a13",
+        "历史招标结果": "9a7a778f47bdc92034aee87a3b76bfcfa63933013fadf83f681e33f61f7c4c5f",
+        "合同信息": "6cf76cc0a4d4cf6fa136f7aa7e7f453ea905870660a61d792b698cc73d4f2cef",
+        "政策与建设方向": "6cf76cc0a4d4cf6fa136f7aa7e7f453ea905870660a61d792b698cc73d4f2cef",
+        "工作日志": "7050f7c60b12864781b2a9f1298760abf4af75981b0b7bbd9fb2281af0165d70",
+        "商机进展": "45f19b72e61d926b025af3a66ef7b26120b678460980ab648d9bafbe74aa9e84",
+        "产品与场景": "5525b44441576e0bd057cb4ce592a3c91fd673eadec321351b692bc374cab303",
+        "生态伙伴": "adfe6f8759dc89ddc9e6061b8863a62d2993ead41abdff501e722440aa8300a4",
+        "客户基本信息": "b10ef5f65465801208c9d59c187ab215803ff30e3aac5556e1d571c1d8603cde"
+      }
+    },
+    "2102351543": {
+      "name": "上海库帕思科技有限公司",
+      "parts": {
+        "采购意向与招标": "3a5dd8247d60bafdf4e561b2ac433f77e6d5313c6699825cb4569176174ae667",
+        "领导资料": "810a5949411054aca248555a7c96bbb9026b38c29bea396d00f80188f91e371e",
+        "组织架构": "320833a1f4e3023e93cf4b9d7ad2f6fa654638a76d3d4a20c9b71830fd6a90ba",
+        "公开动态": "0a786800d917c2e5c959a273bd31221a38b0b51fd08f82a5223f12109d0d8644",
+        "主要职能": "34b23cc99d0c0b83c1bb93dee5f65088b8e3af9e713eb7174f615d9e1daf2e8e",
+        "历史招标结果": "5e23cf36ca314acc704746e71c2e040fe78729c84e4ca468f8a45359fefd8616",
+        "合同信息": "6cf76cc0a4d4cf6fa136f7aa7e7f453ea905870660a61d792b698cc73d4f2cef",
+        "政策与建设方向": "6cf76cc0a4d4cf6fa136f7aa7e7f453ea905870660a61d792b698cc73d4f2cef",
+        "工作日志": "89d0a088c97ddc6c2a2a441d4ab3054b955e3661608f982f16f1f328bbf08515",
+        "商机进展": "45f19b72e61d926b025af3a66ef7b26120b678460980ab648d9bafbe74aa9e84",
+        "产品与场景": "5525b44441576e0bd057cb4ce592a3c91fd673eadec321351b692bc374cab303",
+        "生态伙伴": "adfe6f8759dc89ddc9e6061b8863a62d2993ead41abdff501e722440aa8300a4",
+        "客户基本信息": "404f111b780d059961b6927148ab4150be0d398e8f8b092dcd7111cb132073ea"
+      }
+    },
+    "2102315260": {
+      "name": "上海市数据局",
+      "parts": {
+        "采购意向与招标": "3a5dd8247d60bafdf4e561b2ac433f77e6d5313c6699825cb4569176174ae667",
+        "领导资料": "bba18f2cf641175641ed22d76334a7d9d5c8c29b4770b73ad15ebb3ed442e194",
+        "组织架构": "079bdd4f7b3b0074fc66ec72da82cdd06dfcfefe0a241f491c580b841dc155fb",
+        "公开动态": "0a786800d917c2e5c959a273bd31221a38b0b51fd08f82a5223f12109d0d8644",
+        "主要职能": "022287b5162ab03efc6fd4eb4d1d370a1abda64a0ce96d8bdffbf3f75cf97130",
+        "历史招标结果": "773a7b3d96f6377102558f432d23a8f1b993b4c214c23bb551fb6ed5d3457d71",
+        "合同信息": "6cf76cc0a4d4cf6fa136f7aa7e7f453ea905870660a61d792b698cc73d4f2cef",
+        "政策与建设方向": "6cf76cc0a4d4cf6fa136f7aa7e7f453ea905870660a61d792b698cc73d4f2cef",
+        "工作日志": "5e8ffc961fd78ebcdac7b630977134df1cfc0d35644f31c5661178c1acbc6de9",
+        "商机进展": "45f19b72e61d926b025af3a66ef7b26120b678460980ab648d9bafbe74aa9e84",
+        "产品与场景": "5525b44441576e0bd057cb4ce592a3c91fd673eadec321351b692bc374cab303",
+        "生态伙伴": "adfe6f8759dc89ddc9e6061b8863a62d2993ead41abdff501e722440aa8300a4",
+        "客户基本信息": "3040418d8a81fbf7cab3b9dcc7205d3457ae6169dfe895d3539cb3483aabac35"
+      }
+    },
+    "2100000260": {
+      "name": "上海市公安局",
+      "parts": {
+        "采购意向与招标": "5ef8f2c2924dc2b316d83fccfd630cc0c52682d9194632f9fad617956d4cc701",
+        "领导资料": "810a5949411054aca248555a7c96bbb9026b38c29bea396d00f80188f91e371e",
+        "组织架构": "5952f97c88d077a2eafdf1f984984e377b7ec89c8dfc480adbe18f646c84d839",
+        "公开动态": "0a786800d917c2e5c959a273bd31221a38b0b51fd08f82a5223f12109d0d8644",
+        "主要职能": "49652bb439aedcf9af91f91493d37c6979065218ed72c5e09b1afd95b852e0af",
+        "历史招标结果": "73862b7e6c0eaa786217ad2af8e7cff828d054182afad71851f071fc12f3b251",
+        "合同信息": "43865dde3eec74ae0f33087cd9283a543474964d7d17792508c445bdc7cd583a",
+        "政策与建设方向": "96ad9499cdbd8d32753e45fc41a8585e6f093dc3d62bc3160f3700ccd1b604d7",
+        "工作日志": "2609a8849e9bb6e5ab78c891bd0b60a10c8f0a53b5cb4d54492cb9a9da9856a5",
+        "商机进展": "b5429516fbfcd0d448b5294f85e78bc3bebb97a90cdab94e2fad1e5ad9e11bb5",
+        "产品与场景": "5525b44441576e0bd057cb4ce592a3c91fd673eadec321351b692bc374cab303",
+        "生态伙伴": "adfe6f8759dc89ddc9e6061b8863a62d2993ead41abdff501e722440aa8300a4",
+        "客户基本信息": "4f3bb1296a15ada2fac0d05442cf8f501339991406d5b293a54d6edcb714d022"
+      }
+    },
+    "2100000172": {
+      "name": "上海市消防救援总队",
+      "parts": {
+        "采购意向与招标": "760dd020f3aebb117dc868676ba4d88bc094858f1a722c77510260ee305be5fd",
+        "领导资料": "2fd0af120b4476fda01458e5b8acdb5eb74565e044963732d949ece0b44945b8",
+        "组织架构": "5952f97c88d077a2eafdf1f984984e377b7ec89c8dfc480adbe18f646c84d839",
+        "公开动态": "0a786800d917c2e5c959a273bd31221a38b0b51fd08f82a5223f12109d0d8644",
+        "主要职能": "a764f0bb4865dc89bee389881954040de45124a1d0e7ca0a0e772effdf607ecd",
+        "历史招标结果": "919d513ab456bb17fdc162a83e6eee6e8bb31772f6f87fe342d9b180fc3ec861",
+        "合同信息": "6cf76cc0a4d4cf6fa136f7aa7e7f453ea905870660a61d792b698cc73d4f2cef",
+        "政策与建设方向": "6cf76cc0a4d4cf6fa136f7aa7e7f453ea905870660a61d792b698cc73d4f2cef",
+        "工作日志": "76817044e9f9316783ad9a658fef9829315bcb6f01a9e94b13a3a275fd300b62",
+        "商机进展": "d357741bd7b944c310813c8dc23bed3cb98286fc02f7b42bfa43227d51cc7558",
+        "产品与场景": "5525b44441576e0bd057cb4ce592a3c91fd673eadec321351b692bc374cab303",
+        "生态伙伴": "adfe6f8759dc89ddc9e6061b8863a62d2993ead41abdff501e722440aa8300a4",
+        "客户基本信息": "141d4be2652c085297390008e0e7b7d8d24d72ff23ccc6fa64125f8a58fbc38a"
+      }
+    },
+    "2101340371": {
+      "name": "上海市应急管理局",
+      "parts": {
+        "采购意向与招标": "cbc08f71a0de64f6def4ad9cb333c25af989d88fce7c74c18670ec50bba94848",
+        "领导资料": "4ad85da446def69f5c3043bfc5f93678ee11268fdca83b0557da335b0841d855",
+        "组织架构": "064ce60ae080f100ea84de94681b1ac43e2bc58e9882dac43a8fad080e904e19",
+        "公开动态": "0a786800d917c2e5c959a273bd31221a38b0b51fd08f82a5223f12109d0d8644",
+        "主要职能": "b2310f3d853cdbd864fdee343f3929767625f61ef111dd22750f46ca1df52116",
+        "历史招标结果": "0fd362ea176a2e4534e9aa3adbac1c975fba2db8cc10b6d0a3f72f41ab21bfe9",
+        "合同信息": "6cf76cc0a4d4cf6fa136f7aa7e7f453ea905870660a61d792b698cc73d4f2cef",
+        "政策与建设方向": "6cf76cc0a4d4cf6fa136f7aa7e7f453ea905870660a61d792b698cc73d4f2cef",
+        "工作日志": "b15e938496968cf463d332736f36ea3d168affc15743839541f21287738c38dd",
+        "商机进展": "45f19b72e61d926b025af3a66ef7b26120b678460980ab648d9bafbe74aa9e84",
+        "产品与场景": "5525b44441576e0bd057cb4ce592a3c91fd673eadec321351b692bc374cab303",
+        "生态伙伴": "adfe6f8759dc89ddc9e6061b8863a62d2993ead41abdff501e722440aa8300a4",
+        "客户基本信息": "5f85e58ca31ce679bd67f49f3d54a6ec3d3e286059d3d8e514df7d62ad7998d9"
+      }
+    },
+    "2100172632": {
+      "name": "上海市住房和城乡建设管理委员会",
+      "parts": {
+        "采购意向与招标": "833e00eb4d23e215224db70fecb8d1794d6034974079cf88936bd59899b9122c",
+        "领导资料": "2d5524210c0c9aa70fa47b6f36ee3a9fa638f51aa4663c148faa4ef4fdedc891",
+        "组织架构": "13abec8e7ccdb6e43946f358a080db3d98a522cff3049b278c8275606dcd1251",
+        "公开动态": "0a786800d917c2e5c959a273bd31221a38b0b51fd08f82a5223f12109d0d8644",
+        "主要职能": "cd98d6b7cb6288175cb90a0a71432966c039d7fca706c056323211b5cd6bad62",
+        "历史招标结果": "ba0a5938e3a0a74bb8e0dbb4eb47e863544ebaef9fbd65fd417df14d26ccf574",
+        "合同信息": "6cf76cc0a4d4cf6fa136f7aa7e7f453ea905870660a61d792b698cc73d4f2cef",
+        "政策与建设方向": "6cf76cc0a4d4cf6fa136f7aa7e7f453ea905870660a61d792b698cc73d4f2cef",
+        "工作日志": "60bbe5aef5b3bdb952b45f3f17e31e29eb9c3abccda1b3056465fe3e97cc4b11",
+        "商机进展": "67250a8707dd886baf786ddcdd7e83195a961238bf3c1c1954f8ae86b5be965d",
+        "产品与场景": "5525b44441576e0bd057cb4ce592a3c91fd673eadec321351b692bc374cab303",
+        "生态伙伴": "adfe6f8759dc89ddc9e6061b8863a62d2993ead41abdff501e722440aa8300a4",
+        "客户基本信息": "64580260d10a57354245aa363a3fe212530a35d8f7e56f2717b1a21a0b98aae5"
+      }
+    },
+    "2100128579": {
+      "name": "上海市教育委员会",
+      "parts": {
+        "采购意向与招标": "3d18a429c36438d03b3c907a65db930c964a588c8b6dedfa9700f55bb4b813cd",
+        "领导资料": "e580ba87aee5cdf50d858b8d3862983207da622bf8c4ba457c6c789547b79650",
+        "组织架构": "806b7224911481b1a50ecd6c2034c83ca108cad402de352839220792026427d2",
+        "公开动态": "0a786800d917c2e5c959a273bd31221a38b0b51fd08f82a5223f12109d0d8644",
+        "主要职能": "5f71f34f774acf63b3ae5b3fc85f9edca6546e385899e80513bf2e6f04774feb",
+        "历史招标结果": "3ba18fb7f4db1be9b38ce0a2ba657e35d5ff7f67578b661ac7f78c1cc00b4d59",
+        "合同信息": "6cf76cc0a4d4cf6fa136f7aa7e7f453ea905870660a61d792b698cc73d4f2cef",
+        "政策与建设方向": "6cf76cc0a4d4cf6fa136f7aa7e7f453ea905870660a61d792b698cc73d4f2cef",
+        "工作日志": "73f4029bf72fcf64f2a84eb1822ce061b0c82b407a653eefc19760e8e4c2df8d",
+        "商机进展": "ec65f8ec2a3bbd52b73fd86fb0ac326053a3d31fb527b17ae7068d257b2caad6",
+        "产品与场景": "5525b44441576e0bd057cb4ce592a3c91fd673eadec321351b692bc374cab303",
+        "生态伙伴": "adfe6f8759dc89ddc9e6061b8863a62d2993ead41abdff501e722440aa8300a4",
+        "客户基本信息": "1845b42d7bded422a3f3f01fc57675563077efb3fff45e8aaaa10adde50bba72"
+      }
+    },
+    "2100161493": {
+      "name": "上海市体育局",
+      "parts": {
+        "采购意向与招标": "6bd044cdd6a4bd93d95e78e391ede342d14fbc1e9f8ae44e5c54d21ce075b6a1",
+        "领导资料": "3007d6fb4aca6850d08a85bce9bf56e41b44639ad7a7f3d95e8020378a41bb4f",
+        "组织架构": "8e906a5473b18ea737be3ef629c9ed1643f2cca47f97436dfb9eddc0f66ecab4",
+        "公开动态": "0a786800d917c2e5c959a273bd31221a38b0b51fd08f82a5223f12109d0d8644",
+        "主要职能": "79b18eafa785db24d213321ebd3836ec9850d67a068b336b205d2da1ae5b0ade",
+        "历史招标结果": "68287d8bb6b98a6af57c238a7c1df1e47aaa952d41303e12526d53dad9e6ba5b",
+        "合同信息": "6cf76cc0a4d4cf6fa136f7aa7e7f453ea905870660a61d792b698cc73d4f2cef",
+        "政策与建设方向": "6cf76cc0a4d4cf6fa136f7aa7e7f453ea905870660a61d792b698cc73d4f2cef",
+        "工作日志": "f21e97bfe222963b9d24fc74db7012af758aafb4d2bae22b0c10677ceb20b61b",
+        "商机进展": "2beac873bc08420b2090b443bb3c5c8aaec728a09d114e45949416f9841058ab",
+        "产品与场景": "5525b44441576e0bd057cb4ce592a3c91fd673eadec321351b692bc374cab303",
+        "生态伙伴": "adfe6f8759dc89ddc9e6061b8863a62d2993ead41abdff501e722440aa8300a4",
+        "客户基本信息": "fa2a2035a59b5f0b163af9d81bbda50c9dcb7730a647dae7532eb28b258ac0fb"
+      }
+    },
+    "2100006103": {
+      "name": "上海市市场监督管理局",
+      "parts": {
+        "采购意向与招标": "28eea8c7789e357a8c65ee4ea89e451d90616f391e171d4af4de3eb16f30e60e",
+        "领导资料": "810a5949411054aca248555a7c96bbb9026b38c29bea396d00f80188f91e371e",
+        "组织架构": "d029832f45d9736bbaf912c0b1ad31da4cdff1730dca4df9b2c89c18d84085fd",
+        "公开动态": "0a786800d917c2e5c959a273bd31221a38b0b51fd08f82a5223f12109d0d8644",
+        "主要职能": "7e58bf2ecb750439bbd04188115ef6750f465242f9696e8e76f12c92c0efb032",
+        "历史招标结果": "159f08c72facc2f01a4d49c79d185f1eb3e870966e72c37d5188bbc06dfe9f2f",
+        "合同信息": "96ad9499cdbd8d32753e45fc41a8585e6f093dc3d62bc3160f3700ccd1b604d7",
+        "政策与建设方向": "1b945cadfdbd73e70dd45f91a4618673415b2e9dae8441b7b21ae3c3b1a5df5c",
+        "工作日志": "3936530b582e03c32c42574492c167820840a2040ef1dbbc73465d0155e14b30",
+        "商机进展": "45f19b72e61d926b025af3a66ef7b26120b678460980ab648d9bafbe74aa9e84",
+        "产品与场景": "5525b44441576e0bd057cb4ce592a3c91fd673eadec321351b692bc374cab303",
+        "生态伙伴": "adfe6f8759dc89ddc9e6061b8863a62d2993ead41abdff501e722440aa8300a4",
+        "客户基本信息": "242158b85bba9db04dc5b2f65804e8ac6b6fd57deef0e6ab848db67c42d33f76"
+      }
+    },
+    "name:上海市委党校": {
+      "name": "上海市委党校",
+      "parts": {
+        "采购意向与招标": "2e17512c12e735571a027b5d01f265716ec8ee8d2788ff8899c9cf9f606049c0",
+        "领导资料": "3847efee09451533b5b6d20bbbc57bd00e848c922ba2f78f3d8cebb17e63cd86",
+        "组织架构": "24515b2a3c3b087f60e559d06e378228e793118b16a609854ec4e802449d11ea",
+        "公开动态": "0a786800d917c2e5c959a273bd31221a38b0b51fd08f82a5223f12109d0d8644",
+        "主要职能": "d5608da0decd0c614714fc308bad7796b817b580649f200345ebfbae304afb44",
+        "历史招标结果": "5e23cf36ca314acc704746e71c2e040fe78729c84e4ca468f8a45359fefd8616",
+        "合同信息": "6cf76cc0a4d4cf6fa136f7aa7e7f453ea905870660a61d792b698cc73d4f2cef",
+        "政策与建设方向": "6cf76cc0a4d4cf6fa136f7aa7e7f453ea905870660a61d792b698cc73d4f2cef",
+        "工作日志": "32d0c0b18b3963d6846f83309d37a7c064da55edb07f7cda5efbe7bbdf935b27",
+        "商机进展": "92691e44ac2485a0b5664a1b8a40f54273a34540d36643a3fb19e44332276943",
+        "产品与场景": "5525b44441576e0bd057cb4ce592a3c91fd673eadec321351b692bc374cab303",
+        "生态伙伴": "adfe6f8759dc89ddc9e6061b8863a62d2993ead41abdff501e722440aa8300a4",
+        "客户基本信息": "020e9affae176a27f390432d8de957bf9187f9ccea5eaae47999f473bb0f949c"
+      }
+    },
+    "name:上海市城市运行管理中心": {
+      "name": "上海市城市运行管理中心",
+      "parts": {
+        "采购意向与招标": "3a5dd8247d60bafdf4e561b2ac433f77e6d5313c6699825cb4569176174ae667",
+        "领导资料": "810a5949411054aca248555a7c96bbb9026b38c29bea396d00f80188f91e371e",
+        "组织架构": "5952f97c88d077a2eafdf1f984984e377b7ec89c8dfc480adbe18f646c84d839",
+        "公开动态": "0a786800d917c2e5c959a273bd31221a38b0b51fd08f82a5223f12109d0d8644",
+        "主要职能": "ca127a85f84d3506fa5ac25c0515bedb6d86f6c05dab308916aefc6a78d2b6f9",
+        "历史招标结果": "5e23cf36ca314acc704746e71c2e040fe78729c84e4ca468f8a45359fefd8616",
+        "合同信息": "6cf76cc0a4d4cf6fa136f7aa7e7f453ea905870660a61d792b698cc73d4f2cef",
+        "政策与建设方向": "6cf76cc0a4d4cf6fa136f7aa7e7f453ea905870660a61d792b698cc73d4f2cef",
+        "工作日志": "93fd20d4ce5be6054af969e3ce9820b6741cacbf763ef14f1b52f3a3f8cb955d",
+        "商机进展": "5c176a7cd3be1cedf7d7c5b60d7fc9c1b33e23707a53471f42880f234c2ca2ac",
+        "产品与场景": "5525b44441576e0bd057cb4ce592a3c91fd673eadec321351b692bc374cab303",
+        "生态伙伴": "adfe6f8759dc89ddc9e6061b8863a62d2993ead41abdff501e722440aa8300a4",
+        "客户基本信息": "26714b0cc3f2d0d8be3b8f8afe5cbcdfd0658da18a6e6388f965edb374f92d49"
+      }
+    },
+    "name:上海市总工会": {
+      "name": "上海市总工会",
+      "parts": {
+        "采购意向与招标": "25be13f1d1d99c0444a38c004b48588294c26292ec171b8dbb2434f2e79bc400",
+        "领导资料": "810a5949411054aca248555a7c96bbb9026b38c29bea396d00f80188f91e371e",
+        "组织架构": "5952f97c88d077a2eafdf1f984984e377b7ec89c8dfc480adbe18f646c84d839",
+        "公开动态": "0a786800d917c2e5c959a273bd31221a38b0b51fd08f82a5223f12109d0d8644",
+        "主要职能": "d21976f13209b9ca0b7adae6d2d7cbb26a76bfe3f1040ea2cc043076dd9a36a9",
+        "历史招标结果": "9d6acb82c31a11b4a11c175ed5226dfc77523ca3e9f8bdac34da27542d2eb55d",
+        "合同信息": "6cf76cc0a4d4cf6fa136f7aa7e7f453ea905870660a61d792b698cc73d4f2cef",
+        "政策与建设方向": "6cf76cc0a4d4cf6fa136f7aa7e7f453ea905870660a61d792b698cc73d4f2cef",
+        "工作日志": "3e9a10a290ccb87990becc023bcf1887d856fd6630ecc2ab161e276e44c93d39",
+        "商机进展": "b72b821bf796daf6c9ecf7c8ff5a46c65d54dc0066fec9b74cb218d7eb0d12c3",
+        "产品与场景": "5525b44441576e0bd057cb4ce592a3c91fd673eadec321351b692bc374cab303",
+        "生态伙伴": "adfe6f8759dc89ddc9e6061b8863a62d2993ead41abdff501e722440aa8300a4",
+        "客户基本信息": "3cf2455e9dd0e431cdb76346d64923bf8cce77c4bee821d6b6e31ab3f1855d2b"
+      }
+    },
+    "name:上海市房地产交易中心": {
+      "name": "上海市房地产交易中心",
+      "parts": {
+        "采购意向与招标": "d420714c32f55f4390e9fe88dfed14333e028356f179e13d9af1b4baf2dbd063",
+        "领导资料": "810a5949411054aca248555a7c96bbb9026b38c29bea396d00f80188f91e371e",
+        "组织架构": "3b7e8139020dacf4d32bbfae0e40e8e20767b16154c2be0fab32004a9701f4fc",
+        "公开动态": "0a786800d917c2e5c959a273bd31221a38b0b51fd08f82a5223f12109d0d8644",
+        "主要职能": "8d5f233baa66c207e26ec82fddcd3839ade78a2d446522cb515bc3505f95e3bc",
+        "历史招标结果": "100354cfaa417440ba6287cb8d96559693e5d2374ac3d5a97e3c6d1e8e7a304c",
+        "合同信息": "6cf76cc0a4d4cf6fa136f7aa7e7f453ea905870660a61d792b698cc73d4f2cef",
+        "政策与建设方向": "6cf76cc0a4d4cf6fa136f7aa7e7f453ea905870660a61d792b698cc73d4f2cef",
+        "工作日志": "a4fd21ae7da3c410685e7821885bf98396e9792c9b1cb06c27ea53c9d7827bd2",
+        "商机进展": "45f19b72e61d926b025af3a66ef7b26120b678460980ab648d9bafbe74aa9e84",
+        "产品与场景": "5525b44441576e0bd057cb4ce592a3c91fd673eadec321351b692bc374cab303",
+        "生态伙伴": "adfe6f8759dc89ddc9e6061b8863a62d2993ead41abdff501e722440aa8300a4",
+        "客户基本信息": "35468c97d43a66ba8daa8ac11a972bdb599a235dc63d680594764e98a29a4f42"
+      }
+    }
+  },
+  "updatedAt": "2026-11-03T08:54:09+08:00"
+}
