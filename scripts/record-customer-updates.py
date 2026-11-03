@@ -56,6 +56,15 @@ def snapshot(root=ROOT):
         content=progress.get('content','')
         match_progress=re.search(r'最新进展[：:]\s*(.*?)(?=\n(?:下一步|平台阶段|线索结果|中失标状态)[：:]|$)',content,re.S)
         if match_progress:item={**item,'latestProgress':match_progress.group(1).strip(),'actorName':progress.get('actorName',''),'actorRole':progress.get('actorRole',''),'recordMethod':str(progress.get('projectTypes',{}).get(item.get('id'),item.get('type','项目')))+'记录 · 最新进展','sourceRecordId':progress.get('sourceRecordId',''),'sourceUrl':progress.get('sourceUrl','')}
+        if match_progress:
+         def daily_text(entry):
+          body=entry.get('content','').split('｜下一步')[0].split('\n下一步')[0]
+          body=re.sub(r'^(?:工作内容[：:]\s*)?(?:本日进展[：:]\s*)?', '', body)
+          return re.sub(r'\s+','',body)
+         candidates=[entry for entry in data.get('entries',[]) if str(entry.get('sourceRecordId','')).startswith('daily:') and entry.get('customerId')==id and item.get('id') in entry.get('projectIds',[]) and entry.get('workDate')==progress.get('recordUpdatedDate') and entry.get('actorName') and daily_text(entry)==re.sub(r'\s+','',item['latestProgress'])]
+         if len({entry['actorName'] for entry in candidates})==1:
+          evidence=candidates[0]
+          item={**item,'actorName':evidence['actorName'],'actorRole':evidence.get('actorRole',''),'recordMethod':'日志 · 每日进展登记','attributionRecordId':evidence['sourceRecordId'],'attributionNote':'同项目、同日、进展正文一致的原始日志'}
       key=record_key(file,item)
       c['records'].setdefault(label,{})[key]={'hash':fingerprint(item),'data':item}
      if label=='商机进展':c['parts'][label][file]=[v['data'] for v in c['records'].get(label,{}).values()]
