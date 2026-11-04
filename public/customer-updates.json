@@ -2035,6 +2035,45 @@
           }
         }
       ]
+    },
+    {
+      "id": "3aa2c7bbf198a6260c7c611a",
+      "customerId": "2100000260",
+      "customerName": "上海市公安局",
+      "label": "历史招标结果",
+      "title": "历史招标结果更新",
+      "detectedAt": "2026-11-04T16:09:12+08:00",
+      "date": "2026-11-04",
+      "items": [
+        {
+          "key": "award-history:https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=PeW5%2B1W2Vc9o9AskxpHk1w%3D%3D",
+          "change": "新增",
+          "record": {
+            "title": "上海市公安局浦东分局网站云安全的中标（成交）结果公告",
+            "date": "2026-11-04",
+            "buyer": "上海市公安局浦东分局",
+            "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=PeW5%2B1W2Vc9o9AskxpHk1w%3D%3D",
+            "source": "上海市政府采购网",
+            "dateLabel": "结果公告日期",
+            "projectName": "上海市公安局浦东分局网站云安全",
+            "awards": [
+              {
+                "lotNumber": "1",
+                "lotName": "上海市公安局浦东分局网站云安全",
+                "suppliers": [
+                  "上海天融信网络安全技术有限公司"
+                ],
+                "quote": "标项名称：上海市公安局浦东分局网站云安全；中标供应商名称：上海天融信网络安全技术有限公司"
+              }
+            ],
+            "detailCheck": {
+              "version": 1,
+              "at": "2026-11-04T16:08:13+08:00",
+              "status": "ok"
+            }
+          }
+        }
+      ]
     }
   ]
 }

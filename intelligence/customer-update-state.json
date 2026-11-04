@@ -1160,7 +1160,7 @@
               "url": "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202610/t20261028_27575254.htm",
               "title": "中国浦东干部学院消防安全设施改造工程公开招标公告",
               "published_at": "2026-10-28",
-              "fetched_at": "2026-11-03T15:23:48+08:00",
+              "fetched_at": "2026-11-04T16:09:03+08:00",
               "source_host": "www.ccgp.gov.cn"
             }
           },
@@ -1186,7 +1186,7 @@
               "url": "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202610/t20261027_27572438.htm",
               "title": "中国浦东干部学院照明系统节能改造项目公开招标公告",
               "published_at": "2026-10-27",
-              "fetched_at": "2026-11-03T15:23:48+08:00",
+              "fetched_at": "2026-11-04T16:09:03+08:00",
               "source_host": "www.ccgp.gov.cn"
             }
           }
@@ -2228,7 +2228,7 @@
         "组织架构": "5952f97c88d077a2eafdf1f984984e377b7ec89c8dfc480adbe18f646c84d839",
         "公开动态": "0a786800d917c2e5c959a273bd31221a38b0b51fd08f82a5223f12109d0d8644",
         "主要职能": "49652bb439aedcf9af91f91493d37c6979065218ed72c5e09b1afd95b852e0af",
-        "历史招标结果": "73862b7e6c0eaa786217ad2af8e7cff828d054182afad71851f071fc12f3b251",
+        "历史招标结果": "358c34d8410b4a9265a79661b081be3211fe381c166b6e76ccae914ed0981418",
         "合同信息": "43865dde3eec74ae0f33087cd9283a543474964d7d17792508c445bdc7cd583a",
         "政策与建设方向": "96ad9499cdbd8d32753e45fc41a8585e6f093dc3d62bc3160f3700ccd1b604d7",
         "工作日志": "adb13c09fd60590e8f2e2a637a8b4a4d3c2c3b310c42bd4b5c150bedc4c7e8ee",
@@ -3085,6 +3085,33 @@
           }
         },
         "历史招标结果": {
+          "award-history:https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=PeW5%2B1W2Vc9o9AskxpHk1w%3D%3D": {
+            "hash": "43438e554220daaa738f871b870920f2d372043e11fc96e707950e55a03ed5cd",
+            "data": {
+              "title": "上海市公安局浦东分局网站云安全的中标（成交）结果公告",
+              "date": "2026-11-04",
+              "buyer": "上海市公安局浦东分局",
+              "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=PeW5%2B1W2Vc9o9AskxpHk1w%3D%3D",
+              "source": "上海市政府采购网",
+              "dateLabel": "结果公告日期",
+              "projectName": "上海市公安局浦东分局网站云安全",
+              "awards": [
+                {
+                  "lotNumber": "1",
+                  "lotName": "上海市公安局浦东分局网站云安全",
+                  "suppliers": [
+                    "上海天融信网络安全技术有限公司"
+                  ],
+                  "quote": "标项名称：上海市公安局浦东分局网站云安全；中标供应商名称：上海天融信网络安全技术有限公司"
+                }
+              ],
+              "detailCheck": {
+                "version": 1,
+                "at": "2026-11-04T16:08:13+08:00",
+                "status": "ok"
+              }
+            }
+          },
           "award-history:https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=8SywKpZMxkn5bLtzR9q%2FmA%3D%3D": {
             "hash": "c09ad0733e135cdeb86a1b505a437d388f256fb7e5ba5453e6a262f10c5827fa",
             "data": {
@@ -17768,7 +17795,7 @@
               "url": "https://yjglj.sh.gov.cn/xxgk/xxgkml/czzj/zfcg/20261022/9575a51892f64423aed4221ebe666020.html",
               "title": "应急指挥网络安全运营服务保障项目询比公告",
               "published_at": "2026-09-20 16∶09",
-              "fetched_at": "2026-11-04T01:41:26.349420+00:00",
+              "fetched_at": "2026-11-04T08:05:01.517786+00:00",
               "source_host": "yjglj.sh.gov.cn"
             }
           },
@@ -17789,7 +17816,7 @@
               "url": "https://yjglj.sh.gov.cn/xxgk/xxgkml/czzj/zfcg/20261022/50078fd6b7ba4d2c902c5e01abc08498.html",
               "title": "上海市应急管理局无线网络安全改造服务询比公告",
               "published_at": "2026-09-20 16∶09",
-              "fetched_at": "2026-11-04T01:41:24.650340+00:00",
+              "fetched_at": "2026-11-04T08:04:59.879847+00:00",
               "source_host": "yjglj.sh.gov.cn"
             }
           },
@@ -17810,7 +17837,7 @@
               "url": "https://yjglj.sh.gov.cn/xxgk/xxgkml/czzj/zfcg/20261022/05aff045d6b94228bb4c6e53b116190a.html",
               "title": "上海市应急管理局应急指挥通信设备技术驻场保障服务采购项目询比公告",
               "published_at": "2026-10-08 10∶10",
-              "fetched_at": "2026-11-04T01:41:22.917005+00:00",
+              "fetched_at": "2026-11-04T08:04:58.219137+00:00",
               "source_host": "yjglj.sh.gov.cn"
             }
           },
@@ -17838,7 +17865,7 @@
               "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=l86ucoFj89685UtF7uNSVQ%3D%3D",
               "title": "上海市应急管理局2026年11月政府采购意向",
               "published_at": "2026-09-24",
-              "fetched_at": "2026-11-04T01:43:04.471345+00:00",
+              "fetched_at": "2026-11-04T08:06:30.128196+00:00",
               "source_host": "www.zfcg.sh.gov.cn"
             }
           },
@@ -17866,7 +17893,7 @@
               "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=oHxCauGmi3NBxL97%2FhVnYQ%3D%3D",
               "title": "上海市应急管理局2026年11月政府采购意向",
               "published_at": "2026-09-28",
-              "fetched_at": "2026-11-04T01:43:04.469226+00:00",
+              "fetched_at": "2026-11-04T08:06:30.126212+00:00",
               "source_host": "www.zfcg.sh.gov.cn"
             }
           }
@@ -18400,7 +18427,7 @@
               "url": "https://zjw.sh.gov.cn/gzdt/20261013/c4cd001f2b2f4598a6632e26c7f39799.html",
               "title": "市建设交通工作党委书记陈华文调研“AI+建设工程招投标”项目实践工作( 2026-10-11 )",
               "published_at": "2026-10-11",
-              "fetched_at": "2026-11-03T21:17:02.394638+00:00",
+              "fetched_at": "2026-11-04T08:03:06.860828+00:00",
               "source_host": "zjw.sh.gov.cn"
             }
           },
@@ -18524,7 +18551,7 @@
               "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=Kq1ACa2lkGG%2BjyRSW2M8kQ%3D%3D",
               "title": "上海市住房和城乡建设管理委员会科学技术委员会事务中心2026年11月政府采购意向",
               "published_at": "2026-10-16",
-              "fetched_at": "2026-11-03T21:19:30.776182+00:00",
+              "fetched_at": "2026-11-04T08:05:54.570553+00:00",
               "source_host": "www.zfcg.sh.gov.cn"
             }
           },
@@ -18552,7 +18579,7 @@
               "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=9Sn2WZslcpqPZlq26f%2ByMQ%3D%3D",
               "title": "上海市住房和城乡建设管理委员会人才开发评价中心2027年01月政府采购意向",
               "published_at": "2026-10-09",
-              "fetched_at": "2026-11-03T21:19:30.774815+00:00",
+              "fetched_at": "2026-11-04T08:05:54.567849+00:00",
               "source_host": "www.zfcg.sh.gov.cn"
             }
           },
@@ -18580,7 +18607,7 @@
               "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=JTBJLjnhQVxJRsy2TLPizA%3D%3D",
               "title": "上海市住房和城乡建设管理委员会人才开发评价中心2027年01月政府采购意向",
               "published_at": "2026-10-09",
-              "fetched_at": "2026-11-03T21:19:30.773562+00:00",
+              "fetched_at": "2026-11-04T08:05:54.564963+00:00",
               "source_host": "www.zfcg.sh.gov.cn"
             }
           },
@@ -18608,7 +18635,7 @@
               "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=6zeBH3pFGb5I2dpvB%2FTkdA%3D%3D",
               "title": "上海市住房和城乡建设管理委员会人才开发评价中心2027年01月政府采购意向",
               "published_at": "2026-10-09",
-              "fetched_at": "2026-11-03T21:19:30.772031+00:00",
+              "fetched_at": "2026-11-04T08:05:54.562129+00:00",
               "source_host": "www.zfcg.sh.gov.cn"
             }
           }
@@ -20482,7 +20509,7 @@
               "url": "https://tyj.sh.gov.cn/zfcg/index.html",
               "title": "体育局官网政府采购公开公告列表",
               "published_at": null,
-              "fetched_at": "2026-11-03T21:20:48.670249+00:00",
+              "fetched_at": "2026-11-04T08:07:45.155927+00:00",
               "source_host": "tyj.sh.gov.cn"
             }
           },
@@ -20506,7 +20533,7 @@
               "url": "https://tyj.sh.gov.cn/zfcg/index.html",
               "title": "体育局官网政府采购公开公告列表",
               "published_at": null,
-              "fetched_at": "2026-11-03T21:20:48.670249+00:00",
+              "fetched_at": "2026-11-04T08:07:45.155927+00:00",
               "source_host": "tyj.sh.gov.cn"
             }
           },
@@ -20530,7 +20557,7 @@
               "url": "https://tyj.sh.gov.cn/zfcg/index.html",
               "title": "体育局官网政府采购公开公告列表",
               "published_at": null,
-              "fetched_at": "2026-11-03T21:20:48.670249+00:00",
+              "fetched_at": "2026-11-04T08:07:45.155927+00:00",
               "source_host": "tyj.sh.gov.cn"
             }
           },
@@ -20554,7 +20581,7 @@
               "url": "https://tyj.sh.gov.cn/zfcg/index.html",
               "title": "体育局官网政府采购公开公告列表",
               "published_at": null,
-              "fetched_at": "2026-11-03T21:20:48.670249+00:00",
+              "fetched_at": "2026-11-04T08:07:45.155927+00:00",
               "source_host": "tyj.sh.gov.cn"
             }
           },
@@ -20578,7 +20605,7 @@
               "url": "https://tyj.sh.gov.cn/zfcg/index.html",
               "title": "体育局官网政府采购公开公告列表",
               "published_at": null,
-              "fetched_at": "2026-11-03T21:20:48.670249+00:00",
+              "fetched_at": "2026-11-04T08:07:45.155927+00:00",
               "source_host": "tyj.sh.gov.cn"
             }
           },
@@ -20602,7 +20629,7 @@
               "url": "https://tyj.sh.gov.cn/zfcg/index.html",
               "title": "体育局官网政府采购公开公告列表",
               "published_at": null,
-              "fetched_at": "2026-11-03T21:20:48.670249+00:00",
+              "fetched_at": "2026-11-04T08:07:45.155927+00:00",
               "source_host": "tyj.sh.gov.cn"
             }
           },
@@ -20626,7 +20653,7 @@
               "url": "https://tyj.sh.gov.cn/zfcg/index.html",
               "title": "体育局官网政府采购公开公告列表",
               "published_at": null,
-              "fetched_at": "2026-11-03T21:20:48.670249+00:00",
+              "fetched_at": "2026-11-04T08:07:45.155927+00:00",
               "source_host": "tyj.sh.gov.cn"
             }
           }
@@ -21715,7 +21742,7 @@
               "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=W7twCzUw8zocNsVNYXX5ow%3D%3D",
               "title": "上海市市场监督管理局信息应用研究中心2027年01月政府采购意向",
               "published_at": "2026-10-29",
-              "fetched_at": "2026-11-04T01:42:48.806131+00:00",
+              "fetched_at": "2026-11-04T08:06:06.588269+00:00",
               "source_host": "www.zfcg.sh.gov.cn"
             }
           },
@@ -23949,7 +23976,7 @@
               "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=UoL0o2FJEK8bbZbxeDZxwQ%3D%3D",
               "title": "上海市总工会静安区工人文化宫2026年11月政府采购意向",
               "published_at": "2026-10-29",
-              "fetched_at": "2026-11-04T01:42:44.354511+00:00",
+              "fetched_at": "2026-11-04T08:06:02.610024+00:00",
               "source_host": "www.zfcg.sh.gov.cn"
             }
           },
@@ -23977,7 +24004,7 @@
               "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=9v8bu%2BsJ%2BkkhbEgcQslhTQ%3D%3D",
               "title": "上海市总工会黄浦区工人文化宫2026年12月政府采购意向",
               "published_at": "2026-10-22",
-              "fetched_at": "2026-11-04T01:42:44.352451+00:00",
+              "fetched_at": "2026-11-04T08:06:02.608336+00:00",
               "source_host": "www.zfcg.sh.gov.cn"
             }
           }
@@ -25756,5 +25783,5 @@
       }
     }
   },
-  "updatedAt": "2026-11-04T10:28:13+08:00"
+  "updatedAt": "2026-11-04T16:09:12+08:00"
 }
