@@ -2231,8 +2231,8 @@
         "历史招标结果": "358c34d8410b4a9265a79661b081be3211fe381c166b6e76ccae914ed0981418",
         "合同信息": "43865dde3eec74ae0f33087cd9283a543474964d7d17792508c445bdc7cd583a",
         "政策与建设方向": "96ad9499cdbd8d32753e45fc41a8585e6f093dc3d62bc3160f3700ccd1b604d7",
-        "工作日志": "d74f53fe27f959828979055d14e02a59068feb4679285c1a569389f905795859",
-        "商机进展": "09e395404c4d106925274b35d66f9eb426ffb50e82470be48c424b5d96a61fbb",
+        "工作日志": "268ca87db48b60e8f8c1e1bc06b6ad470ac25726c066048a98769ce1674f31d3",
+        "商机进展": "763a0aebaa04f58d9cde8aab6f04934fae71d0002c48116761c8a5c448040c7e",
         "产品与场景": "5525b44441576e0bd057cb4ce592a3c91fd673eadec321351b692bc374cab303",
         "生态伙伴": "adfe6f8759dc89ddc9e6061b8863a62d2993ead41abdff501e722440aa8300a4",
         "客户基本信息": "4f3bb1296a15ada2fac0d05442cf8f501339991406d5b293a54d6edcb714d022"
@@ -4913,6 +4913,39 @@
               "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
               "firstSeenAt": "2026-11-04T17:05:38+08:00",
               "updatedAt": "2026-11-04T17:05:38+08:00"
+            }
+          },
+          "dongfeng-worklogs:dongfeng:4e24afab197d0f165236f953": {
+            "hash": "b3b85ad80a54342b877bca5e13c9ffac59aa13bac2ff72880a844c678d45d01e",
+            "data": {
+              "customerId": "2100000260",
+              "customerName": "上海市公安局",
+              "workDate": "2026-11-04",
+              "title": "平安闵行 · 每日进展登记",
+              "content": "工作内容：本日进展：1、协同万红生总拜访当地移动徐波总、郑云总，沟通平安闵行推进情况；2、与深信服沟通交换信息，协商后续协同合作。｜下一步：推进生态交流和人员入驻｜下一步时间：2026-11-13｜风险/阻塞：（1）客户倾向于选择属地落税单位承接，请公司支撑闵行落税单位入驻事宜。（2）根据项目初期点位图，请公司统筹支撑后续网络建设交付资源及配套能力。（3）机房改造待确认？",
+              "relatedUnit": "上海市公安局闵行分局",
+              "actorName": "王洪飞",
+              "actorRole": "客户经理",
+              "participants": [
+                "王洪飞（客户经理）",
+                "陈嘉南（解决方案经理）",
+                "黄深远（解决方案经理）"
+              ],
+              "recordUpdatedDate": null,
+              "projectIds": [
+                "dfproject:3af9bfba002d44a78857"
+              ],
+              "projectTypes": {
+                "dfproject:3af9bfba002d44a78857": "商机"
+              },
+              "id": "dongfeng:4e24afab197d0f165236f953",
+              "datePrecision": "explicit",
+              "sourceType": "dongfeng",
+              "sourceLabel": "东风平台 · 东风工作日期",
+              "sourceRecordId": "daily:TL-DAILY-076f56a1-b4cd-4d2b-a5b8-15301312c61b:2100000260",
+              "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
+              "firstSeenAt": "2026-11-05T01:11:35+08:00",
+              "updatedAt": "2026-11-05T01:11:35+08:00"
             }
           },
           "dongfeng-worklogs:dongfeng:3c271befcaeefddff9c53160": {
@@ -12705,13 +12738,13 @@
             }
           },
           "dongfeng-worklogs:dongfeng:c93ced243c7340584beeffd1": {
-            "hash": "491647059133fb7efcccdbc45fbaadaf22fdb5fb2a946354467250e4195385c0",
+            "hash": "b44b941d880be37e98e03c00ba12353eae1dbc788b253cd4b6cf8ff44fcadf3a",
             "data": {
               "customerId": "2100000260",
               "customerName": "上海市公安局",
               "workDate": null,
               "title": "平安闵行 · 最新项目记录",
-              "content": "项目：平安闵行\n建设内容：平安闵行\n最新进展：万红生总携大华上海办带队与闵行公司徐波总、郑云总沟通平安闵行雪亮项目推进情况：\n1、整体计划完成摄像头布点共计29935个，其中存量摄像头14913个，新增15022个，闵行公司预计本周五获取存量点位情况；\n2、根据当前掌握信息，外场部分设备摄像头、立杆、取电通过服务模式采购（电费另计），内场部分服务器、交换机、存储等通过系统集成模式采购，CT部分机房、链路计划单独向三大运营商采购，策略方面闵行公司重点力保机房、链路CT部分份额，争取新建15000点位一半集成份额；\n3、项目预计2027年1月份招标，大华在存量项目设备占比为三分之一。\n下一步：1、大华上海办依据移动模拟中标份额评估设立属地子公司纳税额度，通过分析可行性。\n平台阶段：商机\n线索结果：标前引导\n投标进展：有效--跟进中\n中失标状态：PENDING",
+              "content": "项目：平安闵行\n建设内容：平安闵行\n最新进展：1、协同万红生总拜访当地移动徐波总、郑云总，沟通平安闵行推进情况；2、与深信服沟通交换信息，协商后续协同合作。\n下一步：推进生态交流和人员入驻\n平台阶段：商机\n线索结果：标前引导\n投标进展：有效--跟进中\n中失标状态：PENDING",
               "relatedUnit": "上海市公安局闵行分局",
               "actorName": "",
               "actorRole": "",
@@ -12731,7 +12764,7 @@
               "sourceRecordId": "progress:DF-OPP-0281-C013A2:2100000260",
               "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
               "firstSeenAt": "2026-10-29T14:11:08+08:00",
-              "updatedAt": "2026-11-04T17:05:38+08:00"
+              "updatedAt": "2026-11-05T01:11:35+08:00"
             }
           },
           "dongfeng-worklogs:dongfeng:c71e9559c8ac9a6856cda9e7": {
@@ -15751,7 +15784,7 @@
             }
           },
           "dongfeng-worklogs:dfproject:3af9bfba002d44a78857": {
-            "hash": "75a520a74b71ff3167561c04f96049ba6a874a440ca4bf9f4f39a8e00fd240a1",
+            "hash": "d621a90ff56986ad796d22d7b2381bff093b5cf1480878107a8b953a94c3f383",
             "data": {
               "id": "dfproject:3af9bfba002d44a78857",
               "aliasIds": [],
@@ -15770,14 +15803,14 @@
               "names": [
                 "平安闵行"
               ],
-              "updatedAt": "2026-11-04T05:40:55.495Z",
-              "latestProgress": "万红生总携大华上海办带队与闵行公司徐波总、郑云总沟通平安闵行雪亮项目推进情况：\n1、整体计划完成摄像头布点共计29935个，其中存量摄像头14913个，新增15022个，闵行公司预计本周五获取存量点位情况；\n2、根据当前掌握信息，外场部分设备摄像头、立杆、取电通过服务模式采购（电费另计），内场部分服务器、交换机、存储等通过系统集成模式采购，CT部分机房、链路计划单独向三大运营商采购，策略方面闵行公司重点力保机房、链路CT部分份额，争取新建15000点位一半集成份额；\n3、项目预计2027年1月份招标，大华在存量项目设备占比为三分之一。",
-              "actorName": "黄深远",
-              "actorRole": "方案经理",
+              "updatedAt": "2026-11-04T10:33:51.461Z",
+              "latestProgress": "1、协同万红生总拜访当地移动徐波总、郑云总，沟通平安闵行推进情况；2、与深信服沟通交换信息，协商后续协同合作。",
+              "actorName": "王洪飞",
+              "actorRole": "客户经理",
               "recordMethod": "日志 · 每日进展登记",
               "sourceRecordId": "progress:DF-OPP-0281-C013A2:2100000260",
               "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
-              "attributionRecordId": "daily:TL-DAILY-2d823b1d-726f-4590-9919-3c47a57cd785:2100000260",
+              "attributionRecordId": "daily:TL-DAILY-076f56a1-b4cd-4d2b-a5b8-15301312c61b:2100000260",
               "attributionNote": "同项目、同日、进展正文一致的原始日志"
             }
           },
@@ -26430,5 +26463,5 @@
       }
     }
   },
-  "updatedAt": "2026-11-05T00:42:23+08:00"
+  "updatedAt": "2026-11-05T01:11:35+08:00"
 }

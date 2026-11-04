@@ -3207,6 +3207,125 @@
           }
         }
       ]
+    },
+    {
+      "id": "4cb6b03231e8f989d3c1fe4a",
+      "customerId": "2100000260",
+      "customerName": "上海市公安局",
+      "label": "工作日志",
+      "title": "工作日志更新",
+      "detectedAt": "2026-11-05T01:11:35+08:00",
+      "date": "2026-11-05",
+      "items": [
+        {
+          "key": "dongfeng-worklogs:dongfeng:4e24afab197d0f165236f953",
+          "change": "新增",
+          "record": {
+            "customerId": "2100000260",
+            "customerName": "上海市公安局",
+            "workDate": "2026-11-04",
+            "title": "平安闵行 · 每日进展登记",
+            "content": "工作内容：本日进展：1、协同万红生总拜访当地移动徐波总、郑云总，沟通平安闵行推进情况；2、与深信服沟通交换信息，协商后续协同合作。｜下一步：推进生态交流和人员入驻｜下一步时间：2026-11-13｜风险/阻塞：（1）客户倾向于选择属地落税单位承接，请公司支撑闵行落税单位入驻事宜。（2）根据项目初期点位图，请公司统筹支撑后续网络建设交付资源及配套能力。（3）机房改造待确认？",
+            "relatedUnit": "上海市公安局闵行分局",
+            "actorName": "王洪飞",
+            "actorRole": "客户经理",
+            "participants": [
+              "王洪飞（客户经理）",
+              "陈嘉南（解决方案经理）",
+              "黄深远（解决方案经理）"
+            ],
+            "recordUpdatedDate": null,
+            "projectIds": [
+              "dfproject:3af9bfba002d44a78857"
+            ],
+            "projectTypes": {
+              "dfproject:3af9bfba002d44a78857": "商机"
+            },
+            "id": "dongfeng:4e24afab197d0f165236f953",
+            "datePrecision": "explicit",
+            "sourceType": "dongfeng",
+            "sourceLabel": "东风平台 · 东风工作日期",
+            "sourceRecordId": "daily:TL-DAILY-076f56a1-b4cd-4d2b-a5b8-15301312c61b:2100000260",
+            "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
+            "firstSeenAt": "2026-11-05T01:11:35+08:00",
+            "updatedAt": "2026-11-05T01:11:35+08:00"
+          }
+        },
+        {
+          "key": "dongfeng-worklogs:dongfeng:c93ced243c7340584beeffd1",
+          "change": "修改",
+          "record": {
+            "customerId": "2100000260",
+            "customerName": "上海市公安局",
+            "workDate": null,
+            "title": "平安闵行 · 最新项目记录",
+            "content": "项目：平安闵行\n建设内容：平安闵行\n最新进展：1、协同万红生总拜访当地移动徐波总、郑云总，沟通平安闵行推进情况；2、与深信服沟通交换信息，协商后续协同合作。\n下一步：推进生态交流和人员入驻\n平台阶段：商机\n线索结果：标前引导\n投标进展：有效--跟进中\n中失标状态：PENDING",
+            "relatedUnit": "上海市公安局闵行分局",
+            "actorName": "",
+            "actorRole": "",
+            "recordUpdatedDate": "2026-11-04",
+            "recordCreatedDate": "2026-09-04",
+            "responsibleManager": "王洪飞",
+            "projectIds": [
+              "dfproject:3af9bfba002d44a78857"
+            ],
+            "projectTypes": {
+              "dfproject:3af9bfba002d44a78857": "商机"
+            },
+            "id": "dongfeng:c93ced243c7340584beeffd1",
+            "datePrecision": "unknown",
+            "sourceType": "dongfeng",
+            "sourceLabel": "东风平台 · 实际工作日期未明确",
+            "sourceRecordId": "progress:DF-OPP-0281-C013A2:2100000260",
+            "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
+            "firstSeenAt": "2026-10-29T14:11:08+08:00",
+            "updatedAt": "2026-11-05T01:11:35+08:00"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c9d141983d0bea2bf673259f",
+      "customerId": "2100000260",
+      "customerName": "上海市公安局",
+      "label": "商机进展",
+      "title": "商机进展更新",
+      "detectedAt": "2026-11-05T01:11:35+08:00",
+      "date": "2026-11-05",
+      "items": [
+        {
+          "key": "dongfeng-worklogs:dfproject:3af9bfba002d44a78857",
+          "change": "修改",
+          "record": {
+            "id": "dfproject:3af9bfba002d44a78857",
+            "aliasIds": [],
+            "customerId": "2100000260",
+            "customerName": "上海市公安局",
+            "name": "平安闵行",
+            "type": "商机",
+            "status": "商机",
+            "relatedUnit": "上海市公安局闵行分局",
+            "taskIds": [
+              "DF-OPP-0281-C013A2"
+            ],
+            "codes": [
+              "DF-OPP-0281-C013A2"
+            ],
+            "names": [
+              "平安闵行"
+            ],
+            "updatedAt": "2026-11-04T10:33:51.461Z",
+            "latestProgress": "1、协同万红生总拜访当地移动徐波总、郑云总，沟通平安闵行推进情况；2、与深信服沟通交换信息，协商后续协同合作。",
+            "actorName": "王洪飞",
+            "actorRole": "客户经理",
+            "recordMethod": "日志 · 每日进展登记",
+            "sourceRecordId": "progress:DF-OPP-0281-C013A2:2100000260",
+            "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
+            "attributionRecordId": "daily:TL-DAILY-076f56a1-b4cd-4d2b-a5b8-15301312c61b:2100000260",
+            "attributionNote": "同项目、同日、进展正文一致的原始日志"
+          }
+        }
+      ]
     }
   ]
 }
