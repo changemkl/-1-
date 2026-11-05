@@ -2231,8 +2231,8 @@
         "历史招标结果": "358c34d8410b4a9265a79661b081be3211fe381c166b6e76ccae914ed0981418",
         "合同信息": "43865dde3eec74ae0f33087cd9283a543474964d7d17792508c445bdc7cd583a",
         "政策与建设方向": "96ad9499cdbd8d32753e45fc41a8585e6f093dc3d62bc3160f3700ccd1b604d7",
-        "工作日志": "268ca87db48b60e8f8c1e1bc06b6ad470ac25726c066048a98769ce1674f31d3",
-        "商机进展": "763a0aebaa04f58d9cde8aab6f04934fae71d0002c48116761c8a5c448040c7e",
+        "工作日志": "6b8364d015443ac5926664d2c915c1397318dcf37ab30932ff74b53ddaa3b433",
+        "商机进展": "58ab9d850de25e1ec8249d40edb19a1a7f05a09815ba518c490539f7096334e5",
         "产品与场景": "5525b44441576e0bd057cb4ce592a3c91fd673eadec321351b692bc374cab303",
         "生态伙伴": "adfe6f8759dc89ddc9e6061b8863a62d2993ead41abdff501e722440aa8300a4",
         "客户基本信息": "4f3bb1296a15ada2fac0d05442cf8f501339991406d5b293a54d6edcb714d022"
@@ -4786,6 +4786,160 @@
           }
         },
         "工作日志": {
+          "dongfeng-worklogs:dongfeng:f061b13a4506aa28e39eb1ac": {
+            "hash": "3e30b2c8b6e93d03128019b276ec25cafbc9951b4d5dbdd8261b609ee9b5f9df",
+            "data": {
+              "customerId": "2100000260",
+              "customerName": "上海市公安局",
+              "workDate": "2026-11-05",
+              "title": "青浦雪亮工程视频监控增补项目 · 每日进展登记",
+              "content": "工作内容：本日进展：a)方案编制：按照修改意见进行方案分工，同时根据进度要求完成背景、案例、描述的修改。截至目前前端及传输规划暂未反馈，计划今日反馈后合稿。\nb）生态沟通：与华为青浦政企条线孙老师对接，了解当前十三五项目的情况：相关情况与前期了解一致，客户目前仍然以满足基础的补盲需求为主，存在前端安全改造的必要。华为目前的产品以数通、前端标准产品为主，无视图软件平台应用，主要动作以配合招投标后的选型报价，也在争取和海康、大华争抢前端份额。华为承诺后续会在招投标和详细方案上加以支撑。｜下一步：按照分工要求完成后端部分，同时跟进前端部分，按照移动要求先输出含前端规划的方案｜下一步时间：2026-11-06",
+              "relatedUnit": "上海市公安局青浦分局",
+              "actorName": "赵恩达",
+              "actorRole": "方案经理",
+              "participants": [
+                "赵恩达（解决方案经理）",
+                "任志伟（客户经理）",
+                "黄深远（解决方案经理）"
+              ],
+              "recordUpdatedDate": null,
+              "projectIds": [
+                "dfproject:c7479a8ee38d25dee6b5"
+              ],
+              "projectTypes": {
+                "dfproject:c7479a8ee38d25dee6b5": "线索"
+              },
+              "id": "dongfeng:f061b13a4506aa28e39eb1ac",
+              "datePrecision": "explicit",
+              "sourceType": "dongfeng",
+              "sourceLabel": "东风平台 · 东风工作日期",
+              "sourceRecordId": "daily:TL-DAILY-9d022412-cba0-4c4f-bfdc-49e7a76a92ca:2100000260",
+              "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
+              "firstSeenAt": "2026-11-05T20:15:34+08:00",
+              "updatedAt": "2026-11-05T20:15:34+08:00"
+            }
+          },
+          "dongfeng-worklogs:dongfeng:d2486c918facc7ff68980360": {
+            "hash": "a2a0d624da66edee006ffaefa03c710c75a504eb73cf3ffa8cb0e00fa706adb5",
+            "data": {
+              "customerId": "2100000260",
+              "customerName": "上海市公安局",
+              "workDate": "2026-11-05",
+              "title": "客户拜访",
+              "content": "拜访状态：已完成\n拜访对象（源记录）：蒋科\n客户反馈：SUPPORTIVE\n拜访结果：沟通陈行公路项目验收审价及运维事项，了解后续潜在扩容新商机。",
+              "relatedUnit": null,
+              "actorName": "张磊",
+              "actorRole": "",
+              "actorLabel": "负责经理",
+              "plannedVisitDate": "2026-11-05",
+              "id": "dongfeng:d2486c918facc7ff68980360",
+              "datePrecision": "explicit",
+              "sourceType": "dongfeng",
+              "sourceLabel": "东风平台 · 东风实际拜访日期",
+              "sourceRecordId": "visit:VISIT-1793874146099:2100000260",
+              "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
+              "firstSeenAt": "2026-11-05T20:15:34+08:00",
+              "updatedAt": "2026-11-05T20:15:34+08:00"
+            }
+          },
+          "dongfeng-worklogs:dongfeng:94c02f3eeb9a67de0fc841bb": {
+            "hash": "7af523259d9ec6877911e03c7780ccb5b14697230eb83615098904e52f2a343f",
+            "data": {
+              "customerId": "2100000260",
+              "customerName": "上海市公安局",
+              "workDate": "2026-11-05",
+              "title": "平安闵行 · 每日进展登记",
+              "content": "工作内容：本日进展：与华为沟通，约定下周上半周沟通，交换项目信息。｜下一步：推进生态交流和人员入驻｜下一步时间：2026-11-13｜风险/阻塞：（1）客户倾向于选择属地落税单位承接，请公司支撑闵行落税单位入驻事宜。（2）根据项目初期点位图，请公司统筹支撑后续网络建设交付资源及配套能力。（3）机房改造待确认？",
+              "relatedUnit": "上海市公安局闵行分局",
+              "actorName": "王洪飞",
+              "actorRole": "客户经理",
+              "participants": [
+                "王洪飞（客户经理）",
+                "陈嘉南（解决方案经理）",
+                "黄深远（解决方案经理）"
+              ],
+              "recordUpdatedDate": null,
+              "projectIds": [
+                "dfproject:3af9bfba002d44a78857"
+              ],
+              "projectTypes": {
+                "dfproject:3af9bfba002d44a78857": "商机"
+              },
+              "id": "dongfeng:94c02f3eeb9a67de0fc841bb",
+              "datePrecision": "explicit",
+              "sourceType": "dongfeng",
+              "sourceLabel": "东风平台 · 东风工作日期",
+              "sourceRecordId": "daily:TL-DAILY-25a27895-afa3-4700-b459-498edaea4bc5:2100000260",
+              "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
+              "firstSeenAt": "2026-11-05T20:15:34+08:00",
+              "updatedAt": "2026-11-05T20:15:34+08:00"
+            }
+          },
+          "dongfeng-worklogs:dongfeng:8345a2101fbc146fa99d0f24": {
+            "hash": "fc2d0e4adf5ae8e856c9834051695702195fcab423d652ce8c8e426cab677d9c",
+            "data": {
+              "customerId": "2100000260",
+              "customerName": "上海市公安局",
+              "workDate": "2026-11-05",
+              "title": "青浦雪亮工程视频监控增补项目 · 每日进展登记",
+              "content": "工作内容：本日进展：与生态奥开展雪亮专项合作交流，奥看建议青浦区场景设计方向：结合青浦奥莱人流密集、华为园区地块大、朱家角古镇游客多、沿河区域需管控垂钓安全等本地特色点位设计对应算法应用场景。｜下一步：协调生态奥看方案人员，结合青浦点位信息，打造奥莱、华为园区、古镇、沿河区域特色场景化方案。｜下一步时间：2026-11-13",
+              "relatedUnit": "上海市公安局青浦分局",
+              "actorName": "黄深远",
+              "actorRole": "方案经理",
+              "participants": [
+                "黄深远（解决方案经理）",
+                "任志伟（客户经理）",
+                "赵恩达（解决方案经理）"
+              ],
+              "recordUpdatedDate": null,
+              "projectIds": [
+                "dfproject:c7479a8ee38d25dee6b5"
+              ],
+              "projectTypes": {
+                "dfproject:c7479a8ee38d25dee6b5": "线索"
+              },
+              "id": "dongfeng:8345a2101fbc146fa99d0f24",
+              "datePrecision": "explicit",
+              "sourceType": "dongfeng",
+              "sourceLabel": "东风平台 · 东风工作日期",
+              "sourceRecordId": "daily:TL-DAILY-3102ae01-d565-4a93-bc94-357d177bda00:2100000260",
+              "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
+              "firstSeenAt": "2026-11-05T20:15:34+08:00",
+              "updatedAt": "2026-11-05T20:15:34+08:00"
+            }
+          },
+          "dongfeng-worklogs:dongfeng:72c2b7b1dc73fb7e59b38857": {
+            "hash": "36d67bd71efa7b9f2e9f346b5ede090e057cc5877bd6352f9c729289ad363035",
+            "data": {
+              "customerId": "2100000260",
+              "customerName": "上海市公安局",
+              "workDate": "2026-11-05",
+              "title": "平安闵行 · 每日进展登记",
+              "content": "工作内容：本日进展：与华为沟通，约定下周上半周与当地公司当面沟通项目情况。｜下一步：推进生态交流和人员入驻｜下一步时间：2026-11-13｜风险/阻塞：（1）客户倾向于选择属地落税单位承接，请公司支撑闵行落税单位入驻事宜。（2）根据项目初期点位图，请公司统筹支撑后续网络建设交付资源及配套能力。（3）机房改造待确认？",
+              "relatedUnit": "上海市公安局闵行分局",
+              "actorName": "王洪飞",
+              "actorRole": "客户经理",
+              "participants": [
+                "王洪飞（客户经理）",
+                "黄深远（解决方案经理）"
+              ],
+              "recordUpdatedDate": null,
+              "projectIds": [
+                "dfproject:3af9bfba002d44a78857"
+              ],
+              "projectTypes": {
+                "dfproject:3af9bfba002d44a78857": "商机"
+              },
+              "id": "dongfeng:72c2b7b1dc73fb7e59b38857",
+              "datePrecision": "explicit",
+              "sourceType": "dongfeng",
+              "sourceLabel": "东风平台 · 东风工作日期",
+              "sourceRecordId": "daily:TL-DAILY-159b97fd-5a81-43de-acdc-e0ebf5c29c35:2100000260",
+              "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
+              "firstSeenAt": "2026-11-05T20:15:34+08:00",
+              "updatedAt": "2026-11-05T20:15:34+08:00"
+            }
+          },
           "dongfeng-worklogs:dongfeng:f352e4cdcf19a29b525a5b47": {
             "hash": "6d4ca0e3d0c8f5957176c4fc7cd9988ae4bb57cddefe4a9d81bd6ddc618261b9",
             "data": {
@@ -12678,17 +12832,17 @@
             }
           },
           "dongfeng-worklogs:dongfeng:c9d3da3352f22fed6a6076cf": {
-            "hash": "6167e0632cec01354b5939f9cf8017bcdb810e6ab251d73d4c0803adc1ca82bf",
+            "hash": "248af63426b734d73caaa701f9fea4355e7cea3527058e24c22406446cfb3315",
             "data": {
               "customerId": "2100000260",
               "customerName": "上海市公安局",
               "workDate": null,
               "title": "青浦雪亮工程视频监控增补项目 · 最新项目记录",
-              "content": "项目：青浦雪亮工程视频监控增补项目\n建设内容：300多个视频监控点位增补建设。\n最新进展：1、青浦十三五雪亮增补项目：\na)方案编制：与青浦移动审核当前顶设方案初稿和合作建议ppt，计划针对待修改内容与移动汇总后，进行分工部署。待修改部分包括：补齐前端规划及建设内容；增加智能化的场景案例；获取大华的案例演示视频；调整背景痛点、方案优势等部分细节\nb)点位规划：目前点位规划梳理出31个点位需二次确认点位，其他点位信息已经更新，全局点位图已经输出。\n下一步：完善方案分工，按照要求进行修改\n平台阶段：线索\n线索结果：已完成线索登记，后续结果待维护。\n中失标状态：PENDING",
+              "content": "项目：青浦雪亮工程视频监控增补项目\n建设内容：300多个视频监控点位增补建设。\n最新进展：与生态奥开展雪亮专项合作交流，奥看建议青浦区场景设计方向：结合青浦奥莱人流密集、华为园区地块大、朱家角古镇游客多、沿河区域需管控垂钓安全等本地特色点位设计对应算法应用场景。\n下一步：协调生态奥看方案人员，结合青浦点位信息，打造奥莱、华为园区、古镇、沿河区域特色场景化方案。\n平台阶段：线索\n线索结果：已完成线索登记，后续结果待维护。\n中失标状态：PENDING",
               "relatedUnit": "上海市公安局青浦分局",
               "actorName": "",
               "actorRole": "",
-              "recordUpdatedDate": "2026-11-04",
+              "recordUpdatedDate": "2026-11-05",
               "recordCreatedDate": "2026-10-19",
               "responsibleManager": "任志伟",
               "projectIds": [
@@ -12704,7 +12858,7 @@
               "sourceRecordId": "progress:TASK-1792398967815:2100000260",
               "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
               "firstSeenAt": "2026-10-29T14:11:08+08:00",
-              "updatedAt": "2026-11-04T17:05:38+08:00"
+              "updatedAt": "2026-11-05T20:15:34+08:00"
             }
           },
           "dongfeng-worklogs:dongfeng:c973a8c25b301aa78e0d55bd": {
@@ -12738,17 +12892,17 @@
             }
           },
           "dongfeng-worklogs:dongfeng:c93ced243c7340584beeffd1": {
-            "hash": "b44b941d880be37e98e03c00ba12353eae1dbc788b253cd4b6cf8ff44fcadf3a",
+            "hash": "5a42b3024ff54178b1ada957e6d10f974357521208e62fffb54054106bc8aa7d",
             "data": {
               "customerId": "2100000260",
               "customerName": "上海市公安局",
               "workDate": null,
               "title": "平安闵行 · 最新项目记录",
-              "content": "项目：平安闵行\n建设内容：平安闵行\n最新进展：1、协同万红生总拜访当地移动徐波总、郑云总，沟通平安闵行推进情况；2、与深信服沟通交换信息，协商后续协同合作。\n下一步：推进生态交流和人员入驻\n平台阶段：商机\n线索结果：标前引导\n投标进展：有效--跟进中\n中失标状态：PENDING",
+              "content": "项目：平安闵行\n建设内容：平安闵行\n最新进展：与华为沟通，约定下周上半周沟通，交换项目信息。\n下一步：推进生态交流和人员入驻\n平台阶段：商机\n线索结果：标前引导\n投标进展：有效--跟进中\n中失标状态：PENDING",
               "relatedUnit": "上海市公安局闵行分局",
               "actorName": "",
               "actorRole": "",
-              "recordUpdatedDate": "2026-11-04",
+              "recordUpdatedDate": "2026-11-05",
               "recordCreatedDate": "2026-09-04",
               "responsibleManager": "王洪飞",
               "projectIds": [
@@ -12764,7 +12918,7 @@
               "sourceRecordId": "progress:DF-OPP-0281-C013A2:2100000260",
               "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
               "firstSeenAt": "2026-10-29T14:11:08+08:00",
-              "updatedAt": "2026-11-05T01:11:35+08:00"
+              "updatedAt": "2026-11-05T20:15:34+08:00"
             }
           },
           "dongfeng-worklogs:dongfeng:c71e9559c8ac9a6856cda9e7": {
@@ -14581,7 +14735,7 @@
             }
           },
           "dongfeng-worklogs:dfproject:c7479a8ee38d25dee6b5": {
-            "hash": "c3098039b073a0e87e499677e3accabfa6332022ac4d9d163564d3d105086e45",
+            "hash": "2061585acbae06ab023ea8e9a6011455b875e6afcc8e82b1d162d1dbe460bb42",
             "data": {
               "id": "dfproject:c7479a8ee38d25dee6b5",
               "aliasIds": [],
@@ -14600,14 +14754,14 @@
               "names": [
                 "青浦雪亮工程视频监控增补项目"
               ],
-              "updatedAt": "2026-11-04T08:18:35.176Z",
-              "latestProgress": "1、青浦十三五雪亮增补项目：\na)方案编制：与青浦移动审核当前顶设方案初稿和合作建议ppt，计划针对待修改内容与移动汇总后，进行分工部署。待修改部分包括：补齐前端规划及建设内容；增加智能化的场景案例；获取大华的案例演示视频；调整背景痛点、方案优势等部分细节\nb)点位规划：目前点位规划梳理出31个点位需二次确认点位，其他点位信息已经更新，全局点位图已经输出。",
-              "actorName": "赵恩达",
+              "updatedAt": "2026-11-05T09:15:33.775Z",
+              "latestProgress": "与生态奥开展雪亮专项合作交流，奥看建议青浦区场景设计方向：结合青浦奥莱人流密集、华为园区地块大、朱家角古镇游客多、沿河区域需管控垂钓安全等本地特色点位设计对应算法应用场景。",
+              "actorName": "黄深远",
               "actorRole": "方案经理",
               "recordMethod": "日志 · 每日进展登记",
               "sourceRecordId": "progress:TASK-1792398967815:2100000260",
               "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
-              "attributionRecordId": "daily:TL-DAILY-bed81fdc-9116-448b-8279-2b9335e33be1:2100000260",
+              "attributionRecordId": "daily:TL-DAILY-3102ae01-d565-4a93-bc94-357d177bda00:2100000260",
               "attributionNote": "同项目、同日、进展正文一致的原始日志"
             }
           },
@@ -15784,7 +15938,7 @@
             }
           },
           "dongfeng-worklogs:dfproject:3af9bfba002d44a78857": {
-            "hash": "d621a90ff56986ad796d22d7b2381bff093b5cf1480878107a8b953a94c3f383",
+            "hash": "e7f29cb629539e790060ff5b0117e6afda62b448236e11fc7d14dd082890035a",
             "data": {
               "id": "dfproject:3af9bfba002d44a78857",
               "aliasIds": [],
@@ -15803,14 +15957,14 @@
               "names": [
                 "平安闵行"
               ],
-              "updatedAt": "2026-11-04T10:33:51.461Z",
-              "latestProgress": "1、协同万红生总拜访当地移动徐波总、郑云总，沟通平安闵行推进情况；2、与深信服沟通交换信息，协商后续协同合作。",
+              "updatedAt": "2026-11-05T08:52:05.157Z",
+              "latestProgress": "与华为沟通，约定下周上半周沟通，交换项目信息。",
               "actorName": "王洪飞",
               "actorRole": "客户经理",
               "recordMethod": "日志 · 每日进展登记",
               "sourceRecordId": "progress:DF-OPP-0281-C013A2:2100000260",
               "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
-              "attributionRecordId": "daily:TL-DAILY-076f56a1-b4cd-4d2b-a5b8-15301312c61b:2100000260",
+              "attributionRecordId": "daily:TL-DAILY-25a27895-afa3-4700-b459-498edaea4bc5:2100000260",
               "attributionNote": "同项目、同日、进展正文一致的原始日志"
             }
           },
@@ -19610,8 +19764,8 @@
         "历史招标结果": "3ba18fb7f4db1be9b38ce0a2ba657e35d5ff7f67578b661ac7f78c1cc00b4d59",
         "合同信息": "6cf76cc0a4d4cf6fa136f7aa7e7f453ea905870660a61d792b698cc73d4f2cef",
         "政策与建设方向": "6cf76cc0a4d4cf6fa136f7aa7e7f453ea905870660a61d792b698cc73d4f2cef",
-        "工作日志": "9be5c45dc8632d73c88179517b9195c921386a21aec7fe06fa830fbe49afcc77",
-        "商机进展": "6dc7026df54e70e70f847f669a68d19e4226ea12c41ba34eebb42880e8f722ec",
+        "工作日志": "5bf8f46566e680928c3aa40c9aa07dd1a1dbeb5215e3017b22b88c16bc6a1128",
+        "商机进展": "e3d30644e50f996091f548d99180f43a6432191abed26ea3acc98167494b007f",
         "产品与场景": "5525b44441576e0bd057cb4ce592a3c91fd673eadec321351b692bc374cab303",
         "生态伙伴": "adfe6f8759dc89ddc9e6061b8863a62d2993ead41abdff501e722440aa8300a4",
         "客户基本信息": "1845b42d7bded422a3f3f01fc57675563077efb3fff45e8aaaa10adde50bba72"
@@ -20305,6 +20459,39 @@
           }
         },
         "工作日志": {
+          "dongfeng-worklogs:dongfeng:e19860f28d11989b35757da1": {
+            "hash": "966bf66d43491792e8e3ad98b074e35cd8c61cc623759d198551bafd43bac5a6",
+            "data": {
+              "customerId": "2100128579",
+              "customerName": "上海市教育委员会",
+              "workDate": "2026-11-05",
+              "title": "2026-2027学年上海市青少年运动技能等级测试 · 每日进展登记",
+              "content": "工作内容：本日进展：与上海移动商讨合作模式，以及后续分工。｜下一步：准备上会和标书。｜下一步时间：2026-11-19",
+              "relatedUnit": null,
+              "actorName": "许鹏宇",
+              "actorRole": "客户经理",
+              "participants": [
+                "许鹏宇（客户经理）",
+                "万全旦（解决方案经理）",
+                "李锋（售前经理）"
+              ],
+              "recordUpdatedDate": null,
+              "projectIds": [
+                "dfproject:9d4cd52052eabc4e4368"
+              ],
+              "projectTypes": {
+                "dfproject:9d4cd52052eabc4e4368": "商机"
+              },
+              "id": "dongfeng:e19860f28d11989b35757da1",
+              "datePrecision": "explicit",
+              "sourceType": "dongfeng",
+              "sourceLabel": "东风平台 · 东风工作日期",
+              "sourceRecordId": "daily:TL-DAILY-b3dcb665-4dcf-4e49-b4be-27086e15b386:2100128579",
+              "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
+              "firstSeenAt": "2026-11-05T20:15:34+08:00",
+              "updatedAt": "2026-11-05T20:15:34+08:00"
+            }
+          },
           "dongfeng-worklogs:dongfeng:92fb2793780bf8a912740032": {
             "hash": "1abaa59d9d63829280ae4c8a7e868d32a58717053138ecf6d265b33156c91f48",
             "data": {
@@ -20515,17 +20702,17 @@
             }
           },
           "dongfeng-worklogs:dongfeng:98fdcae02884afc2fb56d2a4": {
-            "hash": "5e1ba2ee2be758ed43179a8c99d51fa60d5e7a28eb9245052affd3a1e0169f60",
+            "hash": "1618e8188f0450f42acd2f586e6ed245b7b61aec3ca3f1e77561d3eacb9cbaf5",
             "data": {
               "customerId": "2100128579",
               "customerName": "上海市教育委员会",
               "workDate": null,
               "title": "2026-2027学年上海市青少年运动技能等级测试 · 最新项目记录",
-              "content": "项目：2026-2027学年上海市青少年运动技能等级测试\n建设内容：需提供田径、游泳、乒乓球、足球、篮球类一至三级的智能化测试方案、需提供测试现场监控录像服务，需提供现场报名及身份识别终端：内置电子学生证读卡器，支持读取上海电子学生证。\n最新进展：报名完成，研判标书和寻找合作伙伴\n下一步：准备上会和标书。\n平台阶段：投标中\n线索结果：已完成商机登记，后续结果待维护。\n中失标状态：PENDING",
+              "content": "项目：2026-2027学年上海市青少年运动技能等级测试\n建设内容：需提供田径、游泳、乒乓球、足球、篮球类一至三级的智能化测试方案、需提供测试现场监控录像服务，需提供现场报名及身份识别终端：内置电子学生证读卡器，支持读取上海电子学生证。\n最新进展：与上海移动商讨合作模式，以及后续分工。\n下一步：准备上会和标书。\n平台阶段：投标中\n线索结果：已完成商机登记，后续结果待维护。\n中失标状态：PENDING",
               "relatedUnit": null,
               "actorName": "",
               "actorRole": "",
-              "recordUpdatedDate": "2026-11-04",
+              "recordUpdatedDate": "2026-11-05",
               "recordCreatedDate": "2026-11-03",
               "responsibleManager": "许鹏宇",
               "projectIds": [
@@ -20541,7 +20728,7 @@
               "sourceRecordId": "progress:TASK-1793673740242:2100128579",
               "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
               "firstSeenAt": "2026-11-03T14:42:27+08:00",
-              "updatedAt": "2026-11-04T17:05:38+08:00"
+              "updatedAt": "2026-11-05T20:15:34+08:00"
             }
           },
           "dongfeng-worklogs:dongfeng:2c1d4e73a715f8e4510d6068": {
@@ -20594,7 +20781,7 @@
         },
         "商机进展": {
           "dongfeng-worklogs:dfproject:9d4cd52052eabc4e4368": {
-            "hash": "eaff15e7200efc39fce0fdfc3eee9fd827116ddc4543a8a5448263269826e960",
+            "hash": "c229042d40d03519984eb14b4a3d1cbe52aff6d3aaedf3575c64c3cf38434f43",
             "data": {
               "id": "dfproject:9d4cd52052eabc4e4368",
               "aliasIds": [],
@@ -20613,14 +20800,14 @@
               "names": [
                 "2026-2027学年上海市青少年运动技能等级测试"
               ],
-              "updatedAt": "2026-11-04T08:27:02.831Z",
-              "latestProgress": "报名完成，研判标书和寻找合作伙伴",
+              "updatedAt": "2026-11-05T04:20:01.775Z",
+              "latestProgress": "与上海移动商讨合作模式，以及后续分工。",
               "actorName": "许鹏宇",
               "actorRole": "客户经理",
               "recordMethod": "日志 · 每日进展登记",
               "sourceRecordId": "progress:TASK-1793673740242:2100128579",
               "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
-              "attributionRecordId": "daily:TL-DAILY-c2609a1a-7087-44cc-9c76-3186fdb0c057:2100128579",
+              "attributionRecordId": "daily:TL-DAILY-b3dcb665-4dcf-4e49-b4be-27086e15b386:2100128579",
               "attributionNote": "同项目、同日、进展正文一致的原始日志"
             }
           },
@@ -26491,5 +26678,5 @@
       }
     }
   },
-  "updatedAt": "2026-11-05T19:38:58+08:00"
+  "updatedAt": "2026-11-05T20:15:34+08:00"
 }
