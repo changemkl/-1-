@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-05T10:53:49+08:00",
+  "updatedAt": "2026-11-05T19:38:49+08:00",
   "customers": [
     {
       "id": "2100303078",
@@ -51,7 +51,7 @@
         "truncated": false
       },
       "lastCheck": {
-        "at": "2026-11-05T06:18:25+08:00",
+        "at": "2026-11-05T19:37:59+08:00",
         "status": "ok"
       },
       "externalSourceChecks": {
@@ -117,7 +117,7 @@
         "truncated": false
       },
       "lastCheck": {
-        "at": "2026-11-05T06:18:25+08:00",
+        "at": "2026-11-05T19:37:59+08:00",
         "status": "ok"
       },
       "externalSourceChecks": {
@@ -163,7 +163,7 @@
         "truncated": false
       },
       "lastCheck": {
-        "at": "2026-11-05T06:18:25+08:00",
+        "at": "2026-11-05T19:37:59+08:00",
         "status": "ok"
       },
       "externalSourceChecks": {
@@ -785,7 +785,7 @@
         "truncated": true
       },
       "lastCheck": {
-        "at": "2026-11-05T00:41:06+08:00",
+        "at": "2026-11-05T19:37:59+08:00",
         "status": "ok"
       }
     },
@@ -920,15 +920,15 @@
       },
       "externalSourceChecks": {
         "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202610/t20261028_27575254.htm": {
-          "at": "2026-11-04T16:09:03+08:00",
+          "at": "2026-11-05T19:38:49+08:00",
           "status": "ok"
         },
         "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202610/t20261027_27572438.htm": {
-          "at": "2026-11-04T16:09:03+08:00",
+          "at": "2026-11-05T19:38:49+08:00",
           "status": "ok"
         },
         "https://www.ccgp.gov.cn/cggg/zygg/zbgg/202609/t20260902_27248583.htm": {
-          "at": "2026-11-04T16:09:03+08:00",
+          "at": "2026-11-05T19:38:49+08:00",
           "status": "ok"
         },
         "https://www.ccgp.gov.cn/cggg/zygg/cjgg/202608/t20260825_27197715.htm": {
@@ -993,7 +993,7 @@
       },
       "externalSourceChecks": {
         "https://www.365trade.com.cn/jfwzb/768353.jhtml": {
-          "at": "2026-11-04T09:45:07+08:00",
+          "at": "2026-11-05T19:38:49+08:00",
           "status": "ok"
         }
       }
@@ -2561,7 +2561,7 @@
         "truncated": true
       },
       "lastCheck": {
-        "at": "2026-11-05T06:18:25+08:00",
+        "at": "2026-11-05T19:37:59+08:00",
         "status": "ok"
       }
     },
@@ -2617,7 +2617,7 @@
         "truncated": false
       },
       "lastCheck": {
-        "at": "2026-11-05T06:18:25+08:00",
+        "at": "2026-11-05T19:37:59+08:00",
         "status": "ok"
       },
       "externalSourceChecks": {
@@ -3055,7 +3055,7 @@
         "truncated": true
       },
       "lastCheck": {
-        "at": "2026-11-05T00:41:06+08:00",
+        "at": "2026-11-05T19:37:59+08:00",
         "status": "ok"
       }
     },
@@ -3663,7 +3663,7 @@
         "truncated": true
       },
       "lastCheck": {
-        "at": "2026-11-05T00:41:06+08:00",
+        "at": "2026-11-05T19:37:59+08:00",
         "status": "ok"
       }
     },
