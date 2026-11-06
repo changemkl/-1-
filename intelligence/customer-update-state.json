@@ -15518,7 +15518,7 @@
               "names": [
                 "青浦“十三五”城市图像监控系统租赁续约项目（雪亮工程）"
               ],
-              "updatedAt": "2026-10-21T07:40:27.885Z",
+              "updatedAt": "2026-11-06T06:40:07.101Z",
               "latestProgress": "现场勘察和沟通分工。",
               "actorName": "",
               "actorRole": "",
@@ -19764,8 +19764,8 @@
         "历史招标结果": "3ba18fb7f4db1be9b38ce0a2ba657e35d5ff7f67578b661ac7f78c1cc00b4d59",
         "合同信息": "6cf76cc0a4d4cf6fa136f7aa7e7f453ea905870660a61d792b698cc73d4f2cef",
         "政策与建设方向": "6cf76cc0a4d4cf6fa136f7aa7e7f453ea905870660a61d792b698cc73d4f2cef",
-        "工作日志": "5bf8f46566e680928c3aa40c9aa07dd1a1dbeb5215e3017b22b88c16bc6a1128",
-        "商机进展": "e3d30644e50f996091f548d99180f43a6432191abed26ea3acc98167494b007f",
+        "工作日志": "830bc9b1c03ce6a815f52084dea273884a02bcf7bad9db7ac8266603ae221d1f",
+        "商机进展": "285908ea72f41943005e3d540aa39b66db583cf1a250953bdbf9d9afaedd4ad5",
         "产品与场景": "5525b44441576e0bd057cb4ce592a3c91fd673eadec321351b692bc374cab303",
         "生态伙伴": "adfe6f8759dc89ddc9e6061b8863a62d2993ead41abdff501e722440aa8300a4",
         "客户基本信息": "1845b42d7bded422a3f3f01fc57675563077efb3fff45e8aaaa10adde50bba72"
@@ -20459,6 +20459,39 @@
           }
         },
         "工作日志": {
+          "dongfeng-worklogs:dongfeng:32eb77762caacd8f8be050cc": {
+            "hash": "63d40f5a900dbad1483a8b219e3d075d15923f6c6e9376ffa99d28c27bb9c25a",
+            "data": {
+              "customerId": "2100128579",
+              "customerName": "上海市教育委员会",
+              "workDate": "2026-11-06",
+              "title": "2026-2027学年上海市青少年运动技能等级测试 · 每日进展登记",
+              "content": "工作内容：本日进展：本周已发标，协同战客、教育纵队、执讯等合作伙伴，确认投标策略及分工，准备标书编制。｜下一步：拉通各方资源，准备上会决策，同时继续准备好标书编制及其他投标准备工作；｜下一步时间：2026-11-19",
+              "relatedUnit": null,
+              "actorName": "许鹏宇",
+              "actorRole": "客户经理",
+              "participants": [
+                "许鹏宇（客户经理）",
+                "万全旦（解决方案经理）",
+                "李锋（售前经理）"
+              ],
+              "recordUpdatedDate": null,
+              "projectIds": [
+                "dfproject:9d4cd52052eabc4e4368"
+              ],
+              "projectTypes": {
+                "dfproject:9d4cd52052eabc4e4368": "商机"
+              },
+              "id": "dongfeng:32eb77762caacd8f8be050cc",
+              "datePrecision": "explicit",
+              "sourceType": "dongfeng",
+              "sourceLabel": "东风平台 · 东风工作日期",
+              "sourceRecordId": "daily:TL-DAILY-69430da4-bd30-4455-a1cf-36c00e09e4c5:2100128579",
+              "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
+              "firstSeenAt": "2026-11-06T15:53:45+08:00",
+              "updatedAt": "2026-11-06T15:53:45+08:00"
+            }
+          },
           "dongfeng-worklogs:dongfeng:e19860f28d11989b35757da1": {
             "hash": "966bf66d43491792e8e3ad98b074e35cd8c61cc623759d198551bafd43bac5a6",
             "data": {
@@ -20554,125 +20587,6 @@
               "updatedAt": "2026-11-03T14:42:27+08:00"
             }
           },
-          "dongfeng-worklogs:dongfeng:757cc7c1538d26dac457f0f3": {
-            "hash": "db7f7a79845a59aa10add49a512df01685a149bf5631f149e6a98822ade57589",
-            "data": {
-              "customerId": "2100128579",
-              "customerName": "上海市教育委员会",
-              "workDate": "2026-11-02",
-              "title": "2026-2027学年上海市青少年运动技能等级测试 · 每日进展登记",
-              "content": "工作内容：本日进展：对项目进行评估研判，寻找相关厂家｜下一步：项目投标｜下一步时间：2026-11-26",
-              "relatedUnit": null,
-              "actorName": "万全旦",
-              "actorRole": "方案经理",
-              "participants": [
-                "万全旦（解决方案经理）",
-                "许鹏宇（客户经理）"
-              ],
-              "recordUpdatedDate": null,
-              "projectIds": [
-                "dfproject:254d20693b9deede8259"
-              ],
-              "projectTypes": {
-                "dfproject:254d20693b9deede8259": "商机"
-              },
-              "id": "dongfeng:757cc7c1538d26dac457f0f3",
-              "datePrecision": "explicit",
-              "sourceType": "dongfeng",
-              "sourceLabel": "东风平台 · 东风工作日期",
-              "sourceRecordId": "daily:TL-DAILY-2309d0dc-4c93-4c81-85e4-1b4e4970925c:2100128579",
-              "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
-              "firstSeenAt": "2026-11-02T23:41:17+08:00",
-              "updatedAt": "2026-11-02T23:41:17+08:00"
-            }
-          },
-          "dongfeng-worklogs:dongfeng:c415b6a67191a796ee78ff3b": {
-            "hash": "883b7453609f5f0997659d3c85ec87acc0a6b491be2b396afa630a38aa08d6be",
-            "data": {
-              "customerId": "2100128579",
-              "customerName": "上海市教育委员会",
-              "workDate": "2026-09-11",
-              "title": "2026-2027学年上海市青少年运动技能等级测试 · 每日进展登记",
-              "content": "工作内容：完成度 0%｜本日进展：分析建设内容，寻找相关生态厂家｜下一步：评估项目成本",
-              "relatedUnit": null,
-              "actorName": "万全旦",
-              "actorRole": "方案经理",
-              "participants": [],
-              "recordUpdatedDate": null,
-              "projectIds": [
-                "dfproject:254d20693b9deede8259"
-              ],
-              "projectTypes": {
-                "dfproject:254d20693b9deede8259": "商机"
-              },
-              "id": "dongfeng:c415b6a67191a796ee78ff3b",
-              "datePrecision": "explicit",
-              "sourceType": "dongfeng",
-              "sourceLabel": "东风平台 · 东风工作日期",
-              "sourceRecordId": "daily:TL-DAILY-4988d864-863c-4677-bc6c-d81abf7a1432:2100128579",
-              "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
-              "firstSeenAt": "2026-10-29T14:11:08+08:00",
-              "updatedAt": "2026-10-29T14:45:24+08:00"
-            }
-          },
-          "dongfeng-worklogs:dongfeng:a75064e60edae2d2f937fd54": {
-            "hash": "1b53e2f1a00bedfb16cc2c3869947428b104cc5c473723ff96e1266d4e395462",
-            "data": {
-              "customerId": "2100128579",
-              "customerName": "上海市教育委员会",
-              "workDate": "2026-09-11",
-              "title": "2026-2027学年上海市青少年运动技能等级测试 · 客户经理录入商机并提交",
-              "content": "工作内容：客户经理 许鹏宇 通过工作台录入商机【2026-2027学年上海市青少年运动技能等级测试】，生成唯一编号 DF-OPP-20260911-MTWKZZLO-QP7FMK。",
-              "relatedUnit": null,
-              "actorName": "许鹏宇",
-              "actorRole": "客户经理",
-              "participants": [],
-              "recordUpdatedDate": null,
-              "projectIds": [
-                "dfproject:254d20693b9deede8259"
-              ],
-              "projectTypes": {
-                "dfproject:254d20693b9deede8259": "商机"
-              },
-              "id": "dongfeng:a75064e60edae2d2f937fd54",
-              "datePrecision": "explicit",
-              "sourceType": "dongfeng",
-              "sourceLabel": "东风平台 · 东风事件记录日期",
-              "sourceRecordId": "event:TL-1789108486910-1:2100128579",
-              "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
-              "firstSeenAt": "2026-10-29T14:11:08+08:00",
-              "updatedAt": "2026-10-29T14:45:24+08:00"
-            }
-          },
-          "dongfeng-worklogs:dongfeng:64e6bbcadcb3304d9e633aa9": {
-            "hash": "695b6b2a7f7d6415a5ab8f8ceb63ab71bde97b9577eb8a0891f561cdbccc894e",
-            "data": {
-              "customerId": "2100128579",
-              "customerName": "上海市教育委员会",
-              "workDate": "2026-09-11",
-              "title": "2026-2027学年上海市青少年运动技能等级测试 · 每日进展登记",
-              "content": "工作内容：完成度 0%｜本日进展：商机预研究｜下一步：评估项目成本",
-              "relatedUnit": null,
-              "actorName": "许鹏宇",
-              "actorRole": "客户经理",
-              "participants": [],
-              "recordUpdatedDate": null,
-              "projectIds": [
-                "dfproject:254d20693b9deede8259"
-              ],
-              "projectTypes": {
-                "dfproject:254d20693b9deede8259": "商机"
-              },
-              "id": "dongfeng:64e6bbcadcb3304d9e633aa9",
-              "datePrecision": "explicit",
-              "sourceType": "dongfeng",
-              "sourceLabel": "东风平台 · 东风工作日期",
-              "sourceRecordId": "daily:TL-DAILY-82a1824a-26b8-4a29-8627-5223a46685f4:2100128579",
-              "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
-              "firstSeenAt": "2026-10-29T14:11:08+08:00",
-              "updatedAt": "2026-10-29T14:45:24+08:00"
-            }
-          },
           "dongfeng-worklogs:dongfeng:e6f1c208b8d67fd63110fd56": {
             "hash": "bbf211fa70f2502d590089bf215bf76690ff2b3afd1fa6dce2aa1ae801cb541a",
             "data": {
@@ -20684,7 +20598,7 @@
               "relatedUnit": null,
               "actorName": "",
               "actorRole": "",
-              "recordUpdatedDate": "2026-11-04",
+              "recordUpdatedDate": "2026-11-06",
               "projectIds": [
                 "dfproject:9d4cd52052eabc4e4368"
               ],
@@ -20698,21 +20612,21 @@
               "sourceRecordId": "bid:BID-1793754995088:2100128579",
               "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
               "firstSeenAt": "2026-11-04T09:19:04+08:00",
-              "updatedAt": "2026-11-04T09:19:04+08:00"
+              "updatedAt": "2026-11-06T15:53:45+08:00"
             }
           },
           "dongfeng-worklogs:dongfeng:98fdcae02884afc2fb56d2a4": {
-            "hash": "1618e8188f0450f42acd2f586e6ed245b7b61aec3ca3f1e77561d3eacb9cbaf5",
+            "hash": "402a770dae11be3c52010d30c6fa5ce1c57dee7bc925b96ef45184fadeb5acb6",
             "data": {
               "customerId": "2100128579",
               "customerName": "上海市教育委员会",
               "workDate": null,
               "title": "2026-2027学年上海市青少年运动技能等级测试 · 最新项目记录",
-              "content": "项目：2026-2027学年上海市青少年运动技能等级测试\n建设内容：需提供田径、游泳、乒乓球、足球、篮球类一至三级的智能化测试方案、需提供测试现场监控录像服务，需提供现场报名及身份识别终端：内置电子学生证读卡器，支持读取上海电子学生证。\n最新进展：与上海移动商讨合作模式，以及后续分工。\n下一步：准备上会和标书。\n平台阶段：投标中\n线索结果：已完成商机登记，后续结果待维护。\n中失标状态：PENDING",
+              "content": "项目：2026-2027学年上海市青少年运动技能等级测试\n建设内容：需提供田径、游泳、乒乓球、足球、篮球类一至三级的智能化测试方案、需提供测试现场监控录像服务，需提供现场报名及身份识别终端：内置电子学生证读卡器，支持读取上海电子学生证。\n最新进展：本周已发标，协同战客、教育纵队、执讯等合作伙伴，确认投标策略及分工，准备标书编制。\n下一步：拉通各方资源，准备上会决策，同时继续准备好标书编制及其他投标准备工作；\n平台阶段：投标中\n线索结果：已完成商机登记，后续结果待维护。\n投标进展：DF-BID-MW1FES9C · 筹备 · 尚未形成\n中失标状态：PENDING",
               "relatedUnit": null,
               "actorName": "",
               "actorRole": "",
-              "recordUpdatedDate": "2026-11-05",
+              "recordUpdatedDate": "2026-11-06",
               "recordCreatedDate": "2026-11-03",
               "responsibleManager": "许鹏宇",
               "projectIds": [
@@ -20728,37 +20642,7 @@
               "sourceRecordId": "progress:TASK-1793673740242:2100128579",
               "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
               "firstSeenAt": "2026-11-03T14:42:27+08:00",
-              "updatedAt": "2026-11-05T20:15:34+08:00"
-            }
-          },
-          "dongfeng-worklogs:dongfeng:2c1d4e73a715f8e4510d6068": {
-            "hash": "cd46d7138152f961c0566622607f6de2ade260aa6c1a9173077a6a8789584667",
-            "data": {
-              "customerId": "2100128579",
-              "customerName": "上海市教育委员会",
-              "workDate": null,
-              "title": "2026-2027学年上海市青少年运动技能等级测试 · 最新项目记录",
-              "content": "项目：2026-2027学年上海市青少年运动技能等级测试\n建设内容：利用自主可控的智能化设备，对田径、游泳、乒乓球、足球等项目实现自动化成绩计分，并实时上传至“上\n海市学生体育素养监测、分析与智慧服务平台”\n最新进展：对项目进行评估研判，寻找相关厂家\n下一步：项目投标\n平台阶段：商机\n线索结果：已完成商机登记，后续结果待维护。\n中失标状态：PENDING",
-              "relatedUnit": null,
-              "actorName": "",
-              "actorRole": "",
-              "recordUpdatedDate": "2026-11-02",
-              "recordCreatedDate": "2026-09-11",
-              "responsibleManager": "许鹏宇",
-              "projectIds": [
-                "dfproject:254d20693b9deede8259"
-              ],
-              "projectTypes": {
-                "dfproject:254d20693b9deede8259": "商机"
-              },
-              "id": "dongfeng:2c1d4e73a715f8e4510d6068",
-              "datePrecision": "unknown",
-              "sourceType": "dongfeng",
-              "sourceLabel": "东风平台 · 实际工作日期未明确",
-              "sourceRecordId": "progress:TASK-1789108486909:2100128579",
-              "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
-              "firstSeenAt": "2026-10-29T14:11:08+08:00",
-              "updatedAt": "2026-11-02T23:41:17+08:00"
+              "updatedAt": "2026-11-06T15:53:45+08:00"
             }
           },
           "worklogs:747a55da7864468321a009cc": {
@@ -20781,7 +20665,7 @@
         },
         "商机进展": {
           "dongfeng-worklogs:dfproject:9d4cd52052eabc4e4368": {
-            "hash": "c229042d40d03519984eb14b4a3d1cbe52aff6d3aaedf3575c64c3cf38434f43",
+            "hash": "848993a619aa1ef23308ccfba35c84dac8984bc8791ddee13aade790ee2a9482",
             "data": {
               "id": "dfproject:9d4cd52052eabc4e4368",
               "aliasIds": [],
@@ -20800,45 +20684,14 @@
               "names": [
                 "2026-2027学年上海市青少年运动技能等级测试"
               ],
-              "updatedAt": "2026-11-05T04:20:01.775Z",
-              "latestProgress": "与上海移动商讨合作模式，以及后续分工。",
+              "updatedAt": "2026-11-06T07:22:26.149Z",
+              "latestProgress": "本周已发标，协同战客、教育纵队、执讯等合作伙伴，确认投标策略及分工，准备标书编制。",
               "actorName": "许鹏宇",
               "actorRole": "客户经理",
               "recordMethod": "日志 · 每日进展登记",
               "sourceRecordId": "progress:TASK-1793673740242:2100128579",
               "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
-              "attributionRecordId": "daily:TL-DAILY-b3dcb665-4dcf-4e49-b4be-27086e15b386:2100128579",
-              "attributionNote": "同项目、同日、进展正文一致的原始日志"
-            }
-          },
-          "dongfeng-worklogs:dfproject:254d20693b9deede8259": {
-            "hash": "b36b1bf61efaed6ffdebda01f737d223f7f20a4113713ce1bdbc43100579dd73",
-            "data": {
-              "id": "dfproject:254d20693b9deede8259",
-              "aliasIds": [],
-              "customerId": "2100128579",
-              "customerName": "上海市教育委员会",
-              "name": "2026-2027学年上海市青少年运动技能等级测试",
-              "type": "商机",
-              "status": "商机",
-              "relatedUnit": "上海市教育委员会",
-              "taskIds": [
-                "TASK-1789108486909"
-              ],
-              "codes": [
-                "DF-OPP-20260911-MTWKZZLO-QP7FMK"
-              ],
-              "names": [
-                "2026-2027学年上海市青少年运动技能等级测试"
-              ],
-              "updatedAt": "2026-11-02T08:38:26.308Z",
-              "latestProgress": "对项目进行评估研判，寻找相关厂家",
-              "actorName": "万全旦",
-              "actorRole": "方案经理",
-              "recordMethod": "日志 · 每日进展登记",
-              "sourceRecordId": "progress:TASK-1789108486909:2100128579",
-              "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
-              "attributionRecordId": "daily:TL-DAILY-2309d0dc-4c93-4c81-85e4-1b4e4970925c:2100128579",
+              "attributionRecordId": "daily:TL-DAILY-69430da4-bd30-4455-a1cf-36c00e09e4c5:2100128579",
               "attributionNote": "同项目、同日、进展正文一致的原始日志"
             }
           }
@@ -24811,7 +24664,7 @@
         "历史招标结果": "9d6acb82c31a11b4a11c175ed5226dfc77523ca3e9f8bdac34da27542d2eb55d",
         "合同信息": "6cf76cc0a4d4cf6fa136f7aa7e7f453ea905870660a61d792b698cc73d4f2cef",
         "政策与建设方向": "6cf76cc0a4d4cf6fa136f7aa7e7f453ea905870660a61d792b698cc73d4f2cef",
-        "工作日志": "3e9a10a290ccb87990becc023bcf1887d856fd6630ecc2ab161e276e44c93d39",
+        "工作日志": "b08bc8374baa96926e057bf3d89c207bb5440aefa16935ac62763f76fc336d5e",
         "商机进展": "50c544a627cd35b6e1cec7cee930cc6a2cd7cf6d6a295f8066b0523d2211962e",
         "产品与场景": "5525b44441576e0bd057cb4ce592a3c91fd673eadec321351b692bc374cab303",
         "生态伙伴": "adfe6f8759dc89ddc9e6061b8863a62d2993ead41abdff501e722440aa8300a4",
@@ -25293,6 +25146,35 @@
           }
         },
         "工作日志": {
+          "dongfeng-worklogs:dongfeng:2fc37eb5f5973225c893146b": {
+            "hash": "54b614f66b27082bfcf3c0c9da6484c806896afb0c1fbb34eb530f587f4dcd41",
+            "data": {
+              "customerId": "name:上海市总工会",
+              "customerName": "上海市总工会",
+              "workDate": "2026-11-06",
+              "title": "ipm项目流程处理",
+              "content": "对上海市总工会申工社职工服务平台升级改造项目和2026年网络安全及信息化建设咨询服务项目的项目进行相关ipm流程推进",
+              "relatedUnit": null,
+              "actorName": "张羽池",
+              "actorRole": "客户经理",
+              "associationNote": "原始日志提及该客户，具体关联待确认",
+              "durationHours": 1,
+              "projectIds": [
+                "dfproject:898c22dd19801bef6af7"
+              ],
+              "projectTypes": {
+                "dfproject:898c22dd19801bef6af7": "商机"
+              },
+              "id": "dongfeng:2fc37eb5f5973225c893146b",
+              "datePrecision": "explicit",
+              "sourceType": "dongfeng",
+              "sourceLabel": "东风平台 · 东风工作日期",
+              "sourceRecordId": "worklog:WORK-cbb22368-133d-4cde-ad36-c904c69fa8b4:name:上海市总工会",
+              "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
+              "firstSeenAt": "2026-11-06T15:53:45+08:00",
+              "updatedAt": "2026-11-06T15:53:45+08:00"
+            }
+          },
           "dongfeng-worklogs:dongfeng:4c92ab005a41576fede91660": {
             "hash": "1aa5eb30cb77eaa09ac8680b0154b0aa0986d7f76124027d8d032ba7929f57b1",
             "data": {
@@ -26678,5 +26560,5 @@
       }
     }
   },
-  "updatedAt": "2026-11-06T15:31:03+08:00"
+  "updatedAt": "2026-11-06T15:53:46+08:00"
 }

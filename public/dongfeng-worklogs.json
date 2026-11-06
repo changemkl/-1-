@@ -2,6 +2,62 @@
   "version": 3,
   "entries": [
     {
+      "customerId": "2100128579",
+      "customerName": "上海市教育委员会",
+      "workDate": "2026-11-06",
+      "title": "2026-2027学年上海市青少年运动技能等级测试 · 每日进展登记",
+      "content": "工作内容：本日进展：本周已发标，协同战客、教育纵队、执讯等合作伙伴，确认投标策略及分工，准备标书编制。｜下一步：拉通各方资源，准备上会决策，同时继续准备好标书编制及其他投标准备工作；｜下一步时间：2026-11-19",
+      "relatedUnit": null,
+      "actorName": "许鹏宇",
+      "actorRole": "客户经理",
+      "participants": [
+        "许鹏宇（客户经理）",
+        "万全旦（解决方案经理）",
+        "李锋（售前经理）"
+      ],
+      "recordUpdatedDate": null,
+      "projectIds": [
+        "dfproject:9d4cd52052eabc4e4368"
+      ],
+      "projectTypes": {
+        "dfproject:9d4cd52052eabc4e4368": "商机"
+      },
+      "id": "dongfeng:32eb77762caacd8f8be050cc",
+      "datePrecision": "explicit",
+      "sourceType": "dongfeng",
+      "sourceLabel": "东风平台 · 东风工作日期",
+      "sourceRecordId": "daily:TL-DAILY-69430da4-bd30-4455-a1cf-36c00e09e4c5:2100128579",
+      "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
+      "firstSeenAt": "2026-11-06T15:53:45+08:00",
+      "updatedAt": "2026-11-06T15:53:45+08:00"
+    },
+    {
+      "customerId": "name:上海市总工会",
+      "customerName": "上海市总工会",
+      "workDate": "2026-11-06",
+      "title": "ipm项目流程处理",
+      "content": "对上海市总工会申工社职工服务平台升级改造项目和2026年网络安全及信息化建设咨询服务项目的项目进行相关ipm流程推进",
+      "relatedUnit": null,
+      "actorName": "张羽池",
+      "actorRole": "客户经理",
+      "associationNote": "原始日志提及该客户，具体关联待确认",
+      "durationHours": 1,
+      "projectIds": [
+        "dfproject:898c22dd19801bef6af7"
+      ],
+      "projectTypes": {
+        "dfproject:898c22dd19801bef6af7": "商机"
+      },
+      "id": "dongfeng:2fc37eb5f5973225c893146b",
+      "datePrecision": "explicit",
+      "sourceType": "dongfeng",
+      "sourceLabel": "东风平台 · 东风工作日期",
+      "sourceRecordId": "worklog:WORK-cbb22368-133d-4cde-ad36-c904c69fa8b4:name:上海市总工会",
+      "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
+      "firstSeenAt": "2026-11-06T15:53:45+08:00",
+      "updatedAt": "2026-11-06T15:53:45+08:00"
+    },
+    {
       "customerId": "2100000260",
       "customerName": "上海市公安局",
       "workDate": "2026-11-05",
@@ -575,35 +631,6 @@
       "sourceType": "dongfeng",
       "sourceLabel": "东风平台 · 东风工作日期",
       "sourceRecordId": "daily:TL-DAILY-61cfe0da-6eb6-4bf2-94ea-af5a454df546:2100000260",
-      "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
-      "firstSeenAt": "2026-11-02T23:41:17+08:00",
-      "updatedAt": "2026-11-02T23:41:17+08:00"
-    },
-    {
-      "customerId": "2100128579",
-      "customerName": "上海市教育委员会",
-      "workDate": "2026-11-02",
-      "title": "2026-2027学年上海市青少年运动技能等级测试 · 每日进展登记",
-      "content": "工作内容：本日进展：对项目进行评估研判，寻找相关厂家｜下一步：项目投标｜下一步时间：2026-11-26",
-      "relatedUnit": null,
-      "actorName": "万全旦",
-      "actorRole": "方案经理",
-      "participants": [
-        "万全旦（解决方案经理）",
-        "许鹏宇（客户经理）"
-      ],
-      "recordUpdatedDate": null,
-      "projectIds": [
-        "dfproject:254d20693b9deede8259"
-      ],
-      "projectTypes": {
-        "dfproject:254d20693b9deede8259": "商机"
-      },
-      "id": "dongfeng:757cc7c1538d26dac457f0f3",
-      "datePrecision": "explicit",
-      "sourceType": "dongfeng",
-      "sourceLabel": "东风平台 · 东风工作日期",
-      "sourceRecordId": "daily:TL-DAILY-2309d0dc-4c93-4c81-85e4-1b4e4970925c:2100128579",
       "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
       "firstSeenAt": "2026-11-02T23:41:17+08:00",
       "updatedAt": "2026-11-02T23:41:17+08:00"
@@ -8649,58 +8676,6 @@
       "updatedAt": "2026-10-29T14:45:24+08:00"
     },
     {
-      "customerId": "2100128579",
-      "customerName": "上海市教育委员会",
-      "workDate": "2026-09-11",
-      "title": "2026-2027学年上海市青少年运动技能等级测试 · 每日进展登记",
-      "content": "工作内容：完成度 0%｜本日进展：分析建设内容，寻找相关生态厂家｜下一步：评估项目成本",
-      "relatedUnit": null,
-      "actorName": "万全旦",
-      "actorRole": "方案经理",
-      "participants": [],
-      "recordUpdatedDate": null,
-      "projectIds": [
-        "dfproject:254d20693b9deede8259"
-      ],
-      "projectTypes": {
-        "dfproject:254d20693b9deede8259": "商机"
-      },
-      "id": "dongfeng:c415b6a67191a796ee78ff3b",
-      "datePrecision": "explicit",
-      "sourceType": "dongfeng",
-      "sourceLabel": "东风平台 · 东风工作日期",
-      "sourceRecordId": "daily:TL-DAILY-4988d864-863c-4677-bc6c-d81abf7a1432:2100128579",
-      "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
-      "firstSeenAt": "2026-10-29T14:11:08+08:00",
-      "updatedAt": "2026-10-29T14:45:24+08:00"
-    },
-    {
-      "customerId": "2100128579",
-      "customerName": "上海市教育委员会",
-      "workDate": "2026-09-11",
-      "title": "2026-2027学年上海市青少年运动技能等级测试 · 客户经理录入商机并提交",
-      "content": "工作内容：客户经理 许鹏宇 通过工作台录入商机【2026-2027学年上海市青少年运动技能等级测试】，生成唯一编号 DF-OPP-20260911-MTWKZZLO-QP7FMK。",
-      "relatedUnit": null,
-      "actorName": "许鹏宇",
-      "actorRole": "客户经理",
-      "participants": [],
-      "recordUpdatedDate": null,
-      "projectIds": [
-        "dfproject:254d20693b9deede8259"
-      ],
-      "projectTypes": {
-        "dfproject:254d20693b9deede8259": "商机"
-      },
-      "id": "dongfeng:a75064e60edae2d2f937fd54",
-      "datePrecision": "explicit",
-      "sourceType": "dongfeng",
-      "sourceLabel": "东风平台 · 东风事件记录日期",
-      "sourceRecordId": "event:TL-1789108486910-1:2100128579",
-      "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
-      "firstSeenAt": "2026-10-29T14:11:08+08:00",
-      "updatedAt": "2026-10-29T14:45:24+08:00"
-    },
-    {
       "customerId": "2100000172",
       "customerName": "上海市消防救援总队",
       "workDate": "2026-09-11",
@@ -8852,32 +8827,6 @@
       "sourceType": "dongfeng",
       "sourceLabel": "东风平台 · 东风事件记录日期",
       "sourceRecordId": "event:TL-1789105682251-1:2100199365",
-      "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
-      "firstSeenAt": "2026-10-29T14:11:08+08:00",
-      "updatedAt": "2026-10-29T14:45:24+08:00"
-    },
-    {
-      "customerId": "2100128579",
-      "customerName": "上海市教育委员会",
-      "workDate": "2026-09-11",
-      "title": "2026-2027学年上海市青少年运动技能等级测试 · 每日进展登记",
-      "content": "工作内容：完成度 0%｜本日进展：商机预研究｜下一步：评估项目成本",
-      "relatedUnit": null,
-      "actorName": "许鹏宇",
-      "actorRole": "客户经理",
-      "participants": [],
-      "recordUpdatedDate": null,
-      "projectIds": [
-        "dfproject:254d20693b9deede8259"
-      ],
-      "projectTypes": {
-        "dfproject:254d20693b9deede8259": "商机"
-      },
-      "id": "dongfeng:64e6bbcadcb3304d9e633aa9",
-      "datePrecision": "explicit",
-      "sourceType": "dongfeng",
-      "sourceLabel": "东风平台 · 东风工作日期",
-      "sourceRecordId": "daily:TL-DAILY-82a1824a-26b8-4a29-8627-5223a46685f4:2100128579",
       "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
       "firstSeenAt": "2026-10-29T14:11:08+08:00",
       "updatedAt": "2026-10-29T14:45:24+08:00"
@@ -12143,7 +12092,7 @@
       "relatedUnit": null,
       "actorName": "",
       "actorRole": "",
-      "recordUpdatedDate": "2026-11-04",
+      "recordUpdatedDate": "2026-11-06",
       "projectIds": [
         "dfproject:9d4cd52052eabc4e4368"
       ],
@@ -12157,7 +12106,7 @@
       "sourceRecordId": "bid:BID-1793754995088:2100128579",
       "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
       "firstSeenAt": "2026-11-04T09:19:04+08:00",
-      "updatedAt": "2026-11-04T09:19:04+08:00"
+      "updatedAt": "2026-11-06T15:53:45+08:00"
     },
     {
       "customerId": "2100000260",
@@ -12931,11 +12880,11 @@
       "customerName": "上海市教育委员会",
       "workDate": null,
       "title": "2026-2027学年上海市青少年运动技能等级测试 · 最新项目记录",
-      "content": "项目：2026-2027学年上海市青少年运动技能等级测试\n建设内容：需提供田径、游泳、乒乓球、足球、篮球类一至三级的智能化测试方案、需提供测试现场监控录像服务，需提供现场报名及身份识别终端：内置电子学生证读卡器，支持读取上海电子学生证。\n最新进展：与上海移动商讨合作模式，以及后续分工。\n下一步：准备上会和标书。\n平台阶段：投标中\n线索结果：已完成商机登记，后续结果待维护。\n中失标状态：PENDING",
+      "content": "项目：2026-2027学年上海市青少年运动技能等级测试\n建设内容：需提供田径、游泳、乒乓球、足球、篮球类一至三级的智能化测试方案、需提供测试现场监控录像服务，需提供现场报名及身份识别终端：内置电子学生证读卡器，支持读取上海电子学生证。\n最新进展：本周已发标，协同战客、教育纵队、执讯等合作伙伴，确认投标策略及分工，准备标书编制。\n下一步：拉通各方资源，准备上会决策，同时继续准备好标书编制及其他投标准备工作；\n平台阶段：投标中\n线索结果：已完成商机登记，后续结果待维护。\n投标进展：DF-BID-MW1FES9C · 筹备 · 尚未形成\n中失标状态：PENDING",
       "relatedUnit": null,
       "actorName": "",
       "actorRole": "",
-      "recordUpdatedDate": "2026-11-05",
+      "recordUpdatedDate": "2026-11-06",
       "recordCreatedDate": "2026-11-03",
       "responsibleManager": "许鹏宇",
       "projectIds": [
@@ -12951,7 +12900,7 @@
       "sourceRecordId": "progress:TASK-1793673740242:2100128579",
       "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
       "firstSeenAt": "2026-11-03T14:42:27+08:00",
-      "updatedAt": "2026-11-05T20:15:34+08:00"
+      "updatedAt": "2026-11-06T15:53:45+08:00"
     },
     {
       "customerId": "2100000260",
@@ -13943,33 +13892,6 @@
       "updatedAt": "2026-10-29T14:45:24+08:00"
     },
     {
-      "customerId": "2100128579",
-      "customerName": "上海市教育委员会",
-      "workDate": null,
-      "title": "2026-2027学年上海市青少年运动技能等级测试 · 最新项目记录",
-      "content": "项目：2026-2027学年上海市青少年运动技能等级测试\n建设内容：利用自主可控的智能化设备，对田径、游泳、乒乓球、足球等项目实现自动化成绩计分，并实时上传至“上\n海市学生体育素养监测、分析与智慧服务平台”\n最新进展：对项目进行评估研判，寻找相关厂家\n下一步：项目投标\n平台阶段：商机\n线索结果：已完成商机登记，后续结果待维护。\n中失标状态：PENDING",
-      "relatedUnit": null,
-      "actorName": "",
-      "actorRole": "",
-      "recordUpdatedDate": "2026-11-02",
-      "recordCreatedDate": "2026-09-11",
-      "responsibleManager": "许鹏宇",
-      "projectIds": [
-        "dfproject:254d20693b9deede8259"
-      ],
-      "projectTypes": {
-        "dfproject:254d20693b9deede8259": "商机"
-      },
-      "id": "dongfeng:2c1d4e73a715f8e4510d6068",
-      "datePrecision": "unknown",
-      "sourceType": "dongfeng",
-      "sourceLabel": "东风平台 · 实际工作日期未明确",
-      "sourceRecordId": "progress:TASK-1789108486909:2100128579",
-      "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
-      "firstSeenAt": "2026-10-29T14:11:08+08:00",
-      "updatedAt": "2026-11-02T23:41:17+08:00"
-    },
-    {
       "customerId": "name:上海市委党校",
       "customerName": "上海市委党校",
       "workDate": null,
@@ -14448,20 +14370,20 @@
       "updatedAt": "2026-11-02T23:41:17+08:00"
     }
   ],
-  "updatedAt": "2026-11-05T20:15:34+08:00",
+  "updatedAt": "2026-11-06T15:53:45+08:00",
   "source": "东风平台",
   "coverage": {
-    "sourceRecords": 532,
+    "sourceRecords": 529,
     "byType": {
-      "daily": 356,
-      "event": 78,
-      "progress": 65,
+      "daily": 354,
+      "event": 77,
+      "progress": 64,
       "visit": 7,
-      "worklog": 18,
+      "worklog": 19,
       "report": 0,
       "bid": 8
     },
-    "unknownDates": 101
+    "unknownDates": 100
   },
   "projects": [
     {
@@ -14482,7 +14404,7 @@
       "names": [
         "2026-2027学年上海市青少年运动技能等级测试"
       ],
-      "updatedAt": "2026-11-05T04:20:01.775Z"
+      "updatedAt": "2026-11-06T07:22:26.149Z"
     },
     {
       "id": "dfproject:70df34fa9162eeec8afb",
@@ -14905,26 +14827,6 @@
         "消防AI大模型垂域业务应用子系统建设"
       ],
       "updatedAt": "2026-10-27T07:21:08.257Z"
-    },
-    {
-      "id": "dfproject:254d20693b9deede8259",
-      "aliasIds": [],
-      "customerId": "2100128579",
-      "customerName": "上海市教育委员会",
-      "name": "2026-2027学年上海市青少年运动技能等级测试",
-      "type": "商机",
-      "status": "商机",
-      "relatedUnit": "上海市教育委员会",
-      "taskIds": [
-        "TASK-1789108486909"
-      ],
-      "codes": [
-        "DF-OPP-20260911-MTWKZZLO-QP7FMK"
-      ],
-      "names": [
-        "2026-2027学年上海市青少年运动技能等级测试"
-      ],
-      "updatedAt": "2026-11-02T08:38:26.308Z"
     },
     {
       "id": "dfproject:0e9fbd5f4b36e2eafc4f",
@@ -15424,7 +15326,7 @@
       "names": [
         "青浦“十三五”城市图像监控系统租赁续约项目（雪亮工程）"
       ],
-      "updatedAt": "2026-10-21T07:40:27.885Z"
+      "updatedAt": "2026-11-06T06:40:07.101Z"
     },
     {
       "id": "dfproject:5b8848b96f4e84622ebb",
@@ -15792,6 +15694,7 @@
       "TASK-1789023923962",
       "TASK-1789033767158",
       "TASK-1789088227333-OPP",
+      "TASK-1789108486909",
       "TASK-1789112433285",
       "TASK-1789380334097",
       "TASK-1789439239502",
@@ -15841,6 +15744,10 @@
       "daily:TL-1789088211199:2100161493",
       "daily:TL-1789088227334-LEAD:2100161493",
       "daily:TL-1789088227334-OPP:2100161493",
+      "daily:TL-1789108486910-1:2100128579",
+      "daily:TL-1789108486911-2:2100128579",
+      "daily:TL-1789108486911-3:2100128579",
+      "daily:TL-1789108741898:2100128579",
       "daily:TL-1789366937554:2100161493",
       "daily:TL-1789366974983:2100172632",
       "daily:TL-1789380731472:2100000172",
@@ -15880,15 +15787,22 @@
       "daily:TL-1789528884006:name:上海市委党校",
       "daily:TL-1789528966252:2100172632",
       "daily:TL-1789528971384:2100000172",
+      "daily:TL-1790066142432-SOURCE-DETAILS:2100128579",
+      "daily:TL-1793949883161:2100128579",
+      "daily:TL-1793949905303-SOURCE-DETAILS:2100128579",
+      "daily:TL-1793949930017-SOURCE-DETAILS:2100128579",
       "daily:TL-DAILY-069185ed-868a-46bb-ade2-f641dc238eca:name:上海市城市运行管理中心",
       "daily:TL-DAILY-1152ef5d-93ea-4411-af4f-fe76375acedd:name:上海市城市运行管理中心",
       "daily:TL-DAILY-15eaf69e-397c-4fc8-bcca-d252266d4a43:name:上海市城市运行管理中心",
       "daily:TL-DAILY-1d07ea0d-3f27-4bed-a089-d69d94c96d53:name:上海市城市运行管理中心",
+      "daily:TL-DAILY-2309d0dc-4c93-4c81-85e4-1b4e4970925c:2100128579",
       "daily:TL-DAILY-30ded022-9660-4409-85a8-dcc52b22e0f0:name:上海市城市运行管理中心",
       "daily:TL-DAILY-389522c8-463e-4348-a70d-7c9a27363fec:2100000260",
       "daily:TL-DAILY-487845b4-8033-42f4-8965-fefa51f3985b:name:上海市城市运行管理中心",
+      "daily:TL-DAILY-4988d864-863c-4677-bc6c-d81abf7a1432:2100128579",
       "daily:TL-DAILY-75229d59-2dbd-4d31-bbf8-9974f8f892fa:name:上海市城市运行管理中心",
       "daily:TL-DAILY-7fa12064-b7cb-453c-badf-f8536be84826:name:上海市委党校",
+      "daily:TL-DAILY-82a1824a-26b8-4a29-8627-5223a46685f4:2100128579",
       "daily:TL-DAILY-a007f90a-105f-45e9-b9b3-1089e653f102:name:上海市委党校",
       "daily:TL-DAILY-aef2703b-0f3d-4bce-a03f-7a96b13b4d5a:name:上海市委党校",
       "daily:TL-DAILY-af759d72-0321-4a6e-9160-fd279bd34c2c:2100127512",
@@ -15932,6 +15846,10 @@
       "event:TL-1789088211199:2100161493",
       "event:TL-1789088227334-LEAD:2100161493",
       "event:TL-1789088227334-OPP:2100161493",
+      "event:TL-1789108486910-1:2100128579",
+      "event:TL-1789108486911-2:2100128579",
+      "event:TL-1789108486911-3:2100128579",
+      "event:TL-1789108741898:2100128579",
       "event:TL-1789366937554:2100161493",
       "event:TL-1789366974983:2100172632",
       "event:TL-1789380731472:2100000172",
@@ -15971,15 +15889,22 @@
       "event:TL-1789528884006:name:上海市委党校",
       "event:TL-1789528966252:2100172632",
       "event:TL-1789528971384:2100000172",
+      "event:TL-1790066142432-SOURCE-DETAILS:2100128579",
+      "event:TL-1793949883161:2100128579",
+      "event:TL-1793949905303-SOURCE-DETAILS:2100128579",
+      "event:TL-1793949930017-SOURCE-DETAILS:2100128579",
       "event:TL-DAILY-069185ed-868a-46bb-ade2-f641dc238eca:name:上海市城市运行管理中心",
       "event:TL-DAILY-1152ef5d-93ea-4411-af4f-fe76375acedd:name:上海市城市运行管理中心",
       "event:TL-DAILY-15eaf69e-397c-4fc8-bcca-d252266d4a43:name:上海市城市运行管理中心",
       "event:TL-DAILY-1d07ea0d-3f27-4bed-a089-d69d94c96d53:name:上海市城市运行管理中心",
+      "event:TL-DAILY-2309d0dc-4c93-4c81-85e4-1b4e4970925c:2100128579",
       "event:TL-DAILY-30ded022-9660-4409-85a8-dcc52b22e0f0:name:上海市城市运行管理中心",
       "event:TL-DAILY-389522c8-463e-4348-a70d-7c9a27363fec:2100000260",
       "event:TL-DAILY-487845b4-8033-42f4-8965-fefa51f3985b:name:上海市城市运行管理中心",
+      "event:TL-DAILY-4988d864-863c-4677-bc6c-d81abf7a1432:2100128579",
       "event:TL-DAILY-75229d59-2dbd-4d31-bbf8-9974f8f892fa:name:上海市城市运行管理中心",
       "event:TL-DAILY-7fa12064-b7cb-453c-badf-f8536be84826:name:上海市委党校",
+      "event:TL-DAILY-82a1824a-26b8-4a29-8627-5223a46685f4:2100128579",
       "event:TL-DAILY-a007f90a-105f-45e9-b9b3-1089e653f102:name:上海市委党校",
       "event:TL-DAILY-aef2703b-0f3d-4bce-a03f-7a96b13b4d5a:name:上海市委党校",
       "event:TL-DAILY-af759d72-0321-4a6e-9160-fd279bd34c2c:2100127512",
@@ -16005,9 +15930,11 @@
       "progress:TASK-1788949600582:2100000172",
       "progress:TASK-1789023923962:name:上海市总工会",
       "progress:TASK-1789088227333-OPP:2100161493",
+      "progress:TASK-1789108486909:2100128579",
       "progress:TASK-1789439239502:name:上海市委党校"
     ],
     "projectIds": [
+      "dfproject:254d20693b9deede8259",
       "dfproject:2d8df8262defdca79dc9",
       "dfproject:3b91a535fc00f5b1efd1",
       "dfproject:4f3630f60bd2c9893772",
