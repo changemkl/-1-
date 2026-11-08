@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-08T17:39:12+08:00",
+  "updatedAt": "2026-11-09T00:25:45+08:00",
   "customers": [
     {
       "id": "2100303078",
@@ -56,7 +56,7 @@
       },
       "externalSourceChecks": {
         "https://yzb.caigou2003.com/detail/1781944298544300032": {
-          "at": "2026-11-07T23:17:37+08:00",
+          "at": "2026-11-09T00:25:45+08:00",
           "status": "ok"
         },
         "https://yzb.caigou2003.com/detail/1779905424439640065": {
@@ -168,7 +168,7 @@
       },
       "externalSourceChecks": {
         "https://www.ccgp.gov.cn/cggg/zygg/cjgg/202506/t20250603_24699101.htm": {
-          "at": "2026-11-08T03:42:12+08:00",
+          "at": "2026-11-09T00:25:45+08:00",
           "status": "ok"
         }
       }
@@ -835,13 +835,13 @@
         }
       ],
       "coverage": {
-        "from": "2023-11-09",
-        "to": "2026-11-08",
+        "from": "2023-11-10",
+        "to": "2026-11-09",
         "source": "https://www.zfcg.sh.gov.cn",
         "truncated": false
       },
       "lastCheck": {
-        "at": "2026-11-08T10:47:31+08:00",
+        "at": "2026-11-09T00:24:36+08:00",
         "status": "ok"
       },
       "externalSourceChecks": {
@@ -909,13 +909,13 @@
         }
       ],
       "coverage": {
-        "from": "2023-11-09",
-        "to": "2026-11-08",
+        "from": "2023-11-10",
+        "to": "2026-11-09",
         "source": "https://www.zfcg.sh.gov.cn",
         "truncated": false
       },
       "lastCheck": {
-        "at": "2026-11-08T10:47:31+08:00",
+        "at": "2026-11-09T00:24:36+08:00",
         "status": "ok"
       },
       "externalSourceChecks": {
@@ -932,7 +932,7 @@
           "status": "ok"
         },
         "https://www.ccgp.gov.cn/cggg/zygg/cjgg/202608/t20260825_27197715.htm": {
-          "at": "2026-11-08T03:42:12+08:00",
+          "at": "2026-11-09T00:25:45+08:00",
           "status": "ok"
         }
       }
@@ -982,13 +982,13 @@
         }
       ],
       "coverage": {
-        "from": "2023-11-09",
-        "to": "2026-11-08",
+        "from": "2023-11-10",
+        "to": "2026-11-09",
         "source": "https://www.zfcg.sh.gov.cn",
         "truncated": true
       },
       "lastCheck": {
-        "at": "2026-11-08T10:47:31+08:00",
+        "at": "2026-11-09T00:24:36+08:00",
         "status": "ok"
       },
       "externalSourceChecks": {
@@ -1003,13 +1003,13 @@
       "name": "上海库帕思科技有限公司",
       "results": [],
       "coverage": {
-        "from": "2023-11-09",
-        "to": "2026-11-08",
+        "from": "2023-11-10",
+        "to": "2026-11-09",
         "source": "https://www.zfcg.sh.gov.cn",
         "truncated": false
       },
       "lastCheck": {
-        "at": "2026-11-08T10:47:31+08:00",
+        "at": "2026-11-09T00:24:36+08:00",
         "status": "ok"
       }
     },
@@ -1067,13 +1067,13 @@
         }
       ],
       "coverage": {
-        "from": "2023-11-09",
-        "to": "2026-11-08",
+        "from": "2023-11-10",
+        "to": "2026-11-09",
         "source": "https://www.zfcg.sh.gov.cn",
         "truncated": true
       },
       "lastCheck": {
-        "at": "2026-11-08T10:47:31+08:00",
+        "at": "2026-11-09T00:24:36+08:00",
         "status": "ok"
       }
     },
@@ -2622,7 +2622,7 @@
       },
       "externalSourceChecks": {
         "https://www.ccgp.gov.cn/cggg/zygg/cjgg/202610/t20261030_27590679.htm": {
-          "at": "2026-11-08T03:42:12+08:00",
+          "at": "2026-11-09T00:25:45+08:00",
           "status": "ok"
         },
         "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202610/t20261028_27579691.htm": {
@@ -4622,40 +4622,16 @@
             "at": "2026-10-26T10:49:29+08:00",
             "status": "ok"
           }
-        },
-        {
-          "title": "上海市市场监督管理局广告监测服务与数据采购项目的中标（成交）结果公告",
-          "date": "2023-11-09",
-          "buyer": "上海市市场监督管理局",
-          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=nK30PqfqQFxj3jzOYyrPGA%3D%3D",
-          "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期",
-          "projectName": "上海市市场监督管理局广告监测服务与数据采购项目",
-          "awards": [
-            {
-              "lotNumber": "1",
-              "lotName": "上海市市场监督管理局广告监测服务与数据采购项目",
-              "suppliers": [
-                "上海市市场监督管理局监测评价中心"
-              ],
-              "quote": "标项名称：上海市市场监督管理局广告监测服务与数据采购项目；中标供应商名称：上海市市场监督管理局监测评价中心"
-            }
-          ],
-          "detailCheck": {
-            "version": 1,
-            "at": "2026-10-26T10:49:29+08:00",
-            "status": "ok"
-          }
         }
       ],
       "coverage": {
-        "from": "2023-11-09",
-        "to": "2026-11-08",
+        "from": "2023-11-10",
+        "to": "2026-11-09",
         "source": "https://www.zfcg.sh.gov.cn",
         "truncated": true
       },
       "lastCheck": {
-        "at": "2026-11-08T07:06:22+08:00",
+        "at": "2026-11-09T00:24:36+08:00",
         "status": "ok"
       }
     },
@@ -4664,13 +4640,13 @@
       "name": "上海市委党校",
       "results": [],
       "coverage": {
-        "from": "2023-11-09",
-        "to": "2026-11-08",
+        "from": "2023-11-10",
+        "to": "2026-11-09",
         "source": "https://www.zfcg.sh.gov.cn",
         "truncated": false
       },
       "lastCheck": {
-        "at": "2026-11-08T07:06:22+08:00",
+        "at": "2026-11-09T00:24:36+08:00",
         "status": "ok"
       }
     },
@@ -5151,13 +5127,13 @@
         }
       ],
       "coverage": {
-        "from": "2023-11-09",
-        "to": "2026-11-08",
+        "from": "2023-11-10",
+        "to": "2026-11-09",
         "source": "https://www.zfcg.sh.gov.cn",
         "truncated": false
       },
       "lastCheck": {
-        "at": "2026-11-08T07:06:22+08:00",
+        "at": "2026-11-09T00:24:36+08:00",
         "status": "ok"
       }
     }

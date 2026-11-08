@@ -4403,6 +4403,45 @@
           }
         }
       ]
+    },
+    {
+      "id": "82fba5fabba16ca4e8c0e054",
+      "customerId": "2100006103",
+      "customerName": "上海市市场监督管理局",
+      "label": "历史招标结果",
+      "title": "历史招标结果更新",
+      "detectedAt": "2026-11-09T00:25:54+08:00",
+      "date": "2026-11-09",
+      "items": [
+        {
+          "key": "award-history:https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=nK30PqfqQFxj3jzOYyrPGA%3D%3D",
+          "change": "移除",
+          "record": {
+            "title": "上海市市场监督管理局广告监测服务与数据采购项目的中标（成交）结果公告",
+            "date": "2023-11-09",
+            "buyer": "上海市市场监督管理局",
+            "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=nK30PqfqQFxj3jzOYyrPGA%3D%3D",
+            "source": "上海市政府采购网",
+            "dateLabel": "结果公告日期",
+            "projectName": "上海市市场监督管理局广告监测服务与数据采购项目",
+            "awards": [
+              {
+                "lotNumber": "1",
+                "lotName": "上海市市场监督管理局广告监测服务与数据采购项目",
+                "suppliers": [
+                  "上海市市场监督管理局监测评价中心"
+                ],
+                "quote": "标项名称：上海市市场监督管理局广告监测服务与数据采购项目；中标供应商名称：上海市市场监督管理局监测评价中心"
+              }
+            ],
+            "detailCheck": {
+              "version": 1,
+              "at": "2026-10-26T10:49:29+08:00",
+              "status": "ok"
+            }
+          }
+        }
+      ]
     }
   ]
 }
