@@ -2,6 +2,26 @@
   "version": 3,
   "entries": [
     {
+      "customerId": "2100000172",
+      "customerName": "上海市消防救援总队",
+      "workDate": "2026-11-09",
+      "title": "上海市消防救援总队通信指挥系统（2025年升级改造）子系统建设采购项目",
+      "content": "1.检索招投标信息\n2.与招标代理确认招标公告中不明确的部分",
+      "relatedUnit": null,
+      "actorName": "张羽池",
+      "actorRole": "客户经理",
+      "associationNote": "",
+      "durationHours": 1,
+      "id": "dongfeng:58d89efab241895ba8f66f56",
+      "datePrecision": "explicit",
+      "sourceType": "dongfeng",
+      "sourceLabel": "东风平台 · 东风工作日期",
+      "sourceRecordId": "worklog:WORK-dbb601da-ced4-43c1-9b5a-427c5fc6e8d2:2100000172",
+      "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
+      "firstSeenAt": "2026-11-09T10:38:51+08:00",
+      "updatedAt": "2026-11-09T10:38:51+08:00"
+    },
+    {
       "customerId": "2100128579",
       "customerName": "上海市教育委员会",
       "workDate": "2026-11-06",
@@ -14370,16 +14390,16 @@
       "updatedAt": "2026-11-02T23:41:17+08:00"
     }
   ],
-  "updatedAt": "2026-11-06T15:53:45+08:00",
+  "updatedAt": "2026-11-09T10:38:51+08:00",
   "source": "东风平台",
   "coverage": {
-    "sourceRecords": 529,
+    "sourceRecords": 530,
     "byType": {
       "daily": 354,
       "event": 77,
       "progress": 64,
       "visit": 7,
-      "worklog": 19,
+      "worklog": 20,
       "report": 0,
       "bid": 8
     },

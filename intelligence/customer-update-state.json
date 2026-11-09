@@ -16011,7 +16011,7 @@
         "历史招标结果": "919d513ab456bb17fdc162a83e6eee6e8bb31772f6f87fe342d9b180fc3ec861",
         "合同信息": "6cf76cc0a4d4cf6fa136f7aa7e7f453ea905870660a61d792b698cc73d4f2cef",
         "政策与建设方向": "6cf76cc0a4d4cf6fa136f7aa7e7f453ea905870660a61d792b698cc73d4f2cef",
-        "工作日志": "4a172903e150602c1871b5901e5e6db0d97b87c45662da78c6e878ce8139c0ed",
+        "工作日志": "af3a8ace3e920c8bf218012e627cd95a901d01ef8f89e4adc693499b863eb190",
         "商机进展": "85e81fb470ad35ecbc7381d7e809cc318e61681e3bbf5e8451e1a0e00b72d106",
         "产品与场景": "5525b44441576e0bd057cb4ce592a3c91fd673eadec321351b692bc374cab303",
         "生态伙伴": "adfe6f8759dc89ddc9e6061b8863a62d2993ead41abdff501e722440aa8300a4",
@@ -16095,6 +16095,29 @@
           }
         },
         "工作日志": {
+          "dongfeng-worklogs:dongfeng:58d89efab241895ba8f66f56": {
+            "hash": "1c4343bf9488f308c122cb2cee6ad18ff484151ac821fc8a536adfabc3938f9c",
+            "data": {
+              "customerId": "2100000172",
+              "customerName": "上海市消防救援总队",
+              "workDate": "2026-11-09",
+              "title": "上海市消防救援总队通信指挥系统（2025年升级改造）子系统建设采购项目",
+              "content": "1.检索招投标信息\n2.与招标代理确认招标公告中不明确的部分",
+              "relatedUnit": null,
+              "actorName": "张羽池",
+              "actorRole": "客户经理",
+              "associationNote": "",
+              "durationHours": 1,
+              "id": "dongfeng:58d89efab241895ba8f66f56",
+              "datePrecision": "explicit",
+              "sourceType": "dongfeng",
+              "sourceLabel": "东风平台 · 东风工作日期",
+              "sourceRecordId": "worklog:WORK-dbb601da-ced4-43c1-9b5a-427c5fc6e8d2:2100000172",
+              "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
+              "firstSeenAt": "2026-11-09T10:38:51+08:00",
+              "updatedAt": "2026-11-09T10:38:51+08:00"
+            }
+          },
           "dongfeng-worklogs:dongfeng:04f08c396c99265cab8f30db": {
             "hash": "2465f0166ae269cb633c3b8a5729dd48f449f108d99a7b5d137cf5cdb18fb10f",
             "data": {
@@ -26533,5 +26556,5 @@
       }
     }
   },
-  "updatedAt": "2026-11-09T10:06:37+08:00"
+  "updatedAt": "2026-11-09T10:38:51+08:00"
 }
