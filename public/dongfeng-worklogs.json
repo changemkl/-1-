@@ -365,6 +365,27 @@
       "updatedAt": "2026-11-05T20:15:34+08:00"
     },
     {
+      "customerId": "2100128579",
+      "customerName": "上海市教育委员会",
+      "workDate": "2026-11-05",
+      "title": "上海海事大学投标材料编写；",
+      "content": "3、支撑上海市教委的体测项目。",
+      "relatedUnit": null,
+      "actorName": "彭健",
+      "actorRole": "解决方案经理",
+      "associationNote": "原始日志提及该客户，具体关联待确认",
+      "durationHours": 6,
+      "originalContent": "1、上海财经大学项目，配合合同签署，协调供应商入库；\n2、上海海事大学投标材料编写；\n3、支撑上海市教委的体测项目。",
+      "id": "dongfeng:d31b72f7a9acc629cbcbafbf",
+      "datePrecision": "explicit",
+      "sourceType": "dongfeng",
+      "sourceLabel": "东风平台 · 东风工作日期",
+      "sourceRecordId": "worklog:WORK-1da8f53b-21e5-4007-afb7-bae587201758:2100128579",
+      "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
+      "firstSeenAt": "2026-11-10T06:16:59+08:00",
+      "updatedAt": "2026-11-10T06:16:59+08:00"
+    },
+    {
       "customerId": "2100000260",
       "customerName": "上海市公安局",
       "workDate": "2026-11-05",
@@ -14692,16 +14713,16 @@
       "updatedAt": "2026-11-09T19:23:53+08:00"
     }
   ],
-  "updatedAt": "2026-11-09T19:23:53+08:00",
+  "updatedAt": "2026-11-10T06:16:59+08:00",
   "source": "东风平台",
   "coverage": {
-    "sourceRecords": 541,
+    "sourceRecords": 542,
     "byType": {
       "daily": 359,
       "event": 80,
       "progress": 64,
       "visit": 7,
-      "worklog": 20,
+      "worklog": 21,
       "report": 0,
       "bid": 11
     },

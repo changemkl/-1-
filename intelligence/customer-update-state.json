@@ -20122,7 +20122,7 @@
         "历史招标结果": "3ba18fb7f4db1be9b38ce0a2ba657e35d5ff7f67578b661ac7f78c1cc00b4d59",
         "合同信息": "6cf76cc0a4d4cf6fa136f7aa7e7f453ea905870660a61d792b698cc73d4f2cef",
         "政策与建设方向": "6cf76cc0a4d4cf6fa136f7aa7e7f453ea905870660a61d792b698cc73d4f2cef",
-        "工作日志": "830bc9b1c03ce6a815f52084dea273884a02bcf7bad9db7ac8266603ae221d1f",
+        "工作日志": "628b869fe46b65b58bc6a48d80e698a4cf93b3e9b9112d43e159d5e73d6eec4d",
         "商机进展": "285908ea72f41943005e3d540aa39b66db583cf1a250953bdbf9d9afaedd4ad5",
         "产品与场景": "5525b44441576e0bd057cb4ce592a3c91fd673eadec321351b692bc374cab303",
         "生态伙伴": "adfe6f8759dc89ddc9e6061b8863a62d2993ead41abdff501e722440aa8300a4",
@@ -20881,6 +20881,30 @@
               "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
               "firstSeenAt": "2026-11-05T20:15:34+08:00",
               "updatedAt": "2026-11-05T20:15:34+08:00"
+            }
+          },
+          "dongfeng-worklogs:dongfeng:d31b72f7a9acc629cbcbafbf": {
+            "hash": "19e79b51157efb32ba25b312a199eebffccba2b1218c92b82b43d8d487a92a9f",
+            "data": {
+              "customerId": "2100128579",
+              "customerName": "上海市教育委员会",
+              "workDate": "2026-11-05",
+              "title": "上海海事大学投标材料编写；",
+              "content": "3、支撑上海市教委的体测项目。",
+              "relatedUnit": null,
+              "actorName": "彭健",
+              "actorRole": "解决方案经理",
+              "associationNote": "原始日志提及该客户，具体关联待确认",
+              "durationHours": 6,
+              "originalContent": "1、上海财经大学项目，配合合同签署，协调供应商入库；\n2、上海海事大学投标材料编写；\n3、支撑上海市教委的体测项目。",
+              "id": "dongfeng:d31b72f7a9acc629cbcbafbf",
+              "datePrecision": "explicit",
+              "sourceType": "dongfeng",
+              "sourceLabel": "东风平台 · 东风工作日期",
+              "sourceRecordId": "worklog:WORK-1da8f53b-21e5-4007-afb7-bae587201758:2100128579",
+              "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
+              "firstSeenAt": "2026-11-10T06:16:59+08:00",
+              "updatedAt": "2026-11-10T06:16:59+08:00"
             }
           },
           "dongfeng-worklogs:dongfeng:92fb2793780bf8a912740032": {
@@ -26891,5 +26915,5 @@
       }
     }
   },
-  "updatedAt": "2026-11-10T04:03:40+08:00"
+  "updatedAt": "2026-11-10T06:16:59+08:00"
 }
