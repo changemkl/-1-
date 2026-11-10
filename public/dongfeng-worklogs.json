@@ -4,6 +4,34 @@
     {
       "customerId": "2100000172",
       "customerName": "上海市消防救援总队",
+      "workDate": "2026-11-10",
+      "title": "业务系统升级改造项目 · 每日进展登记",
+      "content": "工作内容：本日进展：获取招标文件，研读文件。｜下一步：准备上会决策和标书准备工作。｜下一步时间：2026-11-30",
+      "relatedUnit": null,
+      "actorName": "许鹏宇",
+      "actorRole": "客户经理",
+      "participants": [
+        "许鹏宇（客户经理）"
+      ],
+      "recordUpdatedDate": null,
+      "projectIds": [
+        "dfproject:71957667c1ba7f3d1b95"
+      ],
+      "projectTypes": {
+        "dfproject:71957667c1ba7f3d1b95": "商机"
+      },
+      "id": "dongfeng:9007e1adab0ae8b7c95dccf8",
+      "datePrecision": "explicit",
+      "sourceType": "dongfeng",
+      "sourceLabel": "东风平台 · 东风工作日期",
+      "sourceRecordId": "daily:TL-DAILY-cfabd2ca-599c-439f-9eb9-31dcf9b35508:2100000172",
+      "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
+      "firstSeenAt": "2026-11-10T12:08:40+08:00",
+      "updatedAt": "2026-11-10T12:08:40+08:00"
+    },
+    {
+      "customerId": "2100000172",
+      "customerName": "上海市消防救援总队",
       "workDate": "2026-11-09",
       "title": "业务系统升级改造项目 · 商机已转投标",
       "content": "工作内容：已生成投标台账 DF-BID-MW8PQA2G，投标金额 640 万元。",
@@ -13546,11 +13574,11 @@
       "customerName": "上海市消防救援总队",
       "workDate": null,
       "title": "业务系统升级改造项目 · 最新项目记录",
-      "content": "项目：业务系统升级改造项目\n最新进展：项目已经正式发标，正在准备报名材料和报名流程。\n下一步：准备上会决策和标书准备工作。\n平台阶段：投标中\n线索结果：已完成商机登记，后续结果待维护。\n投标进展：DF-BID-MW8PQA2G · 筹备 · 尚未形成\n中失标状态：PENDING",
+      "content": "项目：业务系统升级改造项目\n最新进展：获取招标文件，研读文件。\n下一步：准备上会决策和标书准备工作。\n平台阶段：投标中\n线索结果：已完成商机登记，后续结果待维护。\n投标进展：DF-BID-MW8PQA2G · 筹备 · 尚未形成\n中失标状态：PENDING",
       "relatedUnit": null,
       "actorName": "",
       "actorRole": "",
-      "recordUpdatedDate": "2026-11-09",
+      "recordUpdatedDate": "2026-11-10",
       "recordCreatedDate": "2026-09-09",
       "responsibleManager": "许鹏宇",
       "projectIds": [
@@ -13566,7 +13594,7 @@
       "sourceRecordId": "progress:TASK-1788949735381:2100000172",
       "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
       "firstSeenAt": "2026-10-29T14:11:08+08:00",
-      "updatedAt": "2026-11-09T19:23:53+08:00"
+      "updatedAt": "2026-11-10T12:08:40+08:00"
     },
     {
       "customerId": "2100000260",
@@ -14713,12 +14741,12 @@
       "updatedAt": "2026-11-09T19:23:53+08:00"
     }
   ],
-  "updatedAt": "2026-11-10T06:16:59+08:00",
+  "updatedAt": "2026-11-10T12:08:40+08:00",
   "source": "东风平台",
   "coverage": {
-    "sourceRecords": 542,
+    "sourceRecords": 543,
     "byType": {
-      "daily": 359,
+      "daily": 360,
       "event": 80,
       "progress": 64,
       "visit": 7,
@@ -15269,7 +15297,7 @@
       "names": [
         "业务系统升级改造项目"
       ],
-      "updatedAt": "2026-11-09T03:42:02.189Z"
+      "updatedAt": "2026-11-10T03:21:38.528Z"
     },
     {
       "id": "dfproject:a509d5fb204492a9f548",

@@ -16192,8 +16192,8 @@
         "历史招标结果": "919d513ab456bb17fdc162a83e6eee6e8bb31772f6f87fe342d9b180fc3ec861",
         "合同信息": "6cf76cc0a4d4cf6fa136f7aa7e7f453ea905870660a61d792b698cc73d4f2cef",
         "政策与建设方向": "6cf76cc0a4d4cf6fa136f7aa7e7f453ea905870660a61d792b698cc73d4f2cef",
-        "工作日志": "7d0b95160b5f773e94fc865d56a32ae126b1924d95e7c24cd9752b7dadac1ee7",
-        "商机进展": "f56adb07e8687305dbfdfd4da195875ff02098b37d92730e934d9f8ae41fb686",
+        "工作日志": "d8d991ce7297beeb78eff99de40e3b2a451bf243b4dd136e3facc1b30c0663fe",
+        "商机进展": "bc93f927af7dc6cebc9c8d8e9e607c73bc2d9f27533efabc83e17e34d1f21b31",
         "产品与场景": "5525b44441576e0bd057cb4ce592a3c91fd673eadec321351b692bc374cab303",
         "生态伙伴": "adfe6f8759dc89ddc9e6061b8863a62d2993ead41abdff501e722440aa8300a4",
         "客户基本信息": "141d4be2652c085297390008e0e7b7d8d24d72ff23ccc6fa64125f8a58fbc38a"
@@ -16276,6 +16276,37 @@
           }
         },
         "工作日志": {
+          "dongfeng-worklogs:dongfeng:9007e1adab0ae8b7c95dccf8": {
+            "hash": "b24995f22cb94fa1cb336997a24dac322274926184b53b7b8b847541095b233e",
+            "data": {
+              "customerId": "2100000172",
+              "customerName": "上海市消防救援总队",
+              "workDate": "2026-11-10",
+              "title": "业务系统升级改造项目 · 每日进展登记",
+              "content": "工作内容：本日进展：获取招标文件，研读文件。｜下一步：准备上会决策和标书准备工作。｜下一步时间：2026-11-30",
+              "relatedUnit": null,
+              "actorName": "许鹏宇",
+              "actorRole": "客户经理",
+              "participants": [
+                "许鹏宇（客户经理）"
+              ],
+              "recordUpdatedDate": null,
+              "projectIds": [
+                "dfproject:71957667c1ba7f3d1b95"
+              ],
+              "projectTypes": {
+                "dfproject:71957667c1ba7f3d1b95": "商机"
+              },
+              "id": "dongfeng:9007e1adab0ae8b7c95dccf8",
+              "datePrecision": "explicit",
+              "sourceType": "dongfeng",
+              "sourceLabel": "东风平台 · 东风工作日期",
+              "sourceRecordId": "daily:TL-DAILY-cfabd2ca-599c-439f-9eb9-31dcf9b35508:2100000172",
+              "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
+              "firstSeenAt": "2026-11-10T12:08:40+08:00",
+              "updatedAt": "2026-11-10T12:08:40+08:00"
+            }
+          },
           "dongfeng-worklogs:dongfeng:aecea7f3baf18e8023c96a4d": {
             "hash": "be26c1a2bbb132be2b6b6371fbde463af14571f95e830b1dadd4ab9a2f962628",
             "data": {
@@ -18318,17 +18349,17 @@
             }
           },
           "dongfeng-worklogs:dongfeng:7991027b291401c81cf6cfe8": {
-            "hash": "629775079af8cf639fdad6ff5dd263a3421667249c7c65053e9d800ac415edd0",
+            "hash": "8c17674fea7a27f0e38780978aae1febae460693cf6427b881a8ebf1054a5da8",
             "data": {
               "customerId": "2100000172",
               "customerName": "上海市消防救援总队",
               "workDate": null,
               "title": "业务系统升级改造项目 · 最新项目记录",
-              "content": "项目：业务系统升级改造项目\n最新进展：项目已经正式发标，正在准备报名材料和报名流程。\n下一步：准备上会决策和标书准备工作。\n平台阶段：投标中\n线索结果：已完成商机登记，后续结果待维护。\n投标进展：DF-BID-MW8PQA2G · 筹备 · 尚未形成\n中失标状态：PENDING",
+              "content": "项目：业务系统升级改造项目\n最新进展：获取招标文件，研读文件。\n下一步：准备上会决策和标书准备工作。\n平台阶段：投标中\n线索结果：已完成商机登记，后续结果待维护。\n投标进展：DF-BID-MW8PQA2G · 筹备 · 尚未形成\n中失标状态：PENDING",
               "relatedUnit": null,
               "actorName": "",
               "actorRole": "",
-              "recordUpdatedDate": "2026-11-09",
+              "recordUpdatedDate": "2026-11-10",
               "recordCreatedDate": "2026-09-09",
               "responsibleManager": "许鹏宇",
               "projectIds": [
@@ -18344,7 +18375,7 @@
               "sourceRecordId": "progress:TASK-1788949735381:2100000172",
               "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
               "firstSeenAt": "2026-10-29T14:11:08+08:00",
-              "updatedAt": "2026-11-09T19:23:53+08:00"
+              "updatedAt": "2026-11-10T12:08:40+08:00"
             }
           },
           "dongfeng-worklogs:dongfeng:5f5f7ff4f16e4fde3c6ec04a": {
@@ -18460,7 +18491,7 @@
             }
           },
           "dongfeng-worklogs:dfproject:71957667c1ba7f3d1b95": {
-            "hash": "92e2214ee89e794553417c1d4d54940abd054bb61c30fcf93cf0580e1d36b8c4",
+            "hash": "442a4d9114e20544df03580a8243dffa5acbda2be5002c541e29b715c390c762",
             "data": {
               "id": "dfproject:71957667c1ba7f3d1b95",
               "aliasIds": [],
@@ -18479,14 +18510,14 @@
               "names": [
                 "业务系统升级改造项目"
               ],
-              "updatedAt": "2026-11-09T03:42:02.189Z",
-              "latestProgress": "项目已经正式发标，正在准备报名材料和报名流程。",
+              "updatedAt": "2026-11-10T03:21:38.528Z",
+              "latestProgress": "获取招标文件，研读文件。",
               "actorName": "许鹏宇",
               "actorRole": "客户经理",
               "recordMethod": "日志 · 每日进展登记",
               "sourceRecordId": "progress:TASK-1788949735381:2100000172",
               "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
-              "attributionRecordId": "daily:TL-DAILY-15ebabe6-dd73-4321-a698-b4079d30bb8a:2100000172",
+              "attributionRecordId": "daily:TL-DAILY-cfabd2ca-599c-439f-9eb9-31dcf9b35508:2100000172",
               "attributionNote": "同项目、同日、进展正文一致的原始日志"
             }
           },
@@ -26915,5 +26946,5 @@
       }
     }
   },
-  "updatedAt": "2026-11-10T10:39:15+08:00"
+  "updatedAt": "2026-11-10T12:08:41+08:00"
 }
