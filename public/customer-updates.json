@@ -6003,6 +6003,79 @@
           }
         }
       ]
+    },
+    {
+      "id": "a6bfc3e414ac93ff21b63ee7",
+      "customerId": "2100000260",
+      "customerName": "上海市公安局",
+      "label": "采购意向与招标",
+      "title": "采购意向与招标更新",
+      "detectedAt": "2026-11-11T06:36:11+08:00",
+      "date": "2026-11-11",
+      "items": [
+        {
+          "key": "profile-data:https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=oLw9G%2FG2IDg%2Bl4WN4BZaeg%3D%3D",
+          "change": "新增",
+          "record": {
+            "name": "上海市公安局杨浦分局信息系统改造三期项目（软件）的公开招标公告",
+            "stage": "公开招标公告",
+            "public_title_only": true,
+            "notice_url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=oLw9G%2FG2IDg%2Bl4WN4BZaeg%3D%3D",
+            "quote": "上海市公安局杨浦分局信息系统改造三期项目（软件）的公开招标公告\n采购人：上海市公安局杨浦分局\n提交投标文件截止时间：2026年12月01日 09:30",
+            "buyer": {
+              "value": "上海市公安局杨浦分局",
+              "unit": "",
+              "quote": "采购人：上海市公安局杨浦分局"
+            },
+            "supplier": null,
+            "budget": null,
+            "award_amount": null,
+            "planned_purchase": null,
+            "deadline": {
+              "value": "2026-12-01 09:30",
+              "unit": "",
+              "quote": "提交投标文件截止时间：2026年12月01日 09:30"
+            },
+            "service_end": null,
+            "relation": "公开列表所列采购人：上海市公安局杨浦分局",
+            "notice": "仅依据无需登录的公开标题及列表字段；未读取登录后详情。日期缺失时不确认采购有效期。",
+            "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=oLw9G%2FG2IDg%2Bl4WN4BZaeg%3D%3D",
+            "title": "上海市公安局杨浦分局信息系统改造三期项目（软件）的公开招标公告",
+            "published_at": "2026-11-10",
+            "fetched_at": "2026-11-10T22:34:12.215301+00:00",
+            "source_host": "www.zfcg.sh.gov.cn"
+          }
+        },
+        {
+          "key": "profile-data:https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=LZWD8jJenVpuIJNWh5iwWg%3D%3D",
+          "change": "移除",
+          "record": {
+            "name": "上海市公安局杨浦分局2026年12月政府采购意向",
+            "stage": "采购意向",
+            "public_title_only": true,
+            "notice_url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=LZWD8jJenVpuIJNWh5iwWg%3D%3D",
+            "quote": "上海市公安局杨浦分局2026年12月政府采购意向\n采购人：上海市公安局杨浦分局\n2026年12月",
+            "buyer": {
+              "value": "上海市公安局杨浦分局",
+              "unit": "",
+              "quote": "采购人：上海市公安局杨浦分局"
+            },
+            "supplier": null,
+            "budget": null,
+            "award_amount": null,
+            "planned_purchase": "2026-12",
+            "deadline": null,
+            "service_end": null,
+            "relation": "公开列表所列采购人：上海市公安局杨浦分局",
+            "notice": "仅依据无需登录的公开标题及列表字段；未读取登录后详情。日期缺失时不确认采购有效期。",
+            "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=LZWD8jJenVpuIJNWh5iwWg%3D%3D",
+            "title": "上海市公安局杨浦分局2026年12月政府采购意向",
+            "published_at": "2026-10-22",
+            "fetched_at": "2026-11-09T00:09:25.955544+00:00",
+            "source_host": "www.zfcg.sh.gov.cn"
+          }
+        }
+      ]
     }
   ]
 }
