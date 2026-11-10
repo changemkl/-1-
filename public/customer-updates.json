@@ -5964,6 +5964,45 @@
           }
         }
       ]
+    },
+    {
+      "id": "f5b1faf1956d37f9a6240811",
+      "customerId": "2100000260",
+      "customerName": "上海市公安局",
+      "label": "历史招标结果",
+      "title": "历史招标结果更新",
+      "detectedAt": "2026-11-11T01:23:17+08:00",
+      "date": "2026-11-11",
+      "items": [
+        {
+          "key": "award-history:https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=rFZD3IKNNp%2F3D%2FqWOcPL9A%3D%3D",
+          "change": "新增",
+          "record": {
+            "title": "上海市公安局静安分局（2026）云机房租赁的中标（成交）结果公告",
+            "date": "2026-11-10",
+            "buyer": "上海市公安局静安分局（本部）",
+            "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=rFZD3IKNNp%2F3D%2FqWOcPL9A%3D%3D",
+            "source": "上海市政府采购网",
+            "dateLabel": "结果公告日期",
+            "projectName": "上海市公安局静安分局（2026）云机房租赁",
+            "awards": [
+              {
+                "lotNumber": "1",
+                "lotName": "上海市公安局静安分局（2026）云机房租赁",
+                "suppliers": [
+                  "东方有线网络有限公司"
+                ],
+                "quote": "标项名称：上海市公安局静安分局（2026）云机房租赁；中标供应商名称：东方有线网络有限公司"
+              }
+            ],
+            "detailCheck": {
+              "version": 1,
+              "at": "2026-11-11T01:22:24+08:00",
+              "status": "ok"
+            }
+          }
+        }
+      ]
     }
   ]
 }

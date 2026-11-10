@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-10T16:56:31+08:00",
+  "updatedAt": "2026-11-11T01:23:11+08:00",
   "customers": [
     {
       "id": "2100303078",
@@ -45,13 +45,13 @@
         }
       ],
       "coverage": {
-        "from": "2023-11-11",
-        "to": "2026-11-10",
+        "from": "2023-11-12",
+        "to": "2026-11-11",
         "source": "https://www.zfcg.sh.gov.cn",
         "truncated": false
       },
       "lastCheck": {
-        "at": "2026-11-10T09:53:10+08:00",
+        "at": "2026-11-11T01:22:24+08:00",
         "status": "ok"
       },
       "externalSourceChecks": {
@@ -111,13 +111,13 @@
         }
       ],
       "coverage": {
-        "from": "2023-11-11",
-        "to": "2026-11-10",
+        "from": "2023-11-12",
+        "to": "2026-11-11",
         "source": "https://www.zfcg.sh.gov.cn",
         "truncated": false
       },
       "lastCheck": {
-        "at": "2026-11-10T09:53:10+08:00",
+        "at": "2026-11-11T01:22:24+08:00",
         "status": "ok"
       },
       "externalSourceChecks": {
@@ -157,13 +157,13 @@
         }
       ],
       "coverage": {
-        "from": "2023-11-11",
-        "to": "2026-11-10",
+        "from": "2023-11-12",
+        "to": "2026-11-11",
         "source": "https://www.zfcg.sh.gov.cn",
         "truncated": false
       },
       "lastCheck": {
-        "at": "2026-11-10T09:53:10+08:00",
+        "at": "2026-11-11T01:22:24+08:00",
         "status": "ok"
       },
       "externalSourceChecks": {
@@ -523,13 +523,13 @@
         }
       ],
       "coverage": {
-        "from": "2023-11-11",
-        "to": "2026-11-10",
+        "from": "2023-11-12",
+        "to": "2026-11-11",
         "source": "https://www.zfcg.sh.gov.cn",
         "truncated": false
       },
       "lastCheck": {
-        "at": "2026-11-10T01:53:05+08:00",
+        "at": "2026-11-11T01:22:24+08:00",
         "status": "ok"
       }
     },
@@ -923,16 +923,19 @@
       },
       "externalSourceChecks": {
         "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202610/t20261028_27575254.htm": {
-          "at": "2026-11-09T15:19:23+08:00",
-          "status": "ok"
+          "at": "2026-11-11T01:23:11+08:00",
+          "status": "unavailable",
+          "message": "HTTP Error 403: Forbidden"
         },
         "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202610/t20261027_27572438.htm": {
-          "at": "2026-11-09T15:19:23+08:00",
-          "status": "ok"
+          "at": "2026-11-11T01:23:11+08:00",
+          "status": "unavailable",
+          "message": "HTTP Error 403: Forbidden"
         },
         "https://www.ccgp.gov.cn/cggg/zygg/zbgg/202609/t20260902_27248583.htm": {
-          "at": "2026-11-09T15:19:23+08:00",
-          "status": "ok"
+          "at": "2026-11-11T01:23:11+08:00",
+          "status": "unavailable",
+          "message": "HTTP Error 403: Forbidden"
         },
         "https://www.ccgp.gov.cn/cggg/zygg/cjgg/202608/t20260825_27197715.htm": {
           "at": "2026-11-10T01:53:54+08:00",
@@ -996,7 +999,7 @@
       },
       "externalSourceChecks": {
         "https://www.365trade.com.cn/jfwzb/768353.jhtml": {
-          "at": "2026-11-09T08:11:03+08:00",
+          "at": "2026-11-11T01:23:11+08:00",
           "status": "ok"
         }
       }
@@ -1084,6 +1087,30 @@
       "id": "2100000260",
       "name": "上海市公安局",
       "results": [
+        {
+          "title": "上海市公安局静安分局（2026）云机房租赁的中标（成交）结果公告",
+          "date": "2026-11-10",
+          "buyer": "上海市公安局静安分局（本部）",
+          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=rFZD3IKNNp%2F3D%2FqWOcPL9A%3D%3D",
+          "source": "上海市政府采购网",
+          "dateLabel": "结果公告日期",
+          "projectName": "上海市公安局静安分局（2026）云机房租赁",
+          "awards": [
+            {
+              "lotNumber": "1",
+              "lotName": "上海市公安局静安分局（2026）云机房租赁",
+              "suppliers": [
+                "东方有线网络有限公司"
+              ],
+              "quote": "标项名称：上海市公安局静安分局（2026）云机房租赁；中标供应商名称：东方有线网络有限公司"
+            }
+          ],
+          "detailCheck": {
+            "version": 1,
+            "at": "2026-11-11T01:22:24+08:00",
+            "status": "ok"
+          }
+        },
         {
           "title": "上海市公安局浦东分局网站云安全的中标（成交）结果公告",
           "date": "2026-11-04",
@@ -2558,13 +2585,13 @@
         }
       ],
       "coverage": {
-        "from": "2023-11-11",
-        "to": "2026-11-10",
+        "from": "2023-11-12",
+        "to": "2026-11-11",
         "source": "https://www.zfcg.sh.gov.cn",
         "truncated": true
       },
       "lastCheck": {
-        "at": "2026-11-10T09:53:10+08:00",
+        "at": "2026-11-11T01:22:24+08:00",
         "status": "ok"
       }
     },
@@ -2614,13 +2641,13 @@
         }
       ],
       "coverage": {
-        "from": "2023-11-11",
-        "to": "2026-11-10",
+        "from": "2023-11-12",
+        "to": "2026-11-11",
         "source": "https://www.zfcg.sh.gov.cn",
         "truncated": false
       },
       "lastCheck": {
-        "at": "2026-11-10T09:53:10+08:00",
+        "at": "2026-11-11T01:22:24+08:00",
         "status": "ok"
       },
       "externalSourceChecks": {
@@ -4658,13 +4685,13 @@
       "name": "上海市城市运行管理中心",
       "results": [],
       "coverage": {
-        "from": "2023-11-11",
-        "to": "2026-11-10",
+        "from": "2023-11-12",
+        "to": "2026-11-11",
         "source": "https://www.zfcg.sh.gov.cn",
         "truncated": true
       },
       "lastCheck": {
-        "at": "2026-11-10T01:53:05+08:00",
+        "at": "2026-11-11T01:22:24+08:00",
         "status": "ok"
       }
     },
@@ -5018,13 +5045,13 @@
         }
       ],
       "coverage": {
-        "from": "2023-11-11",
-        "to": "2026-11-10",
+        "from": "2023-11-12",
+        "to": "2026-11-11",
         "source": "https://www.zfcg.sh.gov.cn",
         "truncated": false
       },
       "lastCheck": {
-        "at": "2026-11-10T01:53:05+08:00",
+        "at": "2026-11-11T01:22:24+08:00",
         "status": "ok"
       }
     },
