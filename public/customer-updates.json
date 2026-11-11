@@ -6076,6 +6076,398 @@
           }
         }
       ]
+    },
+    {
+      "id": "f19226695f8bff23e42a00c0",
+      "customerId": "2100000260",
+      "customerName": "上海市公安局",
+      "label": "工作日志",
+      "title": "工作日志更新",
+      "detectedAt": "2026-11-12T00:07:28+08:00",
+      "date": "2026-11-12",
+      "items": [
+        {
+          "key": "dongfeng-worklogs:dongfeng:b7f75616a135a8dfb3cc7fba",
+          "change": "新增",
+          "record": {
+            "customerId": "2100000260",
+            "customerName": "上海市公安局",
+            "workDate": "2026-11-11",
+            "title": "平安闵行 · 每日进展登记",
+            "content": "工作内容：本日进展：约定生态，准备周五沟通。｜下一步：推进生态交流和人员入驻｜下一步时间：2026-11-13｜风险/阻塞：（1）客户倾向于选择属地落税单位承接，请公司支撑闵行落税单位入驻事宜。（2）根据项目初期点位图，请公司统筹支撑后续网络建设交付资源及配套能力。（3）机房改造待确认？",
+            "relatedUnit": "上海市公安局闵行分局",
+            "actorName": "王洪飞",
+            "actorRole": "客户经理",
+            "participants": [
+              "王洪飞（客户经理）",
+              "黄深远（解决方案经理）",
+              "陈嘉南（解决方案经理）"
+            ],
+            "recordUpdatedDate": null,
+            "projectIds": [
+              "dfproject:3af9bfba002d44a78857"
+            ],
+            "projectTypes": {
+              "dfproject:3af9bfba002d44a78857": "商机"
+            },
+            "id": "dongfeng:b7f75616a135a8dfb3cc7fba",
+            "datePrecision": "explicit",
+            "sourceType": "dongfeng",
+            "sourceLabel": "东风平台 · 东风工作日期",
+            "sourceRecordId": "daily:TL-DAILY-f3059413-d5d4-4d40-8011-76142fba98cb:2100000260",
+            "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
+            "firstSeenAt": "2026-11-12T00:07:28+08:00",
+            "updatedAt": "2026-11-12T00:07:28+08:00"
+          }
+        },
+        {
+          "key": "dongfeng-worklogs:dongfeng:6de5893f3da32519b4814acc",
+          "change": "新增",
+          "record": {
+            "customerId": "2100000260",
+            "customerName": "上海市公安局",
+            "workDate": "2026-11-11",
+            "title": "青浦一网统飞平台 · 每日进展登记",
+            "content": "工作内容：本日进展：周五拜访客户，协调解方资源，准备移动的方案优势。｜下一步：准备方案优点给客户汇报｜下一步时间：2026-11-13｜风险/阻塞：飞控平台若由电信与上海锋则捆绑合作中标，且电信中标并有赠送的价格优势",
+            "relatedUnit": "上海市公安局青浦分局",
+            "actorName": "任志伟",
+            "actorRole": "客户经理",
+            "participants": [
+              "任志伟（客户经理）"
+            ],
+            "recordUpdatedDate": null,
+            "projectIds": [
+              "dfproject:80808b990bf50250a018"
+            ],
+            "projectTypes": {
+              "dfproject:80808b990bf50250a018": "商机"
+            },
+            "id": "dongfeng:6de5893f3da32519b4814acc",
+            "datePrecision": "explicit",
+            "sourceType": "dongfeng",
+            "sourceLabel": "东风平台 · 东风工作日期",
+            "sourceRecordId": "daily:TL-DAILY-a51633b1-de1a-4d5a-aabf-573d33cb95de:2100000260",
+            "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
+            "firstSeenAt": "2026-11-12T00:07:28+08:00",
+            "updatedAt": "2026-11-12T00:07:28+08:00"
+          }
+        },
+        {
+          "key": "dongfeng-worklogs:dongfeng:c93ced243c7340584beeffd1",
+          "change": "修改",
+          "record": {
+            "customerId": "2100000260",
+            "customerName": "上海市公安局",
+            "workDate": null,
+            "title": "平安闵行 · 最新项目记录",
+            "content": "项目：平安闵行\n建设内容：平安闵行\n最新进展：约定生态，准备周五沟通。\n下一步：推进生态交流和人员入驻\n平台阶段：商机\n线索结果：标前引导\n投标进展：有效--跟进中\n中失标状态：PENDING",
+            "relatedUnit": "上海市公安局闵行分局",
+            "actorName": "",
+            "actorRole": "",
+            "recordUpdatedDate": "2026-11-11",
+            "recordCreatedDate": "2026-09-04",
+            "responsibleManager": "王洪飞",
+            "projectIds": [
+              "dfproject:3af9bfba002d44a78857"
+            ],
+            "projectTypes": {
+              "dfproject:3af9bfba002d44a78857": "商机"
+            },
+            "id": "dongfeng:c93ced243c7340584beeffd1",
+            "datePrecision": "unknown",
+            "sourceType": "dongfeng",
+            "sourceLabel": "东风平台 · 实际工作日期未明确",
+            "sourceRecordId": "progress:DF-OPP-0281-C013A2:2100000260",
+            "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
+            "firstSeenAt": "2026-10-29T14:11:08+08:00",
+            "updatedAt": "2026-11-12T00:07:28+08:00"
+          }
+        },
+        {
+          "key": "dongfeng-worklogs:dongfeng:793bc948a16b8c16fe56012b",
+          "change": "修改",
+          "record": {
+            "customerId": "2100000260",
+            "customerName": "上海市公安局",
+            "workDate": null,
+            "title": "青浦一网统飞平台 · 最新项目记录",
+            "content": "项目：青浦一网统飞平台\n建设内容：一网统飞平台\n最新进展：周五拜访客户，协调解方资源，准备移动的方案优势。\n下一步：准备方案优点给客户汇报\n平台阶段：商机\n线索结果：标前引导\n投标进展：待维护\n中失标状态：PENDING",
+            "relatedUnit": "上海市公安局青浦分局",
+            "actorName": "",
+            "actorRole": "",
+            "recordUpdatedDate": "2026-11-11",
+            "recordCreatedDate": "2026-09-04",
+            "responsibleManager": "任志伟",
+            "projectIds": [
+              "dfproject:80808b990bf50250a018"
+            ],
+            "projectTypes": {
+              "dfproject:80808b990bf50250a018": "商机"
+            },
+            "id": "dongfeng:793bc948a16b8c16fe56012b",
+            "datePrecision": "unknown",
+            "sourceType": "dongfeng",
+            "sourceLabel": "东风平台 · 实际工作日期未明确",
+            "sourceRecordId": "progress:DF-OPP-0140-049147:2100000260",
+            "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
+            "firstSeenAt": "2026-10-29T14:11:08+08:00",
+            "updatedAt": "2026-11-12T00:07:28+08:00"
+          }
+        },
+        {
+          "key": "dongfeng-worklogs:dongfeng:01099907841b8f5b727e0678",
+          "change": "修改",
+          "record": {
+            "customerId": "2100000260",
+            "customerName": "上海市公安局",
+            "workDate": null,
+            "title": "上海交通治堵大模型外场卡口设备补点项目 · 最新项目记录",
+            "content": "项目：上海交通治堵大模型外场卡口设备补点项目\n最新进展：向大华，华为，华三，第三方厂商进行询价。\n下一步：待客户经理维护下一步计划。\n平台阶段：投标中\n线索结果：已完成商机登记，后续结果待维护。\n投标进展：DF-BID-MW8Q6Z0U · 筹备 · 尚未形成\n中失标状态：PENDING",
+            "relatedUnit": "上海市公安局青浦分局",
+            "actorName": "",
+            "actorRole": "",
+            "recordUpdatedDate": "2026-11-11",
+            "recordCreatedDate": "2026-11-02",
+            "responsibleManager": "任志伟",
+            "projectIds": [
+              "dfproject:70df34fa9162eeec8afb"
+            ],
+            "projectTypes": {
+              "dfproject:70df34fa9162eeec8afb": "商机"
+            },
+            "id": "dongfeng:01099907841b8f5b727e0678",
+            "datePrecision": "unknown",
+            "sourceType": "dongfeng",
+            "sourceLabel": "东风平台 · 实际工作日期未明确",
+            "sourceRecordId": "progress:TASK-1793624834525:2100000260",
+            "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
+            "firstSeenAt": "2026-11-02T23:41:17+08:00",
+            "updatedAt": "2026-11-12T00:07:28+08:00"
+          }
+        }
+      ]
+    },
+    {
+      "id": "336fd35aa2f7e94f01304aba",
+      "customerId": "2100000260",
+      "customerName": "上海市公安局",
+      "label": "商机进展",
+      "title": "商机进展更新",
+      "detectedAt": "2026-11-12T00:07:28+08:00",
+      "date": "2026-11-12",
+      "items": [
+        {
+          "key": "dongfeng-worklogs:dfproject:70df34fa9162eeec8afb",
+          "change": "修改",
+          "record": {
+            "id": "dfproject:70df34fa9162eeec8afb",
+            "aliasIds": [],
+            "customerId": "2100000260",
+            "customerName": "上海市公安局",
+            "name": "上海交通治堵大模型外场卡口设备补点项目",
+            "type": "商机",
+            "status": "投标中",
+            "relatedUnit": "上海市公安局青浦分局",
+            "taskIds": [
+              "TASK-1793624834525"
+            ],
+            "codes": [
+              "DF-OPP-20261102-MVZ9WZQ5-WVYS3P"
+            ],
+            "names": [
+              "上海交通治堵大模型外场卡口设备补点项目"
+            ],
+            "updatedAt": "2026-11-11T12:42:39.459Z",
+            "latestProgress": "向大华，华为，华三，第三方厂商进行询价。",
+            "actorName": "",
+            "actorRole": "",
+            "recordMethod": "商机记录 · 最新进展",
+            "sourceRecordId": "progress:TASK-1793624834525:2100000260",
+            "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG"
+          }
+        },
+        {
+          "key": "dongfeng-worklogs:dfproject:80808b990bf50250a018",
+          "change": "修改",
+          "record": {
+            "id": "dfproject:80808b990bf50250a018",
+            "aliasIds": [],
+            "customerId": "2100000260",
+            "customerName": "上海市公安局",
+            "name": "青浦一网统飞平台",
+            "type": "商机",
+            "status": "商机",
+            "relatedUnit": "上海市公安局青浦分局",
+            "taskIds": [
+              "DF-OPP-0140-049147"
+            ],
+            "codes": [
+              "DF-OPP-0140-049147"
+            ],
+            "names": [
+              "青浦一网统飞平台"
+            ],
+            "updatedAt": "2026-11-11T09:56:22.103Z",
+            "latestProgress": "周五拜访客户，协调解方资源，准备移动的方案优势。",
+            "actorName": "任志伟",
+            "actorRole": "客户经理",
+            "recordMethod": "日志 · 每日进展登记",
+            "sourceRecordId": "progress:DF-OPP-0140-049147:2100000260",
+            "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
+            "attributionRecordId": "daily:TL-DAILY-a51633b1-de1a-4d5a-aabf-573d33cb95de:2100000260",
+            "attributionNote": "同项目、同日、进展正文一致的原始日志"
+          }
+        },
+        {
+          "key": "dongfeng-worklogs:dfproject:3af9bfba002d44a78857",
+          "change": "修改",
+          "record": {
+            "id": "dfproject:3af9bfba002d44a78857",
+            "aliasIds": [],
+            "customerId": "2100000260",
+            "customerName": "上海市公安局",
+            "name": "平安闵行",
+            "type": "商机",
+            "status": "商机",
+            "relatedUnit": "上海市公安局闵行分局",
+            "taskIds": [
+              "DF-OPP-0281-C013A2"
+            ],
+            "codes": [
+              "DF-OPP-0281-C013A2"
+            ],
+            "names": [
+              "平安闵行"
+            ],
+            "updatedAt": "2026-11-11T12:48:12.930Z",
+            "latestProgress": "约定生态，准备周五沟通。",
+            "actorName": "王洪飞",
+            "actorRole": "客户经理",
+            "recordMethod": "日志 · 每日进展登记",
+            "sourceRecordId": "progress:DF-OPP-0281-C013A2:2100000260",
+            "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
+            "attributionRecordId": "daily:TL-DAILY-f3059413-d5d4-4d40-8011-76142fba98cb:2100000260",
+            "attributionNote": "同项目、同日、进展正文一致的原始日志"
+          }
+        }
+      ]
+    },
+    {
+      "id": "50a59a16664bda465ba3fef2",
+      "customerId": "2100000172",
+      "customerName": "上海市消防救援总队",
+      "label": "工作日志",
+      "title": "工作日志更新",
+      "detectedAt": "2026-11-12T00:07:28+08:00",
+      "date": "2026-11-12",
+      "items": [
+        {
+          "key": "dongfeng-worklogs:dongfeng:84092e6883b4dabee80f745e",
+          "change": "新增",
+          "record": {
+            "customerId": "2100000172",
+            "customerName": "上海市消防救援总队",
+            "workDate": "2026-11-11",
+            "title": "业务系统升级改造项目 · 每日进展登记",
+            "content": "工作内容：本日进展：输出技术文件编制模板｜下一步：准备上会决策和标书准备工作。｜下一步时间：2026-11-30",
+            "relatedUnit": null,
+            "actorName": "王凯",
+            "actorRole": "方案经理",
+            "participants": [
+              "王凯（解决方案经理）"
+            ],
+            "recordUpdatedDate": null,
+            "projectIds": [
+              "dfproject:71957667c1ba7f3d1b95"
+            ],
+            "projectTypes": {
+              "dfproject:71957667c1ba7f3d1b95": "商机"
+            },
+            "id": "dongfeng:84092e6883b4dabee80f745e",
+            "datePrecision": "explicit",
+            "sourceType": "dongfeng",
+            "sourceLabel": "东风平台 · 东风工作日期",
+            "sourceRecordId": "daily:TL-DAILY-84e5d886-c7dc-43ef-8222-4e725ab206d2:2100000172",
+            "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
+            "firstSeenAt": "2026-11-12T00:07:28+08:00",
+            "updatedAt": "2026-11-12T00:07:28+08:00"
+          }
+        },
+        {
+          "key": "dongfeng-worklogs:dongfeng:7991027b291401c81cf6cfe8",
+          "change": "修改",
+          "record": {
+            "customerId": "2100000172",
+            "customerName": "上海市消防救援总队",
+            "workDate": null,
+            "title": "业务系统升级改造项目 · 最新项目记录",
+            "content": "项目：业务系统升级改造项目\n最新进展：输出技术文件编制模板\n下一步：准备上会决策和标书准备工作。\n平台阶段：投标中\n线索结果：已完成商机登记，后续结果待维护。\n投标进展：DF-BID-MW8PQA2G · 筹备 · 尚未形成\n中失标状态：PENDING",
+            "relatedUnit": null,
+            "actorName": "",
+            "actorRole": "",
+            "recordUpdatedDate": "2026-11-11",
+            "recordCreatedDate": "2026-09-09",
+            "responsibleManager": "许鹏宇",
+            "projectIds": [
+              "dfproject:71957667c1ba7f3d1b95"
+            ],
+            "projectTypes": {
+              "dfproject:71957667c1ba7f3d1b95": "商机"
+            },
+            "id": "dongfeng:7991027b291401c81cf6cfe8",
+            "datePrecision": "unknown",
+            "sourceType": "dongfeng",
+            "sourceLabel": "东风平台 · 实际工作日期未明确",
+            "sourceRecordId": "progress:TASK-1788949735381:2100000172",
+            "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
+            "firstSeenAt": "2026-10-29T14:11:08+08:00",
+            "updatedAt": "2026-11-12T00:07:28+08:00"
+          }
+        }
+      ]
+    },
+    {
+      "id": "dfea25483e27194911e6841d",
+      "customerId": "2100000172",
+      "customerName": "上海市消防救援总队",
+      "label": "商机进展",
+      "title": "商机进展更新",
+      "detectedAt": "2026-11-12T00:07:28+08:00",
+      "date": "2026-11-12",
+      "items": [
+        {
+          "key": "dongfeng-worklogs:dfproject:71957667c1ba7f3d1b95",
+          "change": "修改",
+          "record": {
+            "id": "dfproject:71957667c1ba7f3d1b95",
+            "aliasIds": [],
+            "customerId": "2100000172",
+            "customerName": "上海市消防救援总队",
+            "name": "业务系统升级改造项目",
+            "type": "商机",
+            "status": "投标中",
+            "relatedUnit": "上海市消防救援总队",
+            "taskIds": [
+              "TASK-1788949735381"
+            ],
+            "codes": [
+              "DF-OPP-20260909-MTTYHE50-UQ3PTE"
+            ],
+            "names": [
+              "业务系统升级改造项目"
+            ],
+            "updatedAt": "2026-11-11T08:29:54.457Z",
+            "latestProgress": "输出技术文件编制模板",
+            "actorName": "王凯",
+            "actorRole": "方案经理",
+            "recordMethod": "日志 · 每日进展登记",
+            "sourceRecordId": "progress:TASK-1788949735381:2100000172",
+            "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
+            "attributionRecordId": "daily:TL-DAILY-84e5d886-c7dc-43ef-8222-4e725ab206d2:2100000172",
+            "attributionNote": "同项目、同日、进展正文一致的原始日志"
+          }
+        }
+      ]
     }
   ]
 }
