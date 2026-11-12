@@ -6742,6 +6742,394 @@
           }
         }
       ]
+    },
+    {
+      "id": "7ac5081ec85e3fec11990085",
+      "customerId": "2100006103",
+      "customerName": "上海市市场监督管理局",
+      "label": "采购意向与招标",
+      "title": "采购意向与招标更新",
+      "detectedAt": "2026-11-12T16:56:21+08:00",
+      "date": "2026-11-12",
+      "items": [
+        {
+          "key": "profile-data:https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=ixKUwTdXJ%2ByZtzYcVLeANg%3D%3D",
+          "change": "新增",
+          "record": {
+            "name": "上海市市场监督管理局2026年12月政府采购意向",
+            "stage": "采购意向",
+            "public_title_only": true,
+            "notice_url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=ixKUwTdXJ%2ByZtzYcVLeANg%3D%3D",
+            "quote": "上海市市场监督管理局2026年12月政府采购意向\n采购人：上海市市场监督管理局\n2026年12月",
+            "buyer": {
+              "value": "上海市市场监督管理局",
+              "unit": "",
+              "quote": "采购人：上海市市场监督管理局"
+            },
+            "supplier": null,
+            "budget": null,
+            "award_amount": null,
+            "planned_purchase": "2026-12",
+            "deadline": null,
+            "service_end": null,
+            "relation": "公开列表所列采购人：上海市市场监督管理局",
+            "notice": "仅依据无需登录的公开标题及列表字段；未读取登录后详情。日期缺失时不确认采购有效期。",
+            "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=ixKUwTdXJ%2ByZtzYcVLeANg%3D%3D",
+            "title": "上海市市场监督管理局2026年12月政府采购意向",
+            "published_at": "2026-11-12",
+            "fetched_at": "2026-11-12T08:53:59.204288+00:00",
+            "source_host": "www.zfcg.sh.gov.cn"
+          }
+        },
+        {
+          "key": "profile-data:https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=8Uh4xpQNTY8AwxvCFKkAJw%3D%3D",
+          "change": "新增",
+          "record": {
+            "name": "上海市市场监督管理局2026年12月政府采购意向",
+            "stage": "采购意向",
+            "public_title_only": true,
+            "notice_url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=8Uh4xpQNTY8AwxvCFKkAJw%3D%3D",
+            "quote": "上海市市场监督管理局2026年12月政府采购意向\n采购人：上海市市场监督管理局\n2026年12月",
+            "buyer": {
+              "value": "上海市市场监督管理局",
+              "unit": "",
+              "quote": "采购人：上海市市场监督管理局"
+            },
+            "supplier": null,
+            "budget": null,
+            "award_amount": null,
+            "planned_purchase": "2026-12",
+            "deadline": null,
+            "service_end": null,
+            "relation": "公开列表所列采购人：上海市市场监督管理局",
+            "notice": "仅依据无需登录的公开标题及列表字段；未读取登录后详情。日期缺失时不确认采购有效期。",
+            "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=8Uh4xpQNTY8AwxvCFKkAJw%3D%3D",
+            "title": "上海市市场监督管理局2026年12月政府采购意向",
+            "published_at": "2026-11-12",
+            "fetched_at": "2026-11-12T08:53:59.202504+00:00",
+            "source_host": "www.zfcg.sh.gov.cn"
+          }
+        },
+        {
+          "key": "profile-data:https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=BqdCX9TyZCtPOBN3HEcsfQ%3D%3D",
+          "change": "新增",
+          "record": {
+            "name": "上海市市场监督管理局2026年11月政府采购意向",
+            "stage": "采购意向",
+            "public_title_only": true,
+            "notice_url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=BqdCX9TyZCtPOBN3HEcsfQ%3D%3D",
+            "quote": "上海市市场监督管理局2026年11月政府采购意向\n采购人：上海市市场监督管理局\n2026年11月",
+            "buyer": {
+              "value": "上海市市场监督管理局",
+              "unit": "",
+              "quote": "采购人：上海市市场监督管理局"
+            },
+            "supplier": null,
+            "budget": null,
+            "award_amount": null,
+            "planned_purchase": "2026-11",
+            "deadline": null,
+            "service_end": null,
+            "relation": "公开列表所列采购人：上海市市场监督管理局",
+            "notice": "仅依据无需登录的公开标题及列表字段；未读取登录后详情。日期缺失时不确认采购有效期。",
+            "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=BqdCX9TyZCtPOBN3HEcsfQ%3D%3D",
+            "title": "上海市市场监督管理局2026年11月政府采购意向",
+            "published_at": "2026-11-12",
+            "fetched_at": "2026-11-12T08:53:59.196209+00:00",
+            "source_host": "www.zfcg.sh.gov.cn"
+          }
+        },
+        {
+          "key": "profile-data:https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=Sg5Nq8z2qRbVb2vpnfP23A%3D%3D",
+          "change": "新增",
+          "record": {
+            "name": "上海市市场监督管理局2026年12月政府采购意向",
+            "stage": "采购意向",
+            "public_title_only": true,
+            "notice_url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=Sg5Nq8z2qRbVb2vpnfP23A%3D%3D",
+            "quote": "上海市市场监督管理局2026年12月政府采购意向\n采购人：上海市市场监督管理局\n2026年12月",
+            "buyer": {
+              "value": "上海市市场监督管理局",
+              "unit": "",
+              "quote": "采购人：上海市市场监督管理局"
+            },
+            "supplier": null,
+            "budget": null,
+            "award_amount": null,
+            "planned_purchase": "2026-12",
+            "deadline": null,
+            "service_end": null,
+            "relation": "公开列表所列采购人：上海市市场监督管理局",
+            "notice": "仅依据无需登录的公开标题及列表字段；未读取登录后详情。日期缺失时不确认采购有效期。",
+            "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=Sg5Nq8z2qRbVb2vpnfP23A%3D%3D",
+            "title": "上海市市场监督管理局2026年12月政府采购意向",
+            "published_at": "2026-11-12",
+            "fetched_at": "2026-11-12T08:53:59.195027+00:00",
+            "source_host": "www.zfcg.sh.gov.cn"
+          }
+        },
+        {
+          "key": "profile-data:https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=eVyoQgsU7sLQzn81%2FI9InQ%3D%3D",
+          "change": "新增",
+          "record": {
+            "name": "上海市市场监督管理局2026年12月政府采购意向",
+            "stage": "采购意向",
+            "public_title_only": true,
+            "notice_url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=eVyoQgsU7sLQzn81%2FI9InQ%3D%3D",
+            "quote": "上海市市场监督管理局2026年12月政府采购意向\n采购人：上海市市场监督管理局\n2026年12月",
+            "buyer": {
+              "value": "上海市市场监督管理局",
+              "unit": "",
+              "quote": "采购人：上海市市场监督管理局"
+            },
+            "supplier": null,
+            "budget": null,
+            "award_amount": null,
+            "planned_purchase": "2026-12",
+            "deadline": null,
+            "service_end": null,
+            "relation": "公开列表所列采购人：上海市市场监督管理局",
+            "notice": "仅依据无需登录的公开标题及列表字段；未读取登录后详情。日期缺失时不确认采购有效期。",
+            "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=eVyoQgsU7sLQzn81%2FI9InQ%3D%3D",
+            "title": "上海市市场监督管理局2026年12月政府采购意向",
+            "published_at": "2026-11-12",
+            "fetched_at": "2026-11-12T08:53:59.193797+00:00",
+            "source_host": "www.zfcg.sh.gov.cn"
+          }
+        },
+        {
+          "key": "profile-data:https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=NwB08wgPaWZy5vxBny6ciQ%3D%3D",
+          "change": "新增",
+          "record": {
+            "name": "上海市市场监督管理局2026年12月政府采购意向",
+            "stage": "采购意向",
+            "public_title_only": true,
+            "notice_url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=NwB08wgPaWZy5vxBny6ciQ%3D%3D",
+            "quote": "上海市市场监督管理局2026年12月政府采购意向\n采购人：上海市市场监督管理局\n2026年12月",
+            "buyer": {
+              "value": "上海市市场监督管理局",
+              "unit": "",
+              "quote": "采购人：上海市市场监督管理局"
+            },
+            "supplier": null,
+            "budget": null,
+            "award_amount": null,
+            "planned_purchase": "2026-12",
+            "deadline": null,
+            "service_end": null,
+            "relation": "公开列表所列采购人：上海市市场监督管理局",
+            "notice": "仅依据无需登录的公开标题及列表字段；未读取登录后详情。日期缺失时不确认采购有效期。",
+            "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=NwB08wgPaWZy5vxBny6ciQ%3D%3D",
+            "title": "上海市市场监督管理局2026年12月政府采购意向",
+            "published_at": "2026-11-12",
+            "fetched_at": "2026-11-12T08:53:59.191146+00:00",
+            "source_host": "www.zfcg.sh.gov.cn"
+          }
+        },
+        {
+          "key": "profile-data:https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=edz%2BvuqtFtS5yK04eRt46A%3D%3D",
+          "change": "新增",
+          "record": {
+            "name": "上海市市场监督管理局2026年12月政府采购意向",
+            "stage": "采购意向",
+            "public_title_only": true,
+            "notice_url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=edz%2BvuqtFtS5yK04eRt46A%3D%3D",
+            "quote": "上海市市场监督管理局2026年12月政府采购意向\n采购人：上海市市场监督管理局\n2026年12月",
+            "buyer": {
+              "value": "上海市市场监督管理局",
+              "unit": "",
+              "quote": "采购人：上海市市场监督管理局"
+            },
+            "supplier": null,
+            "budget": null,
+            "award_amount": null,
+            "planned_purchase": "2026-12",
+            "deadline": null,
+            "service_end": null,
+            "relation": "公开列表所列采购人：上海市市场监督管理局",
+            "notice": "仅依据无需登录的公开标题及列表字段；未读取登录后详情。日期缺失时不确认采购有效期。",
+            "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=edz%2BvuqtFtS5yK04eRt46A%3D%3D",
+            "title": "上海市市场监督管理局2026年12月政府采购意向",
+            "published_at": "2026-11-12",
+            "fetched_at": "2026-11-12T08:53:59.189890+00:00",
+            "source_host": "www.zfcg.sh.gov.cn"
+          }
+        },
+        {
+          "key": "profile-data:https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=7o8evFz7dq8w9i2yOANwnA%3D%3D",
+          "change": "新增",
+          "record": {
+            "name": "上海市市场监督管理局2027年01月政府采购意向",
+            "stage": "采购意向",
+            "public_title_only": true,
+            "notice_url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=7o8evFz7dq8w9i2yOANwnA%3D%3D",
+            "quote": "上海市市场监督管理局2027年01月政府采购意向\n采购人：上海市市场监督管理局\n2027年01月",
+            "buyer": {
+              "value": "上海市市场监督管理局",
+              "unit": "",
+              "quote": "采购人：上海市市场监督管理局"
+            },
+            "supplier": null,
+            "budget": null,
+            "award_amount": null,
+            "planned_purchase": "2027-01",
+            "deadline": null,
+            "service_end": null,
+            "relation": "公开列表所列采购人：上海市市场监督管理局",
+            "notice": "仅依据无需登录的公开标题及列表字段；未读取登录后详情。日期缺失时不确认采购有效期。",
+            "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=7o8evFz7dq8w9i2yOANwnA%3D%3D",
+            "title": "上海市市场监督管理局2027年01月政府采购意向",
+            "published_at": "2026-11-12",
+            "fetched_at": "2026-11-12T08:53:59.048944+00:00",
+            "source_host": "www.zfcg.sh.gov.cn"
+          }
+        },
+        {
+          "key": "profile-data:https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=DN6OXmmWV2xaUmFoMtWLlA%3D%3D",
+          "change": "新增",
+          "record": {
+            "name": "上海市市场监督管理局2026年12月政府采购意向",
+            "stage": "采购意向",
+            "public_title_only": true,
+            "notice_url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=DN6OXmmWV2xaUmFoMtWLlA%3D%3D",
+            "quote": "上海市市场监督管理局2026年12月政府采购意向\n采购人：上海市市场监督管理局\n2026年12月",
+            "buyer": {
+              "value": "上海市市场监督管理局",
+              "unit": "",
+              "quote": "采购人：上海市市场监督管理局"
+            },
+            "supplier": null,
+            "budget": null,
+            "award_amount": null,
+            "planned_purchase": "2026-12",
+            "deadline": null,
+            "service_end": null,
+            "relation": "公开列表所列采购人：上海市市场监督管理局",
+            "notice": "仅依据无需登录的公开标题及列表字段；未读取登录后详情。日期缺失时不确认采购有效期。",
+            "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=DN6OXmmWV2xaUmFoMtWLlA%3D%3D",
+            "title": "上海市市场监督管理局2026年12月政府采购意向",
+            "published_at": "2026-11-12",
+            "fetched_at": "2026-11-12T08:53:56.755500+00:00",
+            "source_host": "www.zfcg.sh.gov.cn"
+          }
+        },
+        {
+          "key": "profile-data:https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=NSioZLNdVkd3GvnyXd%2BoBQ%3D%3D",
+          "change": "新增",
+          "record": {
+            "name": "上海市市场监督管理局2026年12月政府采购意向",
+            "stage": "采购意向",
+            "public_title_only": true,
+            "notice_url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=NSioZLNdVkd3GvnyXd%2BoBQ%3D%3D",
+            "quote": "上海市市场监督管理局2026年12月政府采购意向\n采购人：上海市市场监督管理局\n2026年12月",
+            "buyer": {
+              "value": "上海市市场监督管理局",
+              "unit": "",
+              "quote": "采购人：上海市市场监督管理局"
+            },
+            "supplier": null,
+            "budget": null,
+            "award_amount": null,
+            "planned_purchase": "2026-12",
+            "deadline": null,
+            "service_end": null,
+            "relation": "公开列表所列采购人：上海市市场监督管理局",
+            "notice": "仅依据无需登录的公开标题及列表字段；未读取登录后详情。日期缺失时不确认采购有效期。",
+            "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=NSioZLNdVkd3GvnyXd%2BoBQ%3D%3D",
+            "title": "上海市市场监督管理局2026年12月政府采购意向",
+            "published_at": "2026-11-12",
+            "fetched_at": "2026-11-12T08:53:56.754182+00:00",
+            "source_host": "www.zfcg.sh.gov.cn"
+          }
+        },
+        {
+          "key": "profile-data:https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=pvdvCLC6kOz6TLEloUe5NA%3D%3D",
+          "change": "新增",
+          "record": {
+            "name": "上海市市场监督管理局2026年12月政府采购意向",
+            "stage": "采购意向",
+            "public_title_only": true,
+            "notice_url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=pvdvCLC6kOz6TLEloUe5NA%3D%3D",
+            "quote": "上海市市场监督管理局2026年12月政府采购意向\n采购人：上海市市场监督管理局\n2026年12月",
+            "buyer": {
+              "value": "上海市市场监督管理局",
+              "unit": "",
+              "quote": "采购人：上海市市场监督管理局"
+            },
+            "supplier": null,
+            "budget": null,
+            "award_amount": null,
+            "planned_purchase": "2026-12",
+            "deadline": null,
+            "service_end": null,
+            "relation": "公开列表所列采购人：上海市市场监督管理局",
+            "notice": "仅依据无需登录的公开标题及列表字段；未读取登录后详情。日期缺失时不确认采购有效期。",
+            "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=pvdvCLC6kOz6TLEloUe5NA%3D%3D",
+            "title": "上海市市场监督管理局2026年12月政府采购意向",
+            "published_at": "2026-11-12",
+            "fetched_at": "2026-11-12T08:53:56.748693+00:00",
+            "source_host": "www.zfcg.sh.gov.cn"
+          }
+        },
+        {
+          "key": "profile-data:https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=p4qOoe4XU%2FKuG6UFE2ZRpA%3D%3D",
+          "change": "新增",
+          "record": {
+            "name": "上海市市场监督管理局2026年12月政府采购意向",
+            "stage": "采购意向",
+            "public_title_only": true,
+            "notice_url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=p4qOoe4XU%2FKuG6UFE2ZRpA%3D%3D",
+            "quote": "上海市市场监督管理局2026年12月政府采购意向\n采购人：上海市市场监督管理局\n2026年12月",
+            "buyer": {
+              "value": "上海市市场监督管理局",
+              "unit": "",
+              "quote": "采购人：上海市市场监督管理局"
+            },
+            "supplier": null,
+            "budget": null,
+            "award_amount": null,
+            "planned_purchase": "2026-12",
+            "deadline": null,
+            "service_end": null,
+            "relation": "公开列表所列采购人：上海市市场监督管理局",
+            "notice": "仅依据无需登录的公开标题及列表字段；未读取登录后详情。日期缺失时不确认采购有效期。",
+            "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=p4qOoe4XU%2FKuG6UFE2ZRpA%3D%3D",
+            "title": "上海市市场监督管理局2026年12月政府采购意向",
+            "published_at": "2026-11-12",
+            "fetched_at": "2026-11-12T08:53:56.747507+00:00",
+            "source_host": "www.zfcg.sh.gov.cn"
+          }
+        },
+        {
+          "key": "profile-data:https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=BbD8z7D0s0xVEDGtq9ksmw%3D%3D",
+          "change": "移除",
+          "record": {
+            "name": "上海市市场监督管理局执法总队2026年10月政府采购意向",
+            "stage": "采购意向",
+            "public_title_only": true,
+            "notice_url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=BbD8z7D0s0xVEDGtq9ksmw%3D%3D",
+            "quote": "上海市市场监督管理局执法总队2026年10月政府采购意向\n采购人：上海市市场监督管理局执法总队\n2026年10月",
+            "buyer": {
+              "value": "上海市市场监督管理局执法总队",
+              "unit": "",
+              "quote": "采购人：上海市市场监督管理局执法总队"
+            },
+            "supplier": null,
+            "budget": null,
+            "award_amount": null,
+            "planned_purchase": "2026-10",
+            "deadline": null,
+            "service_end": null,
+            "relation": "公开列表所列采购人：上海市市场监督管理局执法总队",
+            "notice": "仅依据无需登录的公开标题及列表字段；未读取登录后详情。日期缺失时不确认采购有效期。",
+            "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=BbD8z7D0s0xVEDGtq9ksmw%3D%3D",
+            "title": "上海市市场监督管理局执法总队2026年10月政府采购意向",
+            "published_at": "2026-10-20",
+            "fetched_at": "2026-10-31T13:58:28.885814+00:00",
+            "source_host": "www.zfcg.sh.gov.cn"
+          }
+        }
+      ]
     }
   ]
 }
