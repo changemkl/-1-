@@ -2255,7 +2255,7 @@
         "历史招标结果": "9c0081a454301470375712ce033f52859f7cd2a2f9d1c945b87b5a2ec0e891e1",
         "合同信息": "43865dde3eec74ae0f33087cd9283a543474964d7d17792508c445bdc7cd583a",
         "政策与建设方向": "96ad9499cdbd8d32753e45fc41a8585e6f093dc3d62bc3160f3700ccd1b604d7",
-        "工作日志": "15016923bada8543be8756b4653aea9fe96c360cfabee54a3b7e15377e9d691f",
+        "工作日志": "5498c8a3eacc0e6a5b9f5e5419c9210b246937eb76213393fce5d14435cadff8",
         "商机进展": "d7f295ee0133938c9f72e3d1cc2b5d961a141a15aa24bb3e71a0c27e845948cb",
         "产品与场景": "5525b44441576e0bd057cb4ce592a3c91fd673eadec321351b692bc374cab303",
         "生态伙伴": "adfe6f8759dc89ddc9e6061b8863a62d2993ead41abdff501e722440aa8300a4",
@@ -12853,17 +12853,17 @@
             }
           },
           "dongfeng-worklogs:dongfeng:fb23b92d710fef3138442cd0": {
-            "hash": "9ffbe27874068f646f0a1db178d0bb6853a80ceec70d4a883b3ad0e5d241b8dc",
+            "hash": "eca2a60c8eda8fe59906452c6690ea83dc68f25f017fff23b762ec9222bbec3b",
             "data": {
               "customerId": "2100000260",
               "customerName": "上海市公安局",
               "workDate": null,
               "title": "投标进展记录",
-              "content": "项目：图像监控系统前端设备及基础设施运维\n投标状态：DRAFT\n投标阶段：PRE_BIDDING\n投标主体：中移集成\n投标截止时间（计划）：2026-11-19",
+              "content": "项目：图像监控系统前端设备及基础设施运维\n投标状态：SUBMITTED\n投标阶段：BID_SUBMITTED\n投标主体：中移集成\n投标截止时间（计划）：2026-11-09",
               "relatedUnit": "上海市公安局浦东分局",
               "actorName": "",
               "actorRole": "",
-              "recordUpdatedDate": "2026-10-27",
+              "recordUpdatedDate": "2026-11-12",
               "projectIds": [
                 "dfproject:3f3750bed8acb404e3ec"
               ],
@@ -12877,7 +12877,7 @@
               "sourceRecordId": "bid:BID-1793106659735:2100000260",
               "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
               "firstSeenAt": "2026-10-29T14:11:08+08:00",
-              "updatedAt": "2026-10-29T14:45:24+08:00"
+              "updatedAt": "2026-11-12T11:47:13+08:00"
             }
           },
           "dongfeng-worklogs:dongfeng:f9d41e0204045495defd0528": {
@@ -12910,17 +12910,17 @@
             }
           },
           "dongfeng-worklogs:dongfeng:f68599ba7db0f3d071b630d2": {
-            "hash": "1d449183a2c14362d5f17becce81a9f13e4683b0c1324c464cdd85cb86689c0e",
+            "hash": "85899d3221d6add7aa2027ea87d86bea33c658ea7eb12c264b0f3bebaeac569d",
             "data": {
               "customerId": "2100000260",
               "customerName": "上海市公安局",
               "workDate": null,
               "title": "图像监控系统运维及应急任务 · 最新项目记录",
-              "content": "项目：图像监控系统运维及应急任务\n最新进展：标书编制，准备上会材料\n下一步：完成投标决策\n平台阶段：投标中\n线索结果：已完成商机登记，后续结果待维护。\n投标进展：DF-BID-MW1S1OP9 · 筹备 · 尚未形成\n中失标状态：PENDING",
+              "content": "项目：图像监控系统运维及应急任务\n最新进展：标书编制，准备上会材料\n下一步：完成投标决策\n平台阶段：投标中\n线索结果：已完成商机登记，后续结果待维护。\n投标进展：DF-BID-MW1S1OP9 · 投标待结果 · 待登记\n中失标状态：PENDING",
               "relatedUnit": "上海市公安局浦东分局",
               "actorName": "",
               "actorRole": "",
-              "recordUpdatedDate": "2026-11-09",
+              "recordUpdatedDate": "2026-11-12",
               "recordCreatedDate": "2026-10-27",
               "responsibleManager": "贠泽",
               "projectIds": [
@@ -12936,7 +12936,7 @@
               "sourceRecordId": "progress:TASK-1793071926637:2100000260",
               "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
               "firstSeenAt": "2026-10-29T14:11:08+08:00",
-              "updatedAt": "2026-11-09T19:23:53+08:00"
+              "updatedAt": "2026-11-12T11:47:13+08:00"
             }
           },
           "dongfeng-worklogs:dongfeng:f5374c57faf3339d08537469": {
@@ -14298,17 +14298,17 @@
             }
           },
           "dongfeng-worklogs:dongfeng:5f2a57353605a27ff5cc60bf": {
-            "hash": "b204f0bd8ce1c0f1dd7bbf7b6430c8b16179697d57e3f2be947d1ac89d2be478",
+            "hash": "4ec0545c6ce0f476572ded4673ca61170837c5be8505343199965a3cd299eb89",
             "data": {
               "customerId": "2100000260",
               "customerName": "上海市公安局",
               "workDate": null,
               "title": "投标进展记录",
-              "content": "项目：上海交通治堵大模型外场卡口设备补点项目\n投标状态：DRAFT\n投标阶段：PRE_BIDDING\n投标主体：中移集成",
+              "content": "项目：上海交通治堵大模型外场卡口设备补点项目\n投标状态：IN_PREPARATION\n投标阶段：PRE_BIDDING\n投标主体：上海中移信息技术有限公司\n投标截止时间（计划）：2026-11-25",
               "relatedUnit": "上海市公安局青浦分局",
               "actorName": "",
               "actorRole": "",
-              "recordUpdatedDate": "2026-11-09",
+              "recordUpdatedDate": "2026-11-12",
               "projectIds": [
                 "dfproject:70df34fa9162eeec8afb"
               ],
@@ -14322,7 +14322,7 @@
               "sourceRecordId": "bid:BID-1794196369614:2100000260",
               "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
               "firstSeenAt": "2026-11-09T19:23:53+08:00",
-              "updatedAt": "2026-11-09T19:23:53+08:00"
+              "updatedAt": "2026-11-12T11:47:13+08:00"
             }
           },
           "dongfeng-worklogs:dongfeng:5d52c183c615c246237bddf8": {
@@ -14980,17 +14980,17 @@
             }
           },
           "dongfeng-worklogs:dongfeng:0b04804d390fdd86b4dcb865": {
-            "hash": "e21269aa3bbb8c7ee4e511a60556969e7bbf80613d303cd743a69136d2d1039c",
+            "hash": "11dd3c49c0c3f57a84b632cd2182d74dd971abc54d87a79b56ecfe92c3804ee9",
             "data": {
               "customerId": "2100000260",
               "customerName": "上海市公安局",
               "workDate": null,
               "title": "投标进展记录",
-              "content": "项目：图像监控系统运维及应急任务\n投标状态：DRAFT\n投标阶段：PRE_BIDDING\n投标主体：中移集成",
+              "content": "项目：图像监控系统运维及应急任务\n投标状态：SUBMITTED\n投标阶段：BID_SUBMITTED\n投标主体：中移集成\n投标截止时间（计划）：2026-11-09",
               "relatedUnit": "上海市公安局浦东分局",
               "actorName": "",
               "actorRole": "",
-              "recordUpdatedDate": "2026-11-04",
+              "recordUpdatedDate": "2026-11-12",
               "projectIds": [
                 "dfproject:765836965dbf61a990c3"
               ],
@@ -15004,7 +15004,7 @@
               "sourceRecordId": "bid:BID-1793776218957:2100000260",
               "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
               "firstSeenAt": "2026-11-04T17:05:38+08:00",
-              "updatedAt": "2026-11-04T17:05:38+08:00"
+              "updatedAt": "2026-11-12T11:47:13+08:00"
             }
           },
           "dongfeng-worklogs:dongfeng:064575defef377fa4e233c81": {
@@ -15183,7 +15183,7 @@
               "names": [
                 "上海交通治堵大模型外场卡口设备补点项目"
               ],
-              "updatedAt": "2026-11-11T12:42:39.459Z",
+              "updatedAt": "2026-11-12T03:25:17.886Z",
               "latestProgress": "向大华，华为，华三，第三方厂商进行询价。",
               "actorName": "",
               "actorRole": "",
@@ -15212,7 +15212,7 @@
               "names": [
                 "图像监控系统前端设备及基础设施运维"
               ],
-              "updatedAt": "2026-11-09T09:47:00.448Z",
+              "updatedAt": "2026-11-12T02:04:17.162Z",
               "latestProgress": "完成投标及开标",
               "actorName": "贠泽",
               "actorRole": "客户经理",
@@ -15243,7 +15243,7 @@
               "names": [
                 "图像监控系统运维及应急任务"
               ],
-              "updatedAt": "2026-11-09T03:39:48.555Z",
+              "updatedAt": "2026-11-12T02:07:06.006Z",
               "latestProgress": "标书编制，准备上会材料",
               "actorName": "",
               "actorRole": "",
@@ -16529,7 +16529,7 @@
         "历史招标结果": "919d513ab456bb17fdc162a83e6eee6e8bb31772f6f87fe342d9b180fc3ec861",
         "合同信息": "6cf76cc0a4d4cf6fa136f7aa7e7f453ea905870660a61d792b698cc73d4f2cef",
         "政策与建设方向": "6cf76cc0a4d4cf6fa136f7aa7e7f453ea905870660a61d792b698cc73d4f2cef",
-        "工作日志": "60671675ac85ddce79338e0f4af14eac7d8bc65be2fe50ecd168f1ba2dfc6dea",
+        "工作日志": "7fcc24716a9cf877833aa2f9dddaa742c4b652e8fcb49eecce28d7af695dabc9",
         "商机进展": "d189f5999686009c30f519381750d0ab95ab0a8b686b7c5ca976a2604a930597",
         "产品与场景": "5525b44441576e0bd057cb4ce592a3c91fd673eadec321351b692bc374cab303",
         "生态伙伴": "adfe6f8759dc89ddc9e6061b8863a62d2993ead41abdff501e722440aa8300a4",
@@ -18660,17 +18660,17 @@
             }
           },
           "dongfeng-worklogs:dongfeng:e4a0e24e929eeeb60272467a": {
-            "hash": "b0059f9475182c3a530ee8ebde7e367eb1064fdfcc6d4686de2975e39d66782f",
+            "hash": "3e6b0b6788977f69b1b0c9a7851fa3d61e75c8a75bf825afadf8c840c95bdd5e",
             "data": {
               "customerId": "2100000172",
               "customerName": "上海市消防救援总队",
               "workDate": null,
               "title": "投标进展记录",
-              "content": "项目：消防AI大模型垂域业务应用子系统建设\n投标状态：DRAFT\n投标阶段：PRE_BIDDING\n投标主体：中移集成",
+              "content": "项目：消防AI大模型垂域业务应用子系统建设\n投标状态：DRAFT\n投标阶段：PRE_BIDDING\n投标主体：中移集成\n投标截止时间（计划）：2026-11-30",
               "relatedUnit": null,
               "actorName": "",
               "actorRole": "",
-              "recordUpdatedDate": "2026-11-09",
+              "recordUpdatedDate": "2026-11-12",
               "projectIds": [
                 "dfproject:0a087fb268e40ee9cdbf"
               ],
@@ -18684,7 +18684,7 @@
               "sourceRecordId": "bid:BID-1794195724807:2100000172",
               "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
               "firstSeenAt": "2026-11-09T19:23:53+08:00",
-              "updatedAt": "2026-11-09T19:23:53+08:00"
+              "updatedAt": "2026-11-12T11:47:13+08:00"
             }
           },
           "dongfeng-worklogs:dongfeng:e2a8dea1ec55add69941b1b7": {
@@ -18878,7 +18878,7 @@
               "names": [
                 "消防AI大模型垂域业务应用子系统建设"
               ],
-              "updatedAt": "2026-11-09T03:52:50.972Z",
+              "updatedAt": "2026-11-12T02:37:49.128Z",
               "latestProgress": "项目已经正式发标，正在准备报名材料和报名流程",
               "actorName": "许鹏宇",
               "actorRole": "客户经理",
@@ -20580,7 +20580,7 @@
         "历史招标结果": "3ba18fb7f4db1be9b38ce0a2ba657e35d5ff7f67578b661ac7f78c1cc00b4d59",
         "合同信息": "6cf76cc0a4d4cf6fa136f7aa7e7f453ea905870660a61d792b698cc73d4f2cef",
         "政策与建设方向": "6cf76cc0a4d4cf6fa136f7aa7e7f453ea905870660a61d792b698cc73d4f2cef",
-        "工作日志": "628b869fe46b65b58bc6a48d80e698a4cf93b3e9b9112d43e159d5e73d6eec4d",
+        "工作日志": "4dc5041ca35ead3d4a265b676770aec4429c30ba7fcbbe6033583031fa3ab004",
         "商机进展": "285908ea72f41943005e3d540aa39b66db583cf1a250953bdbf9d9afaedd4ad5",
         "产品与场景": "5525b44441576e0bd057cb4ce592a3c91fd673eadec321351b692bc374cab303",
         "生态伙伴": "adfe6f8759dc89ddc9e6061b8863a62d2993ead41abdff501e722440aa8300a4",
@@ -21275,6 +21275,30 @@
           }
         },
         "工作日志": {
+          "dongfeng-worklogs:dongfeng:4cc2ce3e8efd4de19c94248b": {
+            "hash": "a60c8a3d72272916052a294abd2a10555b43e6fa779431a909dca60e2744ee8d",
+            "data": {
+              "customerId": "2100128579",
+              "customerName": "上海市教育委员会",
+              "workDate": "2026-11-06",
+              "title": "上海海事大学项目投标文件技术文档编制",
+              "content": "3、上海市教委的体测项目，配合投标前期准备工作",
+              "relatedUnit": null,
+              "actorName": "彭健",
+              "actorRole": "客户经理",
+              "associationNote": "原始日志提及该客户，具体关联待确认",
+              "durationHours": 8,
+              "originalContent": "1、上海财经大学项目中标，配合商务完成合同定稿（与供应商核对供货配置），推进供应商入库流程；\n2、上海海事大学项目投标文件技术文档编制\n3、上海市教委的体测项目，配合投标前期准备工作",
+              "id": "dongfeng:4cc2ce3e8efd4de19c94248b",
+              "datePrecision": "explicit",
+              "sourceType": "dongfeng",
+              "sourceLabel": "东风平台 · 东风工作日期",
+              "sourceRecordId": "worklog:WORK-bf89b7dd-435a-4b0e-a980-8ba6ca6c038b:2100128579",
+              "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
+              "firstSeenAt": "2026-11-12T11:47:13+08:00",
+              "updatedAt": "2026-11-12T11:47:13+08:00"
+            }
+          },
           "dongfeng-worklogs:dongfeng:32eb77762caacd8f8be050cc": {
             "hash": "63d40f5a900dbad1483a8b219e3d075d15923f6c6e9376ffa99d28c27bb9c25a",
             "data": {
@@ -27373,5 +27397,5 @@
       }
     }
   },
-  "updatedAt": "2026-11-12T09:04:35+08:00"
+  "updatedAt": "2026-11-12T11:47:14+08:00"
 }

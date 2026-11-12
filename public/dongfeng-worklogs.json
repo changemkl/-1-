@@ -559,6 +559,27 @@
       "customerId": "2100128579",
       "customerName": "上海市教育委员会",
       "workDate": "2026-11-06",
+      "title": "上海海事大学项目投标文件技术文档编制",
+      "content": "3、上海市教委的体测项目，配合投标前期准备工作",
+      "relatedUnit": null,
+      "actorName": "彭健",
+      "actorRole": "客户经理",
+      "associationNote": "原始日志提及该客户，具体关联待确认",
+      "durationHours": 8,
+      "originalContent": "1、上海财经大学项目中标，配合商务完成合同定稿（与供应商核对供货配置），推进供应商入库流程；\n2、上海海事大学项目投标文件技术文档编制\n3、上海市教委的体测项目，配合投标前期准备工作",
+      "id": "dongfeng:4cc2ce3e8efd4de19c94248b",
+      "datePrecision": "explicit",
+      "sourceType": "dongfeng",
+      "sourceLabel": "东风平台 · 东风工作日期",
+      "sourceRecordId": "worklog:WORK-bf89b7dd-435a-4b0e-a980-8ba6ca6c038b:2100128579",
+      "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
+      "firstSeenAt": "2026-11-12T11:47:13+08:00",
+      "updatedAt": "2026-11-12T11:47:13+08:00"
+    },
+    {
+      "customerId": "2100128579",
+      "customerName": "上海市教育委员会",
+      "workDate": "2026-11-06",
       "title": "2026-2027学年上海市青少年运动技能等级测试 · 每日进展登记",
       "content": "工作内容：本日进展：本周已发标，协同战客、教育纵队、执讯等合作伙伴，确认投标策略及分工，准备标书编制。｜下一步：拉通各方资源，准备上会决策，同时继续准备好标书编制及其他投标准备工作；｜下一步时间：2026-11-19",
       "relatedUnit": null,
@@ -12346,11 +12367,11 @@
       "customerName": "上海市公安局",
       "workDate": null,
       "title": "投标进展记录",
-      "content": "项目：图像监控系统前端设备及基础设施运维\n投标状态：DRAFT\n投标阶段：PRE_BIDDING\n投标主体：中移集成\n投标截止时间（计划）：2026-11-19",
+      "content": "项目：图像监控系统前端设备及基础设施运维\n投标状态：SUBMITTED\n投标阶段：BID_SUBMITTED\n投标主体：中移集成\n投标截止时间（计划）：2026-11-09",
       "relatedUnit": "上海市公安局浦东分局",
       "actorName": "",
       "actorRole": "",
-      "recordUpdatedDate": "2026-10-27",
+      "recordUpdatedDate": "2026-11-12",
       "projectIds": [
         "dfproject:3f3750bed8acb404e3ec"
       ],
@@ -12364,7 +12385,7 @@
       "sourceRecordId": "bid:BID-1793106659735:2100000260",
       "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
       "firstSeenAt": "2026-10-29T14:11:08+08:00",
-      "updatedAt": "2026-10-29T14:45:24+08:00"
+      "updatedAt": "2026-11-12T11:47:13+08:00"
     },
     {
       "customerId": "2100000260",
@@ -12424,11 +12445,11 @@
       "customerName": "上海市公安局",
       "workDate": null,
       "title": "图像监控系统运维及应急任务 · 最新项目记录",
-      "content": "项目：图像监控系统运维及应急任务\n最新进展：标书编制，准备上会材料\n下一步：完成投标决策\n平台阶段：投标中\n线索结果：已完成商机登记，后续结果待维护。\n投标进展：DF-BID-MW1S1OP9 · 筹备 · 尚未形成\n中失标状态：PENDING",
+      "content": "项目：图像监控系统运维及应急任务\n最新进展：标书编制，准备上会材料\n下一步：完成投标决策\n平台阶段：投标中\n线索结果：已完成商机登记，后续结果待维护。\n投标进展：DF-BID-MW1S1OP9 · 投标待结果 · 待登记\n中失标状态：PENDING",
       "relatedUnit": "上海市公安局浦东分局",
       "actorName": "",
       "actorRole": "",
-      "recordUpdatedDate": "2026-11-09",
+      "recordUpdatedDate": "2026-11-12",
       "recordCreatedDate": "2026-10-27",
       "responsibleManager": "贠泽",
       "projectIds": [
@@ -12444,7 +12465,7 @@
       "sourceRecordId": "progress:TASK-1793071926637:2100000260",
       "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
       "firstSeenAt": "2026-10-29T14:11:08+08:00",
-      "updatedAt": "2026-11-09T19:23:53+08:00"
+      "updatedAt": "2026-11-12T11:47:13+08:00"
     },
     {
       "customerId": "2100000260",
@@ -12688,11 +12709,11 @@
       "customerName": "上海市消防救援总队",
       "workDate": null,
       "title": "投标进展记录",
-      "content": "项目：消防AI大模型垂域业务应用子系统建设\n投标状态：DRAFT\n投标阶段：PRE_BIDDING\n投标主体：中移集成",
+      "content": "项目：消防AI大模型垂域业务应用子系统建设\n投标状态：DRAFT\n投标阶段：PRE_BIDDING\n投标主体：中移集成\n投标截止时间（计划）：2026-11-30",
       "relatedUnit": null,
       "actorName": "",
       "actorRole": "",
-      "recordUpdatedDate": "2026-11-09",
+      "recordUpdatedDate": "2026-11-12",
       "projectIds": [
         "dfproject:0a087fb268e40ee9cdbf"
       ],
@@ -12706,7 +12727,7 @@
       "sourceRecordId": "bid:BID-1794195724807:2100000172",
       "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
       "firstSeenAt": "2026-11-09T19:23:53+08:00",
-      "updatedAt": "2026-11-09T19:23:53+08:00"
+      "updatedAt": "2026-11-12T11:47:13+08:00"
     },
     {
       "customerId": "2100000260",
@@ -14118,11 +14139,11 @@
       "customerName": "上海市公安局",
       "workDate": null,
       "title": "投标进展记录",
-      "content": "项目：上海交通治堵大模型外场卡口设备补点项目\n投标状态：DRAFT\n投标阶段：PRE_BIDDING\n投标主体：中移集成",
+      "content": "项目：上海交通治堵大模型外场卡口设备补点项目\n投标状态：IN_PREPARATION\n投标阶段：PRE_BIDDING\n投标主体：上海中移信息技术有限公司\n投标截止时间（计划）：2026-11-25",
       "relatedUnit": "上海市公安局青浦分局",
       "actorName": "",
       "actorRole": "",
-      "recordUpdatedDate": "2026-11-09",
+      "recordUpdatedDate": "2026-11-12",
       "projectIds": [
         "dfproject:70df34fa9162eeec8afb"
       ],
@@ -14136,7 +14157,7 @@
       "sourceRecordId": "bid:BID-1794196369614:2100000260",
       "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
       "firstSeenAt": "2026-11-09T19:23:53+08:00",
-      "updatedAt": "2026-11-09T19:23:53+08:00"
+      "updatedAt": "2026-11-12T11:47:13+08:00"
     },
     {
       "customerId": "2100000260",
@@ -14946,11 +14967,11 @@
       "customerName": "上海市公安局",
       "workDate": null,
       "title": "投标进展记录",
-      "content": "项目：图像监控系统运维及应急任务\n投标状态：DRAFT\n投标阶段：PRE_BIDDING\n投标主体：中移集成",
+      "content": "项目：图像监控系统运维及应急任务\n投标状态：SUBMITTED\n投标阶段：BID_SUBMITTED\n投标主体：中移集成\n投标截止时间（计划）：2026-11-09",
       "relatedUnit": "上海市公安局浦东分局",
       "actorName": "",
       "actorRole": "",
-      "recordUpdatedDate": "2026-11-04",
+      "recordUpdatedDate": "2026-11-12",
       "projectIds": [
         "dfproject:765836965dbf61a990c3"
       ],
@@ -14964,7 +14985,7 @@
       "sourceRecordId": "bid:BID-1793776218957:2100000260",
       "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
       "firstSeenAt": "2026-11-04T17:05:38+08:00",
-      "updatedAt": "2026-11-04T17:05:38+08:00"
+      "updatedAt": "2026-11-12T11:47:13+08:00"
     },
     {
       "customerId": "2100000260",
@@ -15047,16 +15068,16 @@
       "updatedAt": "2026-11-12T00:07:28+08:00"
     }
   ],
-  "updatedAt": "2026-11-12T00:07:28+08:00",
+  "updatedAt": "2026-11-12T11:47:13+08:00",
   "source": "东风平台",
   "coverage": {
-    "sourceRecords": 554,
+    "sourceRecords": 555,
     "byType": {
       "daily": 368,
       "event": 81,
       "progress": 65,
       "visit": 7,
-      "worklog": 22,
+      "worklog": 23,
       "report": 0,
       "bid": 11
     },
@@ -15121,7 +15142,7 @@
       "names": [
         "上海交通治堵大模型外场卡口设备补点项目"
       ],
-      "updatedAt": "2026-11-11T12:42:39.459Z"
+      "updatedAt": "2026-11-12T03:25:17.886Z"
     },
     {
       "id": "dfproject:3f3750bed8acb404e3ec",
@@ -15141,7 +15162,7 @@
       "names": [
         "图像监控系统前端设备及基础设施运维"
       ],
-      "updatedAt": "2026-11-09T09:47:00.448Z"
+      "updatedAt": "2026-11-12T02:04:17.162Z"
     },
     {
       "id": "dfproject:765836965dbf61a990c3",
@@ -15161,7 +15182,7 @@
       "names": [
         "图像监控系统运维及应急任务"
       ],
-      "updatedAt": "2026-11-09T03:39:48.555Z"
+      "updatedAt": "2026-11-12T02:07:06.006Z"
     },
     {
       "id": "dfproject:c7479a8ee38d25dee6b5",
@@ -15523,7 +15544,7 @@
       "names": [
         "消防AI大模型垂域业务应用子系统建设"
       ],
-      "updatedAt": "2026-11-09T03:52:50.972Z"
+      "updatedAt": "2026-11-12T02:37:49.128Z"
     },
     {
       "id": "dfproject:0e9fbd5f4b36e2eafc4f",
