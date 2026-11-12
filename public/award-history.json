@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-12T16:56:18+08:00",
+  "updatedAt": "2026-11-13T01:49:12+08:00",
   "customers": [
     {
       "id": "2100303078",
@@ -127,7 +127,7 @@
           "message": "HTTP Error 403: Forbidden"
         },
         "https://www.ccgp.gov.cn/cggg/dfgg/zbgg/202407/t20240701_22508124.htm": {
-          "at": "2026-11-11T10:22:43+08:00",
+          "at": "2026-11-13T01:49:12+08:00",
           "status": "unavailable",
           "message": "HTTP Error 403: Forbidden"
         }
@@ -782,13 +782,13 @@
         }
       ],
       "coverage": {
-        "from": "2023-11-13",
-        "to": "2026-11-12",
+        "from": "2023-11-14",
+        "to": "2026-11-13",
         "source": "https://www.zfcg.sh.gov.cn",
         "truncated": true
       },
       "lastCheck": {
-        "at": "2026-11-12T02:11:49+08:00",
+        "at": "2026-11-13T01:48:18+08:00",
         "status": "ok"
       }
     },
@@ -838,28 +838,28 @@
         }
       ],
       "coverage": {
-        "from": "2023-11-13",
-        "to": "2026-11-12",
+        "from": "2023-11-14",
+        "to": "2026-11-13",
         "source": "https://www.zfcg.sh.gov.cn",
         "truncated": false
       },
       "lastCheck": {
-        "at": "2026-11-12T09:03:29+08:00",
+        "at": "2026-11-13T01:48:18+08:00",
         "status": "ok"
       },
       "externalSourceChecks": {
         "https://www.ccgp.gov.cn/cggg/zygg/cjgg/202610/t20261027_27572179.htm": {
-          "at": "2026-11-11T17:56:21+08:00",
+          "at": "2026-11-13T01:49:12+08:00",
           "status": "unavailable",
           "message": "HTTP Error 403: Forbidden"
         },
         "https://www.ccgp.gov.cn/cggg/zygg/jzxcs/202610/t20261027_27567383.htm": {
-          "at": "2026-11-11T17:56:21+08:00",
+          "at": "2026-11-13T01:49:12+08:00",
           "status": "unavailable",
           "message": "HTTP Error 403: Forbidden"
         },
         "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202610/t20261014_27487405.htm": {
-          "at": "2026-11-11T17:56:21+08:00",
+          "at": "2026-11-13T01:49:12+08:00",
           "status": "unavailable",
           "message": "HTTP Error 403: Forbidden"
         },
@@ -916,13 +916,13 @@
         }
       ],
       "coverage": {
-        "from": "2023-11-13",
-        "to": "2026-11-12",
+        "from": "2023-11-14",
+        "to": "2026-11-13",
         "source": "https://www.zfcg.sh.gov.cn",
         "truncated": false
       },
       "lastCheck": {
-        "at": "2026-11-12T09:03:29+08:00",
+        "at": "2026-11-13T01:48:18+08:00",
         "status": "ok"
       },
       "externalSourceChecks": {
@@ -993,13 +993,13 @@
         }
       ],
       "coverage": {
-        "from": "2023-11-13",
-        "to": "2026-11-12",
+        "from": "2023-11-14",
+        "to": "2026-11-13",
         "source": "https://www.zfcg.sh.gov.cn",
         "truncated": true
       },
       "lastCheck": {
-        "at": "2026-11-12T09:03:29+08:00",
+        "at": "2026-11-13T01:48:18+08:00",
         "status": "ok"
       },
       "externalSourceChecks": {
@@ -1014,13 +1014,13 @@
       "name": "上海库帕思科技有限公司",
       "results": [],
       "coverage": {
-        "from": "2023-11-13",
-        "to": "2026-11-12",
+        "from": "2023-11-14",
+        "to": "2026-11-13",
         "source": "https://www.zfcg.sh.gov.cn",
         "truncated": false
       },
       "lastCheck": {
-        "at": "2026-11-12T09:03:29+08:00",
+        "at": "2026-11-13T01:48:18+08:00",
         "status": "ok"
       }
     },
@@ -1078,13 +1078,13 @@
         }
       ],
       "coverage": {
-        "from": "2023-11-13",
-        "to": "2026-11-12",
+        "from": "2023-11-14",
+        "to": "2026-11-13",
         "source": "https://www.zfcg.sh.gov.cn",
         "truncated": true
       },
       "lastCheck": {
-        "at": "2026-11-12T09:03:29+08:00",
+        "at": "2026-11-13T01:48:18+08:00",
         "status": "ok"
       }
     },
@@ -3087,13 +3087,13 @@
         }
       ],
       "coverage": {
-        "from": "2023-11-13",
-        "to": "2026-11-12",
+        "from": "2023-11-14",
+        "to": "2026-11-13",
         "source": "https://www.zfcg.sh.gov.cn",
         "truncated": true
       },
       "lastCheck": {
-        "at": "2026-11-12T02:11:49+08:00",
+        "at": "2026-11-13T01:48:18+08:00",
         "status": "ok"
       }
     },
@@ -3695,13 +3695,13 @@
         }
       ],
       "coverage": {
-        "from": "2023-11-13",
-        "to": "2026-11-12",
+        "from": "2023-11-14",
+        "to": "2026-11-13",
         "source": "https://www.zfcg.sh.gov.cn",
         "truncated": true
       },
       "lastCheck": {
-        "at": "2026-11-12T02:11:49+08:00",
+        "at": "2026-11-13T01:48:18+08:00",
         "status": "ok"
       }
     },
