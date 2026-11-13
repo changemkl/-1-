@@ -2255,8 +2255,8 @@
         "历史招标结果": "9c0081a454301470375712ce033f52859f7cd2a2f9d1c945b87b5a2ec0e891e1",
         "合同信息": "43865dde3eec74ae0f33087cd9283a543474964d7d17792508c445bdc7cd583a",
         "政策与建设方向": "96ad9499cdbd8d32753e45fc41a8585e6f093dc3d62bc3160f3700ccd1b604d7",
-        "工作日志": "c40d9979b4b5a433d95434ff233a5a6bb80eec5c5a6472b252414d421ed2f735",
-        "商机进展": "e129970ef86463220be5af38225e5ce8be6ab55ca12f1bfcc33e103a01497c0a",
+        "工作日志": "b2a68d32a63b7f9d4da59ff9b9d23aa5432f6037b07563f3a274ef253b683eec",
+        "商机进展": "c6c2fcd2b898c0e63c1ac49c272b87375aa4641e43dce0b288172063dbfbaba6",
         "产品与场景": "5525b44441576e0bd057cb4ce592a3c91fd673eadec321351b692bc374cab303",
         "生态伙伴": "adfe6f8759dc89ddc9e6061b8863a62d2993ead41abdff501e722440aa8300a4",
         "客户基本信息": "4f3bb1296a15ada2fac0d05442cf8f501339991406d5b293a54d6edcb714d022"
@@ -4841,6 +4841,37 @@
           }
         },
         "工作日志": {
+          "dongfeng-worklogs:dongfeng:db98f9eb44529923e6e97dba": {
+            "hash": "88fb269d636f39ea70230fe78c104ef564f1b4ab46d566a3d48462799257277f",
+            "data": {
+              "customerId": "2100000260",
+              "customerName": "上海市公安局",
+              "workDate": "2026-11-14",
+              "title": "上海交通治堵大模型外场卡口设备补点项目 · 每日进展登记",
+              "content": "工作内容：本日进展：韬安与海康明确拒绝提供支撑，华为提供了全套报价以及投标材料，大华材料暂未提供。｜下一步：寻找其他能满足要的设备进行替换，并准备投标材料。｜下一步时间：2026-11-23",
+              "relatedUnit": "上海市公安局青浦分局",
+              "actorName": "任志伟",
+              "actorRole": "客户经理",
+              "participants": [
+                "任志伟（客户经理）"
+              ],
+              "recordUpdatedDate": null,
+              "projectIds": [
+                "dfproject:70df34fa9162eeec8afb"
+              ],
+              "projectTypes": {
+                "dfproject:70df34fa9162eeec8afb": "商机"
+              },
+              "id": "dongfeng:db98f9eb44529923e6e97dba",
+              "datePrecision": "explicit",
+              "sourceType": "dongfeng",
+              "sourceLabel": "东风平台 · 东风工作日期",
+              "sourceRecordId": "daily:TL-DAILY-67946a8c-497e-404e-a94c-d4077127aa75:2100000260",
+              "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
+              "firstSeenAt": "2026-11-14T01:41:43+08:00",
+              "updatedAt": "2026-11-14T01:41:43+08:00"
+            }
+          },
           "dongfeng-worklogs:dongfeng:eb123267162b52fd5dcc105a": {
             "hash": "b0a6a0a9337b5e4214d38567a3c26267c72d2a77b57d8bef5050b558f985edba",
             "data": {
@@ -15164,17 +15195,17 @@
             }
           },
           "dongfeng-worklogs:dongfeng:01099907841b8f5b727e0678": {
-            "hash": "8afee6033bad9f2175f717a904ae5b4f0a61cdb141a622156a334bac30288332",
+            "hash": "4d79ec491783bd377edc4bd6c0b6a4bb83daf6d9b21eba08dba731a621f6292d",
             "data": {
               "customerId": "2100000260",
               "customerName": "上海市公安局",
               "workDate": null,
               "title": "上海交通治堵大模型外场卡口设备补点项目 · 最新项目记录",
-              "content": "项目：上海交通治堵大模型外场卡口设备补点项目\n最新进展：支撑向海康，韬安，大华进行询价和技术方案梳理。项目由于需要登高车辆产证或者租赁合同，我司没有，而上海中移信息具备，故最终决定用上海中移信息去投标。\n下一步：待客户经理维护下一步计划。\n平台阶段：投标中\n线索结果：已完成商机登记，后续结果待维护。\n投标进展：DF-BID-MW8Q6Z0U · 筹备 · 尚未形成\n中失标状态：PENDING",
+              "content": "项目：上海交通治堵大模型外场卡口设备补点项目\n最新进展：韬安与海康明确拒绝提供支撑，华为提供了全套报价以及投标材料，大华材料暂未提供。\n下一步：寻找其他能满足要的设备进行替换，并准备投标材料。\n平台阶段：投标中\n线索结果：已完成商机登记，后续结果待维护。\n投标进展：DF-BID-MW8Q6Z0U · 筹备 · 尚未形成\n中失标状态：PENDING",
               "relatedUnit": "上海市公安局青浦分局",
               "actorName": "",
               "actorRole": "",
-              "recordUpdatedDate": "2026-11-12",
+              "recordUpdatedDate": "2026-11-14",
               "recordCreatedDate": "2026-11-02",
               "responsibleManager": "任志伟",
               "projectIds": [
@@ -15190,7 +15221,7 @@
               "sourceRecordId": "progress:TASK-1793624834525:2100000260",
               "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
               "firstSeenAt": "2026-11-02T23:41:17+08:00",
-              "updatedAt": "2026-11-12T20:38:26+08:00"
+              "updatedAt": "2026-11-14T01:41:43+08:00"
             }
           },
           "worklogs:510c896256d155b847190a37": {
@@ -15261,7 +15292,7 @@
             }
           },
           "dongfeng-worklogs:dfproject:70df34fa9162eeec8afb": {
-            "hash": "c053a5abfd157bda5feb2e3e43e972d33caa96e909dd564ed994d75404595577",
+            "hash": "a251ee09872ec435e86c03f844d95ea7987cd4a650615c4687538d8b1c50718a",
             "data": {
               "id": "dfproject:70df34fa9162eeec8afb",
               "aliasIds": [],
@@ -15280,14 +15311,14 @@
               "names": [
                 "上海交通治堵大模型外场卡口设备补点项目"
               ],
-              "updatedAt": "2026-11-12T05:54:36.986Z",
-              "latestProgress": "支撑向海康，韬安，大华进行询价和技术方案梳理。项目由于需要登高车辆产证或者租赁合同，我司没有，而上海中移信息具备，故最终决定用上海中移信息去投标。",
+              "updatedAt": "2026-11-13T17:01:14.784Z",
+              "latestProgress": "韬安与海康明确拒绝提供支撑，华为提供了全套报价以及投标材料，大华材料暂未提供。",
               "actorName": "任志伟",
               "actorRole": "客户经理",
               "recordMethod": "日志 · 每日进展登记",
               "sourceRecordId": "progress:TASK-1793624834525:2100000260",
               "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
-              "attributionRecordId": "daily:TL-DAILY-9929deb4-340b-4aca-9117-d5e075d509fa:2100000260",
+              "attributionRecordId": "daily:TL-DAILY-67946a8c-497e-404e-a94c-d4077127aa75:2100000260",
               "attributionNote": "同项目、同日、进展正文一致的原始日志"
             }
           },
@@ -27900,5 +27931,5 @@
       }
     }
   },
-  "updatedAt": "2026-11-13T23:50:56+08:00"
+  "updatedAt": "2026-11-14T01:41:44+08:00"
 }
