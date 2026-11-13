@@ -7981,6 +7981,114 @@
           }
         }
       ]
+    },
+    {
+      "id": "16cbac73d239affcc8b95986",
+      "customerId": "2100000260",
+      "customerName": "上海市公安局",
+      "label": "采购意向与招标",
+      "title": "采购意向与招标更新",
+      "detectedAt": "2026-11-14T02:52:56+08:00",
+      "date": "2026-11-14",
+      "items": [
+        {
+          "key": "profile-data:https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=l1PS6ZceggCd7Bp1oYiW8w%3D%3D",
+          "change": "新增",
+          "record": {
+            "name": "上海市公安局青浦分局2026年12月政府采购意向",
+            "stage": "采购意向",
+            "public_title_only": true,
+            "notice_url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=l1PS6ZceggCd7Bp1oYiW8w%3D%3D",
+            "quote": "上海市公安局青浦分局2026年12月政府采购意向\n采购人：上海市公安局青浦分局\n2026年12月",
+            "buyer": {
+              "value": "上海市公安局青浦分局",
+              "unit": "",
+              "quote": "采购人：上海市公安局青浦分局"
+            },
+            "supplier": null,
+            "budget": null,
+            "award_amount": null,
+            "planned_purchase": "2026-12",
+            "deadline": null,
+            "service_end": null,
+            "relation": "公开列表所列采购人：上海市公安局青浦分局",
+            "notice": "仅依据无需登录的公开标题及列表字段；未读取登录后详情。日期缺失时不确认采购有效期。",
+            "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=l1PS6ZceggCd7Bp1oYiW8w%3D%3D",
+            "title": "上海市公安局青浦分局2026年12月政府采购意向",
+            "published_at": "2026-11-13",
+            "fetched_at": "2026-11-13T18:51:07.010669+00:00",
+            "source_host": "www.zfcg.sh.gov.cn"
+          }
+        },
+        {
+          "key": "profile-data:https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=Mo3ZLPWqjfkLlOfwkKvgpA%3D%3D",
+          "change": "移除",
+          "record": {
+            "name": "上海市公安局黄浦分局2026年12月政府采购意向",
+            "stage": "采购意向",
+            "public_title_only": true,
+            "notice_url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=Mo3ZLPWqjfkLlOfwkKvgpA%3D%3D",
+            "quote": "上海市公安局黄浦分局2026年12月政府采购意向\n采购人：上海市公安局黄浦分局\n2026年12月",
+            "buyer": {
+              "value": "上海市公安局黄浦分局",
+              "unit": "",
+              "quote": "采购人：上海市公安局黄浦分局"
+            },
+            "supplier": null,
+            "budget": null,
+            "award_amount": null,
+            "planned_purchase": "2026-12",
+            "deadline": null,
+            "service_end": null,
+            "relation": "公开列表所列采购人：上海市公安局黄浦分局",
+            "notice": "仅依据无需登录的公开标题及列表字段；未读取登录后详情。日期缺失时不确认采购有效期。",
+            "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=Mo3ZLPWqjfkLlOfwkKvgpA%3D%3D",
+            "title": "上海市公安局黄浦分局2026年12月政府采购意向",
+            "published_at": "2026-11-02",
+            "fetched_at": "2026-11-12T17:47:21.003492+00:00",
+            "source_host": "www.zfcg.sh.gov.cn"
+          }
+        }
+      ]
+    },
+    {
+      "id": "051388ee2c159d25e8aef6c4",
+      "customerId": "2100161493",
+      "customerName": "上海市体育局",
+      "label": "历史招标结果",
+      "title": "历史招标结果更新",
+      "detectedAt": "2026-11-14T02:52:56+08:00",
+      "date": "2026-11-14",
+      "items": [
+        {
+          "key": "award-history:https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=qfPcOMnx%2BhVHA7G0KSBcVw%3D%3D",
+          "change": "移除",
+          "record": {
+            "title": "社区健康运动会的中标（成交）结果公告",
+            "date": "2023-11-14",
+            "buyer": "上海市体育局",
+            "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=qfPcOMnx%2BhVHA7G0KSBcVw%3D%3D",
+            "source": "上海市政府采购网",
+            "dateLabel": "结果公告日期",
+            "projectName": "社区健康运动会",
+            "awards": [
+              {
+                "lotNumber": "1",
+                "lotName": "社区健康运动会",
+                "suppliers": [
+                  "上海市社区体育协会"
+                ],
+                "quote": "标项名称：社区健康运动会；中标供应商名称：上海市社区体育协会"
+              }
+            ],
+            "detailCheck": {
+              "version": 1,
+              "at": "2026-10-26T10:49:29+08:00",
+              "status": "ok"
+            }
+          }
+        }
+      ]
     }
   ]
 }

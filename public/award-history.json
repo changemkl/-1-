@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-13T11:40:59+08:00",
+  "updatedAt": "2026-11-14T02:52:52+08:00",
   "customers": [
     {
       "id": "2100303078",
@@ -45,13 +45,13 @@
         }
       ],
       "coverage": {
-        "from": "2023-11-14",
-        "to": "2026-11-13",
+        "from": "2023-11-15",
+        "to": "2026-11-14",
         "source": "https://www.zfcg.sh.gov.cn",
         "truncated": false
       },
       "lastCheck": {
-        "at": "2026-11-13T06:59:54+08:00",
+        "at": "2026-11-14T02:52:16+08:00",
         "status": "ok"
       },
       "externalSourceChecks": {
@@ -111,18 +111,18 @@
         }
       ],
       "coverage": {
-        "from": "2023-11-14",
-        "to": "2026-11-13",
+        "from": "2023-11-15",
+        "to": "2026-11-14",
         "source": "https://www.zfcg.sh.gov.cn",
         "truncated": false
       },
       "lastCheck": {
-        "at": "2026-11-13T06:59:54+08:00",
+        "at": "2026-11-14T02:52:16+08:00",
         "status": "ok"
       },
       "externalSourceChecks": {
         "https://www.ccgp.gov.cn/cggg/dfgg/zbgg/202408/t20240827_22995426.htm": {
-          "at": "2026-11-12T16:56:18+08:00",
+          "at": "2026-11-14T02:52:52+08:00",
           "status": "unavailable",
           "message": "HTTP Error 403: Forbidden"
         },
@@ -159,13 +159,13 @@
         }
       ],
       "coverage": {
-        "from": "2023-11-14",
-        "to": "2026-11-13",
+        "from": "2023-11-15",
+        "to": "2026-11-14",
         "source": "https://www.zfcg.sh.gov.cn",
         "truncated": false
       },
       "lastCheck": {
-        "at": "2026-11-13T06:59:54+08:00",
+        "at": "2026-11-14T02:52:16+08:00",
         "status": "ok"
       },
       "externalSourceChecks": {
@@ -755,40 +755,16 @@
             "at": "2026-10-26T10:49:29+08:00",
             "status": "ok"
           }
-        },
-        {
-          "title": "社区健康运动会的中标（成交）结果公告",
-          "date": "2023-11-14",
-          "buyer": "上海市体育局",
-          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=qfPcOMnx%2BhVHA7G0KSBcVw%3D%3D",
-          "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期",
-          "projectName": "社区健康运动会",
-          "awards": [
-            {
-              "lotNumber": "1",
-              "lotName": "社区健康运动会",
-              "suppliers": [
-                "上海市社区体育协会"
-              ],
-              "quote": "标项名称：社区健康运动会；中标供应商名称：上海市社区体育协会"
-            }
-          ],
-          "detailCheck": {
-            "version": 1,
-            "at": "2026-10-26T10:49:29+08:00",
-            "status": "ok"
-          }
         }
       ],
       "coverage": {
-        "from": "2023-11-14",
-        "to": "2026-11-13",
+        "from": "2023-11-15",
+        "to": "2026-11-14",
         "source": "https://www.zfcg.sh.gov.cn",
         "truncated": true
       },
       "lastCheck": {
-        "at": "2026-11-13T01:48:18+08:00",
+        "at": "2026-11-14T02:52:16+08:00",
         "status": "ok"
       }
     },
@@ -1004,7 +980,7 @@
       },
       "externalSourceChecks": {
         "https://www.365trade.com.cn/jfwzb/768353.jhtml": {
-          "at": "2026-11-12T09:04:29+08:00",
+          "at": "2026-11-14T02:52:52+08:00",
           "status": "ok"
         }
       }
@@ -2590,13 +2566,13 @@
         }
       ],
       "coverage": {
-        "from": "2023-11-14",
-        "to": "2026-11-13",
+        "from": "2023-11-15",
+        "to": "2026-11-14",
         "source": "https://www.zfcg.sh.gov.cn",
         "truncated": true
       },
       "lastCheck": {
-        "at": "2026-11-13T06:59:54+08:00",
+        "at": "2026-11-14T02:52:16+08:00",
         "status": "ok"
       }
     },
@@ -2646,13 +2622,13 @@
         }
       ],
       "coverage": {
-        "from": "2023-11-14",
-        "to": "2026-11-13",
+        "from": "2023-11-15",
+        "to": "2026-11-14",
         "source": "https://www.zfcg.sh.gov.cn",
         "truncated": false
       },
       "lastCheck": {
-        "at": "2026-11-13T06:59:54+08:00",
+        "at": "2026-11-14T02:52:16+08:00",
         "status": "ok"
       },
       "externalSourceChecks": {
@@ -2662,12 +2638,12 @@
           "message": "HTTP Error 403: Forbidden"
         },
         "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202610/t20261028_27579691.htm": {
-          "at": "2026-11-12T16:56:18+08:00",
+          "at": "2026-11-14T02:52:52+08:00",
           "status": "unavailable",
           "message": "HTTP Error 403: Forbidden"
         },
         "https://www.ccgp.gov.cn/cggg/zygg/cjgg/202610/t20261023_27549400.htm": {
-          "at": "2026-11-12T16:56:18+08:00",
+          "at": "2026-11-14T02:52:52+08:00",
           "status": "unavailable",
           "message": "HTTP Error 403: Forbidden"
         }
@@ -3087,13 +3063,13 @@
         }
       ],
       "coverage": {
-        "from": "2023-11-14",
-        "to": "2026-11-13",
+        "from": "2023-11-15",
+        "to": "2026-11-14",
         "source": "https://www.zfcg.sh.gov.cn",
         "truncated": true
       },
       "lastCheck": {
-        "at": "2026-11-13T01:48:18+08:00",
+        "at": "2026-11-14T02:52:16+08:00",
         "status": "ok"
       }
     },
@@ -3695,13 +3671,13 @@
         }
       ],
       "coverage": {
-        "from": "2023-11-14",
-        "to": "2026-11-13",
+        "from": "2023-11-15",
+        "to": "2026-11-14",
         "source": "https://www.zfcg.sh.gov.cn",
         "truncated": true
       },
       "lastCheck": {
-        "at": "2026-11-13T01:48:18+08:00",
+        "at": "2026-11-14T02:52:16+08:00",
         "status": "ok"
       }
     },
