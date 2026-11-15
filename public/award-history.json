@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-15T11:12:42+08:00",
+  "updatedAt": "2026-11-15T19:36:53+08:00",
   "customers": [
     {
       "id": "2100303078",
@@ -127,7 +127,7 @@
           "message": "HTTP Error 403: Forbidden"
         },
         "https://www.ccgp.gov.cn/cggg/dfgg/zbgg/202407/t20240701_22508124.htm": {
-          "at": "2026-11-14T15:08:19+08:00",
+          "at": "2026-11-15T19:36:53+08:00",
           "status": "unavailable",
           "message": "HTTP Error 403: Forbidden"
         }
@@ -170,7 +170,7 @@
       },
       "externalSourceChecks": {
         "https://www.ccgp.gov.cn/cggg/zygg/cjgg/202506/t20250603_24699101.htm": {
-          "at": "2026-11-14T22:38:38+08:00",
+          "at": "2026-11-15T19:36:53+08:00",
           "status": "unavailable",
           "message": "HTTP Error 403: Forbidden"
         }
@@ -820,7 +820,7 @@
         "truncated": false
       },
       "lastCheck": {
-        "at": "2026-11-15T07:27:44+08:00",
+        "at": "2026-11-15T19:35:40+08:00",
         "status": "ok"
       },
       "externalSourceChecks": {
@@ -898,7 +898,7 @@
         "truncated": false
       },
       "lastCheck": {
-        "at": "2026-11-15T07:27:44+08:00",
+        "at": "2026-11-15T19:35:40+08:00",
         "status": "ok"
       },
       "externalSourceChecks": {
@@ -918,7 +918,7 @@
           "message": "HTTP Error 403: Forbidden"
         },
         "https://www.ccgp.gov.cn/cggg/zygg/cjgg/202608/t20260825_27197715.htm": {
-          "at": "2026-11-14T22:38:38+08:00",
+          "at": "2026-11-15T19:36:53+08:00",
           "status": "unavailable",
           "message": "HTTP Error 403: Forbidden"
         }
@@ -975,7 +975,7 @@
         "truncated": true
       },
       "lastCheck": {
-        "at": "2026-11-15T07:27:44+08:00",
+        "at": "2026-11-15T19:35:40+08:00",
         "status": "ok"
       },
       "externalSourceChecks": {
@@ -996,7 +996,7 @@
         "truncated": false
       },
       "lastCheck": {
-        "at": "2026-11-15T07:27:44+08:00",
+        "at": "2026-11-15T19:35:40+08:00",
         "status": "ok"
       }
     },
@@ -1060,7 +1060,7 @@
         "truncated": true
       },
       "lastCheck": {
-        "at": "2026-11-15T07:27:44+08:00",
+        "at": "2026-11-15T19:35:40+08:00",
         "status": "ok"
       }
     },
@@ -2633,7 +2633,7 @@
       },
       "externalSourceChecks": {
         "https://www.ccgp.gov.cn/cggg/zygg/cjgg/202610/t20261030_27590679.htm": {
-          "at": "2026-11-14T22:38:38+08:00",
+          "at": "2026-11-15T19:36:53+08:00",
           "status": "unavailable",
           "message": "HTTP Error 403: Forbidden"
         },
@@ -4645,7 +4645,7 @@
         "truncated": true
       },
       "lastCheck": {
-        "at": "2026-11-15T03:36:59+08:00",
+        "at": "2026-11-15T19:35:40+08:00",
         "status": "ok"
       }
     },
@@ -4660,7 +4660,7 @@
         "truncated": false
       },
       "lastCheck": {
-        "at": "2026-11-15T03:36:59+08:00",
+        "at": "2026-11-15T19:35:40+08:00",
         "status": "ok"
       }
     },
@@ -5147,7 +5147,7 @@
         "truncated": false
       },
       "lastCheck": {
-        "at": "2026-11-15T03:36:59+08:00",
+        "at": "2026-11-15T19:35:40+08:00",
         "status": "ok"
       }
     }
