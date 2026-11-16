@@ -2255,8 +2255,8 @@
         "历史招标结果": "9c0081a454301470375712ce033f52859f7cd2a2f9d1c945b87b5a2ec0e891e1",
         "合同信息": "43865dde3eec74ae0f33087cd9283a543474964d7d17792508c445bdc7cd583a",
         "政策与建设方向": "96ad9499cdbd8d32753e45fc41a8585e6f093dc3d62bc3160f3700ccd1b604d7",
-        "工作日志": "b2a68d32a63b7f9d4da59ff9b9d23aa5432f6037b07563f3a274ef253b683eec",
-        "商机进展": "c6c2fcd2b898c0e63c1ac49c272b87375aa4641e43dce0b288172063dbfbaba6",
+        "工作日志": "baababb6c209ce24dfc720c54d67ebb83c1d9adf911b833e859a8a2d65c62335",
+        "商机进展": "5a50e9960a3848ecd0a2e00c03f8b617b31ce04b34851442b31163d915e60a79",
         "产品与场景": "5525b44441576e0bd057cb4ce592a3c91fd673eadec321351b692bc374cab303",
         "生态伙伴": "adfe6f8759dc89ddc9e6061b8863a62d2993ead41abdff501e722440aa8300a4",
         "客户基本信息": "4f3bb1296a15ada2fac0d05442cf8f501339991406d5b293a54d6edcb714d022"
@@ -4841,6 +4841,39 @@
           }
         },
         "工作日志": {
+          "dongfeng-worklogs:dongfeng:cc40016382ebd8fd71c3e40d": {
+            "hash": "09a6669d7421e666798629916b33eb01c4aff273395587ad312c7724ed84d072",
+            "data": {
+              "customerId": "2100000260",
+              "customerName": "上海市公安局",
+              "workDate": "2026-11-16",
+              "title": "青浦雪亮工程视频监控增补项目 · 每日进展登记",
+              "content": "工作内容：本日进展：1、与青浦公司杨忆来总经理沟通雪亮“十三五”增补项目抢盘策略，聚焦青浦分局顾安副局长提出的雪亮场景本地算力资源匹配问题，计划本周拜访科信支队调研视图场景算力需求，完成算力资源评估规划算力集群部署方案；\n2、协调智算团队支撑专家，并于青浦公司公安行业客户经理协调科信支队拜访时间。｜下一步：1、根据科信支队需求调研结果，完成算力集群部署方案规划，同步更新项目建议汇报方案；\n2、完成项目可研方案的完善工作，输出初稿并提交青浦公司审核。｜下一步时间：2026-11-20",
+              "relatedUnit": "上海市公安局青浦分局",
+              "actorName": "黄深远",
+              "actorRole": "方案经理",
+              "participants": [
+                "黄深远（解决方案经理）",
+                "赵恩达（解决方案经理）",
+                "任志伟（客户经理）"
+              ],
+              "recordUpdatedDate": null,
+              "projectIds": [
+                "dfproject:c7479a8ee38d25dee6b5"
+              ],
+              "projectTypes": {
+                "dfproject:c7479a8ee38d25dee6b5": "线索"
+              },
+              "id": "dongfeng:cc40016382ebd8fd71c3e40d",
+              "datePrecision": "explicit",
+              "sourceType": "dongfeng",
+              "sourceLabel": "东风平台 · 东风工作日期",
+              "sourceRecordId": "daily:TL-DAILY-a409ac65-5bd2-4f4f-9fb6-279d5c0f95f6:2100000260",
+              "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
+              "firstSeenAt": "2026-11-16T19:05:25+08:00",
+              "updatedAt": "2026-11-16T19:05:25+08:00"
+            }
+          },
           "dongfeng-worklogs:dongfeng:db98f9eb44529923e6e97dba": {
             "hash": "88fb269d636f39ea70230fe78c104ef564f1b4ab46d566a3d48462799257277f",
             "data": {
@@ -13391,17 +13424,17 @@
             }
           },
           "dongfeng-worklogs:dongfeng:c9d3da3352f22fed6a6076cf": {
-            "hash": "92b923cfa6cf4343c90e75bfc9661e94a156db9c4781f039c114eb461c606165",
+            "hash": "3d6699bfef548879091efebf6ad443a79187027344ad2d12345c125e944951e6",
             "data": {
               "customerId": "2100000260",
               "customerName": "上海市公安局",
               "workDate": null,
               "title": "青浦雪亮工程视频监控增补项目 · 最新项目记录",
-              "content": "项目：青浦雪亮工程视频监控增补项目\n建设内容：300多个视频监控点位增补建设。\n最新进展：1、今日杨总与万总共同拜访青浦公安分局副局长沟通雪亮项目细节问题，客户对拜访结果非常满意，认可了移动前期的工作，希望后面我们能给客户提出更多针对全量点位规划，并搭建完整算力资源的方案，同时也向我们透露了后续新建项目的招标时间（12月）和招标模式（传输机房走租赁模式，其它部分走投资模式）\n2、补充更新原先顶设方案中的背景、后端方案、方案案例等部分，目前除大华、移动的两部分外已经完成更新。雪亮方案目前已经定稿；\n下一步：与青浦移动确定后续材料的完善计划，将当前工作进行收尾，为备战投标做准备\n平台阶段：线索\n线索结果：已完成线索登记，后续结果待维护。\n中失标状态：PENDING",
+              "content": "项目：青浦雪亮工程视频监控增补项目\n建设内容：300多个视频监控点位增补建设。\n最新进展：1、与青浦公司杨忆来总经理沟通雪亮“十三五”增补项目抢盘策略，聚焦青浦分局顾安副局长提出的雪亮场景本地算力资源匹配问题，计划本周拜访科信支队调研视图场景算力需求，完成算力资源评估规划算力集群部署方案；\n2、协调智算团队支撑专家，并于青浦公司公安行业客户经理协调科信支队拜访时间。\n下一步：1、根据科信支队需求调研结果，完成算力集群部署方案规划，同步更新项目建议汇报方案；\n2、完成项目可研方案的完善工作，输出初稿并提交青浦公司审核。\n平台阶段：线索\n线索结果：已完成线索登记，后续结果待维护。\n中失标状态：PENDING",
               "relatedUnit": "上海市公安局青浦分局",
               "actorName": "",
               "actorRole": "",
-              "recordUpdatedDate": "2026-11-13",
+              "recordUpdatedDate": "2026-11-16",
               "recordCreatedDate": "2026-10-19",
               "responsibleManager": "任志伟",
               "projectIds": [
@@ -13417,7 +13450,7 @@
               "sourceRecordId": "progress:TASK-1792398967815:2100000260",
               "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
               "firstSeenAt": "2026-10-29T14:11:08+08:00",
-              "updatedAt": "2026-11-13T17:28:02+08:00"
+              "updatedAt": "2026-11-16T19:05:25+08:00"
             }
           },
           "dongfeng-worklogs:dongfeng:c973a8c25b301aa78e0d55bd": {
@@ -15383,7 +15416,7 @@
             }
           },
           "dongfeng-worklogs:dfproject:c7479a8ee38d25dee6b5": {
-            "hash": "b1b2b34ebcc97a6412a63d2eade256cded448e407b71dc7adab995efbdb068f9",
+            "hash": "97bc73dfc1be5e29c80cf7a77f2ceffead6aee616236149a9ed54565571c806b",
             "data": {
               "id": "dfproject:c7479a8ee38d25dee6b5",
               "aliasIds": [],
@@ -15402,14 +15435,14 @@
               "names": [
                 "青浦雪亮工程视频监控增补项目"
               ],
-              "updatedAt": "2026-11-13T09:22:51.582Z",
-              "latestProgress": "1、今日杨总与万总共同拜访青浦公安分局副局长沟通雪亮项目细节问题，客户对拜访结果非常满意，认可了移动前期的工作，希望后面我们能给客户提出更多针对全量点位规划，并搭建完整算力资源的方案，同时也向我们透露了后续新建项目的招标时间（12月）和招标模式（传输机房走租赁模式，其它部分走投资模式）\n2、补充更新原先顶设方案中的背景、后端方案、方案案例等部分，目前除大华、移动的两部分外已经完成更新。雪亮方案目前已经定稿；",
-              "actorName": "赵恩达",
+              "updatedAt": "2026-11-16T08:37:51.438Z",
+              "latestProgress": "1、与青浦公司杨忆来总经理沟通雪亮“十三五”增补项目抢盘策略，聚焦青浦分局顾安副局长提出的雪亮场景本地算力资源匹配问题，计划本周拜访科信支队调研视图场景算力需求，完成算力资源评估规划算力集群部署方案；\n2、协调智算团队支撑专家，并于青浦公司公安行业客户经理协调科信支队拜访时间。",
+              "actorName": "黄深远",
               "actorRole": "方案经理",
               "recordMethod": "日志 · 每日进展登记",
               "sourceRecordId": "progress:TASK-1792398967815:2100000260",
               "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
-              "attributionRecordId": "daily:TL-DAILY-84682187-feae-43ec-bb5c-13f0cde8541c:2100000260",
+              "attributionRecordId": "daily:TL-DAILY-a409ac65-5bd2-4f4f-9fb6-279d5c0f95f6:2100000260",
               "attributionNote": "同项目、同日、进展正文一致的原始日志"
             }
           },
@@ -16659,8 +16692,8 @@
         "历史招标结果": "919d513ab456bb17fdc162a83e6eee6e8bb31772f6f87fe342d9b180fc3ec861",
         "合同信息": "6cf76cc0a4d4cf6fa136f7aa7e7f453ea905870660a61d792b698cc73d4f2cef",
         "政策与建设方向": "6cf76cc0a4d4cf6fa136f7aa7e7f453ea905870660a61d792b698cc73d4f2cef",
-        "工作日志": "a4990055e87d3fff7ab2ae4644024d2bcb2713c66181919a1ec3a90d291faf45",
-        "商机进展": "2229d79f3c25171f5e4d8d4d5582a5fe8dfa4e933bc1aa5afa7fba38ece93721",
+        "工作日志": "be8c3aa4348fc07ccfa11017092321294d226064b523d889942c226e8c21b7c7",
+        "商机进展": "176742eb4af0985eeb6da381370bcf4b2b0e41273189c4a73bbbbf5d12a1b3dd",
         "产品与场景": "5525b44441576e0bd057cb4ce592a3c91fd673eadec321351b692bc374cab303",
         "生态伙伴": "adfe6f8759dc89ddc9e6061b8863a62d2993ead41abdff501e722440aa8300a4",
         "客户基本信息": "141d4be2652c085297390008e0e7b7d8d24d72ff23ccc6fa64125f8a58fbc38a"
@@ -16743,6 +16776,105 @@
           }
         },
         "工作日志": {
+          "dongfeng-worklogs:dongfeng:a5ff852e532cefd4932f91c9": {
+            "hash": "913250b2af85209fbc46b01012dbe4471e3e0caa38afe325641d4301ec39a1cf",
+            "data": {
+              "customerId": "2100000172",
+              "customerName": "上海市消防救援总队",
+              "workDate": "2026-11-16",
+              "title": "消防AI大模型垂域业务应用子系统建设 · 每日进展登记",
+              "content": "工作内容：本日进展：拆解投标文件，检查整理标书要求以及废标项，编写投标文件模板｜下一步：编写投标文件｜下一步时间：2026-11-30｜风险/阻塞：联通也在关注包七（智能体），需要争取",
+              "relatedUnit": null,
+              "actorName": "边怡健",
+              "actorRole": "售前经理",
+              "participants": [
+                "边怡健（售前经理）",
+                "许鹏宇（客户经理）",
+                "王凯（解决方案经理）",
+                "李锋（售前经理）"
+              ],
+              "recordUpdatedDate": null,
+              "projectIds": [
+                "dfproject:0a087fb268e40ee9cdbf"
+              ],
+              "projectTypes": {
+                "dfproject:0a087fb268e40ee9cdbf": "商机"
+              },
+              "id": "dongfeng:a5ff852e532cefd4932f91c9",
+              "datePrecision": "explicit",
+              "sourceType": "dongfeng",
+              "sourceLabel": "东风平台 · 东风工作日期",
+              "sourceRecordId": "daily:TL-DAILY-86e36fd7-4e2c-440b-bbea-49041ce0ffb8:2100000172",
+              "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
+              "firstSeenAt": "2026-11-16T19:05:25+08:00",
+              "updatedAt": "2026-11-16T19:05:25+08:00"
+            }
+          },
+          "dongfeng-worklogs:dongfeng:29a6b674673b00e5bd5d47f7": {
+            "hash": "25ccca15dad48ef8fc4a796b1d21e3d69d69c490954f04496d2fcaa52d6c776b",
+            "data": {
+              "customerId": "2100000172",
+              "customerName": "上海市消防救援总队",
+              "workDate": "2026-11-16",
+              "title": "业务系统升级改造项目 · 每日进展登记",
+              "content": "工作内容：本日进展：准备应答材料｜下一步：准备上会决策和标书准备工作。｜下一步时间：2026-11-30",
+              "relatedUnit": null,
+              "actorName": "陈刚",
+              "actorRole": "方案经理",
+              "participants": [
+                "陈刚（解决方案经理）"
+              ],
+              "recordUpdatedDate": null,
+              "projectIds": [
+                "dfproject:71957667c1ba7f3d1b95"
+              ],
+              "projectTypes": {
+                "dfproject:71957667c1ba7f3d1b95": "商机"
+              },
+              "id": "dongfeng:29a6b674673b00e5bd5d47f7",
+              "datePrecision": "explicit",
+              "sourceType": "dongfeng",
+              "sourceLabel": "东风平台 · 东风工作日期",
+              "sourceRecordId": "daily:TL-DAILY-5681a947-2e3c-4eb5-b4a5-0bdc957abcad:2100000172",
+              "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
+              "firstSeenAt": "2026-11-16T19:05:25+08:00",
+              "updatedAt": "2026-11-16T19:05:25+08:00"
+            }
+          },
+          "dongfeng-worklogs:dongfeng:1e38d1a73862e6f8a029d307": {
+            "hash": "ac13551b4802b0a0e49318a8429f87f7d1cb8ceec020d76df61229d2493f34df",
+            "data": {
+              "customerId": "2100000172",
+              "customerName": "上海市消防救援总队",
+              "workDate": "2026-11-16",
+              "title": "业务系统升级改造项目 · 每日进展登记",
+              "content": "工作内容：本日进展：拆解投标文件，检查整理标书要求以及废标项，编写投标文件模板｜下一步：编写投标文件｜下一步时间：2026-11-30",
+              "relatedUnit": null,
+              "actorName": "边怡健",
+              "actorRole": "售前经理",
+              "participants": [
+                "边怡健（售前经理）",
+                "李锋（售前经理）",
+                "王凯（解决方案经理）",
+                "许鹏宇（客户经理）"
+              ],
+              "recordUpdatedDate": null,
+              "projectIds": [
+                "dfproject:71957667c1ba7f3d1b95"
+              ],
+              "projectTypes": {
+                "dfproject:71957667c1ba7f3d1b95": "商机"
+              },
+              "id": "dongfeng:1e38d1a73862e6f8a029d307",
+              "datePrecision": "explicit",
+              "sourceType": "dongfeng",
+              "sourceLabel": "东风平台 · 东风工作日期",
+              "sourceRecordId": "daily:TL-DAILY-c8240bda-5ea9-46b3-bbfb-34cc7a27f7c1:2100000172",
+              "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
+              "firstSeenAt": "2026-11-16T19:05:25+08:00",
+              "updatedAt": "2026-11-16T19:05:25+08:00"
+            }
+          },
           "dongfeng-worklogs:dongfeng:c86be63b9c84d35cf1ce9e9f": {
             "hash": "d9f30ec5760b2d863a4f49c0ca40b40a30eeadc9bdb3a2d4321af9b32c3582cd",
             "data": {
@@ -18896,7 +19028,7 @@
               "relatedUnit": null,
               "actorName": "",
               "actorRole": "",
-              "recordUpdatedDate": "2026-11-12",
+              "recordUpdatedDate": "2026-11-16",
               "projectIds": [
                 "dfproject:0a087fb268e40ee9cdbf"
               ],
@@ -18910,7 +19042,7 @@
               "sourceRecordId": "bid:BID-1794195724807:2100000172",
               "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
               "firstSeenAt": "2026-11-09T19:23:53+08:00",
-              "updatedAt": "2026-11-12T11:47:13+08:00"
+              "updatedAt": "2026-11-16T19:05:25+08:00"
             }
           },
           "dongfeng-worklogs:dongfeng:e2a8dea1ec55add69941b1b7": {
@@ -18944,17 +19076,17 @@
             }
           },
           "dongfeng-worklogs:dongfeng:a15c57cfaaa38607798515f9": {
-            "hash": "c87492548911a9094dd15b652e8d2b5fb8ca08318de113820a28aa8ab0e6bdcf",
+            "hash": "f497d64f4434d44721724e2033566dc00b8de0db5cde67aa03884e735759d4c2",
             "data": {
               "customerId": "2100000172",
               "customerName": "上海市消防救援总队",
               "workDate": null,
               "title": "消防AI大模型垂域业务应用子系统建设 · 最新项目记录",
-              "content": "项目：消防AI大模型垂域业务应用子系统建设\n建设内容：主要通过模型能力基础平台、高质量语料库服务工具链的建设和语料加工服务，实现AI大模型在消防救援实战和灾害预警监测等领域赋能，运维服务期不少于3年\n最新进展：已获取标书，联系后端技术团队，准备技术材料\n下一步：准备上会决策和标书准备工作。\n平台阶段：投标中\n线索结果：已完成商机登记，后续结果待维护。\n投标进展：DF-BID-MW8PT5HJ · 筹备 · 尚未形成\n中失标状态：PENDING",
+              "content": "项目：消防AI大模型垂域业务应用子系统建设\n建设内容：主要通过模型能力基础平台、高质量语料库服务工具链的建设和语料加工服务，实现AI大模型在消防救援实战和灾害预警监测等领域赋能，运维服务期不少于3年\n最新进展：拆解投标文件，检查整理标书要求以及废标项，编写投标文件模板\n下一步：编写投标文件\n平台阶段：投标中\n线索结果：已完成商机登记，后续结果待维护。\n投标进展：DF-BID-MW8PT5HJ · 筹备 · 尚未形成\n中失标状态：PENDING",
               "relatedUnit": null,
               "actorName": "",
               "actorRole": "",
-              "recordUpdatedDate": "2026-11-13",
+              "recordUpdatedDate": "2026-11-16",
               "recordCreatedDate": "2026-09-11",
               "responsibleManager": "许鹏宇",
               "projectIds": [
@@ -18970,21 +19102,21 @@
               "sourceRecordId": "progress:TASK-1789116414976:2100000172",
               "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
               "firstSeenAt": "2026-10-29T14:11:08+08:00",
-              "updatedAt": "2026-11-13T17:28:02+08:00"
+              "updatedAt": "2026-11-16T19:05:25+08:00"
             }
           },
           "dongfeng-worklogs:dongfeng:7991027b291401c81cf6cfe8": {
-            "hash": "3ec0a2bf6f4cf3b9e7381d9d96127dc5abeba394f0f0acaaf8d4060c47815b16",
+            "hash": "88a47b30b4c13abd7f8d84ea6e072720a339682c9805d21e5aeb9f96e9219216",
             "data": {
               "customerId": "2100000172",
               "customerName": "上海市消防救援总队",
               "workDate": null,
               "title": "业务系统升级改造项目 · 最新项目记录",
-              "content": "项目：业务系统升级改造项目\n最新进展：协调厂家提供技术方案\n下一步：准备上会决策和标书准备工作。\n平台阶段：投标中\n线索结果：已完成商机登记，后续结果待维护。\n投标进展：DF-BID-MW8PQA2G · 筹备 · 尚未形成\n中失标状态：PENDING",
+              "content": "项目：业务系统升级改造项目\n最新进展：拆解投标文件，检查整理标书要求以及废标项，编写投标文件模板\n下一步：编写投标文件\n平台阶段：投标中\n线索结果：已完成商机登记，后续结果待维护。\n投标进展：DF-BID-MW8PQA2G · 筹备 · 尚未形成\n中失标状态：PENDING",
               "relatedUnit": null,
               "actorName": "",
               "actorRole": "",
-              "recordUpdatedDate": "2026-11-13",
+              "recordUpdatedDate": "2026-11-16",
               "recordCreatedDate": "2026-09-09",
               "responsibleManager": "许鹏宇",
               "projectIds": [
@@ -19000,7 +19132,7 @@
               "sourceRecordId": "progress:TASK-1788949735381:2100000172",
               "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
               "firstSeenAt": "2026-10-29T14:11:08+08:00",
-              "updatedAt": "2026-11-13T17:28:02+08:00"
+              "updatedAt": "2026-11-16T19:05:25+08:00"
             }
           },
           "dongfeng-worklogs:dongfeng:5f5f7ff4f16e4fde3c6ec04a": {
@@ -19014,7 +19146,7 @@
               "relatedUnit": null,
               "actorName": "",
               "actorRole": "",
-              "recordUpdatedDate": "2026-11-09",
+              "recordUpdatedDate": "2026-11-16",
               "projectIds": [
                 "dfproject:71957667c1ba7f3d1b95"
               ],
@@ -19028,7 +19160,7 @@
               "sourceRecordId": "bid:BID-1794195590777:2100000172",
               "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
               "firstSeenAt": "2026-11-09T19:23:53+08:00",
-              "updatedAt": "2026-11-09T19:23:53+08:00"
+              "updatedAt": "2026-11-16T19:05:25+08:00"
             }
           },
           "worklogs:73326d9ff1cd80530115cbcb": {
@@ -19085,7 +19217,7 @@
         },
         "商机进展": {
           "dongfeng-worklogs:dfproject:0a087fb268e40ee9cdbf": {
-            "hash": "70a8fc158bf9855c814c0453a7ab2d6e5c23a290e7792dcd2702968aadac558b",
+            "hash": "df8073b93c6bb8f21a3c1113e47d1a0834d6b05cb4fcaaf0b17a69256d6c5ee0",
             "data": {
               "id": "dfproject:0a087fb268e40ee9cdbf",
               "aliasIds": [],
@@ -19104,19 +19236,19 @@
               "names": [
                 "消防AI大模型垂域业务应用子系统建设"
               ],
-              "updatedAt": "2026-11-13T07:35:12.357Z",
-              "latestProgress": "已获取标书，联系后端技术团队，准备技术材料",
-              "actorName": "王凯",
-              "actorRole": "方案经理",
+              "updatedAt": "2026-11-16T09:28:06.291Z",
+              "latestProgress": "拆解投标文件，检查整理标书要求以及废标项，编写投标文件模板",
+              "actorName": "边怡健",
+              "actorRole": "售前经理",
               "recordMethod": "日志 · 每日进展登记",
               "sourceRecordId": "progress:TASK-1789116414976:2100000172",
               "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
-              "attributionRecordId": "daily:TL-DAILY-5443cdc3-dfd4-4c4a-964e-92fd624db5e7:2100000172",
+              "attributionRecordId": "daily:TL-DAILY-86e36fd7-4e2c-440b-bbea-49041ce0ffb8:2100000172",
               "attributionNote": "同项目、同日、进展正文一致的原始日志"
             }
           },
           "dongfeng-worklogs:dfproject:71957667c1ba7f3d1b95": {
-            "hash": "350d2ef8ff14ac1c92d94bfaf03d8178579ae7429cb83254c4fd9b789e469cf9",
+            "hash": "f5e84c4832dea2c8d83507ddccee66efb29971c10ae0e1f96c848c8687d9b4d1",
             "data": {
               "id": "dfproject:71957667c1ba7f3d1b95",
               "aliasIds": [],
@@ -19135,14 +19267,14 @@
               "names": [
                 "业务系统升级改造项目"
               ],
-              "updatedAt": "2026-11-13T07:37:47.204Z",
-              "latestProgress": "协调厂家提供技术方案",
-              "actorName": "王凯",
-              "actorRole": "方案经理",
+              "updatedAt": "2026-11-16T09:27:36.857Z",
+              "latestProgress": "拆解投标文件，检查整理标书要求以及废标项，编写投标文件模板",
+              "actorName": "边怡健",
+              "actorRole": "售前经理",
               "recordMethod": "日志 · 每日进展登记",
               "sourceRecordId": "progress:TASK-1788949735381:2100000172",
               "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
-              "attributionRecordId": "daily:TL-DAILY-544d79a5-0db3-41a7-88d5-39e658116967:2100000172",
+              "attributionRecordId": "daily:TL-DAILY-c8240bda-5ea9-46b3-bbfb-34cc7a27f7c1:2100000172",
               "attributionNote": "同项目、同日、进展正文一致的原始日志"
             }
           },
@@ -20806,8 +20938,8 @@
         "历史招标结果": "3ba18fb7f4db1be9b38ce0a2ba657e35d5ff7f67578b661ac7f78c1cc00b4d59",
         "合同信息": "6cf76cc0a4d4cf6fa136f7aa7e7f453ea905870660a61d792b698cc73d4f2cef",
         "政策与建设方向": "6cf76cc0a4d4cf6fa136f7aa7e7f453ea905870660a61d792b698cc73d4f2cef",
-        "工作日志": "4dc5041ca35ead3d4a265b676770aec4429c30ba7fcbbe6033583031fa3ab004",
-        "商机进展": "285908ea72f41943005e3d540aa39b66db583cf1a250953bdbf9d9afaedd4ad5",
+        "工作日志": "10c782e69e3e84a281ac82b6581997edc10f0bdc5c6fe0e58a0a3d019eb3aab5",
+        "商机进展": "f92c332810ac5ab5e78e095cf6fad7ed59ce8ee522a5448bfbe21fe69f603b08",
         "产品与场景": "5525b44441576e0bd057cb4ce592a3c91fd673eadec321351b692bc374cab303",
         "生态伙伴": "adfe6f8759dc89ddc9e6061b8863a62d2993ead41abdff501e722440aa8300a4",
         "客户基本信息": "1845b42d7bded422a3f3f01fc57675563077efb3fff45e8aaaa10adde50bba72"
@@ -21501,6 +21633,39 @@
           }
         },
         "工作日志": {
+          "dongfeng-worklogs:dongfeng:1a18df405697bcf08501d7f3": {
+            "hash": "ff6eee9b44d91ed6fdc94ef84547f977f97c70b31d0b6ead05c3313b95f9628f",
+            "data": {
+              "customerId": "2100128579",
+              "customerName": "上海市教育委员会",
+              "workDate": "2026-11-16",
+              "title": "2026-2027学年上海市青少年运动技能等级测试 · 每日进展登记",
+              "content": "工作内容：本日进展：已完成上会决策，已完成投标文件编制，和上海移动共同审核标书。｜下一步：准备投标。｜下一步时间：2026-11-19",
+              "relatedUnit": null,
+              "actorName": "许鹏宇",
+              "actorRole": "客户经理",
+              "participants": [
+                "许鹏宇（客户经理）",
+                "万全旦（解决方案经理）",
+                "李锋（售前经理）"
+              ],
+              "recordUpdatedDate": null,
+              "projectIds": [
+                "dfproject:9d4cd52052eabc4e4368"
+              ],
+              "projectTypes": {
+                "dfproject:9d4cd52052eabc4e4368": "商机"
+              },
+              "id": "dongfeng:1a18df405697bcf08501d7f3",
+              "datePrecision": "explicit",
+              "sourceType": "dongfeng",
+              "sourceLabel": "东风平台 · 东风工作日期",
+              "sourceRecordId": "daily:TL-DAILY-7df57089-61cc-4beb-af15-898784b17f6d:2100128579",
+              "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
+              "firstSeenAt": "2026-11-16T19:05:25+08:00",
+              "updatedAt": "2026-11-16T19:05:25+08:00"
+            }
+          },
           "dongfeng-worklogs:dongfeng:4cc2ce3e8efd4de19c94248b": {
             "hash": "a60c8a3d72272916052a294abd2a10555b43e6fa779431a909dca60e2744ee8d",
             "data": {
@@ -21706,17 +21871,17 @@
             }
           },
           "dongfeng-worklogs:dongfeng:98fdcae02884afc2fb56d2a4": {
-            "hash": "402a770dae11be3c52010d30c6fa5ce1c57dee7bc925b96ef45184fadeb5acb6",
+            "hash": "2bffbe744352f83843317a54df2446dd80b5d9a72c037adbe67a3f36b51faa44",
             "data": {
               "customerId": "2100128579",
               "customerName": "上海市教育委员会",
               "workDate": null,
               "title": "2026-2027学年上海市青少年运动技能等级测试 · 最新项目记录",
-              "content": "项目：2026-2027学年上海市青少年运动技能等级测试\n建设内容：需提供田径、游泳、乒乓球、足球、篮球类一至三级的智能化测试方案、需提供测试现场监控录像服务，需提供现场报名及身份识别终端：内置电子学生证读卡器，支持读取上海电子学生证。\n最新进展：本周已发标，协同战客、教育纵队、执讯等合作伙伴，确认投标策略及分工，准备标书编制。\n下一步：拉通各方资源，准备上会决策，同时继续准备好标书编制及其他投标准备工作；\n平台阶段：投标中\n线索结果：已完成商机登记，后续结果待维护。\n投标进展：DF-BID-MW1FES9C · 筹备 · 尚未形成\n中失标状态：PENDING",
+              "content": "项目：2026-2027学年上海市青少年运动技能等级测试\n建设内容：需提供田径、游泳、乒乓球、足球、篮球类一至三级的智能化测试方案、需提供测试现场监控录像服务，需提供现场报名及身份识别终端：内置电子学生证读卡器，支持读取上海电子学生证。\n最新进展：已完成上会决策，已完成投标文件编制，和上海移动共同审核标书。\n下一步：准备投标。\n平台阶段：投标中\n线索结果：已完成商机登记，后续结果待维护。\n投标进展：DF-BID-MW1FES9C · 筹备 · 尚未形成\n中失标状态：PENDING",
               "relatedUnit": null,
               "actorName": "",
               "actorRole": "",
-              "recordUpdatedDate": "2026-11-06",
+              "recordUpdatedDate": "2026-11-16",
               "recordCreatedDate": "2026-11-03",
               "responsibleManager": "许鹏宇",
               "projectIds": [
@@ -21732,7 +21897,7 @@
               "sourceRecordId": "progress:TASK-1793673740242:2100128579",
               "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
               "firstSeenAt": "2026-11-03T14:42:27+08:00",
-              "updatedAt": "2026-11-06T15:53:45+08:00"
+              "updatedAt": "2026-11-16T19:05:25+08:00"
             }
           },
           "worklogs:747a55da7864468321a009cc": {
@@ -21755,7 +21920,7 @@
         },
         "商机进展": {
           "dongfeng-worklogs:dfproject:9d4cd52052eabc4e4368": {
-            "hash": "848993a619aa1ef23308ccfba35c84dac8984bc8791ddee13aade790ee2a9482",
+            "hash": "4f8163fc508af784b6c5ccc46670ab97350c19cf045d3db8468458a63b43a1eb",
             "data": {
               "id": "dfproject:9d4cd52052eabc4e4368",
               "aliasIds": [],
@@ -21774,14 +21939,14 @@
               "names": [
                 "2026-2027学年上海市青少年运动技能等级测试"
               ],
-              "updatedAt": "2026-11-11T14:30:41.778Z",
-              "latestProgress": "本周已发标，协同战客、教育纵队、执讯等合作伙伴，确认投标策略及分工，准备标书编制。",
+              "updatedAt": "2026-11-16T07:52:15.599Z",
+              "latestProgress": "已完成上会决策，已完成投标文件编制，和上海移动共同审核标书。",
               "actorName": "许鹏宇",
               "actorRole": "客户经理",
               "recordMethod": "日志 · 每日进展登记",
               "sourceRecordId": "progress:TASK-1793673740242:2100128579",
               "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
-              "attributionRecordId": "daily:TL-DAILY-69430da4-bd30-4455-a1cf-36c00e09e4c5:2100128579",
+              "attributionRecordId": "daily:TL-DAILY-7df57089-61cc-4beb-af15-898784b17f6d:2100128579",
               "attributionNote": "同项目、同日、进展正文一致的原始日志"
             }
           }
@@ -27904,5 +28069,5 @@
       }
     }
   },
-  "updatedAt": "2026-11-16T15:55:15+08:00"
+  "updatedAt": "2026-11-16T19:05:25+08:00"
 }
