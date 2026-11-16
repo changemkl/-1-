@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-16T20:09:38+08:00",
+  "updatedAt": "2026-11-17T06:37:52+08:00",
   "customers": [
     {
       "id": "2100303078",
@@ -45,13 +45,13 @@
         }
       ],
       "coverage": {
-        "from": "2023-11-17",
-        "to": "2026-11-16",
+        "from": "2023-11-18",
+        "to": "2026-11-17",
         "source": "https://www.zfcg.sh.gov.cn",
         "truncated": false
       },
       "lastCheck": {
-        "at": "2026-11-16T11:16:20+08:00",
+        "at": "2026-11-17T06:37:14+08:00",
         "status": "ok"
       },
       "externalSourceChecks": {
@@ -111,23 +111,23 @@
         }
       ],
       "coverage": {
-        "from": "2023-11-17",
-        "to": "2026-11-16",
+        "from": "2023-11-18",
+        "to": "2026-11-17",
         "source": "https://www.zfcg.sh.gov.cn",
         "truncated": false
       },
       "lastCheck": {
-        "at": "2026-11-16T11:16:20+08:00",
+        "at": "2026-11-17T06:37:14+08:00",
         "status": "ok"
       },
       "externalSourceChecks": {
         "https://www.ccgp.gov.cn/cggg/dfgg/zbgg/202408/t20240827_22995426.htm": {
-          "at": "2026-11-16T02:06:04+08:00",
+          "at": "2026-11-17T06:37:52+08:00",
           "status": "unavailable",
           "message": "HTTP Error 403: Forbidden"
         },
         "https://www.ccgp.gov.cn/cggg/dfgg/zbgg/202407/t20240701_22508124.htm": {
-          "at": "2026-11-15T19:36:53+08:00",
+          "at": "2026-11-17T06:37:52+08:00",
           "status": "unavailable",
           "message": "HTTP Error 403: Forbidden"
         }
@@ -159,13 +159,13 @@
         }
       ],
       "coverage": {
-        "from": "2023-11-17",
-        "to": "2026-11-16",
+        "from": "2023-11-18",
+        "to": "2026-11-17",
         "source": "https://www.zfcg.sh.gov.cn",
         "truncated": false
       },
       "lastCheck": {
-        "at": "2026-11-16T11:16:20+08:00",
+        "at": "2026-11-17T06:37:14+08:00",
         "status": "ok"
       },
       "externalSourceChecks": {
@@ -758,13 +758,13 @@
         }
       ],
       "coverage": {
-        "from": "2023-11-17",
-        "to": "2026-11-16",
+        "from": "2023-11-18",
+        "to": "2026-11-17",
         "source": "https://www.zfcg.sh.gov.cn",
         "truncated": true
       },
       "lastCheck": {
-        "at": "2026-11-16T07:14:58+08:00",
+        "at": "2026-11-17T06:37:14+08:00",
         "status": "ok"
       }
     },
@@ -2540,40 +2540,16 @@
             "at": "2026-11-02T08:00:01+08:00",
             "status": "ok"
           }
-        },
-        {
-          "title": "上海市公安局崇明分局警用数字集群设备采购的中标（成交）结果公告",
-          "date": "2023-11-17",
-          "buyer": "上海市公安局崇明分局",
-          "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=NtlhuGemwgUCONNIyb8zwg%3D%3D",
-          "source": "上海市政府采购网",
-          "dateLabel": "结果公告日期",
-          "projectName": "上海市公安局崇明分局警用数字集群设备采购",
-          "awards": [
-            {
-              "lotNumber": "1",
-              "lotName": "上海市公安局崇明分局警用数字集群设备采购",
-              "suppliers": [
-                "上海三吉电子工程有限公司"
-              ],
-              "quote": "标项名称：上海市公安局崇明分局警用数字集群设备采购；中标供应商名称：上海三吉电子工程有限公司"
-            }
-          ],
-          "detailCheck": {
-            "version": 1,
-            "at": "2026-10-26T10:49:29+08:00",
-            "status": "ok"
-          }
         }
       ],
       "coverage": {
-        "from": "2023-11-17",
-        "to": "2026-11-16",
+        "from": "2023-11-18",
+        "to": "2026-11-17",
         "source": "https://www.zfcg.sh.gov.cn",
         "truncated": true
       },
       "lastCheck": {
-        "at": "2026-11-16T11:16:20+08:00",
+        "at": "2026-11-17T06:37:14+08:00",
         "status": "ok"
       }
     },
@@ -2623,13 +2599,13 @@
         }
       ],
       "coverage": {
-        "from": "2023-11-17",
-        "to": "2026-11-16",
+        "from": "2023-11-18",
+        "to": "2026-11-17",
         "source": "https://www.zfcg.sh.gov.cn",
         "truncated": false
       },
       "lastCheck": {
-        "at": "2026-11-16T11:16:20+08:00",
+        "at": "2026-11-17T06:37:14+08:00",
         "status": "ok"
       },
       "externalSourceChecks": {
@@ -2639,12 +2615,12 @@
           "message": "HTTP Error 403: Forbidden"
         },
         "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202610/t20261028_27579691.htm": {
-          "at": "2026-11-16T02:06:04+08:00",
+          "at": "2026-11-17T06:37:52+08:00",
           "status": "unavailable",
           "message": "HTTP Error 403: Forbidden"
         },
         "https://www.ccgp.gov.cn/cggg/zygg/cjgg/202610/t20261023_27549400.htm": {
-          "at": "2026-11-16T02:06:04+08:00",
+          "at": "2026-11-17T06:37:52+08:00",
           "status": "unavailable",
           "message": "HTTP Error 403: Forbidden"
         }
@@ -3064,13 +3040,13 @@
         }
       ],
       "coverage": {
-        "from": "2023-11-17",
-        "to": "2026-11-16",
+        "from": "2023-11-18",
+        "to": "2026-11-17",
         "source": "https://www.zfcg.sh.gov.cn",
         "truncated": true
       },
       "lastCheck": {
-        "at": "2026-11-16T07:14:58+08:00",
+        "at": "2026-11-17T06:37:14+08:00",
         "status": "ok"
       }
     },
@@ -3672,13 +3648,13 @@
         }
       ],
       "coverage": {
-        "from": "2023-11-17",
-        "to": "2026-11-16",
+        "from": "2023-11-18",
+        "to": "2026-11-17",
         "source": "https://www.zfcg.sh.gov.cn",
         "truncated": true
       },
       "lastCheck": {
-        "at": "2026-11-16T07:14:58+08:00",
+        "at": "2026-11-17T06:37:14+08:00",
         "status": "ok"
       }
     },

@@ -8650,6 +8650,176 @@
           }
         }
       ]
+    },
+    {
+      "id": "356d3b3c1c34232ca3e03d76",
+      "customerId": "2100000260",
+      "customerName": "上海市公安局",
+      "label": "采购意向与招标",
+      "title": "采购意向与招标更新",
+      "detectedAt": "2026-11-17T06:37:55+08:00",
+      "date": "2026-11-17",
+      "items": [
+        {
+          "key": "profile-data:https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=Mo3ZLPWqjfkLlOfwkKvgpA%3D%3D",
+          "change": "新增",
+          "record": {
+            "name": "上海市公安局黄浦分局2026年12月政府采购意向",
+            "stage": "采购意向",
+            "public_title_only": true,
+            "notice_url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=Mo3ZLPWqjfkLlOfwkKvgpA%3D%3D",
+            "quote": "上海市公安局黄浦分局2026年12月政府采购意向\n采购人：上海市公安局黄浦分局\n2026年12月",
+            "buyer": {
+              "value": "上海市公安局黄浦分局",
+              "unit": "",
+              "quote": "采购人：上海市公安局黄浦分局"
+            },
+            "supplier": null,
+            "budget": null,
+            "award_amount": null,
+            "planned_purchase": "2026-12",
+            "deadline": null,
+            "service_end": null,
+            "relation": "公开列表所列采购人：上海市公安局黄浦分局",
+            "notice": "仅依据无需登录的公开标题及列表字段；未读取登录后详情。日期缺失时不确认采购有效期。",
+            "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=Mo3ZLPWqjfkLlOfwkKvgpA%3D%3D",
+            "title": "上海市公安局黄浦分局2026年12月政府采购意向",
+            "published_at": "2026-11-02",
+            "fetched_at": "2026-11-16T22:36:00.875054+00:00",
+            "source_host": "www.zfcg.sh.gov.cn"
+          }
+        },
+        {
+          "key": "profile-data:https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=U2a%2FYKckKpqYyIe6W9EnQw%3D%3D",
+          "change": "新增",
+          "record": {
+            "name": "上海市公安局静安分局静安区公共安全视频建设联网应用（雪亮工程）光缆及小区微卡口机柜租赁（2026年度）的公开招标公告",
+            "stage": "公开招标公告",
+            "public_title_only": true,
+            "notice_url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=U2a%2FYKckKpqYyIe6W9EnQw%3D%3D",
+            "quote": "上海市公安局静安分局静安区公共安全视频建设联网应用（雪亮工程）光缆及小区微卡口机柜租赁（2026年度）的公开招标公告\n采购人：上海市公安局静安分局（本部）\n提交投标文件截止时间：2026年12月02日 09:30",
+            "buyer": {
+              "value": "上海市公安局静安分局（本部）",
+              "unit": "",
+              "quote": "采购人：上海市公安局静安分局（本部）"
+            },
+            "supplier": null,
+            "budget": null,
+            "award_amount": null,
+            "planned_purchase": null,
+            "deadline": {
+              "value": "2026-12-02 09:30",
+              "unit": "",
+              "quote": "提交投标文件截止时间：2026年12月02日 09:30"
+            },
+            "service_end": null,
+            "relation": "公开列表所列采购人：上海市公安局静安分局（本部）",
+            "notice": "仅依据无需登录的公开标题及列表字段；未读取登录后详情。日期缺失时不确认采购有效期。",
+            "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=U2a%2FYKckKpqYyIe6W9EnQw%3D%3D",
+            "title": "上海市公安局静安分局静安区公共安全视频建设联网应用（雪亮工程）光缆及小区微卡口机柜租赁（2026年度）的公开招标公告",
+            "published_at": "2026-11-10",
+            "fetched_at": "2026-11-16T22:35:56.002634+00:00",
+            "source_host": "www.zfcg.sh.gov.cn"
+          }
+        },
+        {
+          "key": "profile-data:https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=%2FYb3NdF7PLDoY%2Fdn2kEx3w%3D%3D",
+          "change": "移除",
+          "record": {
+            "name": "上海市公安局杨浦分局2026年11月政府采购意向",
+            "stage": "采购意向",
+            "public_title_only": true,
+            "notice_url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=%2FYb3NdF7PLDoY%2Fdn2kEx3w%3D%3D",
+            "quote": "上海市公安局杨浦分局2026年11月政府采购意向\n采购人：上海市公安局杨浦分局\n2026年11月",
+            "buyer": {
+              "value": "上海市公安局杨浦分局",
+              "unit": "",
+              "quote": "采购人：上海市公安局杨浦分局"
+            },
+            "supplier": null,
+            "budget": null,
+            "award_amount": null,
+            "planned_purchase": "2026-11",
+            "deadline": null,
+            "service_end": null,
+            "relation": "公开列表所列采购人：上海市公安局杨浦分局",
+            "notice": "仅依据无需登录的公开标题及列表字段；未读取登录后详情。日期缺失时不确认采购有效期。",
+            "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=%2FYb3NdF7PLDoY%2Fdn2kEx3w%3D%3D",
+            "title": "上海市公安局杨浦分局2026年11月政府采购意向",
+            "published_at": "2026-11-05",
+            "fetched_at": "2026-11-16T12:07:30.519904+00:00",
+            "source_host": "www.zfcg.sh.gov.cn"
+          }
+        },
+        {
+          "key": "profile-data:https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=LZWD8jJenVpuIJNWh5iwWg%3D%3D",
+          "change": "移除",
+          "record": {
+            "name": "上海市公安局杨浦分局2026年12月政府采购意向",
+            "stage": "采购意向",
+            "public_title_only": true,
+            "notice_url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=LZWD8jJenVpuIJNWh5iwWg%3D%3D",
+            "quote": "上海市公安局杨浦分局2026年12月政府采购意向\n采购人：上海市公安局杨浦分局\n2026年12月",
+            "buyer": {
+              "value": "上海市公安局杨浦分局",
+              "unit": "",
+              "quote": "采购人：上海市公安局杨浦分局"
+            },
+            "supplier": null,
+            "budget": null,
+            "award_amount": null,
+            "planned_purchase": "2026-12",
+            "deadline": null,
+            "service_end": null,
+            "relation": "公开列表所列采购人：上海市公安局杨浦分局",
+            "notice": "仅依据无需登录的公开标题及列表字段；未读取登录后详情。日期缺失时不确认采购有效期。",
+            "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=LZWD8jJenVpuIJNWh5iwWg%3D%3D",
+            "title": "上海市公安局杨浦分局2026年12月政府采购意向",
+            "published_at": "2026-10-22",
+            "fetched_at": "2026-11-16T12:07:30.518647+00:00",
+            "source_host": "www.zfcg.sh.gov.cn"
+          }
+        }
+      ]
+    },
+    {
+      "id": "7f1df30143109b448df910f5",
+      "customerId": "2100000260",
+      "customerName": "上海市公安局",
+      "label": "历史招标结果",
+      "title": "历史招标结果更新",
+      "detectedAt": "2026-11-17T06:37:55+08:00",
+      "date": "2026-11-17",
+      "items": [
+        {
+          "key": "award-history:https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=NtlhuGemwgUCONNIyb8zwg%3D%3D",
+          "change": "移除",
+          "record": {
+            "title": "上海市公安局崇明分局警用数字集群设备采购的中标（成交）结果公告",
+            "date": "2023-11-17",
+            "buyer": "上海市公安局崇明分局",
+            "url": "https://www.zfcg.sh.gov.cn/site/detail?parentId=137027&articleId=NtlhuGemwgUCONNIyb8zwg%3D%3D",
+            "source": "上海市政府采购网",
+            "dateLabel": "结果公告日期",
+            "projectName": "上海市公安局崇明分局警用数字集群设备采购",
+            "awards": [
+              {
+                "lotNumber": "1",
+                "lotName": "上海市公安局崇明分局警用数字集群设备采购",
+                "suppliers": [
+                  "上海三吉电子工程有限公司"
+                ],
+                "quote": "标项名称：上海市公安局崇明分局警用数字集群设备采购；中标供应商名称：上海三吉电子工程有限公司"
+              }
+            ],
+            "detailCheck": {
+              "version": 1,
+              "at": "2026-10-26T10:49:29+08:00",
+              "status": "ok"
+            }
+          }
+        }
+      ]
     }
   ]
 }
