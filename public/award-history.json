@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-16T07:15:50+08:00",
+  "updatedAt": "2026-11-16T11:17:09+08:00",
   "customers": [
     {
       "id": "2100303078",
@@ -51,7 +51,7 @@
         "truncated": false
       },
       "lastCheck": {
-        "at": "2026-11-16T02:05:32+08:00",
+        "at": "2026-11-16T11:16:20+08:00",
         "status": "ok"
       },
       "externalSourceChecks": {
@@ -117,7 +117,7 @@
         "truncated": false
       },
       "lastCheck": {
-        "at": "2026-11-16T02:05:32+08:00",
+        "at": "2026-11-16T11:16:20+08:00",
         "status": "ok"
       },
       "externalSourceChecks": {
@@ -165,7 +165,7 @@
         "truncated": false
       },
       "lastCheck": {
-        "at": "2026-11-16T02:05:32+08:00",
+        "at": "2026-11-16T11:16:20+08:00",
         "status": "ok"
       },
       "externalSourceChecks": {
@@ -903,17 +903,17 @@
       },
       "externalSourceChecks": {
         "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202610/t20261028_27575254.htm": {
-          "at": "2026-11-15T11:12:42+08:00",
+          "at": "2026-11-16T11:17:09+08:00",
           "status": "unavailable",
           "message": "HTTP Error 403: Forbidden"
         },
         "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202610/t20261027_27572438.htm": {
-          "at": "2026-11-15T11:12:42+08:00",
+          "at": "2026-11-16T11:17:09+08:00",
           "status": "unavailable",
           "message": "HTTP Error 403: Forbidden"
         },
         "https://www.ccgp.gov.cn/cggg/zygg/zbgg/202609/t20260902_27248583.htm": {
-          "at": "2026-11-15T11:12:42+08:00",
+          "at": "2026-11-16T11:17:09+08:00",
           "status": "unavailable",
           "message": "HTTP Error 403: Forbidden"
         },
@@ -980,8 +980,9 @@
       },
       "externalSourceChecks": {
         "https://www.365trade.com.cn/jfwzb/768353.jhtml": {
-          "at": "2026-11-15T07:28:34+08:00",
-          "status": "ok"
+          "at": "2026-11-16T11:17:09+08:00",
+          "status": "unavailable",
+          "message": "<urlopen error timed out>"
         }
       }
     },
@@ -2572,7 +2573,7 @@
         "truncated": true
       },
       "lastCheck": {
-        "at": "2026-11-16T02:05:32+08:00",
+        "at": "2026-11-16T11:16:20+08:00",
         "status": "ok"
       }
     },
@@ -2628,7 +2629,7 @@
         "truncated": false
       },
       "lastCheck": {
-        "at": "2026-11-16T02:05:32+08:00",
+        "at": "2026-11-16T11:16:20+08:00",
         "status": "ok"
       },
       "externalSourceChecks": {
@@ -4639,13 +4640,13 @@
         }
       ],
       "coverage": {
-        "from": "2023-11-16",
-        "to": "2026-11-15",
+        "from": "2023-11-17",
+        "to": "2026-11-16",
         "source": "https://www.zfcg.sh.gov.cn",
         "truncated": true
       },
       "lastCheck": {
-        "at": "2026-11-15T19:35:40+08:00",
+        "at": "2026-11-16T11:16:20+08:00",
         "status": "ok"
       }
     },
@@ -4654,13 +4655,13 @@
       "name": "上海市委党校",
       "results": [],
       "coverage": {
-        "from": "2023-11-16",
-        "to": "2026-11-15",
+        "from": "2023-11-17",
+        "to": "2026-11-16",
         "source": "https://www.zfcg.sh.gov.cn",
         "truncated": false
       },
       "lastCheck": {
-        "at": "2026-11-15T19:35:40+08:00",
+        "at": "2026-11-16T11:16:20+08:00",
         "status": "ok"
       }
     },
@@ -5141,13 +5142,13 @@
         }
       ],
       "coverage": {
-        "from": "2023-11-16",
-        "to": "2026-11-15",
+        "from": "2023-11-17",
+        "to": "2026-11-16",
         "source": "https://www.zfcg.sh.gov.cn",
         "truncated": false
       },
       "lastCheck": {
-        "at": "2026-11-15T19:35:40+08:00",
+        "at": "2026-11-16T11:16:20+08:00",
         "status": "ok"
       }
     }
