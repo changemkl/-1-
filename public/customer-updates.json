@@ -8820,6 +8820,301 @@
           }
         }
       ]
+    },
+    {
+      "id": "7799b87f84e4faaada200ce4",
+      "customerId": "2100000260",
+      "customerName": "上海市公安局",
+      "label": "工作日志",
+      "title": "工作日志更新",
+      "detectedAt": "2026-11-17T11:47:42+08:00",
+      "date": "2026-11-17",
+      "items": [
+        {
+          "key": "dongfeng-worklogs:dongfeng:ac6c1d5b4d9ee46c494c81d7",
+          "change": "新增",
+          "record": {
+            "customerId": "2100000260",
+            "customerName": "上海市公安局",
+            "workDate": "2026-11-17",
+            "title": "已建智能交通系统养护电子警察运维采购项目 · 指挥部审核通过，任务正式关闭归档",
+            "content": "工作内容：指挥部审核意见：无需关闭，未中标商机无需单独关闭。",
+            "relatedUnit": "上海市公安局浦东分局",
+            "actorName": "",
+            "actorRole": "",
+            "participants": [],
+            "recordUpdatedDate": null,
+            "projectIds": [
+              "dfproject:3f8d9283c141bf209d0a"
+            ],
+            "projectTypes": {
+              "dfproject:3f8d9283c141bf209d0a": "商机"
+            },
+            "id": "dongfeng:ac6c1d5b4d9ee46c494c81d7",
+            "datePrecision": "explicit",
+            "sourceType": "dongfeng",
+            "sourceLabel": "东风平台 · 东风事件记录日期",
+            "sourceRecordId": "event:TL-1794883462331:2100000260",
+            "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
+            "firstSeenAt": "2026-11-17T11:47:42+08:00",
+            "updatedAt": "2026-11-17T11:47:42+08:00"
+          }
+        },
+        {
+          "key": "dongfeng-worklogs:dongfeng:49a5fcede43481dd05d7a159",
+          "change": "新增",
+          "record": {
+            "customerId": "2100000260",
+            "customerName": "上海市公安局",
+            "workDate": "2026-11-17",
+            "title": "手持式智能警务终端服务费 · 指挥部审核通过，任务正式关闭归档",
+            "content": "工作内容：指挥部审核意见：关闭商机。",
+            "relatedUnit": "上海市公安局虹口分局",
+            "actorName": "",
+            "actorRole": "",
+            "participants": [],
+            "recordUpdatedDate": null,
+            "projectIds": [
+              "dfproject:9a9ef5add98474051da1"
+            ],
+            "projectTypes": {
+              "dfproject:9a9ef5add98474051da1": "商机"
+            },
+            "id": "dongfeng:49a5fcede43481dd05d7a159",
+            "datePrecision": "explicit",
+            "sourceType": "dongfeng",
+            "sourceLabel": "东风平台 · 东风事件记录日期",
+            "sourceRecordId": "event:TL-1794885818048:2100000260",
+            "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
+            "firstSeenAt": "2026-11-17T11:47:42+08:00",
+            "updatedAt": "2026-11-17T11:47:42+08:00"
+          }
+        },
+        {
+          "key": "dongfeng-worklogs:dongfeng:31e9068a807cd6b7b24ceb18",
+          "change": "新增",
+          "record": {
+            "customerId": "2100000260",
+            "customerName": "上海市公安局",
+            "workDate": "2026-11-17",
+            "title": "虹口区街面和小区高清智能图像服务项目（一期） · 指挥部审核通过，任务正式关闭归档",
+            "content": "工作内容：指挥部审核意见：关闭商机。",
+            "relatedUnit": "上海市公安局虹口分局",
+            "actorName": "",
+            "actorRole": "",
+            "participants": [],
+            "recordUpdatedDate": null,
+            "projectIds": [
+              "dfproject:fe106ac441acc2da4a7d"
+            ],
+            "projectTypes": {
+              "dfproject:fe106ac441acc2da4a7d": "商机"
+            },
+            "id": "dongfeng:31e9068a807cd6b7b24ceb18",
+            "datePrecision": "explicit",
+            "sourceType": "dongfeng",
+            "sourceLabel": "东风平台 · 东风事件记录日期",
+            "sourceRecordId": "event:TL-1794885808714:2100000260",
+            "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
+            "firstSeenAt": "2026-11-17T11:47:42+08:00",
+            "updatedAt": "2026-11-17T11:47:42+08:00"
+          }
+        },
+        {
+          "key": "dongfeng-worklogs:dongfeng:a88c39dadde479fc375f94ac",
+          "change": "修改",
+          "record": {
+            "customerId": "2100000260",
+            "customerName": "上海市公安局",
+            "workDate": null,
+            "title": "已建智能交通系统养护电子警察运维采购项目 · 最新项目记录",
+            "content": "项目：已建智能交通系统养护电子警察运维采购项目\n最新进展：完成开标\n下一步：等待开标结果\n平台阶段：已关闭\n线索结果：已完成商机登记，后续结果待维护。\n投标进展：DF-BID-MUNG995P · 失标 · 失标－未中标\n中失标状态：LOST\n失标原因：标书满足招标文件要求，无废标项，整体情况符合招标要求，此次排名与之前投标浦东公安的项目相比，排名靠前，但还需提前深度参与项目摸牌，加强客户需求调研，加强客情关系，为项目中标增加砝码。",
+            "relatedUnit": "上海市公安局浦东分局",
+            "actorName": "",
+            "actorRole": "",
+            "recordUpdatedDate": "2026-11-17",
+            "recordCreatedDate": "2026-09-30",
+            "responsibleManager": "贠泽",
+            "projectIds": [
+              "dfproject:3f8d9283c141bf209d0a"
+            ],
+            "projectTypes": {
+              "dfproject:3f8d9283c141bf209d0a": "商机"
+            },
+            "id": "dongfeng:a88c39dadde479fc375f94ac",
+            "datePrecision": "unknown",
+            "sourceType": "dongfeng",
+            "sourceLabel": "东风平台 · 实际工作日期未明确",
+            "sourceRecordId": "progress:TASK-1790732557872:2100000260",
+            "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
+            "firstSeenAt": "2026-10-29T14:11:08+08:00",
+            "updatedAt": "2026-11-17T11:47:42+08:00"
+          }
+        },
+        {
+          "key": "dongfeng-worklogs:dongfeng:8a1b24bef3e1ed614f98d242",
+          "change": "修改",
+          "record": {
+            "customerId": "2100000260",
+            "customerName": "上海市公安局",
+            "workDate": null,
+            "title": "手持式智能警务终端服务费 · 最新项目记录",
+            "content": "项目：手持式智能警务终端服务费\n最新进展：商机已录入，等待后续协同推进。\n下一步：待客户经理维护下一步计划。\n平台阶段：已关闭\n线索结果：已完成商机登记，后续结果待维护。\n中失标状态：PENDING",
+            "relatedUnit": "上海市公安局虹口分局",
+            "actorName": "",
+            "actorRole": "",
+            "recordUpdatedDate": "2026-11-17",
+            "recordCreatedDate": "2026-09-08",
+            "responsibleManager": "王斐",
+            "projectIds": [
+              "dfproject:9a9ef5add98474051da1"
+            ],
+            "projectTypes": {
+              "dfproject:9a9ef5add98474051da1": "商机"
+            },
+            "id": "dongfeng:8a1b24bef3e1ed614f98d242",
+            "datePrecision": "unknown",
+            "sourceType": "dongfeng",
+            "sourceLabel": "东风平台 · 实际工作日期未明确",
+            "sourceRecordId": "progress:TASK-1788853996995:2100000260",
+            "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
+            "firstSeenAt": "2026-10-29T14:11:08+08:00",
+            "updatedAt": "2026-11-17T11:47:42+08:00"
+          }
+        },
+        {
+          "key": "dongfeng-worklogs:dongfeng:61c5cfb5dfc1adc22b3610b5",
+          "change": "修改",
+          "record": {
+            "customerId": "2100000260",
+            "customerName": "上海市公安局",
+            "workDate": null,
+            "title": "虹口区街面和小区高清智能图像服务项目（一期） · 最新项目记录",
+            "content": "项目：虹口区街面和小区高清智能图像服务项目（一期）\n最新进展：商机已录入，等待后续协同推进。\n下一步：待客户经理维护下一步计划。\n平台阶段：已关闭\n线索结果：已完成商机登记，后续结果待维护。\n中失标状态：PENDING",
+            "relatedUnit": "上海市公安局虹口分局",
+            "actorName": "",
+            "actorRole": "",
+            "recordUpdatedDate": "2026-11-17",
+            "recordCreatedDate": "2026-09-08",
+            "responsibleManager": "王斐",
+            "projectIds": [
+              "dfproject:fe106ac441acc2da4a7d"
+            ],
+            "projectTypes": {
+              "dfproject:fe106ac441acc2da4a7d": "商机"
+            },
+            "id": "dongfeng:61c5cfb5dfc1adc22b3610b5",
+            "datePrecision": "unknown",
+            "sourceType": "dongfeng",
+            "sourceLabel": "东风平台 · 实际工作日期未明确",
+            "sourceRecordId": "progress:TASK-1788857780153:2100000260",
+            "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG",
+            "firstSeenAt": "2026-10-29T14:11:08+08:00",
+            "updatedAt": "2026-11-17T11:47:42+08:00"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ac2912976077755301807cc4",
+      "customerId": "2100000260",
+      "customerName": "上海市公安局",
+      "label": "商机进展",
+      "title": "商机进展更新",
+      "detectedAt": "2026-11-17T11:47:42+08:00",
+      "date": "2026-11-17",
+      "items": [
+        {
+          "key": "dongfeng-worklogs:dfproject:3f8d9283c141bf209d0a",
+          "change": "修改",
+          "record": {
+            "id": "dfproject:3f8d9283c141bf209d0a",
+            "aliasIds": [],
+            "customerId": "2100000260",
+            "customerName": "上海市公安局",
+            "name": "已建智能交通系统养护电子警察运维采购项目",
+            "type": "商机",
+            "status": "已关闭",
+            "relatedUnit": "上海市公安局浦东分局",
+            "taskIds": [
+              "TASK-1790732557872"
+            ],
+            "codes": [
+              "DF-OPP-20260930-MUNFXGS0-D4FOUD"
+            ],
+            "names": [
+              "已建智能交通系统养护电子警察运维采购项目"
+            ],
+            "updatedAt": "2026-11-17T02:44:23.886Z",
+            "latestProgress": "完成开标",
+            "actorName": "",
+            "actorRole": "",
+            "recordMethod": "商机记录 · 最新进展",
+            "sourceRecordId": "progress:TASK-1790732557872:2100000260",
+            "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG"
+          }
+        },
+        {
+          "key": "dongfeng-worklogs:dfproject:fe106ac441acc2da4a7d",
+          "change": "修改",
+          "record": {
+            "id": "dfproject:fe106ac441acc2da4a7d",
+            "aliasIds": [],
+            "customerId": "2100000260",
+            "customerName": "上海市公安局",
+            "name": "虹口区街面和小区高清智能图像服务项目（一期）",
+            "type": "商机",
+            "status": "已关闭",
+            "relatedUnit": "上海市公安局虹口分局",
+            "taskIds": [
+              "TASK-1788857780153"
+            ],
+            "codes": [
+              "DF-OPP-20260908-MTSFQH14-5MFW5X"
+            ],
+            "names": [
+              "虹口区街面和小区高清智能图像服务项目（一期）"
+            ],
+            "updatedAt": "2026-11-17T03:23:31.490Z",
+            "latestProgress": "商机已录入，等待后续协同推进。",
+            "actorName": "",
+            "actorRole": "",
+            "recordMethod": "商机记录 · 最新进展",
+            "sourceRecordId": "progress:TASK-1788857780153:2100000260",
+            "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG"
+          }
+        },
+        {
+          "key": "dongfeng-worklogs:dfproject:9a9ef5add98474051da1",
+          "change": "修改",
+          "record": {
+            "id": "dfproject:9a9ef5add98474051da1",
+            "aliasIds": [],
+            "customerId": "2100000260",
+            "customerName": "上海市公安局",
+            "name": "手持式智能警务终端服务费",
+            "type": "商机",
+            "status": "已关闭",
+            "relatedUnit": "上海市公安局虹口分局",
+            "taskIds": [
+              "TASK-1788853996995"
+            ],
+            "codes": [
+              "DF-OPP-20260908-MTSDHDXF-781COB"
+            ],
+            "names": [
+              "手持式智能警务终端服务费"
+            ],
+            "updatedAt": "2026-11-17T03:23:39.734Z",
+            "latestProgress": "商机已录入，等待后续协同推进。",
+            "actorName": "",
+            "actorRole": "",
+            "recordMethod": "商机记录 · 最新进展",
+            "sourceRecordId": "progress:TASK-1788853996995:2100000260",
+            "sourceUrl": "http://36.140.149.89:18080/dongfeng?workspace=DONGFENG"
+          }
+        }
+      ]
     }
   ]
 }
